@@ -37,7 +37,7 @@
       }
 
       .container {
-        width: min(860px, calc(100% - 2rem));
+        width: min(1020px, calc(100% - 2rem));
         margin: 0 auto;
         padding: 1.4rem 0 2.8rem;
       }
@@ -121,15 +121,16 @@
       }
 
       h1 {
-        margin: 1rem 0 0.6rem;
+        margin: 0 0 0.8rem;
         line-height: 1.12;
-        font-size: clamp(1.9rem, 4vw, 2.8rem);
-        max-width: 18ch;
+        font-size: clamp(2rem, 4.2vw, 3.1rem);
+        max-width: 16ch;
       }
 
       h2 {
         margin: 0 0 0.55rem;
-        font-size: 1.15rem;
+        font-size: clamp(1.2rem, 2.3vw, 1.45rem);
+        line-height: 1.25;
       }
 
       p {
@@ -144,7 +145,7 @@
       }
 
       .cta-row {
-        margin-top: 1.15rem;
+        margin-top: 1.2rem;
         display: flex;
         flex-wrap: wrap;
         gap: 0.7rem;
@@ -154,12 +155,83 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        min-height: 2.7rem;
-        padding: 0.55rem 1rem;
+        min-height: 2.95rem;
+        padding: 0.65rem 1.1rem;
         border-radius: 10px;
         font-weight: 600;
         text-decoration: none;
         border: 1px solid transparent;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+        align-items: center;
+        gap: clamp(1.2rem, 3.5vw, 2.4rem);
+        margin-top: 1.35rem;
+        margin-bottom: 0.65rem;
+      }
+
+      .hero-content {
+        padding-right: 0.2rem;
+      }
+
+      .hero-visual {
+        display: flex;
+        justify-content: center;
+      }
+
+      .preview-shell {
+        width: min(100%, 340px);
+        border: 1px solid #2f476c;
+        border-radius: 24px;
+        padding: 0.55rem;
+        background: linear-gradient(180deg, rgba(28, 43, 67, 0.96), rgba(18, 31, 51, 0.96));
+        box-shadow: 0 20px 34px rgba(3, 8, 18, 0.36);
+      }
+
+      .preview-shell img {
+        width: 100%;
+        aspect-ratio: 9 / 19;
+        object-fit: cover;
+        display: block;
+        border-radius: 18px;
+        border: 1px solid #3b5a85;
+        background: radial-gradient(circle at 45% 10%, #284a75 0%, #13253e 52%, #0f1e34 100%);
+      }
+
+      .preview-caption {
+        font-size: 0.8rem;
+        color: #9db1d5;
+        margin-top: 0.48rem;
+        text-align: center;
+      }
+
+      .inline-showcase {
+        margin-top: 0.9rem;
+      }
+
+      .inline-showcase-grid {
+        margin-top: 0.9rem;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.8rem;
+      }
+
+      .inline-showcase img {
+        width: 100%;
+        aspect-ratio: 10 / 16;
+        object-fit: cover;
+        display: block;
+        border-radius: 14px;
+        border: 1px solid #35517d;
+        box-shadow: 0 14px 24px rgba(2, 6, 23, 0.28);
+      }
+
+      .inline-showcase figcaption {
+        margin-top: 0.45rem;
+        font-size: 0.8rem;
+        color: #9db1d5;
       }
 
       .btn-primary {
@@ -176,6 +248,10 @@
       .proof {
         margin-top: 0.6rem;
         font-size: 0.9rem;
+      }
+
+      .card h2 {
+        margin-bottom: 0.62rem;
       }
 
       .card {
@@ -215,6 +291,14 @@
         padding: 0.28rem 0.62rem;
         color: #d4e4ff;
         font-size: 0.85rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+      }
+
+      .chip-icon {
+        opacity: 0.9;
+        font-size: 0.82rem;
       }
 
       .use-grid {
@@ -255,9 +339,40 @@
         text-decoration: underline;
       }
 
+      @media (max-width: 900px) {
+        .hero {
+          grid-template-columns: 1fr;
+          gap: 1rem;
+        }
+
+        .hero-content {
+          padding-right: 0;
+        }
+
+        .hero-visual {
+          justify-content: flex-end;
+        }
+
+        .preview-shell {
+          width: min(100%, 320px);
+        }
+      }
+
       @media (max-width: 640px) {
         .use-grid {
           grid-template-columns: 1fr;
+        }
+
+        .inline-showcase-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .cta-row {
+          flex-direction: column;
+        }
+
+        .btn {
+          width: 100%;
         }
       }
     </style>
@@ -317,56 +432,68 @@
         </ul>
       </nav>
 
-      <h1 data-i18n="heroTitle">Find useful places while you travel, not just directions.</h1>
-      <p class="lead" data-i18n="heroLead">
-        Voyager Map is a practical travel map that helps you quickly find the places travelers actually need in
-        unfamiliar areas.
-      </p>
-      <div class="cta-row">
-        <a
-          class="btn btn-primary"
-          href="https://apps.apple.com/app/6758412494"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-i18n="ctaIos"
-          data-i18n-aria="iosAria"
-          aria-label="Download on the App Store"
-          >Download on App Store</a
-        >
-        <a
-          class="btn btn-secondary"
-          href="https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-i18n="ctaAndroid"
-          data-i18n-aria="androidAria"
-          aria-label="Get it on Google Play"
-          >Get it on Google Play</a
-        >
-      </div>
-      <p class="proof" data-i18n="heroProof">Available on iOS and Android.</p>
+      <section class="hero" aria-label="Hero section" data-i18n-aria="heroAria">
+        <div class="hero-content">
+          <h1 data-i18n="heroTitle">The travel map for useful places, not just directions.</h1>
+          <p class="lead" data-i18n="heroLead">
+            Voyager Map helps travelers quickly find practical places they often need on the road — like restrooms,
+            drinking water, laundromats, or Wi-Fi — especially in unfamiliar places.
+          </p>
+          <div class="cta-row">
+            <a
+              class="btn btn-primary"
+              href="https://apps.apple.com/app/6758412494"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="ctaIos"
+              data-i18n-aria="iosAria"
+              aria-label="Download on the App Store"
+              >Download on App Store</a
+            >
+            <a
+              class="btn btn-secondary"
+              href="https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="ctaAndroid"
+              data-i18n-aria="androidAria"
+              aria-label="Get it on Google Play"
+              >Get it on Google Play</a
+            >
+          </div>
+          <p class="proof" data-i18n="heroProof">Built for real travel situations, not just navigation.</p>
+        </div>
+        <div class="hero-visual">
+          <figure class="preview-shell">
+            <img src="./pictures/Budapest.jpg" alt="Voyager Map app preview" data-i18n-aria="previewAria" />
+            <figcaption class="preview-caption" data-i18n="previewCaption">Product preview</figcaption>
+          </figure>
+        </div>
+      </section>
 
       <section class="card" aria-label="Why Voyager Map exists" data-i18n-aria="whyAria">
         <h2 data-i18n="whyTitle">Why Voyager Map exists</h2>
         <p data-i18n="whyText">
-          Most map apps are excellent for directions. But when you travel, you often need practical places right now,
-          while you are already on the move.
+          Most map apps are excellent for directions. But when you're traveling, you often need something else: quick
+          access to practical places that solve real situations.
         </p>
-        <ul class="problem-list" style="margin-top: 0.8rem">
-          <li data-i18n="problem1">You arrive in a new city and need a restroom.</li>
-          <li data-i18n="problem2">You are on a road trip and need drinking water or a practical stop.</li>
+        <p class="proof" data-i18n="whyExamples">Examples travelers face all the time:</p>
+        <ul class="problem-list" style="margin-top: 0.45rem">
+          <li data-i18n="problem1">You arrive in a new city and need a restroom quickly.</li>
+          <li data-i18n="problem2">You are on a long drive and need drinking water or a useful stop.</li>
           <li data-i18n="problem3">You are traveling for days and need a laundromat or shower.</li>
-          <li data-i18n="problem4">You are exploring an unfamiliar area and want useful places, not noise.</li>
+          <li data-i18n="problem4">You are exploring somewhere unfamiliar and want useful places, not endless map clutter.</li>
         </ul>
+        <p class="proof" data-i18n="whyClose">Voyager Map focuses on those moments.</p>
       </section>
 
       <section class="card" aria-label="What makes it different" data-i18n-aria="differentAria">
         <h2 data-i18n="differentTitle">What makes it different</h2>
         <ul class="bullet-list">
-          <li data-i18n="diff1">Focused on real travel needs, not generic map clutter.</li>
-          <li data-i18n="diff2">Helps you make faster decisions while moving.</li>
-          <li data-i18n="diff3">Supports exploration with utility in unfamiliar areas.</li>
-          <li data-i18n="diff4">Built for practical travel moments, not endless map complexity.</li>
+          <li data-i18n="diff1">Focused on practical travel needs, not generic map clutter.</li>
+          <li data-i18n="diff2">Highlights useful places travelers actually look for on the road.</li>
+          <li data-i18n="diff3">Helps you scan options quickly and make faster decisions.</li>
+          <li data-i18n="diff4">Designed for real travel situations, not endless map complexity.</li>
         </ul>
       </section>
 
@@ -375,7 +502,7 @@
         <div class="use-grid" style="margin-top: 0.7rem">
           <div class="mini">
             <strong data-i18n="use1Title">Road trips</strong>
-            <p data-i18n="use1Text">Find practical stops quickly when comfort and timing matter.</p>
+            <p data-i18n="use1Text">Find water, restrooms, and practical stops without leaving your route.</p>
           </div>
           <div class="mini">
             <strong data-i18n="use2Title">Van life</strong>
@@ -383,7 +510,7 @@
           </div>
           <div class="mini">
             <strong data-i18n="use3Title">Backpacking</strong>
-            <p data-i18n="use3Text">Stay flexible and solve practical needs in unfamiliar places.</p>
+            <p data-i18n="use3Text">Solve practical travel needs quickly while exploring unfamiliar places.</p>
           </div>
           <div class="mini">
             <strong data-i18n="use4Title">City exploration</strong>
@@ -395,22 +522,45 @@
       <section class="card" aria-label="What you can find" data-i18n-aria="findAria">
         <h2 data-i18n="findTitle">What you can find</h2>
         <ul class="chip-list" style="margin-top: 0.7rem">
-          <li data-i18n="cat1">Wi-Fi</li>
-          <li data-i18n="cat2">Drinking water</li>
-          <li data-i18n="cat3">Restrooms</li>
-          <li data-i18n="cat4">Showers</li>
-          <li data-i18n="cat5">Laundromats</li>
-          <li data-i18n="cat6">Useful stops</li>
-          <li data-i18n="cat7">Nearby attractions</li>
+          <li><span class="chip-icon" aria-hidden="true">📶</span><span data-i18n="cat1">Wi-Fi</span></li>
+          <li><span class="chip-icon" aria-hidden="true">💧</span><span data-i18n="cat2">Drinking water</span></li>
+          <li><span class="chip-icon" aria-hidden="true">🚻</span><span data-i18n="cat3">Restrooms</span></li>
+          <li><span class="chip-icon" aria-hidden="true">🚿</span><span data-i18n="cat4">Showers</span></li>
+          <li><span class="chip-icon" aria-hidden="true">🧺</span><span data-i18n="cat5">Laundromats</span></li>
+          <li><span class="chip-icon" aria-hidden="true">🛑</span><span data-i18n="cat6">Useful stops</span></li>
+          <li><span class="chip-icon" aria-hidden="true">📍</span><span data-i18n="cat7">Nearby attractions</span></li>
         </ul>
-        <p class="proof" data-i18n="findProof">Practical categories travelers actually use, in one focused map experience.</p>
+        <p class="proof" data-i18n="findProof">
+          Practical travel categories people actually search for while on the move.
+        </p>
       </section>
 
       <section class="card" aria-label="Product experience" data-i18n-aria="expAria">
         <h2 data-i18n="expTitle">Simple experience, fast decisions</h2>
         <p data-i18n="expText">
-          Map-based and category-based discovery helps you scan options quickly and choose the next useful place with
-          less friction.
+          Voyager Map uses a clean map interface and focused travel categories so you can quickly scan nearby options
+          and choose the next useful place with less friction.
+        </p>
+        <div class="inline-showcase-grid">
+          <figure class="inline-showcase">
+            <img src="./pictures/POI_quick_view.jpg" alt="Quick place details view in Voyager Map" />
+            <figcaption>Quick place details in the app</figcaption>
+          </figure>
+          <figure class="inline-showcase">
+            <img src="./pictures/London_satelite_clusters.jpg" alt="London map cluster overview in Voyager Map" />
+            <figcaption>Satelite mapview</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="card" aria-label="Not another navigation app" data-i18n-aria="notMapAria">
+        <h2 data-i18n="notMapTitle">Not another navigation app</h2>
+        <p data-i18n="notMapText1">Most map apps focus on getting you somewhere.</p>
+        <p style="margin-top: 0.55rem" data-i18n="notMapText2">
+          Voyager Map focuses on helping you find what you actually need once you're there.
+        </p>
+        <p style="margin-top: 0.55rem" data-i18n="notMapText3">
+          It’s designed for the practical side of travel — the small but important places that make a trip easier.
         </p>
       </section>
 
