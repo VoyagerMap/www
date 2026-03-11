@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Voyager Maps weboldal jogi oldalakkal, alkalmazás letöltésekkel és elérhető dokumentációkkal."
+    />
+    <title>Voyager Maps – Documentation Index</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #0f172a;
+        --card: #111827;
+        --text: #e5e7eb;
+        --muted: #9ca3af;
+        --accent: #60a5fa;
+        --accent-2: #34d399;
+      }
+
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg: #f8fafc;
+          --card: #ffffff;
+          --text: #0f172a;
+          --muted: #475569;
+          --accent: #2563eb;
+          --accent-2: #059669;
+        }
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+      }
+
+      .container {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 2rem 1rem 3rem;
+      }
+
+      .lang-switch {
+        position: relative;
+        display: inline-block;
+        margin-bottom: 0.9rem;
+      }
+
+      .lang-trigger {
+        border: 1px solid #334155;
+        border-radius: 8px;
+        background: #111827;
+        color: #e5e7eb;
+        font-weight: 600;
+        font-size: 0.82rem;
+        letter-spacing: 0.02em;
+        min-height: 2rem;
+        padding: 0.35rem 0.6rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        cursor: pointer;
+      }
+
+      .lang-trigger:hover,
+      .lang-trigger:focus-visible {
+        border-color: #60a5fa;
+        background: #172033;
+      }
+
+      .lang-trigger:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+      }
+
+      .lang-globe,
+      .lang-caret {
+        opacity: 0.9;
+      }
+
+      .lang-menu {
+        list-style: none;
+        margin: 0.35rem 0 0;
+        padding: 0.35rem;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 190px;
+        border: 1px solid #334155;
+        border-radius: 10px;
+        background: #0f172a;
+        box-shadow: 0 12px 26px rgba(2, 6, 23, 0.45);
+        z-index: 10;
+      }
+
+      .lang-option {
+        width: 100%;
+        border: 0;
+        border-radius: 8px;
+        background: transparent;
+        color: #e2e8f0;
+        text-align: left;
+        font-size: 0.9rem;
+        padding: 0.45rem 0.5rem;
+        display: grid;
+        grid-template-columns: 1.2rem 1fr 1rem;
+        align-items: center;
+        gap: 0.55rem;
+        cursor: pointer;
+      }
+
+      .lang-option:hover,
+      .lang-option:focus-visible {
+        background: #1e293b;
+      }
+
+      .lang-option:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 0;
+      }
+
+      .check {
+        opacity: 0;
+      }
+
+      .lang-option[aria-selected="true"] {
+        background: #1e293b;
+      }
+
+      .lang-option[aria-selected="true"] .check {
+        opacity: 1;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 1.9rem;
+      }
+
+      p {
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
+      .card {
+        background: var(--card);
+        border-radius: 14px;
+        padding: 1rem 1.1rem;
+        margin-top: 1rem;
+        box-shadow: 0 8px 22px rgba(2, 6, 23, 0.15);
+      }
+
+      .card h2 {
+        margin-top: 0;
+        font-size: 1.1rem;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 1.2rem;
+      }
+
+      li + li {
+        margin-top: 0.45rem;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:focus-visible {
+        text-decoration: underline;
+      }
+
+      .stores {
+        display: grid;
+        gap: 0.75rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .store-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.65rem;
+        padding: 0.8rem;
+        border-radius: 12px;
+        border: 1px solid #334155;
+        background: color-mix(in srgb, var(--accent-2) 13%, transparent);
+        color: var(--text);
+      }
+
+      .store-card:hover,
+      .store-card:focus-visible {
+        border-color: var(--accent);
+        background: color-mix(in srgb, var(--accent-2) 18%, transparent);
+        text-decoration: none;
+      }
+
+      .store-title {
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.45rem;
+        font-weight: 600;
+      }
+
+      .store-icon {
+        width: 18px;
+        height: 18px;
+        display: inline-flex;
+      }
+
+      .store-qr img {
+        width: 96px;
+        height: 96px;
+        border-radius: 10px;
+        border: 1px solid #334155;
+        background: #fff;
+      }
+
+      .store-qr p {
+        margin: 0.4rem 0 0;
+        font-size: 0.82rem;
+      }
+
+      .footer {
+        margin-top: 1.8rem;
+        font-size: 0.92rem;
+        color: var(--muted);
+      }
+
+      @media (max-width: 560px) {
+        .stores {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <nav class="lang-switch" aria-label="Nyelvválasztó / Language switcher">
+        <button
+          type="button"
+          class="lang-trigger"
+          id="lang-trigger"
+          aria-haspopup="listbox"
+          aria-expanded="false"
+          aria-controls="lang-menu"
+        >
+          <span class="lang-globe" id="lang-flag" aria-hidden="true">
+            <svg viewBox="0 0 24 16" width="20" height="14" focusable="false" aria-hidden="true">
+              <rect width="24" height="16" fill="#ce2939"></rect>
+              <rect y="5.333" width="24" height="5.333" fill="#ffffff"></rect>
+              <rect y="10.666" width="24" height="5.334" fill="#477050"></rect>
+            </svg>
+          </span>
+          <span class="lang-current" id="lang-current">HU</span>
+          <span class="lang-caret" aria-hidden="true">▾</span>
+        </button>
+
+        <ul class="lang-menu" id="lang-menu" role="listbox" aria-label="Language options" hidden>
+          <li>
+            <button type="button" class="lang-option" data-lang="hu" role="option" aria-selected="true">
+              <span class="flag" aria-hidden="true">🇭🇺</span>
+              <span>Magyar (HU)</span>
+              <span class="check" aria-hidden="true">✓</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="lang-option" data-lang="en" role="option" aria-selected="false">
+              <span class="flag" aria-hidden="true">🇬🇧</span>
+              <span>English (EN)</span>
+              <span class="check" aria-hidden="true">✓</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <h1 data-i18n="title">Voyager Maps – Kezdőlap</h1>
+      <p>
+        <span data-i18n="intro"
+          >A Voyager Maps hivatalos weboldala, ahol a dokumentációk és jogi információk is elérhetők.</span
+        >
+      </p>
+
+      <section class="card" aria-label="Jogi dokumentumok" data-i18n-aria="legalAria">
+        <h2 data-i18n="legalTitle">Jogi dokumentumok</h2>
+        <ul>
+          <li>
+            <a href="./privacy_policy - Adatvédelmi tájékoztató.html" data-i18n="privacyLink"
+              >Privacy Policy – Adatvédelmi tájékoztató</a
+            >
+          </li>
+          <li>
+            <a href="./Terms of Services - Általános szerződési feltételek.html" data-i18n="termsLink"
+              >Terms of Services – Általános szerződési feltételek</a
+            >
+          </li>
+          <li>
+            <a href="./delete_data - Adattörlés.html" data-i18n="deleteLink">Delete Data – Adattörlés</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="card" aria-label="Alkalmazás letöltése" data-i18n-aria="downloadAria">
+        <h2 data-i18n="downloadTitle">Voyager app letöltés</h2>
+        <p>
+          <span data-i18n="downloadText">A Voyager Maps elérhető Android és iOS platformokon.</span>
+        </p>
+        <div class="stores">
+          <a
+            class="store-card"
+              href="https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Voyager Maps Android letöltés"
+              data-i18n-aria="androidAria"
+              ><span class="store-title"
+                ><span class="store-icon" aria-hidden="true"
+                ><svg viewBox="0 0 24 24" width="18" height="18" focusable="false" aria-hidden="true">
+                  <path
+                    fill="currentColor"
+                    d="M7.15 8.2h9.7c-.22-1.45-.98-2.76-2.1-3.72l1.02-1.77a.55.55 0 0 0-.2-.75.55.55 0 0 0-.75.2L13.77 3.9a7.58 7.58 0 0 0-3.54 0L9.18 2.16a.55.55 0 0 0-.75-.2.55.55 0 0 0-.2.75l1.03 1.77A6.83 6.83 0 0 0 7.15 8.2zM10 6.35a.62.62 0 1 1 0 1.24.62.62 0 0 1 0-1.24zm4 0a.62.62 0 1 1 0 1.24.62.62 0 0 1 0-1.24zM5.2 9.2h13.6v8.45a1.95 1.95 0 0 1-1.95 1.95h-1.1v2.2a.9.9 0 0 1-1.8 0v-2.2h-3.9v2.2a.9.9 0 0 1-1.8 0v-2.2h-1.1a1.95 1.95 0 0 1-1.95-1.95V9.2z"
+                  />
+                </svg></span>
+                <span data-i18n="androidLabel">Android (Google Play)</span></span
+              >
+              <span class="store-qr">
+              <img
+                src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.voyagermap.voyagermobil.voyagermobil"
+                alt="Android QR kód"
+                loading="lazy"
+              />
+              <p data-i18n="androidQrLabel">Android QR</p>
+              </span></a
+          >
+
+          <a
+            class="store-card"
+              href="https://apps.apple.com/app/6758412494"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Voyager Maps iOS letöltés"
+              data-i18n-aria="iosAria"
+              ><span class="store-title"
+                ><span class="store-icon" aria-hidden="true"
+                ><svg viewBox="0 0 24 24" width="18" height="18" focusable="false" aria-hidden="true">
+                  <path
+                    fill="currentColor"
+                    d="M16.45 12.72c.03 2.79 2.45 3.72 2.48 3.73-.02.07-.38 1.31-1.26 2.6-.76 1.11-1.55 2.22-2.79 2.24-1.22.02-1.62-.72-3.03-.72-1.41 0-1.85.7-3 .74-1.2.05-2.12-1.2-2.88-2.3-1.56-2.27-2.75-6.42-1.15-9.2.8-1.37 2.23-2.24 3.78-2.26 1.18-.02 2.29.8 3.03.8.74 0 2.14-.99 3.61-.84.61.03 2.33.25 3.43 1.87-.09.06-2.05 1.2-2.02 3.34zM14.87 4.7c.63-.76 1.05-1.81.94-2.86-.91.04-2.02.61-2.67 1.37-.59.68-1.1 1.75-.96 2.78 1.01.08 2.06-.51 2.69-1.29z"
+                  />
+                </svg></span>
+                <span data-i18n="iosLabel">iOS (App Store)</span></span
+              >
+              <span class="store-qr">
+              <img
+                src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https%3A%2F%2Fapps.apple.com%2Fapp%2F6758412494"
+                alt="iOS QR kód"
+                loading="lazy"
+              />
+              <p data-i18n="iosQrLabel">iOS QR</p>
+              </span></a
+          >
+        </div>
+      </section>
+
+      <p class="footer" data-i18n="footer">© Voyager Maps weboldal</p>
+    </main>
+
+    <script src="./locales/hu.js"></script>
+    <script src="./locales/en.js"></script>
+    <script>
+      const dictionary = {};
+
+      const flagSvgs = {
+        hu: '<svg viewBox="0 0 24 16" width="20" height="14" focusable="false" aria-hidden="true"><rect width="24" height="16" fill="#ce2939"></rect><rect y="5.333" width="24" height="5.333" fill="#ffffff"></rect><rect y="10.666" width="24" height="5.334" fill="#477050"></rect></svg>',
+        en: '<svg viewBox="0 0 24 16" width="20" height="14" focusable="false" aria-hidden="true"><rect width="24" height="16" fill="#012169"></rect><rect x="10" width="4" height="16" fill="#ffffff"></rect><rect y="6" width="24" height="4" fill="#ffffff"></rect><rect x="10.8" width="2.4" height="16" fill="#c8102e"></rect><rect y="6.8" width="24" height="2.4" fill="#c8102e"></rect></svg>'
+      };
+
+      function applyLanguage(lang) {
+        const selected = dictionary[lang] || dictionary.hu;
+        if (!selected) return;
+        document.documentElement.lang = selected.htmlLang;
+        document.title = selected.pageTitle;
+
+        document.querySelectorAll("[data-i18n]").forEach((node) => {
+          const key = node.getAttribute("data-i18n");
+          if (selected[key]) node.textContent = selected[key];
+        });
+
+        document.querySelectorAll("[data-i18n-aria]").forEach((node) => {
+          const key = node.getAttribute("data-i18n-aria");
+          if (selected[key]) node.setAttribute("aria-label", selected[key]);
+        });
+
+        document.querySelectorAll(".lang-option").forEach((btn) => {
+          const isActive = btn.dataset.lang === lang;
+          btn.setAttribute("aria-selected", String(isActive));
+        });
+
+        document.getElementById("lang-flag").innerHTML = flagSvgs[selected.htmlLang] || flagSvgs.hu;
+        document.getElementById("lang-current").textContent = selected.htmlLang.toUpperCase();
+      }
+
+      const langTrigger = document.getElementById("lang-trigger");
+      const langMenu = document.getElementById("lang-menu");
+
+      function toggleMenu(forceState) {
+        const open = typeof forceState === "boolean" ? forceState : langMenu.hidden;
+        langMenu.hidden = !open;
+        langTrigger.setAttribute("aria-expanded", String(open));
+      }
+
+      langTrigger.addEventListener("click", () => toggleMenu());
+
+      document.querySelectorAll(".lang-option").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          applyLanguage(btn.dataset.lang);
+          toggleMenu(false);
+        });
+      });
+
+      document.addEventListener("click", (event) => {
+        if (!event.target.closest(".lang-switch")) toggleMenu(false);
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") toggleMenu(false);
+      });
+
+      function initLanguages() {
+        dictionary.hu = window.voyagerLocales?.hu;
+        dictionary.en = window.voyagerLocales?.en;
+        applyLanguage("en");
+      }
+
+      initLanguages();
+    </script>
+  </body>
+</html>
