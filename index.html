@@ -23,7 +23,20 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-      gtag("config", "G-FS5S0LLLK2");
+      gtag("config", "G-FS5S0LLLK2", { debug_mode: true });
+
+      (function ga4UtmDebug() {
+        const params = new URLSearchParams(window.location.search);
+        const utm = {};
+        ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "gclid"].forEach((key) => {
+          const value = params.get(key);
+          if (value) utm[key] = value;
+        });
+
+        console.info("[GA4 Debug] landing_url", window.location.href);
+        console.info("[GA4 Debug] referrer", document.referrer || "(empty)");
+        console.info("[GA4 Debug] utm_params", utm);
+      })();
     </script>
 
     <style>
