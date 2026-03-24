@@ -22,8 +22,14 @@
       function gtag() {
         dataLayer.push(arguments);
       }
+
       gtag("js", new Date());
+
       gtag("config", "G-FS5S0LLLK2", {
+        page_location: window.location.href
+      });
+
+      gtag("event", "session_start", {
         page_location: window.location.href
       });
     </script>
