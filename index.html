@@ -15,6 +15,34 @@
     <meta property="og:type" content="website" />
     <meta name="ga4-measurement-id" content="G-FS5S0LLLK2" />
     <title>Voyager Map – Practical places for real travel needs</title>
+
+    <!-- Cookiebot CMP -->
+    <script
+      id="Cookiebot"
+      src="https://consent.cookiebot.com/uc.js"
+      data-cbid="1c7320d2-32ff-408d-9041-42eeec7229e6"
+      data-blockingmode="auto"
+      type="text/javascript"
+    ></script>
+
+    <!-- Google Analytics 4 (loads only after statistics consent) -->
+    <script
+      type="text/plain"
+      data-cookieconsent="statistics"
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-FS5S0LLLK2"
+    ></script>
+    <script type="text/plain" data-cookieconsent="statistics">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-FS5S0LLLK2", {
+        page_location: window.location.href
+      });
+    </script>
+
     <style>
       :root {
         color-scheme: dark;
@@ -771,7 +799,7 @@
         </ul>
       </nav>
 
-      <section class="hero" aria-label="Hero section" data-i18n-aria="heroAria">
+      <section class="hero" aria-label="Hero section" data-i18n-aria="heroAria" data-track-section="hero">
         <div class="hero-content">
           <h1 data-i18n="heroTitle">The travel map for useful places, not just directions.</h1>
           <p class="lead" data-i18n="heroLead">
@@ -784,6 +812,9 @@
               href="https://apps.apple.com/app/6758412494"
               target="_blank"
               rel="noopener noreferrer"
+              data-track="cta"
+              data-cta-type="ios_store"
+              data-cta-position="hero"
               data-i18n="ctaIos"
               data-i18n-aria="iosAria"
               aria-label="Download on the App Store"
@@ -794,6 +825,9 @@
               href="https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
               target="_blank"
               rel="noopener noreferrer"
+              data-track="cta"
+              data-cta-type="android_store"
+              data-cta-position="hero"
               data-i18n="ctaAndroid"
               data-i18n-aria="androidAria"
               aria-label="Get it on Google Play"
@@ -804,13 +838,18 @@
         </div>
         <div class="hero-visual">
           <figure class="preview-shell">
-            <img src="./pictures/Budapest.jpg" alt="Voyager Map app preview" data-i18n-aria="previewAria" />
+            <img
+              src="./pictures/Budapest.jpg"
+              alt="Voyager Map app preview"
+              data-i18n-aria="previewAria"
+              data-track-image="product_preview"
+            />
             <figcaption class="preview-caption" data-i18n="previewCaption">Product preview</figcaption>
           </figure>
         </div>
       </section>
 
-      <section class="card" aria-label="Why Voyager Map exists" data-i18n-aria="whyAria">
+      <section class="card" aria-label="Why Voyager Map exists" data-i18n-aria="whyAria" data-track-section="why">
         <h2 data-i18n="whyTitle">Why Voyager Map exists</h2>
         <p data-i18n="whyText">
           Most map apps are excellent for directions. But when you're traveling, you often need something else: quick
@@ -826,7 +865,7 @@
         <p class="proof" data-i18n="whyClose">Voyager Map focuses on those moments.</p>
       </section>
 
-      <section class="card" aria-label="What makes it different" data-i18n-aria="differentAria">
+      <section class="card" aria-label="What makes it different" data-i18n-aria="differentAria" data-track-section="different">
         <h2 data-i18n="differentTitle">What makes it different</h2>
         <ul class="bullet-list">
           <li data-i18n="diff1">Focused on practical travel needs, not generic map clutter.</li>
@@ -836,7 +875,7 @@
         </ul>
       </section>
 
-      <section class="card" aria-label="Designed for real travel moments" data-i18n-aria="useAria">
+      <section class="card" aria-label="Designed for real travel moments" data-i18n-aria="useAria" data-track-section="use_cases">
         <h2 data-i18n="useTitle">Designed for real travel moments</h2>
         <div class="use-grid" style="margin-top: 0.7rem">
           <div class="mini">
@@ -858,7 +897,7 @@
         </div>
       </section>
 
-      <section class="card" aria-label="What you can find" data-i18n-aria="findAria">
+      <section class="card" aria-label="What you can find" data-i18n-aria="findAria" data-track-section="categories">
         <h2 data-i18n="findTitle">What you can find</h2>
         <ul class="chip-list" style="margin-top: 0.7rem">
           <li><span class="chip-icon" aria-hidden="true">📶</span><span data-i18n="cat1">Wi-Fi</span></li>
@@ -874,7 +913,7 @@
         </p>
       </section>
 
-      <section class="card" aria-label="Product experience" data-i18n-aria="expAria">
+      <section class="card" aria-label="Product experience" data-i18n-aria="expAria" data-track-section="experience">
         <h2 data-i18n="expTitle">Simple experience, fast decisions</h2>
         <p data-i18n="expText">
           Voyager Map uses a clean map interface and focused travel categories so you can quickly scan nearby options
@@ -882,17 +921,25 @@
         </p>
         <div class="inline-showcase-grid">
           <figure class="inline-showcase">
-            <img src="./pictures/POI_quick_view.jpg" alt="Quick place details view in Voyager Map" />
+            <img
+              src="./pictures/POI_quick_view.jpg"
+              alt="Quick place details view in Voyager Map"
+              data-track-image="poi_quick_view"
+            />
             <figcaption>Quick place details in the app</figcaption>
           </figure>
           <figure class="inline-showcase">
-            <img src="./pictures/London_satelite_clusters.jpg" alt="London map cluster overview in Voyager Map" />
+            <img
+              src="./pictures/London_satelite_clusters.jpg"
+              alt="London map cluster overview in Voyager Map"
+              data-track-image="london_satellite_clusters"
+            />
             <figcaption>Satelite mapview</figcaption>
           </figure>
         </div>
       </section>
 
-      <section class="card" aria-label="Not another navigation app" data-i18n-aria="notMapAria">
+      <section class="card" aria-label="Not another navigation app" data-i18n-aria="notMapAria" data-track-section="not_navigation">
         <h2 data-i18n="notMapTitle">Not another navigation app</h2>
         <p data-i18n="notMapText1">Most map apps focus on getting you somewhere.</p>
         <p style="margin-top: 0.55rem" data-i18n="notMapText2">
@@ -903,7 +950,7 @@
         </p>
       </section>
 
-      <section class="card" aria-label="Final call to action" data-i18n-aria="finalAria">
+      <section class="card" aria-label="Final call to action" data-i18n-aria="finalAria" data-track-section="final_cta">
         <h2 data-i18n="finalTitle">Travel with better practical options at your fingertips.</h2>
         <p data-i18n="finalText">Install Voyager Map and find useful places faster wherever your trip takes you.</p>
         <div class="cta-row">
@@ -911,8 +958,11 @@
             class="btn btn-primary"
             href="https://apps.apple.com/app/6758412494"
             target="_blank"
-            rel="noopener noreferrer"
-            data-i18n="ctaIos"
+              rel="noopener noreferrer"
+              data-track="cta"
+              data-cta-type="ios_store"
+              data-cta-position="final"
+              data-i18n="ctaIos"
             data-i18n-aria="iosAria"
             aria-label="Download on the App Store"
             >Download on App Store</a
@@ -921,8 +971,11 @@
             class="btn btn-secondary"
             href="https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
             target="_blank"
-            rel="noopener noreferrer"
-            data-i18n="ctaAndroid"
+              rel="noopener noreferrer"
+              data-track="cta"
+              data-cta-type="android_store"
+              data-cta-position="final"
+              data-i18n="ctaAndroid"
             data-i18n-aria="androidAria"
             aria-label="Get it on Google Play"
             >Get it on Google Play</a
@@ -935,12 +988,28 @@
           <h2 data-i18n="legalTitle">Legal and documentation</h2>
           <ul class="footer-links">
             <li>
-              <a href="./privacy_policy - Adatvédelmi tájékoztató.html" data-i18n="privacyLink">Privacy Policy</a>
+              <a
+                href="./privacy_policy - Adatvédelmi tájékoztató.html"
+                data-i18n="privacyLink"
+                data-track="legal"
+                data-legal-type="privacy"
+                >Privacy Policy</a
+              >
             </li>
             <li>
-              <a href="./Terms of Services - Általános szerződési feltételek.html" data-i18n="termsLink">Terms</a>
+              <a
+                href="./Terms of Services - Általános szerződési feltételek.html"
+                data-i18n="termsLink"
+                data-track="legal"
+                data-legal-type="terms"
+                >Terms</a
+              >
             </li>
-            <li><a href="./delete_data - Adattörlés.html" data-i18n="deleteLink">Delete Data</a></li>
+            <li>
+              <a href="./delete_data - Adattörlés.html" data-i18n="deleteLink" data-track="legal" data-legal-type="delete_data"
+                >Delete Data</a
+              >
+            </li>
           </ul>
         </div>
         <p data-i18n="footer">© Voyager Map website</p>
@@ -1023,9 +1092,16 @@
       const isAnalyticsEnabled = /^G-[A-Z0-9]+$/i.test(GA_MEASUREMENT_ID);
       const CONSENT_STORAGE_KEY = "voyager_docs_consent_v1";
       const CONSENT_CHANGE_EVENT = "voyagerdocsconsentchange";
+      const TRACK_EVENT_SUFFIX = "_web";
       let gaInitialized = false;
       let gaScriptLoading = null;
       let consentModeApplied = false;
+      let currentLanguage = "en";
+      let hasTrackedEngagedRead = false;
+      const trackedScrollBuckets = new Set();
+      const viewedSections = new Set();
+      const viewedImages = new Set();
+      const pageStartTime = Date.now();
 
       const flagSvgs = {
         en: '<svg class="flag-icon" viewBox="0 0 24 16" width="20" height="14" focusable="false" aria-hidden="true"><rect width="24" height="16" fill="#012169"></rect><rect x="10" width="4" height="16" fill="#ffffff"></rect><rect y="6" width="24" height="4" fill="#ffffff"></rect><rect x="10.8" width="2.4" height="16" fill="#c8102e"></rect><rect y="6.8" width="24" height="2.4" fill="#c8102e"></rect></svg>',
@@ -1166,17 +1242,154 @@
         gaInitialized = true;
       }
 
-      function trackEvent(name, params = {}) {
+      function trackEvent(eventName, params = {}) {
         if (!window.gtag || !isAnalyticsEnabled || !gaInitialized || !hasStatisticsConsent()) return;
 
-        window.gtag("event", name, {
-          page_lang: document.documentElement.lang || "en",
+        window.gtag("event", `${eventName}${TRACK_EVENT_SUFFIX}`, {
           page_type: "documentation_landing",
+          page_language: document.documentElement.lang || currentLanguage || "en",
           ...params
         });
       }
 
-      function applyLanguage(lang) {
+      function trackCtaClick(anchor) {
+        if (!anchor) return;
+
+        const href = anchor.getAttribute("href") || "";
+        let destinationHost = "";
+
+        try {
+          destinationHost = new URL(href, window.location.href).host;
+        } catch (_) {
+          destinationHost = "";
+        }
+
+        trackEvent("cta_click", {
+          cta_type: anchor.dataset.ctaType || "unknown",
+          cta_position: anchor.dataset.ctaPosition || "unknown",
+          link_url: href,
+          link_domain: destinationHost,
+          outbound: true
+        });
+      }
+
+      function trackLegalClick(anchor) {
+        if (!anchor) return;
+
+        const href = anchor.getAttribute("href") || "";
+        trackEvent("legal_link_click", {
+          legal_type: anchor.dataset.legalType || "unknown",
+          link_url: href,
+          outbound: false
+        });
+      }
+
+      function getScrollPercent() {
+        const doc = document.documentElement;
+        const scrollable = doc.scrollHeight - window.innerHeight;
+        if (scrollable <= 0) return 100;
+        return Math.min(100, Math.round((window.scrollY / scrollable) * 100));
+      }
+
+      function trackScrollDepth() {
+        const currentPercent = getScrollPercent();
+        const buckets = [25, 50, 75, 90];
+
+        buckets.forEach((bucket) => {
+          if (currentPercent >= bucket && !trackedScrollBuckets.has(bucket)) {
+            trackedScrollBuckets.add(bucket);
+            trackEvent("scroll_depth", {
+              scroll_percent_bucket: bucket
+            });
+          }
+        });
+      }
+
+      function maybeTrackEngagedRead() {
+        if (hasTrackedEngagedRead) return;
+
+        const secondsOnPage = Math.round((Date.now() - pageStartTime) / 1000);
+        const currentPercent = getScrollPercent();
+
+        if (secondsOnPage >= 30 && currentPercent >= 50) {
+          hasTrackedEngagedRead = true;
+          trackEvent("engaged_read", {
+            seconds_on_page: secondsOnPage,
+            scroll_percent_bucket: 50,
+            engagement_tier: "high"
+          });
+        }
+      }
+
+      function setupSectionObserver() {
+        const sections = document.querySelectorAll("[data-track-section]");
+        if (!sections.length || typeof IntersectionObserver !== "function") return;
+
+        const sectionObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting || entry.intersectionRatio < 0.45) return;
+              const sectionId = entry.target.getAttribute("data-track-section");
+              if (!sectionId || viewedSections.has(sectionId)) return;
+
+              viewedSections.add(sectionId);
+              trackEvent("section_view", {
+                section_id: sectionId
+              });
+            });
+          },
+          { threshold: [0.45] }
+        );
+
+        sections.forEach((section) => sectionObserver.observe(section));
+      }
+
+      function setupImageObserver() {
+        const images = document.querySelectorAll("[data-track-image]");
+        if (!images.length || typeof IntersectionObserver !== "function") return;
+
+        const imageObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting || entry.intersectionRatio < 0.4) return;
+              const imageName = entry.target.getAttribute("data-track-image");
+              if (!imageName || viewedImages.has(imageName)) return;
+
+              viewedImages.add(imageName);
+              trackEvent("image_preview_view", {
+                image_name: imageName
+              });
+            });
+          },
+          { threshold: [0.4] }
+        );
+
+        images.forEach((image) => imageObserver.observe(image));
+      }
+
+      function setupClickTracking() {
+        document.querySelectorAll('[data-track="cta"]').forEach((anchor) => {
+          anchor.addEventListener("click", () => trackCtaClick(anchor));
+        });
+
+        document.querySelectorAll('[data-track="legal"]').forEach((anchor) => {
+          anchor.addEventListener("click", () => trackLegalClick(anchor));
+        });
+      }
+
+      function setupEngagementTracking() {
+        const onScroll = () => {
+          trackScrollDepth();
+          maybeTrackEngagedRead();
+        };
+
+        window.addEventListener("scroll", onScroll, { passive: true });
+        setTimeout(maybeTrackEngagedRead, 30000);
+        onScroll();
+      }
+
+      function applyLanguage(lang, source = "system") {
+        const previousLanguage = currentLanguage;
         const selected = dictionary[lang] || dictionary.en;
         if (!selected) return;
 
@@ -1200,9 +1413,14 @@
         document.getElementById("lang-current").textContent = lang.toUpperCase();
         document.getElementById("lang-flag").innerHTML = flagSvgs[lang] || flagSvgs.en;
 
-        trackEvent("language_change", {
-          lang: selected.htmlLang || lang
-        });
+        currentLanguage = lang;
+
+        if (source === "user" && previousLanguage !== lang) {
+          trackEvent("language_change", {
+            previous_language: previousLanguage,
+            selected_language: lang
+          });
+        }
       }
 
       const langTrigger = document.getElementById("lang-trigger");
@@ -1257,16 +1475,23 @@
       }
 
       function toggleMenu(forceState) {
+        const wasOpen = !langMenu.hidden;
         const open = typeof forceState === "boolean" ? forceState : langMenu.hidden;
         langMenu.hidden = !open;
         langTrigger.setAttribute("aria-expanded", String(open));
+
+        if (open && !wasOpen) {
+          trackEvent("language_menu_open", {
+            menu_id: "language"
+          });
+        }
       }
 
       langTrigger.addEventListener("click", () => toggleMenu());
 
       document.querySelectorAll(".lang-option").forEach((btn) => {
         btn.addEventListener("click", () => {
-          applyLanguage(btn.dataset.lang);
+          applyLanguage(btn.dataset.lang, "user");
           toggleMenu(false);
         });
       });
@@ -1308,7 +1533,7 @@
         dictionary.en = window.voyagerLocales?.en;
         dictionary.hu = window.voyagerLocales?.hu;
         applyConsentMode();
-        applyLanguage("en");
+        applyLanguage("en", "init");
         syncConsentUi();
         initAnalytics();
         trackEvent("landing_view", {
@@ -1317,6 +1542,10 @@
       }
 
       initLanguages();
+      setupClickTracking();
+      setupSectionObserver();
+      setupImageObserver();
+      setupEngagementTracking();
     </script>
   </body>
 </html>
