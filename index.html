@@ -16,30 +16,17 @@
     <meta name="ga4-measurement-id" content="G-FS5S0LLLK2" />
     <title>Voyager Map – Practical places for real travel needs</title>
 
-    <!-- Cookiebot CMP -->
-    <script
-      id="Cookiebot"
-      src="https://consent.cookiebot.com/uc.js"
-      data-cbid="1c7320d2-32ff-408d-9041-42eeec7229e6"
-      data-blockingmode="auto"
-      type="text/javascript"
-    ></script>
-
-    <!-- Google Analytics 4 (loads only after statistics consent) -->
-    <script
-      type="text/plain"
-      data-cookieconsent="statistics"
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-FS5S0LLLK2"
-    ></script>
-    <script type="text/plain" data-cookieconsent="statistics">
+    <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
-      gtag("config", "G-FS5S0LLLK2", {
-        page_location: window.location.href
+      gtag("consent", "default", {
+        analytics_storage: "denied",
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        wait_for_update: 500
       });
     </script>
 
@@ -1095,7 +1082,7 @@
       const TRACK_EVENT_SUFFIX = "_web";
       let gaInitialized = false;
       let gaScriptLoading = null;
-      let consentModeApplied = false;
+      let consentModeApplied = true;
       let currentLanguage = "en";
       let hasTrackedEngagedRead = false;
       const trackedScrollBuckets = new Set();
@@ -1234,9 +1221,15 @@
 
         window.gtag("js", new Date());
         window.gtag("config", GA_MEASUREMENT_ID, {
-          send_page_view: true,
+          send_page_view: false,
           anonymize_ip: true,
           debug_mode: /localhost|127\.0\.0\.1/.test(window.location.hostname)
+        });
+
+        window.gtag("event", "page_view", {
+          page_title: document.title,
+          page_location: window.location.href,
+          page_path: window.location.pathname + window.location.search
         });
 
         gaInitialized = true;
@@ -1458,16 +1451,19 @@
       }
 
       function setStatisticsConsent(enabled) {
+        const hadStatisticsConsent = hasStatisticsConsent();
         const consent = writeConsentState(enabled);
         updateConsentMode(consent.statistics);
         if (!enabled) gaInitialized = false;
         toggleConsentBanner(false);
         if (consent.statistics) {
           initAnalytics();
-          trackEvent("consent_update", {
-            statistics: "granted"
-          });
-        } else {
+          setTimeout(() => {
+            trackEvent("consent_update", {
+              statistics: "granted"
+            });
+          }, 0);
+        } else if (hadStatisticsConsent) {
           trackEvent("consent_update", {
             statistics: "denied"
           });
