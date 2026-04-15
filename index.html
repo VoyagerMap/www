@@ -13,6 +13,7 @@
       content="A practical travel map built around real traveler needs, not just directions."
     />
     <meta property="og:type" content="website" />
+    <meta name="ga4-measurement-id" content="G-FS5S0LLLK2" />
     <title>Voyager Map – Practical places for real travel needs</title>
     <style>
       :root {
@@ -339,6 +340,281 @@
         text-decoration: underline;
       }
 
+      .consent-backdrop {
+        position: fixed;
+        inset: 0;
+        z-index: 35;
+        background: rgba(2, 6, 23, 0.34);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+      }
+
+      .consent-backdrop[hidden] {
+        display: none;
+      }
+
+      body.consent-active {
+        overflow: hidden;
+      }
+
+      .consent-banner {
+        position: fixed;
+        left: 1rem;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 40;
+      }
+
+      .consent-banner[hidden] {
+        display: none;
+      }
+
+      .consent-panel {
+        width: min(1040px, 100%);
+        margin-inline: auto;
+        padding: 1rem 1.1rem;
+        border: 1px solid rgba(148, 163, 184, 0.24);
+        border-radius: 22px;
+        background: linear-gradient(180deg, rgba(15, 23, 42, 0.96), rgba(9, 14, 29, 0.98));
+        box-shadow: 0 18px 44px rgba(2, 6, 23, 0.4);
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
+      }
+
+      .consent-summary {
+        display: grid;
+        grid-template-columns: minmax(0, 1.5fr) auto;
+        gap: 1rem 1.4rem;
+        align-items: center;
+      }
+
+      .consent-copy {
+        min-width: 0;
+      }
+
+      .consent-eyebrow {
+        margin: 0 0 0.35rem;
+        color: #93c5fd;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      .consent-title {
+        margin: 0;
+        font-size: 1.08rem;
+      }
+
+      .consent-description,
+      .consent-note {
+        color: #cbd5e1;
+      }
+
+      .consent-description {
+        margin: 0.35rem 0 0;
+        max-width: 62ch;
+        font-size: 0.92rem;
+        line-height: 1.55;
+      }
+
+      .consent-note {
+        margin: 0;
+        font-size: 0.82rem;
+      }
+
+      .consent-preferences {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(148, 163, 184, 0.16);
+      }
+
+      .consent-types {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.8rem;
+      }
+
+      .consent-type {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 1rem;
+        border: 1px solid rgba(148, 163, 184, 0.18);
+        border-radius: 16px;
+        background: rgba(15, 23, 42, 0.7);
+      }
+
+      .consent-type-label {
+        display: block;
+        font-weight: 600;
+      }
+
+      .consent-type-description {
+        margin: 0.35rem 0 0;
+        color: var(--muted);
+        font-size: 0.88rem;
+        line-height: 1.45;
+      }
+
+      .consent-actions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 0.45rem;
+        align-items: center;
+      }
+
+      .consent-btn,
+      .consent-manage {
+        border: 0;
+        border-radius: 999px;
+        font: inherit;
+        cursor: pointer;
+        transition: transform 0.15s ease, color 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+      }
+
+      .consent-btn {
+        min-height: 2.75rem;
+        padding: 0.72rem 1rem;
+      }
+
+      .consent-btn:hover,
+      .consent-btn:focus-visible,
+      .consent-manage:hover,
+      .consent-manage:focus-visible {
+        transform: translateY(-1px);
+      }
+
+      .consent-btn-primary {
+        background: linear-gradient(135deg, #38bdf8, #7dd3fc);
+        color: #082f49;
+        font-weight: 700;
+        box-shadow: 0 10px 24px rgba(56, 189, 248, 0.28);
+      }
+
+      .consent-btn-secondary {
+        background: rgba(148, 163, 184, 0.08);
+        color: #dbeafe;
+      }
+
+      .consent-btn-link {
+        padding-inline: 0.35rem;
+        background: transparent;
+        color: #cbd5e1;
+      }
+
+      .consent-btn-link:hover,
+      .consent-btn-link:focus-visible {
+        color: #ffffff;
+        background: transparent;
+      }
+
+      .consent-type-badge {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.38rem 0.7rem;
+        border-radius: 999px;
+        background: rgba(148, 163, 184, 0.12);
+        color: #e2e8f0;
+        font-size: 0.82rem;
+        white-space: nowrap;
+      }
+
+      .consent-switch-wrap {
+        flex: 0 0 auto;
+        align-self: center;
+      }
+
+      .consent-switch-input {
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      .consent-switch {
+        display: inline-block;
+        position: relative;
+        width: 3rem;
+        height: 1.7rem;
+        border-radius: 999px;
+        background: rgba(71, 85, 105, 0.9);
+        transition: background-color 0.15s ease;
+      }
+
+      .consent-switch::after {
+        content: "";
+        position: absolute;
+        left: 0.2rem;
+        top: 0.2rem;
+        width: 1.3rem;
+        height: 1.3rem;
+        border-radius: 50%;
+        background: #fff;
+        box-shadow: 0 3px 8px rgba(15, 23, 42, 0.35);
+        transition: transform 0.15s ease;
+      }
+
+      .consent-switch-input:checked + .consent-switch {
+        background: #38bdf8;
+      }
+
+      .consent-switch-input:checked + .consent-switch::after {
+        transform: translateX(1.3rem);
+      }
+
+      .consent-switch-input:focus-visible + .consent-switch {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
+      }
+
+      .consent-preferences-actions {
+        margin-top: 0.85rem;
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        align-items: center;
+      }
+
+      .consent-save {
+        white-space: nowrap;
+      }
+
+      .consent-btn-primary:hover,
+      .consent-btn-primary:focus-visible {
+        background: linear-gradient(135deg, #67e8f9, #bae6fd);
+      }
+
+      .consent-btn-secondary:hover,
+      .consent-btn-secondary:focus-visible {
+        background: rgba(148, 163, 184, 0.14);
+        color: #ffffff;
+      }
+
+      .consent-btn:focus-visible,
+      .consent-manage:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+      }
+
+      .consent-manage {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 30;
+        padding: 0.7rem 1rem;
+        background: rgba(15, 23, 42, 0.92);
+        color: #e2e8f0;
+        box-shadow: 0 12px 28px rgba(2, 6, 23, 0.4);
+      }
+
+      .consent-banner:not([hidden]) + .consent-manage {
+        opacity: 0;
+        pointer-events: none;
+      }
+
       @media (max-width: 900px) {
         .hero {
           grid-template-columns: 1fr;
@@ -355,6 +631,10 @@
 
         .preview-shell {
           width: min(100%, 320px);
+        }
+
+        .consent-summary {
+          grid-template-columns: 1fr;
         }
       }
 
@@ -373,6 +653,65 @@
 
         .btn {
           width: 100%;
+        }
+
+        .consent-banner {
+          left: 0.75rem;
+          right: 0.75rem;
+          bottom: max(0.75rem, env(safe-area-inset-bottom));
+        }
+
+        .consent-panel {
+          padding: 0.95rem;
+          border-radius: 18px;
+        }
+
+        .consent-title {
+          font-size: 1.02rem;
+        }
+
+        .consent-description,
+        .consent-note,
+        .consent-type-description {
+          font-size: 0.86rem;
+        }
+
+        .consent-types,
+        .consent-type {
+          grid-template-columns: 1fr;
+        }
+
+        .consent-type {
+          flex-direction: column;
+        }
+
+        .consent-actions {
+          justify-content: stretch;
+        }
+
+        .consent-btn,
+        .consent-btn-primary,
+        .consent-btn-secondary,
+        .consent-save {
+          width: 100%;
+        }
+
+        .consent-btn-link {
+          width: auto;
+          justify-self: flex-start;
+          text-align: left;
+        }
+
+        .consent-preferences-actions {
+          flex-direction: column;
+          align-items: stretch;
+        }
+
+        .consent-manage {
+          right: 0.75rem;
+          bottom: max(0.75rem, env(safe-area-inset-bottom));
+          padding: 0.68rem 0.9rem;
+          font-size: 0.9rem;
         }
       }
     </style>
@@ -608,15 +947,234 @@
       </footer>
     </main>
 
+    <div class="consent-backdrop" id="consent-backdrop" aria-hidden="true" hidden></div>
+
+    <section class="consent-banner" id="consent-banner" aria-labelledby="consent-title" aria-describedby="consent-description" hidden>
+      <div class="consent-panel">
+        <div class="consent-summary">
+          <div class="consent-copy">
+            <p class="consent-eyebrow" data-i18n="consentEyebrow">Privacy settings</p>
+            <h2 class="consent-title" id="consent-title" data-i18n="consentTitle">Your privacy choices</h2>
+            <p class="consent-description" id="consent-description" data-i18n="consentDescription">
+              We only use optional analytics after your consent for statistical purposes to improve and refine Voyager Map.
+            </p>
+          </div>
+          <div class="consent-actions">
+            <button type="button" class="consent-btn consent-btn-link" id="consent-reject" data-i18n="consentReject">
+              Use necessary only
+            </button>
+            <button
+              type="button"
+              class="consent-btn consent-btn-secondary"
+              id="consent-customize"
+              data-i18n="consentCustomize"
+              aria-expanded="false"
+              aria-controls="consent-preferences"
+            >
+              Customize
+            </button>
+            <button type="button" class="consent-btn consent-btn-primary" id="consent-accept" data-i18n="consentAccept">
+              Accept analytics
+            </button>
+          </div>
+        </div>
+
+        <div class="consent-preferences" id="consent-preferences" hidden>
+          <div class="consent-types">
+            <div class="consent-type consent-type-static">
+              <div>
+                <span class="consent-type-label" data-i18n="consentNecessaryLabel">Necessary</span>
+                <p class="consent-type-description" data-i18n="consentNecessaryDescription">
+                  Required for language selection, consent state, and core page functionality.
+                </p>
+              </div>
+              <span class="consent-type-badge" data-i18n="consentNecessaryValue">Always active</span>
+            </div>
+            <label class="consent-type consent-type-toggle" for="consent-statistics-toggle">
+              <div>
+                <span class="consent-type-label" data-i18n="consentStatisticsLabel">Statistics</span>
+                <p class="consent-type-description" data-i18n="consentStatisticsValue">Google Analytics 4 for visits and interaction events</p>
+              </div>
+              <span class="consent-switch-wrap">
+                <input type="checkbox" class="consent-switch-input" id="consent-statistics-toggle" />
+                <span class="consent-switch" aria-hidden="true"></span>
+              </span>
+            </label>
+          </div>
+          <div class="consent-preferences-actions">
+            <p class="consent-note" data-i18n="consentNote">You can change this decision any time with the privacy button.</p>
+            <button type="button" class="consent-btn consent-btn-secondary consent-save" id="consent-save" data-i18n="consentSave">
+              Save preferences
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <button type="button" class="consent-manage" id="consent-manage" data-i18n="consentManage" aria-haspopup="dialog">
+      Privacy settings
+    </button>
+
     <script src="./locales/hu.js"></script>
     <script src="./locales/en.js"></script>
     <script>
       const dictionary = {};
+      const GA_MEASUREMENT_ID = (document.querySelector('meta[name="ga4-measurement-id"]')?.content || "").trim();
+      const isAnalyticsEnabled = /^G-[A-Z0-9]+$/i.test(GA_MEASUREMENT_ID);
+      const CONSENT_STORAGE_KEY = "voyager_docs_consent_v1";
+      const CONSENT_CHANGE_EVENT = "voyagerdocsconsentchange";
+      let gaInitialized = false;
+      let gaScriptLoading = null;
+      let consentModeApplied = false;
 
       const flagSvgs = {
         en: '<svg class="flag-icon" viewBox="0 0 24 16" width="20" height="14" focusable="false" aria-hidden="true"><rect width="24" height="16" fill="#012169"></rect><rect x="10" width="4" height="16" fill="#ffffff"></rect><rect y="6" width="24" height="4" fill="#ffffff"></rect><rect x="10.8" width="2.4" height="16" fill="#c8102e"></rect><rect y="6.8" width="24" height="2.4" fill="#c8102e"></rect></svg>',
         hu: '<svg class="flag-icon" viewBox="0 0 24 16" width="20" height="14" focusable="false" aria-hidden="true"><rect width="24" height="16" fill="#ce2939"></rect><rect y="5.333" width="24" height="5.333" fill="#ffffff"></rect><rect y="10.666" width="24" height="5.334" fill="#477050"></rect></svg>'
       };
+
+      function ensureDataLayer() {
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = window.gtag || function gtag() {
+          dataLayer.push(arguments);
+        };
+      }
+
+      function loadGtagScript(measurementId) {
+        if (!isAnalyticsEnabled || !measurementId) return Promise.resolve(false);
+        if (document.querySelector('script[data-ga-loader="true"]')) return Promise.resolve(true);
+        if (gaScriptLoading) return gaScriptLoading;
+
+        gaScriptLoading = new Promise((resolve, reject) => {
+          const script = document.createElement("script");
+          script.async = true;
+          script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
+          script.dataset.gaLoader = "true";
+          script.onload = () => resolve(true);
+          script.onerror = () => {
+            gaScriptLoading = null;
+            reject(new Error("Failed to load Google Analytics"));
+          };
+          document.head.appendChild(script);
+        });
+
+        return gaScriptLoading;
+      }
+
+      function applyConsentMode() {
+        if (!isAnalyticsEnabled) return;
+        ensureDataLayer();
+
+        window.gtag("consent", "default", {
+          analytics_storage: "denied",
+          ad_storage: "denied",
+          ad_user_data: "denied",
+          ad_personalization: "denied",
+          wait_for_update: 500
+        });
+
+        consentModeApplied = true;
+
+        if (hasStatisticsConsent()) {
+          window.gtag("consent", "update", {
+            analytics_storage: "granted"
+          });
+        }
+      }
+
+      function updateConsentMode(statisticsEnabled) {
+        if (!isAnalyticsEnabled) return;
+        ensureDataLayer();
+        if (!consentModeApplied) applyConsentMode();
+
+        window.gtag("consent", "update", {
+          analytics_storage: statisticsEnabled ? "granted" : "denied"
+        });
+      }
+
+      function readConsentState() {
+        try {
+          const raw = localStorage.getItem(CONSENT_STORAGE_KEY);
+          if (!raw) return null;
+          const parsed = JSON.parse(raw);
+          return {
+            statistics: parsed.statistics === true,
+            updated_at: typeof parsed.updated_at === "string" ? parsed.updated_at : ""
+          };
+        } catch {
+          return null;
+        }
+      }
+
+      function dispatchConsentChange(consent) {
+        window.dispatchEvent(
+          new CustomEvent(CONSENT_CHANGE_EVENT, {
+            detail: consent
+          })
+        );
+      }
+
+      function writeConsentState(statistics) {
+        const consent = {
+          statistics: statistics === true,
+          updated_at: new Date().toISOString()
+        };
+
+        try {
+          localStorage.setItem(CONSENT_STORAGE_KEY, JSON.stringify(consent));
+        } catch {
+          dispatchConsentChange(consent);
+          return consent;
+        }
+
+        dispatchConsentChange(consent);
+        return consent;
+      }
+
+      function hasStoredConsentDecision() {
+        try {
+          return localStorage.getItem(CONSENT_STORAGE_KEY) !== null;
+        } catch {
+          return !!readConsentState();
+        }
+      }
+
+      function hasStatisticsConsent() {
+        const consent = readConsentState();
+        return !!(consent && consent.statistics);
+      }
+
+      async function initAnalytics() {
+        if (!isAnalyticsEnabled || gaInitialized || !hasStatisticsConsent()) return;
+
+        ensureDataLayer();
+
+        try {
+          await loadGtagScript(GA_MEASUREMENT_ID);
+        } catch {
+          return;
+        }
+
+        applyConsentMode();
+
+        window.gtag("js", new Date());
+        window.gtag("config", GA_MEASUREMENT_ID, {
+          send_page_view: true,
+          anonymize_ip: true,
+          debug_mode: /localhost|127\.0\.0\.1/.test(window.location.hostname)
+        });
+
+        gaInitialized = true;
+      }
+
+      function trackEvent(name, params = {}) {
+        if (!window.gtag || !isAnalyticsEnabled || !gaInitialized || !hasStatisticsConsent()) return;
+
+        window.gtag("event", name, {
+          page_lang: document.documentElement.lang || "en",
+          page_type: "documentation_landing",
+          ...params
+        });
+      }
 
       function applyLanguage(lang) {
         const selected = dictionary[lang] || dictionary.en;
@@ -641,10 +1199,62 @@
 
         document.getElementById("lang-current").textContent = lang.toUpperCase();
         document.getElementById("lang-flag").innerHTML = flagSvgs[lang] || flagSvgs.en;
+
+        trackEvent("language_change", {
+          lang: selected.htmlLang || lang
+        });
       }
 
       const langTrigger = document.getElementById("lang-trigger");
       const langMenu = document.getElementById("lang-menu");
+      const consentBanner = document.getElementById("consent-banner");
+      const consentManage = document.getElementById("consent-manage");
+      const consentBackdrop = document.getElementById("consent-backdrop");
+      const consentAccept = document.getElementById("consent-accept");
+      const consentReject = document.getElementById("consent-reject");
+      const consentCustomize = document.getElementById("consent-customize");
+      const consentPreferences = document.getElementById("consent-preferences");
+      const consentSave = document.getElementById("consent-save");
+      const consentStatisticsToggle = document.getElementById("consent-statistics-toggle");
+
+      function toggleConsentPreferences(forceState) {
+        const isOpen = typeof forceState === "boolean" ? forceState : consentPreferences.hidden;
+        consentPreferences.hidden = !isOpen;
+        consentCustomize.setAttribute("aria-expanded", String(isOpen));
+      }
+
+      function toggleConsentBanner(forceState) {
+        const isOpen = typeof forceState === "boolean" ? forceState : consentBanner.hidden;
+        consentBanner.hidden = !isOpen;
+        consentBackdrop.hidden = !isOpen;
+        document.body.classList.toggle("consent-active", isOpen);
+        consentManage.setAttribute("aria-expanded", String(isOpen));
+        if (!isOpen) toggleConsentPreferences(false);
+      }
+
+      function syncConsentUi() {
+        const hasDecision = hasStoredConsentDecision();
+        consentStatisticsToggle.checked = hasStatisticsConsent();
+        toggleConsentBanner(!hasDecision);
+        if (hasDecision) toggleConsentPreferences(false);
+      }
+
+      function setStatisticsConsent(enabled) {
+        const consent = writeConsentState(enabled);
+        updateConsentMode(consent.statistics);
+        if (!enabled) gaInitialized = false;
+        toggleConsentBanner(false);
+        if (consent.statistics) {
+          initAnalytics();
+          trackEvent("consent_update", {
+            statistics: "granted"
+          });
+        } else {
+          trackEvent("consent_update", {
+            statistics: "denied"
+          });
+        }
+      }
 
       function toggleMenu(forceState) {
         const open = typeof forceState === "boolean" ? forceState : langMenu.hidden;
@@ -667,12 +1277,43 @@
 
       document.addEventListener("keydown", (event) => {
         if (event.key === "Escape") toggleMenu(false);
+        if (event.key === "Escape") toggleConsentBanner(false);
+      });
+
+      consentManage.addEventListener("click", () => {
+        toggleConsentBanner();
+      });
+
+      consentCustomize.addEventListener("click", () => {
+        toggleConsentPreferences();
+      });
+
+      consentAccept.addEventListener("click", () => {
+        setStatisticsConsent(true);
+      });
+
+      consentReject.addEventListener("click", () => {
+        setStatisticsConsent(false);
+      });
+
+      consentSave.addEventListener("click", () => {
+        setStatisticsConsent(consentStatisticsToggle.checked);
+      });
+
+      window.addEventListener(CONSENT_CHANGE_EVENT, () => {
+        if (hasStatisticsConsent()) initAnalytics();
       });
 
       function initLanguages() {
         dictionary.en = window.voyagerLocales?.en;
         dictionary.hu = window.voyagerLocales?.hu;
+        applyConsentMode();
         applyLanguage("en");
+        syncConsentUi();
+        initAnalytics();
+        trackEvent("landing_view", {
+          engagement_point: "initial_load"
+        });
       }
 
       initLanguages();
