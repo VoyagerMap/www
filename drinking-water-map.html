@@ -11,6 +11,7 @@
     />
     <link rel="canonical" href="https://voyagermap.com/drinking-water-map.html" />
     <link rel="stylesheet" href="./assets/landing-pages.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -107,20 +108,71 @@
 
         <div class="card preview-card">
           <div class="preview-frame">
-            <img
-              class="preview-image"
-              src="/assets/screenshots/water-map.png"
-              alt="Preview of drinking water locations"
-              data-i18n-alt="previewAlt"
-              data-track-image="water_map_preview"
-              loading="lazy"
-            />
-            <div class="preview-fallback" aria-hidden="true" data-i18n="previewFallback">
-              Static map preview placeholder for drinking water locations
+            <div class="app-demo" data-demo-map data-demo-category="drinking_water" data-demo-title="Rome water map demo">
+              <div class="preview-caption" data-i18n="previewOverlay">Interactive demo preview inspired by the app</div>
+              <div class="app-demo-shell">
+                <div class="app-demo-topbar">
+                  <button type="button" class="app-demo-fab app-demo-fab-muted" aria-label="Demo settings">
+                    <span aria-hidden="true">☰</span>
+                  </button>
+                  <div class="app-demo-status">Rome demo</div>
+                </div>
+                <div class="app-demo-search">
+                  <span class="app-demo-search-icon" aria-hidden="true">⌕</span>
+                  <span class="app-demo-search-text">Search nearby utilities</span>
+                </div>
+                <div class="app-demo-chip-row">
+                  <button type="button" class="app-demo-chip is-active">
+                    <span class="app-demo-chip-icon" aria-hidden="true">💧</span>
+                    <span>Water</span>
+                  </button>
+                </div>
+                <div class="map-container" data-map-canvas></div>
+                <div class="app-demo-controls" aria-hidden="true">
+                  <button type="button" class="app-demo-fab">+</button>
+                  <button type="button" class="app-demo-fab">−</button>
+                  <button type="button" class="app-demo-fab app-demo-fab-primary">◎</button>
+                </div>
+                <div class="map-bottom-sheet is-collapsed" data-map-sheet>
+                  <button type="button" class="map-bottom-sheet-handle" data-map-sheet-handle aria-label="Toggle location details"></button>
+                  <div class="map-bottom-sheet-content">
+                    <div class="map-bottom-sheet-meta">
+                      <span class="map-bottom-sheet-badge water" data-map-type>Water</span>
+                      <span class="map-bottom-sheet-distance" data-map-distance>Tap a marker</span>
+                    </div>
+                    <div class="map-bottom-sheet-title" data-map-title>Demo locations around central Rome</div>
+                    <div class="map-bottom-sheet-desc" data-map-desc>
+                      Drag the preview to explore realistic sample utility points inspired by the Voyager app map view.
+                    </div>
+                    <div class="map-bottom-sheet-facts">
+                      <div class="map-fact-row">
+                        <span class="map-fact-icon" aria-hidden="true">📍</span>
+                        <div>
+                          <strong>Location</strong>
+                          <span data-map-location>Central Rome, Italy</span>
+                        </div>
+                      </div>
+                      <div class="map-fact-row">
+                        <span class="map-fact-icon" aria-hidden="true">🕒</span>
+                        <div>
+                          <strong>Opening hours</strong>
+                          <span data-map-hours>Usually available all day</span>
+                        </div>
+                      </div>
+                      <div class="map-fact-grid">
+                        <span class="map-fact-pill" data-map-accessible>Wheelchair: Yes</span>
+                        <span class="map-fact-pill" data-map-fee>Fee: Free</span>
+                        <span class="map-fact-pill" data-map-wifi>WiFi: No</span>
+                      </div>
+                      <div class="map-coordinates" data-map-coordinates>Coordinates 41.902800, 12.496400</div>
+                    </div>
+                    <a class="map-nav-cta" href="./routing.html" data-track="cta" data-cta-type="app_routing" data-cta-position="demo_sheet">Open full map in app</a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="preview-overlay" data-i18n="previewOverlay">Preview of available locations</div>
           </div>
-          <p class="preview-note" data-i18n="previewNote">You are only seeing a limited preview</p>
+          <p class="preview-note" data-i18n="previewNote">Demo map with sample locations in Rome. Open the full app for live coverage and more details.</p>
         </div>
       </section>
 
@@ -260,6 +312,7 @@
     </script>
     <script src="./locales/hu.js"></script>
     <script src="./locales/en.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="./assets/landing-pages.js"></script>
   </body>
 </html>
