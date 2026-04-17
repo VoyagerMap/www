@@ -8,11 +8,13 @@ window.voyagerLocales.en = {
     "Voyager Map helps travelers quickly find practical places they often need on the road — like restrooms, drinking water, laundromats, or Wi-Fi — especially in unfamiliar places.",
   ctaIos: "Download on App Store",
   ctaAndroid: "Get it on Google Play",
+  ctaOpenApp: "Open Voyager Map",
   heroProof: "Built for real travel situations, not just navigation.",
   previewAria: "Voyager Map app preview image",
   previewCaption: "Product preview",
   iosAria: "Download Voyager Map on the App Store",
   androidAria: "Get Voyager Map on Google Play",
+  openAppAria: "Open Voyager Map",
   whyAria: "Why Voyager Map exists",
   whyTitle: "Why Voyager Map exists",
   whyText:

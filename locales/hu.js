@@ -8,11 +8,13 @@ window.voyagerLocales.hu = {
     "A Voyager Map segít az utazóknak gyorsan megtalálni az útközben gyakran szükséges praktikus helyeket — például mosdókat, ivóvizet, mosodákat vagy Wi-Fi pontokat — különösen ismeretlen környezetben.",
   ctaIos: "Letöltés App Store-ból",
   ctaAndroid: "Letöltés Google Play-ről",
+  ctaOpenApp: "Voyager Map megnyitása",
   heroProof: "Valós utazási helyzetekre készült, nem csak navigációra.",
   previewAria: "Voyager Map alkalmazás előnézeti kép",
   previewCaption: "Termékelőnézet",
   iosAria: "Voyager Map letöltése App Store-ból",
   androidAria: "Voyager Map letöltése Google Play-ről",
+  openAppAria: "Voyager Map megnyitása",
   whyAria: "Miért jött létre a Voyager Map",
   whyTitle: "Miért jött létre a Voyager Map",
   whyText:
