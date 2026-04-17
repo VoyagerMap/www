@@ -81,5 +81,258 @@ window.voyagerLocales.en = {
   privacyLink: "Privacy Policy",
   termsLink: "Terms",
   deleteLink: "Delete Data",
-  footer: "© Voyager Map website"
+  footer: "© Voyager Map website",
+  landingPages: {
+    water: {
+      htmlLang: "en",
+      pageTitle: "Drinking Water Map - Find Free Water Anywhere",
+      meta: {
+        description:
+          "Find free drinking water locations while traveling. Discover public taps, refill stations, and practical water spots near you."
+      },
+      brandLabel: "Voyager Map",
+      langSwitcherAria: "Language switcher",
+      langOptionsAria: "Language options",
+      heroAria: "Drinking water landing hero",
+      eyebrow: "Travel utility map",
+      heroTitle: "Find free drinking water anywhere",
+      heroLead:
+        "Running out of water on the road is frustrating when refill points are hidden, inconsistent, or missing from standard map apps.",
+      primaryCta: "Open full map in app",
+      primaryCtaAria: "Open the full drinking water map in app",
+      previewAlt: "Preview of drinking water locations",
+      previewFallback: "Static map preview placeholder for drinking water locations",
+      previewOverlay: "Preview of available locations",
+      previewNote: "You are only seeing a limited preview",
+      problemAria: "Problems finding free drinking water",
+      problemTitle: "Why finding free water is still harder than it should be",
+      problem1:
+        "Free drinking water points are often hidden in parks, stations, public buildings, or refill spots that never show up clearly.",
+      problem2:
+        "Travelers often waste time buying bottled water because they cannot quickly verify nearby refill options.",
+      problem3:
+        "General map apps rarely focus on practical water access when you need it fast during a walk, road trip, or city transfer.",
+      solutionAria: "How the app helps travelers find water",
+      solutionTitle: "A more practical way to find nearby refill spots",
+      solutionText:
+        "The app helps travelers find curated locations built around practical utility, not generic search clutter. Instead of digging through unrelated results, you can focus on places that matter when you need water quickly.",
+      feature1Title: "Curated locations",
+      feature1Text: "Useful refill points, taps, and water access spots collected for real travel needs.",
+      feature2Title: "Traveler-focused",
+      feature2Text: "Built around moments when you are walking, transferring, driving, or exploring unfamiliar areas.",
+      feature3Title: "Practical places",
+      feature3Text: "Highlights places that are often missing or buried on most maps.",
+      ctaBlockAria: "Call to action",
+      ctaBlockTitle: "Find more locations nearby",
+      ctaBlockText: "Open the full map experience to see more useful places around you.",
+      seoAria: "SEO content about drinking water maps",
+      seoTitle: "Drinking water map for travelers, walkers, and road trips",
+      seoParagraph1:
+        "A good drinking water map helps you do one simple thing faster: find free drinking water without guessing. When you are traveling, exploring a new city, or spending long hours on the road, it is not always easy to locate trusted refill points. Public taps, bottle refill stations, and other free water sources can exist nearby, but they are often scattered across different apps, hidden in reviews, or not obvious on a standard map search.",
+      seoParagraph2:
+        "This page is designed for people searching for a drinking water map that focuses on practical access. Instead of relying on general place results, you can use a more traveler-focused approach to discover free drinking water locations that make sense when you are moving. Whether you want to refill a bottle before a train ride, avoid buying extra plastic bottles on a city walk, or find water on a road trip stop, the goal is simple: quicker access to useful water spots near you.",
+      consentEyebrow: "Privacy settings",
+      consentTitle: "Your privacy choices",
+      consentDescription:
+        "We only use optional analytics after your consent for statistical purposes to improve and refine Voyager Map.",
+      consentNecessaryLabel: "Necessary",
+      consentNecessaryDescription: "Required for language selection, consent state, and core page functionality.",
+      consentNecessaryValue: "Always active",
+      consentStatisticsLabel: "Statistics",
+      consentStatisticsValue: "Google Analytics 4 for visits and interaction events",
+      consentNote: "You can change this decision any time with the privacy button.",
+      consentReject: "Use necessary only",
+      consentCustomize: "Customize",
+      consentSave: "Save preferences",
+      consentAccept: "Accept analytics",
+      consentManage: "Privacy settings",
+      legalTitle: "Legal and documentation",
+      privacyLink: "Privacy Policy",
+      termsLink: "Terms",
+      deleteLink: "Delete Data",
+      footer: "© Voyager Map website"
+    },
+    toilet: {
+      htmlLang: "en",
+      pageTitle: "Public Toilet Map - Find Toilets Anywhere",
+      meta: {
+        description:
+          "Find public toilets while traveling. See restroom locations near you and discover practical toilet stops that are often missing from standard maps."
+      },
+      brandLabel: "Voyager Map",
+      langSwitcherAria: "Language switcher",
+      langOptionsAria: "Language options",
+      heroAria: "Public toilet landing hero",
+      eyebrow: "Travel utility map",
+      heroTitle: "Find public toilets anywhere",
+      heroLead:
+        "When you need a restroom quickly, standard map results are often incomplete, outdated, or buried under irrelevant places.",
+      primaryCta: "Open full map in app",
+      primaryCtaAria: "Open the full public toilet map in app",
+      previewAlt: "Preview of public toilet locations",
+      previewFallback: "Static map preview placeholder for public toilet locations",
+      previewOverlay: "Preview of available locations",
+      previewNote: "You are only seeing a limited preview",
+      problemAria: "Problems finding public toilets",
+      problemTitle: "Why toilet access is still a travel problem",
+      problem1:
+        "Public toilets are not always properly mapped, especially in stations, parks, city centers, and roadside stops.",
+      problem2:
+        "Urgent situations leave no time to compare scattered search results or guess which place actually has a restroom.",
+      problem3:
+        "Travelers, families, and drivers often need the nearest practical option, not a long list of unrelated businesses.",
+      solutionAria: "How the app helps travelers find toilets",
+      solutionTitle: "Built for practical restroom access on the move",
+      solutionText:
+        "The app focuses on utility first, helping travelers find curated locations that solve real needs quickly. It is designed around practical places that are often overlooked on large, generic maps.",
+      feature1Title: "Curated locations",
+      feature1Text: "Useful restroom points collected to reduce guesswork in unfamiliar places.",
+      feature2Title: "Traveler-focused",
+      feature2Text: "Helpful when you are between stops, arriving in a city, or trying to keep a trip moving smoothly.",
+      feature3Title: "Practical places",
+      feature3Text: "Highlights public toilets and similar utility stops that many map apps do not surface clearly.",
+      ctaBlockAria: "Call to action",
+      ctaBlockTitle: "Find more locations nearby",
+      ctaBlockText: "See the full map for more restroom locations around your current area.",
+      seoAria: "SEO content about public toilet maps",
+      seoTitle: "Public toilet map for travel, city breaks, and road stops",
+      seoParagraph1:
+        "A reliable public toilet map is one of the most practical travel tools you can have. When you are in a new city, on a long drive, or moving through train stations and tourist areas, finding a restroom should be simple. In reality, public toilet locations are often inconsistent across standard map apps, and the nearest useful option is not always easy to identify from normal search results.",
+      seoParagraph2:
+        "This page is built for people searching for a public toilet map that works better for real movement. Instead of treating restrooms like a secondary detail, the goal is to make public toilets easier to discover when timing matters. That can mean locating a public restroom before a long transfer, finding toilets near busy attractions, or identifying practical stops while driving. For travelers, families, and everyday city use, better restroom discovery reduces stress and helps trips run more smoothly.",
+      consentEyebrow: "Privacy settings",
+      consentTitle: "Your privacy choices",
+      consentDescription:
+        "We only use optional analytics after your consent for statistical purposes to improve and refine Voyager Map.",
+      consentNecessaryLabel: "Necessary",
+      consentNecessaryDescription: "Required for language selection, consent state, and core page functionality.",
+      consentNecessaryValue: "Always active",
+      consentStatisticsLabel: "Statistics",
+      consentStatisticsValue: "Google Analytics 4 for visits and interaction events",
+      consentNote: "You can change this decision any time with the privacy button.",
+      consentReject: "Use necessary only",
+      consentCustomize: "Customize",
+      consentSave: "Save preferences",
+      consentAccept: "Accept analytics",
+      consentManage: "Privacy settings",
+      legalTitle: "Legal and documentation",
+      privacyLink: "Privacy Policy",
+      termsLink: "Terms",
+      deleteLink: "Delete Data",
+      footer: "© Voyager Map website"
+    },
+    shower: {
+      htmlLang: "en",
+      pageTitle: "Free Shower Map - Find Showers While Traveling",
+      meta: {
+        description:
+          "Find free showers while traveling. Discover practical shower locations for road trips, backpacking, and van life near your route."
+      },
+      brandLabel: "Voyager Map",
+      langSwitcherAria: "Language switcher",
+      langOptionsAria: "Language options",
+      heroAria: "Free shower landing hero",
+      eyebrow: "Travel utility map",
+      heroTitle: "Find free showers while traveling",
+      heroLead:
+        "Shower access is scattered across forums, local tips, and incomplete listings, which makes it harder to stay comfortable on the move.",
+      primaryCta: "Open full map in app",
+      primaryCtaAria: "Open the full shower map in app",
+      previewAlt: "Preview of free shower locations",
+      previewFallback: "Static map preview placeholder for shower locations",
+      previewOverlay: "Preview of available locations",
+      previewNote: "You are only seeing a limited preview",
+      problemAria: "Problems finding free showers while traveling",
+      problemTitle: "Why shower locations are hard to discover on the road",
+      problem1:
+        "Free showers for travelers are scattered across camps, public facilities, beach areas, and community spots that are hard to discover quickly.",
+      problem2:
+        "Backpackers, van travelers, cyclists, and road trippers often rely on fragmented advice instead of one clear place to search.",
+      problem3:
+        "Most major map tools do not prioritize practical hygiene stops when you are planning a longer day of travel.",
+      solutionAria: "How the app helps travelers find showers",
+      solutionTitle: "Practical shower discovery built for travel days",
+      solutionText:
+        "The app helps surface curated locations for real traveler needs, making it easier to find practical places that are often missing from conventional search results. The focus stays on utility and nearby decisions.",
+      feature1Title: "Curated locations",
+      feature1Text: "Useful shower spots selected for practical travel use instead of broad, generic place listings.",
+      feature2Title: "Traveler-focused",
+      feature2Text: "Useful for van life, backpacking, long-distance driving, and other mobile travel routines.",
+      feature3Title: "Practical places",
+      feature3Text: "Surfaces places not shown clearly on most maps when you need to freshen up during a trip.",
+      ctaBlockAria: "Call to action",
+      ctaBlockTitle: "Find more locations nearby",
+      ctaBlockText: "Open the full app experience for more shower locations around your route.",
+      seoAria: "SEO content about free shower travel maps",
+      seoTitle: "Free shower travel map for road trips, backpacking, and van life",
+      seoParagraph1:
+        "Searching for a free shower travel solution usually starts when comfort becomes a real need, not a nice extra. On long road trips, multi-day city movement, backpacking routes, cycling journeys, or van life travel, access to showers can be surprisingly difficult to organize. Useful locations may exist nearby, but they are often spread across community posts, local recommendations, beach information, or facility listings that are not easy to check in one place.",
+      seoParagraph2:
+        "A better free shower map helps reduce that friction by making nearby practical options easier to discover. Instead of relying only on broad map searches, travelers can look for useful shower locations with a more focused approach. Whether you want to freshen up between transit legs, plan a stop during a long drive, or keep daily routines manageable while traveling, a travel-focused shower map makes the search more practical. That is the value of free shower travel information organized around real movement and everyday traveler needs.",
+      consentEyebrow: "Privacy settings",
+      consentTitle: "Your privacy choices",
+      consentDescription:
+        "We only use optional analytics after your consent for statistical purposes to improve and refine Voyager Map.",
+      consentNecessaryLabel: "Necessary",
+      consentNecessaryDescription: "Required for language selection, consent state, and core page functionality.",
+      consentNecessaryValue: "Always active",
+      consentStatisticsLabel: "Statistics",
+      consentStatisticsValue: "Google Analytics 4 for visits and interaction events",
+      consentNote: "You can change this decision any time with the privacy button.",
+      consentReject: "Use necessary only",
+      consentCustomize: "Customize",
+      consentSave: "Save preferences",
+      consentAccept: "Accept analytics",
+      consentManage: "Privacy settings",
+      legalTitle: "Legal and documentation",
+      privacyLink: "Privacy Policy",
+      termsLink: "Terms",
+      deleteLink: "Delete Data",
+      footer: "© Voyager Map website"
+    }
+  },
+  routingPage: {
+    htmlLang: "en",
+    pageTitle: "Open Voyager Map App",
+    meta: {
+      description: "Redirecting to the right Voyager Map app store page for your device."
+    },
+    brandLabel: "Voyager Map",
+    langSwitcherAria: "Language switcher",
+    langOptionsAria: "Language options",
+    routingAria: "App store routing",
+    eyebrow: "App routing",
+    title: "Opening the right app store",
+    bodyCopy: "We choose the best store link for your device. On desktop and Windows, you can choose manually.",
+    statusChecking: "Checking your device and preparing redirect.",
+    statusAndroid: "Android device detected. Redirecting to Google Play.",
+    statusApple: "Apple device detected. Redirecting to the App Store.",
+    statusDesktop: "Desktop or Windows device detected. Choose your app store below.",
+    statusFallback: "Device could not be identified exactly. Choose your app store below.",
+    appStoreCta: "Open in App Store",
+    playStoreCta: "Open in Google Play"
+  },
+  routingPageWrapper: {
+    routing: {
+      htmlLang: "en",
+      pageTitle: "Open Voyager Map App",
+      meta: {
+        description: "Redirecting to the right Voyager Map app store page for your device."
+      },
+      brandLabel: "Voyager Map",
+      langSwitcherAria: "Language switcher",
+      langOptionsAria: "Language options",
+      routingAria: "App store routing",
+      eyebrow: "App routing",
+      title: "Opening the right app store",
+      bodyCopy: "We choose the best store link for your device. On desktop and Windows, you can choose manually.",
+      statusChecking: "Checking your device and preparing redirect.",
+      statusAndroid: "Android device detected. Redirecting to Google Play.",
+      statusApple: "Apple device detected. Redirecting to the App Store.",
+      statusDesktop: "Desktop or Windows device detected. Choose your app store below.",
+      statusFallback: "Device could not be identified exactly. Choose your app store below.",
+      appStoreCta: "Open in App Store",
+      playStoreCta: "Open in Google Play"
+    }
+  }
 };

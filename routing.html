@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Voyager Map App</title>
+    <meta
+      name="description"
+      content="Redirecting to the right Voyager Map app store page for your device."
+    />
+    <meta name="robots" content="noindex,follow" />
+    <link rel="canonical" href="https://voyagermap.com/routing.html" />
+    <link rel="stylesheet" href="./assets/landing-pages.css" />
+    <script>
+      (function () {
+        var ua = navigator.userAgent || "";
+        var platform = navigator.platform || "";
+        var maxTouchPoints = navigator.maxTouchPoints || 0;
+        var isAndroid = /Android/i.test(ua);
+        var isIPhoneIPadIPod = /iPhone|iPad|iPod/i.test(ua);
+        var isModernIpad = platform === "MacIntel" && maxTouchPoints > 1;
+        var isAppleMobile = isIPhoneIPadIPod || isModernIpad;
+        var isWindows = /Win/i.test(platform) || /Windows/i.test(ua);
+        var isDesktopLike = isWindows || (!isAndroid && !isAppleMobile);
+        var targetUrl = isAndroid
+          ? "https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
+          : isAppleMobile
+            ? "https://apps.apple.com/app/6758412494"
+            : "";
+
+        window.voyagerRouting = {
+          isAndroid: isAndroid,
+          isAppleMobile: isAppleMobile,
+          isWindows: isWindows,
+          isDesktopLike: isDesktopLike,
+          targetUrl: targetUrl
+        };
+
+        if (targetUrl && !isDesktopLike) {
+          document.documentElement.className += (document.documentElement.className ? " " : "") + "routing-auto";
+          document.addEventListener("DOMContentLoaded", function () {
+            document.body.classList.add("routing-auto");
+          });
+          window.location.replace(targetUrl);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <main class="container">
+      <header class="site-header">
+        <a class="brand" href="./index.html" data-i18n="brandLabel">Voyager Map</a>
+        <nav class="lang-switch" aria-label="Language switcher" data-i18n-aria="langSwitcherAria">
+          <button
+            type="button"
+            class="lang-trigger"
+            id="lang-trigger"
+            aria-haspopup="listbox"
+            aria-expanded="false"
+            aria-controls="lang-menu"
+          >
+            <span class="lang-globe" id="lang-flag" aria-hidden="true">
+              <svg class="flag-icon" viewBox="0 0 24 16" width="20" height="14" focusable="false" aria-hidden="true">
+                <rect width="24" height="16" fill="#012169"></rect>
+                <rect x="10" width="4" height="16" fill="#ffffff"></rect>
+                <rect y="6" width="24" height="4" fill="#ffffff"></rect>
+                <rect x="10.8" width="2.4" height="16" fill="#c8102e"></rect>
+                <rect y="6.8" width="24" height="2.4" fill="#c8102e"></rect>
+              </svg>
+            </span>
+            <span class="lang-current" id="lang-current">EN</span>
+            <span class="lang-caret" aria-hidden="true">▾</span>
+          </button>
+          <ul class="lang-menu" id="lang-menu" role="listbox" aria-label="Language options" data-i18n-aria-label="langOptionsAria" hidden>
+            <li>
+              <button type="button" class="lang-option" data-lang="en" role="option" aria-selected="true">
+                <span aria-hidden="true">
+                  <svg class="flag-icon" viewBox="0 0 24 16" width="20" height="14" focusable="false" aria-hidden="true">
+                    <rect width="24" height="16" fill="#012169"></rect>
+                    <rect x="10" width="4" height="16" fill="#ffffff"></rect>
+                    <rect y="6" width="24" height="4" fill="#ffffff"></rect>
+                    <rect x="10.8" width="2.4" height="16" fill="#c8102e"></rect>
+                    <rect y="6.8" width="24" height="2.4" fill="#c8102e"></rect>
+                  </svg>
+                </span>
+                <span>English (EN)</span>
+                <span class="check" aria-hidden="true">✓</span>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="lang-option" data-lang="hu" role="option" aria-selected="false">
+                <span aria-hidden="true">
+                  <svg class="flag-icon" viewBox="0 0 24 16" width="20" height="14" focusable="false" aria-hidden="true">
+                    <rect width="24" height="16" fill="#ce2939"></rect>
+                    <rect y="5.333" width="24" height="5.333" fill="#ffffff"></rect>
+                    <rect y="10.666" width="24" height="5.334" fill="#477050"></rect>
+                  </svg>
+                </span>
+                <span>Magyar (HU)</span>
+                <span class="check" aria-hidden="true">✓</span>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="card routing-panel" aria-label="App store routing" data-i18n-aria="routingAria">
+        <p class="eyebrow" data-i18n="eyebrow">App routing</p>
+        <h1 data-i18n="title">Opening the right app store</h1>
+        <p data-i18n="bodyCopy">
+          We choose the best store link for your device. On desktop and Windows, you can choose manually.
+        </p>
+        <p class="status" id="routing-status" data-i18n="statusChecking">Checking your device and preparing redirect.</p>
+        <div class="store-links">
+          <a class="btn btn-primary" id="app-store-link" href="https://apps.apple.com/app/6758412494" data-i18n="appStoreCta">Open in App Store</a>
+          <a class="btn btn-secondary" id="play-store-link" href="https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil" data-i18n="playStoreCta">Open in Google Play</a>
+        </div>
+      </section>
+    </main>
+
+    <script id="page-config" type="application/json">
+      {"localeGroup":"routingPageWrapper","localeKey":"routing","pageType":"routing_page","topic":"app_store_routing"}
+    </script>
+    <script src="./locales/hu.js"></script>
+    <script src="./locales/en.js"></script>
+    <script src="./assets/landing-pages.js"></script>
+  </body>
+</html>

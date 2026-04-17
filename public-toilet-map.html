@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="ga4-measurement-id" content="G-FS5S0LLLK2" />
+    <title>Public Toilet Map - Find Toilets Anywhere</title>
+    <meta
+      name="description"
+      content="Find public toilets while traveling. See restroom locations near you and discover practical toilet stops that are often missing from standard maps."
+    />
+    <link rel="canonical" href="https://voyagermap.com/public-toilet-map.html" />
+    <link rel="stylesheet" href="./assets/landing-pages.css" />
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("consent", "default", {
+        analytics_storage: "denied",
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        wait_for_update: 500
+      });
+    </script>
+  </head>
+  <body>
+    <main class="container">
+      <header class="site-header">
+        <a class="brand" href="./index.html" data-i18n="brandLabel">Voyager Map</a>
+        <nav class="lang-switch" aria-label="Language switcher" data-i18n-aria="langSwitcherAria">
+          <button
+            type="button"
+            class="lang-trigger"
+            id="lang-trigger"
+            aria-haspopup="listbox"
+            aria-expanded="false"
+            aria-controls="lang-menu"
+          >
+            <span class="lang-globe" id="lang-flag" aria-hidden="true">
+              <svg class="flag-icon" viewBox="0 0 24 16" width="20" height="14" focusable="false" aria-hidden="true">
+                <rect width="24" height="16" fill="#012169"></rect>
+                <rect x="10" width="4" height="16" fill="#ffffff"></rect>
+                <rect y="6" width="24" height="4" fill="#ffffff"></rect>
+                <rect x="10.8" width="2.4" height="16" fill="#c8102e"></rect>
+                <rect y="6.8" width="24" height="2.4" fill="#c8102e"></rect>
+              </svg>
+            </span>
+            <span class="lang-current" id="lang-current">EN</span>
+            <span class="lang-caret" aria-hidden="true">▾</span>
+          </button>
+          <ul class="lang-menu" id="lang-menu" role="listbox" aria-label="Language options" data-i18n-aria-label="langOptionsAria" hidden>
+            <li>
+              <button type="button" class="lang-option" data-lang="en" role="option" aria-selected="true">
+                <span aria-hidden="true">
+                  <svg class="flag-icon" viewBox="0 0 24 16" width="20" height="14" focusable="false" aria-hidden="true">
+                    <rect width="24" height="16" fill="#012169"></rect>
+                    <rect x="10" width="4" height="16" fill="#ffffff"></rect>
+                    <rect y="6" width="24" height="4" fill="#ffffff"></rect>
+                    <rect x="10.8" width="2.4" height="16" fill="#c8102e"></rect>
+                    <rect y="6.8" width="24" height="2.4" fill="#c8102e"></rect>
+                  </svg>
+                </span>
+                <span>English (EN)</span>
+                <span class="check" aria-hidden="true">✓</span>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="lang-option" data-lang="hu" role="option" aria-selected="false">
+                <span aria-hidden="true">
+                  <svg class="flag-icon" viewBox="0 0 24 16" width="20" height="14" focusable="false" aria-hidden="true">
+                    <rect width="24" height="16" fill="#ce2939"></rect>
+                    <rect y="5.333" width="24" height="5.333" fill="#ffffff"></rect>
+                    <rect y="10.666" width="24" height="5.334" fill="#477050"></rect>
+                  </svg>
+                </span>
+                <span>Magyar (HU)</span>
+                <span class="check" aria-hidden="true">✓</span>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="hero" data-track-section="hero" aria-label="Public toilet landing hero" data-i18n-aria="heroAria">
+        <div>
+          <p class="eyebrow" data-i18n="eyebrow">Travel utility map</p>
+          <h1 data-i18n="heroTitle">Find public toilets anywhere</h1>
+          <p class="lead" data-i18n="heroLead">
+            When you need a restroom quickly, standard map results are often incomplete, outdated, or buried under irrelevant places.
+          </p>
+          <div class="cta-row">
+            <a
+              class="btn btn-primary"
+              href="./routing.html"
+              data-track="cta"
+              data-cta-type="app_routing"
+              data-cta-position="hero"
+              data-i18n="primaryCta"
+              data-i18n-aria="primaryCtaAria"
+              aria-label="Open the full public toilet map in app"
+              >Open full map in app</a
+            >
+          </div>
+        </div>
+
+        <div class="card preview-card">
+          <div class="preview-frame">
+            <img
+              class="preview-image"
+              src="/assets/screenshots/toilet-map.png"
+              alt="Preview of public toilet locations"
+              data-i18n-alt="previewAlt"
+              data-track-image="toilet_map_preview"
+              loading="lazy"
+            />
+            <div class="preview-fallback" aria-hidden="true" data-i18n="previewFallback">
+              Static map preview placeholder for public toilet locations
+            </div>
+            <div class="preview-overlay" data-i18n="previewOverlay">Preview of available locations</div>
+          </div>
+          <p class="preview-note" data-i18n="previewNote">You are only seeing a limited preview</p>
+        </div>
+      </section>
+
+      <section class="card" aria-label="Problems finding public toilets" data-i18n-aria="problemAria" data-track-section="problem">
+        <h2 data-i18n="problemTitle">Why toilet access is still a travel problem</h2>
+        <ul class="bullet-list">
+          <li data-i18n="problem1">Public toilets are not always properly mapped, especially in stations, parks, city centers, and roadside stops.</li>
+          <li data-i18n="problem2">Urgent situations leave no time to compare scattered search results or guess which place actually has a restroom.</li>
+          <li data-i18n="problem3">Travelers, families, and drivers often need the nearest practical option, not a long list of unrelated businesses.</li>
+        </ul>
+      </section>
+
+      <section class="card" aria-label="How the app helps travelers find toilets" data-i18n-aria="solutionAria" data-track-section="solution">
+        <h2 data-i18n="solutionTitle">Built for practical restroom access on the move</h2>
+        <p data-i18n="solutionText">
+          The app focuses on utility first, helping travelers find curated locations that solve real needs quickly. It is designed around practical places that are often overlooked on large, generic maps.
+        </p>
+        <div class="feature-grid">
+          <div class="mini">
+            <strong data-i18n="feature1Title">Curated locations</strong>
+            <p data-i18n="feature1Text">Useful restroom points collected to reduce guesswork in unfamiliar places.</p>
+          </div>
+          <div class="mini">
+            <strong data-i18n="feature2Title">Traveler-focused</strong>
+            <p data-i18n="feature2Text">Helpful when you are between stops, arriving in a city, or trying to keep a trip moving smoothly.</p>
+          </div>
+          <div class="mini">
+            <strong data-i18n="feature3Title">Practical places</strong>
+            <p data-i18n="feature3Text">Highlights public toilets and similar utility stops that many map apps do not surface clearly.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card cta-block" aria-label="Call to action" data-i18n-aria="ctaBlockAria" data-track-section="final_cta">
+        <h2 data-i18n="ctaBlockTitle">Find more locations nearby</h2>
+        <p data-i18n="ctaBlockText">See the full map for more restroom locations around your current area.</p>
+        <div class="cta-row" style="justify-content: center">
+          <a
+            class="btn btn-primary"
+            href="./routing.html"
+            data-track="cta"
+            data-cta-type="app_routing"
+            data-cta-position="final"
+            data-i18n="primaryCta"
+            data-i18n-aria="primaryCtaAria"
+            aria-label="Open the full public toilet map in app"
+            >Open full map in app</a
+          >
+        </div>
+      </section>
+
+      <section class="card seo-copy" aria-label="SEO content about public toilet maps" data-i18n-aria="seoAria" data-track-section="seo_copy">
+        <h2 data-i18n="seoTitle">Public toilet map for travel, city breaks, and road stops</h2>
+        <p data-i18n="seoParagraph1">
+          A reliable public toilet map is one of the most practical travel tools you can have. When you are in a new city, on a long drive, or moving through train stations and tourist areas, finding a restroom should be simple. In reality, public toilet locations are often inconsistent across standard map apps, and the nearest useful option is not always easy to identify from normal search results.
+        </p>
+        <p data-i18n="seoParagraph2">
+          This page is built for people searching for a public toilet map that works better for real movement. Instead of treating restrooms like a secondary detail, the goal is to make public toilets easier to discover when timing matters. That can mean locating a public restroom before a long transfer, finding toilets near busy attractions, or identifying practical stops while driving. For travelers, families, and everyday city use, better restroom discovery reduces stress and helps trips run more smoothly.
+        </p>
+      </section>
+
+      <footer class="footer">
+        <div>
+          <h2 data-i18n="legalTitle">Legal and documentation</h2>
+          <ul class="footer-links">
+            <li><a href="./privacy_policy - Adatvédelmi tájékoztató.html" data-i18n="privacyLink" data-track="legal" data-legal-type="privacy">Privacy Policy</a></li>
+            <li><a href="./Terms of Services - Általános szerződési feltételek.html" data-i18n="termsLink" data-track="legal" data-legal-type="terms">Terms</a></li>
+            <li><a href="./delete_data - Adattörlés.html" data-i18n="deleteLink" data-track="legal" data-legal-type="delete_data">Delete Data</a></li>
+          </ul>
+        </div>
+        <p data-i18n="footer">© Voyager Map website</p>
+      </footer>
+    </main>
+
+    <div class="consent-backdrop" id="consent-backdrop" aria-hidden="true" hidden></div>
+
+    <section class="consent-banner" id="consent-banner" aria-labelledby="consent-title" aria-describedby="consent-description" hidden>
+      <div class="consent-panel">
+        <div class="consent-summary">
+          <div class="consent-copy">
+            <p class="consent-eyebrow" data-i18n="consentEyebrow">Privacy settings</p>
+            <h2 class="consent-title" id="consent-title" data-i18n="consentTitle">Your privacy choices</h2>
+            <p class="consent-description" id="consent-description" data-i18n="consentDescription">
+              We only use optional analytics after your consent for statistical purposes to improve and refine Voyager Map.
+            </p>
+          </div>
+          <div class="consent-actions">
+            <button type="button" class="consent-btn consent-btn-link" id="consent-reject" data-i18n="consentReject">Use necessary only</button>
+            <button
+              type="button"
+              class="consent-btn consent-btn-secondary"
+              id="consent-customize"
+              data-i18n="consentCustomize"
+              aria-expanded="false"
+              aria-controls="consent-preferences"
+            >
+              Customize
+            </button>
+            <button type="button" class="consent-btn consent-btn-primary" id="consent-accept" data-i18n="consentAccept">Accept analytics</button>
+          </div>
+        </div>
+
+        <div class="consent-preferences" id="consent-preferences" hidden>
+          <div class="consent-types">
+            <div class="consent-type consent-type-static">
+              <div>
+                <span class="consent-type-label" data-i18n="consentNecessaryLabel">Necessary</span>
+                <p class="consent-type-description" data-i18n="consentNecessaryDescription">
+                  Required for language selection, consent state, and core page functionality.
+                </p>
+              </div>
+              <span class="consent-type-badge" data-i18n="consentNecessaryValue">Always active</span>
+            </div>
+            <label class="consent-type consent-type-toggle" for="consent-statistics-toggle">
+              <div>
+                <span class="consent-type-label" data-i18n="consentStatisticsLabel">Statistics</span>
+                <p class="consent-type-description" data-i18n="consentStatisticsValue">Google Analytics 4 for visits and interaction events</p>
+              </div>
+              <span class="consent-switch-wrap">
+                <input type="checkbox" class="consent-switch-input" id="consent-statistics-toggle" />
+                <span class="consent-switch" aria-hidden="true"></span>
+              </span>
+            </label>
+          </div>
+          <div class="consent-preferences-actions">
+            <p class="consent-note" data-i18n="consentNote">You can change this decision any time with the privacy button.</p>
+            <button type="button" class="consent-btn consent-btn-secondary consent-save" id="consent-save" data-i18n="consentSave">Save preferences</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <button type="button" class="consent-manage" id="consent-manage" data-i18n="consentManage" aria-haspopup="dialog">Privacy settings</button>
+
+    <script id="page-config" type="application/json">
+      {"localeKey":"toilet","pageType":"seo_landing","topic":"public_toilet"}
+    </script>
+    <script src="./locales/hu.js"></script>
+    <script src="./locales/en.js"></script>
+    <script src="./assets/landing-pages.js"></script>
+  </body>
+</html>

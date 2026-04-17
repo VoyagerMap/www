@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="ga4-measurement-id" content="G-FS5S0LLLK2" />
+    <title>Drinking Water Map - Find Free Water Anywhere</title>
+    <meta
+      name="description"
+      content="Find free drinking water locations while traveling. Discover public taps, refill stations, and practical water spots near you."
+    />
+    <link rel="canonical" href="https://voyagermap.com/drinking-water-map.html" />
+    <link rel="stylesheet" href="./assets/landing-pages.css" />
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("consent", "default", {
+        analytics_storage: "denied",
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        wait_for_update: 500
+      });
+    </script>
+  </head>
+  <body>
+    <main class="container">
+      <header class="site-header">
+        <a class="brand" href="./index.html" data-i18n="brandLabel">Voyager Map</a>
+        <nav class="lang-switch" aria-label="Language switcher" data-i18n-aria="langSwitcherAria">
+          <button
+            type="button"
+            class="lang-trigger"
+            id="lang-trigger"
+            aria-haspopup="listbox"
+            aria-expanded="false"
+            aria-controls="lang-menu"
+          >
+            <span class="lang-globe" id="lang-flag" aria-hidden="true">
+              <svg class="flag-icon" viewBox="0 0 24 16" width="20" height="14" focusable="false" aria-hidden="true">
+                <rect width="24" height="16" fill="#012169"></rect>
+                <rect x="10" width="4" height="16" fill="#ffffff"></rect>
+                <rect y="6" width="24" height="4" fill="#ffffff"></rect>
+                <rect x="10.8" width="2.4" height="16" fill="#c8102e"></rect>
+                <rect y="6.8" width="24" height="2.4" fill="#c8102e"></rect>
+              </svg>
+            </span>
+            <span class="lang-current" id="lang-current">EN</span>
+            <span class="lang-caret" aria-hidden="true">▾</span>
+          </button>
+          <ul class="lang-menu" id="lang-menu" role="listbox" aria-label="Language options" data-i18n-aria-label="langOptionsAria" hidden>
+            <li>
+              <button type="button" class="lang-option" data-lang="en" role="option" aria-selected="true">
+                <span aria-hidden="true">
+                  <svg class="flag-icon" viewBox="0 0 24 16" width="20" height="14" focusable="false" aria-hidden="true">
+                    <rect width="24" height="16" fill="#012169"></rect>
+                    <rect x="10" width="4" height="16" fill="#ffffff"></rect>
+                    <rect y="6" width="24" height="4" fill="#ffffff"></rect>
+                    <rect x="10.8" width="2.4" height="16" fill="#c8102e"></rect>
+                    <rect y="6.8" width="24" height="2.4" fill="#c8102e"></rect>
+                  </svg>
+                </span>
+                <span>English (EN)</span>
+                <span class="check" aria-hidden="true">✓</span>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="lang-option" data-lang="hu" role="option" aria-selected="false">
+                <span aria-hidden="true">
+                  <svg class="flag-icon" viewBox="0 0 24 16" width="20" height="14" focusable="false" aria-hidden="true">
+                    <rect width="24" height="16" fill="#ce2939"></rect>
+                    <rect y="5.333" width="24" height="5.333" fill="#ffffff"></rect>
+                    <rect y="10.666" width="24" height="5.334" fill="#477050"></rect>
+                  </svg>
+                </span>
+                <span>Magyar (HU)</span>
+                <span class="check" aria-hidden="true">✓</span>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="hero" data-track-section="hero" aria-label="Drinking water landing hero" data-i18n-aria="heroAria">
+        <div>
+          <p class="eyebrow" data-i18n="eyebrow">Travel utility map</p>
+          <h1 data-i18n="heroTitle">Find free drinking water anywhere</h1>
+          <p class="lead" data-i18n="heroLead">
+            Running out of water on the road is frustrating when refill points are hidden, inconsistent, or missing from standard map apps.
+          </p>
+          <div class="cta-row">
+            <a
+              class="btn btn-primary"
+              href="./routing.html"
+              data-track="cta"
+              data-cta-type="app_routing"
+              data-cta-position="hero"
+              data-i18n="primaryCta"
+              data-i18n-aria="primaryCtaAria"
+              aria-label="Open the full drinking water map in app"
+              >Open full map in app</a
+            >
+          </div>
+        </div>
+
+        <div class="card preview-card">
+          <div class="preview-frame">
+            <img
+              class="preview-image"
+              src="/assets/screenshots/water-map.png"
+              alt="Preview of drinking water locations"
+              data-i18n-alt="previewAlt"
+              data-track-image="water_map_preview"
+              loading="lazy"
+            />
+            <div class="preview-fallback" aria-hidden="true" data-i18n="previewFallback">
+              Static map preview placeholder for drinking water locations
+            </div>
+            <div class="preview-overlay" data-i18n="previewOverlay">Preview of available locations</div>
+          </div>
+          <p class="preview-note" data-i18n="previewNote">You are only seeing a limited preview</p>
+        </div>
+      </section>
+
+      <section class="card" aria-label="Problems finding free drinking water" data-i18n-aria="problemAria" data-track-section="problem">
+        <h2 data-i18n="problemTitle">Why finding free water is still harder than it should be</h2>
+        <ul class="bullet-list">
+          <li data-i18n="problem1">Free drinking water points are often hidden in parks, stations, public buildings, or refill spots that never show up clearly.</li>
+          <li data-i18n="problem2">Travelers often waste time buying bottled water because they cannot quickly verify nearby refill options.</li>
+          <li data-i18n="problem3">General map apps rarely focus on practical water access when you need it fast during a walk, road trip, or city transfer.</li>
+        </ul>
+      </section>
+
+      <section class="card" aria-label="How the app helps travelers find water" data-i18n-aria="solutionAria" data-track-section="solution">
+        <h2 data-i18n="solutionTitle">A more practical way to find nearby refill spots</h2>
+        <p data-i18n="solutionText">
+          The app helps travelers find curated locations built around practical utility, not generic search clutter. Instead of digging through unrelated results, you can focus on places that matter when you need water quickly.
+        </p>
+        <div class="feature-grid">
+          <div class="mini">
+            <strong data-i18n="feature1Title">Curated locations</strong>
+            <p data-i18n="feature1Text">Useful refill points, taps, and water access spots collected for real travel needs.</p>
+          </div>
+          <div class="mini">
+            <strong data-i18n="feature2Title">Traveler-focused</strong>
+            <p data-i18n="feature2Text">Built around moments when you are walking, transferring, driving, or exploring unfamiliar areas.</p>
+          </div>
+          <div class="mini">
+            <strong data-i18n="feature3Title">Practical places</strong>
+            <p data-i18n="feature3Text">Highlights places that are often missing or buried on most maps.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card cta-block" aria-label="Call to action" data-i18n-aria="ctaBlockAria" data-track-section="final_cta">
+        <h2 data-i18n="ctaBlockTitle">Find more locations nearby</h2>
+        <p data-i18n="ctaBlockText">Open the full map experience to see more useful places around you.</p>
+        <div class="cta-row" style="justify-content: center">
+          <a
+            class="btn btn-primary"
+            href="./routing.html"
+            data-track="cta"
+            data-cta-type="app_routing"
+            data-cta-position="final"
+            data-i18n="primaryCta"
+            data-i18n-aria="primaryCtaAria"
+            aria-label="Open the full drinking water map in app"
+            >Open full map in app</a
+          >
+        </div>
+      </section>
+
+      <section class="card seo-copy" aria-label="SEO content about drinking water maps" data-i18n-aria="seoAria" data-track-section="seo_copy">
+        <h2 data-i18n="seoTitle">Drinking water map for travelers, walkers, and road trips</h2>
+        <p data-i18n="seoParagraph1">
+          A good drinking water map helps you do one simple thing faster: find free drinking water without guessing. When you are traveling, exploring a new city, or spending long hours on the road, it is not always easy to locate trusted refill points. Public taps, bottle refill stations, and other free water sources can exist nearby, but they are often scattered across different apps, hidden in reviews, or not obvious on a standard map search.
+        </p>
+        <p data-i18n="seoParagraph2">
+          This page is designed for people searching for a drinking water map that focuses on practical access. Instead of relying on general place results, you can use a more traveler-focused approach to discover free drinking water locations that make sense when you are moving. Whether you want to refill a bottle before a train ride, avoid buying extra plastic bottles on a city walk, or find water on a road trip stop, the goal is simple: quicker access to useful water spots near you.
+        </p>
+      </section>
+
+      <footer class="footer">
+        <div>
+          <h2 data-i18n="legalTitle">Legal and documentation</h2>
+          <ul class="footer-links">
+            <li><a href="./privacy_policy - Adatvédelmi tájékoztató.html" data-i18n="privacyLink" data-track="legal" data-legal-type="privacy">Privacy Policy</a></li>
+            <li><a href="./Terms of Services - Általános szerződési feltételek.html" data-i18n="termsLink" data-track="legal" data-legal-type="terms">Terms</a></li>
+            <li><a href="./delete_data - Adattörlés.html" data-i18n="deleteLink" data-track="legal" data-legal-type="delete_data">Delete Data</a></li>
+          </ul>
+        </div>
+        <p data-i18n="footer">© Voyager Map website</p>
+      </footer>
+    </main>
+
+    <div class="consent-backdrop" id="consent-backdrop" aria-hidden="true" hidden></div>
+
+    <section class="consent-banner" id="consent-banner" aria-labelledby="consent-title" aria-describedby="consent-description" hidden>
+      <div class="consent-panel">
+        <div class="consent-summary">
+          <div class="consent-copy">
+            <p class="consent-eyebrow" data-i18n="consentEyebrow">Privacy settings</p>
+            <h2 class="consent-title" id="consent-title" data-i18n="consentTitle">Your privacy choices</h2>
+            <p class="consent-description" id="consent-description" data-i18n="consentDescription">
+              We only use optional analytics after your consent for statistical purposes to improve and refine Voyager Map.
+            </p>
+          </div>
+          <div class="consent-actions">
+            <button type="button" class="consent-btn consent-btn-link" id="consent-reject" data-i18n="consentReject">Use necessary only</button>
+            <button
+              type="button"
+              class="consent-btn consent-btn-secondary"
+              id="consent-customize"
+              data-i18n="consentCustomize"
+              aria-expanded="false"
+              aria-controls="consent-preferences"
+            >
+              Customize
+            </button>
+            <button type="button" class="consent-btn consent-btn-primary" id="consent-accept" data-i18n="consentAccept">Accept analytics</button>
+          </div>
+        </div>
+
+        <div class="consent-preferences" id="consent-preferences" hidden>
+          <div class="consent-types">
+            <div class="consent-type consent-type-static">
+              <div>
+                <span class="consent-type-label" data-i18n="consentNecessaryLabel">Necessary</span>
+                <p class="consent-type-description" data-i18n="consentNecessaryDescription">
+                  Required for language selection, consent state, and core page functionality.
+                </p>
+              </div>
+              <span class="consent-type-badge" data-i18n="consentNecessaryValue">Always active</span>
+            </div>
+            <label class="consent-type consent-type-toggle" for="consent-statistics-toggle">
+              <div>
+                <span class="consent-type-label" data-i18n="consentStatisticsLabel">Statistics</span>
+                <p class="consent-type-description" data-i18n="consentStatisticsValue">Google Analytics 4 for visits and interaction events</p>
+              </div>
+              <span class="consent-switch-wrap">
+                <input type="checkbox" class="consent-switch-input" id="consent-statistics-toggle" />
+                <span class="consent-switch" aria-hidden="true"></span>
+              </span>
+            </label>
+          </div>
+          <div class="consent-preferences-actions">
+            <p class="consent-note" data-i18n="consentNote">You can change this decision any time with the privacy button.</p>
+            <button type="button" class="consent-btn consent-btn-secondary consent-save" id="consent-save" data-i18n="consentSave">Save preferences</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <button type="button" class="consent-manage" id="consent-manage" data-i18n="consentManage" aria-haspopup="dialog">Privacy settings</button>
+
+    <script id="page-config" type="application/json">
+      {"localeKey":"water","pageType":"seo_landing","topic":"drinking_water"}
+    </script>
+    <script src="./locales/hu.js"></script>
+    <script src="./locales/en.js"></script>
+    <script src="./assets/landing-pages.js"></script>
+  </body>
+</html>
