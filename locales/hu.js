@@ -9,7 +9,7 @@ window.voyagerLocales.hu = {
   ctaIos: "Letöltés App Store-ból",
   ctaAndroid: "Letöltés Google Play-ről",
   ctaOpenApp: "Voyager Maps megnyitása",
-  heroProof: "Ami felteszi a meggyet az utad tetejére.",
+  heroProof: "A cseresznye a tetején minden utazáshoz.",
   previewAria: "Voyager Maps alkalmazás előnézeti kép",
   previewCaption: "App előnézet",
   iosAria: "Voyager Maps letöltése App Store-ból",
@@ -62,7 +62,7 @@ window.voyagerLocales.hu = {
   notMapAria: "Ez nem egy újabb navigációs alkalmazás",
   notMapTitle: "Ez nem egy újabb navigációs alkalmazás",
   notMapText1: "A legtöbb térképalkalmazás arra fókuszál, hogy eljuttasson valahova.",
-  notMapText2: "A Voyager Maps arra fókuszál, hogy mit találsz meg magad körül vagy ott, ahová épp tartassz.",
+  notMapText2: "A Voyager Maps arra fókuszál, hogy mit találsz magad körül vagy ott, ahová épp tartasz.",
   notMapText3:
     "Az utazás praktikus oldalára készült — az apró, de fontos helyekre, amelyek kényelmessé teszik az utat.",
   finalAria: "Végső cselekvésre ösztönzés",
@@ -71,7 +71,7 @@ window.voyagerLocales.hu = {
   consentEyebrow: "Adatvédelmi beállítások",
   consentTitle: "Adatkezelési beállítások",
   consentDescription:
-    "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapet.",
+    "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapset.",
   consentNecessaryLabel: "Szükséges",
   consentNecessaryDescription: "A nyelvválasztáshoz, a consent állapot mentéséhez és az oldal alapműködéséhez kell.",
   consentNecessaryValue: "Mindig aktív",
@@ -140,7 +140,7 @@ window.voyagerLocales.hu = {
       consentEyebrow: "Adatvédelmi beállítások",
       consentTitle: "Adatkezelési beállítások",
       consentDescription:
-        "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapet.",
+        "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapset.",
       consentNecessaryLabel: "Szükséges",
       consentNecessaryDescription: "A nyelvválasztáshoz, a consent állapot mentéséhez és az oldal alapműködéséhez kell.",
       consentNecessaryValue: "Mindig aktív",
@@ -209,7 +209,7 @@ window.voyagerLocales.hu = {
       consentEyebrow: "Adatvédelmi beállítások",
       consentTitle: "Adatkezelési beállítások",
       consentDescription:
-        "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapet.",
+        "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapset.",
       consentNecessaryLabel: "Szükséges",
       consentNecessaryDescription: "A nyelvválasztáshoz, a consent állapot mentéséhez és az oldal alapműködéséhez kell.",
       consentNecessaryValue: "Mindig aktív",
@@ -278,7 +278,7 @@ window.voyagerLocales.hu = {
       consentEyebrow: "Adatvédelmi beállítások",
       consentTitle: "Adatkezelési beállítások",
       consentDescription:
-        "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapet.",
+        "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapset.",
       consentNecessaryLabel: "Szükséges",
       consentNecessaryDescription: "A nyelvválasztáshoz, a consent állapot mentéséhez és az oldal alapműködéséhez kell.",
       consentNecessaryValue: "Mindig aktív",
