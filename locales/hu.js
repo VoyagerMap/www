@@ -5,7 +5,7 @@ window.voyagerLocales.hu = {
   heroAria: "Nyitó szekció",
   heroTitle: "A térkép fontos helyekhez, nem csak utazóknak.",
   heroLead:
-    "A Voyager Map segít gyorsan megtalálni a gyakran szükséges praktikus helyeket — például mosdókat, ivóvizet, mosodákat vagy Wi-Fi pontokat — különösen ismeretlen környezetben.",
+    "A Voyager Maps segít gyorsan megtalálni a gyakran szükséges praktikus helyeket — például mosdókat, ivóvizet, mosodákat vagy Wi-Fi pontokat — különösen ismeretlen környezetben.",
   ctaIos: "Letöltés App Store-ból",
   ctaAndroid: "Letöltés Google Play-ről",
   ctaOpenApp: "Voyager Maps megnyitása",
@@ -15,8 +15,8 @@ window.voyagerLocales.hu = {
   iosAria: "Voyager Maps letöltése App Store-ból",
   androidAria: "Voyager Maps letöltése Google Play-ről",
   openAppAria: "Voyager Maps megnyitása",
-  whyAria: "Miért jött létre a Voyager Map",
-  whyTitle: "Miért jött létre a Voyager Map",
+  whyAria: "Miért jött létre a Voyager Maps",
+  whyTitle: "Miért jött létre a Voyager Maps",
   whyText:
     "A legtöbb térképalkalmazás kiváló útvonaltervezésre. Utazás közben viszont gyakran valami másra van szükséged: a leggyorsabban megtalálni praktikus helyeket.",
   whyExamples: "Ilyen helyzetekkel az utazók folyamatosan találkoznak:",
@@ -24,7 +24,7 @@ window.voyagerLocales.hu = {
   problem2: "Hosszú úton vagy, és ivóvízre van szükséged.",
   problem3: "Napok óta utazol, és mosodát vagy zuhanyzót keresel.",
   problem4: "Ismeretlen helyen jársz, és hasznos helyeket szeretnél, nem végtelen térképes zajt.",
-  whyClose: "A Voyager Map ezekre a helyzetekre fókuszál.",
+  whyClose: "A Voyager Maps ezekre a helyzetekre fókuszál.",
   differentAria: "Mitől más",
   differentTitle: "Mitől más",
   diff1: "Praktikus utazási igényekre fókuszál, nem általános térképes zajra.",
@@ -54,7 +54,11 @@ window.voyagerLocales.hu = {
   expAria: "Termékélmény",
   expTitle: "Egyszerű élmény, gyors döntések",
   expText:
-    "A Voyager Map letisztult térképes felületet és fókuszált utazási kategóriákat használ, így gyorsan átláthatod a közeli lehetőségeket, és kisebb súrlódással választhatod ki a következő hasznos helyet.",
+    "A Voyager Maps letisztult térképes felületet és fókuszált utazási kategóriákat használ, így gyorsan átláthatod a közeli lehetőségeket, és kisebb súrlódással választhatod ki a következő hasznos helyet.",
+  expImage1Alt: "Gyors helyrészletnézet a Voyager Mapsben",
+  expImage1Caption: "Gyors helyrészletek az appban",
+  expImage2Alt: "Londoni térképklaszter-áttekintés a Voyager Mapsben",
+  expImage2Caption: "Műholdas térképnézet",
   notMapAria: "Ez nem egy újabb navigációs alkalmazás",
   notMapTitle: "Ez nem egy újabb navigációs alkalmazás",
   notMapText1: "A legtöbb térképalkalmazás arra fókuszál, hogy eljuttasson valahova.",
@@ -92,7 +96,7 @@ window.voyagerLocales.hu = {
         description:
           "Találj ingyenes ivóvíz helyeket utazás közben. Fedezz fel közkutakat, újratöltő pontokat és praktikus vízvételi helyeket a közeledben."
       },
-      brandLabel: "Voyager Map",
+      brandLabel: "Voyager Maps",
       langSwitcherAria: "Nyelvválasztó",
       langOptionsAria: "Nyelvi lehetőségek",
       heroAria: "Ivóvíz landing nyitó szekció",
@@ -152,7 +156,7 @@ window.voyagerLocales.hu = {
       privacyLink: "Adatvédelmi tájékoztató",
       termsLink: "Felhasználási feltételek",
       deleteLink: "Adattörlés",
-      footer: "© Voyager Map weboldal"
+      footer: "© Voyager Maps weboldal"
     },
     toilet: {
       htmlLang: "hu",
@@ -161,7 +165,7 @@ window.voyagerLocales.hu = {
         description:
           "Találj nyilvános WC-ket utazás közben. Nézd meg a közeli mosdó helyeket, és fedezz fel praktikus megállókat, amelyek sokszor hiányoznak a hagyományos térképekről."
       },
-      brandLabel: "Voyager Map",
+      brandLabel: "Voyager Maps",
       langSwitcherAria: "Nyelvválasztó",
       langOptionsAria: "Nyelvi lehetőségek",
       heroAria: "Nyilvános WC landing nyitó szekció",
@@ -221,7 +225,7 @@ window.voyagerLocales.hu = {
       privacyLink: "Adatvédelmi tájékoztató",
       termsLink: "Felhasználási feltételek",
       deleteLink: "Adattörlés",
-      footer: "© Voyager Map weboldal"
+      footer: "© Voyager Maps weboldal"
     },
     shower: {
       htmlLang: "hu",
@@ -230,7 +234,7 @@ window.voyagerLocales.hu = {
         description:
           "Találj ingyenes zuhanyzókat utazás közben. Fedezz fel praktikus zuhany helyeket road triphez, backpackinghez és van life életmódhoz az útvonalad közelében."
       },
-      brandLabel: "Voyager Map",
+      brandLabel: "Voyager Maps",
       langSwitcherAria: "Nyelvválasztó",
       langOptionsAria: "Nyelvi lehetőségek",
       heroAria: "Ingyenes zuhany landing nyitó szekció",
@@ -290,16 +294,16 @@ window.voyagerLocales.hu = {
       privacyLink: "Adatvédelmi tájékoztató",
       termsLink: "Felhasználási feltételek",
       deleteLink: "Adattörlés",
-      footer: "© Voyager Map weboldal"
+      footer: "© Voyager Maps weboldal"
     }
   },
   routingPage: {
     htmlLang: "hu",
-    pageTitle: "Voyager Map app megnyitása",
+    pageTitle: "Voyager Maps app megnyitása",
     meta: {
-      description: "A megfelelő Voyager Map áruházi oldal megnyitása az eszközöd alapján."
+      description: "A megfelelő Voyager Maps áruházi oldal megnyitása az eszközöd alapján."
     },
-    brandLabel: "Voyager Map",
+    brandLabel: "Voyager Maps",
     langSwitcherAria: "Nyelvválasztó",
     langOptionsAria: "Nyelvi lehetőségek",
     routingAria: "App store routing",
@@ -317,11 +321,11 @@ window.voyagerLocales.hu = {
   routingPageWrapper: {
     routing: {
       htmlLang: "hu",
-      pageTitle: "Voyager Map app megnyitása",
+      pageTitle: "Voyager Maps app megnyitása",
       meta: {
-        description: "A megfelelő Voyager Map áruházi oldal megnyitása az eszközöd alapján."
+        description: "A megfelelő Voyager Maps áruházi oldal megnyitása az eszközöd alapján."
       },
-      brandLabel: "Voyager Map",
+      brandLabel: "Voyager Maps",
       langSwitcherAria: "Nyelvválasztó",
       langOptionsAria: "Nyelvi lehetőségek",
       routingAria: "App store routing",
