@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://voyagermap.com/sitemap.xml
+Sitemap: https://getvoyagermaps.com/sitemap.xml
