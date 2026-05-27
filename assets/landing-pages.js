@@ -23,6 +23,8 @@
     hu: '<svg class="flag-icon" viewBox="0 0 24 16" width="20" height="14" focusable="false" aria-hidden="true"><rect width="24" height="16" fill="#ce2939"></rect><rect y="5.333" width="24" height="5.333" fill="#ffffff"></rect><rect y="10.666" width="24" height="5.334" fill="#477050"></rect></svg>'
   };
 
+  injectSharedUI(flagSvgs);
+
   const langTrigger = document.getElementById("lang-trigger");
   const langMenu = document.getElementById("lang-menu");
   const consentBanner = document.getElementById("consent-banner");
@@ -869,6 +871,88 @@
 
       setTimeout(() => map.invalidateSize(), 0);
     });
+  }
+
+  function injectSharedUI(flags) {
+    const main = document.querySelector("main.container");
+    if (main && !main.querySelector(".site-header")) {
+      main.insertAdjacentHTML("afterbegin", `
+        <header class="site-header">
+          <a class="brand" href="./index.html" data-i18n="brandLabel">Voyager Maps</a>
+          <nav class="lang-switch" aria-label="Language switcher" data-i18n-aria="langSwitcherAria">
+            <button type="button" class="lang-trigger" id="lang-trigger" aria-haspopup="listbox" aria-expanded="false" aria-controls="lang-menu">
+              <span class="lang-globe" id="lang-flag" aria-hidden="true">${flags.en}</span>
+              <span class="lang-current" id="lang-current">EN</span>
+              <span class="lang-caret" aria-hidden="true">&#x25BE;</span>
+            </button>
+            <ul class="lang-menu" id="lang-menu" role="listbox" aria-label="Language options" data-i18n-aria-label="langOptionsAria" hidden>
+              <li>
+                <button type="button" class="lang-option" data-lang="en" role="option" aria-selected="true">
+                  <span aria-hidden="true">${flags.en}</span>
+                  <span>English (EN)</span>
+                  <span class="check" aria-hidden="true">&#x2713;</span>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="lang-option" data-lang="hu" role="option" aria-selected="false">
+                  <span aria-hidden="true">${flags.hu}</span>
+                  <span>Magyar (HU)</span>
+                  <span class="check" aria-hidden="true">&#x2713;</span>
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      `);
+    }
+
+    if (!document.getElementById("consent-banner")) {
+      document.body.insertAdjacentHTML("beforeend", `
+        <div class="consent-backdrop" id="consent-backdrop" aria-hidden="true" hidden></div>
+        <section class="consent-banner" id="consent-banner" aria-labelledby="consent-title" aria-describedby="consent-description" hidden>
+          <div class="consent-panel">
+            <div class="consent-summary">
+              <div class="consent-copy">
+                <p class="consent-eyebrow" data-i18n="consentEyebrow">Privacy settings</p>
+                <h2 class="consent-title" id="consent-title" data-i18n="consentTitle">Your privacy choices</h2>
+                <p class="consent-description" id="consent-description" data-i18n="consentDescription">We only use optional analytics after your consent, for statistical purposes, to improve and refine Voyager Maps.</p>
+              </div>
+              <div class="consent-actions">
+                <button type="button" class="consent-btn consent-btn-link" id="consent-reject" data-i18n="consentReject">Use necessary only</button>
+                <button type="button" class="consent-btn consent-btn-secondary" id="consent-customize" data-i18n="consentCustomize" aria-expanded="false" aria-controls="consent-preferences">Customize</button>
+                <button type="button" class="consent-btn consent-btn-primary" id="consent-accept" data-i18n="consentAccept">Accept analytics</button>
+              </div>
+            </div>
+            <div class="consent-preferences" id="consent-preferences" hidden>
+              <div class="consent-types">
+                <div class="consent-type consent-type-static">
+                  <div>
+                    <span class="consent-type-label" data-i18n="consentNecessaryLabel">Necessary</span>
+                    <p class="consent-type-description" data-i18n="consentNecessaryDescription">Required for language selection, consent state, and core page functionality.</p>
+                  </div>
+                  <span class="consent-type-badge" data-i18n="consentNecessaryValue">Always active</span>
+                </div>
+                <label class="consent-type consent-type-toggle" for="consent-statistics-toggle">
+                  <div>
+                    <span class="consent-type-label" data-i18n="consentStatisticsLabel">Statistics</span>
+                    <p class="consent-type-description" data-i18n="consentStatisticsValue">Google Analytics 4 for visits and interaction events</p>
+                  </div>
+                  <span class="consent-switch-wrap">
+                    <input type="checkbox" class="consent-switch-input" id="consent-statistics-toggle" />
+                    <span class="consent-switch" aria-hidden="true"></span>
+                  </span>
+                </label>
+              </div>
+              <div class="consent-preferences-actions">
+                <p class="consent-note" data-i18n="consentNote">You can change this decision any time with the privacy button.</p>
+                <button type="button" class="consent-btn consent-btn-secondary consent-save" id="consent-save" data-i18n="consentSave">Save preferences</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <button type="button" class="consent-manage" id="consent-manage" data-i18n="consentManage" aria-haspopup="dialog">Privacy settings</button>
+      `);
+    }
   }
 
   bindUiEvents();
