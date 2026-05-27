@@ -108,7 +108,7 @@ window.voyagerLocales.en = {
       eyebrow: "Travel utility map",
       heroTitle: "Find free drinking water anywhere",
       heroLead:
-        "Running out of water on the road is frustrating when refill points are hidden, inconsistent, or missing from standard map apps.",
+        "Running out of water mid-trip is frustrating enough — but when refill spots are hidden, outdated, or simply missing from your map, it's even worse.",
       primaryCta: "Open full map in app",
       primaryCtaAria: "Open the full drinking water map in app",
       badgeAppleLine: "Download on the",
@@ -131,7 +131,7 @@ window.voyagerLocales.en = {
       solutionAria: "How the app helps travelers find water",
       solutionTitle: "A more practical way to find nearby refill spots",
       solutionText:
-        "The app helps travelers find curated locations built around practical utility, not generic search clutter. Instead of digging through unrelated results, you can focus on places that matter when you need water quickly.",
+        "The app helps you find curated locations built around real needs, not generic search results. Instead of scrolling through unrelated places, you can zero in on what actually matters when you need water fast.",
       feature1Title: "Curated locations",
       feature1Text: "Useful refill points, taps, and water access spots collected for real travel needs.",
       feature2Title: "Traveler-focused",
@@ -140,7 +140,7 @@ window.voyagerLocales.en = {
       feature3Text: "Highlights places that are often missing or buried on most maps.",
       ctaBlockAria: "Call to action",
       ctaBlockTitle: "Find more locations nearby",
-      ctaBlockText: "Open the full map experience to see more useful places around you.",
+      ctaBlockText: "Open the app to see more water spots near you.",
       seoAria: "SEO content about drinking water maps",
       seoTitle: "Drinking water map for travelers, walkers, and road trips",
       seoParagraph1:
@@ -195,17 +195,17 @@ window.voyagerLocales.en = {
       previewOverlay: "Preview of available locations",
       previewNote: "You are only seeing a limited preview",
       problemAria: "Problems finding public toilets",
-      problemTitle: "Why toilet access is still a travel problem",
+      problemTitle: "Why finding a restroom on the road is still harder than it should be",
       problem1:
         "Public toilets are not always properly mapped, especially in stations, parks, city centers, and roadside stops.",
       problem2:
-        "Urgent situations leave no time to compare scattered search results or guess which place actually has a restroom.",
+        "When it's urgent, you don't have time to scroll through scattered results or guess which place actually has a restroom.",
       problem3:
         "Travelers, families, and drivers often need the nearest practical option, not a long list of unrelated businesses.",
       solutionAria: "How the app helps travelers find toilets",
       solutionTitle: "Built for practical restroom access on the move",
       solutionText:
-        "The app focuses on utility first, helping travelers find curated locations that solve real needs quickly. It is designed around practical places that are often overlooked on large, generic maps.",
+        "The app puts restroom access first, helping you find curated locations that solve real needs quickly. It's built around the practical places that often get overlooked on large, generic maps.",
       feature1Title: "Curated locations",
       feature1Text: "Useful restroom points collected to reduce guesswork in unfamiliar places.",
       feature2Title: "Traveler-focused",
@@ -214,7 +214,7 @@ window.voyagerLocales.en = {
       feature3Text: "Highlights public toilets and similar utility stops that many map apps do not surface clearly.",
       ctaBlockAria: "Call to action",
       ctaBlockTitle: "Find more locations nearby",
-      ctaBlockText: "See the full map for more restroom locations around your current area.",
+      ctaBlockText: "Open the app to see more restroom locations near you.",
       seoAria: "SEO content about public toilet maps",
       seoTitle: "Public toilet map for travel, city breaks, and road stops",
       seoParagraph1:
@@ -256,7 +256,7 @@ window.voyagerLocales.en = {
       eyebrow: "Travel utility map",
       heroTitle: "Find free showers while traveling",
       heroLead:
-        "Shower access is scattered across forums, local tips, and incomplete listings, which makes it harder to stay comfortable on the move.",
+        "Shower spots are scattered across forums, tip blogs, and incomplete listings — making it surprisingly hard to stay fresh on the road.",
       primaryCta: "Open full map in app",
       primaryCtaAria: "Open the full shower map in app",
       badgeAppleLine: "Download on the",
@@ -279,7 +279,7 @@ window.voyagerLocales.en = {
       solutionAria: "How the app helps travelers find showers",
       solutionTitle: "Practical shower discovery built for travel days",
       solutionText:
-        "The app helps surface curated locations for real traveler needs, making it easier to find practical places that are often missing from conventional search results. The focus stays on utility and nearby decisions.",
+        "The app helps surface curated locations for real traveler needs, making it easier to find practical places that are often missing from conventional search results.",
       feature1Title: "Curated locations",
       feature1Text: "Useful shower spots selected for practical travel use instead of broad, generic place listings.",
       feature2Title: "Traveler-focused",
@@ -288,7 +288,7 @@ window.voyagerLocales.en = {
       feature3Text: "Surfaces places not shown clearly on most maps when you need to freshen up during a trip.",
       ctaBlockAria: "Call to action",
       ctaBlockTitle: "Find more locations nearby",
-      ctaBlockText: "Open the full app experience for more shower locations around your route.",
+      ctaBlockText: "Open the app to find more shower spots near your route.",
       seoAria: "SEO content about free shower travel maps",
       seoTitle: "Free shower travel map for road trips, backpacking, and van life",
       seoParagraph1:
