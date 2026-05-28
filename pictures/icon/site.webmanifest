@@ -3,13 +3,13 @@
   "short_name": "MySite",
   "icons": [
     {
-      "src": "/\\pictures\\icon\\/web-app-manifest-192x192.png?v=20260527",
+      "src": "/pictures/icon/web-app-manifest-192x192.png?v=20260528",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/\\pictures\\icon\\/web-app-manifest-512x512.png?v=20260527",
+      "src": "/pictures/icon/web-app-manifest-512x512.png?v=20260528",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
