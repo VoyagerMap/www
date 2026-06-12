@@ -95,10 +95,15 @@
           <div class="preview-frame">
             <img
               class="preview-image preview-image-phone"
-              src="./pictures/public-toilet-map-preview.jpg"
-              alt="Screenshot of the Voyager public toilet map"
+              src="./pictures/public-toilet-map-preview-800w.jpg"
+              srcset="./pictures/public-toilet-map-preview-800w.jpg 800w, ./pictures/public-toilet-map-preview.jpg 1080w"
+              sizes="(max-width: 700px) 90vw, 420px"
+              width="800"
+              height="1733"
+              alt="Voyager Maps app screenshot showing public toilet and restroom locations near the user"
               data-track-image="toilet_preview_screenshot"
               loading="lazy"
+              decoding="async"
             />
           </div>
           <p class="preview-note">Screenshot from the Voyager Maps app showing nearby public toilet locations.</p>
@@ -177,6 +182,14 @@
       </section>
 
       <footer class="footer">
+        <div>
+          <h2 data-i18n="exploreTitle">Explore the maps</h2>
+          <ul class="footer-links">
+            <li><a href="./index.html" data-i18n="exploreHomeLink">Home</a></li>
+            <li><a href="./drinking-water-map.html" data-i18n="exploreWaterLink">Drinking Water Map</a></li>
+            <li><a href="./free-shower-map.html" data-i18n="exploreShowerLink">Free Shower Map</a></li>
+          </ul>
+        </div>
         <div>
           <h2 data-i18n="legalTitle">Legal and documentation</h2>
           <ul class="footer-links">

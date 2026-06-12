@@ -15,6 +15,9 @@
     />
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
     <link rel="canonical" href="https://getvoyagermaps.com/" />
+    <link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/" />
+    <link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/" />
+    <link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/" />
     <meta property="og:title" content="Voyager Maps – Find Restrooms, Water &amp; Wi-Fi on the Road" />
     <meta
       property="og:description"
@@ -38,6 +41,67 @@
         "url": "https://getvoyagermaps.com/",
         "description": "Find restrooms, drinking water, Wi-Fi, and laundromats wherever you travel — free on iOS and Android. The practical travel map built for real needs, not just directions.",
         "inLanguage": "en"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Voyager Maps",
+        "description": "Find toilets, drinking water, showers, Wi-Fi and more — 3.8M locations worldwide. Free on iOS and Android.",
+        "url": "https://getvoyagermaps.com/",
+        "applicationCategory": "TravelApplication",
+        "operatingSystem": "iOS, Android",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "downloadUrl": [
+          "https://apps.apple.com/app/6758412494",
+          "https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
+        ],
+        "inLanguage": "en"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Voyager Maps free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, Voyager Maps is completely free on both iOS and Android. There are no subscriptions or in-app purchases."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many locations does Voyager Maps have?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Voyager Maps has over 3.8 million points of interest worldwide, including public toilets, drinking water taps, free showers, Wi-Fi spots, laundromats, and more."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Voyager Maps used for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Voyager Maps is a travel utility app for finding practical places while on the move — restrooms, free drinking water, showers, laundromats, and Wi-Fi. It is designed for travelers, road trippers, backpackers, van lifers, and cyclists."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is Voyager Maps different from Google Maps?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Google Maps is great for navigation and restaurants. Voyager Maps focuses exclusively on practical travel needs: public toilets, free drinking water, showers, and laundromats. It shows far more locations in these categories — for example, around 1,500 drinking water refill points in a city vs. around 50 on Google Maps."
+            }
+          }
+        ]
       }
     </script>
 
@@ -109,8 +173,13 @@
         <div class="hero-visual">
           <figure class="preview-shell">
             <img
-              src="./pictures/Budapest.jpg"
-              alt="Voyager Map app preview"
+              src="./pictures/Budapest-800w.jpg"
+              srcset="./pictures/Budapest-800w.jpg 800w, ./pictures/Budapest.jpg 1080w"
+              sizes="(max-width: 700px) 90vw, 420px"
+              width="800"
+              height="1733"
+              fetchpriority="high"
+              alt="Voyager Maps app showing toilet, drinking water and shower locations on a map of Budapest"
               data-i18n-aria="previewAria"
               data-track-image="product_preview"
             />
@@ -229,8 +298,14 @@
         <div class="inline-showcase-grid">
           <figure class="inline-showcase">
             <img
-              src="./pictures/POI_quick_view.jpg"
-              alt="Quick place details view in Voyager Maps"
+              src="./pictures/POI_quick_view-800w.jpg"
+              srcset="./pictures/POI_quick_view-800w.jpg 800w, ./pictures/POI_quick_view.jpg 1080w"
+              sizes="(max-width: 700px) 90vw, 420px"
+              width="800"
+              height="1733"
+              loading="lazy"
+              decoding="async"
+              alt="Quick place details view in Voyager Maps showing opening hours and navigation for a point of interest"
               data-i18n-alt="expImage1Alt"
               data-track-image="poi_quick_view"
             />
@@ -238,8 +313,14 @@
           </figure>
           <figure class="inline-showcase">
             <img
-              src="./pictures/London_satelite_clusters.jpg"
-              alt="London map cluster overview in Voyager Maps"
+              src="./pictures/London_satelite_clusters-800w.jpg"
+              srcset="./pictures/London_satelite_clusters-800w.jpg 800w, ./pictures/London_satelite_clusters.jpg 1080w"
+              sizes="(max-width: 700px) 90vw, 420px"
+              width="800"
+              height="1733"
+              loading="lazy"
+              decoding="async"
+              alt="Satellite map of London with clustered points of interest in Voyager Maps"
               data-i18n-alt="expImage2Alt"
               data-track-image="london_satellite_clusters"
             />
@@ -300,7 +381,37 @@
         </div>
       </section>
 
+      <section class="card" aria-label="Frequently asked questions" data-i18n-aria="faqAria" data-track-section="faq">
+        <h2 data-i18n="faqTitle">Frequently asked questions</h2>
+        <div class="use-grid" style="margin-top: 0.7rem">
+          <div class="mini">
+            <strong data-i18n="faq1Q">Is Voyager Maps free?</strong>
+            <p data-i18n="faq1A">Yes, Voyager Maps is completely free on both iOS and Android. There are no subscriptions or in-app purchases.</p>
+          </div>
+          <div class="mini">
+            <strong data-i18n="faq2Q">How many locations does Voyager Maps have?</strong>
+            <p data-i18n="faq2A">Voyager Maps has over 3.8 million points of interest worldwide, including public toilets, drinking water taps, free showers, Wi-Fi spots, laundromats, and more.</p>
+          </div>
+          <div class="mini">
+            <strong data-i18n="faq3Q">What is Voyager Maps used for?</strong>
+            <p data-i18n="faq3A">Voyager Maps is a travel utility app for finding practical places while on the move — restrooms, free drinking water, showers, laundromats, and Wi-Fi. It is designed for travelers, road trippers, backpackers, van lifers, and cyclists.</p>
+          </div>
+          <div class="mini">
+            <strong data-i18n="faq4Q">How is Voyager Maps different from Google Maps?</strong>
+            <p data-i18n="faq4A">Google Maps is great for navigation and restaurants. Voyager Maps focuses exclusively on practical travel needs: public toilets, free drinking water, showers, and laundromats. It shows far more locations in these categories — for example, around 1,500 drinking water refill points in a city vs. around 50 on Google Maps.</p>
+          </div>
+        </div>
+      </section>
+
       <footer class="footer">
+        <div>
+          <h2 data-i18n="exploreTitle">Explore the maps</h2>
+          <ul class="footer-links">
+            <li><a href="./public-toilet-map.html" data-i18n="exploreToiletLink">Public Toilet Map</a></li>
+            <li><a href="./drinking-water-map.html" data-i18n="exploreWaterLink">Drinking Water Map</a></li>
+            <li><a href="./free-shower-map.html" data-i18n="exploreShowerLink">Free Shower Map</a></li>
+          </ul>
+        </div>
         <div>
           <h2 data-i18n="legalTitle">Legal and documentation</h2>
           <ul class="footer-links">

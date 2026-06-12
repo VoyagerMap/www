@@ -1,5 +1,8 @@
 (function () {
   const dictionary = {};
+  const initialDocumentLanguage = (document.documentElement.getAttribute("lang") || "en").toLowerCase().startsWith("hu")
+    ? "hu"
+    : "en";
   const GA_MEASUREMENT_ID = (document.querySelector('meta[name="ga4-measurement-id"]')?.content || "").trim();
   const isAnalyticsEnabled = /^G-[A-Z0-9]+$/i.test(GA_MEASUREMENT_ID);
   const CONSENT_STORAGE_KEY = "voyager_docs_consent_v1";
@@ -537,7 +540,7 @@
     dictionary.en = window.voyagerLocales?.en;
     dictionary.hu = window.voyagerLocales?.hu;
     applyConsentMode();
-    applyLanguage("en", "init");
+    applyLanguage(initialDocumentLanguage, "init");
     syncConsentUi();
     initAnalytics();
     trackEvent("landing_view", {
