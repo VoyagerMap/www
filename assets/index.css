@@ -196,6 +196,7 @@ p {
 
 .preview-shell img {
   width: 100%;
+  height: auto;
   aspect-ratio: 9 / 19;
   object-fit: cover;
   display: block;
@@ -224,6 +225,7 @@ p {
 
 .inline-showcase img {
   width: 100%;
+  height: auto;
   aspect-ratio: 10 / 16;
   object-fit: cover;
   display: block;
