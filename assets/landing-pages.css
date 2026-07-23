@@ -131,13 +131,60 @@ img {
   opacity: 1;
 }
 
+/* The wordmark doubles as the link home, so it is given a little more presence
+   than plain header text: the app's pin mark, a brighter fill and a hover
+   surface that shows it is clickable.
+   Set in mixed case rather than spaced capitals — uppercase flattens every word
+   to the same rectangle, which reads as a section heading, while the ascenders
+   and descenders of normal casing give the name a shape of its own.
+   The negative margin keeps it optically aligned with the content below. */
 .brand {
-  color: #d6e5ff;
-  font-size: 0.92rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: #eaf2ff;
+  font-size: 1.12rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: -0.01em;
   text-decoration: none;
+  padding: 0.3rem 0.5rem;
+  margin-left: -0.5rem;
+  border-radius: 10px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* "Voyager" leads, "Maps" follows — the weight shift lets the name carry its
+   own hierarchy instead of arriving as one undifferentiated block. */
+.brand-name {
+  font-weight: 500;
+  color: #a9c4ea;
+  white-space: nowrap;
+}
+
+.brand-name-lead {
+  font-weight: 800;
+  color: #eaf2ff;
+}
+
+.brand:hover .brand-name-lead,
+.brand:focus-visible .brand-name-lead {
+  color: #fff;
+}
+
+.brand:hover,
+.brand:focus-visible {
+  background: rgba(79, 156, 255, 0.14);
+  color: #fff;
+}
+
+/* The mobile app's own icon, so the site and the store listing show the same
+   mark. Rendered smaller than its file so it stays crisp on dense screens. */
+.brand-mark {
+  display: block;
+  flex: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
 }
 
 .eyebrow {
@@ -231,22 +278,23 @@ p {
   box-shadow: 0 16px 30px var(--shadow);
 }
 
+/* No panel behind the screenshot: the phone image is the visual, and a card
+   around it just reads as a second, tablet-shaped device. */
 .preview-card {
-  overflow: hidden;
-  padding: 0.95rem;
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
 }
 
+/* The frame hugs the screenshot instead of being a fixed 640px box. With a
+   min-height it rendered as a wide, tablet-shaped bezel around a narrow phone
+   screenshot, which is what made it look off. The phone image carries its own
+   rounded corners and shadow, so the frame only needs to centre it. */
 .preview-frame {
   position: relative;
-  min-height: 640px;
-  border-radius: 28px;
-  border: 1px solid rgba(129, 167, 220, 0.32);
-  background: radial-gradient(circle at 20% 0%, rgba(80, 222, 234, 0.14), rgba(22, 33, 62, 0) 34%), linear-gradient(180deg, #12203a, #0d172a 85%);
-  overflow: hidden;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 24px 48px rgba(2, 6, 23, 0.36);
   display: grid;
   place-items: center;
-  padding: 1.25rem;
 }
 
 .preview-image {
@@ -259,12 +307,17 @@ p {
   background: radial-gradient(circle at 30% 20%, #2a4f7d 0%, #162841 55%, #0f1e34 100%);
 }
 
+/* Sized by two maximums rather than a fixed width plus a height cap. With a set
+   width, a viewport short enough to trigger max-height left the box taller than
+   the screenshot and object-fit filled the difference with empty space — the
+   frame looked bigger than the image. Constraining both axes and letting the
+   browser scale keeps the box exactly the screenshot's shape. */
 .preview-image-phone {
-  width: min(100%, 380px);
+  width: auto;
   height: auto;
   min-height: 0;
+  max-width: min(100%, 380px);
   max-height: 78vh;
-  object-fit: contain;
   border-radius: 30px;
   box-shadow: 0 24px 48px rgba(2, 6, 23, 0.4);
 }
@@ -311,6 +364,7 @@ p {
   margin-top: 0.7rem;
   font-size: 0.84rem;
   color: #9db1d5;
+  text-align: center;
 }
 
 .app-demo {
@@ -1185,6 +1239,13 @@ body.consent-active {
   .hero {
     grid-template-columns: minmax(0, 1.02fr) minmax(0, 0.98fr);
     gap: 1.8rem;
+  }
+
+  /* For a landing page that has no preview screenshot yet: keep the hero on one
+     column so the copy does not sit beside an empty grid cell. Drop this class
+     once the preview card is added. */
+  .hero.hero-single {
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .feature-grid {

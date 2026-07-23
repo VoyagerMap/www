@@ -37,13 +37,60 @@ body {
   margin-left: auto;
 }
 
+/* The wordmark doubles as the link home, so it is given a little more presence
+   than plain header text: the app's pin mark, a brighter fill and a hover
+   surface that shows it is clickable.
+   Set in mixed case rather than spaced capitals — uppercase flattens every word
+   to the same rectangle, which reads as a section heading, while the ascenders
+   and descenders of normal casing give the name a shape of its own.
+   The negative margin keeps it optically aligned with the content below. */
 .brand {
-  color: #d6e5ff;
-  font-size: 0.92rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: #eaf2ff;
+  font-size: 1.12rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: -0.01em;
   text-decoration: none;
+  padding: 0.3rem 0.5rem;
+  margin-left: -0.5rem;
+  border-radius: 10px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* "Voyager" leads, "Maps" follows — the weight shift lets the name carry its
+   own hierarchy instead of arriving as one undifferentiated block. */
+.brand-name {
+  font-weight: 500;
+  color: #a9c4ea;
+  white-space: nowrap;
+}
+
+.brand-name-lead {
+  font-weight: 800;
+  color: #eaf2ff;
+}
+
+.brand:hover .brand-name-lead,
+.brand:focus-visible .brand-name-lead {
+  color: #fff;
+}
+
+.brand:hover,
+.brand:focus-visible {
+  background: rgba(79, 156, 255, 0.14);
+  color: #fff;
+}
+
+/* The mobile app's own icon, so the site and the store listing show the same
+   mark. Rendered smaller than its file so it stays crisp on dense screens. */
+.brand-mark {
+  display: block;
+  flex: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
 }
 
 .lang-switch {
@@ -197,8 +244,11 @@ p {
 .preview-shell img {
   width: 100%;
   height: auto;
-  aspect-ratio: 9 / 19;
-  object-fit: cover;
+  /* No aspect-ratio here on purpose. The <img> carries width/height attributes,
+     so the browser reserves the right box from its real proportions. Pinning a
+     ratio in CSS means every future screenshot has to match it exactly, and a
+     mismatch is silently cropped by object-fit — which is how this drifted
+     before. tools/check-layout.js guards the two from diverging. */
   display: block;
   border-radius: 18px;
   border: 1px solid #3b5a85;
@@ -254,6 +304,16 @@ p {
 .proof {
   margin-top: 0.6rem;
   font-size: 0.9rem;
+}
+
+/* The hero proof line now carries the headline numbers, so it needs more
+   presence than the .proof lines further down the page. */
+.hero-content .proof {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #d4e4ff;
+  font-variant-numeric: tabular-nums;
 }
 
 .hero-free {
@@ -369,6 +429,35 @@ p {
 .chip-icon {
   opacity: 0.9;
   font-size: 0.82rem;
+}
+
+/* Live count next to a category label — the number is the argument, so it is
+   set apart from the label rather than blending into it. */
+/* The categories add up to the total we advertise; Wi-Fi is a property of the
+   places rather than a category, so it is explained here instead of being a
+   chip that would double-count. */
+.chip-note {
+  margin-top: 0.75rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.chip-count {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent);
+  padding-left: 0.1rem;
+}
+
+/* Three-up on desktop, stacking on narrow screens. The homepage previously only
+   had the two-column .use-grid, which leaves an orphan with three items. */
+/* auto-fit rather than a fixed column count: the section holds four cards, and
+   a hard three-column grid would leave the fourth stranded on its own row. */
+.feature-grid {
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
 }
 
 .use-grid {
@@ -708,7 +797,17 @@ body.consent-active {
 }
 
 @media (max-width: 640px) {
-  .use-grid {
+  /* Three-up on desktop, stacking on narrow screens. The homepage previously only
+   had the two-column .use-grid, which leaves an orphan with three items. */
+/* auto-fit rather than a fixed column count: the section holds four cards, and
+   a hard three-column grid would leave the fourth stranded on its own row. */
+.feature-grid {
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+}
+
+.use-grid {
     grid-template-columns: 1fr;
   }
 
@@ -803,6 +902,15 @@ body.consent-active {
 
 .vs-row-last {
   border-bottom: none;
+}
+
+/* Source of the numbers in the table above — kept small and quiet, but present
+   so the comparison stays attributable. */
+.vs-note {
+  margin-top: 0.7rem;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--muted);
 }
 
 .vs-head-row {

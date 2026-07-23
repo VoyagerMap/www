@@ -2,32 +2,764 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://getvoyagermaps.com/</loc>
+    <lastmod>2026-07-24</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/" />
     <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/de/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/fr/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/es/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/it/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/pt/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/nl/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/pl/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/" />
   </url>
   <url>
     <loc>https://getvoyagermaps.com/hu/</loc>
+    <lastmod>2026-07-24</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/" />
     <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/ja/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/" />
   </url>
   <url>
     <loc>https://getvoyagermaps.com/drinking-water-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/drinking-water-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/de/drinking-water-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/drinking-water-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/fr/drinking-water-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/drinking-water-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/es/drinking-water-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/drinking-water-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/it/drinking-water-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/drinking-water-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/pt/drinking-water-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/drinking-water-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/nl/drinking-water-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/drinking-water-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/pl/drinking-water-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/drinking-water-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/hu/drinking-water-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/drinking-water-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/ja/drinking-water-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/drinking-water-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/drinking-water-map.html" />
   </url>
   <url>
     <loc>https://getvoyagermaps.com/public-toilet-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/public-toilet-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/de/public-toilet-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/public-toilet-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/fr/public-toilet-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/public-toilet-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/es/public-toilet-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/public-toilet-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/it/public-toilet-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/public-toilet-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/pt/public-toilet-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/public-toilet-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/nl/public-toilet-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/public-toilet-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/pl/public-toilet-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/public-toilet-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/hu/public-toilet-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/public-toilet-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/ja/public-toilet-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/public-toilet-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/public-toilet-map.html" />
   </url>
   <url>
     <loc>https://getvoyagermaps.com/free-shower-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/free-shower-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/de/free-shower-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/free-shower-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/fr/free-shower-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/free-shower-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/es/free-shower-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/free-shower-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/it/free-shower-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/free-shower-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/pt/free-shower-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/free-shower-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/nl/free-shower-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/free-shower-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/pl/free-shower-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/free-shower-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/hu/free-shower-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/free-shower-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/ja/free-shower-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/free-shower-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/free-shower-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/parking-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/parking-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/de/parking-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/parking-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/fr/parking-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/parking-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/es/parking-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/parking-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/it/parking-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/parking-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/pt/parking-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/parking-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/nl/parking-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/parking-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/pl/parking-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/parking-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/hu/parking-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/parking-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/ja/parking-map.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/parking-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/parking-map.html" />
   </url>
   <url>
     <loc>https://getvoyagermaps.com/privacy-policy.html</loc>
+    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
     <loc>https://getvoyagermaps.com/terms.html</loc>
+    <lastmod>2026-05-27</lastmod>
   </url>
   <url>
     <loc>https://getvoyagermaps.com/delete-data.html</loc>
+    <lastmod>2026-05-27</lastmod>
   </url>
 </urlset>

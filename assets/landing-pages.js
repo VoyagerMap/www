@@ -18,10 +18,15 @@
   const viewedImages = new Set();
   const pageStartTime = Date.now();
 
-  const flagSvgs = {
-    en: '<svg class="flag-icon" viewBox="0 0 24 16" width="20" height="14" focusable="false" aria-hidden="true"><rect width="24" height="16" fill="#012169"></rect><rect x="10" width="4" height="16" fill="#ffffff"></rect><rect y="6" width="24" height="4" fill="#ffffff"></rect><rect x="10.8" width="2.4" height="16" fill="#c8102e"></rect><rect y="6.8" width="24" height="2.4" fill="#c8102e"></rect></svg>',
-    hu: '<svg class="flag-icon" viewBox="0 0 24 16" width="20" height="14" focusable="false" aria-hidden="true"><rect width="24" height="16" fill="#ce2939"></rect><rect y="5.333" width="24" height="5.333" fill="#ffffff"></rect><rect y="10.666" width="24" height="5.334" fill="#477050"></rect></svg>'
-  };
+  const LANGUAGES = window.voyagerLanguages || [{ code: "en", label: "English", flag: "" }];
+  const flagSvgs = Object.fromEntries(LANGUAGES.map((l) => [l.code, l.flag]));
+
+  // Each language has its own URL (/ and /<code>/), so the document decides which
+  // one this page is — not the browser or a stored preference. Otherwise a
+  // crawler arriving with en-US would render a localized URL in English and the
+  // two URLs would look like duplicates.
+  const documentLang = (document.documentElement.getAttribute("lang") || "en").toLowerCase();
+  const initialDocumentLanguage = LANGUAGES.some((l) => l.code === documentLang) ? documentLang : "en";
 
   injectSharedUI(flagSvgs);
 
@@ -320,24 +325,7 @@
     onScroll();
   }
 
-  function readStoredLanguage() {
-    try {
-      const stored = localStorage.getItem(LANGUAGE_STORAGE_KEY);
-      return stored === "hu" || stored === "en" ? stored : null;
-    } catch {
-      return null;
-    }
-  }
 
-  function detectPreferredLanguage() {
-    const preferred = Array.isArray(navigator.languages) ? navigator.languages : [navigator.language || navigator.userLanguage || "en"];
-    const normalized = preferred
-      .filter(Boolean)
-      .map((value) => String(value).toLowerCase());
-
-    if (normalized.some((value) => value === "hu" || value.startsWith("hu-"))) return "hu";
-    return "en";
-  }
 
   function writeStoredLanguage(lang) {
     try {
@@ -485,8 +473,18 @@
 
     document.querySelectorAll(".lang-option").forEach((btn) => {
       btn.addEventListener("click", () => {
-        applyLanguage(btn.dataset.lang, "user");
+        const lang = btn.dataset.lang;
         toggleMenu(false);
+        // The other language lives at its own URL, declared in the hreflang
+        // links this page already carries for search engines. Go there instead
+        // of swapping the text in place, so the address bar keeps telling the
+        // truth and the choice can be shared or bookmarked.
+        if (lang !== currentLanguage) {
+          writeStoredLanguage(lang);
+          window.location.href = localizedHref(lang);
+          return;
+        }
+        applyLanguage(lang, "user");
       });
     });
 
@@ -513,11 +511,12 @@
   function initLanguages() {
     const localeKey = pageConfig.localeKey;
     const localeGroup = pageConfig.localeGroup || "landingPages";
-    dictionary.en = window.voyagerLocales?.en?.[localeGroup]?.[localeKey];
-    dictionary.hu = window.voyagerLocales?.hu?.[localeGroup]?.[localeKey];
+    LANGUAGES.forEach((l) => {
+      const dict = window.voyagerLocales?.[l.code]?.[localeGroup]?.[localeKey];
+      if (dict) dictionary[l.code] = dict;
+    });
     applyConsentMode();
-    const initialLang = readStoredLanguage() || detectPreferredLanguage();
-    applyLanguage(initialLang, "init");
+    applyLanguage(initialDocumentLanguage, "init");
     syncConsentUi();
     initAnalytics();
     trackEvent("landing_view", {
@@ -873,12 +872,64 @@
     });
   }
 
+
+
+  /** A shared asset, relative to where this page sits. */
+  function asset(p) {
+    return (initialDocumentLanguage === "en" ? "./" : "../") + p;
+  }
+
+  /**
+   * A directory URL relies on the server serving its index.html. Opened straight
+   * from disk there is no server, and the browser shows a directory listing
+   * instead — so name the file explicitly in that case.
+   */
+  function dirHref(prefix) {
+    return window.location.protocol === "file:" ? `${prefix}index.html` : prefix;
+  }
+
+  /** The site's own home for a language, relative to the current page. */
+  function homeHref(lang) {
+    if (lang === initialDocumentLanguage) return dirHref("./");
+    const up = initialDocumentLanguage === "en" ? "" : "../";
+    return dirHref(lang === "en" ? up || "./" : `${up}${lang}/`);
+  }
+
+  /**
+   * Same page, different language, as a path relative to the current one.
+   *
+   * The language comes from the document rather than the URL: opened from disk
+   * the path holds the whole filesystem location, so there is no language
+   * segment to read. The hreflang links are absolute production URLs — right
+   * for search engines, but following them would jump off a local host.
+   */
+  function localizedHref(lang) {
+    const from = initialDocumentLanguage;
+    const up = from === "en" ? "" : "../";
+    const file = window.location.pathname.split("/").pop();
+    const page = !file || file === "index.html" ? "" : file;
+    const base = lang === from ? "./" : lang === "en" ? up || "./" : `${up}${lang}/`;
+    return page ? `${base}${page}` : dirHref(base);
+  }
+
+  /** The switcher list, built from the shared language register. */
+  function languageOptions(flags) {
+    return LANGUAGES.map((l) => `
+              <li>
+                <button type="button" class="lang-option" data-lang="${l.code}" role="option" aria-selected="${l.code === "en"}">
+                  <span aria-hidden="true">${flags[l.code] || ""}</span>
+                  <span>${l.label} (${l.code.toUpperCase()})</span>
+                  <span class="check" aria-hidden="true">&#x2713;</span>
+                </button>
+              </li>`).join("");
+  }
+
   function injectSharedUI(flags) {
     const main = document.querySelector("main.container");
     if (main && !main.querySelector(".site-header")) {
       main.insertAdjacentHTML("afterbegin", `
         <header class="site-header">
-          <a class="brand" href="./index.html" data-i18n="brandLabel">Voyager Maps</a>
+          <a class="brand" href="${homeHref(initialDocumentLanguage)}" aria-label="Voyager Maps"><img class="brand-mark" src="${asset("pictures/icon/brand-mark.png")}" width="24" height="24" alt="" aria-hidden="true" /><span class="brand-name"><span class="brand-name-lead">Voyager</span> Maps</span></a>
           <nav class="lang-switch" aria-label="Language switcher" data-i18n-aria="langSwitcherAria">
             <button type="button" class="lang-trigger" id="lang-trigger" aria-haspopup="listbox" aria-expanded="false" aria-controls="lang-menu">
               <span class="lang-globe" id="lang-flag" aria-hidden="true">${flags.en}</span>
@@ -886,20 +937,7 @@
               <span class="lang-caret" aria-hidden="true">&#x25BE;</span>
             </button>
             <ul class="lang-menu" id="lang-menu" role="listbox" aria-label="Language options" data-i18n-aria-label="langOptionsAria" hidden>
-              <li>
-                <button type="button" class="lang-option" data-lang="en" role="option" aria-selected="true">
-                  <span aria-hidden="true">${flags.en}</span>
-                  <span>English (EN)</span>
-                  <span class="check" aria-hidden="true">&#x2713;</span>
-                </button>
-              </li>
-              <li>
-                <button type="button" class="lang-option" data-lang="hu" role="option" aria-selected="false">
-                  <span aria-hidden="true">${flags.hu}</span>
-                  <span>Magyar (HU)</span>
-                  <span class="check" aria-hidden="true">&#x2713;</span>
-                </button>
-              </li>
+${languageOptions(flags)}
             </ul>
           </nav>
         </header>
