@@ -127,23 +127,121 @@
     </script>
 
     <link rel="stylesheet" href="./assets/index.css" />
+    <style>
+      /* Scoped to this page. Uses the site's palette (index.css variables) so it
+         reads as part of the site, not a server error screen. */
+      .nf {
+        min-height: 78vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem 0 3rem;
+      }
+      .nf-brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.55rem;
+        text-decoration: none;
+        margin-bottom: 2.2rem;
+      }
+      .nf-brand img { width: 30px; height: 30px; border-radius: 8px; display: block; }
+      .nf-brand span { font-size: 1.15rem; font-weight: 800; letter-spacing: 0.02em; color: #eaf2ff; }
+      .nf-brand span b { font-weight: 500; color: #a9c4ea; }
+
+      /* 404 with the pin mark standing in for the middle 0. The map grid behind
+         it keeps the theme without an image request. */
+      .nf-code {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.6rem;
+        font-size: clamp(5rem, 20vw, 9rem);
+        font-weight: 800;
+        line-height: 1;
+        letter-spacing: -0.04em;
+        color: #eaf2ff;
+      }
+      .nf-code::before {
+        content: "";
+        position: absolute;
+        inset: -30% -18%;
+        z-index: -1;
+        background:
+          radial-gradient(circle at 50% 45%, rgba(79, 156, 255, 0.22), transparent 62%),
+          repeating-linear-gradient(0deg, rgba(129, 167, 220, 0.09) 0 1px, transparent 1px 34px),
+          repeating-linear-gradient(90deg, rgba(129, 167, 220, 0.09) 0 1px, transparent 1px 34px);
+        mask-image: radial-gradient(circle at 50% 50%, #000 42%, transparent 72%);
+        -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 42%, transparent 72%);
+      }
+      .nf-pin { width: 0.82em; height: 0.82em; display: block; filter: drop-shadow(0 10px 24px rgba(2, 6, 23, 0.5)); }
+
+      .nf h1 {
+        margin: 1.6rem 0 0.6rem;
+        max-width: 18ch;
+        font-size: clamp(1.5rem, 3.4vw, 2.1rem);
+      }
+      .nf-lead { max-width: 46ch; font-size: 1.05rem; margin: 0 auto; }
+
+      .nf-grid {
+        margin-top: 2.2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 0.7rem;
+        width: min(640px, 100%);
+      }
+      .nf-card {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        text-decoration: none;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 0.85rem 0.95rem;
+        background: #122037;
+        color: #dce9ff;
+        font-weight: 600;
+        transition: transform 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+      }
+      .nf-card:hover,
+      .nf-card:focus-visible {
+        transform: translateY(-2px);
+        border-color: var(--accent);
+        background: #16273f;
+      }
+      .nf-card .ico { font-size: 1.15rem; flex: none; }
+      .nf-card.home { grid-column: 1 / -1; justify-content: center; background: linear-gradient(135deg, #5ca9ff, #3d87ea); color: #fff; border-color: transparent; }
+    </style>
   </head>
   <body>
     <main class="container">
-      <section class="card" style="margin-top:2.5rem;text-align:center">
-        <h1 style="max-width:none">Page not found</h1>
-        <p class="lead" style="margin:0 auto">The page you were looking for is not here. These are the maps people come for:</p>
-        <ul class="chip-list" style="justify-content:center;margin-top:1.4rem">
-          <li><a href="./" style="text-decoration:none">Home</a></li>
-          <li><a href="./public-toilet-map.html" style="text-decoration:none">Public Toilet Map</a></li>
-          <li><a href="./drinking-water-map.html" style="text-decoration:none">Drinking Water Map</a></li>
-          <li><a href="./free-shower-map.html" style="text-decoration:none">Free Shower Map</a></li>
-          <li><a href="./parking-map.html" style="text-decoration:none">Parking Map</a></li>
-        </ul>
+      <section class="nf">
+        <a class="nf-brand" href="./" aria-label="Voyager Maps — home">
+          <img src="./pictures/icon/brand-mark.png" alt="" />
+          <span>Voyager <b>Maps</b></span>
+        </a>
+
+        <div class="nf-code" aria-hidden="true">
+          <span>4</span>
+          <svg class="nf-pin" viewBox="0 0 24 24" focusable="false">
+            <path d="M12 1.6a8 8 0 0 0-8 8c0 5.8 7.1 13.4 7.4 13.7a.8.8 0 0 0 1.1 0c.3-.3 7.4-7.9 7.4-13.7a8 8 0 0 0-8-8z" fill="#4f9cff"/>
+            <path d="M12 5.2 7.9 14a.7.7 0 0 0 .8.9l3.3-1.7 3.3 1.7a.7.7 0 0 0 .8-.9z" fill="#fff"/>
+          </svg>
+          <span>4</span>
+        </div>
+
+        <h1>This stop isn’t on the map</h1>
+        <p class="nf-lead">The page you were looking for doesn’t exist — but plenty of useful places do. Pick a map to keep going.</p>
+
+        <nav class="nf-grid" aria-label="Site navigation">
+          <a class="nf-card home" href="./"><span class="ico" aria-hidden="true">🧭</span>Back to home</a>
+          <a class="nf-card" href="./public-toilet-map.html"><span class="ico" aria-hidden="true">🚻</span>Public toilets</a>
+          <a class="nf-card" href="./drinking-water-map.html"><span class="ico" aria-hidden="true">💧</span>Drinking water</a>
+          <a class="nf-card" href="./free-shower-map.html"><span class="ico" aria-hidden="true">🚿</span>Free showers</a>
+          <a class="nf-card" href="./parking-map.html"><span class="ico" aria-hidden="true">🅿️</span>Parking</a>
+        </nav>
       </section>
     </main>
-    <script src="./assets/languages.js"></script>
-    <script src="./locales/en.js"></script>
-    <script src="./assets/index.js"></script>
   </body>
 </html>
