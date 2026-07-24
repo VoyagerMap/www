@@ -215,8 +215,11 @@ def localize(source, code, dic, page, codes):
     # Load the register plus every locale so the switcher can render all
     # languages and navigate between them. Replaces whatever locale <script>
     # tags the source page happened to carry.
-    scripts = [f'    <script src="{prefix}assets/languages.js"></script>']
-    scripts += [f'    <script src="{prefix}locales/{c}.js"></script>' for c in codes]
+    # Only this page's own dictionary. The switcher navigates to the other
+    # language's URL rather than swapping text in place, so the other nine
+    # dictionaries were never read — they were a third of the page weight.
+    scripts = [f'    <script src="{prefix}assets/languages.js"></script>',
+               f'    <script src="{prefix}locales/{code}.js"></script>']
     block = "\n".join(scripts) + "\n    "
     t = re.sub(r'(?: *<script src="[^"]*(?:languages|locales/[a-z]{2})\.js"></script>\n)+ *',
                block, t, count=1)
