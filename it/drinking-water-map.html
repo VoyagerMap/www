@@ -27,6 +27,9 @@
     <link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/drinking-water-map.html" />
     <link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/drinking-water-map.html" />
     <link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/drinking-water-map.html" />
+    <link rel="alternate" hreflang="zh" href="https://getvoyagermaps.com/zh/drinking-water-map.html" />
+    <link rel="alternate" hreflang="ko" href="https://getvoyagermaps.com/ko/drinking-water-map.html" />
+    <link rel="alternate" hreflang="hi" href="https://getvoyagermaps.com/hi/drinking-water-map.html" />
     <link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/drinking-water-map.html" />
     <meta property="og:title" content="Mappa delle fontanelle gratuite | Voyager Maps" />
     <meta property="og:description" content="Trova acqua potabile gratis mentre sei in viaggio: rubinetti pubblici, fontane e punti di rifornimento vicino a te. App gratuita." />
@@ -43,6 +46,9 @@
     <meta property="og:locale:alternate" content="pl_PL" />
     <meta property="og:locale:alternate" content="hu_HU" />
     <meta property="og:locale:alternate" content="ja_JP" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    <meta property="og:locale:alternate" content="ko_KR" />
+    <meta property="og:locale:alternate" content="hi_IN" />
     <meta property="og:image" content="https://getvoyagermaps.com/pictures/drinking-water-map-preview.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Mappa delle fontanelle gratuite | Voyager Maps" />
@@ -112,19 +118,22 @@
 
         <div class="card preview-card">
           <div class="preview-frame">
-            <img
-              class="preview-image preview-image-phone"
-              src="../pictures/drinking-water-map-preview-800w.jpg"
-              srcset="../pictures/drinking-water-map-preview-800w.jpg 800w, ../pictures/drinking-water-map-preview.jpg 1080w"
-              sizes="(max-width: 700px) 90vw, 420px"
-              width="800"
-              height="1733"
-              alt="Anteprima dei punti di rifornimento di acqua potabile"
-              data-i18n-alt="previewAlt"
-              data-track-image="water_preview_screenshot"
-              loading="lazy"
-              decoding="async"
-            />
+            <picture>
+              <source type="image/webp" srcset="../pictures/drinking-water-map-preview-800w.webp 800w, ../pictures/drinking-water-map-preview.webp 1080w" sizes="(max-width: 700px) 90vw, 420px" />
+              <img
+                class="preview-image preview-image-phone"
+                src="../pictures/drinking-water-map-preview-800w.jpg"
+                srcset="../pictures/drinking-water-map-preview-800w.jpg 800w, ../pictures/drinking-water-map-preview.jpg 1080w"
+                sizes="(max-width: 700px) 90vw, 420px"
+                width="800"
+                height="1733"
+                alt="Anteprima dei punti di rifornimento di acqua potabile"
+                data-i18n-alt="previewAlt"
+                data-track-image="water_preview_screenshot"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
           </div>
           <p class="preview-note">Screenshot from the Voyager Maps app showing nearby drinking water locations.</p>
         </div>

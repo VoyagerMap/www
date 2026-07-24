@@ -34,6 +34,7 @@ LEGAL_LASTMOD = "2026-05-27"
 OG_LOCALE = {
     "en": "en_US", "de": "de_DE", "fr": "fr_FR", "es": "es_ES", "it": "it_IT",
     "pt": "pt_BR", "nl": "nl_NL", "pl": "pl_PL", "hu": "hu_HU", "ja": "ja_JP",
+    "zh": "zh_CN", "ko": "ko_KR", "hi": "hi_IN",
 }
 
 

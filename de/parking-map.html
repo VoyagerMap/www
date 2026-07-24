@@ -27,6 +27,9 @@
     <link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/parking-map.html" />
     <link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/parking-map.html" />
     <link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/parking-map.html" />
+    <link rel="alternate" hreflang="zh" href="https://getvoyagermaps.com/zh/parking-map.html" />
+    <link rel="alternate" hreflang="ko" href="https://getvoyagermaps.com/ko/parking-map.html" />
+    <link rel="alternate" hreflang="hi" href="https://getvoyagermaps.com/hi/parking-map.html" />
     <link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/parking-map.html" />
     <meta property="og:title" content="Parkplatzkarte – Finde kostenlose Parkplätze | Voyager Maps" />
     <meta property="og:description" content="Finde überall Parkplätze: 1,1 Millionen Parkplätze und Parkhäuser in 237 Ländern, davon 810.000 kostenlos." />
@@ -43,6 +46,9 @@
     <meta property="og:locale:alternate" content="pl_PL" />
     <meta property="og:locale:alternate" content="hu_HU" />
     <meta property="og:locale:alternate" content="ja_JP" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    <meta property="og:locale:alternate" content="ko_KR" />
+    <meta property="og:locale:alternate" content="hi_IN" />
     <meta property="og:image" content="https://getvoyagermaps.com/pictures/parking-map-paris-preview.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Parkplatzkarte – Finde kostenlose Parkplätze | Voyager Maps" />
@@ -112,19 +118,22 @@
 
         <div class="card preview-card">
           <div class="preview-frame">
-            <img
-              class="preview-image preview-image-phone"
-              src="../pictures/parking-map-paris-preview-800w.jpg"
-              srcset="../pictures/parking-map-paris-preview-800w.jpg 800w, ../pictures/parking-map-paris-preview.jpg 1080w"
-              sizes="(max-width: 700px) 90vw, 380px"
-              width="800"
-              height="1733"
-              alt="Screenshot der „Voyager Maps“-App, der Parkplätze im Zentrum von Paris anzeigt"
-              data-i18n-alt="previewAlt"
-              data-track-image="parking_preview_screenshot"
-              loading="lazy"
-              decoding="async"
-            />
+            <picture>
+              <source type="image/webp" srcset="../pictures/parking-map-paris-preview-800w.webp 800w, ../pictures/parking-map-paris-preview.webp 1080w" sizes="(max-width: 700px) 90vw, 380px" />
+              <img
+                class="preview-image preview-image-phone"
+                src="../pictures/parking-map-paris-preview-800w.jpg"
+                srcset="../pictures/parking-map-paris-preview-800w.jpg 800w, ../pictures/parking-map-paris-preview.jpg 1080w"
+                sizes="(max-width: 700px) 90vw, 380px"
+                width="800"
+                height="1733"
+                alt="Screenshot der „Voyager Maps“-App, der Parkplätze im Zentrum von Paris anzeigt"
+                data-i18n-alt="previewAlt"
+                data-track-image="parking_preview_screenshot"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
           </div>
           <p class="preview-note" data-i18n="previewNote">Parkplätze im Zentrum von Paris, dargestellt in der Voyager Maps-App.</p>
         </div>

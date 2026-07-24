@@ -17,7 +17,7 @@ const VIEWPORTS = [
   { name: "mobile", width: 390, height: 844 },
 ];
 // Every page in every language: a screenshot only has to slip on one of them.
-const LANGS = ["en", "de", "fr", "es", "it", "pt", "nl", "pl", "hu", "ja"];
+const LANGS = ["en", "de", "fr", "es", "it", "pt", "nl", "pl", "hu", "ja", "zh", "ko", "hi"];
 const FILES = ["", "parking-map.html", "public-toilet-map.html",
                "drinking-water-map.html", "free-shower-map.html"];
 const PAGES = LANGS.flatMap((l) => FILES.map((f) => (l === "en" ? `/${f}` : `/${l}/${f}`)));

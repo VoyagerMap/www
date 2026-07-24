@@ -27,6 +27,9 @@
     <link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/public-toilet-map.html" />
     <link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/public-toilet-map.html" />
     <link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/public-toilet-map.html" />
+    <link rel="alternate" hreflang="zh" href="https://getvoyagermaps.com/zh/public-toilet-map.html" />
+    <link rel="alternate" hreflang="ko" href="https://getvoyagermaps.com/ko/public-toilet-map.html" />
+    <link rel="alternate" hreflang="hi" href="https://getvoyagermaps.com/hi/public-toilet-map.html" />
     <link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/public-toilet-map.html" />
     <meta property="og:title" content="Public Toilet Map | Voyager Maps" />
     <meta property="og:description" content="Find public toilets while travelling, including restrooms at fuel stations and shops. Free app." />
@@ -43,6 +46,9 @@
     <meta property="og:locale:alternate" content="pl_PL" />
     <meta property="og:locale:alternate" content="hu_HU" />
     <meta property="og:locale:alternate" content="ja_JP" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    <meta property="og:locale:alternate" content="ko_KR" />
+    <meta property="og:locale:alternate" content="hi_IN" />
     <meta property="og:image" content="https://getvoyagermaps.com/pictures/public-toilet-map-preview.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Public Toilet Map | Voyager Maps" />
@@ -112,19 +118,22 @@
 
         <div class="card preview-card">
           <div class="preview-frame">
-            <img
-              class="preview-image preview-image-phone"
-              src="./pictures/public-toilet-map-preview-800w.jpg"
-              srcset="./pictures/public-toilet-map-preview-800w.jpg 800w, ./pictures/public-toilet-map-preview.jpg 1080w"
-              sizes="(max-width: 700px) 90vw, 420px"
-              width="800"
-              height="1733"
-              alt="Preview of public toilet locations"
-              data-i18n-alt="previewAlt"
-              data-track-image="toilet_preview_screenshot"
-              loading="lazy"
-              decoding="async"
-            />
+            <picture>
+              <source type="image/webp" srcset="./pictures/public-toilet-map-preview-800w.webp 800w, ./pictures/public-toilet-map-preview.webp 1080w" sizes="(max-width: 700px) 90vw, 420px" />
+              <img
+                class="preview-image preview-image-phone"
+                src="./pictures/public-toilet-map-preview-800w.jpg"
+                srcset="./pictures/public-toilet-map-preview-800w.jpg 800w, ./pictures/public-toilet-map-preview.jpg 1080w"
+                sizes="(max-width: 700px) 90vw, 420px"
+                width="800"
+                height="1733"
+                alt="Preview of public toilet locations"
+                data-i18n-alt="previewAlt"
+                data-track-image="toilet_preview_screenshot"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
           </div>
           <p class="preview-note">Screenshot from the Voyager Maps app showing nearby public toilet locations.</p>
         </div>

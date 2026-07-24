@@ -25,6 +25,9 @@
     <link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/" />
     <link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/" />
     <link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/" />
+    <link rel="alternate" hreflang="zh" href="https://getvoyagermaps.com/zh/" />
+    <link rel="alternate" hreflang="ko" href="https://getvoyagermaps.com/ko/" />
+    <link rel="alternate" hreflang="hi" href="https://getvoyagermaps.com/hi/" />
     <link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/" />
     <meta property="og:title" content="Voyager Maps – Toilets, Water &amp; Wi-Fi on the Road" />
     <meta
@@ -44,6 +47,9 @@
     <meta property="og:locale:alternate" content="pl_PL" />
     <meta property="og:locale:alternate" content="hu_HU" />
     <meta property="og:locale:alternate" content="ja_JP" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    <meta property="og:locale:alternate" content="ko_KR" />
+    <meta property="og:locale:alternate" content="hi_IN" />
     <meta property="og:image" content="https://getvoyagermaps.com/assets/app-preview.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Voyager Maps – Toilets, Water &amp; Wi-Fi on the Road" />
@@ -188,17 +194,20 @@
         </div>
         <div class="hero-visual">
           <figure class="preview-shell">
-            <img
-              src="./pictures/Budapest-800w.jpg"
-              srcset="./pictures/Budapest-800w.jpg 800w, ./pictures/Budapest.jpg 1080w"
-              sizes="(max-width: 700px) 90vw, 340px"
-              width="800"
-              height="1733"
-              fetchpriority="high"
-              alt="Voyager Maps app showing toilet, drinking water and shower locations on a map of Budapest"
-              data-i18n-aria="previewAria"
-              data-track-image="product_preview"
-            />
+            <picture>
+              <source type="image/webp" srcset="./pictures/Budapest-800w.webp 800w, ./pictures/Budapest.webp 1080w" sizes="(max-width: 700px) 90vw, 340px" />
+              <img
+                src="./pictures/Budapest-800w.jpg"
+                srcset="./pictures/Budapest-800w.jpg 800w, ./pictures/Budapest.jpg 1080w"
+                sizes="(max-width: 700px) 90vw, 340px"
+                width="800"
+                height="1733"
+                fetchpriority="high"
+                alt="Voyager Maps app showing toilet, drinking water and shower locations on a map of Budapest"
+                data-i18n-aria="previewAria"
+                data-track-image="product_preview"
+              />
+            </picture>
             <figcaption class="preview-caption" data-i18n="previewCaption">Product preview</figcaption>
           </figure>
         </div>
@@ -359,33 +368,39 @@
         <p data-i18n="expText">Voyager Maps uses a clean map interface and focused travel categories, so you can quickly scan nearby options and pick your next stop with confidence.</p>
         <div class="inline-showcase-grid">
           <figure class="inline-showcase">
-            <img
-              src="./pictures/POI_quick_view-800w.jpg"
-              srcset="./pictures/POI_quick_view-800w.jpg 800w, ./pictures/POI_quick_view.jpg 1080w"
-              sizes="(max-width: 700px) 90vw, 340px"
-              width="800"
-              height="1733"
-              loading="lazy"
-              decoding="async"
-              alt="Quick place details view in Voyager Maps"
-              data-i18n-alt="expImage1Alt"
-              data-track-image="poi_quick_view"
-            />
+            <picture>
+              <source type="image/webp" srcset="./pictures/POI_quick_view-800w.webp 800w, ./pictures/POI_quick_view.webp 1080w" sizes="(max-width: 700px) 90vw, 340px" />
+              <img
+                src="./pictures/POI_quick_view-800w.jpg"
+                srcset="./pictures/POI_quick_view-800w.jpg 800w, ./pictures/POI_quick_view.jpg 1080w"
+                sizes="(max-width: 700px) 90vw, 340px"
+                width="800"
+                height="1733"
+                loading="lazy"
+                decoding="async"
+                alt="Quick place details view in Voyager Maps"
+                data-i18n-alt="expImage1Alt"
+                data-track-image="poi_quick_view"
+              />
+            </picture>
             <figcaption data-i18n="expImage1Caption">Quick place details in the app</figcaption>
           </figure>
           <figure class="inline-showcase">
-            <img
-              src="./pictures/London_satelite_clusters-800w.jpg"
-              srcset="./pictures/London_satelite_clusters-800w.jpg 800w, ./pictures/London_satelite_clusters.jpg 1080w"
-              sizes="(max-width: 700px) 90vw, 340px"
-              width="800"
-              height="1733"
-              loading="lazy"
-              decoding="async"
-              alt="London map cluster overview in Voyager Maps"
-              data-i18n-alt="expImage2Alt"
-              data-track-image="london_satellite_clusters"
-            />
+            <picture>
+              <source type="image/webp" srcset="./pictures/London_satelite_clusters-800w.webp 800w, ./pictures/London_satelite_clusters.webp 1080w" sizes="(max-width: 700px) 90vw, 340px" />
+              <img
+                src="./pictures/London_satelite_clusters-800w.jpg"
+                srcset="./pictures/London_satelite_clusters-800w.jpg 800w, ./pictures/London_satelite_clusters.jpg 1080w"
+                sizes="(max-width: 700px) 90vw, 340px"
+                width="800"
+                height="1733"
+                loading="lazy"
+                decoding="async"
+                alt="London map cluster overview in Voyager Maps"
+                data-i18n-alt="expImage2Alt"
+                data-track-image="london_satellite_clusters"
+              />
+            </picture>
             <figcaption data-i18n="expImage2Caption">Satellite map view</figcaption>
           </figure>
         </div>
