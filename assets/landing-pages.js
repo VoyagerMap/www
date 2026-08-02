@@ -6,6 +6,9 @@
   const isAnalyticsEnabled = /^G-[A-Z0-9]+$/i.test(GA_MEASUREMENT_ID);
   const CONSENT_STORAGE_KEY = "voyager_docs_consent_v1";
   const CONSENT_CHANGE_EVENT = "voyagerdocsconsentchange";
+  // App Store Connect → Analytics → Campaigns issues this. Apple ignores the
+  // campaign on a link without it; Play attribution works regardless.
+  const APPLE_PROVIDER_TOKEN = "";
   const TRACK_EVENT_SUFFIX = "_web";
   const LANGUAGE_STORAGE_KEY = "voyager_docs_language_v1";
   let gaInitialized = false;
@@ -302,6 +305,66 @@
     );
 
     images.forEach((image) => imageObserver.observe(image));
+  }
+
+  /**
+   * The campaign that brought this visitor here, ready to be handed on to the
+   * stores. An inbound utm_* wins; without one the page names itself, so a
+   * plain organic visit is still distinguishable from a campaign one.
+   */
+  function inboundCampaign() {
+    const params = new URLSearchParams(window.location.search);
+    const read = (key, fallback) => {
+      const raw = (params.get(key) || "").toLowerCase().replace(/[^a-z0-9_-]/g, "");
+      return raw.slice(0, 40) || fallback;
+    };
+
+    const topic = (pageConfig.topic || "landing").replace(/[^a-z0-9_-]/gi, "").toLowerCase();
+
+    return {
+      source: read("utm_source", "website"),
+      medium: read("utm_medium", "owned"),
+      campaign: read("utm_campaign", `${topic}_${initialDocumentLanguage}`)
+    };
+  }
+
+  /**
+   * Carry that campaign into the store links, so an install can be traced back
+   * to the post that earned it.
+   *
+   * Play reads utm_* out of a single `referrer` value via the Install Referrer
+   * API. Apple reads `ct`, but only counts it alongside the provider token from
+   * App Store Connect — the campaign is appended either way, so the link starts
+   * reporting the moment APPLE_PROVIDER_TOKEN is filled in.
+   */
+  function decorateStoreLinks() {
+    const { source, medium, campaign } = inboundCampaign();
+
+    document
+      .querySelectorAll('a[href*="play.google.com"], a[href*="apps.apple.com"]')
+      .forEach((anchor) => {
+        let url;
+        try {
+          url = new URL(anchor.getAttribute("href") || "", window.location.href);
+        } catch {
+          return;
+        }
+
+        if (url.host.endsWith("play.google.com")) {
+          if (url.searchParams.has("referrer")) return;
+          url.searchParams.set(
+            "referrer",
+            `utm_source=${source}&utm_medium=${medium}&utm_campaign=${campaign}`
+          );
+        } else {
+          if (url.searchParams.has("ct")) return;
+          url.searchParams.set("ct", `${source}_${campaign}`.slice(0, 40));
+          url.searchParams.set("mt", "8");
+          if (APPLE_PROVIDER_TOKEN) url.searchParams.set("pt", APPLE_PROVIDER_TOKEN);
+        }
+
+        anchor.setAttribute("href", url.toString());
+      });
   }
 
   function setupClickTracking() {
@@ -995,6 +1058,7 @@ ${languageOptions(flags)}
 
   bindUiEvents();
   initLanguages();
+  decorateStoreLinks();
   setupClickTracking();
   setupSectionObserver();
   setupImageObserver();
