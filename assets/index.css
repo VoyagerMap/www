@@ -273,11 +273,16 @@ p {
   gap: 0.8rem;
 }
 
+/* With an odd number of showcases the last one is alone on its row; span it
+   across both columns and centre it so it doesn't hang off to one side. */
+.inline-showcase-grid > .inline-showcase:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
 .inline-showcase img {
   width: 100%;
   height: auto;
-  aspect-ratio: 10 / 16;
-  object-fit: cover;
   display: block;
   border-radius: 14px;
   border: 1px solid #35517d;

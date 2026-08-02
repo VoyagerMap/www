@@ -16,7 +16,7 @@ import subprocess
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://getvoyagermaps.com"
-LASTMOD = "2026-07-24"
+LASTMOD = "2026-08-02"
 
 # Root-relative pages, and which locale group each one reads.
 PAGES = {
@@ -25,6 +25,8 @@ PAGES = {
     "public-toilet-map.html": "toilet",
     "free-shower-map.html": "shower",
     "parking-map.html": "parking",
+    "campervan-service-map.html": "campervan",
+    "backpacker-map.html": "backpacker",
 }
 LEGAL = ["privacy-policy.html", "terms.html", "delete-data.html"]
 LEGAL_LASTMOD = "2026-05-27"
@@ -98,7 +100,17 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def localize(source, code, dic, page, codes):
+def localize(source, code, dic, page, codes, page_codes=None):
+    """Bake one language's text into the source page.
+
+    `codes` is every language the site has — used to recognise and rewrite
+    internal links whatever language prefix they currently carry. `page_codes`
+    is the subset that actually has this page translated, and is what the
+    hreflang mesh and the og:locale alternates advertise; a newly added page
+    starts out English-only, and pointing hreflang at URLs that do not exist
+    yet would be worse than not advertising them.
+    """
+    page_codes = page_codes or codes
     t = source
 
     t = re.sub(r'<html lang="[^"]*">', f'<html lang="{code}">', t, count=1)
@@ -130,11 +142,10 @@ def localize(source, code, dic, page, codes):
         t = re.sub(r'href="(?:\.\./|\./|/)?(?:(?:%s)/)?%s"' % (lang_alt, re.escape(other)),
                    f'href="{target}"', t)
 
-    # Canonical + the full hreflang set.
+    # Canonical + the hreflang set, limited to the languages this page exists in.
     canon = re.search(r' *<link rel="canonical"[^>]*/>\n(?: *<link rel="alternate"[^>]*/>\n)*', t)
-    block = hreflang_block(page, codes) % code if "%s" in hreflang_block(page, codes) else None
     lines = [f'    <link rel="canonical" href="{url_for(code, page)}" />']
-    for c in codes:
+    for c in page_codes:
         lines.append(f'    <link rel="alternate" hreflang="{c}" href="{url_for(c, page)}" />')
     lines.append(f'    <link rel="alternate" hreflang="x-default" href="{url_for("en", page)}" />')
     t = t[:canon.start()] + "\n".join(lines) + "\n" + t[canon.end():]
@@ -190,7 +201,7 @@ def localize(source, code, dic, page, codes):
     t = re.sub(r'<meta property="og:locale" content="[^"]*" />\n *', "", t)
     t = re.sub(r'<meta property="og:locale:alternate"[^>]*/>\n *', "", t)
     alternates = "".join(f'\n    <meta property="og:locale:alternate" content="{OG_LOCALE[c]}" />'
-                         for c in codes if c != code)
+                         for c in page_codes if c != code)
     t = t.replace('<meta property="og:site_name" content="Voyager Maps" />',
                   '<meta property="og:site_name" content="Voyager Maps" />\n'
                   f'    <meta property="og:locale" content="{OG_LOCALE[code]}" />'
@@ -232,28 +243,40 @@ def main():
     codes = [l["code"] for l in languages]
     locales = load_locales(codes)
 
+    # A page is only generated for the languages that actually translate it, so
+    # a newly added page can ship in English and pick up languages as their
+    # locale files gain the group — rather than publishing the English copy
+    # under every localized URL.
+    page_codes = {}
+    for page, group in PAGES.items():
+        page_codes[page] = [c for c in codes
+                            if not group or group in locales[c].get("landingPages", {})]
+        missing = [c for c in codes if c not in page_codes[page]]
+        if missing:
+            print(f"{page}: no translation yet for {', '.join(missing)}")
+
     written = []
     for page in PAGES:
         source = open(os.path.join(REPO, page), encoding="utf-8").read()
         group = PAGES[page]
-        for code in codes:
+        for code in page_codes[page]:
             dic = locales[code]
             if group:
                 dic = dic["landingPages"][group]
-            out = localize(source, code, dic, page, codes)
+            out = localize(source, code, dic, page, codes, page_codes[page])
             dest = os.path.join(REPO, page if code == "en" else os.path.join(code, page))
             os.makedirs(os.path.dirname(dest) or ".", exist_ok=True)
             open(dest, "w", encoding="utf-8").write(out)
             written.append(dest.replace(REPO + "/", ""))
 
-    # Sitemap: every page in every language, with the alternates repeated.
+    # Sitemap: each page in the languages it exists in, with the alternates repeated.
     rows = []
     for page in PAGES:
         alts = "".join(
             f'\n    <xhtml:link rel="alternate" hreflang="{c}" href="{url_for(c, page)}" />'
-            for c in codes)
+            for c in page_codes[page])
         alts += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{url_for("en", page)}" />'
-        for code in codes:
+        for code in page_codes[page]:
             rows.append(f"  <url>\n    <loc>{url_for(code, page)}</loc>"
                         f"\n    <lastmod>{LASTMOD}</lastmod>{alts}\n  </url>")
     for page in LEGAL:
@@ -266,7 +289,7 @@ def main():
     open(os.path.join(REPO, "sitemap.xml"), "w", encoding="utf-8").write(sitemap)
 
     print(f"{len(written)} pages, {len(codes)} languages")
-    print(f"sitemap: {len(codes) * len(PAGES) + len(LEGAL)} URLs")
+    print(f"sitemap: {sum(len(v) for v in page_codes.values()) + len(LEGAL)} URLs")
 
 
 if __name__ == "__main__":

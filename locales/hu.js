@@ -1,12 +1,11 @@
 window.voyagerLocales = window.voyagerLocales || {};
-window.voyagerLocales.hu = {
+window.voyagerLocales["hu"] = {
   htmlLang: "hu",
   pageTitle: "Voyager Maps – WC-k, víz és Wi-Fi útközben",
   metaDescription: "Találjon WC-ket, ivóvizet, zuhanyzókat, Wi-Fi-t és parkolóhelyeket bárhová is utazik. Ingyenes iOS-re és Androidra.",
   heroAria: "Nyitó szekció",
   heroTitle: "Találj mosdót, ivóvizet, zuhanyzót és Wi-Fi-t – bárhol utazol.",
-  heroLead:
-    "A Voyager Maps segít gyorsan megtalálni azokat a helyeket, amelyekre utazás közben tényleg szükséged van — mosdókat, ivóvizet, mosodát, Wi-Fi-t — különösen ismeretlen helyeken.",
+  heroLead: "A Voyager Maps segít gyorsan megtalálni azokat a helyeket, amelyekre utazás közben tényleg szükséged van — mosdókat, ivóvizet, mosodát, Wi-Fi-t — különösen ismeretlen helyeken.",
   ctaIos: "Letöltés App Store-ból",
   ctaAndroid: "Letöltés Google Play-ről",
   ctaOpenApp: "Voyager Maps megnyitása",
@@ -23,8 +22,7 @@ window.voyagerLocales.hu = {
   openAppAria: "Voyager Maps megnyitása",
   whyAria: "Miért jött létre a Voyager Maps",
   whyTitle: "Miért jött létre a Voyager Maps",
-  whyText:
-    "A legtöbb térképalkalmazás arra fókuszál, hogy eljuttasson valahova. A Voyager Maps arra, hogy mire van szükséged, amikor már ott vagy — gyorsan megtaláld azokat a praktikus helyeket, amelyektől működik egy út.",
+  whyText: "A legtöbb térképalkalmazás arra fókuszál, hogy eljuttasson valahova. A Voyager Maps arra, hogy mire van szükséged, amikor már ott vagy — gyorsan megtaláld azokat a praktikus helyeket, amelyektől működik egy út.",
   whyExamples: "Ilyen helyzetekkel az utazók folyamatosan találkoznak:",
   problem1: "Megérkezel egy új városba, és gyorsan mosdót vagy wifit kell találnod.",
   problem2: "A melegben úton vagy, a palackod újratöltenéd.",
@@ -80,12 +78,9 @@ window.voyagerLocales.hu = {
   findProof: "Praktikus utazási kategóriák, amelyeket az emberek valóban keresnek útközben.",
   expAria: "Termékélmény",
   expTitle: "Egyszerű élmény, gyors döntések",
-  expText:
-    "A Voyager Maps letisztult térképes felületet és fókuszált utazási kategóriákat használ, így gyorsan átláthatod a közeli lehetőségeket, és kisebb súrlódással választhatod ki a következő hasznos helyet.",
+  expText: "A Voyager Maps letisztult térképes felületet és fókuszált utazási kategóriákat használ, így gyorsan átláthatod a közeli lehetőségeket, és kisebb súrlódással választhatod ki a következő hasznos helyet.",
   expImage1Alt: "Helyrészletek a Voyager Mapsben",
   expImage1Caption: "Helyrészletek az appban",
-  expImage2Alt: "Távolnézet a Voyager Mapsben",
-  expImage2Caption: "Műholdas térképnézet",
   vsAria: "Voyager Maps összehasonlítva a Google Mapsszel",
   vsTitle: "Miért nem elég a Google Maps?",
   vsIntro: "A Google Maps navigációra kiváló. De ingyenes közösségi erőforrásokra — WC, vízcsap, zuhany — vegyes eredményeket ad. A Voyager Maps pontosan ezekre a pillanatokra lett tervezve.",
@@ -106,8 +101,7 @@ window.voyagerLocales.hu = {
   vsNeed5: "Mire fókuszál",
   vsGm5: "Navigáció, éttermek, kávézók",
   vsVm5: "✓ Csak praktikus utazói szükségletek",
-  vsNote:
-    "A minta Párizs városán alapul (2026. július): a Voyager Maps számai az adatbázisunkból mérve, a Google Maps értékei ugyanarra a kategóriára végzett kézi kereséssel.",
+  vsNote: "A minta Párizs városán alapul (2026. július): a Voyager Maps számai az adatbázisunkból mérve, a Google Maps értékei ugyanarra a kategóriára végzett kézi kereséssel.",
   finalAria: "Végső cselekvésre ösztönzés",
   finalTitle: "Utazz több praktikus lehetőséggel a kezedben.",
   finalText: "Találd meg gyorsabban a szükséges helyeket — bárhol is jársz.",
@@ -116,14 +110,11 @@ window.voyagerLocales.hu = {
   faq1Q: "Ingyenes a Voyager Maps?",
   faq1A: "Igen, a Voyager Maps teljesen ingyenes iOS-en és Androidon. Nincsenek előfizetések és app-on belüli vásárlások.",
   faq2Q: "Hány hely található a Voyager Mapsben?",
-  faq2A:
-    "A Voyager Maps több mint 5,5 millió helyet tartalmaz világszerte: nyilvános WC-ket, ivóvízcsapokat, ingyenes zuhanyzókat, Wi-Fi pontokat, mosodákat, parkolókat és még sok mást.",
+  faq2A: "A Voyager Maps több mint 5,5 millió helyet tartalmaz világszerte: nyilvános WC-ket, ivóvízcsapokat, ingyenes zuhanyzókat, Wi-Fi pontokat, mosodákat, parkolókat és még sok mást.",
   faq3Q: "Mire jó a Voyager Maps?",
-  faq3A:
-    "A Voyager Maps egy praktikus utazási app, amellyel mozgás közben találod meg a fontos helyeket — mosdókat, ingyenes ivóvizet, zuhanyzókat, mosodákat és Wi-Fi-t. Utazóknak, road trippelőknek, backpackereknek, van life utazóknak és bringásoknak készült.",
+  faq3A: "A Voyager Maps egy praktikus utazási app, amellyel mozgás közben találod meg a fontos helyeket — mosdókat, ingyenes ivóvizet, zuhanyzókat, mosodákat és Wi-Fi-t. Utazóknak, road trippelőknek, backpackereknek, van life utazóknak és bringásoknak készült.",
   faq4Q: "Miben más a Voyager Maps, mint a Google Maps?",
-  faq4A:
-    "A Google Maps navigációra és éttermekre kiváló. A Voyager Maps kizárólag a praktikus utazási szükségletekre fókuszál: nyilvános WC-k, ingyenes ivóvíz, zuhanyzók, mosodák, parkolók. Ezekben a kategóriákban jóval több helyet mutat — Párizsban például 289 ivóvíz-újratöltő pontot listázunk, szemben a Google Mapsen talált nagyjából 20 hellyel.",
+  faq4A: "A Google Maps navigációra és éttermekre kiváló. A Voyager Maps kizárólag a praktikus utazási szükségletekre fókuszál: nyilvános WC-k, ingyenes ivóvíz, zuhanyzók, mosodák, parkolók. Ezekben a kategóriákban jóval több helyet mutat — Párizsban például 289 ivóvíz-újratöltő pontot listázunk, szemben a Google Mapsen talált nagyjából 20 hellyel.",
   exploreTitle: "Fedezd fel a térképeket",
   exploreHomeLink: "Főoldal",
   exploreWaterLink: "Ivóvíz térkép",
@@ -132,8 +123,7 @@ window.voyagerLocales.hu = {
   exploreParkingLink: "Parkoló térkép",
   consentEyebrow: "Adatvédelmi beállítások",
   consentTitle: "Adatkezelési beállítások",
-  consentDescription:
-    "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapset.",
+  consentDescription: "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapset.",
   consentNecessaryLabel: "Szükséges",
   consentNecessaryDescription: "A nyelvválasztáshoz, a consent állapot mentéséhez és az oldal alapműködéséhez kell.",
   consentNecessaryValue: "Mindig aktív",
@@ -155,8 +145,7 @@ window.voyagerLocales.hu = {
       htmlLang: "hu",
       pageTitle: "Ingyenes ivóvíz-térkép",
       meta: {
-        description:
-          "Találjon ingyenes ivóvizet utazás közben: közeli nyilvános csapok, szökőkutak és feltöltőpontok. Ingyenes alkalmazás."
+        description: "Találjon ingyenes ivóvizet utazás közben: közeli nyilvános csapok, szökőkutak és feltöltőpontok. Ingyenes alkalmazás."
       },
       brandLabel: "Voyager Maps",
       langSwitcherAria: "Nyelvválasztó",
@@ -164,8 +153,7 @@ window.voyagerLocales.hu = {
       heroAria: "Ivóvíz landing nyitó szekció",
       eyebrow: "Praktikus utazási térkép",
       heroTitle: "Találj ingyenes ivóvizet bárhol",
-      heroLead:
-        "Kifutni a vízből útközben elég kellemetlen — de ha az újratöltő pontok rejtve vannak, elavultak, vagy egyszerűen nem jelennek meg a térképen, az még frusztrálóbb.",
+      heroLead: "Kifutni a vízből útközben elég kellemetlen — de ha az újratöltő pontok rejtve vannak, elavultak, vagy egyszerűen nem jelennek meg a térképen, az még frusztrálóbb.",
       primaryCta: "Nyisd meg a teljes térképet az appban",
       primaryCtaAria: "Nyisd meg a teljes ivóvíz térképet az appban",
       badgeAppleLine: "Letöltés az",
@@ -179,16 +167,12 @@ window.voyagerLocales.hu = {
       previewNote: "Csak egy korlátozott előnézetet látsz",
       problemAria: "Az ingyenes ivóvíz megtalálásának problémái",
       problemTitle: "Miért nehéz még mindig ingyenes ivóvizet találni",
-      problem1:
-        "Az ingyenes ivóvíz pontok gyakran parkokban, állomásokon, középületekben vagy újratöltő helyeken vannak, de nem jelennek meg egyértelműen.",
-      problem2:
-        "Az utazók sokszor feleslegesen vesznek palackos vizet, mert nem tudják gyorsan ellenőrizni a közeli újratöltési lehetőségeket.",
-      problem3:
-        "Az általános térképappok ritkán fókuszálnak a praktikus vízvételi helyekre, amikor gyorsan lenne rájuk szükséged séta, road trip vagy átszállás közben.",
+      problem1: "Az ingyenes ivóvíz pontok gyakran parkokban, állomásokon, középületekben vagy újratöltő helyeken vannak, de nem jelennek meg egyértelműen.",
+      problem2: "Az utazók sokszor feleslegesen vesznek palackos vizet, mert nem tudják gyorsan ellenőrizni a közeli újratöltési lehetőségeket.",
+      problem3: "Az általános térképappok ritkán fókuszálnak a praktikus vízvételi helyekre, amikor gyorsan lenne rájuk szükséged séta, road trip vagy átszállás közben.",
       solutionAria: "Hogyan segít az app vízvételi helyeket találni",
       solutionTitle: "Praktikusabb mód a közeli újratöltő pontok megtalálására",
-      solutionText:
-        "Az app segít megtalálni azokat a válogatott helyeket, amelyek valódi szükségletekre épülnek — nem általános keresési találatokra. Az irreleváns helyek helyett azokra koncentrálhatsz, amelyek tényleg számítanak, amikor gyorsan vízre van szükséged.",
+      solutionText: "Az app segít megtalálni azokat a válogatott helyeket, amelyek valódi szükségletekre épülnek — nem általános keresési találatokra. Az irreleváns helyek helyett azokra koncentrálhatsz, amelyek tényleg számítanak, amikor gyorsan vízre van szükséged.",
       feature1Title: "Válogatott helyek",
       feature1Text: "Hasznos újratöltő pontok, közkutak és vízvételi helyek valódi utazási helyzetekre gyűjtve.",
       feature2Title: "Utazókra szabva",
@@ -200,14 +184,11 @@ window.voyagerLocales.hu = {
       ctaBlockText: "Nyisd meg az appot, hogy több ivóvíz helyet láss magad körül.",
       seoAria: "SEO tartalom az ivóvíz térképekről",
       seoTitle: "Ivóvíz térkép utazóknak, sétához és road triphez",
-      seoParagraph1:
-        "Egy jó ivóvíz térkép egy dolgot segít gyorsabban megoldani: megtalálni az ingyenes ivóvizet találgatás nélkül. Utazás, új város felfedezése vagy hosszú úton töltött órák közben nem mindig könnyű megbízható újratöltő pontokat találni. Közkutak, kulacstöltő állomások és más ingyenes vízforrások lehetnek a közeledben, de gyakran különböző appokban szétszórva, értékelésekben elrejtve vagy hagyományos térképes kereséssel nehezen azonosítható módon jelennek meg.",
-      seoParagraph2:
-        "Ez az oldal azoknak szól, akik olyan ivóvíz térképet keresnek, amely a gyakorlati elérésre fókuszál. Az általános helytalálatok helyett egy utazókra szabottabb megközelítéssel fedezhetsz fel ingyenes ivóvíz helyeket, amelyek tényleg akkor hasznosak, amikor mozgásban vagy. Legyen szó kulacs újratöltéséről egy vonatút előtt, a felesleges műanyag palackok elkerüléséről városi séta közben, vagy víz kereséséről egy road trip megállónál, a cél egyszerű: gyorsabb hozzáférés a hasznos vízvételi helyekhez a közeledben.",
+      seoParagraph1: "Egy jó ivóvíz térkép egy dolgot segít gyorsabban megoldani: megtalálni az ingyenes ivóvizet találgatás nélkül. Utazás, új város felfedezése vagy hosszú úton töltött órák közben nem mindig könnyű megbízható újratöltő pontokat találni. Közkutak, kulacstöltő állomások és más ingyenes vízforrások lehetnek a közeledben, de gyakran különböző appokban szétszórva, értékelésekben elrejtve vagy hagyományos térképes kereséssel nehezen azonosítható módon jelennek meg.",
+      seoParagraph2: "Ez az oldal azoknak szól, akik olyan ivóvíz térképet keresnek, amely a gyakorlati elérésre fókuszál. Az általános helytalálatok helyett egy utazókra szabottabb megközelítéssel fedezhetsz fel ingyenes ivóvíz helyeket, amelyek tényleg akkor hasznosak, amikor mozgásban vagy. Legyen szó kulacs újratöltéséről egy vonatút előtt, a felesleges műanyag palackok elkerüléséről városi séta közben, vagy víz kereséséről egy road trip megállónál, a cél egyszerű: gyorsabb hozzáférés a hasznos vízvételi helyekhez a közeledben.",
       consentEyebrow: "Adatvédelmi beállítások",
       consentTitle: "Adatkezelési beállítások",
-      consentDescription:
-        "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapset.",
+      consentDescription: "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapset.",
       consentNecessaryLabel: "Szükséges",
       consentNecessaryDescription: "A nyelvválasztáshoz, a consent állapot mentéséhez és az oldal alapműködéséhez kell.",
       consentNecessaryValue: "Mindig aktív",
@@ -229,14 +210,15 @@ window.voyagerLocales.hu = {
       privacyLink: "Adatvédelmi tájékoztató",
       termsLink: "Felhasználási feltételek",
       deleteLink: "Adattörlés",
-      footer: "© Voyager Maps weboldal"
+      footer: "© Voyager Maps weboldal",
+      exploreCampervanLink: "Kempingbusz-szolgáltatási térkép",
+      exploreBackpackerLink: "Backpacker-térkép"
     },
     toilet: {
       htmlLang: "hu",
       pageTitle: "Nyilvános WC-térkép",
       meta: {
-        description:
-          "Találjon nyilvános WC-ket utazás közben, beleértve a benzinkutak és üzletek WC-it is. Ingyenes alkalmazás."
+        description: "Találjon nyilvános WC-ket utazás közben, beleértve a benzinkutak és üzletek WC-it is. Ingyenes alkalmazás."
       },
       brandLabel: "Voyager Maps",
       langSwitcherAria: "Nyelvválasztó",
@@ -244,8 +226,7 @@ window.voyagerLocales.hu = {
       heroAria: "Nyilvános WC landing nyitó szekció",
       eyebrow: "Praktikus utazási térkép",
       heroTitle: "Találj nyilvános WC-ket bárhol",
-      heroLead:
-        "Amikor gyorsan mosdóra van szükséged, a hagyományos térképes találatok gyakran hiányosak, elavultak vagy irreleváns helyek közé vannak elrejtve.",
+      heroLead: "Amikor gyorsan mosdóra van szükséged, a hagyományos térképes találatok gyakran hiányosak, elavultak vagy irreleváns helyek közé vannak elrejtve.",
       primaryCta: "Nyisd meg a teljes térképet az appban",
       primaryCtaAria: "Nyisd meg a teljes nyilvános WC térképet az appban",
       badgeAppleLine: "Letöltés az",
@@ -259,16 +240,12 @@ window.voyagerLocales.hu = {
       previewNote: "Csak egy korlátozott előnézetet látsz",
       problemAria: "A nyilvános WC-k megtalálásának problémái",
       problemTitle: "Miért nehéz még mindig mosdót találni útközben",
-      problem1:
-        "A nyilvános WC-k gyakran nincsenek megfelelően feltérképezve, különösen állomásokon, parkokban, belvárosokban és út menti megállóknál.",
-      problem2:
-        "Sürgős helyzetben nincs idő szétszórt találatokat összehasonlítani vagy kitalálni, melyik helyen van ténylegesen mosdó.",
-      problem3:
-        "Az utazóknak, családoknak és autósoknak sokszor a legközelebbi praktikus opció kell, nem egy hosszú lista irreleváns üzletekkel.",
+      problem1: "A nyilvános WC-k gyakran nincsenek megfelelően feltérképezve, különösen állomásokon, parkokban, belvárosokban és út menti megállóknál.",
+      problem2: "Sürgős helyzetben nincs idő szétszórt találatokat összehasonlítani vagy kitalálni, melyik helyen van ténylegesen mosdó.",
+      problem3: "Az utazóknak, családoknak és autósoknak sokszor a legközelebbi praktikus opció kell, nem egy hosszú lista irreleváns üzletekkel.",
       solutionAria: "Hogyan segít az app mosdókat találni",
       solutionTitle: "Praktikus mosdókeresés mozgás közben",
-      solutionText:
-        "Az app a mosdók gyors elérésére épül, és olyan válogatott helyeket segít megtalálni, amelyek valódi igényeket oldanak meg. Éppen azokra a praktikus helyekre fókuszál, amelyek a nagy, általános térképeken gyakran háttérbe szorulnak.",
+      solutionText: "Az app a mosdók gyors elérésére épül, és olyan válogatott helyeket segít megtalálni, amelyek valódi igényeket oldanak meg. Éppen azokra a praktikus helyekre fókuszál, amelyek a nagy, általános térképeken gyakran háttérbe szorulnak.",
       feature1Title: "Válogatott helyek",
       feature1Text: "Hasznos mosdó pontok gyűjtve, hogy kevesebb legyen a találgatás ismeretlen helyeken.",
       feature2Title: "Utazókra szabva",
@@ -280,14 +257,11 @@ window.voyagerLocales.hu = {
       ctaBlockText: "Nézd meg a teljes térképet, hogy több mosdóhelyet láss a környékeden.",
       seoAria: "SEO tartalom a nyilvános WC térképekről",
       seoTitle: "Nyilvános WC térkép utazáshoz, városnézéshez és útszéli megállókhoz",
-      seoParagraph1:
-        "Egy megbízható nyilvános WC térkép az egyik leghasznosabb utazási eszköz lehet. Amikor új városban vagy, hosszú úton haladsz, vagy pályaudvarokon és turistás helyeken mozogsz, egy mosdó megtalálásának egyszerűnek kellene lennie. A valóságban a nyilvános WC helyek sokszor következetlenül jelennek meg a hagyományos térképappokban, és a legközelebbi hasznos opciót nem könnyű azonosítani a szokásos keresési találatokból.",
-      seoParagraph2:
-        "Ez az oldal azoknak készült, akik olyan nyilvános WC térképet keresnek, amely jobban működik valós mozgási helyzetekben. Ahelyett, hogy a mosdók másodlagos részletként jelennének meg, a cél az, hogy könnyebben felfedezhetők legyenek, amikor az időzítés számít. Ez jelentheti egy nyilvános mosdó megtalálását egy hosszú átszállás előtt, WC-k keresését forgalmas látnivalók közelében, vagy praktikus megállók azonosítását vezetés közben. Utazóknak, családoknak és hétköznapi városi használathoz egy jobb mosdókeresés kevesebb stresszt és gördülékenyebb utat jelent.",
+      seoParagraph1: "Egy megbízható nyilvános WC térkép az egyik leghasznosabb utazási eszköz lehet. Amikor új városban vagy, hosszú úton haladsz, vagy pályaudvarokon és turistás helyeken mozogsz, egy mosdó megtalálásának egyszerűnek kellene lennie. A valóságban a nyilvános WC helyek sokszor következetlenül jelennek meg a hagyományos térképappokban, és a legközelebbi hasznos opciót nem könnyű azonosítani a szokásos keresési találatokból.",
+      seoParagraph2: "Ez az oldal azoknak készült, akik olyan nyilvános WC térképet keresnek, amely jobban működik valós mozgási helyzetekben. Ahelyett, hogy a mosdók másodlagos részletként jelennének meg, a cél az, hogy könnyebben felfedezhetők legyenek, amikor az időzítés számít. Ez jelentheti egy nyilvános mosdó megtalálását egy hosszú átszállás előtt, WC-k keresését forgalmas látnivalók közelében, vagy praktikus megállók azonosítását vezetés közben. Utazóknak, családoknak és hétköznapi városi használathoz egy jobb mosdókeresés kevesebb stresszt és gördülékenyebb utat jelent.",
       consentEyebrow: "Adatvédelmi beállítások",
       consentTitle: "Adatkezelési beállítások",
-      consentDescription:
-        "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapset.",
+      consentDescription: "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapset.",
       consentNecessaryLabel: "Szükséges",
       consentNecessaryDescription: "A nyelvválasztáshoz, a consent állapot mentéséhez és az oldal alapműködéséhez kell.",
       consentNecessaryValue: "Mindig aktív",
@@ -309,14 +283,15 @@ window.voyagerLocales.hu = {
       privacyLink: "Adatvédelmi tájékoztató",
       termsLink: "Felhasználási feltételek",
       deleteLink: "Adattörlés",
-      footer: "© Voyager Maps weboldal"
+      footer: "© Voyager Maps weboldal",
+      exploreCampervanLink: "Kempingbusz-szolgáltatási térkép",
+      exploreBackpackerLink: "Backpacker-térkép"
     },
     shower: {
       htmlLang: "hu",
       pageTitle: "Ingyenes zuhanyzó-térkép",
       meta: {
-        description:
-          "Találj zuhanyzókat utazás közben: kempingek, strandok és az útvonalad közelében található nyilvános létesítmények. Ingyenes alkalmazás."
+        description: "Találj zuhanyzókat utazás közben: kempingek, strandok és az útvonalad közelében található nyilvános létesítmények. Ingyenes alkalmazás."
       },
       brandLabel: "Voyager Maps",
       langSwitcherAria: "Nyelvválasztó",
@@ -324,8 +299,7 @@ window.voyagerLocales.hu = {
       heroAria: "Ingyenes zuhany landing nyitó szekció",
       eyebrow: "Praktikus utazási térkép",
       heroTitle: "Találj ingyenes zuhanyzókat utazás közben",
-      heroLead:
-        "A zuhanyzási lehetőségek fórumokon, helyi tippekben és hiányos listákban szétszórva vannak — meglepően nehéz frissen maradni az úton.",
+      heroLead: "A zuhanyzási lehetőségek fórumokon, helyi tippekben és hiányos listákban szétszórva vannak — meglepően nehéz frissen maradni az úton.",
       primaryCta: "Nyisd meg a teljes térképet az appban",
       primaryCtaAria: "Nyisd meg a teljes zuhany térképet az appban",
       badgeAppleLine: "Letöltés az",
@@ -339,16 +313,12 @@ window.voyagerLocales.hu = {
       previewNote: "Csak egy korlátozott előnézetet látsz",
       problemAria: "Az ingyenes zuhany helyek megtalálásának problémái",
       problemTitle: "Miért nehéz zuhany helyeket találni útközben",
-      problem1:
-        "Az utazóknak elérhető ingyenes zuhanyzók sokszor kempingekben, közösségi helyeken, strandoknál vagy közintézményeknél vannak, és nehéz gyorsan felfedezni őket.",
-      problem2:
-        "A backpackerek, van life utazók, bringások és road trippelők gyakran töredezett tippekre támaszkodnak egyetlen világos keresési helyett.",
-      problem3:
-        "A legtöbb nagy térképes eszköz nem kezeli prioritásként a praktikus higiéniai megállókat egy hosszabb utazási nap során.",
+      problem1: "Az utazóknak elérhető ingyenes zuhanyzók sokszor kempingekben, közösségi helyeken, strandoknál vagy közintézményeknél vannak, és nehéz gyorsan felfedezni őket.",
+      problem2: "A backpackerek, van life utazók, bringások és road trippelők gyakran töredezett tippekre támaszkodnak egyetlen világos keresési helyett.",
+      problem3: "A legtöbb nagy térképes eszköz nem kezeli prioritásként a praktikus higiéniai megállókat egy hosszabb utazási nap során.",
       solutionAria: "Hogyan segít az app zuhany helyeket találni",
       solutionTitle: "Praktikus zuhanykeresés utazási napokra tervezve",
-      solutionText:
-        "Az app valódi utazói igényekhez válogatott helyeket segít megtalálni, így könnyebb felfedezni azokat a praktikus pontokat, amelyek a hagyományos keresési eredményekből gyakran hiányoznak.",
+      solutionText: "Az app valódi utazói igényekhez válogatott helyeket segít megtalálni, így könnyebb felfedezni azokat a praktikus pontokat, amelyek a hagyományos keresési eredményekből gyakran hiányoznak.",
       feature1Title: "Válogatott helyek",
       feature1Text: "Hasznos zuhany helyek válogatva a gyakorlati utazási használathoz, nem általános helylistákból.",
       feature2Title: "Utazókra szabva",
@@ -360,14 +330,11 @@ window.voyagerLocales.hu = {
       ctaBlockText: "Nyisd meg az appot, hogy több zuhanyzó helyet láss az útvonalad körül.",
       seoAria: "SEO tartalom az utazási zuhany térképekről",
       seoTitle: "Ingyenes zuhany utazási térkép road triphez, backpackinghez és van life-hoz",
-      seoParagraph1:
-        "Az ingyenes zuhany utazás közbeni keresése általában akkor válik fontossá, amikor a kényelem már valódi igény, nem csak extra. Hosszú road tripen, többnapos városi mozgásnál, backpacking útvonalakon, bringás utakon vagy van life közben a zuhanyhoz jutás meglepően nehéz lehet. Hasznos helyek lehetnek a közeledben, de gyakran közösségi posztokban, helyi ajánlásokban, strand információkban vagy különféle intézményi listákban szétszórva jelennek meg, amelyeket nem könnyű egy helyen átnézni.",
-      seoParagraph2:
-        "Egy jobb ingyenes zuhany térkép csökkenti ezt a súrlódást azzal, hogy könnyebben felfedezhetővé teszi a közeli praktikus opciókat. Ahelyett, hogy csak általános térképes keresésekre támaszkodnál, utazóközpontúbb megközelítéssel kereshetsz hasznos zuhany helyeket. Legyen szó felfrissülésről két átszállás között, megálló tervezéséről egy hosszú út során, vagy a napi rutin kezelhetőbbé tételéről utazás közben, egy utazásra fókuszáló zuhany térkép gyakorlatiasabbá teszi a keresést. Ez az ingyenes zuhany travel információk értéke, ha valódi mozgási helyzetek és hétköznapi utazói igények köré vannak rendezve.",
+      seoParagraph1: "Az ingyenes zuhany utazás közbeni keresése általában akkor válik fontossá, amikor a kényelem már valódi igény, nem csak extra. Hosszú road tripen, többnapos városi mozgásnál, backpacking útvonalakon, bringás utakon vagy van life közben a zuhanyhoz jutás meglepően nehéz lehet. Hasznos helyek lehetnek a közeledben, de gyakran közösségi posztokban, helyi ajánlásokban, strand információkban vagy különféle intézményi listákban szétszórva jelennek meg, amelyeket nem könnyű egy helyen átnézni.",
+      seoParagraph2: "Egy jobb ingyenes zuhany térkép csökkenti ezt a súrlódást azzal, hogy könnyebben felfedezhetővé teszi a közeli praktikus opciókat. Ahelyett, hogy csak általános térképes keresésekre támaszkodnál, utazóközpontúbb megközelítéssel kereshetsz hasznos zuhany helyeket. Legyen szó felfrissülésről két átszállás között, megálló tervezéséről egy hosszú út során, vagy a napi rutin kezelhetőbbé tételéről utazás közben, egy utazásra fókuszáló zuhany térkép gyakorlatiasabbá teszi a keresést. Ez az ingyenes zuhany travel információk értéke, ha valódi mozgási helyzetek és hétköznapi utazói igények köré vannak rendezve.",
       consentEyebrow: "Adatvédelmi beállítások",
       consentTitle: "Adatkezelési beállítások",
-      consentDescription:
-        "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapset.",
+      consentDescription: "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapset.",
       consentNecessaryLabel: "Szükséges",
       consentNecessaryDescription: "A nyelvválasztáshoz, a consent állapot mentéséhez és az oldal alapműködéséhez kell.",
       consentNecessaryValue: "Mindig aktív",
@@ -389,14 +356,15 @@ window.voyagerLocales.hu = {
       privacyLink: "Adatvédelmi tájékoztató",
       termsLink: "Felhasználási feltételek",
       deleteLink: "Adattörlés",
-      footer: "© Voyager Maps weboldal"
+      footer: "© Voyager Maps weboldal",
+      exploreCampervanLink: "Kempingbusz-szolgáltatási térkép",
+      exploreBackpackerLink: "Backpacker-térkép"
     },
     parking: {
       htmlLang: "hu",
       pageTitle: "Parkolási térkép – Ingyenes parkolóhelyek keresése",
       meta: {
-        description:
-          "Parkolóhelyet bárhol: 1,1 millió parkolóhely és parkolóház 237 országban, ebből 810 000 ingyenes."
+        description: "Parkolóhelyet bárhol: 1,1 millió parkolóhely és parkolóház 237 országban, ebből 810 000 ingyenes."
       },
       brandLabel: "Voyager Maps",
       langSwitcherAria: "Nyelvváltó",
@@ -404,8 +372,7 @@ window.voyagerLocales.hu = {
       heroAria: "Parkoló landing nyitó szekció",
       eyebrow: "Praktikus utazási térkép",
       heroTitle: "Találj parkolót bárhol",
-      heroLead:
-        "Több mint 1,1 millió parkoló 237 országban – utcai parkolók, mélygarázsok és útmenti megállók –, ezekből 810 ezer ingyenes.",
+      heroLead: "Több mint 1,1 millió parkoló 237 országban – utcai parkolók, mélygarázsok és útmenti megállók –, ezekből 810 ezer ingyenes.",
       primaryCta: "Teljes térkép megnyitása az appban",
       primaryCtaAria: "A teljes parkoló térkép megnyitása az appban",
       badgeAppleLine: "Letöltés az",
@@ -417,38 +384,28 @@ window.voyagerLocales.hu = {
       previewNote: "Parkolóhelyek Párizs belvárosában, a Voyager Maps alkalmazásban megjelenítve.",
       problemAria: "Miért nehéz parkolót találni",
       problemTitle: "Miért máig gond a parkolás egy ismeretlen városban",
-      problem1:
-        "Ismeretlen helyre érkezve ritkán maga a célpont az első kérdés, hanem az, hogy hol hagyd az autót.",
-      problem2:
-        "Hogy egy parkoló ingyenes-e, fizetős-e, fedett-e, vagy egyáltalán nyitva van-e, a szokásos térképes találatokból gyakran hiányzik.",
-      problem3:
-        "A tele belvárosban körözés olyan üzemanyagot és időt visz el, amit egy közeli alternatíva megspórolt volna.",
+      problem1: "Ismeretlen helyre érkezve ritkán maga a célpont az első kérdés, hanem az, hogy hol hagyd az autót.",
+      problem2: "Hogy egy parkoló ingyenes-e, fizetős-e, fedett-e, vagy egyáltalán nyitva van-e, a szokásos térképes találatokból gyakran hiányzik.",
+      problem3: "A tele belvárosban körözés olyan üzemanyagot és időt visz el, amit egy közeli alternatíva megspórolt volna.",
       solutionAria: "Hogyan segít az app parkolót találni",
       solutionTitle: "Azoknak, akik helyet keresnek, nem kerülőutat",
-      solutionText:
-        "A parkoló a Voyager Maps legnagyobb kategóriája: 1 174 855 hely világszerte, az utcai parkolóktól a mélygarázsokig. Szűrd a térképet csak parkolóra, és lásd a körülötted lévő lehetőségeket anélkül, hogy irreleváns találatok lennének útban.",
+      solutionText: "A parkoló a Voyager Maps legnagyobb kategóriája: 1 174 855 hely világszerte, az utcai parkolóktól a mélygarázsokig. Szűrd a térképet csak parkolóra, és lásd a körülötted lévő lehetőségeket anélkül, hogy irreleváns találatok lennének útban.",
       feature1Title: "810 ezer ingyenes lehetőség",
-      feature1Text:
-        "A parkolók nagyjából kétharmada ingyenesként van nyilvántartva, így sokszor van a közelben díjmentes megoldás.",
+      feature1Text: "A parkolók nagyjából kétharmada ingyenesként van nyilvántartva, így sokszor van a közelben díjmentes megoldás.",
       feature2Title: "Világszintű lefedettség",
-      feature2Text:
-        "Parkolási adatok 237 országból és területről, jóval a nagy európai és észak-amerikai városokon túl is.",
+      feature2Text: "Parkolási adatok 237 országból és területről, jóval a nagy európai és észak-amerikai városokon túl is.",
       feature3Title: "A lényeges részletek",
-      feature3Text:
-        "Ahol rögzítve van, látod a díjat, az akadálymentességet, a nyitvatartást és a telefonszámot, amit az appból egyből hívhatsz.",
+      feature3Text: "Ahol rögzítve van, látod a díjat, az akadálymentességet, a nyitvatartást és a telefonszámot, amit az appból egyből hívhatsz.",
       ctaBlockAria: "Cselekvésre ösztönzés",
       ctaBlockTitle: "Találj parkolót a közeledben",
       ctaBlockText: "Nyisd meg az appot, és nézd meg a környékeden lévő parkolókat.",
       seoAria: "SEO tartalom a parkoló térképről",
       seoTitle: "Parkoló térkép road triphez, városnézéshez és mindennapi vezetéshez",
-      seoParagraph1:
-        "A parkoló térkép azok közé az eszközök közé tartozik, amikre csak akkor gondolsz, amikor épp szükség van rájuk – jellemzően egy ismeretlen belvárosban körözve. A Voyager Maps 1 174 855 parkolót tartalmaz világszerte: utcai parkolókat, mélygarázsokat és azokat az útmenti megállókat, amiket a szokásos térképek átugranak. Így már érkezés előtt van válasz arra, hol hagyd az autót.",
-      seoParagraph2:
-        "A döntést többnyire az ár hozza meg, és ezekből 810 544 hely ingyenesként van nyilvántartva. Egy road triphez, egy van life útvonalhoz vagy egy hétvégéhez egy ismeretlen városban sokat számít, ha a térképet leszűkítheted csak parkolóra, és látod, mi ingyenes a közelben – így a stresszes percekből előre meghozott döntés lesz.",
+      seoParagraph1: "A parkoló térkép azok közé az eszközök közé tartozik, amikre csak akkor gondolsz, amikor épp szükség van rájuk – jellemzően egy ismeretlen belvárosban körözve. A Voyager Maps 1 174 855 parkolót tartalmaz világszerte: utcai parkolókat, mélygarázsokat és azokat az útmenti megállókat, amiket a szokásos térképek átugranak. Így már érkezés előtt van válasz arra, hol hagyd az autót.",
+      seoParagraph2: "A döntést többnyire az ár hozza meg, és ezekből 810 544 hely ingyenesként van nyilvántartva. Egy road triphez, egy van life útvonalhoz vagy egy hétvégéhez egy ismeretlen városban sokat számít, ha a térképet leszűkítheted csak parkolóra, és látod, mi ingyenes a közelben – így a stresszes percekből előre meghozott döntés lesz.",
       consentEyebrow: "Adatvédelmi beállítások",
       consentTitle: "Adatvédelmi döntéseid",
-      consentDescription:
-        "Az opcionális analitikát csak a hozzájárulásod után használjuk, statisztikai célból, a Voyager Maps fejlesztéséhez.",
+      consentDescription: "Az opcionális analitikát csak a hozzájárulásod után használjuk, statisztikai célból, a Voyager Maps fejlesztéséhez.",
       consentNecessaryLabel: "Szükséges",
       consentNecessaryDescription: "A nyelvválasztáshoz, a hozzájárulás állapotához és az oldal működéséhez kell.",
       consentNecessaryValue: "Mindig aktív",
@@ -470,7 +427,153 @@ window.voyagerLocales.hu = {
       privacyLink: "Adatvédelmi tájékoztató",
       termsLink: "Felhasználási feltételek",
       deleteLink: "Adattörlés",
-      footer: "© Voyager Maps weboldal"
+      footer: "© Voyager Maps weboldal",
+      exploreCampervanLink: "Kempingbusz-szolgáltatási térkép",
+      exploreBackpackerLink: "Backpacker-térkép"
+    },
+    campervan: {
+      pageTitle: "Lakókocsi- és lakóautó-szolgáltatások térképe",
+      meta: {
+        description: "Találjon vízfeltöltő helyeket, zuhanyzókat, mosodákat és kempingeket lakókocsijához vagy lakóautójához. Több mint 190 000 helyszín világszerte. Ingyenes alkalmazás, fiók létrehozása nélkül."
+      },
+      brandLabel: "Voyager Maps",
+      langSwitcherAria: "Nyelvválasztó",
+      langOptionsAria: "Nyelvválasztás",
+      heroAria: "A lakókocsi-szervizpontok nyitóoldala",
+      eyebrow: "Utazási segédtérkép",
+      heroTitle: "Víz, zuhanyzók és kempingek a lakókocsival utazók számára",
+      heroLead: "A kilátás tökéletes, de a víztartály üres. A szolgáltatási pontok, a feltöltő csapok és a zuhanyzók szétszórva találhatók a fórumokon és a tagok számára elérhető listákon, így a kempingbuszos élet gyakorlati oldala sokkal több keresgélést igényel, mint amennyit kellene.",
+      primaryCta: "Teljes térkép megnyitása az alkalmazásban",
+      primaryCtaAria: "Nyissa meg az alkalmazásban a teljes lakókocsi-szolgáltatási térképet",
+      badgeAppleLine: "Töltse le a",
+      badgeGoogleLine: "Töltsd le itt",
+      badgeAppleAria: "Töltsd le a Voyager Maps alkalmazást az App Store-ból!",
+      badgeGoogleAria: "Töltsd le a Voyager Maps alkalmazást a Google Playről!",
+      pageFree: "Ingyenes · iOS és Android",
+      previewAlt: "Kempingek és kempingautók számára kialakított szolgáltatópontok előnézete",
+      previewFallback: "Statikus térkép-előnézeti helyőrző a lakókocsi-szolgáltatási pontokhoz",
+      previewOverlay: "A rendelkezésre álló helyszínek előnézete",
+      previewNote: "Jelenleg csak egy korlátozott előnézetet láthat",
+      problemAria: "Problémák a lakókocsi-szervizpontok megtalálásával",
+      problemTitle: "Helyet találni könnyű. Vizet találni viszont nem.",
+      problem1: "A kempingek mindenhol jól le vannak fedve. Azok a dolgok, amelyekből valóban elfogyhat az embernek – friss víz, zuhany, mosoda, hely a tartály kiürítésére –, azok, amelyeket senki sem sorol fel együtt.",
+      problem2: "A közösségi alkalmazások csak azokat a helyeket ismerik, amelyeket valaki vette a fáradtságot, hogy hozzáadjon, így a lefedettség jelentősen csökken, amint elhagyja a népszerű útvonalakat.",
+      problem3: "Az általános térképalkalmazások a lakóautót úgy kezelik, mint egy személyautót, és ritkán jelzik, hogy egy-egy megálló hasznos-e, ha az ember a járművében lakik.",
+      solutionAria: "Hogyan segíti az alkalmazás a kempingautóval és lakóautóval utazókat?",
+      solutionTitle: "Minden, ami egy kempingezőnek valójában elfogyhat",
+      solutionText: "A Voyager Maps egy térképen gyűjti össze a praktikus megállóhelyeket: több mint 190 000 kemping és lakókocsi-parkoló, több mint 450 000 ivóvíz-csap, 36 000 zuhanyzó és közel 20 000 önkiszolgáló mosoda világszerte – valamint WC-k, üzemanyagtöltő állomások és parkolók az út mentén.",
+      feature1Title: "Tankoljon fel és frissüljön fel!",
+      feature1Text: "Ivóvíz, zuhanyzók és önkiszolgáló mosodák – pontosan azok, amelyekre éppen szükséged van.",
+      feature2Title: "Hol tölthetjük az éjszakát?",
+      feature2Text: "Világszerte több mint 190 000 kemping és lakókocsi-parkoló, a teljes körű szolgáltatást nyújtó helyektől az egyszerű éjszakai megállóhelyekig.",
+      feature3Title: "A főútvonalaktól távolabb is jól megállja a helyét",
+      feature3Text: "Az alkalmazás nem a felhasználók által beküldött adatokra, hanem nyílt térképadatokra épül, így a lefedettség nem csökken, ha elhagyja a forgalmas útvonalakat.",
+      ctaBlockAria: "Cselekvésre ösztönzés",
+      ctaBlockTitle: "Tervezd meg a következő megállásodat!",
+      ctaBlockText: "Nyissa meg az alkalmazást, hogy megtalálja az útvonalához közeli vízforrásokat, zuhanyzókat és kempingeket.",
+      seoAria: "SEO-tartalom a lakókocsik és kempingautók szervizpontjairól",
+      seoTitle: "Lakókocsi- és kempingautó-szervizpontok a „van life” életmódhoz, autós utazásokhoz és hosszú túrákhoz",
+      seoParagraph1: "A lakókocsis utazáshoz csak néhány alapvető dologra van szükség: friss víz, működő zuhany, hely a ruhák mosására és éjszakai táborhely. Ezek megtalálása ritkán jelenti az utazás nyugodt részét. A lakóautók és kempingautók számára kialakított szolgáltatási pontok dokumentálása egyenetlen: egyesek tagsággal rendelkező klubok weboldalain találhatók, mások évek óta elavult fórumszálakban, megint mások pedig olyan nyelven, amelyet nem ismer az utazó. Ennek eredményeként a tapasztalt utazók gyakran azokra a kevés helyekre alapozzák útvonaluk tervezését, amelyekben már megbíznak, ahelyett, hogy a közelben található számos lehetőség közül választanának.",
+      seoParagraph2: "A lakókocsi-szolgáltatások térképe akkor a leghasznosabb, ha nyílt térképadatokon alapul, ahelyett, hogy a tagok bejegyzésein alapulna, mert így a lefedettség a valós helyzetet tükrözi, nem pedig azt, hogy ki éppen posztolt róla. A Voyager Maps kempingeket, lakókocsi-parkolókat, ivóvíz-csapokat, zuhanyzókat, önkiszolgáló mosodákat, WC-ket, üzemanyagtöltő állomásokat és parkolókat egyesít egy kereshető térképen, így még az odaérkezés előtt ellenőrizheted, mi található a ma esti szálláshelyed közelében. Akár teljes munkaidőben utazol, akár egy hosszú nyári utazásra indulsz, akár egy hétvégét töltesz el egy átalakított kempingautóval, a praktikus megállóhelyeket érdemes kéznél tartani.",
+      consentEyebrow: "Adatvédelmi beállítások",
+      consentTitle: "Adatvédelmi beállítások",
+      consentDescription: "Az opcionális elemzési adatokat kizárólag az Ön hozzájárulása után, statisztikai célokra használjuk fel a Voyager Maps fejlesztése és tökéletesítése érdekében.",
+      consentNecessaryLabel: "Szükséges",
+      consentNecessaryDescription: "A nyelvválasztáshoz, a hozzájárulás állapotához és az oldal alapvető funkcióinak működéséhez szükséges.",
+      consentNecessaryValue: "Mindig aktív",
+      consentStatisticsLabel: "Statisztikák",
+      consentStatisticsValue: "Google Analytics 4 a látogatások és interakciós események nyomon követéséhez",
+      consentNote: "Ezt a beállítást bármikor megváltoztathatja az adatvédelmi gomb segítségével.",
+      consentReject: "Csak a szükséges részeket használja",
+      consentCustomize: "Személyre szabás",
+      consentSave: "Beállítások mentése",
+      consentAccept: "Elfogadom az elemzési feltételeket",
+      consentManage: "Adatvédelmi beállítások",
+      exploreTitle: "Fedezze fel a térképeket",
+      exploreHomeLink: "Főoldal",
+      exploreWaterLink: "Ivóvíz-térkép",
+      exploreToiletLink: "Nyilvános WC-térkép",
+      exploreShowerLink: "Ingyenes zuhanyzó-térkép",
+      exploreParkingLink: "Parkolási térkép",
+      exploreCampervanLink: "Kempingbusz-szolgáltatási térkép",
+      exploreBackpackerLink: "Backpacker-térkép",
+      legalTitle: "Jogi információk és dokumentáció",
+      privacyLink: "Adatvédelmi irányelvek",
+      termsLink: "Feltételek",
+      deleteLink: "Adatok törlése",
+      footer: "© A Voyager Maps weboldala"
+    },
+    backpacker: {
+      pageTitle: "Túrás és egyéni utazók térképe",
+      meta: {
+        description: "Zuhanyok, mosodák, ivóvíz és Wi-Fi hátizsákos utazóknak és egyedül utazóknak. Világszerte 5,5 millió helyszín. Ingyenes alkalmazás, regisztráció nélkül."
+      },
+      brandLabel: "Voyager Maps",
+      langSwitcherAria: "Nyelvválasztó",
+      langOptionsAria: "Nyelvválasztás",
+      heroAria: "Főoldali hirdetés hátizsákos utazók és egyedül utazók számára",
+      eyebrow: "Utazási segédtérkép",
+      heroTitle: "A hátizsákos utazók praktikus térképe",
+      heroLead: "Új város, nehéz csomag, hat óra van még a bejelentkezésig. Valahol sétatávolságon belül van egy zuhanyzó, egy mosoda, egy ivóvízcsap és ingyenes Wi-Fi – de ezek egyike sem szerepel a kezedben lévő térképen.",
+      primaryCta: "Teljes térkép megnyitása az alkalmazásban",
+      primaryCtaAria: "Nyissa meg a teljes hátizsákos utazóknak szóló térképet az alkalmazásban",
+      badgeAppleLine: "Töltse le a",
+      badgeGoogleLine: "Töltsd le itt",
+      badgeAppleAria: "Töltsd le a Voyager Maps alkalmazást az App Store-ból!",
+      badgeGoogleAria: "Töltsd le a Voyager Maps alkalmazást a Google Playről!",
+      pageFree: "Ingyenes · iOS és Android",
+      previewAlt: "A hátizsákos utazók számára elérhető zuhanyzók, mosodák és vízforrások áttekintése",
+      previewFallback: "Statikus térkép-előnézeti helyőrző a hátizsákos utazók számára elérhető szolgáltatásokhoz",
+      previewOverlay: "A rendelkezésre álló helyszínek előnézete",
+      previewNote: "Jelenleg csak egy korlátozott előnézetet láthat",
+      problemAria: "Problémák, amelyekkel az egyedül utazók szembesülnek a praktikus szolgáltatások megtalálásakor",
+      problemTitle: "A kijelentkezés és az éjszakai busz indulása közötti idő",
+      problem1: "Az útikönyvek általában azt mutatják be, mit érdemes megnézni. Ritkán foglalkoznak azzal, hol lehet zuhanyozni, ruhát mosni, palackot feltölteni vagy Wi-Fi-vel rendelkező helyen leülni, amíg az ember szállásra vár.",
+      problem2: "Egyedül utazni azt jelenti, hogy minden holmidat magaddal kell cipelned, így egy olyan helyre tett kitérő, amelyről kiderül, hogy zárva van, nem csupán időveszteséget jelent.",
+      problem3: "A költséghatékony utazás alapja az ingyenes víz, az ingyenes Wi-Fi és az olcsó mosás – pontosan azok a három dolog, amelyekkel a mainstream térképalkalmazások a legkevésbé tudnak szolgálni.",
+      solutionAria: "Hogyan segít az alkalmazás a hátizsákos turistáknak és az egyedül utazóknak?",
+      solutionTitle: "A hostelek közötti távolságok áthidalására készült",
+      solutionText: "Egy térkép azokról a dolgokról, amelyek valóban meghatározzák a napodat: több mint 36 000 zuhanyzó, közel 20 000 önkiszolgáló mosoda, több mint 450 000 ivóvíz-csap, 490 000 WC és 380 000 Wi-Fi-hozzáférést biztosító hely – összesen 5,5 millió helyszínen világszerte.",
+      feature1Title: "Zuhanyozz, mosakodj, töltsd fel a készletedet",
+      feature1Text: "Zuhanyok, önkiszolgáló mosodák és ivóvíz – így a két szálláshely közötti hosszú várakozási idő is elviselhetőbbé válik.",
+      feature2Title: "Ingyenes víz és Wi-Fi",
+      feature2Text: "Szűrje ki az ingyenes helyeket – víztöltő pontokat, nyilvános csapokat és nyílt Wi-Fi-vel rendelkező helyeket.",
+      feature3Title: "Nincs fiók, nincs regisztráció",
+      feature3Text: "Nyissa meg a térképet, és használja! Nincs szükség regisztrációra, és minden országban ugyanúgy működik, ahol éppen utazik.",
+      ctaBlockAria: "Cselekvésre ösztönzés",
+      ctaBlockTitle: "Találd meg a közelben, amire szükséged van!",
+      ctaBlockText: "Nyissa meg az alkalmazást, hogy megtalálja a közelében lévő zuhanyzókat, mosodákat és vízforrásokat.",
+      seoAria: "SEO-tartalom a hátizsákos utazásról és az egyedül utazók számára elérhető szolgáltatásokról",
+      seoTitle: "Hátizsákos és egyéni utazóknak szóló térkép hostelekről, pályaudvarokról és városi megállóhelyekről",
+      seoParagraph1: "A hátizsákos utazás többnyire logisztika, amit kalandnak álcáznak. Az éjszakai busz hatkor érkezik, a bejelentkezés kettőkor van, és a kettő közötti nyolc óra teljes mértékben attól függ, hogy találsz-e zuhanyzót, helyet, ahol leteheted a táskádat, csapot, ahol feltöltheted a palackodat, és egy Wi-Fi-vel ellátott ülőhelyet. Ezek közül semmi sem szerepel az útikönyvekben, és éppen egy ismeretlen városban, egy olyan nyelven, amelyet talán nem is értesz, a legkevésbé jön jól a telefon.",
+      seoParagraph2: "Egy hátizsákos utazóknak szóló térkép csak akkor érdemes magaddal vinni, ha az utazás gyakorlati szempontjait is lefedi: zuhanyzók, önkiszolgáló mosodák, ivóvíz, nyilvános WC-k, Wi-Fi, szupermarketek és gyógyszertárak – és mindezt minden országban, nem csak a jól dokumentált helyeken. A Voyager Maps nyílt térképadatokon alapul és fiók nélkül is működik, így ugyanaz a térkép pontosan ugyanúgy viselkedik, akár Lisszabonban szállók között utazol, akár Bangkokban vársz átszállásra, akár egy hosszú napot sétálsz egy olyan városban, ahol még soha nem jártál. Különösen az egyedül utazók számára az, hogy tudják, hol találhatók a praktikus megállóhelyek, eltávolít egy apró, de állandó feszültségforrást az utazásból.",
+      consentEyebrow: "Adatvédelmi beállítások",
+      consentTitle: "Adatvédelmi beállítások",
+      consentDescription: "Az opcionális elemzési adatokat kizárólag az Ön hozzájárulásával, statisztikai célokra használjuk fel a Voyager Maps fejlesztése és tökéletesítése érdekében.",
+      consentNecessaryLabel: "Szükséges",
+      consentNecessaryDescription: "A nyelvválasztáshoz, a hozzájárulás állapotához és az oldal alapvető funkcióinak működéséhez szükséges.",
+      consentNecessaryValue: "Mindig aktív",
+      consentStatisticsLabel: "Statisztikák",
+      consentStatisticsValue: "Google Analytics 4 a látogatások és interakciós események nyomon követéséhez",
+      consentNote: "Ezt a beállítást bármikor megváltoztathatja az adatvédelmi gomb segítségével.",
+      consentReject: "Csak a szükséges részeket használja",
+      consentCustomize: "Személyre szabás",
+      consentSave: "Beállítások mentése",
+      consentAccept: "Elfogadom az elemzési feltételeket",
+      consentManage: "Adatvédelmi beállítások",
+      exploreTitle: "Fedezze fel a térképeket",
+      exploreHomeLink: "Főoldal",
+      exploreWaterLink: "Ivóvíz-térkép",
+      exploreToiletLink: "Nyilvános WC-térkép",
+      exploreShowerLink: "Ingyenes zuhanyzó-térkép",
+      exploreParkingLink: "Parkolási térkép",
+      exploreCampervanLink: "Kempingbusz-szolgáltatási térkép",
+      exploreBackpackerLink: "Backpacker-térkép",
+      legalTitle: "Jogi információk és dokumentáció",
+      privacyLink: "Adatvédelmi irányelvek",
+      termsLink: "Feltételek",
+      deleteLink: "Adatok törlése",
+      footer: "© A Voyager Maps weboldala"
     }
   },
   routingPage: {
@@ -516,5 +619,15 @@ window.voyagerLocales.hu = {
       appStoreCta: "Megnyitás az App Store-ban",
       playStoreCta: "Megnyitás a Google Play-ben"
     }
-  }
+  },
+  expImage3Alt: "Szűrőpanel az utazási kategóriákkal a Voyager Maps alkalmazásban",
+  expImage3Caption: "Szűrje az igényeinek megfelelően",
+  expImage4Alt: "Címkeresés javaslatokkal a Voyager Maps alkalmazásban",
+  expImage4Caption: "Bármely hely keresése",
+  expImage5Alt: "A Voyager Maps sötét módú térképnézete",
+  expImage5Caption: "Sötét mód éjszakai használatra",
+  exploreCampervanLink: "Kempingbusz-szolgáltatási térkép",
+  exploreBackpackerLink: "Backpacker-térkép",
+  expImage2Alt: "Párizsi térkép, amelyen a Voyager Maps alkalmazásban több ezer helyszín csoportokba rendezve jelenik meg",
+  expImage2Caption: "Csoportosított térképnézet"
 };
