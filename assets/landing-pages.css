@@ -227,11 +227,55 @@ p {
   font-size: 1.05rem;
 }
 
+/* Grid instead of flex so the two badges equalize to the WIDER one's natural
+   content width — not stretched to fill the row (flex:1 1 0 would do that)
+   and not left mismatched (auto width would do that). inline-grid keeps the
+   row itself shrink-to-fit; grid-auto-columns:1fr is what performs the
+   equalization: for a shrink-to-fit container, an `fr` track's intrinsic
+   contribution is its content's max-content width, and equal `fr` tracks
+   then share that space evenly — i.e. both columns become exactly as wide
+   as the widest one. align-self keeps the row from being stretched full
+   width by its own parent (a column flex container, see .hero rules below). */
 .cta-row {
   margin-top: 1.2rem;
-  display: flex;
-  flex-wrap: wrap;
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-self: flex-start;
   gap: 0.7rem;
+}
+
+/* The hero's first column (headline + CTA) is a flex column so the "Free"
+   line can sit above the store badges via `order`, in CSS rather than
+   markup — this layout is duplicated verbatim across every locale copy of
+   these landing pages. */
+.hero > :first-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero > :first-child > .eyebrow {
+  order: 1;
+}
+
+.hero > :first-child > h1 {
+  order: 2;
+}
+
+.hero > :first-child > .lead {
+  order: 3;
+}
+
+.hero > :first-child > .hero-free {
+  order: 4;
+}
+
+.hero > :first-child > .cta-row {
+  order: 5;
+}
+
+.hero > :first-child > .proof {
+  order: 6;
 }
 
 .btn {
@@ -840,8 +884,9 @@ p {
 }
 
 .hero-free {
-  margin-top: 0.65rem;
-  font-size: 0.82rem;
+  margin-top: 1rem;
+  font-size: 3.5rem; /* 56px */
+  font-weight: 700;
   color: var(--muted);
   letter-spacing: 0.01em;
 }
@@ -1269,9 +1314,14 @@ body.consent-active {
 }
 
 @media (max-width: 640px) {
+  /* Stacked instead of side by side: a single max-content column, so both
+     badges still equalize to the wider one's width — not full viewport
+     width like the .btn:not(.store-badge) rule below does for other
+     buttons. */
   .cta-row {
-    flex-direction: column;
-    align-items: flex-start;
+    grid-auto-flow: row;
+    grid-auto-columns: unset;
+    grid-template-columns: max-content;
   }
 
   .btn:not(.store-badge) {
