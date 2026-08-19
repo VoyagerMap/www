@@ -81,7 +81,7 @@
   <li><strong>Customer support and security</strong> – legitimate interest</li>
   <li><strong>Guest-mode operation</strong> – legitimate interest</li>
   <li><strong>Billing and legal compliance</strong> – legal obligation</li>
-  <li><strong>Product analytics and improvement</strong> (including PostHog and other analytics tooling) – legitimate interest</li>
+  <li><strong>Product analytics and improvement in the App</strong> (including PostHog, and session replay where enabled) – consent</li>
   <li><strong>Advertising and marketing measurement</strong> – user consent, where required</li>
 </ul>
 
@@ -97,8 +97,17 @@
 <p>
   The App uses <strong>PostHog</strong> to understand product usage and improve reliability and user experience.
   Depending on configuration, PostHog may be used for analytics, feature flags, surveys, and limited session
-  replay functionality. Reasonable measures are applied to reduce the likelihood of capturing sensitive
-  information in analytics data or recordings.
+  replay functionality.
+</p>
+<p>
+  <strong>These tools run only with your consent.</strong> Until you grant it, the PostHog SDK is not started and no
+  events are sent &mdash; the App works exactly the same either way. You can withdraw consent at any time in the
+  App&rsquo;s settings, which stops any further collection.
+</p>
+<p>
+  PostHog data is processed on PostHog&rsquo;s <strong>EU</strong> infrastructure, so no transfer outside the EEA is
+  involved for this tool. Where session replay is enabled, masking is applied to reduce the likelihood of capturing
+  text entered in the App or other sensitive content.
 </p>
 
 <h2>6. Advertising and Measurement Tools</h2>
@@ -107,10 +116,11 @@
   subject to applicable legal requirements and user consent where required.
 </p>
 
-<h2>6/A. Website Cookies and Consent (Cookiebot + Google Analytics 4)</h2>
+<h2>6/A. Website Cookies and Consent (Google Analytics 4)</h2>
 <p>
-  The Voyager Map website uses <strong>Cookiebot</strong> as a Consent Management Platform (CMP) to collect,
-  store, and manage cookie preferences.
+  The Voyager Map website uses its own consent banner to collect, store, and manage cookie preferences. Until a
+  choice is made, Google Consent Mode is set to <strong>denied</strong> for analytics, advertising, and
+  personalisation, so nothing non-essential runs before consent is given.
 </p>
 <ul>
   <li><strong>Strictly necessary cookies:</strong> used for essential website operation and security.</li>
@@ -132,8 +142,10 @@
 
 <h2>6/B. Cookie Retention (Website)</h2>
 <p>
-  Cookie lifetimes vary by cookie type and provider. Detailed, up-to-date cookie names, purposes,
-  providers, and retention periods are available in the Cookiebot cookie declaration presented on the website.
+  Cookie lifetimes vary by cookie type and provider. Strictly necessary cookies, including the record of your own
+  consent choice, are kept for up to 12 months. Google Analytics 4 cookies are set only after consent and follow
+  Google&rsquo;s own lifetimes for that product. You can review or change your choice at any time through the consent
+  banner, and clearing your browser storage removes the stored choice.
 </p>
 
 <h2>7. Server Logs and Diagnostics</h2>
