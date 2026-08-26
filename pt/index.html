@@ -148,9 +148,24 @@
   </head>
   <body>
     <main class="container">
+      <header class="site-header">
+        <a class="brand" href="./index.html" aria-label="Voyager Maps"
+          ><img class="brand-mark" src="../pictures/icon/brand-mark.png" width="24" height="24" alt="" aria-hidden="true" /><span
+            class="brand-name"
+            ><span class="brand-name-lead">Voyager</span> Maps</span
+          ></a
+        >
+        <nav class="site-nav" aria-label="Seções da página" data-i18n-aria="navAria">
+          <a href="#compare" data-i18n="navWhy">Por que o Voyager?</a>
+          <a href="#coverage" data-i18n="navFind">O que você pode encontrar</a>
+          <a href="#maps" data-i18n="navMaps">Mapas</a>
+        </nav>
+        <nav class="lang-switch" aria-label="Language switcher" data-i18n-aria="langSwitcherAria"></nav>
+      </header>
 
       <section class="hero" aria-label="Seção principal" data-i18n-aria="heroAria" data-track-section="hero">
         <div class="hero-content">
+          <p class="hero-pill"><span class="hero-pill-dot" aria-hidden="true"></span><span data-i18n="heroFree">Gratuito · iOS e Android</span></p>
           <h1 data-i18n="heroTitle">Encontre banheiros, água, chuveiros e Wi-Fi – onde quer que você viaje.</h1>
           <p class="lead" data-i18n="heroLead">O Voyager Maps te ajuda a encontrar os lugares que você realmente precisa durante uma viagem — banheiros, água potável, Wi-Fi, lavanderias —, principalmente quando você está em um lugar desconhecido.</p>
           <div class="cta-row">
@@ -189,341 +204,324 @@
               </span>
             </a>
           </div>
-          <p class="hero-free" data-i18n="heroFree">Gratuito · iOS e Android</p>
-          <p class="proof" data-i18n="heroProof">5,5 milhões de locais úteis · 237 países · grátis</p>
+          <dl class="stat-strip">
+            <div class="stat">
+              <dd class="stat-value" data-i18n="statPlacesValue">5,5M</dd>
+              <dt class="stat-label" data-i18n="statPlacesLabel">locais úteis</dt>
+            </div>
+            <div class="stat">
+              <dd class="stat-value" data-i18n="statCountriesValue">237</dd>
+              <dt class="stat-label" data-i18n="statCountriesLabel">países</dt>
+            </div>
+            <div class="stat">
+              <dd class="stat-value" data-i18n="statWifiValue">389k</dd>
+              <dt class="stat-label" data-i18n="statWifiLabel">com Wi-Fi grátis</dt>
+            </div>
+          </dl>
         </div>
         <div class="hero-visual">
           <figure class="preview-shell">
             <picture>
-              <source type="image/webp" srcset="../pictures/paris-home-map-800w.webp 800w, ../pictures/paris-home-map.webp 1080w" sizes="(max-width: 700px) 90vw, 340px" />
+              <source type="image/webp" srcset="../pictures/paris-home-map-800w.webp 800w, ../pictures/paris-home-map.webp 1080w" sizes="(max-width: 900px) 78vw, 336px" />
               <img
                 src="../pictures/paris-home-map-800w.jpg"
                 srcset="../pictures/paris-home-map-800w.jpg 800w, ../pictures/paris-home-map.jpg 1080w"
-                sizes="(max-width: 700px) 90vw, 340px"
+                sizes="(max-width: 900px) 78vw, 336px"
                 width="800"
                 height="1731"
                 fetchpriority="high"
-                alt="Voyager Maps app showing toilet, drinking water and shower locations on a map of Paris"
-                data-i18n-aria="previewAria"
+                alt="Imagem de pré-visualização do aplicativo Voyager Maps"
+                data-i18n-alt="previewAria"
                 data-track-image="product_preview"
               />
             </picture>
-            <figcaption class="preview-caption" data-i18n="previewCaption">Prévia do produto</figcaption>
           </figure>
         </div>
       </section>
-      <section class="card vs-section" aria-label="O Voyager Maps comparado ao Google Maps" data-i18n-aria="vsAria" data-track-section="vs_comparison">
+
+      <section class="section" id="compare" aria-label="O Voyager Maps comparado ao Google Maps" data-i18n-aria="vsAria" data-track-section="vs_comparison">
+        <p class="eyebrow" data-i18n="eyebrowDifference">A diferença</p>
         <h2 data-i18n="vsTitle">Por que não usar simplesmente o Google Maps?</h2>
-        <p data-i18n="vsIntro">O Google Maps é ótimo pra navegação. Mas quando se trata de recursos comunitários gratuitos — banheiros, torneiras de água, chuveiros —, ele apresenta resultados mistos. O Voyager Maps foi criado exatamente pra esses momentos.</p>
-        <div class="vs-table" style="margin-top: 1rem" role="table" aria-label="Feature comparison">
+        <p class="section-lead" data-i18n="vsIntro">O Google Maps é ótimo pra navegação. Mas quando se trata de recursos comunitários gratuitos — banheiros, torneiras de água, chuveiros —, ele apresenta resultados mistos. O Voyager Maps foi criado exatamente pra esses momentos.</p>
+        <div class="vs-table" role="table" aria-label="Feature comparison">
           <div class="vs-head-row" role="row">
-            <div class="vs-cell-need" role="columnheader"></div>
+            <div class="vs-cell-need" role="columnheader" data-i18n="vsCityLabel">Em Paris</div>
             <div class="vs-head-label" role="columnheader" data-i18n="vsGmLabel">Google Maps</div>
             <div class="vs-head-label vs-vm-head" role="columnheader" data-i18n="vsVmLabel">Voyager Maps</div>
           </div>
           <div class="vs-row" role="row">
             <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed1">Banheiro</div>
-            <div class="vs-miss" role="cell" data-i18n="vsGm1">Conhece alguns locais públicos</div>
-            <div class="vs-hit" role="cell" data-i18n="vsVm1">✓ 331 banheiros em Paris — públicos, pagos e para clientes</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">Google Maps</span><span data-i18n="vsGm1">Conhece alguns locais públicos</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm1">✓ 331 banheiros em Paris — públicos, pagos e para clientes</span></div>
           </div>
           <div class="vs-row" role="row">
             <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed2">Reabastecimento de água potável</div>
-            <div class="vs-miss" role="cell" data-i18n="vsGm2">Mostra alguns desses lugares, cerca de 20 espalhados pela cidade</div>
-            <div class="vs-hit" role="cell" data-i18n="vsVm2">✓ Torneiras de água grátis e recarga de garrafas — 289 locais só em Paris</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">Google Maps</span><span data-i18n="vsGm2">Mostra alguns desses lugares, cerca de 20 espalhados pela cidade</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm2">✓ Torneiras de água grátis e recarga de garrafas — 289 locais só em Paris</span></div>
           </div>
           <div class="vs-row" role="row">
             <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed3">Chuveiro</div>
-            <div class="vs-miss" role="cell" data-i18n="vsGm3">Nenhum resultado — só hotéis e lugares irrelevantes</div>
-            <div class="vs-hit" role="cell" data-i18n="vsVm3">✓ Vários locais com chuveiros gratuitos ou a preços acessíveis</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">Google Maps</span><span data-i18n="vsGm3">Nenhum resultado — só hotéis e lugares irrelevantes</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm3">✓ Vários locais com chuveiros gratuitos ou a preços acessíveis</span></div>
           </div>
           <div class="vs-row" role="row">
             <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed4">Wi-Fi grátis</div>
-            <div class="vs-miss" role="cell" data-i18n="vsGm4">Principalmente cafés</div>
-            <div class="vs-hit" role="cell" data-i18n="vsVm4">✓ Wi-Fi grátis e pontos de Wi-Fi abertos ao público</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">Google Maps</span><span data-i18n="vsGm4">Principalmente cafés</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm4">✓ Wi-Fi grátis e pontos de Wi-Fi abertos ao público</span></div>
           </div>
           <div class="vs-row vs-row-last" role="row">
             <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed5">O que ela destaca</div>
-            <div class="vs-miss" role="cell" data-i18n="vsGm5">Navegação, restaurantes, cafés</div>
-            <div class="vs-hit" role="cell" data-i18n="vsVm5">✓ Só o que você precisa para viajar</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">Google Maps</span><span data-i18n="vsGm5">Navegação, restaurantes, cafés</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm5">✓ Só o que você precisa para viajar</span></div>
           </div>
         </div>
         <p class="vs-note" data-i18n="vsNote">Exemplo baseado em Paris, França (julho de 2026): os números do Voyager Maps foram contabilizados em nosso banco de dados; os números do Google Maps vieram de uma busca manual pela mesma categoria.</p>
-        <div class="cta-row" style="justify-content: center">
-          <a
-            class="store-badge"
-            href="https://apps.apple.com/app/6758412494"
-            aria-label="Baixe o Voyager Maps na App Store"
-            data-i18n-aria="badgeAppleAria"
-            data-track="cta"
-            data-cta-type="app_store_ios"
-            data-cta-position="comparison"
-          >
-            <span class="store-badge-icon" aria-hidden="true">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.3.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-            </span>
-            <span class="store-badge-copy">
-              <span class="store-badge-line1" data-i18n="badgeAppleLine">Baixe na</span>
-              <span class="store-badge-line2">App Store</span>
-            </span>
-          </a>
-          <a
-            class="store-badge"
-            href="https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
-            aria-label="Baixe o Voyager Maps no Google Play"
-            data-i18n-aria="badgeGoogleAria"
-            data-track="cta"
-            data-cta-type="app_store_android"
-            data-cta-position="comparison"
-          >
-            <span class="store-badge-icon" aria-hidden="true">
-              <svg width="19" height="21" viewBox="0 0 512 512" fill="currentColor" focusable="false"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l2.7 1.5 247.2-247v-5.8L47 0zm425.2 225L377.5 167l-65.1 65 65.1 65 95.6-57c27.2-15.6 27.2-41 0-56.6zM104.6 499l280.8-161.2-60.1-60.1-220.7 221.3z"/></svg>
-            </span>
-            <span class="store-badge-copy">
-              <span class="store-badge-line1" data-i18n="badgeGoogleLine">Baixe no</span>
-              <span class="store-badge-line2">Google Play</span>
-            </span>
-          </a>
-        </div>
       </section>
 
-      <section class="card" aria-label="Por que o Voyager Maps foi criado" data-i18n-aria="whyAria" data-track-section="why">
-        <h2 data-i18n="whyTitle">Por que o Voyager Maps foi criado</h2>
-        <p data-i18n="whyText">A maioria dos apps de mapas se concentra em te levar a algum lugar. O Voyager Maps se concentra no que você precisa quando chega lá — uma maneira rápida de encontrar os lugares úteis que fazem a viagem dar certo.</p>
-        <p class="proof" data-i18n="whyExamples">Os viajantes se deparam com situações como essas o tempo todo:</p>
-        <ul class="problem-list" style="margin-top: 0.45rem">
-          <li data-i18n="problem1">Você chega em uma cidade nova e precisa encontrar um banheiro ou Wi-Fi rapidinho.</li>
-          <li data-i18n="problem2">Você tá dirigindo no calor e só precisa encher sua garrafa de água.</li>
-          <li data-i18n="problem3">Você está viajando há dias e precisa de uma lavanderia ou de um chuveiro.</li>
-          <li data-i18n="problem4">Você tá num lugar desconhecido e só quer saber dos poucos lugares que realmente importam.</li>
-        </ul>
-        <p class="proof" data-i18n="whyClose">Com filtros e grupos de categorias, você vê só os lugares que te interessam, sem resultados irrelevantes atrapalhando.</p>
-      </section>
-
-      <section class="card" aria-label="Feito pra situações reais de viagem" data-i18n-aria="useAria" data-track-section="use_cases">
-        <h2 data-i18n="useTitle">Feito pra situações reais de viagem</h2>
-        <div class="use-grid" style="margin-top: 0.7rem">
-          <div class="mini">
-            <strong data-i18n="use1Title">Viagem de carro</strong>
-            <p data-i18n="use1Text">Encontre água potável e banheiros com mais facilidade, sem precisar sair do seu trajeto.</p>
-          </div>
-          <div class="mini">
-            <strong data-i18n="use2Title">Vida na van</strong>
-            <p data-i18n="use2Text">Cuide das suas necessidades do dia a dia de forma simples, sem resultados irrelevantes ou buscas demoradas.</p>
-          </div>
-          <div class="mini">
-            <strong data-i18n="use3Title">Mochilão</strong>
-            <p data-i18n="use3Text">Resolva rapidamente suas necessidades práticas, onde quer que você esteja — sem ter que ficar adivinhando.</p>
-          </div>
-          <div class="mini">
-            <strong data-i18n="use4Title">Exploração da cidade</strong>
-            <p data-i18n="use4Text">Planeja sua viagem pensando na água potável de graça, em vez de gastar dinheiro com garrafas.</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="card" aria-label="O que você pode encontrar" data-i18n-aria="findAria" data-track-section="categories">
+      <section class="section" id="coverage" aria-label="O que você pode encontrar" data-i18n-aria="findAria" data-track-section="categories">
+        <p class="eyebrow" data-i18n="eyebrowCoverage">Cobertura</p>
         <h2 data-i18n="findTitle">O que você pode encontrar em todo o mundo</h2>
-        <ul class="chip-list">
-          <li><span class="chip-icon" aria-hidden="true">🚻</span><span data-i18n="cat_toilets">Banheiros</span><span class="chip-count" data-i18n="cat_toiletsCount">520 mil</span></li>
-          <li><span class="chip-icon" aria-hidden="true">💧</span><span data-i18n="cat_water">Água potável</span><span class="chip-count" data-i18n="cat_waterCount">459 mil</span></li>
-          <li><span class="chip-icon" aria-hidden="true">🅿️</span><span data-i18n="cat_parking">Vagas de estacionamento</span><span class="chip-count" data-i18n="cat_parkingCount">1,2M</span></li>
-          <li><span class="chip-icon" aria-hidden="true">🧳</span><span data-i18n="cat_locker">Guarda-volumes</span><span class="chip-count" data-i18n="cat_lockerCount">1,8k</span></li>
-          <li><span class="chip-icon" aria-hidden="true">🏕️</span><span data-i18n="cat_camping">Acampamentos e chuveiros</span><span class="chip-count" data-i18n="cat_campingCount">228 mil</span></li>
-          <li><span class="chip-icon" aria-hidden="true">🛒</span><span data-i18n="cat_supermarket">Supermercados</span><span class="chip-count" data-i18n="cat_supermarketCount">493 mil</span></li>
-          <li><span class="chip-icon" aria-hidden="true">🏧</span><span data-i18n="cat_money">Dinheiro e câmbio</span><span class="chip-count" data-i18n="cat_moneyCount">261 mil</span></li>
-          <li><span class="chip-icon" aria-hidden="true">💊</span><span data-i18n="cat_pharmacy">Farmácias</span><span class="chip-count" data-i18n="cat_pharmacyCount">437 mil</span></li>
-          <li><span class="chip-icon" aria-hidden="true">🏥</span><span data-i18n="cat_emergency">Saúde e emergências</span><span class="chip-count" data-i18n="cat_emergencyCount">544 mil</span></li>
-          <li><span class="chip-icon" aria-hidden="true">🏛️</span><span data-i18n="cat_attraction">Atrações</span><span class="chip-count" data-i18n="cat_attractionCount">248k</span></li>
-          <li><span class="chip-icon" aria-hidden="true">📍</span><span data-i18n="cat_more">Mais pontos de parada úteis</span><span class="chip-count" data-i18n="cat_moreCount">1,1M</span></li>
+        <ul class="count-grid">
+          <li><span class="count-value" data-i18n="cat_toiletsCount">520 mil</span><span class="count-label" data-i18n="cat_toilets">Banheiros</span></li>
+          <li><span class="count-value" data-i18n="cat_waterCount">459 mil</span><span class="count-label" data-i18n="cat_water">Água potável</span></li>
+          <li><span class="count-value" data-i18n="cat_campingCount">228 mil</span><span class="count-label" data-i18n="cat_camping">Acampamentos e chuveiros</span></li>
+          <li><span class="count-value" data-i18n="cat_parkingCount">1,2M</span><span class="count-label" data-i18n="cat_parking">Vagas de estacionamento</span></li>
+          <li><span class="count-value" data-i18n="cat_supermarketCount">493 mil</span><span class="count-label" data-i18n="cat_supermarket">Supermercados</span></li>
+          <li><span class="count-value" data-i18n="cat_pharmacyCount">437 mil</span><span class="count-label" data-i18n="cat_pharmacy">Farmácias</span></li>
+          <li><span class="count-value" data-i18n="cat_emergencyCount">544 mil</span><span class="count-label" data-i18n="cat_emergency">Saúde e emergências</span></li>
+          <li><span class="count-value" data-i18n="cat_moneyCount">261 mil</span><span class="count-label" data-i18n="cat_money">Dinheiro e câmbio</span></li>
+          <li><span class="count-value" data-i18n="cat_attractionCount">248k</span><span class="count-label" data-i18n="cat_attraction">Atrações</span></li>
+          <li><span class="count-value" data-i18n="cat_lockerCount">1,8k</span><span class="count-label" data-i18n="cat_locker">Guarda-volumes</span></li>
+          <li><span class="count-value" data-i18n="cat_moreCount">1,1M</span><span class="count-label" data-i18n="cat_more">Mais pontos de parada úteis</span></li>
+          <li class="count-wifi"><span class="count-value">389k</span><span class="count-label" data-i18n="catWifiTile">Wi-Fi gratuito ou para clientes — filtra por isso em qualquer lugar</span></li>
         </ul>
-        <p class="chip-note" data-i18n="catNote">O Wi-Fi não é uma categoria separada — 389 mil desses lugares oferecem Wi-Fi gratuito ou exclusivo para clientes, e você pode filtrar por esse critério em todos eles.</p>
-        <p class="proof" data-i18n="findProof">Categorias úteis de viagem que as pessoas realmente procuram quando estão na rua.</p>
+        <p class="section-note" data-i18n="findProof">Categorias úteis de viagem que as pessoas realmente procuram quando estão na rua.</p>
       </section>
 
-      <section class="card" aria-label="Planejando uma viagem no app" data-i18n-aria="tripAria" data-track-section="trip_planning">
-        <h2 data-i18n="tripTitle">É mais do que só achar a próxima parada</h2>
-        <p data-i18n="tripLead">Os lugares que você encontrar podem virar um plano que você guarda, compartilha e calcula os custos — a parte que um app de mapas comum deixa por sua conta.</p>
-        <div class="feature-grid" style="margin-top: 0.9rem">
-          <div class="mini">
-            <strong data-i18n="trip1Title">Crie um itinerário</strong>
-            <p data-i18n="trip1Text">Salve os lugares que você encontrar como paradas, na ordem em que vai visitá-los, com horários e anotações.</p>
-          </div>
-          <div class="mini">
-            <strong data-i18n="trip2Title">Compartilha com quem estiver viajando com você</strong>
-            <p data-i18n="trip2Text">Manda um link ou adiciona seus companheiros de viagem pra que todo mundo siga o mesmo plano.</p>
-          </div>
-          <div class="mini">
-            <strong data-i18n="trip3Title">Veja o que isso significa</strong>
-            <p data-i18n="trip3Text">Coloca um custo estimado em qualquer parada e vê o total por moeda — útil quando a viagem passa por vários países.</p>
-          </div>
-          <div class="mini">
-            <strong data-i18n="trip4Title">Guarde aqueles que valem a pena voltar</strong>
-            <p data-i18n="trip4Text">Marque qualquer lugar como favorito e ele ficará a um toque de distância, tanto nessa viagem quanto na próxima.</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="card" aria-label="Experiência com o produto" data-i18n-aria="expAria" data-track-section="experience">
+      <section class="section" aria-label="Experiência com o produto" data-i18n-aria="expAria" data-track-section="experience">
+        <p class="eyebrow" data-i18n="eyebrowInApp">No aplicativo</p>
         <h2 data-i18n="expTitle">Experiência simples, decisões rápidas</h2>
-        <p data-i18n="expText">O Voyager Maps usa uma interface de mapa simples e categorias de viagem bem definidas, pra que você possa dar uma olhada rápida nas opções por perto e escolher sua próxima parada com confiança.</p>
-        <div class="inline-showcase-grid">
-          <figure class="inline-showcase">
-            <picture>
-              <source type="image/webp" srcset="../pictures/POI_quick_view-800w.webp 800w, ../pictures/POI_quick_view.webp 1080w" sizes="(max-width: 700px) 90vw, 340px" />
-              <img
-                src="../pictures/POI_quick_view-800w.jpg"
-                srcset="../pictures/POI_quick_view-800w.jpg 800w, ../pictures/POI_quick_view.jpg 1080w"
-                sizes="(max-width: 700px) 90vw, 340px"
-                width="800"
-                height="1733"
-                loading="lazy"
-                decoding="async"
-                alt="Visualização rápida dos detalhes do local no Voyager Maps"
-                data-i18n-alt="expImage1Alt"
-                data-track-image="poi_quick_view"
-              />
-            </picture>
-            <figcaption data-i18n="expImage1Caption">Detalhes rápidos dos locais no app</figcaption>
+        <p class="section-lead" data-i18n="expText">O Voyager Maps usa uma interface de mapa simples e categorias de viagem bem definidas, pra que você possa dar uma olhada rápida nas opções por perto e escolher sua próxima parada com confiança.</p>
+        <div class="step-grid">
+          <figure class="step">
+            <span class="preview-shell preview-shell--shot">
+              <picture>
+                <source type="image/webp" srcset="../pictures/filter-categories-800w.webp 800w, ../pictures/filter-categories.webp 1080w" sizes="(max-width: 700px) 62vw, 320px" />
+                <img
+                  src="../pictures/filter-categories-800w.jpg"
+                  srcset="../pictures/filter-categories-800w.jpg 800w, ../pictures/filter-categories.jpg 1080w"
+                  sizes="(max-width: 700px) 62vw, 320px"
+                  width="800"
+                  height="1733"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Painel de filtros com categorias de viagem no Voyager Maps"
+                  data-i18n-alt="expImage3Alt"
+                  data-track-image="filter_categories"
+                />
+              </picture>
+            </span>
+            <figcaption>
+              <strong data-i18n="expStep1Title">1 · Escolha suas categorias</strong>
+              <span data-i18n="expStep1Text">Ativa o que você precisa e o mapa esconde todo o resto. Salva a configuração como um grupo para a próxima vez.</span>
+            </figcaption>
           </figure>
-          <figure class="inline-showcase">
-            <picture>
-              <source type="image/webp" srcset="../pictures/paris-clusters-800w.webp 800w, ../pictures/paris-clusters.webp 1080w" sizes="(max-width: 700px) 90vw, 340px" />
-              <img
-                src="../pictures/paris-clusters-800w.jpg"
-                srcset="../pictures/paris-clusters-800w.jpg 800w, ../pictures/paris-clusters.jpg 1080w"
-                sizes="(max-width: 700px) 90vw, 340px"
-                width="800"
-                height="1731"
-                loading="lazy"
-                decoding="async"
-                alt="Mapa de Paris com milhares de locais agrupados em clusters no Voyager Maps"
-                data-i18n-alt="expImage2Alt"
-                data-track-image="map_clusters"
-              />
-            </picture>
-            <figcaption data-i18n="expImage2Caption">Visualização do mapa em grupos</figcaption>
+          <figure class="step">
+            <span class="preview-shell preview-shell--shot">
+              <picture>
+                <source type="image/webp" srcset="../pictures/paris-clusters-800w.webp 800w, ../pictures/paris-clusters.webp 1080w" sizes="(max-width: 700px) 62vw, 320px" />
+                <img
+                  src="../pictures/paris-clusters-800w.jpg"
+                  srcset="../pictures/paris-clusters-800w.jpg 800w, ../pictures/paris-clusters.jpg 1080w"
+                  sizes="(max-width: 700px) 62vw, 320px"
+                  width="800"
+                  height="1731"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Mapa de Paris com milhares de locais agrupados em clusters no Voyager Maps"
+                  data-i18n-alt="expImage2Alt"
+                  data-track-image="map_clusters"
+                />
+              </picture>
+            </span>
+            <figcaption>
+              <strong data-i18n="expStep2Title">2 · Dá uma olhada na área</strong>
+              <span data-i18n="expStep2Text">Milhares de locais continuam visíveis — eles ficam agrupados até você ampliar o mapa até a sua rua.</span>
+            </figcaption>
           </figure>
-          <figure class="inline-showcase">
-            <picture>
-              <source type="image/webp" srcset="../pictures/filter-categories-800w.webp 800w, ../pictures/filter-categories.webp 1080w" sizes="(max-width: 700px) 90vw, 340px" />
-              <img
-                src="../pictures/filter-categories-800w.jpg"
-                srcset="../pictures/filter-categories-800w.jpg 800w, ../pictures/filter-categories.jpg 1080w"
-                sizes="(max-width: 700px) 90vw, 340px"
-                width="800"
-                height="1733"
-                loading="lazy"
-                decoding="async"
-                alt="Painel de filtros com categorias de viagem no Voyager Maps"
-                data-i18n-alt="expImage3Alt"
-                data-track-image="filter_categories"
-              />
-            </picture>
-            <figcaption data-i18n="expImage3Caption">Filtra pelo que você precisa</figcaption>
-          </figure>
-          <figure class="inline-showcase">
-            <picture>
-              <source type="image/webp" srcset="../pictures/address-search-800w.webp 800w, ../pictures/address-search.webp 1080w" sizes="(max-width: 700px) 90vw, 340px" />
-              <img
-                src="../pictures/address-search-800w.jpg"
-                srcset="../pictures/address-search-800w.jpg 800w, ../pictures/address-search.jpg 1080w"
-                sizes="(max-width: 700px) 90vw, 340px"
-                width="800"
-                height="1733"
-                loading="lazy"
-                decoding="async"
-                alt="Busca de endereços com sugestões no Voyager Maps"
-                data-i18n-alt="expImage4Alt"
-                data-track-image="address_search"
-              />
-            </picture>
-            <figcaption data-i18n="expImage4Caption">Pesquise qualquer lugar</figcaption>
-          </figure>
-          <figure class="inline-showcase">
-            <picture>
-              <source type="image/webp" srcset="../pictures/dark-mode-map-800w.webp 800w, ../pictures/dark-mode-map.webp 1080w" sizes="(max-width: 700px) 90vw, 340px" />
-              <img
-                src="../pictures/dark-mode-map-800w.jpg"
-                srcset="../pictures/dark-mode-map-800w.jpg 800w, ../pictures/dark-mode-map.jpg 1080w"
-                sizes="(max-width: 700px) 90vw, 340px"
-                width="800"
-                height="1733"
-                loading="lazy"
-                decoding="async"
-                alt="Visualização do mapa no modo escuro no Voyager Maps"
-                data-i18n-alt="expImage5Alt"
-                data-track-image="dark_mode_map"
-              />
-            </picture>
-            <figcaption data-i18n="expImage5Caption">Modo escuro para uso noturno</figcaption>
+          <figure class="step">
+            <span class="preview-shell preview-shell--shot">
+              <picture>
+                <source type="image/webp" srcset="../pictures/POI_quick_view-800w.webp 800w, ../pictures/POI_quick_view.webp 1080w" sizes="(max-width: 700px) 62vw, 320px" />
+                <img
+                  src="../pictures/POI_quick_view-800w.jpg"
+                  srcset="../pictures/POI_quick_view-800w.jpg 800w, ../pictures/POI_quick_view.jpg 1080w"
+                  sizes="(max-width: 700px) 62vw, 320px"
+                  width="800"
+                  height="1733"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Visualização rápida dos detalhes do local no Voyager Maps"
+                  data-i18n-alt="expImage1Alt"
+                  data-track-image="poi_quick_view"
+                />
+              </picture>
+            </span>
+            <figcaption>
+              <strong data-i18n="expStep3Title">3 · Dá uma olhada antes de sair</strong>
+              <span data-i18n="expStep3Text">Horário de funcionamento, preço, acesso para cadeirantes — depois, navegue até lá ou adicione ao seu itinerário.</span>
+            </figcaption>
           </figure>
         </div>
       </section>
 
-      <section class="card" aria-label="Chamada final à ação" data-i18n-aria="finalAria" data-track-section="final_cta">
-        <h2 data-i18n="finalTitle">Todos os lugares úteis que você precisa — onde quer que você vá.</h2>
-        <p data-i18n="finalText">Instala o Voyager Maps e encontra o que precisas mais rápido, não importa aonde sua viagem te leve.</p>
-        <div class="cta-row" style="justify-content: center">
-          <a
-            class="store-badge"
-            href="https://apps.apple.com/app/6758412494"
-            aria-label="Baixe o Voyager Maps na App Store"
-            data-i18n-aria="badgeAppleAria"
-            data-track="cta"
-            data-cta-type="app_store_ios"
-            data-cta-position="final"
-          >
-            <span class="store-badge-icon" aria-hidden="true">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.3.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-            </span>
-            <span class="store-badge-copy">
-              <span class="store-badge-line1" data-i18n="badgeAppleLine">Baixe na</span>
-              <span class="store-badge-line2">App Store</span>
-            </span>
-          </a>
-          <a
-            class="store-badge"
-            href="https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
-            aria-label="Baixe o Voyager Maps no Google Play"
-            data-i18n-aria="badgeGoogleAria"
-            data-track="cta"
-            data-cta-type="app_store_android"
-            data-cta-position="final"
-          >
-            <span class="store-badge-icon" aria-hidden="true">
-              <svg width="19" height="21" viewBox="0 0 512 512" fill="currentColor" focusable="false"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l2.7 1.5 247.2-247v-5.8L47 0zm425.2 225L377.5 167l-65.1 65 65.1 65 95.6-57c27.2-15.6 27.2-41 0-56.6zM104.6 499l280.8-161.2-60.1-60.1-220.7 221.3z"/></svg>
-            </span>
-            <span class="store-badge-copy">
-              <span class="store-badge-line1" data-i18n="badgeGoogleLine">Baixe no</span>
-              <span class="store-badge-line2">Google Play</span>
-            </span>
-          </a>
+      <section class="section" aria-label="Feito pra situações reais de viagem" data-i18n-aria="useAria" data-track-section="use_cases">
+        <p class="eyebrow" data-i18n="eyebrowBuiltFor">Criado para</p>
+        <h2 data-i18n="useTitle">Feito pra situações reais de viagem</h2>
+        <ul class="audience-grid">
+          <li>
+            <a href="./parking-map.html" data-track="cta" data-cta-type="internal_map" data-cta-position="audience_roadtrip">
+              <span class="audience-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 17h2m14 0h2M5 17a2 2 0 104 0 2 2 0 10-4 0m10 0a2 2 0 104 0 2 2 0 10-4 0M3 17v-5l2-5h9l3 5h4v5"/></svg>
+              </span>
+              <strong data-i18n="use1Title">Viagem de carro</strong>
+              <span class="audience-text" data-i18n="use1Text">Encontre água potável e banheiros com mais facilidade, sem precisar sair do seu trajeto.</span>
+              <span class="audience-link" data-i18n="exploreParkingLink">Mapa de estacionamentos</span>
+            </a>
+          </li>
+          <li>
+            <a href="./campervan-service-map.html" data-track="cta" data-cta-type="internal_map" data-cta-position="audience_vanlife">
+              <span class="audience-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 16V7a2 2 0 012-2h9a2 2 0 012 2v1h2.5L21 12v4M6 16a2 2 0 104 0 2 2 0 10-4 0m9 0a2 2 0 104 0 2 2 0 10-4 0M3 16h3m4 0h5"/></svg>
+              </span>
+              <strong data-i18n="use2Title">Vida na van</strong>
+              <span class="audience-text" data-i18n="use2Text">Cuide das suas necessidades do dia a dia de forma simples, sem resultados irrelevantes ou buscas demoradas.</span>
+              <span class="audience-link" data-i18n="exploreCampervanLink">Mapa de serviços para trailers</span>
+            </a>
+          </li>
+          <li>
+            <a href="./backpacker-map.html" data-track="cta" data-cta-type="internal_map" data-cta-position="audience_backpacking">
+              <span class="audience-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M9 6V4.5A1.5 1.5 0 0110.5 3h3A1.5 1.5 0 0115 4.5V6m-9 0h12a2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2zm3 5h6"/></svg>
+              </span>
+              <strong data-i18n="use3Title">Mochilão</strong>
+              <span class="audience-text" data-i18n="use3Text">Resolva rapidamente suas necessidades práticas, onde quer que você esteja — sem ter que ficar adivinhando.</span>
+              <span class="audience-link" data-i18n="exploreBackpackerLink">Mapa do Mochileiro</span>
+            </a>
+          </li>
+          <li>
+            <a href="./drinking-water-map.html" data-track="cta" data-cta-type="internal_map" data-cta-position="audience_city">
+              <span class="audience-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M12 21s7-5.5 7-11a7 7 0 10-14 0c0 5.5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              </span>
+              <strong data-i18n="use4Title">Exploração da cidade</strong>
+              <span class="audience-text" data-i18n="use4Text">Planeja sua viagem pensando na água potável de graça, em vez de gastar dinheiro com garrafas.</span>
+              <span class="audience-link" data-i18n="exploreWaterLink">Mapa de Água Potável</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" aria-label="Planejando uma viagem no app" data-i18n-aria="tripAria" data-track-section="trip_planning">
+        <div class="card">
+          <h2 data-i18n="tripTitle">É mais do que só achar a próxima parada</h2>
+          <p class="section-lead" data-i18n="tripLead">Os lugares que você encontrar podem virar um plano que você guarda, compartilha e calcula os custos — a parte que um app de mapas comum deixa por sua conta.</p>
+          <div class="feature-grid">
+            <div class="mini">
+              <strong data-i18n="trip1Title">Crie um itinerário</strong>
+              <p data-i18n="trip1Text">Salve os lugares que você encontrar como paradas, na ordem em que vai visitá-los, com horários e anotações.</p>
+            </div>
+            <div class="mini">
+              <strong data-i18n="trip2Title">Compartilha com quem estiver viajando com você</strong>
+              <p data-i18n="trip2Text">Manda um link ou adiciona seus companheiros de viagem pra que todo mundo siga o mesmo plano.</p>
+            </div>
+            <div class="mini">
+              <strong data-i18n="trip3Title">Veja o que isso significa</strong>
+              <p data-i18n="trip3Text">Coloca um custo estimado em qualquer parada e vê o total por moeda — útil quando a viagem passa por vários países.</p>
+            </div>
+            <div class="mini">
+              <strong data-i18n="trip4Title">Guarde aqueles que valem a pena voltar</strong>
+              <p data-i18n="trip4Text">Marque qualquer lugar como favorito e ele ficará a um toque de distância, tanto nessa viagem quanto na próxima.</p>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="card" aria-label="Perguntas frequentes" data-i18n-aria="faqAria" data-track-section="faq">
+      <section class="section" aria-label="Chamada final à ação" data-i18n-aria="finalAria" data-track-section="final_cta">
+        <div class="final-cta">
+          <h2 data-i18n="finalTitle">Todos os lugares úteis que você precisa — onde quer que você vá.</h2>
+          <p data-i18n="finalText">Instala o Voyager Maps e encontra o que precisas mais rápido, não importa aonde sua viagem te leve.</p>
+          <div class="cta-row cta-row-center">
+            <a
+              class="store-badge"
+              href="https://apps.apple.com/app/6758412494"
+              aria-label="Baixe o Voyager Maps na App Store"
+              data-i18n-aria="badgeAppleAria"
+              data-track="cta"
+              data-cta-type="app_store_ios"
+              data-cta-position="final"
+            >
+              <span class="store-badge-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.3.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+              </span>
+              <span class="store-badge-copy">
+                <span class="store-badge-line1" data-i18n="badgeAppleLine">Baixe na</span>
+                <span class="store-badge-line2">App Store</span>
+              </span>
+            </a>
+            <a
+              class="store-badge"
+              href="https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
+              aria-label="Baixe o Voyager Maps no Google Play"
+              data-i18n-aria="badgeGoogleAria"
+              data-track="cta"
+              data-cta-type="app_store_android"
+              data-cta-position="final"
+            >
+              <span class="store-badge-icon" aria-hidden="true">
+                <svg width="19" height="21" viewBox="0 0 512 512" fill="currentColor" focusable="false"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l2.7 1.5 247.2-247v-5.8L47 0zm425.2 225L377.5 167l-65.1 65 65.1 65 95.6-57c27.2-15.6 27.2-41 0-56.6zM104.6 499l280.8-161.2-60.1-60.1-220.7 221.3z"/></svg>
+              </span>
+              <span class="store-badge-copy">
+                <span class="store-badge-line1" data-i18n="badgeGoogleLine">Baixe no</span>
+                <span class="store-badge-line2">Google Play</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Perguntas frequentes" data-i18n-aria="faqAria" data-track-section="faq">
         <h2 data-i18n="faqTitle">Perguntas frequentes</h2>
-        <div class="use-grid" style="margin-top: 0.7rem">
-          <div class="mini">
+        <div class="faq-grid">
+          <div class="faq-item">
             <strong data-i18n="faq1Q">O Voyager Maps é grátis?</strong>
             <p data-i18n="faq1A">Sim, o Voyager Maps é totalmente gratuito tanto no iOS quanto no Android. Não tem assinaturas nem compras dentro do app.</p>
           </div>
-          <div class="mini">
+          <div class="faq-item">
             <strong data-i18n="faq2Q">Quantos locais o Voyager Maps tem?</strong>
             <p data-i18n="faq2A">O Voyager Maps tem mais de 5,5 milhões de locais úteis em todo o mundo, incluindo banheiros públicos, torneiras de água potável, chuveiros gratuitos, pontos de Wi-Fi, lavanderias, estacionamentos e muito mais.</p>
           </div>
-          <div class="mini">
+          <div class="faq-item">
             <strong data-i18n="faq3Q">Para que serve o Voyager Maps?</strong>
             <p data-i18n="faq3A">O Voyager Maps é um aplicativo útil para viagens que te ajuda a encontrar lugares práticos enquanto você está na estrada — banheiros, água potável de graça, chuveiros, lavanderias e Wi-Fi. Ele foi feito pra viajantes, quem faz viagens de carro, mochileiros, quem mora em van e ciclistas.</p>
           </div>
-          <div class="mini">
+          <div class="faq-item">
             <strong data-i18n="faq4Q">Em que o Voyager Maps difere do Google Maps?</strong>
             <p data-i18n="faq4A">O Google Maps é ótimo pra navegação e restaurantes. O Voyager Maps foca exclusivamente nas necessidades práticas de viagem: banheiros públicos, água potável de graça, chuveiros, lavanderias e estacionamento. Ele mostra muito mais locais nessas categorias — em Paris, por exemplo, listamos 289 pontos de abastecimento de água potável, contra cerca de 20 encontrados no Google Maps.</p>
           </div>
         </div>
       </section>
 
-      <footer class="footer">
+      <footer class="footer" id="maps">
+        <div class="footer-brand">
+          <span class="brand"
+            ><img class="brand-mark" src="../pictures/icon/brand-mark.png" width="24" height="24" alt="" aria-hidden="true" /><span
+              class="brand-name"
+              ><span class="brand-name-lead">Voyager</span> Maps</span
+            ></span
+          >
+          <p data-i18n="footerTagline">Locais úteis para viagens em 13 idiomas. Dados de locais fornecidos pelos colaboradores do OpenStreetMap.</p>
+        </div>
         <div>
           <h2 data-i18n="exploreTitle">Explora os mapas</h2>
           <ul class="footer-links">
@@ -538,32 +536,13 @@
         <div>
           <h2 data-i18n="legalTitle">Informações legais e documentação</h2>
           <ul class="footer-links">
-            <li>
-              <a
-                href="../privacy-policy.html"
-                data-i18n="privacyLink"
-                data-track="legal"
-                data-legal-type="privacy"
-                >Privacy Policy</a
-              >
-            </li>
-            <li>
-              <a
-                href="../terms.html"
-                data-i18n="termsLink"
-                data-track="legal"
-                data-legal-type="terms"
-                >Terms</a
-              >
-            </li>
-            <li>
-              <a href="../delete-data.html" data-i18n="deleteLink" data-track="legal" data-legal-type="delete_data"
-                >Delete Data</a
-              >
-            </li>
+            <li><a href="../privacy-policy.html" data-i18n="privacyLink" data-track="legal" data-legal-type="privacy">Privacy Policy</a></li>
+            <li><a href="../terms.html" data-i18n="termsLink" data-track="legal" data-legal-type="terms">Terms</a></li>
+            <li><a href="../delete-data.html" data-i18n="deleteLink" data-track="legal" data-legal-type="delete_data">Delete Data</a></li>
+            <li><button type="button" class="footer-consent" id="consent-manage-footer" data-i18n="consentManage">Configurações de privacidade</button></li>
           </ul>
         </div>
-        <p data-i18n="footer">© Site do Voyager Maps</p>
+        <p class="footer-copy" data-i18n="footer">© Site do Voyager Maps</p>
       </footer>
     </main>
 

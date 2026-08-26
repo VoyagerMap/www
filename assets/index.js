@@ -79,13 +79,10 @@
               </li>`).join("");
   }
 
-  function injectSharedUI(flags) {
-    const main = document.querySelector("main.container");
-    if (main && !main.querySelector(".site-header")) {
-      main.insertAdjacentHTML("afterbegin", `
-        <header class="site-header">
-          <a class="brand" href="${homeHref(initialDocumentLanguage)}" aria-label="Voyager Maps"><img class="brand-mark" src="${asset("pictures/icon/brand-mark.png")}" width="24" height="24" alt="" aria-hidden="true" /><span class="brand-name"><span class="brand-name-lead">Voyager</span> Maps</span></a>
-          <nav class="lang-switch" aria-label="Language switcher" data-i18n-aria="langSwitcherAria">
+  /** The switcher's innards. Needs the language register, so it cannot be
+      part of the static HTML the way the rest of the header now is. */
+  function languageSwitcher(flags) {
+    return `
             <button type="button" class="lang-trigger" id="lang-trigger" aria-haspopup="listbox" aria-expanded="false" aria-controls="lang-menu">
               <span class="lang-globe" id="lang-flag" aria-hidden="true">${flags.en}</span>
               <span class="lang-current" id="lang-current">EN</span>
@@ -93,10 +90,46 @@
             </button>
             <ul class="lang-menu" id="lang-menu" role="listbox" aria-label="Language options" data-i18n-aria-label="langOptionsAria" hidden>
 ${languageOptions(flags)}
-            </ul>
+            </ul>`;
+  }
+
+  function injectSharedUI(flags) {
+    const main = document.querySelector("main.container");
+    const header = main && main.querySelector(".site-header");
+    if (main && !header) {
+      main.insertAdjacentHTML("afterbegin", `
+        <header class="site-header">
+          <a class="brand" href="${homeHref(initialDocumentLanguage)}" aria-label="Voyager Maps"><img class="brand-mark" src="${asset("pictures/icon/brand-mark.png")}" width="24" height="24" alt="" aria-hidden="true" /><span class="brand-name"><span class="brand-name-lead">Voyager</span> Maps</span></a>
+          <nav class="lang-switch" aria-label="Language switcher" data-i18n-aria="langSwitcherAria">${languageSwitcher(flags)}
           </nav>
         </header>
       `);
+    } else if (header) {
+      // The page ships its own header, so the brand and the nav paint with the
+      // first byte instead of appearing once the script has run. Only the
+      // switcher is filled in here.
+      const slot = header.querySelector(".lang-switch");
+      if (slot && !slot.children.length) slot.innerHTML = languageSwitcher(flags);
+    }
+
+    // A page-long scroll needs the install path back within reach on a phone.
+    // Hidden by CSS above the mobile breakpoint, and revealed only once the
+    // hero's own buttons have gone by — see setupInstallBar().
+    if (main && !document.querySelector(".install-bar")) {
+      const androidFirst = /android/i.test(navigator.userAgent || "");
+      const href = androidFirst
+        ? "https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
+        : "https://apps.apple.com/app/6758412494";
+      document.body.insertAdjacentHTML("beforeend", `
+      <div class="install-bar" id="install-bar">
+        <span class="install-bar-copy">
+          <span class="install-bar-title" data-i18n="installBarTitle">Get Voyager Maps</span>
+          <span class="install-bar-sub" data-i18n="heroFree">Free · iOS &amp; Android</span>
+        </span>
+        <a href="${href}" data-track="cta" data-cta-type="${androidFirst ? "app_store_android" : "app_store_ios"}" data-cta-position="install_bar" data-i18n="installBarCta">Install</a>
+      </div>
+      `);
+      document.body.classList.add("has-install-bar");
     }
 
     if (document.getElementById("consent-banner")) return;
@@ -530,6 +563,7 @@ ${languageOptions(flags)}
   const langMenu = document.getElementById("lang-menu");
   const consentBanner = document.getElementById("consent-banner");
   const consentManage = document.getElementById("consent-manage");
+  const consentManageFooter = document.getElementById("consent-manage-footer");
   const consentBackdrop = document.getElementById("consent-backdrop");
   const consentAccept = document.getElementById("consent-accept");
   const consentReject = document.getElementById("consent-reject");
@@ -623,6 +657,33 @@ ${languageOptions(flags)}
     toggleConsentBanner();
   });
 
+  if (consentManageFooter) {
+    consentManageFooter.addEventListener("click", () => {
+      toggleConsentBanner();
+    });
+  }
+
+  /** Reveal the install bar only after the hero's own buttons have scrolled
+      away, so the page never shows the same call to action twice at once. */
+  function setupInstallBar() {
+    const bar = document.getElementById("install-bar");
+    const heroCta = document.querySelector(".hero .cta-row");
+    if (!bar || !heroCta) return;
+    if (typeof IntersectionObserver !== "function") {
+      bar.classList.add("is-visible");
+      return;
+    }
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          bar.classList.toggle("is-visible", !entry.isIntersecting);
+        });
+      },
+      { rootMargin: "0px 0px -60% 0px" }
+    );
+    observer.observe(heroCta);
+  }
+
   consentCustomize.addEventListener("click", () => {
     toggleConsentPreferences();
   });
@@ -663,4 +724,5 @@ ${languageOptions(flags)}
   setupSectionObserver();
   setupImageObserver();
   setupEngagementTracking();
+  setupInstallBar();
 })();

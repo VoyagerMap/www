@@ -37,8 +37,19 @@ async function checkPage(page, url, viewport) {
       const r = el.getBoundingClientRect();
       return { w: r.width, h: r.height, top: r.top, left: r.left, right: r.right };
     };
+    // An image inside a horizontal scroller is off-screen on purpose — the
+    // step row on the homepage is swiped, not stacked — so it is exempt from
+    // the "must fit the viewport" rule below. Everything else is not.
+    const scrolled = (el) => {
+      for (let n = el.parentElement; n; n = n.parentElement) {
+        const ov = getComputedStyle(n).overflowX;
+        if (ov === "auto" || ov === "scroll") return true;
+      }
+      return false;
+    };
     const images = [...document.querySelectorAll(".preview-shell img, .preview-image, .preview-image-phone")]
       .map((img) => ({
+        inScroller: scrolled(img),
         src: img.currentSrc || img.src,
         natural: img.naturalWidth / img.naturalHeight,
         rendered: img.getBoundingClientRect().width / img.getBoundingClientRect().height,
@@ -73,7 +84,9 @@ async function checkPage(page, url, viewport) {
       fail(where, `${name} distorted: rendered ${img.rendered.toFixed(3)} vs file ${img.natural.toFixed(3)}`);
     }
     if (img.w < 120) fail(where, `${name} rendered too small: ${Math.round(img.w)}px`);
-    if (img.right > report.viewWidth + 1) fail(where, `${name} overflows the viewport`);
+    if (!img.inScroller && img.right > report.viewWidth + 1) {
+      fail(where, `${name} overflows the viewport`);
+    }
   }
 
   // A frame must hug its screenshot rather than stand around it as an empty box.

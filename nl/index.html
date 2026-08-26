@@ -148,9 +148,24 @@
   </head>
   <body>
     <main class="container">
+      <header class="site-header">
+        <a class="brand" href="./index.html" aria-label="Voyager Maps"
+          ><img class="brand-mark" src="../pictures/icon/brand-mark.png" width="24" height="24" alt="" aria-hidden="true" /><span
+            class="brand-name"
+            ><span class="brand-name-lead">Voyager</span> Maps</span
+          ></a
+        >
+        <nav class="site-nav" aria-label="Paginaonderdelen" data-i18n-aria="navAria">
+          <a href="#compare" data-i18n="navWhy">Waarom Voyager</a>
+          <a href="#coverage" data-i18n="navFind">Wat je kunt vinden</a>
+          <a href="#maps" data-i18n="navMaps">Kaarten</a>
+        </nav>
+        <nav class="lang-switch" aria-label="Language switcher" data-i18n-aria="langSwitcherAria"></nav>
+      </header>
 
       <section class="hero" aria-label="Hoofdgedeelte" data-i18n-aria="heroAria" data-track-section="hero">
         <div class="hero-content">
+          <p class="hero-pill"><span class="hero-pill-dot" aria-hidden="true"></span><span data-i18n="heroFree">Gratis · iOS &amp; Android</span></p>
           <h1 data-i18n="heroTitle">Vind toiletten, water, douches en wifi – waar je ook bent.</h1>
           <p class="lead" data-i18n="heroLead">Voyager Maps helpt je de plekken te vinden die je tijdens het reizen echt nodig hebt — toiletten, drinkwater, wifi, wasserettes — vooral als je ergens bent waar je de weg niet kent.</p>
           <div class="cta-row">
@@ -189,341 +204,324 @@
               </span>
             </a>
           </div>
-          <p class="hero-free" data-i18n="heroFree">Gratis · iOS &amp; Android</p>
-          <p class="proof" data-i18n="heroProof">5,5 miljoen handige plekken · 237 landen · gratis</p>
+          <dl class="stat-strip">
+            <div class="stat">
+              <dd class="stat-value" data-i18n="statPlacesValue">5,5M</dd>
+              <dt class="stat-label" data-i18n="statPlacesLabel">handige plekken</dt>
+            </div>
+            <div class="stat">
+              <dd class="stat-value" data-i18n="statCountriesValue">237</dd>
+              <dt class="stat-label" data-i18n="statCountriesLabel">landen</dt>
+            </div>
+            <div class="stat">
+              <dd class="stat-value" data-i18n="statWifiValue">389k</dd>
+              <dt class="stat-label" data-i18n="statWifiLabel">met gratis wifi</dt>
+            </div>
+          </dl>
         </div>
         <div class="hero-visual">
           <figure class="preview-shell">
             <picture>
-              <source type="image/webp" srcset="../pictures/paris-home-map-800w.webp 800w, ../pictures/paris-home-map.webp 1080w" sizes="(max-width: 700px) 90vw, 340px" />
+              <source type="image/webp" srcset="../pictures/paris-home-map-800w.webp 800w, ../pictures/paris-home-map.webp 1080w" sizes="(max-width: 900px) 78vw, 336px" />
               <img
                 src="../pictures/paris-home-map-800w.jpg"
                 srcset="../pictures/paris-home-map-800w.jpg 800w, ../pictures/paris-home-map.jpg 1080w"
-                sizes="(max-width: 700px) 90vw, 340px"
+                sizes="(max-width: 900px) 78vw, 336px"
                 width="800"
                 height="1731"
                 fetchpriority="high"
-                alt="Voyager Maps app showing toilet, drinking water and shower locations on a map of Paris"
-                data-i18n-aria="previewAria"
+                alt="Voorbeeldafbeelding van de Voyager Maps-app"
+                data-i18n-alt="previewAria"
                 data-track-image="product_preview"
               />
             </picture>
-            <figcaption class="preview-caption" data-i18n="previewCaption">Productvoorproefje</figcaption>
           </figure>
         </div>
       </section>
-      <section class="card vs-section" aria-label="Voyager Maps vergeleken met Google Maps" data-i18n-aria="vsAria" data-track-section="vs_comparison">
+
+      <section class="section" id="compare" aria-label="Voyager Maps vergeleken met Google Maps" data-i18n-aria="vsAria" data-track-section="vs_comparison">
+        <p class="eyebrow" data-i18n="eyebrowDifference">Het verschil</p>
         <h2 data-i18n="vsTitle">Waarom gebruik je niet gewoon Google Maps?</h2>
-        <p data-i18n="vsIntro">Google Maps is geweldig om de weg te vinden. Maar als het gaat om gratis voorzieningen in de buurt — toiletten, waterkranen, douches — zijn de resultaten wisselend. Voyager Maps is precies voor die momenten gemaakt.</p>
-        <div class="vs-table" style="margin-top: 1rem" role="table" aria-label="Feature comparison">
+        <p class="section-lead" data-i18n="vsIntro">Google Maps is geweldig om de weg te vinden. Maar als het gaat om gratis voorzieningen in de buurt — toiletten, waterkranen, douches — zijn de resultaten wisselend. Voyager Maps is precies voor die momenten gemaakt.</p>
+        <div class="vs-table" role="table" aria-label="Feature comparison">
           <div class="vs-head-row" role="row">
-            <div class="vs-cell-need" role="columnheader"></div>
+            <div class="vs-cell-need" role="columnheader" data-i18n="vsCityLabel">In Parijs</div>
             <div class="vs-head-label" role="columnheader" data-i18n="vsGmLabel">Google Maps</div>
             <div class="vs-head-label vs-vm-head" role="columnheader" data-i18n="vsVmLabel">Voyager Maps</div>
           </div>
           <div class="vs-row" role="row">
             <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed1">Toilet</div>
-            <div class="vs-miss" role="cell" data-i18n="vsGm1">Kent er een paar openbare</div>
-            <div class="vs-hit" role="cell" data-i18n="vsVm1">✓ 331 toiletten in Parijs — openbare, betaalde en voor klanten bestemde opties</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">Google Maps</span><span data-i18n="vsGm1">Kent er een paar openbare</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm1">✓ 331 toiletten in Parijs — openbare, betaalde en voor klanten bestemde opties</span></div>
           </div>
           <div class="vs-row" role="row">
             <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed2">Drinkwater bijvullen</div>
-            <div class="vs-miss" role="cell" data-i18n="vsGm2">Toont er een aantal, zo’n 20 plekken verspreid over de stad</div>
-            <div class="vs-hit" role="cell" data-i18n="vsVm2">✓ Gratis waterkranen &amp; bijvullen — 289 plekken alleen al in Parijs</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">Google Maps</span><span data-i18n="vsGm2">Toont er een aantal, zo’n 20 plekken verspreid over de stad</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm2">✓ Gratis waterkranen &amp; bijvullen — 289 plekken alleen al in Parijs</span></div>
           </div>
           <div class="vs-row" role="row">
             <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed3">Douche</div>
-            <div class="vs-miss" role="cell" data-i18n="vsGm3">Geen resultaten — alleen hotels en irrelevante plekken</div>
-            <div class="vs-hit" role="cell" data-i18n="vsVm3">✓ Diverse gratis en goedkope douchelocaties</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">Google Maps</span><span data-i18n="vsGm3">Geen resultaten — alleen hotels en irrelevante plekken</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm3">✓ Diverse gratis en goedkope douchelocaties</span></div>
           </div>
           <div class="vs-row" role="row">
             <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed4">Gratis wifi</div>
-            <div class="vs-miss" role="cell" data-i18n="vsGm4">Voornamelijk cafés</div>
-            <div class="vs-hit" role="cell" data-i18n="vsVm4">✓ Gratis wifi &amp; wifi-hotspots waar je als klant gebruik van mag maken</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">Google Maps</span><span data-i18n="vsGm4">Voornamelijk cafés</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm4">✓ Gratis wifi &amp; wifi-hotspots waar je als klant gebruik van mag maken</span></div>
           </div>
           <div class="vs-row vs-row-last" role="row">
             <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed5">Waar de app zich op richt</div>
-            <div class="vs-miss" role="cell" data-i18n="vsGm5">Navigatie, restaurants, cafés</div>
-            <div class="vs-hit" role="cell" data-i18n="vsVm5">✓ Alleen praktische reisbenodigdheden</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">Google Maps</span><span data-i18n="vsGm5">Navigatie, restaurants, cafés</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm5">✓ Alleen praktische reisbenodigdheden</span></div>
           </div>
         </div>
         <p class="vs-note" data-i18n="vsNote">Voorbeeld op basis van Parijs, Frankrijk (juli 2026): de cijfers van Voyager Maps zijn geteld in onze database, de cijfers van Google Maps komen uit een handmatige zoekopdracht voor dezelfde categorie.</p>
-        <div class="cta-row" style="justify-content: center">
-          <a
-            class="store-badge"
-            href="https://apps.apple.com/app/6758412494"
-            aria-label="Download Voyager Maps in de App Store"
-            data-i18n-aria="badgeAppleAria"
-            data-track="cta"
-            data-cta-type="app_store_ios"
-            data-cta-position="comparison"
-          >
-            <span class="store-badge-icon" aria-hidden="true">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.3.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-            </span>
-            <span class="store-badge-copy">
-              <span class="store-badge-line1" data-i18n="badgeAppleLine">Download de app via de</span>
-              <span class="store-badge-line2">App Store</span>
-            </span>
-          </a>
-          <a
-            class="store-badge"
-            href="https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
-            aria-label="Download Voyager Maps via Google Play"
-            data-i18n-aria="badgeGoogleAria"
-            data-track="cta"
-            data-cta-type="app_store_android"
-            data-cta-position="comparison"
-          >
-            <span class="store-badge-icon" aria-hidden="true">
-              <svg width="19" height="21" viewBox="0 0 512 512" fill="currentColor" focusable="false"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l2.7 1.5 247.2-247v-5.8L47 0zm425.2 225L377.5 167l-65.1 65 65.1 65 95.6-57c27.2-15.6 27.2-41 0-56.6zM104.6 499l280.8-161.2-60.1-60.1-220.7 221.3z"/></svg>
-            </span>
-            <span class="store-badge-copy">
-              <span class="store-badge-line1" data-i18n="badgeGoogleLine">Download 'm op</span>
-              <span class="store-badge-line2">Google Play</span>
-            </span>
-          </a>
-        </div>
       </section>
 
-      <section class="card" aria-label="Waarom Voyager Maps is gemaakt" data-i18n-aria="whyAria" data-track-section="why">
-        <h2 data-i18n="whyTitle">Waarom Voyager Maps is gemaakt</h2>
-        <p data-i18n="whyText">De meeste kaart-apps zijn erop gericht je ergens naartoe te brengen. Voyager Maps richt zich op wat je nodig hebt als je er eenmaal bent — een snelle manier om de praktische plekken te vinden die je reis soepel laten verlopen.</p>
-        <p class="proof" data-i18n="whyExamples">Reizigers komen dit soort situaties voortdurend tegen:</p>
-        <ul class="problem-list" style="margin-top: 0.45rem">
-          <li data-i18n="problem1">Je komt aan in een nieuwe stad en moet snel een toilet of wifi vinden.</li>
-          <li data-i18n="problem2">Je rijdt in de hitte en moet gewoon even je waterfles bijvullen.</li>
-          <li data-i18n="problem3">Je bent al dagen onderweg en hebt een wasserette of een douche nodig.</li>
-          <li data-i18n="problem4">Je bent ergens waar je niet bekend bent en wilt gewoon die paar plekken weten die er echt toe doen.</li>
-        </ul>
-        <p class="proof" data-i18n="whyClose">Met filters en categorieën zie je alleen de plekken die voor jou belangrijk zijn, zonder dat je wordt afgeleid door irrelevante resultaten.</p>
-      </section>
-
-      <section class="card" aria-label="Ontworpen voor echte reissituaties" data-i18n-aria="useAria" data-track-section="use_cases">
-        <h2 data-i18n="useTitle">Ontworpen voor echte reissituaties</h2>
-        <div class="use-grid" style="margin-top: 0.7rem">
-          <div class="mini">
-            <strong data-i18n="use1Title">Roadtrip</strong>
-            <p data-i18n="use1Text">Vind drinkwater en toiletten gemakkelijker, zonder van je route af te wijken.</p>
-          </div>
-          <div class="mini">
-            <strong data-i18n="use2Title">Leven in een busje</strong>
-            <p data-i18n="use2Text">Regel je dagelijkse zaken eenvoudig, zonder irrelevante resultaten of lang zoeken.</p>
-          </div>
-          <div class="mini">
-            <strong data-i18n="use3Title">Backpacken</strong>
-            <p data-i18n="use3Text">Los praktische behoeften snel op, waar je ook bent — zonder giswerk.</p>
-          </div>
-          <div class="mini">
-            <strong data-i18n="use4Title">De stad verkennen</strong>
-            <p data-i18n="use4Text">Plan je route rond gratis drinkwater in plaats van geld te verspillen aan flessen.</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="card" aria-label="Wat je kunt vinden" data-i18n-aria="findAria" data-track-section="categories">
+      <section class="section" id="coverage" aria-label="Wat je kunt vinden" data-i18n-aria="findAria" data-track-section="categories">
+        <p class="eyebrow" data-i18n="eyebrowCoverage">Dekking</p>
         <h2 data-i18n="findTitle">Wat je wereldwijd kunt vinden</h2>
-        <ul class="chip-list">
-          <li><span class="chip-icon" aria-hidden="true">🚻</span><span data-i18n="cat_toilets">Toiletten</span><span class="chip-count" data-i18n="cat_toiletsCount">520k</span></li>
-          <li><span class="chip-icon" aria-hidden="true">💧</span><span data-i18n="cat_water">Drinkwater</span><span class="chip-count" data-i18n="cat_waterCount">459k</span></li>
-          <li><span class="chip-icon" aria-hidden="true">🅿️</span><span data-i18n="cat_parking">Parkeerplaatsen</span><span class="chip-count" data-i18n="cat_parkingCount">1,2M</span></li>
-          <li><span class="chip-icon" aria-hidden="true">🧳</span><span data-i18n="cat_locker">Bagagekluisjes</span><span class="chip-count" data-i18n="cat_lockerCount">1,8k</span></li>
-          <li><span class="chip-icon" aria-hidden="true">🏕️</span><span data-i18n="cat_camping">Kamperen &amp; douches</span><span class="chip-count" data-i18n="cat_campingCount">228k</span></li>
-          <li><span class="chip-icon" aria-hidden="true">🛒</span><span data-i18n="cat_supermarket">Supermarkten</span><span class="chip-count" data-i18n="cat_supermarketCount">493k</span></li>
-          <li><span class="chip-icon" aria-hidden="true">🏧</span><span data-i18n="cat_money">Contant geld &amp; wisselkantoor</span><span class="chip-count" data-i18n="cat_moneyCount">261k</span></li>
-          <li><span class="chip-icon" aria-hidden="true">💊</span><span data-i18n="cat_pharmacy">Apotheken</span><span class="chip-count" data-i18n="cat_pharmacyCount">437k</span></li>
-          <li><span class="chip-icon" aria-hidden="true">🏥</span><span data-i18n="cat_emergency">Gezondheid &amp; noodgevallen</span><span class="chip-count" data-i18n="cat_emergencyCount">544k</span></li>
-          <li><span class="chip-icon" aria-hidden="true">🏛️</span><span data-i18n="cat_attraction">Bezienswaardigheden</span><span class="chip-count" data-i18n="cat_attractionCount">248k</span></li>
-          <li><span class="chip-icon" aria-hidden="true">📍</span><span data-i18n="cat_more">Nog meer handige plekken</span><span class="chip-count" data-i18n="cat_moreCount">1,1M</span></li>
+        <ul class="count-grid">
+          <li><span class="count-value" data-i18n="cat_toiletsCount">520k</span><span class="count-label" data-i18n="cat_toilets">Toiletten</span></li>
+          <li><span class="count-value" data-i18n="cat_waterCount">459k</span><span class="count-label" data-i18n="cat_water">Drinkwater</span></li>
+          <li><span class="count-value" data-i18n="cat_campingCount">228k</span><span class="count-label" data-i18n="cat_camping">Kamperen &amp; douches</span></li>
+          <li><span class="count-value" data-i18n="cat_parkingCount">1,2M</span><span class="count-label" data-i18n="cat_parking">Parkeerplaatsen</span></li>
+          <li><span class="count-value" data-i18n="cat_supermarketCount">493k</span><span class="count-label" data-i18n="cat_supermarket">Supermarkten</span></li>
+          <li><span class="count-value" data-i18n="cat_pharmacyCount">437k</span><span class="count-label" data-i18n="cat_pharmacy">Apotheken</span></li>
+          <li><span class="count-value" data-i18n="cat_emergencyCount">544k</span><span class="count-label" data-i18n="cat_emergency">Gezondheid &amp; noodgevallen</span></li>
+          <li><span class="count-value" data-i18n="cat_moneyCount">261k</span><span class="count-label" data-i18n="cat_money">Contant geld &amp; wisselkantoor</span></li>
+          <li><span class="count-value" data-i18n="cat_attractionCount">248k</span><span class="count-label" data-i18n="cat_attraction">Bezienswaardigheden</span></li>
+          <li><span class="count-value" data-i18n="cat_lockerCount">1,8k</span><span class="count-label" data-i18n="cat_locker">Bagagekluisjes</span></li>
+          <li><span class="count-value" data-i18n="cat_moreCount">1,1M</span><span class="count-label" data-i18n="cat_more">Nog meer handige plekken</span></li>
+          <li class="count-wifi"><span class="count-value">389k</span><span class="count-label" data-i18n="catWifiTile">Gratis wifi of wifi voor klanten — filter er overal op</span></li>
         </ul>
-        <p class="chip-note" data-i18n="catNote">Wi-Fi is geen aparte categorie — 389.000 van deze plekken bieden gratis of voor klanten toegankelijke Wi-Fi aan, en je kunt hierop filteren bij al deze plekken.</p>
-        <p class="proof" data-i18n="findProof">Handige reisinformatie waar mensen echt naar zoeken als ze onderweg zijn.</p>
+        <p class="section-note" data-i18n="findProof">Handige reisinformatie waar mensen echt naar zoeken als ze onderweg zijn.</p>
       </section>
 
-      <section class="card" aria-label="Een reis plannen in de app" data-i18n-aria="tripAria" data-track-section="trip_planning">
-        <h2 data-i18n="tripTitle">Meer dan alleen de volgende stop vinden</h2>
-        <p data-i18n="tripLead">De plekken die je vindt, kun je omzetten in een reisplan dat je kunt bewaren, delen en waarvan je de kosten kunt berekenen — iets wat een gewone kaart-app aan jou overlaat.</p>
-        <div class="feature-grid" style="margin-top: 0.9rem">
-          <div class="mini">
-            <strong data-i18n="trip1Title">Stel een reisplan samen</strong>
-            <p data-i18n="trip1Text">Sla de plekken die je tegenkomt op als tussenstops, in de volgorde waarin je ze gaat bezoeken, met tijden en opmerkingen.</p>
-          </div>
-          <div class="mini">
-            <strong data-i18n="trip2Title">Deel het met je reisgenoten</strong>
-            <p data-i18n="trip2Text">Stuur een link of voeg reisgenoten toe, zodat iedereen hetzelfde plan volgt.</p>
-          </div>
-          <div class="mini">
-            <strong data-i18n="trip3Title">Kijk eens wat dat allemaal oplevert</strong>
-            <p data-i18n="trip3Text">Voer bij elke tussenstop een geschatte prijs in en bekijk het totaal per valuta — handig als je tijdens je reis de grens overgaat.</p>
-          </div>
-          <div class="mini">
-            <strong data-i18n="trip4Title">Bewaar de plekken waar je graag nog eens terugkomt</strong>
-            <p data-i18n="trip4Text">Markeer een plek als favoriet en je hebt hem altijd binnen één tik bij de hand, zowel tijdens deze reis als de volgende.</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="card" aria-label="Productervaring" data-i18n-aria="expAria" data-track-section="experience">
+      <section class="section" aria-label="Productervaring" data-i18n-aria="expAria" data-track-section="experience">
+        <p class="eyebrow" data-i18n="eyebrowInApp">In de app</p>
         <h2 data-i18n="expTitle">Eenvoudig in gebruik, snelle beslissingen</h2>
-        <p data-i18n="expText">Voyager Maps heeft een overzichtelijke kaartinterface en gerichte reiscategorieën, zodat je snel de opties in de buurt kunt bekijken en met een gerust hart je volgende stop kunt kiezen.</p>
-        <div class="inline-showcase-grid">
-          <figure class="inline-showcase">
-            <picture>
-              <source type="image/webp" srcset="../pictures/POI_quick_view-800w.webp 800w, ../pictures/POI_quick_view.webp 1080w" sizes="(max-width: 700px) 90vw, 340px" />
-              <img
-                src="../pictures/POI_quick_view-800w.jpg"
-                srcset="../pictures/POI_quick_view-800w.jpg 800w, ../pictures/POI_quick_view.jpg 1080w"
-                sizes="(max-width: 700px) 90vw, 340px"
-                width="800"
-                height="1733"
-                loading="lazy"
-                decoding="async"
-                alt="Snel een overzicht van de details van een plek bekijken in Voyager Maps"
-                data-i18n-alt="expImage1Alt"
-                data-track-image="poi_quick_view"
-              />
-            </picture>
-            <figcaption data-i18n="expImage1Caption">Snelle informatie over locaties in de app</figcaption>
+        <p class="section-lead" data-i18n="expText">Voyager Maps heeft een overzichtelijke kaartinterface en gerichte reiscategorieën, zodat je snel de opties in de buurt kunt bekijken en met een gerust hart je volgende stop kunt kiezen.</p>
+        <div class="step-grid">
+          <figure class="step">
+            <span class="preview-shell preview-shell--shot">
+              <picture>
+                <source type="image/webp" srcset="../pictures/filter-categories-800w.webp 800w, ../pictures/filter-categories.webp 1080w" sizes="(max-width: 700px) 62vw, 320px" />
+                <img
+                  src="../pictures/filter-categories-800w.jpg"
+                  srcset="../pictures/filter-categories-800w.jpg 800w, ../pictures/filter-categories.jpg 1080w"
+                  sizes="(max-width: 700px) 62vw, 320px"
+                  width="800"
+                  height="1733"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Filterpaneel met reiscategorieën in Voyager Maps"
+                  data-i18n-alt="expImage3Alt"
+                  data-track-image="filter_categories"
+                />
+              </picture>
+            </span>
+            <figcaption>
+              <strong data-i18n="expStep1Title">1 · Kies je categorieën</strong>
+              <span data-i18n="expStep1Text">Schakel aan wat je nodig hebt en de kaart laat al het andere weg. Sla de instellingen op als groep voor de volgende keer.</span>
+            </figcaption>
           </figure>
-          <figure class="inline-showcase">
-            <picture>
-              <source type="image/webp" srcset="../pictures/paris-clusters-800w.webp 800w, ../pictures/paris-clusters.webp 1080w" sizes="(max-width: 700px) 90vw, 340px" />
-              <img
-                src="../pictures/paris-clusters-800w.jpg"
-                srcset="../pictures/paris-clusters-800w.jpg 800w, ../pictures/paris-clusters.jpg 1080w"
-                sizes="(max-width: 700px) 90vw, 340px"
-                width="800"
-                height="1731"
-                loading="lazy"
-                decoding="async"
-                alt="Kaart van Parijs met duizenden plekken, gegroepeerd in clusters in Voyager Maps"
-                data-i18n-alt="expImage2Alt"
-                data-track-image="map_clusters"
-              />
-            </picture>
-            <figcaption data-i18n="expImage2Caption">Kaartweergave met clusters</figcaption>
+          <figure class="step">
+            <span class="preview-shell preview-shell--shot">
+              <picture>
+                <source type="image/webp" srcset="../pictures/paris-clusters-800w.webp 800w, ../pictures/paris-clusters.webp 1080w" sizes="(max-width: 700px) 62vw, 320px" />
+                <img
+                  src="../pictures/paris-clusters-800w.jpg"
+                  srcset="../pictures/paris-clusters-800w.jpg 800w, ../pictures/paris-clusters.jpg 1080w"
+                  sizes="(max-width: 700px) 62vw, 320px"
+                  width="800"
+                  height="1731"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Kaart van Parijs met duizenden plekken, gegroepeerd in clusters in Voyager Maps"
+                  data-i18n-alt="expImage2Alt"
+                  data-track-image="map_clusters"
+                />
+              </picture>
+            </span>
+            <figcaption>
+              <strong data-i18n="expStep2Title">2 · Bekijk de omgeving</strong>
+              <span data-i18n="expStep2Text">Duizenden locaties blijven overzichtelijk — ze worden gegroepeerd tot je inzoomt op je straat.</span>
+            </figcaption>
           </figure>
-          <figure class="inline-showcase">
-            <picture>
-              <source type="image/webp" srcset="../pictures/filter-categories-800w.webp 800w, ../pictures/filter-categories.webp 1080w" sizes="(max-width: 700px) 90vw, 340px" />
-              <img
-                src="../pictures/filter-categories-800w.jpg"
-                srcset="../pictures/filter-categories-800w.jpg 800w, ../pictures/filter-categories.jpg 1080w"
-                sizes="(max-width: 700px) 90vw, 340px"
-                width="800"
-                height="1733"
-                loading="lazy"
-                decoding="async"
-                alt="Filterpaneel met reiscategorieën in Voyager Maps"
-                data-i18n-alt="expImage3Alt"
-                data-track-image="filter_categories"
-              />
-            </picture>
-            <figcaption data-i18n="expImage3Caption">Filter op wat je nodig hebt</figcaption>
-          </figure>
-          <figure class="inline-showcase">
-            <picture>
-              <source type="image/webp" srcset="../pictures/address-search-800w.webp 800w, ../pictures/address-search.webp 1080w" sizes="(max-width: 700px) 90vw, 340px" />
-              <img
-                src="../pictures/address-search-800w.jpg"
-                srcset="../pictures/address-search-800w.jpg 800w, ../pictures/address-search.jpg 1080w"
-                sizes="(max-width: 700px) 90vw, 340px"
-                width="800"
-                height="1733"
-                loading="lazy"
-                decoding="async"
-                alt="Adreszoekfunctie met suggesties in Voyager Maps"
-                data-i18n-alt="expImage4Alt"
-                data-track-image="address_search"
-              />
-            </picture>
-            <figcaption data-i18n="expImage4Caption">Zoek elke plek</figcaption>
-          </figure>
-          <figure class="inline-showcase">
-            <picture>
-              <source type="image/webp" srcset="../pictures/dark-mode-map-800w.webp 800w, ../pictures/dark-mode-map.webp 1080w" sizes="(max-width: 700px) 90vw, 340px" />
-              <img
-                src="../pictures/dark-mode-map-800w.jpg"
-                srcset="../pictures/dark-mode-map-800w.jpg 800w, ../pictures/dark-mode-map.jpg 1080w"
-                sizes="(max-width: 700px) 90vw, 340px"
-                width="800"
-                height="1733"
-                loading="lazy"
-                decoding="async"
-                alt="Kaartweergave in donkere modus in Voyager Maps"
-                data-i18n-alt="expImage5Alt"
-                data-track-image="dark_mode_map"
-              />
-            </picture>
-            <figcaption data-i18n="expImage5Caption">Donkere modus voor 's nachts</figcaption>
+          <figure class="step">
+            <span class="preview-shell preview-shell--shot">
+              <picture>
+                <source type="image/webp" srcset="../pictures/POI_quick_view-800w.webp 800w, ../pictures/POI_quick_view.webp 1080w" sizes="(max-width: 700px) 62vw, 320px" />
+                <img
+                  src="../pictures/POI_quick_view-800w.jpg"
+                  srcset="../pictures/POI_quick_view-800w.jpg 800w, ../pictures/POI_quick_view.jpg 1080w"
+                  sizes="(max-width: 700px) 62vw, 320px"
+                  width="800"
+                  height="1733"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Snel een overzicht van de details van een plek bekijken in Voyager Maps"
+                  data-i18n-alt="expImage1Alt"
+                  data-track-image="poi_quick_view"
+                />
+              </picture>
+            </span>
+            <figcaption>
+              <strong data-i18n="expStep3Title">3 · Kijk even voordat je op pad gaat</strong>
+              <span data-i18n="expStep3Text">Openingstijden, kosten, rolstoeltoegankelijkheid — navigeer er vervolgens naartoe of voeg het toe aan je reisplan.</span>
+            </figcaption>
           </figure>
         </div>
       </section>
 
-      <section class="card" aria-label="Laatste oproep tot actie" data-i18n-aria="finalAria" data-track-section="final_cta">
-        <h2 data-i18n="finalTitle">Alle handige plekken die je nodig hebt — waar je ook heen gaat.</h2>
-        <p data-i18n="finalText">Installeer Voyager Maps en vind sneller wat je nodig hebt, waar je reis je ook naartoe brengt.</p>
-        <div class="cta-row" style="justify-content: center">
-          <a
-            class="store-badge"
-            href="https://apps.apple.com/app/6758412494"
-            aria-label="Download Voyager Maps in de App Store"
-            data-i18n-aria="badgeAppleAria"
-            data-track="cta"
-            data-cta-type="app_store_ios"
-            data-cta-position="final"
-          >
-            <span class="store-badge-icon" aria-hidden="true">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.3.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-            </span>
-            <span class="store-badge-copy">
-              <span class="store-badge-line1" data-i18n="badgeAppleLine">Download de app via de</span>
-              <span class="store-badge-line2">App Store</span>
-            </span>
-          </a>
-          <a
-            class="store-badge"
-            href="https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
-            aria-label="Download Voyager Maps via Google Play"
-            data-i18n-aria="badgeGoogleAria"
-            data-track="cta"
-            data-cta-type="app_store_android"
-            data-cta-position="final"
-          >
-            <span class="store-badge-icon" aria-hidden="true">
-              <svg width="19" height="21" viewBox="0 0 512 512" fill="currentColor" focusable="false"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l2.7 1.5 247.2-247v-5.8L47 0zm425.2 225L377.5 167l-65.1 65 65.1 65 95.6-57c27.2-15.6 27.2-41 0-56.6zM104.6 499l280.8-161.2-60.1-60.1-220.7 221.3z"/></svg>
-            </span>
-            <span class="store-badge-copy">
-              <span class="store-badge-line1" data-i18n="badgeGoogleLine">Download 'm op</span>
-              <span class="store-badge-line2">Google Play</span>
-            </span>
-          </a>
+      <section class="section" aria-label="Ontworpen voor echte reissituaties" data-i18n-aria="useAria" data-track-section="use_cases">
+        <p class="eyebrow" data-i18n="eyebrowBuiltFor">Gemaakt voor</p>
+        <h2 data-i18n="useTitle">Ontworpen voor echte reissituaties</h2>
+        <ul class="audience-grid">
+          <li>
+            <a href="./parking-map.html" data-track="cta" data-cta-type="internal_map" data-cta-position="audience_roadtrip">
+              <span class="audience-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 17h2m14 0h2M5 17a2 2 0 104 0 2 2 0 10-4 0m10 0a2 2 0 104 0 2 2 0 10-4 0M3 17v-5l2-5h9l3 5h4v5"/></svg>
+              </span>
+              <strong data-i18n="use1Title">Roadtrip</strong>
+              <span class="audience-text" data-i18n="use1Text">Vind drinkwater en toiletten gemakkelijker, zonder van je route af te wijken.</span>
+              <span class="audience-link" data-i18n="exploreParkingLink">Parkeerkaart</span>
+            </a>
+          </li>
+          <li>
+            <a href="./campervan-service-map.html" data-track="cta" data-cta-type="internal_map" data-cta-position="audience_vanlife">
+              <span class="audience-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 16V7a2 2 0 012-2h9a2 2 0 012 2v1h2.5L21 12v4M6 16a2 2 0 104 0 2 2 0 10-4 0m9 0a2 2 0 104 0 2 2 0 10-4 0M3 16h3m4 0h5"/></svg>
+              </span>
+              <strong data-i18n="use2Title">Leven in een busje</strong>
+              <span class="audience-text" data-i18n="use2Text">Regel je dagelijkse zaken eenvoudig, zonder irrelevante resultaten of lang zoeken.</span>
+              <span class="audience-link" data-i18n="exploreCampervanLink">Kaart met voorzieningen voor campers</span>
+            </a>
+          </li>
+          <li>
+            <a href="./backpacker-map.html" data-track="cta" data-cta-type="internal_map" data-cta-position="audience_backpacking">
+              <span class="audience-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M9 6V4.5A1.5 1.5 0 0110.5 3h3A1.5 1.5 0 0115 4.5V6m-9 0h12a2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2zm3 5h6"/></svg>
+              </span>
+              <strong data-i18n="use3Title">Backpacken</strong>
+              <span class="audience-text" data-i18n="use3Text">Los praktische behoeften snel op, waar je ook bent — zonder giswerk.</span>
+              <span class="audience-link" data-i18n="exploreBackpackerLink">Backpacker-kaart</span>
+            </a>
+          </li>
+          <li>
+            <a href="./drinking-water-map.html" data-track="cta" data-cta-type="internal_map" data-cta-position="audience_city">
+              <span class="audience-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M12 21s7-5.5 7-11a7 7 0 10-14 0c0 5.5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              </span>
+              <strong data-i18n="use4Title">De stad verkennen</strong>
+              <span class="audience-text" data-i18n="use4Text">Plan je route rond gratis drinkwater in plaats van geld te verspillen aan flessen.</span>
+              <span class="audience-link" data-i18n="exploreWaterLink">Kaart met drinkwaterpunten</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" aria-label="Een reis plannen in de app" data-i18n-aria="tripAria" data-track-section="trip_planning">
+        <div class="card">
+          <h2 data-i18n="tripTitle">Meer dan alleen de volgende stop vinden</h2>
+          <p class="section-lead" data-i18n="tripLead">De plekken die je vindt, kun je omzetten in een reisplan dat je kunt bewaren, delen en waarvan je de kosten kunt berekenen — iets wat een gewone kaart-app aan jou overlaat.</p>
+          <div class="feature-grid">
+            <div class="mini">
+              <strong data-i18n="trip1Title">Stel een reisplan samen</strong>
+              <p data-i18n="trip1Text">Sla de plekken die je tegenkomt op als tussenstops, in de volgorde waarin je ze gaat bezoeken, met tijden en opmerkingen.</p>
+            </div>
+            <div class="mini">
+              <strong data-i18n="trip2Title">Deel het met je reisgenoten</strong>
+              <p data-i18n="trip2Text">Stuur een link of voeg reisgenoten toe, zodat iedereen hetzelfde plan volgt.</p>
+            </div>
+            <div class="mini">
+              <strong data-i18n="trip3Title">Kijk eens wat dat allemaal oplevert</strong>
+              <p data-i18n="trip3Text">Voer bij elke tussenstop een geschatte prijs in en bekijk het totaal per valuta — handig als je tijdens je reis de grens overgaat.</p>
+            </div>
+            <div class="mini">
+              <strong data-i18n="trip4Title">Bewaar de plekken waar je graag nog eens terugkomt</strong>
+              <p data-i18n="trip4Text">Markeer een plek als favoriet en je hebt hem altijd binnen één tik bij de hand, zowel tijdens deze reis als de volgende.</p>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="card" aria-label="Veelgestelde vragen" data-i18n-aria="faqAria" data-track-section="faq">
+      <section class="section" aria-label="Laatste oproep tot actie" data-i18n-aria="finalAria" data-track-section="final_cta">
+        <div class="final-cta">
+          <h2 data-i18n="finalTitle">Alle handige plekken die je nodig hebt — waar je ook heen gaat.</h2>
+          <p data-i18n="finalText">Installeer Voyager Maps en vind sneller wat je nodig hebt, waar je reis je ook naartoe brengt.</p>
+          <div class="cta-row cta-row-center">
+            <a
+              class="store-badge"
+              href="https://apps.apple.com/app/6758412494"
+              aria-label="Download Voyager Maps in de App Store"
+              data-i18n-aria="badgeAppleAria"
+              data-track="cta"
+              data-cta-type="app_store_ios"
+              data-cta-position="final"
+            >
+              <span class="store-badge-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.3.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+              </span>
+              <span class="store-badge-copy">
+                <span class="store-badge-line1" data-i18n="badgeAppleLine">Download de app via de</span>
+                <span class="store-badge-line2">App Store</span>
+              </span>
+            </a>
+            <a
+              class="store-badge"
+              href="https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
+              aria-label="Download Voyager Maps via Google Play"
+              data-i18n-aria="badgeGoogleAria"
+              data-track="cta"
+              data-cta-type="app_store_android"
+              data-cta-position="final"
+            >
+              <span class="store-badge-icon" aria-hidden="true">
+                <svg width="19" height="21" viewBox="0 0 512 512" fill="currentColor" focusable="false"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l2.7 1.5 247.2-247v-5.8L47 0zm425.2 225L377.5 167l-65.1 65 65.1 65 95.6-57c27.2-15.6 27.2-41 0-56.6zM104.6 499l280.8-161.2-60.1-60.1-220.7 221.3z"/></svg>
+              </span>
+              <span class="store-badge-copy">
+                <span class="store-badge-line1" data-i18n="badgeGoogleLine">Download 'm op</span>
+                <span class="store-badge-line2">Google Play</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Veelgestelde vragen" data-i18n-aria="faqAria" data-track-section="faq">
         <h2 data-i18n="faqTitle">Veelgestelde vragen</h2>
-        <div class="use-grid" style="margin-top: 0.7rem">
-          <div class="mini">
+        <div class="faq-grid">
+          <div class="faq-item">
             <strong data-i18n="faq1Q">Is Voyager Maps gratis?</strong>
             <p data-i18n="faq1A">Ja, Voyager Maps is helemaal gratis, zowel op iOS als op Android. Er zijn geen abonnementen of in-app-aankopen.</p>
           </div>
-          <div class="mini">
+          <div class="faq-item">
             <strong data-i18n="faq2Q">Hoeveel locaties heeft Voyager Maps?</strong>
             <p data-i18n="faq2A">Voyager Maps heeft wereldwijd meer dan 5,5 miljoen handige plekken in de app, zoals openbare toiletten, drinkwaterkranen, gratis douches, wifi-hotspots, wasserettes, parkeerplaatsen en nog veel meer.</p>
           </div>
-          <div class="mini">
+          <div class="faq-item">
             <strong data-i18n="faq3Q">Waar gebruik je Voyager Maps voor?</strong>
             <p data-i18n="faq3A">Voyager Maps is een handige reis-app om onderweg praktische plekken te vinden — toiletten, gratis drinkwater, douches, wasserettes en wifi. De app is gemaakt voor reizigers, roadtrippers, backpackers, mensen die in een busje wonen en fietsers.</p>
           </div>
-          <div class="mini">
+          <div class="faq-item">
             <strong data-i18n="faq4Q">Waarin verschilt Voyager Maps van Google Maps?</strong>
             <p data-i18n="faq4A">Google Maps is geweldig voor navigatie en restaurants. Voyager Maps richt zich uitsluitend op praktische reisbehoeften: openbare toiletten, gratis drinkwater, douches, wasserettes en parkeerplaatsen. De app toont veel meer locaties in deze categorieën — in Parijs staan er bijvoorbeeld 289 drinkwaterpunten vermeld, tegenover ongeveer 20 op Google Maps.</p>
           </div>
         </div>
       </section>
 
-      <footer class="footer">
+      <footer class="footer" id="maps">
+        <div class="footer-brand">
+          <span class="brand"
+            ><img class="brand-mark" src="../pictures/icon/brand-mark.png" width="24" height="24" alt="" aria-hidden="true" /><span
+              class="brand-name"
+              ><span class="brand-name-lead">Voyager</span> Maps</span
+            ></span
+          >
+          <p data-i18n="footerTagline">Handige reisplekken in 13 talen. Locatiegegevens van OpenStreetMap-bijdragers.</p>
+        </div>
         <div>
           <h2 data-i18n="exploreTitle">Ontdek de kaarten</h2>
           <ul class="footer-links">
@@ -538,32 +536,13 @@
         <div>
           <h2 data-i18n="legalTitle">Juridische informatie en documentatie</h2>
           <ul class="footer-links">
-            <li>
-              <a
-                href="../privacy-policy.html"
-                data-i18n="privacyLink"
-                data-track="legal"
-                data-legal-type="privacy"
-                >Privacy Policy</a
-              >
-            </li>
-            <li>
-              <a
-                href="../terms.html"
-                data-i18n="termsLink"
-                data-track="legal"
-                data-legal-type="terms"
-                >Terms</a
-              >
-            </li>
-            <li>
-              <a href="../delete-data.html" data-i18n="deleteLink" data-track="legal" data-legal-type="delete_data"
-                >Delete Data</a
-              >
-            </li>
+            <li><a href="../privacy-policy.html" data-i18n="privacyLink" data-track="legal" data-legal-type="privacy">Privacy Policy</a></li>
+            <li><a href="../terms.html" data-i18n="termsLink" data-track="legal" data-legal-type="terms">Terms</a></li>
+            <li><a href="../delete-data.html" data-i18n="deleteLink" data-track="legal" data-legal-type="delete_data">Delete Data</a></li>
+            <li><button type="button" class="footer-consent" id="consent-manage-footer" data-i18n="consentManage">Privacyinstellingen</button></li>
           </ul>
         </div>
-        <p data-i18n="footer">© Website van Voyager Maps</p>
+        <p class="footer-copy" data-i18n="footer">© Website van Voyager Maps</p>
       </footer>
     </main>
 
