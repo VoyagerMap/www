@@ -503,6 +503,31 @@ ${languageOptions(flags)}
       });
   }
 
+
+  // Three link kinds the city pages and the homepage's city section
+  // introduced: a card through to a city page, the button through to the full
+  // list, and the CSV. They already carried data-track attributes, which
+  // listens like tracking but measured nothing until this.
+  const AUX_EVENTS = {
+    city: ["city_click", (a) => ({ city_slug: a.dataset.city || "unknown" })],
+    nav: ["nav_click", (a) => ({ nav_target: a.dataset.navTarget || "unknown" })],
+    download: [
+      "download_click",
+      (a) => ({ download_type: a.dataset.downloadType || "unknown" })
+    ]
+  };
+
+  function trackAuxClick(anchor, kind) {
+    const entry = AUX_EVENTS[kind];
+    if (!anchor || !entry) return;
+
+    trackEvent(entry[0], {
+      ...entry[1](anchor),
+      link_url: anchor.getAttribute("href") || "",
+      outbound: false
+    });
+  }
+
   function setupClickTracking() {
     document.querySelectorAll('[data-track="cta"]').forEach((anchor) => {
       anchor.addEventListener("click", () => trackCtaClick(anchor));
@@ -510,6 +535,12 @@ ${languageOptions(flags)}
 
     document.querySelectorAll('[data-track="legal"]').forEach((anchor) => {
       anchor.addEventListener("click", () => trackLegalClick(anchor));
+    });
+
+    Object.keys(AUX_EVENTS).forEach((kind) => {
+      document.querySelectorAll(`[data-track="${kind}"]`).forEach((anchor) => {
+        anchor.addEventListener("click", () => trackAuxClick(anchor, kind));
+      });
     });
   }
 

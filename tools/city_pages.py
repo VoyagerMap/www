@@ -138,7 +138,8 @@ def other_cities(rows, current, lang):
     out = []
     for r in picks:
         href = f"./{r['slug']}-map.html"
-        out.append(f'          <li><a href="{href}">{esc(r["name_en"])}'
+        out.append(f'          <li><a href="{href}" data-track="city"'
+                   f' data-city="{r["slug"]}">{esc(r["name_en"])}'
                    f' <span class="city-link-count">{r["total"]:,}</span></a></li>')
     return "\n".join(out)
 
@@ -204,7 +205,8 @@ def build_hub(repo, locales, og_locale, codes, built, write_locale):
                      if r["name_local"] != r["name_en"] else "")
             body.append(
                 f'              <tr>\n'
-                f'                <th scope="row"><a href="{href}">{esc(r["name_en"])}</a>'
+                f'                <th scope="row"><a href="{href}"'
+                f' data-track="city" data-city="{r["slug"]}">{esc(r["name_en"])}</a>'
                 f'{local} <span class="city-table-cc">{esc(r["country"])}</span></th>\n'
                 f'                <td class="num">{r["total"]:,}</td>\n'
                 f'                <td class="num">{r["toilets"]:,}</td>\n'
