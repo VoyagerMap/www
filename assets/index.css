@@ -426,6 +426,43 @@ p {
 
 /* ── Hero proof ───────────────────────────────────────────────────────── */
 
+/* Store rating and install count, sitting directly under the badges: a
+   qualifier on the install decision, not a fourth entry in the stat strip
+   below — those three are how much the map holds, this is how it is
+   received. Left as inline text rather than a flex row so it wraps by
+   itself on a narrow screen instead of needing a breakpoint. */
+.hero-proof {
+  margin: 1.1rem 0 0;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.hero-proof-stars {
+  vertical-align: -0.1em;
+  margin-right: 0.15rem;
+}
+
+.hero-proof-value {
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #fff;
+  font-variant-numeric: tabular-nums;
+}
+
+.hero-proof-count {
+  font-weight: 700;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Dimmed from the inherited muted tone rather than given its own hex, so the
+   separator stays subordinate to the text it divides whatever that text is. */
+.hero-proof-sep {
+  opacity: 0.45;
+}
+
 .stat-strip {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
