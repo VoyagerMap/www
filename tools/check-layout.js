@@ -30,7 +30,10 @@ async function checkPage(page, url, viewport) {
   const where = `${url} @ ${viewport.name}`;
   await page.setViewport(viewport);
   const response = await page.goto(BASE + url, { waitUntil: "networkidle0" });
-  if (!response.ok()) return fail(where, `HTTP ${response.status()}`);
+  // ok() is 200-299 only, so a cache revalidation (304) would read as broken.
+  if (!response.ok() && response.status() !== 304) {
+    return fail(where, `HTTP ${response.status()}`);
+  }
 
   const report = await page.evaluate(() => {
     const box = (el) => {
