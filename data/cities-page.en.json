@@ -1,0 +1,27 @@
+{
+  "_note": "English source for the all-cities index at /cities.html. No placeholders: city names and figures are inserted as markup, not into sentences, so this translates cleanly. Chrome is reused from each locale's landingPages group.",
+
+  "pageTitle": "Every city on Voyager Maps",
+  "metaDescription": "The cities Voyager Maps covers in depth, with counts of the public toilets, drinking water points and other practical places mapped in each.",
+
+  "eyebrow": "City index",
+  "heroTitle": "Every city on the map",
+  "heroLead": "Each of these has a page of its own, counting what the map holds inside it. Ordered by how many travellers go there, not by how much data we have — so the list reads as places worth going to.",
+
+  "tableAria": "Cities with a page, and what is mapped in each",
+  "colCity": "City",
+  "colTotal": "Places",
+  "colToilets": "Toilets",
+  "colWater": "Water",
+
+  "restAria": "Cities measured but not published",
+  "restTitle": "Measured, but not published",
+  "restText": "Other cities were counted and left out, because too little of them is mapped for a page to say anything useful. Prague reassembles to barely a thousand places across the two dozen spellings OpenStreetMap uses for it; Athens records no public toilets at all. They stay in the data with a published flag set to no — the counts are true, they are just too thin to build on, and coverage grows as people add to the map.",
+  "csvLink": "Download the counts for every measured city as a CSV",
+
+  "ctaAria": "Get the app",
+  "ctaTitle": "Take the map with you",
+  "ctaText": "Every city here, and everywhere else, in one app. Free on iOS and Android, no subscription and no account required.",
+
+  "dataNote": "Place data from OpenStreetMap contributors, licensed under the Open Database License. Counts are refreshed with each data load."
+}

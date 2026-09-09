@@ -316,13 +316,53 @@ p {
   font-variant-numeric: tabular-nums;
 }
 
+/* The way through to the full list. The section shows twelve; this is the
+   other thirty-eight. Given a button rather than a link because it is the
+   section's action, with the CSV kept beside it as the quieter option. */
+.city-teaser-more {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem 1rem;
+  margin-top: 1.1rem;
+}
+
+.city-teaser-btn {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.6rem;
+  padding: 0.55rem 1.05rem;
+  border: 1px solid var(--accent);
+  border-radius: 10px;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.city-teaser-btn:hover,
+.city-teaser-btn:focus-visible {
+  background: var(--accent);
+  color: #0b1220;
+  transform: translateY(-1px);
+}
+
+.city-teaser-csv {
+  font-size: 0.82rem;
+  color: var(--muted-dim);
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .city-teaser-card {
+  .city-teaser-card,
+  .city-teaser-btn {
     transition: none;
   }
 
   .city-teaser-card:hover,
-  .city-teaser-card:focus-visible {
+  .city-teaser-card:focus-visible,
+  .city-teaser-btn:hover,
+  .city-teaser-btn:focus-visible {
     transform: none;
   }
 }

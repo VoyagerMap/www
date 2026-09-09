@@ -697,5 +697,6 @@ window.voyagerLocales["ja"] = {
   citiesLead: "50の都市ごとに専用ページが用意されており、その地図に含まれるあらゆる実用的なスポットが一覧表示されている。そのため、到着してからではなく、出発前にカバー範囲を確認できるのだ。",
   citiesToiletsLabel: "トイレ",
   citiesWaterLabel: "水",
-  citiesCsvLink: "各都市の件数をCSV形式で確認する"
+  citiesCsvLink: "各都市の件数をCSV形式で確認する",
+  citiesAllLink: "全50都市を見る"
 };

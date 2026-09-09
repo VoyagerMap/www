@@ -697,5 +697,6 @@ window.voyagerLocales["hu"] = {
   citiesLead: "Ötven városnak van saját oldala, amelyeken felsorolják az adott városban található összes praktikus helyet – így már indulás előtt megnézheted, hogy mit kínál a térkép, nem pedig csak érkezés után.",
   citiesToiletsLabel: "WC-k",
   citiesWaterLabel: "víz",
-  citiesCsvLink: "Az egyes városok adatai CSV-formátumban megtekinthetők"
+  citiesCsvLink: "Az egyes városok adatai CSV-formátumban megtekinthetők",
+  citiesAllLink: "Az összes 50 város megtekintése"
 };

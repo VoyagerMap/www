@@ -233,5 +233,6 @@ window.voyagerLocales["pl"] = {
   "citiesLead": "Pięćdziesiąt miast ma swoje własne strony, na których zebrano wszystkie przydatne miejsca, jakie można znaleźć na mapie – dzięki temu możesz sprawdzić, co jest w okolicy, zanim wyruszysz, a nie dopiero po przyjeździe.",
   "citiesToiletsLabel": "toalety",
   "citiesWaterLabel": "woda",
-  "citiesCsvLink": "Zobacz statystyki dla każdego miasta w formacie CSV"
+  "citiesCsvLink": "Zobacz statystyki dla każdego miasta w formacie CSV",
+  "citiesAllLink": "Zobacz wszystkie 50 miast"
 };

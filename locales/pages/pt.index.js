@@ -233,5 +233,6 @@ window.voyagerLocales["pt"] = {
   "citiesLead": "Cinquenta cidades têm uma página própria, listando todos os tipos de locais úteis que o mapa inclui nelas — assim, você pode conferir a cobertura antes de sair, e não depois de chegar.",
   "citiesToiletsLabel": "banheiros",
   "citiesWaterLabel": "água",
-  "citiesCsvLink": "Veja os números de cada cidade em um arquivo CSV"
+  "citiesCsvLink": "Veja os números de cada cidade em um arquivo CSV",
+  "citiesAllLink": "Veja todas as 50 cidades"
 };

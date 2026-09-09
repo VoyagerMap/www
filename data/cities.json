@@ -6,7 +6,8 @@
     "lang": "fr",
     "cities": [
       "Paris"
-    ]
+    ],
+    "rank": 4
   },
   "london": {
     "en": "London",
@@ -15,7 +16,8 @@
     "lang": null,
     "cities": [
       "London"
-    ]
+    ],
+    "rank": 2
   },
   "rome": {
     "en": "Rome",
@@ -24,7 +26,8 @@
     "lang": "it",
     "cities": [
       "Roma"
-    ]
+    ],
+    "rank": 9
   },
   "barcelona": {
     "en": "Barcelona",
@@ -33,7 +36,8 @@
     "lang": "es",
     "cities": [
       "Barcelona"
-    ]
+    ],
+    "rank": 10
   },
   "madrid": {
     "en": "Madrid",
@@ -42,7 +46,8 @@
     "lang": "es",
     "cities": [
       "Madrid"
-    ]
+    ],
+    "rank": 13
   },
   "vienna": {
     "en": "Vienna",
@@ -51,7 +56,8 @@
     "lang": "de",
     "cities": [
       "Wien"
-    ]
+    ],
+    "rank": 15
   },
   "amsterdam": {
     "en": "Amsterdam",
@@ -60,7 +66,8 @@
     "lang": "nl",
     "cities": [
       "Amsterdam"
-    ]
+    ],
+    "rank": 14
   },
   "berlin": {
     "en": "Berlin",
@@ -69,7 +76,8 @@
     "lang": "de",
     "cities": [
       "Berlin"
-    ]
+    ],
+    "rank": 16
   },
   "munich": {
     "en": "Munich",
@@ -78,7 +86,8 @@
     "lang": "de",
     "cities": [
       "München"
-    ]
+    ],
+    "rank": 19
   },
   "hamburg": {
     "en": "Hamburg",
@@ -87,7 +96,8 @@
     "lang": "de",
     "cities": [
       "Hamburg"
-    ]
+    ],
+    "rank": 32
   },
   "cologne": {
     "en": "Cologne",
@@ -96,7 +106,8 @@
     "lang": "de",
     "cities": [
       "Köln"
-    ]
+    ],
+    "rank": 33
   },
   "frankfurt": {
     "en": "Frankfurt",
@@ -105,7 +116,8 @@
     "lang": "de",
     "cities": [
       "Frankfurt am Main"
-    ]
+    ],
+    "rank": 31
   },
   "dresden": {
     "en": "Dresden",
@@ -114,7 +126,8 @@
     "lang": "de",
     "cities": [
       "Dresden"
-    ]
+    ],
+    "rank": 50
   },
   "budapest": {
     "en": "Budapest",
@@ -123,7 +136,8 @@
     "lang": "hu",
     "cities": [
       "Budapest"
-    ]
+    ],
+    "rank": 22
   },
   "prague": {
     "en": "Prague",
@@ -176,7 +190,8 @@
       "PRAHA 20",
       "PRAHA 21",
       "PRAHA 22"
-    ]
+    ],
+    "rank": 999
   },
   "lisbon": {
     "en": "Lisbon",
@@ -185,7 +200,8 @@
     "lang": "pt",
     "cities": [
       "Lisboa"
-    ]
+    ],
+    "rank": 23
   },
   "porto": {
     "en": "Porto",
@@ -194,7 +210,8 @@
     "lang": "pt",
     "cities": [
       "Porto"
-    ]
+    ],
+    "rank": 999
   },
   "milan": {
     "en": "Milan",
@@ -203,7 +220,8 @@
     "lang": "it",
     "cities": [
       "Milano"
-    ]
+    ],
+    "rank": 12
   },
   "florence": {
     "en": "Florence",
@@ -212,7 +230,8 @@
     "lang": "it",
     "cities": [
       "Firenze"
-    ]
+    ],
+    "rank": 999
   },
   "venice": {
     "en": "Venice",
@@ -221,7 +240,8 @@
     "lang": "it",
     "cities": [
       "Venezia"
-    ]
+    ],
+    "rank": 999
   },
   "naples": {
     "en": "Naples",
@@ -230,7 +250,8 @@
     "lang": "it",
     "cities": [
       "Napoli"
-    ]
+    ],
+    "rank": 999
   },
   "turin": {
     "en": "Turin",
@@ -239,7 +260,8 @@
     "lang": "it",
     "cities": [
       "Torino"
-    ]
+    ],
+    "rank": 999
   },
   "bologna": {
     "en": "Bologna",
@@ -248,7 +270,8 @@
     "lang": "it",
     "cities": [
       "Bologna"
-    ]
+    ],
+    "rank": 999
   },
   "genoa": {
     "en": "Genoa",
@@ -257,7 +280,8 @@
     "lang": "it",
     "cities": [
       "Genova"
-    ]
+    ],
+    "rank": 999
   },
   "verona": {
     "en": "Verona",
@@ -266,7 +290,8 @@
     "lang": "it",
     "cities": [
       "Verona"
-    ]
+    ],
+    "rank": 999
   },
   "palermo": {
     "en": "Palermo",
@@ -275,7 +300,8 @@
     "lang": "it",
     "cities": [
       "Palermo"
-    ]
+    ],
+    "rank": 999
   },
   "warsaw": {
     "en": "Warsaw",
@@ -284,7 +310,8 @@
     "lang": "pl",
     "cities": [
       "Warszawa"
-    ]
+    ],
+    "rank": 24
   },
   "krakow": {
     "en": "Krakow",
@@ -293,7 +320,8 @@
     "lang": "pl",
     "cities": [
       "Kraków"
-    ]
+    ],
+    "rank": 25
   },
   "gdansk": {
     "en": "Gdansk",
@@ -302,7 +330,8 @@
     "lang": "pl",
     "cities": [
       "Gdańsk"
-    ]
+    ],
+    "rank": 48
   },
   "wroclaw": {
     "en": "Wroclaw",
@@ -311,7 +340,8 @@
     "lang": "pl",
     "cities": [
       "Wrocław"
-    ]
+    ],
+    "rank": 999
   },
   "poznan": {
     "en": "Poznan",
@@ -320,7 +350,8 @@
     "lang": "pl",
     "cities": [
       "Poznań"
-    ]
+    ],
+    "rank": 49
   },
   "dublin": {
     "en": "Dublin",
@@ -329,7 +360,8 @@
     "lang": null,
     "cities": [
       "Dublin"
-    ]
+    ],
+    "rank": 999
   },
   "edinburgh": {
     "en": "Edinburgh",
@@ -338,7 +370,8 @@
     "lang": null,
     "cities": [
       "Edinburgh"
-    ]
+    ],
+    "rank": 999
   },
   "manchester": {
     "en": "Manchester",
@@ -347,7 +380,8 @@
     "lang": null,
     "cities": [
       "Manchester"
-    ]
+    ],
+    "rank": 999
   },
   "birmingham": {
     "en": "Birmingham",
@@ -356,7 +390,8 @@
     "lang": null,
     "cities": [
       "Birmingham"
-    ]
+    ],
+    "rank": 999
   },
   "bristol": {
     "en": "Bristol",
@@ -365,7 +400,8 @@
     "lang": null,
     "cities": [
       "Bristol"
-    ]
+    ],
+    "rank": 999
   },
   "york": {
     "en": "York",
@@ -374,7 +410,8 @@
     "lang": null,
     "cities": [
       "York"
-    ]
+    ],
+    "rank": 999
   },
   "zurich": {
     "en": "Zurich",
@@ -383,7 +420,8 @@
     "lang": "de",
     "cities": [
       "Zürich"
-    ]
+    ],
+    "rank": 30
   },
   "geneva": {
     "en": "Geneva",
@@ -392,7 +430,8 @@
     "lang": "fr",
     "cities": [
       "Genève"
-    ]
+    ],
+    "rank": 999
   },
   "bern": {
     "en": "Bern",
@@ -401,7 +440,8 @@
     "lang": "de",
     "cities": [
       "Bern"
-    ]
+    ],
+    "rank": 999
   },
   "athens": {
     "en": "Athens",
@@ -410,7 +450,8 @@
     "lang": null,
     "cities": [
       "Αθήνα"
-    ]
+    ],
+    "rank": 999
   },
   "istanbul": {
     "en": "Istanbul",
@@ -419,7 +460,8 @@
     "lang": null,
     "cities": [
       "İstanbul"
-    ]
+    ],
+    "rank": 1
   },
   "antalya": {
     "en": "Antalya",
@@ -428,7 +470,8 @@
     "lang": null,
     "cities": [
       "Antalya"
-    ]
+    ],
+    "rank": 29
   },
   "izmir": {
     "en": "Izmir",
@@ -437,7 +480,8 @@
     "lang": null,
     "cities": [
       "İzmir"
-    ]
+    ],
+    "rank": 999
   },
   "seville": {
     "en": "Seville",
@@ -446,7 +490,8 @@
     "lang": "es",
     "cities": [
       "Sevilla"
-    ]
+    ],
+    "rank": 999
   },
   "valencia": {
     "en": "Valencia",
@@ -456,7 +501,8 @@
     "cities": [
       "València",
       "Valencia"
-    ]
+    ],
+    "rank": 999
   },
   "malaga": {
     "en": "Malaga",
@@ -465,7 +511,8 @@
     "lang": "es",
     "cities": [
       "Málaga"
-    ]
+    ],
+    "rank": 999
   },
   "granada": {
     "en": "Granada",
@@ -474,7 +521,8 @@
     "lang": "es",
     "cities": [
       "Granada"
-    ]
+    ],
+    "rank": 999
   },
   "palma": {
     "en": "Palma de Mallorca",
@@ -483,7 +531,8 @@
     "lang": "es",
     "cities": [
       "Palma"
-    ]
+    ],
+    "rank": 999
   },
   "bilbao": {
     "en": "Bilbao",
@@ -492,7 +541,8 @@
     "lang": "es",
     "cities": [
       "Bilbao"
-    ]
+    ],
+    "rank": 999
   },
   "lyon": {
     "en": "Lyon",
@@ -501,7 +551,8 @@
     "lang": "fr",
     "cities": [
       "Lyon"
-    ]
+    ],
+    "rank": 39
   },
   "marseille": {
     "en": "Marseille",
@@ -510,7 +561,8 @@
     "lang": "fr",
     "cities": [
       "Marseille"
-    ]
+    ],
+    "rank": 999
   },
   "nice": {
     "en": "Nice",
@@ -519,7 +571,8 @@
     "lang": "fr",
     "cities": [
       "Nice"
-    ]
+    ],
+    "rank": 999
   },
   "bordeaux": {
     "en": "Bordeaux",
@@ -528,7 +581,8 @@
     "lang": "fr",
     "cities": [
       "Bordeaux"
-    ]
+    ],
+    "rank": 999
   },
   "toulouse": {
     "en": "Toulouse",
@@ -537,7 +591,8 @@
     "lang": "fr",
     "cities": [
       "Toulouse"
-    ]
+    ],
+    "rank": 999
   },
   "strasbourg": {
     "en": "Strasbourg",
@@ -546,7 +601,8 @@
     "lang": "fr",
     "cities": [
       "Strasbourg"
-    ]
+    ],
+    "rank": 999
   },
   "montpellier": {
     "en": "Montpellier",
@@ -555,7 +611,8 @@
     "lang": "fr",
     "cities": [
       "Montpellier"
-    ]
+    ],
+    "rank": 999
   },
   "rotterdam": {
     "en": "Rotterdam",
@@ -564,7 +621,8 @@
     "lang": "nl",
     "cities": [
       "Rotterdam"
-    ]
+    ],
+    "rank": 999
   },
   "the-hague": {
     "en": "The Hague",
@@ -573,7 +631,8 @@
     "lang": "nl",
     "cities": [
       "Den Haag"
-    ]
+    ],
+    "rank": 999
   },
   "utrecht": {
     "en": "Utrecht",
@@ -582,7 +641,8 @@
     "lang": "nl",
     "cities": [
       "Utrecht"
-    ]
+    ],
+    "rank": 999
   },
   "salzburg": {
     "en": "Salzburg",
@@ -591,7 +651,8 @@
     "lang": "de",
     "cities": [
       "Salzburg"
-    ]
+    ],
+    "rank": 999
   },
   "innsbruck": {
     "en": "Innsbruck",
@@ -600,7 +661,8 @@
     "lang": "de",
     "cities": [
       "Innsbruck"
-    ]
+    ],
+    "rank": 999
   },
   "graz": {
     "en": "Graz",
@@ -609,7 +671,8 @@
     "lang": "de",
     "cities": [
       "Graz"
-    ]
+    ],
+    "rank": 999
   },
   "zagreb": {
     "en": "Zagreb",
@@ -618,7 +681,8 @@
     "lang": null,
     "cities": [
       "Zagreb"
-    ]
+    ],
+    "rank": 999
   },
   "tokyo": {
     "en": "Tokyo",
@@ -650,7 +714,8 @@
       "葛飾区",
       "江戸川区"
     ],
-    "state_region": "Tokyo"
+    "state_region": "Tokyo",
+    "rank": 5
   },
   "osaka": {
     "en": "Osaka",
@@ -659,7 +724,8 @@
     "lang": "ja",
     "cities": [
       "大阪市"
-    ]
+    ],
+    "rank": 11
   },
   "kyoto": {
     "en": "Kyoto",
@@ -668,7 +734,8 @@
     "lang": "ja",
     "cities": [
       "京都市"
-    ]
+    ],
+    "rank": 17
   },
   "yokohama": {
     "en": "Yokohama",
@@ -677,7 +744,8 @@
     "lang": "ja",
     "cities": [
       "横浜市"
-    ]
+    ],
+    "rank": 44
   },
   "nagoya": {
     "en": "Nagoya",
@@ -686,7 +754,8 @@
     "lang": "ja",
     "cities": [
       "名古屋市"
-    ]
+    ],
+    "rank": 40
   },
   "sapporo": {
     "en": "Sapporo",
@@ -695,7 +764,8 @@
     "lang": "ja",
     "cities": [
       "札幌市"
-    ]
+    ],
+    "rank": 41
   },
   "fukuoka": {
     "en": "Fukuoka",
@@ -704,7 +774,8 @@
     "lang": "ja",
     "cities": [
       "福岡市"
-    ]
+    ],
+    "rank": 42
   },
   "kobe": {
     "en": "Kobe",
@@ -713,7 +784,8 @@
     "lang": "ja",
     "cities": [
       "神戸市"
-    ]
+    ],
+    "rank": 43
   },
   "hiroshima": {
     "en": "Hiroshima",
@@ -722,7 +794,8 @@
     "lang": "ja",
     "cities": [
       "広島市"
-    ]
+    ],
+    "rank": 999
   },
   "seoul": {
     "en": "Seoul",
@@ -731,7 +804,8 @@
     "lang": "ko",
     "cities": [
       "서울특별시"
-    ]
+    ],
+    "rank": 8
   },
   "taipei": {
     "en": "Taipei",
@@ -741,7 +815,8 @@
     "cities": [
       "臺北市",
       "台北市"
-    ]
+    ],
+    "rank": 18
   },
   "singapore": {
     "en": "Singapore",
@@ -750,7 +825,8 @@
     "lang": null,
     "cities": [
       "Singapore"
-    ]
+    ],
+    "rank": 6
   },
   "dubai": {
     "en": "Dubai",
@@ -759,7 +835,8 @@
     "lang": null,
     "cities": [
       "دبي"
-    ]
+    ],
+    "rank": 3
   },
   "new-york": {
     "en": "New York City",
@@ -774,7 +851,8 @@
       "The Bronx",
       "Staten Island",
       "Manhattan"
-    ]
+    ],
+    "rank": 7
   },
   "los-angeles": {
     "en": "Los Angeles",
@@ -783,7 +861,8 @@
     "lang": null,
     "cities": [
       "Los Angeles"
-    ]
+    ],
+    "rank": 26
   },
   "chicago": {
     "en": "Chicago",
@@ -792,7 +871,8 @@
     "lang": null,
     "cities": [
       "Chicago"
-    ]
+    ],
+    "rank": 34
   },
   "houston": {
     "en": "Houston",
@@ -801,7 +881,8 @@
     "lang": null,
     "cities": [
       "Houston"
-    ]
+    ],
+    "rank": 46
   },
   "san-francisco": {
     "en": "San Francisco",
@@ -810,7 +891,8 @@
     "lang": null,
     "cities": [
       "San Francisco"
-    ]
+    ],
+    "rank": 35
   },
   "seattle": {
     "en": "Seattle",
@@ -819,7 +901,8 @@
     "lang": null,
     "cities": [
       "Seattle"
-    ]
+    ],
+    "rank": 45
   },
   "washington": {
     "en": "Washington, D.C.",
@@ -828,7 +911,8 @@
     "lang": null,
     "cities": [
       "Washington"
-    ]
+    ],
+    "rank": 36
   },
   "boston": {
     "en": "Boston",
@@ -837,7 +921,8 @@
     "lang": null,
     "cities": [
       "Boston"
-    ]
+    ],
+    "rank": 999
   },
   "philadelphia": {
     "en": "Philadelphia",
@@ -846,7 +931,8 @@
     "lang": null,
     "cities": [
       "Philadelphia"
-    ]
+    ],
+    "rank": 999
   },
   "las-vegas": {
     "en": "Las Vegas",
@@ -855,7 +941,8 @@
     "lang": null,
     "cities": [
       "Las Vegas"
-    ]
+    ],
+    "rank": 999
   },
   "miami": {
     "en": "Miami",
@@ -864,7 +951,8 @@
     "lang": null,
     "cities": [
       "Miami"
-    ]
+    ],
+    "rank": 999
   },
   "san-diego": {
     "en": "San Diego",
@@ -873,7 +961,8 @@
     "lang": null,
     "cities": [
       "San Diego"
-    ]
+    ],
+    "rank": 47
   },
   "austin": {
     "en": "Austin",
@@ -882,7 +971,8 @@
     "lang": null,
     "cities": [
       "Austin"
-    ]
+    ],
+    "rank": 999
   },
   "new-orleans": {
     "en": "New Orleans",
@@ -891,7 +981,8 @@
     "lang": null,
     "cities": [
       "New Orleans"
-    ]
+    ],
+    "rank": 999
   },
   "montreal": {
     "en": "Montreal",
@@ -900,7 +991,8 @@
     "lang": "fr",
     "cities": [
       "Montréal"
-    ]
+    ],
+    "rank": 37
   },
   "vancouver": {
     "en": "Vancouver",
@@ -909,7 +1001,8 @@
     "lang": null,
     "cities": [
       "Vancouver"
-    ]
+    ],
+    "rank": 999
   },
   "toronto": {
     "en": "Toronto",
@@ -918,7 +1011,8 @@
     "lang": null,
     "cities": [
       "Toronto"
-    ]
+    ],
+    "rank": 999
   },
   "sydney": {
     "en": "Sydney",
@@ -927,7 +1021,8 @@
     "lang": null,
     "cities": [
       "Sydney"
-    ]
+    ],
+    "rank": 20
   },
   "melbourne": {
     "en": "Melbourne",
@@ -936,7 +1031,8 @@
     "lang": null,
     "cities": [
       "Melbourne"
-    ]
+    ],
+    "rank": 21
   },
   "brisbane": {
     "en": "Brisbane",
@@ -945,7 +1041,8 @@
     "lang": null,
     "cities": [
       "Brisbane"
-    ]
+    ],
+    "rank": 38
   },
   "sao-paulo": {
     "en": "São Paulo",
@@ -954,7 +1051,8 @@
     "lang": "pt",
     "cities": [
       "São Paulo"
-    ]
+    ],
+    "rank": 28
   },
   "rio-de-janeiro": {
     "en": "Rio de Janeiro",
@@ -963,6 +1061,7 @@
     "lang": "pt",
     "cities": [
       "Rio de Janeiro"
-    ]
+    ],
+    "rank": 27
   }
 }

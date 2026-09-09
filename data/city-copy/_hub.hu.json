@@ -1,0 +1,21 @@
+{
+  "pageTitle": "A Voyager Maps minden városa",
+  "metaDescription": "A Voyager Maps által részletesen lefedett városok, az egyes városokban feltérképezett nyilvános WC-k, ivóvízcsapok és egyéb praktikus helyek számával.",
+  "eyebrow": "Városi index",
+  "heroTitle": "Minden város a térképen",
+  "heroLead": "Mindegyiknek van egy saját oldala, amelyen felsorolják, mit tartalmaz a hozzá tartozó térkép. A sorrend az alapján alakult ki, hogy hány utazó látogatja az adott helyet, nem pedig az adatmennyiség alapján – így a lista azokat a helyeket sorolja fel, ahová érdemes elmenni.",
+  "tableAria": "Azok a városok, amelyekről külön oldal található, és hogy mit jelöl az alkalmazás az egyes városokban",
+  "colCity": "Város",
+  "colTotal": "Helyek",
+  "colToilets": "WC-k",
+  "colWater": "Víz",
+  "restAria": "Mért, de nem közzétett városok",
+  "restTitle": "Megmérve, de nem publikálva",
+  "restText": "Más városokat is megszámoltunk, de kihagytuk őket, mert túl kevés helyet jelöltek meg ahhoz, hogy egy oldal hasznos információt nyújthasson róluk. Prága alig ezer helyet tesz ki az OpenStreetMap által használt két tucat különböző írásmódban; Athénban egyáltalán nincs nyilvános WC. Ezek az adatokban maradnak, a közzétételi jelölésük „nem” értékre van állítva – a számok valósak, csak túl kevés ahhoz, hogy alapul szolgáljanak, és a lefedettség növekszik, ahogy az emberek kiegészítik a térképet.",
+  "csvLink": "Töltse le az összes felmért városra vonatkozó számadatokat CSV formátumban",
+  "ctaAria": "Töltse le az alkalmazást",
+  "ctaTitle": "Vidd magaddal a térképet!",
+  "ctaText": "Minden város itt, és mindenhol máshol, egyetlen alkalmazásban. Ingyenes iOS-re és Androidra, előfizetés és fiók létrehozása nélkül.",
+  "dataNote": "Az adatok az OpenStreetMap-hozzájárulóktól származnak, és az Open Database License alapján kerültek engedélyezésre. A számadatok minden adatbetöltéskor frissülnek.",
+  "_note": "DeepL HU of cities-page.en.json."
+}

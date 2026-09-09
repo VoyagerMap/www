@@ -84,14 +84,46 @@ def main():
             if spare:
                 unused.append(f"{page}: {', '.join(spare)}")
 
+    # The key existing is not the same as the page showing it. Every
+    # "Privacy Policy" link on the site stayed English in all thirteen
+    # languages because the substitution pattern required data-i18n to be the
+    # last attribute on its tag and those links carry data-track after it —
+    # no error, no missing key, just English text under a localized URL. This
+    # compares what was generated against what the dictionary says it is.
+    stale = []
+    for page, group in bp.PAGES.items():
+        for code in codes:
+            rel = page if code == "en" else os.path.join(code, page)
+            path = os.path.join(REPO, rel)
+            if not os.path.exists(path):
+                continue
+            dic = locales[code]
+            if group:
+                dic = dic.get("landingPages", {}).get(group)
+                if not dic:
+                    continue
+            html = open(path, encoding="utf-8").read()
+            for key, _attrs, shown in re.findall(
+                    r'data-i18n="([^"]+)"([^>]*)>([^<]*)<', html):
+                want = dic.get(key)
+                if isinstance(want, str) and shown != bp.esc(want):
+                    stale.append(f"{rel}: {key} shows {shown!r}, "
+                                 f"dictionary says {want!r}")
+
     for line in missing:
         print(f"MISSING  {line}")
+    for line in stale[:20]:
+        print(f"STALE    {line}")
+    if len(stale) > 20:
+        print(f"STALE    …and {len(stale) - 20} more")
     for line in unused:
         print(f"unused   {line}")
 
     print(f"\n{len(bp.PAGES)} pages x {len(codes)} languages checked")
     if missing:
         sys.exit(f"{len(missing)} page/language pairs would fall back to English")
+    if stale:
+        sys.exit(f"{len(stale)} rendered strings do not match their dictionary")
     if unused and strict:
         sys.exit(f"{len(unused)} pages carry keys nothing renders")
     print("every key a page renders exists in every language")

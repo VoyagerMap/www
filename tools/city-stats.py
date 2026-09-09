@@ -93,7 +93,7 @@ GROUP BY m.slug
 # improve (Venice at 1,482 total, Florence at 74 toilets, Prague at 3).
 MIN_TOTAL, MIN_TOILETS = 2000, 150
 
-FIELDS = ["slug", "name_en", "name_local", "country", "lang", "total"] \
+FIELDS = ["slug", "name_en", "name_local", "country", "lang", "rank", "total"] \
     + list(TYPES) + ["wifi", "step_free", "free_of_charge", "with_hours",
                      "published"]
 
@@ -109,7 +109,7 @@ def main():
             print(f"  no rows at all: {slug} ({c['country']})")
             continue
         row = dict(zip(FIELDS, [slug, c["en"], c["local"], c["country"],
-                                c["lang"] or ""] + got))
+                                c["lang"] or "", c.get("rank", 999)] + got))
         row["published"] = ("yes" if row["total"] >= MIN_TOTAL
                             and row["toilets"] >= MIN_TOILETS else "no")
         rows.append(row)

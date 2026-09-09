@@ -37,7 +37,9 @@ API = "https://api-free.deepl.com/v2/translate"
 BATCH = 40
 
 TARGETS = {"de": "DE", "fr": "FR", "it": "IT", "es": "ES", "pt": "PT-BR",
-           "nl": "NL", "pl": "PL", "hu": "HU", "ja": "JA", "ko": "KO", "zh": "ZH"}
+           "nl": "NL", "pl": "PL", "hu": "HU", "ja": "JA", "ko": "KO", "zh": "ZH",
+           "hi": "HI"}   # hi is here for the all-cities hub only: no city
+                          # page is in Hindi, but the hub is in every language
 
 CONTEXT = (
     "Copy for a page of Voyager Maps, a free travel app showing practical "
@@ -46,6 +48,7 @@ CONTEXT = (
     "the app has mapped in one named city. Keep city names and figures as they "
     "are; 'Voyager Maps' is a product name.")
 
+ALL_LANGS = list(TARGETS)          # every site language except English
 PLACEHOLDER = re.compile(r"\{(\w+)\}")
 # The four candidate sentences highlight() chooses between. Only the chosen
 # one is rendered, under the key "highlight"; none ship as themselves.
@@ -180,6 +183,23 @@ def main():
 
     key = auth_key()
     langs = sorted({r["lang"] for r in rows if r["lang"]})
+
+    # The all-cities index at /cities.html exists in every language the site
+    # has, unlike the city pages — it is a directory, not a page about one
+    # place, so a Korean reader has a reason to see it.
+    hub_src = json.load(open(os.path.join(REPO, "data", "cities-page.en.json"),
+                             encoding="utf-8"))
+    hub_keys = [k for k in hub_src if not k.startswith("_")]
+    write(os.path.join(OUT, "_hub.en.json"), {k: hub_src[k] for k in hub_keys},
+          "Copied from data/cities-page.en.json.")
+    for lang in ALL_LANGS:
+        path = os.path.join(OUT, f"_hub.{lang}.json")
+        if os.path.exists(path) and not force:
+            continue
+        print(f"  hub -> {TARGETS[lang]}")
+        got = deepl([hub_src[k] for k in hub_keys], TARGETS[lang], key)
+        write(path, dict(zip(hub_keys, got)),
+              f"DeepL {TARGETS[lang]} of cities-page.en.json.")
 
     for lang in langs:
         path = os.path.join(OUT, f"_shared.{lang}.json")

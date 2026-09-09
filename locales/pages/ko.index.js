@@ -233,5 +233,6 @@ window.voyagerLocales["ko"] = {
   "citiesLead": "50개 도시에 대한 전용 페이지가 마련되어 있으며, 각 도시 내 지도에 표시된 모든 종류의 실용적인 장소를 상세히 정리해 두었습니다. 따라서 도착한 후에가 아니라 출발하기 전에 서비스 범위를 미리 확인할 수 있습니다.",
   "citiesToiletsLabel": "화장실",
   "citiesWaterLabel": "물",
-  "citiesCsvLink": "각 도시별 현황을 CSV 파일로 확인하세요"
+  "citiesCsvLink": "각 도시별 현황을 CSV 파일로 확인하세요",
+  "citiesAllLink": "50개 도시 모두 보기"
 };

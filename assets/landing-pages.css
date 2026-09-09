@@ -404,6 +404,84 @@ p {
   font-variant-numeric: tabular-nums;
 }
 
+/* The all-cities index. A table because it is one: four comparable columns
+   over fifty rows, which a reader scans down rather than reads. It scrolls
+   inside its own box so the page never does. */
+.city-table-scroll {
+  overflow-x: auto;
+  margin: 0 -0.3rem;
+  padding: 0 0.3rem;
+}
+
+.city-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.city-table th,
+.city-table td {
+  padding: 0.55rem 0.7rem;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+}
+
+.city-table thead th {
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.city-table tbody th {
+  font-weight: 600;
+}
+
+.city-table tbody tr:hover {
+  background: rgba(79, 156, 255, 0.06);
+}
+
+.city-table .num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.city-table a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.city-table a:hover,
+.city-table a:focus-visible {
+  border-bottom-color: var(--accent);
+}
+
+/* The name OpenStreetMap tags the city with, kept beside the English one:
+   it is what a reader sees on signs when they get there. */
+.city-table-local {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.city-table-cc {
+  margin-left: 0.35rem;
+  padding: 0.05rem 0.32rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  vertical-align: 0.08em;
+}
+
 @media (min-width: 780px) {
   .city-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));

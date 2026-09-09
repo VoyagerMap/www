@@ -1,0 +1,21 @@
+{
+  "pageTitle": "Każde miasto w Voyager Maps",
+  "metaDescription": "Miasta, które Voyager Maps szczegółowo obejmuje, wraz z liczbą toalet publicznych, punktów z wodą pitną i innych przydatnych miejsc zaznaczonych na mapie w każdym z nich.",
+  "eyebrow": "Indeks miast",
+  "heroTitle": "Każde miasto na mapie",
+  "heroLead": "Każda z tych lokalizacji ma swoją własną stronę, na której podano, co można znaleźć na mapie. Lista jest uporządkowana według liczby podróżnych odwiedzających te miejsca, a nie według ilości danych, które posiadamy – dzięki temu wygląda jak lista miejsc, które warto odwiedzić.",
+  "tableAria": "Miasta, które mają swoją stronę, oraz co jest na nich zaznaczone",
+  "colCity": "Miasto",
+  "colTotal": "Miejsca",
+  "colToilets": "Toalety",
+  "colWater": "Woda",
+  "restAria": "Miasta, które zostały uwzględnione w pomiarach, ale nie zostały opublikowane",
+  "restTitle": "Zmierzone, ale nieopublikowane",
+  "restText": "Inne miasta zostały policzone, ale pominięte, bo jest ich zbyt mało, żeby strona zawierała jakieś przydatne informacje. W Pradze, biorąc pod uwagę dwa tuziny różnych nazw używanych przez OpenStreetMap, z trudem zbiera się nawet tysiąc miejsc; w Atenach nie odnotowano żadnych toalet publicznych. Pozostają one w danych z flagą „opublikowane” ustawioną na „nie” – liczby są prawdziwe, po prostu jest ich za mało, by na nich bazować, a zasięg rośnie w miarę jak ludzie dodają nowe punkty do mapy.",
+  "csvLink": "Pobierz dane liczbowe dla każdego z mierzonych miast w formacie CSV",
+  "ctaAria": "Pobierz aplikację",
+  "ctaTitle": "Zabierz mapę ze sobą",
+  "ctaText": "Wszystkie miasta tutaj i wszędzie indziej w jednej aplikacji. Za darmo na iOS i Androida, bez subskrypcji i bez konieczności zakładania konta.",
+  "dataNote": "Dane pochodzą od użytkowników OpenStreetMap i są objęte licencją Open Database License. Liczby są aktualizowane przy każdym ładowaniu danych.",
+  "_note": "DeepL PL of cities-page.en.json."
+}

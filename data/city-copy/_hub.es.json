@@ -1,0 +1,21 @@
+{
+  "pageTitle": "Todas las ciudades de Voyager Maps",
+  "metaDescription": "Las ciudades que Voyager Maps cubre en profundidad, con el recuento de los baños públicos, los puntos de agua potable y otros lugares útiles que aparecen en el mapa de cada una de ellas.",
+  "eyebrow": "Índice de ciudades",
+  "heroTitle": "Todas las ciudades del mapa",
+  "heroLead": "Cada una de estas tiene su propia página, donde se detalla lo que incluye el mapa. Están ordenadas según el número de viajeros que van allí, no según la cantidad de datos que tengamos; así, la lista se lee como una selección de sitios a los que merece la pena ir.",
+  "tableAria": "Ciudades con una página y lo que aparece en el mapa de cada una",
+  "colCity": "Ciudad",
+  "colTotal": "Lugares",
+  "colToilets": "Aseos",
+  "colWater": "Agua",
+  "restAria": "Ciudades analizadas pero no publicadas",
+  "restTitle": "Medido, pero no publicado",
+  "restText": "Se han contabilizado otras ciudades, pero se han omitido porque hay muy pocos puntos registrados como para que la página ofrezca información útil. Praga suma apenas mil lugares entre las dos docenas de variantes ortográficas que OpenStreetMap utiliza para ella; Atenas no registra ningún baño público. Siguen apareciendo en los datos con un indicador de «publicado» en «no»: los recuentos son correctos, pero son demasiado escasos para sacar conclusiones, y la cobertura aumenta a medida que la gente va añadiendo información al mapa.",
+  "csvLink": "Descarga los recuentos de cada ciudad analizada en formato CSV",
+  "ctaAria": "Descárgate la app",
+  "ctaTitle": "Llévate el mapa contigo",
+  "ctaText": "Todas las ciudades de aquí y de cualquier otro lugar, en una sola app. Gratis para iOS y Android, sin suscripción y sin necesidad de crear una cuenta.",
+  "dataNote": "Datos aportados por los colaboradores de OpenStreetMap, bajo la licencia Open Database License. Las cifras se actualizan cada vez que se cargan los datos.",
+  "_note": "DeepL ES of cities-page.en.json."
+}

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="{{lang}}">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="{{a}}pictures/icon/favicon-96x96.png?v=20260527" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="{{a}}pictures/icon/favicon.svg?v=20260527" />
+    <link rel="shortcut icon" href="{{a}}pictures/icon/favicon.ico?v=20260527" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{a}}pictures/icon/apple-touch-icon.png?v=20260527" />
+    <meta name="apple-mobile-web-app-title" content="Voyager Maps" />
+    <link rel="manifest" href="{{a}}pictures/icon/site.webmanifest?v=20260527" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="ga4-measurement-id" content="G-FS5S0LLLK2" />
+    <meta name="description" content="{{metaDescription}}" />
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+{{hreflang}}
+    <meta property="og:title" content="{{pageTitle}}" />
+    <meta property="og:description" content="{{metaDescription}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{canonical}}" />
+    <meta property="og:site_name" content="Voyager Maps" />
+{{oglocale}}
+    <meta property="og:image" content="https://getvoyagermaps.com/assets/app-preview.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{pageTitle}}" />
+    <meta name="twitter:description" content="{{metaDescription}}" />
+    <meta name="twitter:image" content="https://getvoyagermaps.com/assets/app-preview.png" />
+    <title>{{pageTitle}}</title>
+    <link rel="stylesheet" href="{{a}}assets/landing-pages.css" />
+{{jsonld}}
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("consent", "default", {
+        analytics_storage: "denied",
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        wait_for_update: 500
+      });
+    </script>
+  </head>
+  <body>
+    <main class="container">
+
+      <section class="hero hero-single" data-track-section="hero" aria-label="{{tableAria}}" data-i18n-aria="tableAria">
+        <div>
+          <p class="eyebrow" data-i18n="eyebrow">{{eyebrow}}</p>
+          <h1 data-i18n="heroTitle">{{heroTitle}}</h1>
+          <p class="lead" data-i18n="heroLead">{{heroLead}}</p>
+        </div>
+      </section>
+
+      <section class="card" aria-label="{{tableAria}}" data-i18n-aria="tableAria" data-track-section="city_table">
+        <div class="city-table-scroll">
+          <table class="city-table">
+            <thead>
+              <tr>
+                <th scope="col" data-i18n="colCity">{{colCity}}</th>
+                <th scope="col" class="num" data-i18n="colTotal">{{colTotal}}</th>
+                <th scope="col" class="num" data-i18n="colToilets">{{colToilets}}</th>
+                <th scope="col" class="num" data-i18n="colWater">{{colWater}}</th>
+              </tr>
+            </thead>
+            <tbody>
+{{rows}}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="card" aria-label="{{restAria}}" data-i18n-aria="restAria" data-track-section="not_published">
+        <h2 data-i18n="restTitle">{{restTitle}}</h2>
+        <p data-i18n="restText">{{restText}}</p>
+        <p><a href="{{a}}data/cities.csv" data-i18n="csvLink" data-track="download" data-download-type="cities_csv">{{csvLink}}</a></p>
+        <p class="city-note" data-i18n="dataNote">{{dataNote}}</p>
+      </section>
+
+      <section class="card cta-block" aria-label="{{ctaAria}}" data-i18n-aria="ctaAria" data-track-section="final_cta">
+        <h2 data-i18n="ctaTitle">{{ctaTitle}}</h2>
+        <p data-i18n="ctaText">{{ctaText}}</p>
+        <div class="cta-row cta-row-center">
+{{badges}}
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div>
+          <h2 data-i18n="exploreTitle">{{exploreTitle}}</h2>
+          <ul class="footer-links">
+            <li><a href="./index.html" data-i18n="exploreHomeLink">{{exploreHomeLink}}</a></li>
+            <li><a href="./drinking-water-map.html" data-i18n="exploreWaterLink">{{exploreWaterLink}}</a></li>
+            <li><a href="./public-toilet-map.html" data-i18n="exploreToiletLink">{{exploreToiletLink}}</a></li>
+            <li><a href="./free-shower-map.html" data-i18n="exploreShowerLink">{{exploreShowerLink}}</a></li>
+            <li><a href="./parking-map.html" data-i18n="exploreParkingLink">{{exploreParkingLink}}</a></li>
+            <li><a href="./campervan-service-map.html" data-i18n="exploreCampervanLink">{{exploreCampervanLink}}</a></li>
+            <li><a href="./backpacker-map.html" data-i18n="exploreBackpackerLink">{{exploreBackpackerLink}}</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 data-i18n="legalTitle">{{legalTitle}}</h2>
+          <ul class="footer-links">
+            <li><a href="{{a}}privacy-policy.html" data-i18n="privacyLink" data-track="legal" data-legal-type="privacy">{{privacyLink}}</a></li>
+            <li><a href="{{a}}terms.html" data-i18n="termsLink" data-track="legal" data-legal-type="terms">{{termsLink}}</a></li>
+            <li><a href="{{a}}delete-data.html" data-i18n="deleteLink" data-track="legal" data-legal-type="delete_data">{{deleteLink}}</a></li>
+          </ul>
+        </div>
+        <p data-i18n="footer">{{footer}}</p>
+      </footer>
+    </main>
+
+    <script id="page-config" type="application/json">
+      {{pageconfig}}
+    </script>
+    <script src="{{a}}assets/languages.js"></script>
+    <script src="{{a}}{{localefile}}"></script>
+    <script src="{{a}}assets/landing-pages.js"></script>
+  </body>
+</html>

@@ -153,10 +153,20 @@ def localize(source, code, dic, page, codes, page_codes=None):
     t = t[:canon.start()] + "\n".join(lines) + "\n" + t[canon.end():]
 
     # Text nodes and aria labels straight from the dictionary.
+    #
+    # Anything may follow data-i18n on the tag. Requiring it to be the last
+    # attribute is the sort of rule nobody remembers, and when it was broken
+    # the text simply stayed English with no error anywhere — which is how
+    # every "Privacy Policy", "Terms" and "Delete Data" link on the site came
+    # to be untranslated in all thirteen languages while the locales held the
+    # right words all along. data-i18n-aria and data-i18n-alt still do not
+    # match: the pattern demands the `=` immediately after data-i18n.
     def swap_text(m):
         v = dic.get(m.group(1))
-        return f'data-i18n="{m.group(1)}">{esc(v)}<' if isinstance(v, str) else m.group(0)
-    t = re.sub(r'data-i18n="([^"]+)">([^<]*)<', swap_text, t)
+        if not isinstance(v, str):
+            return m.group(0)
+        return f'data-i18n="{m.group(1)}"{m.group(2)}>{esc(v)}<'
+    t = re.sub(r'data-i18n="([^"]+)"([^>]*)>([^<]*)<', swap_text, t)
 
     def swap_aria(m):
         v = dic.get(m.group(2))
@@ -367,10 +377,16 @@ def main():
             rel, lang, payload,
             "Rendered from data/city-copy/; edit the English source there "
             "and re-run tools/city-copy.py."))
+    hub = city_pages.build_hub(
+        REPO, locales, OG_LOCALE, codes, cities,
+        lambda rel, lang, payload: write_locale_file(
+            rel, lang, payload,
+            "Rendered from data/city-copy/_hub.*.json."))
     print(f"{len(cities)} city pages "
-          f"({sum(1 for l, _, _ in cities if l == 'en')} cities)")
+          f"({sum(1 for l, _, _ in cities if l == 'en')} cities), "
+          f"{len(hub)} city index pages")
 
-    written = [rel for _, rel, _ in cities]
+    written = [rel for _, rel, _ in cities] + [rel for _, rel, _ in hub]
     for page in PAGES:
         source = open(os.path.join(REPO, page), encoding="utf-8").read()
         group = PAGES[page]
@@ -399,6 +415,7 @@ def main():
     # renamed page cannot leave a stale file behind for a crawler to find.
     live = {locale_asset(c, p) for p in PAGES for c in page_codes[p]}
     live |= {locale_asset(lang, os.path.basename(rel)) for lang, rel, _ in cities}
+    live |= {f"locales/pages/{code}.cities.js" for code, _, _ in hub}
     pages_dir = os.path.join(REPO, "locales", "pages")
     for name in sorted(os.listdir(pages_dir)):
         rel = f"locales/pages/{name}"
@@ -431,6 +448,15 @@ def main():
         stamp = lastmod_for(rel, dates, dirty, today)
         rows.append(f"  <url>\n    <loc>{canonical}</loc>"
                     f"\n    <lastmod>{stamp}</lastmod>{alts}\n  </url>")
+    hub_alts = "".join(
+        f'\n    <xhtml:link rel="alternate" hreflang="{c}" href="{u}" />'
+        for c, _, u in hub)
+    hub_alts += ('\n    <xhtml:link rel="alternate" hreflang="x-default" '
+                 f'href="{hub[0][2]}" />')
+    for code, rel, canonical in hub:
+        stamp = lastmod_for(rel, dates, dirty, today)
+        rows.append(f"  <url>\n    <loc>{canonical}</loc>"
+                    f"\n    <lastmod>{stamp}</lastmod>{hub_alts}\n  </url>")
     for page in LEGAL:
         stamp = lastmod_for(page, dates, dirty, today)
         rows.append(f"  <url>\n    <loc>{SITE}/{page}</loc>"

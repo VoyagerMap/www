@@ -233,5 +233,6 @@ window.voyagerLocales["es"] = {
   "citiesLead": "Cincuenta ciudades tienen su propia página, en la que se recogen todos los lugares prácticos que incluye el mapa en cada una de ellas, para que puedas ver la cobertura antes de irte, no cuando ya hayas llegado.",
   "citiesToiletsLabel": "baños",
   "citiesWaterLabel": "agua",
-  "citiesCsvLink": "Consulta las cifras de cada ciudad en un archivo CSV"
+  "citiesCsvLink": "Consulta las cifras de cada ciudad en un archivo CSV",
+  "citiesAllLink": "Echa un vistazo a las 50 ciudades"
 };

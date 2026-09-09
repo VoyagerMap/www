@@ -1,0 +1,21 @@
+{
+  "pageTitle": "Tutte le città su Voyager Maps",
+  "metaDescription": "Le città trattate in modo approfondito da Voyager Maps, con il numero di bagni pubblici, fontanelle e altri luoghi utili segnalati in ciascuna di esse.",
+  "eyebrow": "Indice delle città",
+  "heroTitle": "Tutte le città sulla mappa",
+  "heroLead": "Ognuna di queste ha una pagina dedicata, che elenca ciò che la mappa contiene. L’ordine è basato sul numero di viaggiatori che ci vanno, non sulla quantità di dati a nostra disposizione — così l’elenco si legge come un elenco di posti che vale la pena visitare.",
+  "tableAria": "Le città con una pagina dedicata e cosa è segnalato in ciascuna di esse",
+  "colCity": "Città",
+  "colTotal": "Luoghi",
+  "colToilets": "Servizi igienici",
+  "colWater": "Acqua",
+  "restAria": "Città analizzate ma non pubblicate",
+  "restTitle": "Misurato, ma non pubblicato",
+  "restText": "Altre città sono state conteggiate ma escluse, perché ne sono state mappate troppo poche per poter fornire informazioni utili in questa pagina. Praga totalizza a malapena un migliaio di luoghi tra le due dozzine di varianti ortografiche che OpenStreetMap usa per indicarla; Atene non registra alcun bagno pubblico. Questi luoghi rimangono nei dati con un flag di pubblicazione impostato su “no”: i conteggi sono corretti, ma sono semplicemente troppo scarsi per essere significativi, e la copertura cresce man mano che le persone aggiungono informazioni alla mappa.",
+  "csvLink": "Scarica i conteggi per ogni città analizzata in formato CSV",
+  "ctaAria": "Scarica l’app",
+  "ctaTitle": "Porta la mappa con te",
+  "ctaText": "Tutte le città qui, e ovunque altrove, in un’unica app. Gratuita su iOS e Android, senza abbonamento e senza bisogno di creare un account.",
+  "dataNote": "I dati provengono dai collaboratori di OpenStreetMap e sono concessi in licenza secondo l’Open Database License. Le conteggi vengono aggiornati a ogni caricamento dei dati.",
+  "_note": "DeepL IT of cities-page.en.json."
+}

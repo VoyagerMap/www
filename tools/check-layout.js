@@ -33,6 +33,8 @@ const CITY_PAGES = [
   "/vienna-map.html", "/de/vienna-map.html",
   "/budapest-map.html", "/hu/budapest-map.html",
   "/new-york-map.html", "/singapore-map.html",
+  // The all-cities index: a fifty-row table, the widest thing on the site.
+  "/cities.html", "/hu/cities.html", "/ja/cities.html", "/hi/cities.html",
 ];
 const PAGES = LANGS.flatMap((l) => FILES.map((f) => (l === "en" ? `/${f}` : `/${l}/${f}`)))
   .concat(CITY_PAGES);

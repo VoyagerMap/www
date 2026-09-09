@@ -1,0 +1,21 @@
+{
+  "pageTitle": "Jede Stadt auf Voyager Maps",
+  "metaDescription": "Die Städte, die Voyager Maps ausführlich abdeckt, mit Angaben zur Anzahl der öffentlichen Toiletten, Trinkwasserstellen und anderer praktischer Orte, die in jeder Stadt erfasst sind.",
+  "eyebrow": "Stadtverzeichnis",
+  "heroTitle": "Jede Stadt auf der Karte",
+  "heroLead": "Jedes dieser Ziele hat eine eigene Seite, auf der aufgeführt ist, was die Karte jeweils enthält. Sortiert nach der Anzahl der Reisenden, die dorthin fahren, nicht nach der Menge der Daten, die wir haben – so liest sich die Liste wie eine Auswahl an Orten, die einen Besuch wert sind.",
+  "tableAria": "Städte mit einer eigenen Seite und was dort jeweils verzeichnet ist",
+  "colCity": "Stadt",
+  "colTotal": "Orte",
+  "colToilets": "Toiletten",
+  "colWater": "Wasser",
+  "restAria": "Erfasste, aber nicht veröffentlichte Städte",
+  "restTitle": "Gemessen, aber nicht veröffentlicht",
+  "restText": "Andere Städte wurden gezählt und weggelassen, da zu wenige davon erfasst sind, als dass eine Seite noch aussagekräftige Informationen liefern könnte. In Prag kommen über die zwei Dutzend Schreibweisen, die OpenStreetMap dafür verwendet, gerade mal knapp tausend Orte zusammen; in Athen sind überhaupt keine öffentlichen Toiletten verzeichnet. Sie bleiben in den Daten erhalten, allerdings mit dem Flag „no“ – die Zahlen stimmen, sie sind nur zu spärlich, um darauf aufzubauen, und die Abdeckung wächst, je mehr Leute die Karte ergänzen.",
+  "csvLink": "Lade die Zahlen für jede erfasste Stadt als CSV-Datei herunter",
+  "ctaAria": "Hol dir die App",
+  "ctaTitle": "Nimm die Karte mit",
+  "ctaText": "Alle Städte hier und überall sonst in einer App. Kostenlos für iOS und Android, kein Abonnement und kein Konto erforderlich.",
+  "dataNote": "Die Daten stammen von OpenStreetMap-Mitwirkenden und stehen unter der Open Database License. Die Zahlen werden bei jedem Datenabruf aktualisiert.",
+  "_note": "DeepL DE of cities-page.en.json."
+}

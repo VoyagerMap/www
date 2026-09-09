@@ -74,7 +74,10 @@ def load(repo):
             if v.isdigit():
                 r[k] = int(v)
         rows.append(r)
-    rows.sort(key=lambda r: -r["total"])
+    # Curated visitor draw first, size as the tie-break. Ordering by size
+    # alone put Istanbul, Melbourne and Warsaw ahead of Paris and Rome, which
+    # reads as a ranking of our data rather than of places worth going to.
+    rows.sort(key=lambda r: (r.get("rank", 999), -r["total"]))
     return rows
 
 
@@ -164,6 +167,99 @@ def json_ld(row, copy, lang, langs, canonical):
         body = json.dumps(obj, ensure_ascii=False, indent=2).replace("\n", "\n      ")
         blocks.append(f'    <script type="application/ld+json">\n      {body}\n    </script>')
     return "\n".join(blocks)
+
+
+def build_hub(repo, locales, og_locale, codes, built, write_locale):
+    """The all-cities index at /cities.html, in every language the site has.
+
+    Unlike a city page this is a directory rather than a page about one place,
+    so it is worth having in all thirteen: a Hindi reader has no use for a page
+    about Vienna's toilets but every reason to want the list.
+    """
+    rows = load(repo)
+    template = open(os.path.join(repo, "data", "cities-page.template.html"),
+                    encoding="utf-8").read()
+    have = {}
+    for lang, rel, _ in built:
+        have.setdefault(os.path.basename(rel)[:-len("-map.html")], set()).add(lang)
+
+    written = []
+    for code in codes:
+        copy = json.load(open(
+            os.path.join(repo, "data", "city-copy", f"_hub.{code}.json"),
+            encoding="utf-8"))
+        chrome = locales[code]["landingPages"]["water"]
+        copy = {**{k: chrome[k] for k in CHROME if k in chrome},
+                **{k: v for k, v in copy.items() if not k.startswith("_")}}
+
+        a = "./" if code == "en" else "../"
+        up = "" if code == "en" else "../"
+        canonical = f"{SITE}/cities.html" if code == "en" else f"{SITE}/{code}/cities.html"
+
+        body = []
+        for r in rows:
+            href = (f"./{r['slug']}-map.html" if code in have.get(r["slug"], set())
+                    else f"{up}{r['slug']}-map.html")
+            local = (f' <span class="city-table-local">{esc(r["name_local"])}</span>'
+                     if r["name_local"] != r["name_en"] else "")
+            body.append(
+                f'              <tr>\n'
+                f'                <th scope="row"><a href="{href}">{esc(r["name_en"])}</a>'
+                f'{local} <span class="city-table-cc">{esc(r["country"])}</span></th>\n'
+                f'                <td class="num">{r["total"]:,}</td>\n'
+                f'                <td class="num">{r["toilets"]:,}</td>\n'
+                f'                <td class="num">{r["water"]:,}</td>\n'
+                f'              </tr>')
+
+        hreflang = [f'    <link rel="canonical" href="{canonical}" />']
+        for c in codes:
+            u = f"{SITE}/cities.html" if c == "en" else f"{SITE}/{c}/cities.html"
+            hreflang.append(f'    <link rel="alternate" hreflang="{c}" href="{u}" />')
+        hreflang.append(f'    <link rel="alternate" hreflang="x-default" '
+                        f'href="{SITE}/cities.html" />')
+        oglocale = [f'    <meta property="og:locale" content="{og_locale[code]}" />']
+        oglocale += [f'    <meta property="og:locale:alternate" content="{og_locale[c]}" />'
+                     for c in codes if c != code]
+
+        ld = {"@context": "https://schema.org", "@type": "CollectionPage",
+              "name": copy["pageTitle"], "url": canonical,
+              "description": copy["metaDescription"], "inLanguage": code,
+              "isPartOf": {"@type": "WebSite", "name": "Voyager Maps",
+                           "url": SITE + "/"},
+              "mainEntity": {"@type": "ItemList", "numberOfItems": len(rows),
+                             "itemListElement": [
+                                 {"@type": "ListItem", "position": i,
+                                  "name": r["name_en"],
+                                  "url": url_for("en", r["slug"])}
+                                 for i, r in enumerate(rows, 1)]}}
+        jsonld = ('    <script type="application/ld+json">\n      '
+                  + json.dumps(ld, ensure_ascii=False, indent=2).replace("\n", "\n      ")
+                  + "\n    </script>")
+
+        rel = "cities.html" if code == "en" else f"{code}/cities.html"
+        locale_file = f"locales/pages/{code}.cities.js"
+        write_locale(locale_file, code,
+                     {"cityPages": {"index": dict(copy, htmlLang=code)}})
+
+        html = template
+        for key, value in {
+            "lang": code, "a": a, "canonical": canonical,
+            "hreflang": "\n".join(hreflang), "oglocale": "\n".join(oglocale),
+            "jsonld": jsonld, "rows": "\n".join(body),
+            "badges": badges(copy, "final"), "localefile": locale_file,
+            "pageconfig": json.dumps({
+                "localeKey": "index", "localeGroup": "cityPages",
+                "pageType": "city_index", "topic": "city"}, ensure_ascii=False),
+        }.items():
+            html = html.replace("{{%s}}" % key, str(value))
+        for key, value in copy.items():
+            html = html.replace("{{%s}}" % key, esc(value))
+
+        dest = os.path.join(repo, rel)
+        os.makedirs(os.path.dirname(dest) or ".", exist_ok=True)
+        open(dest, "w", encoding="utf-8").write(html)
+        written.append((code, rel, canonical))
+    return written
 
 
 def teaser(repo, code, built, dic, limit=12, per_country=2):
