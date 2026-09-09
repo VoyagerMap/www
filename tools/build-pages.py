@@ -13,10 +13,10 @@ import json
 import os
 import re
 import subprocess
+from datetime import date
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://getvoyagermaps.com"
-LASTMOD = "2026-08-02"
 
 # Root-relative pages, and which locale group each one reads.
 PAGES = {
@@ -29,7 +29,6 @@ PAGES = {
     "backpacker-map.html": "backpacker",
 }
 LEGAL = ["privacy-policy.html", "terms.html", "delete-data.html"]
-LEGAL_LASTMOD = "2026-05-27"
 
 # Open Graph expects language_TERRITORY. The territory is the market we address
 # with that language, not the only place it is spoken.
@@ -245,6 +244,47 @@ def localize(source, code, dic, page, codes, page_codes=None):
     return t
 
 
+def git_lastmod():
+    """The date each tracked file last actually changed, in one pass.
+
+    git log lists commits newest first, so the first time a path appears is
+    its most recent change. Filesystem mtimes cannot be used for this: a fresh
+    checkout stamps every file with the time of the checkout, which would tell
+    a crawler the whole site changed whenever CI ran.
+    """
+    out = subprocess.run(["git", "log", "--format=%cs", "--name-only"],
+                         cwd=REPO, capture_output=True, text=True).stdout
+    dates, current = {}, None
+    for line in out.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", line):
+            current = line
+        else:
+            dates.setdefault(line, current)
+    return dates
+
+
+def git_dirty():
+    """Paths this build (or a hand edit) has changed since the last commit."""
+    out = subprocess.run(["git", "status", "--porcelain", "--untracked-files=all"],
+                         cwd=REPO, capture_output=True, text=True).stdout
+    return {line[3:].strip().strip('"') for line in out.splitlines() if line[3:].strip()}
+
+
+def lastmod_for(rel, dates, dirty, today):
+    """A page changed in this run is dated today; otherwise its real date.
+
+    Sending today for everything on every build would be the same wasted
+    signal as the fixed constant this replaces — a crawler that is told the
+    whole site changed learns nothing about what to recrawl first.
+    """
+    if rel in dirty:
+        return today
+    return dates.get(rel, today)
+
+
 def locale_asset(code, page):
     """Where this page's trimmed dictionary lives, relative to the site root."""
     slug = "index" if page == "index.html" else page[:-len(".html")]
@@ -320,7 +360,11 @@ def main():
             os.remove(os.path.join(REPO, rel))
             print(f"removed stale {rel}")
 
-    # Sitemap: each page in the languages it exists in, with the alternates repeated.
+    # Sitemap: each page in the languages it exists in, with the alternates
+    # repeated. lastmod is per URL and truthful — it is the one field here a
+    # crawler uses to decide what to fetch again, and a site-wide constant
+    # tells it nothing.
+    dates, dirty, today = git_lastmod(), git_dirty(), date.today().isoformat()
     rows = []
     for page in PAGES:
         alts = "".join(
@@ -328,11 +372,14 @@ def main():
             for c in page_codes[page])
         alts += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{url_for("en", page)}" />'
         for code in page_codes[page]:
+            rel = page if code == "en" else f"{code}/{page}"
+            stamp = lastmod_for(rel, dates, dirty, today)
             rows.append(f"  <url>\n    <loc>{url_for(code, page)}</loc>"
-                        f"\n    <lastmod>{LASTMOD}</lastmod>{alts}\n  </url>")
+                        f"\n    <lastmod>{stamp}</lastmod>{alts}\n  </url>")
     for page in LEGAL:
+        stamp = lastmod_for(page, dates, dirty, today)
         rows.append(f"  <url>\n    <loc>{SITE}/{page}</loc>"
-                    f"\n    <lastmod>{LEGAL_LASTMOD}</lastmod>\n  </url>")
+                    f"\n    <lastmod>{stamp}</lastmod>\n  </url>")
     sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n'
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"'
                ' xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'

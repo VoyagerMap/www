@@ -1,0 +1,53 @@
+# Voyager Maps
+
+> A free travel map of the practical places most maps leave out: public toilets, free drinking water, showers, laundromats, Wi-Fi, parking and campervan services. 5.5 million locations across 237 countries and territories, from OpenStreetMap, available on the web, iOS and Android in 13 languages.
+
+Voyager Maps answers one kind of question: *where is the nearest useful thing right now* — a restroom, a place to refill a bottle, a shower, a laundromat, somewhere to park a van overnight. General map services index businesses and directions; these categories are patchy there because they are rarely anyone's commercial listing. This site publishes them as counted, categorised data instead.
+
+Last updated: 2026-09-09.
+
+## Coverage
+
+Figures as published on the site. Counts are of mapped locations, not of every location that exists.
+
+- Locations: 5.5 million
+- Countries and territories: 237
+- With free Wi-Fi: 389,000
+- Largest categories: parking, fuel stations, public toilets, supermarkets, pharmacies, drinking water
+- Per-location attributes where the source records them: fee, wheelchair access, opening hours, seasonal availability, payment methods, operator website and phone
+
+## Data source and licence
+
+- Place data comes from [OpenStreetMap](https://www.openstreetmap.org/) contributors and is licensed under the [Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/).
+- Attribution required when reusing this data: "© OpenStreetMap contributors".
+- Counts, category groupings and per-city or per-country aggregates published on this site are derived works over that data. They may be quoted with attribution to Voyager Maps and to OpenStreetMap contributors.
+- Coverage reflects what volunteers have mapped. It is denser in Europe and North America than elsewhere, and absence from the map is not evidence that a place does not exist.
+
+## Maps by category
+
+- [Voyager Maps home](https://getvoyagermaps.com/): what the app does, how it compares to general map services, and the full category list.
+- [Public toilet map](https://getvoyagermaps.com/public-toilet-map.html): finding restrooms while travelling, including which are free, paid, or customer-only.
+- [Drinking water map](https://getvoyagermaps.com/drinking-water-map.html): free public taps, fountains and bottle refill points.
+- [Free shower map](https://getvoyagermaps.com/free-shower-map.html): showers at campsites, beaches, marinas and service stations.
+- [Parking map](https://getvoyagermaps.com/parking-map.html): parking including height limits, fees and overnight suitability.
+- [Campervan service map](https://getvoyagermaps.com/campervan-service-map.html): fresh water, grey water disposal, chemical toilet disposal and electric hookup.
+- [Backpacker map](https://getvoyagermaps.com/backpacker-map.html): hostels, stations, luggage lockers and city stopover essentials.
+
+## Apps
+
+- [iOS on the App Store](https://apps.apple.com/app/6758412494): free, no subscription, no in-app purchases.
+- [Android on Google Play](https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil): free, no subscription, no in-app purchases.
+
+## Languages
+
+Every page above exists in 13 languages. English is at the site root; each other language lives under its own path prefix, and the pages carry a full hreflang set.
+
+- Path prefixes: `/de/` `/fr/` `/es/` `/it/` `/pt/` `/nl/` `/pl/` `/hu/` `/ja/` `/zh/` `/ko/` `/hi/`
+- Example: the drinking water map in German is at https://getvoyagermaps.com/de/drinking-water-map.html
+
+## Optional
+
+- [Sitemap](https://getvoyagermaps.com/sitemap.xml): every URL with a per-page last-modified date.
+- [Privacy policy](https://getvoyagermaps.com/privacy-policy.html)
+- [Terms](https://getvoyagermaps.com/terms.html)
+- [Data deletion](https://getvoyagermaps.com/delete-data.html)

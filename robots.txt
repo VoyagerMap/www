@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://getvoyagermaps.com/sitemap.xml
+
+# Curated summary for language models: https://getvoyagermaps.com/llms.txt
