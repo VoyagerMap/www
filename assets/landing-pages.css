@@ -916,10 +916,15 @@ p {
   padding: 1.4rem 1.1rem;
 }
 
+/* A qualifier on the install, so it is sized like one. At the previous 3.5rem
+   this muted line was the largest text on the page — louder than the headline
+   it sat above — and its unbreakable "iOS & Android" was wider than a 390px
+   viewport, which is what pushed five localized pages into horizontal scroll
+   (hi/* measured 419px in 390px). */
 .hero-free {
   margin-top: 1rem;
-  font-size: 3.5rem; /* 56px */
-  font-weight: 700;
+  font-size: 0.9rem;
+  font-weight: 600;
   color: var(--muted);
   letter-spacing: 0.01em;
 }

@@ -22,6 +22,7 @@ window.voyagerLocales.en = {
   proofRatingAria: "Rated 4.9 out of 5 on the App Store and Google Play",
   heroProof: "5.5 million practical places · 237 countries · free",
   navAria: "Page sections",
+  langSwitcherAria: "Language switcher",
   navWhy: "Why Voyager",
   navFind: "What you can find",
   navMaps: "Maps",

@@ -669,6 +669,7 @@ window.voyagerLocales["ja"] = {
   expImage2Alt: "「Voyager Maps」のパリマップでは、数千カ所のスポットがクラスターごとにまとめられている",
   expImage2Caption: "集約表示マップ",
   navAria: "ページのセクション",
+  langSwitcherAria: "言語切り替え",
   navWhy: "なぜVoyagerなのか",
   navFind: "見つかるもの",
   navMaps: "地図",

@@ -669,6 +669,7 @@ window.voyagerLocales["hu"] = {
   expImage2Alt: "Párizsi térkép, amelyen a Voyager Maps alkalmazásban több ezer helyszín csoportokba rendezve jelenik meg",
   expImage2Caption: "Csoportosított térképnézet",
   navAria: "Az oldal szakaszai",
+  langSwitcherAria: "Nyelvválasztó",
   navWhy: "Miért a Voyager?",
   navFind: "Mit találsz",
   navMaps: "Térképek",

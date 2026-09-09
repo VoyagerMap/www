@@ -669,6 +669,7 @@ window.voyagerLocales["de"] = {
   expImage2Alt: "Karte von Paris mit Tausenden von Orten, die in Voyager Maps in Gruppen zusammengefasst sind",
   expImage2Caption: "Kartenansicht mit Gruppen",
   navAria: "Seitenabschnitte",
+  langSwitcherAria: "Sprachauswahl",
   navWhy: "Warum Voyager?",
   navFind: "Was du finden kannst",
   navMaps: "Karten",

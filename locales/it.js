@@ -669,6 +669,7 @@ window.voyagerLocales["it"] = {
   expImage2Alt: "Mappa di Parigi con migliaia di luoghi raggruppati in cluster su Voyager Maps",
   expImage2Caption: "Visualizzazione della mappa a gruppi",
   navAria: "Sezioni della pagina",
+  langSwitcherAria: "Selettore della lingua",
   navWhy: "Perché Voyager",
   navFind: "Cosa puoi trovare",
   navMaps: "Mappe",

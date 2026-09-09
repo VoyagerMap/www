@@ -669,6 +669,7 @@ window.voyagerLocales["pl"] = {
   expImage2Alt: "Mapa Paryża z tysiącami miejsc pogrupowanych w klastry w aplikacji Voyager Maps",
   expImage2Caption: "Widok mapy z grupami obiektów",
   navAria: "Sekcje strony",
+  langSwitcherAria: "Przełącznik języka",
   navWhy: "Dlaczego Voyager?",
   navFind: "Co możesz znaleźć",
   navMaps: "Mapy",

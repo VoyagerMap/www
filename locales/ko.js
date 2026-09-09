@@ -669,6 +669,7 @@ window.voyagerLocales["ko"] = {
   expImage2Alt: "보이저 맵(Voyager Maps)에서 수천 개의 장소를 클러스터로 묶어 표시한 파리 지도",
   expImage2Caption: "집중 표시 지도 보기",
   navAria: "페이지 구성",
+  langSwitcherAria: "언어 선택기",
   navWhy: "보이저를 선택해야 하는 이유",
   navFind: "이 앱에서 확인할 수 있는 것들",
   navMaps: "지도",

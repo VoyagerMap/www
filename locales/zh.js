@@ -669,6 +669,7 @@ window.voyagerLocales["zh"] = {
   expImage2Alt: "在“Voyager Maps”中，巴黎地图上的数千个地点被分组为多个集群",
   expImage2Caption: "聚类地图视图",
   navAria: "页面分区",
+  langSwitcherAria: "语言切换器",
   navWhy: "为什么选择 Voyager",
   navFind: "您可以找到什么",
   navMaps: "地图",

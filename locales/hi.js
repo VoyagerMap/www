@@ -669,6 +669,7 @@ window.voyagerLocales["hi"] = {
   expImage2Alt: "Voyager Maps में समूहों में वर्गीकृत हजारों स्थानों के साथ पेरिस का नक्शा",
   expImage2Caption: "समूहीकृत मानचित्र दृश्य",
   navAria: "पृष्ठ अनुभाग",
+  langSwitcherAria: "भाषा स्विचर",
   navWhy: "वॉयेजर क्यों",
   navFind: "आप क्या पा सकते हैं",
   navMaps: "नक्शे",

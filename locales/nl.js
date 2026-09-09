@@ -669,6 +669,7 @@ window.voyagerLocales["nl"] = {
   expImage2Alt: "Kaart van Parijs met duizenden plekken, gegroepeerd in clusters in Voyager Maps",
   expImage2Caption: "Kaartweergave met clusters",
   navAria: "Paginaonderdelen",
+  langSwitcherAria: "Taalkeuze",
   navWhy: "Waarom Voyager",
   navFind: "Wat je kunt vinden",
   navMaps: "Kaarten",

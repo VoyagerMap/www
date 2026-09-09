@@ -1,0 +1,43 @@
+# Validation only. The site is still deployed the way it always was —
+# GitHub Pages serving main — and nothing here publishes anything.
+name: checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      # The generated pages are committed, so they can go stale — or be edited
+      # by hand, which is always wrong for anything under a language directory.
+      # Rebuilding and demanding an empty diff catches both.
+      - name: Committed pages match their source
+        run: |
+          python3 tools/build-pages.py
+          if ! git diff --quiet; then
+            echo "::error::Generated output is stale or was hand-edited. Run 'npm run build' and commit the result."
+            git diff --stat
+            exit 1
+          fi
+
+      # A key missing from one locale is not a build error: the English source
+      # text simply survives into the localized page. This is what notices.
+      - name: Every rendered key exists in every language
+        run: npm run check:keys
+
+      # Measures the real rendered boxes in headless Chrome — horizontal
+      # overflow and distorted screenshots, at 1280px and 390px.
+      - name: Layout holds at desktop and mobile
+        run: npm run check:layout
