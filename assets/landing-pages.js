@@ -21,8 +21,18 @@
   const viewedImages = new Set();
   const pageStartTime = Date.now();
 
-  const LANGUAGES = window.voyagerLanguages || [{ code: "en", label: "English", flag: "" }];
-  const flagSvgs = Object.fromEntries(LANGUAGES.map((l) => [l.code, l.flag]));
+  const ALL_LANGUAGES = window.voyagerLanguages || [{ code: "en", label: "English", flag: "" }];
+  const flagSvgs = Object.fromEntries(ALL_LANGUAGES.map((l) => [l.code, l.flag]));
+
+  // A page config may name the languages this particular page was generated in.
+  // The city pages are the reason: each exists in English and in its own
+  // country's language only, so offering the full register would send most of
+  // the menu to a URL that was never built. Pages that say nothing keep the
+  // whole register, which is every page that existed before this.
+  const LANGUAGES =
+    Array.isArray(pageConfig.languages) && pageConfig.languages.length
+      ? ALL_LANGUAGES.filter((l) => pageConfig.languages.includes(l.code))
+      : ALL_LANGUAGES;
 
   // Each language has its own URL (/ and /<code>/), so the document decides which
   // one this page is — not the browser or a stored preference. Otherwise a

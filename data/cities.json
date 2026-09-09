@@ -1,0 +1,968 @@
+{
+  "paris": {
+    "en": "Paris",
+    "local": "Paris",
+    "country": "FR",
+    "lang": "fr",
+    "cities": [
+      "Paris"
+    ]
+  },
+  "london": {
+    "en": "London",
+    "local": "London",
+    "country": "GB",
+    "lang": null,
+    "cities": [
+      "London"
+    ]
+  },
+  "rome": {
+    "en": "Rome",
+    "local": "Roma",
+    "country": "IT",
+    "lang": "it",
+    "cities": [
+      "Roma"
+    ]
+  },
+  "barcelona": {
+    "en": "Barcelona",
+    "local": "Barcelona",
+    "country": "ES",
+    "lang": "es",
+    "cities": [
+      "Barcelona"
+    ]
+  },
+  "madrid": {
+    "en": "Madrid",
+    "local": "Madrid",
+    "country": "ES",
+    "lang": "es",
+    "cities": [
+      "Madrid"
+    ]
+  },
+  "vienna": {
+    "en": "Vienna",
+    "local": "Wien",
+    "country": "AT",
+    "lang": "de",
+    "cities": [
+      "Wien"
+    ]
+  },
+  "amsterdam": {
+    "en": "Amsterdam",
+    "local": "Amsterdam",
+    "country": "NL",
+    "lang": "nl",
+    "cities": [
+      "Amsterdam"
+    ]
+  },
+  "berlin": {
+    "en": "Berlin",
+    "local": "Berlin",
+    "country": "DE",
+    "lang": "de",
+    "cities": [
+      "Berlin"
+    ]
+  },
+  "munich": {
+    "en": "Munich",
+    "local": "München",
+    "country": "DE",
+    "lang": "de",
+    "cities": [
+      "München"
+    ]
+  },
+  "hamburg": {
+    "en": "Hamburg",
+    "local": "Hamburg",
+    "country": "DE",
+    "lang": "de",
+    "cities": [
+      "Hamburg"
+    ]
+  },
+  "cologne": {
+    "en": "Cologne",
+    "local": "Köln",
+    "country": "DE",
+    "lang": "de",
+    "cities": [
+      "Köln"
+    ]
+  },
+  "frankfurt": {
+    "en": "Frankfurt",
+    "local": "Frankfurt am Main",
+    "country": "DE",
+    "lang": "de",
+    "cities": [
+      "Frankfurt am Main"
+    ]
+  },
+  "dresden": {
+    "en": "Dresden",
+    "local": "Dresden",
+    "country": "DE",
+    "lang": "de",
+    "cities": [
+      "Dresden"
+    ]
+  },
+  "budapest": {
+    "en": "Budapest",
+    "local": "Budapest",
+    "country": "HU",
+    "lang": "hu",
+    "cities": [
+      "Budapest"
+    ]
+  },
+  "prague": {
+    "en": "Prague",
+    "local": "Praha",
+    "country": "CZ",
+    "lang": null,
+    "cities": [
+      "Praha",
+      "Praha 1",
+      "Praha 2",
+      "Praha 3",
+      "Praha 4",
+      "Praha 5",
+      "Praha 6",
+      "Praha 7",
+      "Praha 8",
+      "Praha 9",
+      "Praha 10",
+      "Praha 11",
+      "Praha 12",
+      "Praha 13",
+      "Praha 14",
+      "Praha 15",
+      "Praha 16",
+      "Praha 17",
+      "Praha 18",
+      "Praha 19",
+      "Praha 20",
+      "Praha 21",
+      "Praha 22",
+      "PRAHA 1",
+      "PRAHA 2",
+      "PRAHA 3",
+      "PRAHA 4",
+      "PRAHA 5",
+      "PRAHA 6",
+      "PRAHA 7",
+      "PRAHA 8",
+      "PRAHA 9",
+      "PRAHA 10",
+      "PRAHA 11",
+      "PRAHA 12",
+      "PRAHA 13",
+      "PRAHA 14",
+      "PRAHA 15",
+      "PRAHA 16",
+      "PRAHA 17",
+      "PRAHA 18",
+      "PRAHA 19",
+      "PRAHA 20",
+      "PRAHA 21",
+      "PRAHA 22"
+    ]
+  },
+  "lisbon": {
+    "en": "Lisbon",
+    "local": "Lisboa",
+    "country": "PT",
+    "lang": "pt",
+    "cities": [
+      "Lisboa"
+    ]
+  },
+  "porto": {
+    "en": "Porto",
+    "local": "Porto",
+    "country": "PT",
+    "lang": "pt",
+    "cities": [
+      "Porto"
+    ]
+  },
+  "milan": {
+    "en": "Milan",
+    "local": "Milano",
+    "country": "IT",
+    "lang": "it",
+    "cities": [
+      "Milano"
+    ]
+  },
+  "florence": {
+    "en": "Florence",
+    "local": "Firenze",
+    "country": "IT",
+    "lang": "it",
+    "cities": [
+      "Firenze"
+    ]
+  },
+  "venice": {
+    "en": "Venice",
+    "local": "Venezia",
+    "country": "IT",
+    "lang": "it",
+    "cities": [
+      "Venezia"
+    ]
+  },
+  "naples": {
+    "en": "Naples",
+    "local": "Napoli",
+    "country": "IT",
+    "lang": "it",
+    "cities": [
+      "Napoli"
+    ]
+  },
+  "turin": {
+    "en": "Turin",
+    "local": "Torino",
+    "country": "IT",
+    "lang": "it",
+    "cities": [
+      "Torino"
+    ]
+  },
+  "bologna": {
+    "en": "Bologna",
+    "local": "Bologna",
+    "country": "IT",
+    "lang": "it",
+    "cities": [
+      "Bologna"
+    ]
+  },
+  "genoa": {
+    "en": "Genoa",
+    "local": "Genova",
+    "country": "IT",
+    "lang": "it",
+    "cities": [
+      "Genova"
+    ]
+  },
+  "verona": {
+    "en": "Verona",
+    "local": "Verona",
+    "country": "IT",
+    "lang": "it",
+    "cities": [
+      "Verona"
+    ]
+  },
+  "palermo": {
+    "en": "Palermo",
+    "local": "Palermo",
+    "country": "IT",
+    "lang": "it",
+    "cities": [
+      "Palermo"
+    ]
+  },
+  "warsaw": {
+    "en": "Warsaw",
+    "local": "Warszawa",
+    "country": "PL",
+    "lang": "pl",
+    "cities": [
+      "Warszawa"
+    ]
+  },
+  "krakow": {
+    "en": "Krakow",
+    "local": "Kraków",
+    "country": "PL",
+    "lang": "pl",
+    "cities": [
+      "Kraków"
+    ]
+  },
+  "gdansk": {
+    "en": "Gdansk",
+    "local": "Gdańsk",
+    "country": "PL",
+    "lang": "pl",
+    "cities": [
+      "Gdańsk"
+    ]
+  },
+  "wroclaw": {
+    "en": "Wroclaw",
+    "local": "Wrocław",
+    "country": "PL",
+    "lang": "pl",
+    "cities": [
+      "Wrocław"
+    ]
+  },
+  "poznan": {
+    "en": "Poznan",
+    "local": "Poznań",
+    "country": "PL",
+    "lang": "pl",
+    "cities": [
+      "Poznań"
+    ]
+  },
+  "dublin": {
+    "en": "Dublin",
+    "local": "Dublin",
+    "country": "IE",
+    "lang": null,
+    "cities": [
+      "Dublin"
+    ]
+  },
+  "edinburgh": {
+    "en": "Edinburgh",
+    "local": "Edinburgh",
+    "country": "GB",
+    "lang": null,
+    "cities": [
+      "Edinburgh"
+    ]
+  },
+  "manchester": {
+    "en": "Manchester",
+    "local": "Manchester",
+    "country": "GB",
+    "lang": null,
+    "cities": [
+      "Manchester"
+    ]
+  },
+  "birmingham": {
+    "en": "Birmingham",
+    "local": "Birmingham",
+    "country": "GB",
+    "lang": null,
+    "cities": [
+      "Birmingham"
+    ]
+  },
+  "bristol": {
+    "en": "Bristol",
+    "local": "Bristol",
+    "country": "GB",
+    "lang": null,
+    "cities": [
+      "Bristol"
+    ]
+  },
+  "york": {
+    "en": "York",
+    "local": "York",
+    "country": "GB",
+    "lang": null,
+    "cities": [
+      "York"
+    ]
+  },
+  "zurich": {
+    "en": "Zurich",
+    "local": "Zürich",
+    "country": "CH",
+    "lang": "de",
+    "cities": [
+      "Zürich"
+    ]
+  },
+  "geneva": {
+    "en": "Geneva",
+    "local": "Genève",
+    "country": "CH",
+    "lang": "fr",
+    "cities": [
+      "Genève"
+    ]
+  },
+  "bern": {
+    "en": "Bern",
+    "local": "Bern",
+    "country": "CH",
+    "lang": "de",
+    "cities": [
+      "Bern"
+    ]
+  },
+  "athens": {
+    "en": "Athens",
+    "local": "Αθήνα",
+    "country": "GR",
+    "lang": null,
+    "cities": [
+      "Αθήνα"
+    ]
+  },
+  "istanbul": {
+    "en": "Istanbul",
+    "local": "İstanbul",
+    "country": "TR",
+    "lang": null,
+    "cities": [
+      "İstanbul"
+    ]
+  },
+  "antalya": {
+    "en": "Antalya",
+    "local": "Antalya",
+    "country": "TR",
+    "lang": null,
+    "cities": [
+      "Antalya"
+    ]
+  },
+  "izmir": {
+    "en": "Izmir",
+    "local": "İzmir",
+    "country": "TR",
+    "lang": null,
+    "cities": [
+      "İzmir"
+    ]
+  },
+  "seville": {
+    "en": "Seville",
+    "local": "Sevilla",
+    "country": "ES",
+    "lang": "es",
+    "cities": [
+      "Sevilla"
+    ]
+  },
+  "valencia": {
+    "en": "Valencia",
+    "local": "València",
+    "country": "ES",
+    "lang": "es",
+    "cities": [
+      "València",
+      "Valencia"
+    ]
+  },
+  "malaga": {
+    "en": "Malaga",
+    "local": "Málaga",
+    "country": "ES",
+    "lang": "es",
+    "cities": [
+      "Málaga"
+    ]
+  },
+  "granada": {
+    "en": "Granada",
+    "local": "Granada",
+    "country": "ES",
+    "lang": "es",
+    "cities": [
+      "Granada"
+    ]
+  },
+  "palma": {
+    "en": "Palma de Mallorca",
+    "local": "Palma",
+    "country": "ES",
+    "lang": "es",
+    "cities": [
+      "Palma"
+    ]
+  },
+  "bilbao": {
+    "en": "Bilbao",
+    "local": "Bilbao",
+    "country": "ES",
+    "lang": "es",
+    "cities": [
+      "Bilbao"
+    ]
+  },
+  "lyon": {
+    "en": "Lyon",
+    "local": "Lyon",
+    "country": "FR",
+    "lang": "fr",
+    "cities": [
+      "Lyon"
+    ]
+  },
+  "marseille": {
+    "en": "Marseille",
+    "local": "Marseille",
+    "country": "FR",
+    "lang": "fr",
+    "cities": [
+      "Marseille"
+    ]
+  },
+  "nice": {
+    "en": "Nice",
+    "local": "Nice",
+    "country": "FR",
+    "lang": "fr",
+    "cities": [
+      "Nice"
+    ]
+  },
+  "bordeaux": {
+    "en": "Bordeaux",
+    "local": "Bordeaux",
+    "country": "FR",
+    "lang": "fr",
+    "cities": [
+      "Bordeaux"
+    ]
+  },
+  "toulouse": {
+    "en": "Toulouse",
+    "local": "Toulouse",
+    "country": "FR",
+    "lang": "fr",
+    "cities": [
+      "Toulouse"
+    ]
+  },
+  "strasbourg": {
+    "en": "Strasbourg",
+    "local": "Strasbourg",
+    "country": "FR",
+    "lang": "fr",
+    "cities": [
+      "Strasbourg"
+    ]
+  },
+  "montpellier": {
+    "en": "Montpellier",
+    "local": "Montpellier",
+    "country": "FR",
+    "lang": "fr",
+    "cities": [
+      "Montpellier"
+    ]
+  },
+  "rotterdam": {
+    "en": "Rotterdam",
+    "local": "Rotterdam",
+    "country": "NL",
+    "lang": "nl",
+    "cities": [
+      "Rotterdam"
+    ]
+  },
+  "the-hague": {
+    "en": "The Hague",
+    "local": "Den Haag",
+    "country": "NL",
+    "lang": "nl",
+    "cities": [
+      "Den Haag"
+    ]
+  },
+  "utrecht": {
+    "en": "Utrecht",
+    "local": "Utrecht",
+    "country": "NL",
+    "lang": "nl",
+    "cities": [
+      "Utrecht"
+    ]
+  },
+  "salzburg": {
+    "en": "Salzburg",
+    "local": "Salzburg",
+    "country": "AT",
+    "lang": "de",
+    "cities": [
+      "Salzburg"
+    ]
+  },
+  "innsbruck": {
+    "en": "Innsbruck",
+    "local": "Innsbruck",
+    "country": "AT",
+    "lang": "de",
+    "cities": [
+      "Innsbruck"
+    ]
+  },
+  "graz": {
+    "en": "Graz",
+    "local": "Graz",
+    "country": "AT",
+    "lang": "de",
+    "cities": [
+      "Graz"
+    ]
+  },
+  "zagreb": {
+    "en": "Zagreb",
+    "local": "Zagreb",
+    "country": "HR",
+    "lang": null,
+    "cities": [
+      "Zagreb"
+    ]
+  },
+  "tokyo": {
+    "en": "Tokyo",
+    "local": "東京",
+    "country": "JP",
+    "lang": "ja",
+    "cities": [
+      "千代田区",
+      "中央区",
+      "港区",
+      "新宿区",
+      "文京区",
+      "台東区",
+      "墨田区",
+      "江東区",
+      "品川区",
+      "目黒区",
+      "大田区",
+      "世田谷区",
+      "渋谷区",
+      "中野区",
+      "杉並区",
+      "豊島区",
+      "北区",
+      "荒川区",
+      "板橋区",
+      "練馬区",
+      "足立区",
+      "葛飾区",
+      "江戸川区"
+    ],
+    "state_region": "Tokyo"
+  },
+  "osaka": {
+    "en": "Osaka",
+    "local": "大阪市",
+    "country": "JP",
+    "lang": "ja",
+    "cities": [
+      "大阪市"
+    ]
+  },
+  "kyoto": {
+    "en": "Kyoto",
+    "local": "京都市",
+    "country": "JP",
+    "lang": "ja",
+    "cities": [
+      "京都市"
+    ]
+  },
+  "yokohama": {
+    "en": "Yokohama",
+    "local": "横浜市",
+    "country": "JP",
+    "lang": "ja",
+    "cities": [
+      "横浜市"
+    ]
+  },
+  "nagoya": {
+    "en": "Nagoya",
+    "local": "名古屋市",
+    "country": "JP",
+    "lang": "ja",
+    "cities": [
+      "名古屋市"
+    ]
+  },
+  "sapporo": {
+    "en": "Sapporo",
+    "local": "札幌市",
+    "country": "JP",
+    "lang": "ja",
+    "cities": [
+      "札幌市"
+    ]
+  },
+  "fukuoka": {
+    "en": "Fukuoka",
+    "local": "福岡市",
+    "country": "JP",
+    "lang": "ja",
+    "cities": [
+      "福岡市"
+    ]
+  },
+  "kobe": {
+    "en": "Kobe",
+    "local": "神戸市",
+    "country": "JP",
+    "lang": "ja",
+    "cities": [
+      "神戸市"
+    ]
+  },
+  "hiroshima": {
+    "en": "Hiroshima",
+    "local": "広島市",
+    "country": "JP",
+    "lang": "ja",
+    "cities": [
+      "広島市"
+    ]
+  },
+  "seoul": {
+    "en": "Seoul",
+    "local": "서울특별시",
+    "country": "KR",
+    "lang": "ko",
+    "cities": [
+      "서울특별시"
+    ]
+  },
+  "taipei": {
+    "en": "Taipei",
+    "local": "臺北市",
+    "country": "TW",
+    "lang": "zh",
+    "cities": [
+      "臺北市",
+      "台北市"
+    ]
+  },
+  "singapore": {
+    "en": "Singapore",
+    "local": "Singapore",
+    "country": "SG",
+    "lang": null,
+    "cities": [
+      "Singapore"
+    ]
+  },
+  "dubai": {
+    "en": "Dubai",
+    "local": "دبي",
+    "country": "AE",
+    "lang": null,
+    "cities": [
+      "دبي"
+    ]
+  },
+  "new-york": {
+    "en": "New York City",
+    "local": "New York",
+    "country": "US",
+    "lang": null,
+    "cities": [
+      "New York",
+      "Brooklyn",
+      "Queens",
+      "Bronx",
+      "The Bronx",
+      "Staten Island",
+      "Manhattan"
+    ]
+  },
+  "los-angeles": {
+    "en": "Los Angeles",
+    "local": "Los Angeles",
+    "country": "US",
+    "lang": null,
+    "cities": [
+      "Los Angeles"
+    ]
+  },
+  "chicago": {
+    "en": "Chicago",
+    "local": "Chicago",
+    "country": "US",
+    "lang": null,
+    "cities": [
+      "Chicago"
+    ]
+  },
+  "houston": {
+    "en": "Houston",
+    "local": "Houston",
+    "country": "US",
+    "lang": null,
+    "cities": [
+      "Houston"
+    ]
+  },
+  "san-francisco": {
+    "en": "San Francisco",
+    "local": "San Francisco",
+    "country": "US",
+    "lang": null,
+    "cities": [
+      "San Francisco"
+    ]
+  },
+  "seattle": {
+    "en": "Seattle",
+    "local": "Seattle",
+    "country": "US",
+    "lang": null,
+    "cities": [
+      "Seattle"
+    ]
+  },
+  "washington": {
+    "en": "Washington, D.C.",
+    "local": "Washington",
+    "country": "US",
+    "lang": null,
+    "cities": [
+      "Washington"
+    ]
+  },
+  "boston": {
+    "en": "Boston",
+    "local": "Boston",
+    "country": "US",
+    "lang": null,
+    "cities": [
+      "Boston"
+    ]
+  },
+  "philadelphia": {
+    "en": "Philadelphia",
+    "local": "Philadelphia",
+    "country": "US",
+    "lang": null,
+    "cities": [
+      "Philadelphia"
+    ]
+  },
+  "las-vegas": {
+    "en": "Las Vegas",
+    "local": "Las Vegas",
+    "country": "US",
+    "lang": null,
+    "cities": [
+      "Las Vegas"
+    ]
+  },
+  "miami": {
+    "en": "Miami",
+    "local": "Miami",
+    "country": "US",
+    "lang": null,
+    "cities": [
+      "Miami"
+    ]
+  },
+  "san-diego": {
+    "en": "San Diego",
+    "local": "San Diego",
+    "country": "US",
+    "lang": null,
+    "cities": [
+      "San Diego"
+    ]
+  },
+  "austin": {
+    "en": "Austin",
+    "local": "Austin",
+    "country": "US",
+    "lang": null,
+    "cities": [
+      "Austin"
+    ]
+  },
+  "new-orleans": {
+    "en": "New Orleans",
+    "local": "New Orleans",
+    "country": "US",
+    "lang": null,
+    "cities": [
+      "New Orleans"
+    ]
+  },
+  "montreal": {
+    "en": "Montreal",
+    "local": "Montréal",
+    "country": "CA",
+    "lang": "fr",
+    "cities": [
+      "Montréal"
+    ]
+  },
+  "vancouver": {
+    "en": "Vancouver",
+    "local": "Vancouver",
+    "country": "CA",
+    "lang": null,
+    "cities": [
+      "Vancouver"
+    ]
+  },
+  "toronto": {
+    "en": "Toronto",
+    "local": "Toronto",
+    "country": "CA",
+    "lang": null,
+    "cities": [
+      "Toronto"
+    ]
+  },
+  "sydney": {
+    "en": "Sydney",
+    "local": "Sydney",
+    "country": "AU",
+    "lang": null,
+    "cities": [
+      "Sydney"
+    ]
+  },
+  "melbourne": {
+    "en": "Melbourne",
+    "local": "Melbourne",
+    "country": "AU",
+    "lang": null,
+    "cities": [
+      "Melbourne"
+    ]
+  },
+  "brisbane": {
+    "en": "Brisbane",
+    "local": "Brisbane",
+    "country": "AU",
+    "lang": null,
+    "cities": [
+      "Brisbane"
+    ]
+  },
+  "sao-paulo": {
+    "en": "São Paulo",
+    "local": "São Paulo",
+    "country": "BR",
+    "lang": "pt",
+    "cities": [
+      "São Paulo"
+    ]
+  },
+  "rio-de-janeiro": {
+    "en": "Rio de Janeiro",
+    "local": "Rio de Janeiro",
+    "country": "BR",
+    "lang": "pt",
+    "cities": [
+      "Rio de Janeiro"
+    ]
+  }
+}

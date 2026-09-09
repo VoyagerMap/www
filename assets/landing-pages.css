@@ -311,6 +311,116 @@ p {
   opacity: 0.45;
 }
 
+/* ── City pages ───────────────────────────────────────────────────────────
+   The counts are the page, so they take the slot the landing pages give to
+   the phone screenshot: same grid, same card, a table of figures instead of
+   a picture. Nothing here restyles the shared chrome. */
+
+.city-figures h2 {
+  margin: 0 0 0.9rem;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+}
+
+.city-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem 1rem;
+  margin: 0;
+}
+
+.city-grid-attrs {
+  margin-top: 1rem;
+}
+
+.city-stat {
+  display: flex;
+  flex-direction: column-reverse; /* value reads first, dt still follows dd */
+  gap: 0.1rem;
+  min-width: 0;
+}
+
+.city-stat-value {
+  margin: 0;
+  font-size: 1.55rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #fff;
+  font-variant-numeric: tabular-nums;
+}
+
+.city-stat-label {
+  font-size: 0.82rem;
+  line-height: 1.35;
+  color: var(--muted);
+}
+
+.city-note {
+  margin: 1rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+/* The one sentence on each page that is only true of that city. Given a rule
+   rather than a card so it reads as a pull quote between two sections. */
+.city-highlight {
+  border-left: 3px solid var(--accent);
+}
+
+.city-highlight p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: var(--text);
+}
+
+.city-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem 1rem;
+  margin: 0.9rem 0 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.city-links a {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6rem;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.city-links a:hover {
+  border-color: var(--accent);
+}
+
+.city-link-count {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (min-width: 780px) {
+  .city-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .city-links {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  /* The headline is a sentence naming a city, not a two-word product claim,
+     so it needs more than the 13ch the landing pages set. Scoped to the city
+     hero: the other landing pages keep their narrow measure. */
+  .city-hero > :first-child > h1 {
+    max-width: 20ch;
+  }
+}
+
 .btn {
   display: inline-flex;
   align-items: center;

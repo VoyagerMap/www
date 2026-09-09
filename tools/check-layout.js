@@ -20,7 +20,22 @@ const VIEWPORTS = [
 const LANGS = ["en", "de", "fr", "es", "it", "pt", "nl", "pl", "hu", "ja", "zh", "ko", "hi"];
 const FILES = ["", "parking-map.html", "public-toilet-map.html",
                "drinking-water-map.html", "free-shower-map.html"];
-const PAGES = LANGS.flatMap((l) => FILES.map((f) => (l === "en" ? `/${f}` : `/${l}/${f}`)));
+// City pages exist in English and one other language each, so they cannot be
+// expanded from the language list like the rest. These are the awkward ones by
+// script and word length rather than a sample: the longest headline (Rio de
+// Janeiro), CJK (Tokyo, Seoul), a diacritic-heavy pair (Krakow, Vienna) and
+// the widest figures (Tokyo at five digits).
+const CITY_PAGES = [
+  "/tokyo-map.html", "/ja/tokyo-map.html",
+  "/rio-de-janeiro-map.html", "/pt/rio-de-janeiro-map.html",
+  "/seoul-map.html", "/ko/seoul-map.html",
+  "/krakow-map.html", "/pl/krakow-map.html",
+  "/vienna-map.html", "/de/vienna-map.html",
+  "/budapest-map.html", "/hu/budapest-map.html",
+  "/new-york-map.html", "/singapore-map.html",
+];
+const PAGES = LANGS.flatMap((l) => FILES.map((f) => (l === "en" ? `/${f}` : `/${l}/${f}`)))
+  .concat(CITY_PAGES);
 const TOLERANCE = 0.02; // 2% — enough for sub-pixel rounding, not for a wrong ratio
 
 const failures = [];

@@ -4,7 +4,7 @@
 
 Voyager Maps answers one kind of question: *where is the nearest useful thing right now* — a restroom, a place to refill a bottle, a shower, a laundromat, somewhere to park a van overnight. General map services index businesses and directions; these categories are patchy there because they are rarely anyone's commercial listing. This site publishes them as counted, categorised data instead.
 
-Last updated: 2026-09-09.
+Last updated: 2026-09-09 — city pages and their counts added on this date.
 
 ## Coverage
 
@@ -33,6 +33,25 @@ Figures as published on the site. Counts are of mapped locations, not of every l
 - [Campervan service map](https://getvoyagermaps.com/campervan-service-map.html): fresh water, grey water disposal, chemical toilet disposal and electric hookup.
 - [Backpacker map](https://getvoyagermaps.com/backpacker-map.html): hostels, stations, luggage lockers and city stopover essentials.
 
+## City coverage
+
+Fifty cities have a page of their own, each reporting how many of each kind of place the map holds inside that city. English at /<city>-map.html, plus the country's own language where the site has it. Counts taken 2026-09-09.
+
+- [Every city as CSV](https://getvoyagermaps.com/data/cities.csv): all 99 cities measured, including the 49 whose coverage was too thin to publish a page for. Columns: slug, names, country, language, total, and counts for toilets, drinking water, showers, laundry, parking, pharmacies, Wi-Fi, step-free access, free of charge, and opening hours recorded.
+- [Tokyo](https://getvoyagermaps.com/tokyo-map.html): 20,972 places, of which 2,552 public toilets and 1,591 drinking water points.
+- [Istanbul](https://getvoyagermaps.com/istanbul-map.html): 15,119 places, of which 468 public toilets and 256 drinking water points.
+- [London](https://getvoyagermaps.com/london-map.html): 13,232 places, of which 904 public toilets and 604 drinking water points.
+- [Melbourne](https://getvoyagermaps.com/melbourne-map.html): 12,401 places, of which 1,665 public toilets and 2,098 drinking water points.
+- [Sydney](https://getvoyagermaps.com/sydney-map.html): 12,362 places, of which 2,040 public toilets and 2,573 drinking water points.
+- [Berlin](https://getvoyagermaps.com/berlin-map.html): 11,994 places, of which 839 public toilets and 414 drinking water points.
+- [Paris](https://getvoyagermaps.com/paris-map.html): 8,486 places, of which 891 public toilets and 1,147 drinking water points.
+- [Rome](https://getvoyagermaps.com/rome-map.html): 8,319 places, of which 259 public toilets and 2,109 drinking water points.
+- [Vienna](https://getvoyagermaps.com/vienna-map.html): 8,263 places, of which 623 public toilets and 1,746 drinking water points.
+- [Madrid](https://getvoyagermaps.com/madrid-map.html): 8,167 places, of which 233 public toilets and 2,061 drinking water points.
+- [Budapest](https://getvoyagermaps.com/budapest-map.html): 7,842 places, of which 546 public toilets and 1,710 drinking water points.
+- [Warsaw](https://getvoyagermaps.com/warsaw-map.html): 7,488 places, of which 407 public toilets and 184 drinking water points.
+- …and 38 more, listed in the sitemap and the CSV above.
+
 ## Apps
 
 - [iOS on the App Store](https://apps.apple.com/app/6758412494): free, no subscription, no in-app purchases.
@@ -40,7 +59,9 @@ Figures as published on the site. Counts are of mapped locations, not of every l
 
 ## Languages
 
-Every page above exists in 13 languages. English is at the site root; each other language lives under its own path prefix, and the pages carry a full hreflang set.
+The home page and the seven category maps exist in all 13 languages. The city pages are the exception: each exists in English and, where the site has that language, in the language of its own country — a page about Vienna's toilets in Korean would be a URL nobody searches for. Every page carries an hreflang set naming exactly the languages it was built in.
+
+English is at the site root; each other language lives under its own path prefix.
 
 - Path prefixes: `/de/` `/fr/` `/es/` `/it/` `/pt/` `/nl/` `/pl/` `/hu/` `/ja/` `/zh/` `/ko/` `/hi/`
 - Example: the drinking water map in German is at https://getvoyagermaps.com/de/drinking-water-map.html
