@@ -690,5 +690,12 @@ window.voyagerLocales["it"] = {
   footerTagline: "Luoghi utili per i viaggi in 13 lingue. Dati sui luoghi forniti dai collaboratori di OpenStreetMap.",
   installBarTitle: "Scarica Voyager Maps",
   installBarCta: "Installa",
-  catWifiTile: "Wi-Fi gratuito o per clienti: filtralo ovunque"
+  catWifiTile: "Wi-Fi gratuito o per clienti: filtralo ovunque",
+  citiesAria: "Copertura nelle singole città",
+  eyebrowCities: "Città coperte",
+  citiesTitle: "Scopri cosa c’è in mappa nella tua prossima destinazione",
+  citiesLead: "Cinquanta città hanno una pagina dedicata, che elenca ogni tipo di luogo utile presente sulla mappa al loro interno: così puoi vedere cosa c’è a disposizione prima di partire, non dopo essere arrivato.",
+  citiesToiletsLabel: "bagni",
+  citiesWaterLabel: "acqua",
+  citiesCsvLink: "Guarda i dati relativi a ogni città in un file CSV"
 };

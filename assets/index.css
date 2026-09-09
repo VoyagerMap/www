@@ -263,6 +263,70 @@ p {
   color: var(--muted-dim);
 }
 
+/* ── City taster ──────────────────────────────────────────────────────────
+   The way in to the fifty city pages. Each card carries the two figures the
+   pages lead on, so the section shows the coverage rather than asserting it —
+   a reader can tell from here whether their next city is worth opening. */
+
+.city-teaser {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 13rem), 1fr));
+  gap: 0.6rem;
+  margin: 1.2rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.city-teaser-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  height: 100%;
+  padding: 0.7rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--card);
+  color: var(--text);
+  text-decoration: none;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.city-teaser-card:hover,
+.city-teaser-card:focus-visible {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.city-teaser-name {
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.city-teaser-figures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.75rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.city-teaser-figures b {
+  color: #fff;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .city-teaser-card {
+    transition: none;
+  }
+
+  .city-teaser-card:hover,
+  .city-teaser-card:focus-visible {
+    transform: none;
+  }
+}
+
 /* ── Hero ─────────────────────────────────────────────────────────────── */
 
 .hero {

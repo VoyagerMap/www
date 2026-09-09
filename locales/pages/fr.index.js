@@ -226,5 +226,12 @@ window.voyagerLocales["fr"] = {
   "footerTagline": "Des lieux pratiques pour les voyageurs, en 13 langues. Données géolocalisées fournies par les contributeurs d'OpenStreetMap.",
   "installBarTitle": "Télécharge Voyager Maps",
   "installBarCta": "Installer",
-  "catWifiTile": "Wi-Fi gratuit ou réservé aux clients — tu peux filtrer les résultats où que tu sois"
+  "catWifiTile": "Wi-Fi gratuit ou réservé aux clients — tu peux filtrer les résultats où que tu sois",
+  "citiesAria": "Couverture dans chaque ville",
+  "eyebrowCities": "Villes couvertes",
+  "citiesTitle": "Découvre ce qui est répertorié dans la ville où tu vas te rendre",
+  "citiesLead": "Cinquante villes disposent chacune de leur propre page, répertoriant tous les lieux pratiques que la carte recense en leur sein — pour que tu puisses voir ce qui est disponible avant de partir, et pas seulement une fois arrivé.",
+  "citiesToiletsLabel": "toilettes",
+  "citiesWaterLabel": "eau",
+  "citiesCsvLink": "Consulte les chiffres pour chaque ville au format CSV"
 };

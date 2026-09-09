@@ -690,5 +690,12 @@ window.voyagerLocales["es"] = {
   footerTagline: "Lugares útiles para viajar en 13 idiomas. Datos de los lugares aportados por los colaboradores de OpenStreetMap.",
   installBarTitle: "Descárgate Voyager Maps",
   installBarCta: "Instalar",
-  catWifiTile: "Wi-Fi gratis o para clientes: filtra los resultados en cualquier lugar"
+  catWifiTile: "Wi-Fi gratis o para clientes: filtra los resultados en cualquier lugar",
+  citiesAria: "Cobertura en cada ciudad",
+  eyebrowCities: "Ciudades cubiertas",
+  citiesTitle: "Echa un vistazo a lo que aparece en el mapa de tu próxima ciudad",
+  citiesLead: "Cincuenta ciudades tienen su propia página, en la que se recogen todos los lugares prácticos que incluye el mapa en cada una de ellas, para que puedas ver la cobertura antes de irte, no cuando ya hayas llegado.",
+  citiesToiletsLabel: "baños",
+  citiesWaterLabel: "agua",
+  citiesCsvLink: "Consulta las cifras de cada ciudad en un archivo CSV"
 };

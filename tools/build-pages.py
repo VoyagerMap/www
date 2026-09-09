@@ -358,21 +358,6 @@ def main():
         if missing:
             print(f"{page}: no translation yet for {', '.join(missing)}")
 
-    written = []
-    for page in PAGES:
-        source = open(os.path.join(REPO, page), encoding="utf-8").read()
-        group = PAGES[page]
-        for code in page_codes[page]:
-            dic = locales[code]
-            if group:
-                dic = dic["landingPages"][group]
-            out = localize(source, code, dic, page, codes, page_codes[page])
-            dest = os.path.join(REPO, page if code == "en" else os.path.join(code, page))
-            os.makedirs(os.path.dirname(dest) or ".", exist_ok=True)
-            open(dest, "w", encoding="utf-8").write(out)
-            written.append(dest.replace(REPO + "/", ""))
-            write_page_locale(code, page, page_dictionary(locales, code, page, group))
-
     # City pages: their own generator, because they share none of the machinery
     # above — one dictionary for all of them rather than a locale group each,
     # and two languages per page rather than thirteen.
@@ -382,9 +367,33 @@ def main():
             rel, lang, payload,
             "Rendered from data/city-copy/; edit the English source there "
             "and re-run tools/city-copy.py."))
-    written += [rel for _, rel, _ in cities]
     print(f"{len(cities)} city pages "
           f"({sum(1 for l, _, _ in cities if l == 'en')} cities)")
+
+    written = [rel for _, rel, _ in cities]
+    for page in PAGES:
+        source = open(os.path.join(REPO, page), encoding="utf-8").read()
+        group = PAGES[page]
+        for code in page_codes[page]:
+            dic = locales[code]
+            if group:
+                dic = dic["landingPages"][group]
+            out = localize(source, code, dic, page, codes, page_codes[page])
+            # Matches the marker whether it is still empty or already holds
+            # a previous run's list: the generator writes English back over
+            # its own source, so a build that only recognised the empty form
+            # would leave every other language showing the English one.
+            if "data-city-teaser" in out:
+                out = re.sub(
+                    r'<ul class="city-teaser" data-city-teaser>.*?</ul>',
+                    lambda _: '<ul class="city-teaser" data-city-teaser>\n%s\n        </ul>'
+                    % city_pages.teaser(REPO, code, cities, locales[code]),
+                    out, count=1, flags=re.S)
+            dest = os.path.join(REPO, page if code == "en" else os.path.join(code, page))
+            os.makedirs(os.path.dirname(dest) or ".", exist_ok=True)
+            open(dest, "w", encoding="utf-8").write(out)
+            written.append(dest.replace(REPO + "/", ""))
+            write_page_locale(code, page, page_dictionary(locales, code, page, group))
 
     # Drop the dictionaries of pages and languages that no longer exist, so a
     # renamed page cannot leave a stale file behind for a crawler to find.

@@ -690,5 +690,12 @@ window.voyagerLocales["nl"] = {
   footerTagline: "Handige reisplekken in 13 talen. Locatiegegevens van OpenStreetMap-bijdragers.",
   installBarTitle: "Download Voyager Maps",
   installBarCta: "Installeren",
-  catWifiTile: "Gratis wifi of wifi voor klanten — filter er overal op"
+  catWifiTile: "Gratis wifi of wifi voor klanten — filter er overal op",
+  citiesAria: "Dekking in afzonderlijke steden",
+  eyebrowCities: "Dekking per stad",
+  citiesTitle: "Kijk wat er in je volgende stad op de kaart staat",
+  citiesLead: "Vijftig steden hebben een eigen pagina, waarop alle praktische plekken op de kaart binnen die stad zijn geteld — zodat je van tevoren kunt zien wat er allemaal te vinden is, en niet pas als je er bent.",
+  citiesToiletsLabel: "toiletten",
+  citiesWaterLabel: "water",
+  citiesCsvLink: "Bekijk de aantallen voor elke stad als CSV-bestand"
 };

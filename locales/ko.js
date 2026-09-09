@@ -690,5 +690,12 @@ window.voyagerLocales["ko"] = {
   footerTagline: "13개 언어로 제공되는 실용적인 여행 명소 정보. OpenStreetMap 기여자들이 제공한 장소 데이터.",
   installBarTitle: "Voyager Maps를 다운로드하세요",
   installBarCta: "설치하기",
-  catWifiTile: "무료 또는 고객 전용 Wi-Fi — 어디서든 필터링하여 검색하세요"
+  catWifiTile: "무료 또는 고객 전용 Wi-Fi — 어디서든 필터링하여 검색하세요",
+  citiesAria: "각 도시별 서비스 범위",
+  eyebrowCities: "지원 도시",
+  citiesTitle: "다음에 방문할 도시에서 어떤 시설들이 지도에 표시되어 있는지 확인해 보세요",
+  citiesLead: "50개 도시에 대한 전용 페이지가 마련되어 있으며, 각 도시 내 지도에 표시된 모든 종류의 실용적인 장소를 상세히 정리해 두었습니다. 따라서 도착한 후에가 아니라 출발하기 전에 서비스 범위를 미리 확인할 수 있습니다.",
+  citiesToiletsLabel: "화장실",
+  citiesWaterLabel: "물",
+  citiesCsvLink: "각 도시별 현황을 CSV 파일로 확인하세요"
 };

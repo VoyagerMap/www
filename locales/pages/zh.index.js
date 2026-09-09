@@ -226,5 +226,12 @@ window.voyagerLocales["zh"] = {
   "footerTagline": "支持13种语言的实用旅行地点。数据源自OpenStreetMap贡献者。",
   "installBarTitle": "下载 Voyager Maps",
   "installBarCta": "立即安装",
-  "catWifiTile": "免费或面向顾客的 Wi-Fi —— 随时随地进行筛选"
+  "catWifiTile": "免费或面向顾客的 Wi-Fi —— 随时随地进行筛选",
+  "citiesAria": "各城市的覆盖范围",
+  "eyebrowCities": "覆盖城市",
+  "citiesTitle": "看看您下一站要去的城市里有哪些设施被标注在地图上",
+  "citiesLead": "50座城市均设有专属页面，详细列出了地图中涵盖的各类实用场所——这样您就能在出发前就了解覆盖范围，而不是等到到达后才发现。",
+  "citiesToiletsLabel": "公厕",
+  "citiesWaterLabel": "水",
+  "citiesCsvLink": "以CSV格式查看各城市的设施数量"
 };

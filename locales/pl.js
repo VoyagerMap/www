@@ -690,5 +690,12 @@ window.voyagerLocales["pl"] = {
   footerTagline: "Przydatne miejsca dla podróżnych w 13 językach. Dane o lokalizacjach pochodzą od użytkowników OpenStreetMap.",
   installBarTitle: "Pobierz Voyager Maps",
   installBarCta: "Zainstaluj",
-  catWifiTile: "Darmowe lub płatne Wi-Fi – możesz je wyszukać gdziekolwiek"
+  catWifiTile: "Darmowe lub płatne Wi-Fi – możesz je wyszukać gdziekolwiek",
+  citiesAria: "Zasięg w poszczególnych miastach",
+  eyebrowCities: "Zasięg w miastach",
+  citiesTitle: "Zobacz, co znajdziesz na mapie w mieście, do którego wybierasz się następnym razem",
+  citiesLead: "Pięćdziesiąt miast ma swoje własne strony, na których zebrano wszystkie przydatne miejsca, jakie można znaleźć na mapie – dzięki temu możesz sprawdzić, co jest w okolicy, zanim wyruszysz, a nie dopiero po przyjeździe.",
+  citiesToiletsLabel: "toalety",
+  citiesWaterLabel: "woda",
+  citiesCsvLink: "Zobacz statystyki dla każdego miasta w formacie CSV"
 };

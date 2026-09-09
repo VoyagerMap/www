@@ -321,6 +321,66 @@
         <p class="section-note" data-i18n="findProof">Praktikus utazási kategóriák, amelyeket az emberek valóban keresnek útközben.</p>
       </section>
 
+      <section class="section" id="cities" aria-label="Az egyes városok lefedettsége" data-i18n-aria="citiesAria" data-track-section="cities">
+        <p class="eyebrow" data-i18n="eyebrowCities">A városok lefedettsége</p>
+        <h2 data-i18n="citiesTitle">Nézze meg, mi szerepel a térképen a következő városában!</h2>
+        <p class="section-lead" data-i18n="citiesLead">Ötven városnak van saját oldala, amelyeken felsorolják az adott városban található összes praktikus helyet – így már indulás előtt megnézheted, hogy mit kínál a térkép, nem pedig csak érkezés után.</p>
+        <!-- Filled per language by tools/build-pages.py: each city links to its
+             page in the reader's language where that exists and to the English
+             one otherwise, so a hardcoded ./rome-map.html cannot 404 under /hu/. -->
+        <ul class="city-teaser" data-city-teaser>
+          <li><a class="city-teaser-card" href="../tokyo-map.html" data-track="city" data-city="tokyo">
+            <span class="city-teaser-name">Tokyo</span>
+            <span class="city-teaser-figures"><span><b>2,552</b> WC-k</span><span><b>1,591</b> víz</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../istanbul-map.html" data-track="city" data-city="istanbul">
+            <span class="city-teaser-name">Istanbul</span>
+            <span class="city-teaser-figures"><span><b>468</b> WC-k</span><span><b>256</b> víz</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../london-map.html" data-track="city" data-city="london">
+            <span class="city-teaser-name">London</span>
+            <span class="city-teaser-figures"><span><b>904</b> WC-k</span><span><b>604</b> víz</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../melbourne-map.html" data-track="city" data-city="melbourne">
+            <span class="city-teaser-name">Melbourne</span>
+            <span class="city-teaser-figures"><span><b>1,665</b> WC-k</span><span><b>2,098</b> víz</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../sydney-map.html" data-track="city" data-city="sydney">
+            <span class="city-teaser-name">Sydney</span>
+            <span class="city-teaser-figures"><span><b>2,040</b> WC-k</span><span><b>2,573</b> víz</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../berlin-map.html" data-track="city" data-city="berlin">
+            <span class="city-teaser-name">Berlin</span>
+            <span class="city-teaser-figures"><span><b>839</b> WC-k</span><span><b>414</b> víz</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../paris-map.html" data-track="city" data-city="paris">
+            <span class="city-teaser-name">Paris</span>
+            <span class="city-teaser-figures"><span><b>891</b> WC-k</span><span><b>1,147</b> víz</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../rome-map.html" data-track="city" data-city="rome">
+            <span class="city-teaser-name">Rome</span>
+            <span class="city-teaser-figures"><span><b>259</b> WC-k</span><span><b>2,109</b> víz</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../vienna-map.html" data-track="city" data-city="vienna">
+            <span class="city-teaser-name">Vienna</span>
+            <span class="city-teaser-figures"><span><b>623</b> WC-k</span><span><b>1,746</b> víz</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../madrid-map.html" data-track="city" data-city="madrid">
+            <span class="city-teaser-name">Madrid</span>
+            <span class="city-teaser-figures"><span><b>233</b> WC-k</span><span><b>2,061</b> víz</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="./budapest-map.html" data-track="city" data-city="budapest">
+            <span class="city-teaser-name">Budapest</span>
+            <span class="city-teaser-figures"><span><b>546</b> WC-k</span><span><b>1,710</b> víz</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../warsaw-map.html" data-track="city" data-city="warsaw">
+            <span class="city-teaser-name">Warsaw</span>
+            <span class="city-teaser-figures"><span><b>407</b> WC-k</span><span><b>184</b> víz</span></span>
+          </a></li>
+        </ul>
+        <p class="section-note"><a href="./data/cities.csv" data-i18n="citiesCsvLink" data-track="download" data-download-type="cities_csv">See the counts for every city as a CSV</a></p>
+      </section>
+
       <section class="section" aria-label="Termékélmény" data-i18n-aria="expAria" data-track-section="experience">
         <p class="eyebrow" data-i18n="eyebrowInApp">Az alkalmazásban</p>
         <h2 data-i18n="expTitle">Egyszerű élmény, gyors döntések</h2>

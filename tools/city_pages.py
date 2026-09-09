@@ -166,6 +166,49 @@ def json_ld(row, copy, lang, langs, canonical):
     return "\n".join(blocks)
 
 
+def teaser(repo, code, built, dic, limit=12, per_country=2):
+    """The homepage's way in to the city pages.
+
+    Without this they are orphans: nothing on the site links to them, which
+    costs a reader any chance of finding them and costs a crawler the internal
+    links it reads as a signal. Capped at two per country so the list reads as
+    a world map rather than a ranking — by raw size the first six would be
+    Japan and Australia.
+
+    A city links to its page in the reader's own language where that page was
+    built, and to the English one otherwise. Nothing here can point at a URL
+    that does not exist.
+    """
+    have = {}
+    for lang, rel, _ in built:
+        slug = os.path.basename(rel)[:-len("-map.html")]
+        have.setdefault(slug, set()).add(lang)
+
+    picks, per = [], {}
+    for r in load(repo):
+        if per.get(r["country"], 0) >= per_country:
+            continue
+        picks.append(r)
+        per[r["country"]] = per.get(r["country"], 0) + 1
+        if len(picks) == limit:
+            break
+
+    up = "" if code == "en" else "../"
+    out = []
+    for r in picks:
+        local = code in have.get(r["slug"], set())
+        href = f"./{r['slug']}-map.html" if local else f"{up}{r['slug']}-map.html"
+        out.append(
+            f'          <li><a class="city-teaser-card" href="{href}"'
+            f' data-track="city" data-city="{r["slug"]}">\n'
+            f'            <span class="city-teaser-name">{esc(r["name_en"])}</span>\n'
+            f'            <span class="city-teaser-figures">'
+            f'<span><b>{r["toilets"]:,}</b> {esc(dic["citiesToiletsLabel"])}</span>'
+            f'<span><b>{r["water"]:,}</b> {esc(dic["citiesWaterLabel"])}</span>'
+            f'</span>\n          </a></li>')
+    return "\n".join(out)
+
+
 def build(repo, locales, og_locale, write_locale):
     """Write every city page. Returns [(lang, repo-relative path, canonical)]."""
     rows = load(repo)

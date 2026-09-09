@@ -50,6 +50,27 @@ async function checkPage(page, url, viewport) {
     return fail(where, `HTTP ${response.status()}`);
   }
 
+  // Most of the screenshots are loading="lazy", so at networkidle0 the ones
+  // below the fold have not started. Measuring them then reports every one as
+  // broken — and how far down they sit changes whenever a section is added
+  // above. Scroll the page first, wait for what that starts, and measure from
+  // the top again.
+  await page.evaluate(async () => {
+    const step = window.innerHeight;
+    for (let y = 0; y < document.body.scrollHeight; y += step) {
+      window.scrollTo(0, y);
+      await new Promise((r) => setTimeout(r, 60));
+    }
+    window.scrollTo(0, 0);
+    await Promise.all([...document.images]
+      .filter((i) => !i.complete)
+      .map((i) => new Promise((r) => {
+        i.addEventListener("load", r, { once: true });
+        i.addEventListener("error", r, { once: true });
+        setTimeout(r, 3000);
+      })));
+  });
+
   const report = await page.evaluate(() => {
     const box = (el) => {
       const r = el.getBoundingClientRect();

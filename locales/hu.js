@@ -690,5 +690,12 @@ window.voyagerLocales["hu"] = {
   footerTagline: "Hasznos utazási helyek 13 nyelven. Helyadatok az OpenStreetMap közreműködőitől.",
   installBarTitle: "Töltsd le az appot",
   installBarCta: "Telepítés",
-  catWifiTile: "Ingyenes vagy vendég-Wi-Fi – bárhol rászűrhetsz"
+  catWifiTile: "Ingyenes vagy vendég-Wi-Fi – bárhol rászűrhetsz",
+  citiesAria: "Az egyes városok lefedettsége",
+  eyebrowCities: "A városok lefedettsége",
+  citiesTitle: "Nézze meg, mi szerepel a térképen a következő városában!",
+  citiesLead: "Ötven városnak van saját oldala, amelyeken felsorolják az adott városban található összes praktikus helyet – így már indulás előtt megnézheted, hogy mit kínál a térkép, nem pedig csak érkezés után.",
+  citiesToiletsLabel: "WC-k",
+  citiesWaterLabel: "víz",
+  citiesCsvLink: "Az egyes városok adatai CSV-formátumban megtekinthetők"
 };

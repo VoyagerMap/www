@@ -690,5 +690,12 @@ window.voyagerLocales["ja"] = {
   footerTagline: "13言語で表示される実用的な旅行スポット。OpenStreetMapの貢献者による場所データ。",
   installBarTitle: "「Voyager Maps」を入手する",
   installBarCta: "インストール",
-  catWifiTile: "無料または顧客向けWi-Fi — どこでも絞り込み検索が可能だ"
+  catWifiTile: "無料または顧客向けWi-Fi — どこでも絞り込み検索が可能だ",
+  citiesAria: "各都市の対応範囲",
+  eyebrowCities: "対応都市",
+  citiesTitle: "次に行く街で、何がマップに載っているか確認しよう",
+  citiesLead: "50の都市ごとに専用ページが用意されており、その地図に含まれるあらゆる実用的なスポットが一覧表示されている。そのため、到着してからではなく、出発前にカバー範囲を確認できるのだ。",
+  citiesToiletsLabel: "トイレ",
+  citiesWaterLabel: "水",
+  citiesCsvLink: "各都市の件数をCSV形式で確認する"
 };

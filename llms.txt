@@ -33,6 +33,20 @@ Figures as published on the site. Counts are of mapped locations, not of every l
 - [Campervan service map](https://getvoyagermaps.com/campervan-service-map.html): fresh water, grey water disposal, chemical toilet disposal and electric hookup.
 - [Backpacker map](https://getvoyagermaps.com/backpacker-map.html): hostels, stations, luggage lockers and city stopover essentials.
 
+## Notable figures
+
+Derived from the counts in the CSV below, on 2026-09-09. Quotable with
+attribution to Voyager Maps and OpenStreetMap contributors; the CSV lets any
+of them be checked or recomputed.
+
+- Across the 50 cities with a page: 302,694 mapped places, including 25,335 public toilets, 31,695 drinking water points and 62,236 places to park.
+- Drinking water outnumbers public toilets in 21 of the 50 cities.
+- The widest gap in favour of water is Madrid, at 8.8 times more drinking water points than public toilets (2,061 against 233), then Rome at 8.1 (2,109 against 259) and Barcelona at 6.8 (1,856 against 271) — the Spanish and Italian fountain traditions showing up as data.
+- The widest gap the other way is Poznan, at 13.3 times more public toilets than places to refill a bottle (199 against 15), then Fukuoka at 8.8 (327 against 37).
+- Tokyo is the most densely mapped city on the site with 20,972 places, and has no city entry in OpenStreetMap at all — the figure is its 23 special wards combined.
+- Berlin records the most step-free places of any city here, 4,354, which is 36% of everything mapped there; Vienna is second by share at 27%.
+- Showers are the scarcest category: 1,659 across all 50 cities, against 25,335 toilets.
+
 ## City coverage
 
 Fifty cities have a page of their own, each reporting how many of each kind of place the map holds inside that city. English at /<city>-map.html, plus the country's own language where the site has it. Counts taken 2026-09-09.
@@ -59,7 +73,7 @@ Fifty cities have a page of their own, each reporting how many of each kind of p
 
 ## Languages
 
-The home page and the seven category maps exist in all 13 languages. The city pages are the exception: each exists in English and, where the site has that language, in the language of its own country — a page about Vienna's toilets in Korean would be a URL nobody searches for. Every page carries an hreflang set naming exactly the languages it was built in.
+The home page and the six category maps exist in all 13 languages. The city pages are the exception: each exists in English and, where the site has that language, in the language of its own country — a page about Vienna's toilets in Korean would be a URL nobody searches for. Every page carries an hreflang set naming exactly the languages it was built in.
 
 English is at the site root; each other language lives under its own path prefix.
 
