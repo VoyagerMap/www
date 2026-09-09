@@ -252,6 +252,14 @@ def git_lastmod():
     checkout stamps every file with the time of the checkout, which would tell
     a crawler the whole site changed whenever CI ran.
     """
+    shallow = subprocess.run(["git", "rev-parse", "--is-shallow-repository"],
+                             cwd=REPO, capture_output=True, text=True).stdout.strip()
+    if shallow == "true":
+        # Worth saying out loud rather than quietly emitting wrong dates: a
+        # shallow clone has one commit, so every file outside it would look
+        # like it changed today. CI passes fetch-depth: 0 for this reason.
+        print("warning: shallow clone — sitemap dates will be wrong; "
+              "fetch the full history (git fetch --unshallow)")
     out = subprocess.run(["git", "log", "--format=%cs", "--name-only"],
                          cwd=REPO, capture_output=True, text=True).stdout
     dates, current = {}, None

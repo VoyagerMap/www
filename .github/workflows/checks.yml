@@ -12,6 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          # The sitemap's lastmod per URL comes from git history. The default
+          # shallow clone gives the build one commit, so every file outside it
+          # falls back to today and the dates come out wrong.
+          fetch-depth: 0
 
       - uses: actions/setup-node@v5
         with:
