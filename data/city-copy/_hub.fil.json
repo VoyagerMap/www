@@ -1,0 +1,21 @@
+{
+  "pageTitle": "Bawat lungsod sa Voyager Maps",
+  "metaDescription": "Ang mga lungsod na masinsinang tinatalakay ng Voyager Maps, kasama ang bilang ng mga pampublikong palikuran, mga gripo ng inuming tubig, at iba pang praktikal na lugar na naka-mapa sa bawat isa.",
+  "eyebrow": "Indeks ng mga lungsod",
+  "heroTitle": "Bawat lungsod sa mapa",
+  "heroLead": "Bawat isa rito ay may sariling pahina na nagbibilang kung ano ang nilalaman ng mapa sa loob nito. Inaayos ito ayon sa dami ng mga biyaherong pumupunta roon, hindi ayon sa dami ng datos na mayroon tayo — upang ang listahan ay mabasa bilang mga lugar na sulit puntahan.",
+  "tableAria": "Mga lungsod na may pahina, at kung ano ang naka-mapa sa bawat isa",
+  "colCity": "Lungsod",
+  "colTotal": "Mga Lugar",
+  "colToilets": "Palikuran",
+  "colWater": "Tubig",
+  "restAria": "Mga lungsod na nasukat ngunit hindi inilathala",
+  "restTitle": "Nasukat, ngunit hindi inilathala",
+  "restText": "Iba pang mga lungsod ang binibilang ngunit hindi isinama, dahil napakakaunti sa kanila ang na-mapa para makapagbigay ng anumang kapaki-pakinabang na impormasyon sa isang pahina. Ang Prague ay may kabuuang halos isang libong lugar sa halos dalawampu't apat na bersyon na ginagamit ng OpenStreetMap para rito; ang Athens naman ay walang naitalang pampublikong banyo. Nanatili sila sa datos na may nakalagay na 'no' sa published flag — tama ang bilang, ngunit masyado itong kakaunti para pagbatayan ng karagdagang impormasyon, at lumalawak ang saklaw habang may nagdaragdag sa mapa.",
+  "csvLink": "I-download ang bilang para sa bawat nasusukat na lungsod bilang CSV",
+  "ctaAria": "Kunin ang app",
+  "ctaTitle": "Dalhin ang mapa",
+  "ctaText": "Bawat lungsod dito, at sa iba pang lugar, sa isang app. Libre sa iOS at Android, walang subscription at hindi kailangan ng account.",
+  "dataNote": "Ang datos ng lokasyon ay mula sa mga kontribyutor ng OpenStreetMap, na lisensyado sa ilalim ng Open Database License. Na-refresh ang mga bilang sa bawat pag-load ng datos.",
+  "_note": "DeepL TL of cities-page.en.json."
+}

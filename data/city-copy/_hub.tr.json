@@ -1,0 +1,21 @@
+{
+  "pageTitle": "Voyager Maps'teki tüm şehirler",
+  "metaDescription": "Voyager Maps'in ayrıntılı olarak ele aldığı şehirler ve her birinde haritalandırılmış umumi tuvalet, içme suyu musluğu ve diğer pratik yerlerin sayıları.",
+  "eyebrow": "Şehir dizini",
+  "heroTitle": "Haritadaki her şehir",
+  "heroLead": "Bunların her birinin, haritada nelerin yer aldığını gösteren ayrı bir sayfası vardır. Liste, elimizdeki veri miktarına göre değil, oraya giden gezgin sayısına göre sıralanmıştır — böylece liste, gitmeye değer yerler olarak okunur.",
+  "tableAria": "Sayfası bulunan şehirler ve her birinde haritalandırılan yerler",
+  "colCity": "Şehir",
+  "colTotal": "Yerler",
+  "colToilets": "Tuvaletler",
+  "colWater": "Su",
+  "restAria": "Ölçümleri yapılmış ancak yayınlanmamış şehirler",
+  "restTitle": "Ölçülmüş, ancak yayınlanmamış",
+  "restText": "Diğer şehirler sayıldı ancak listeye dahil edilmedi; çünkü bu şehirler için haritalanan yer sayısı çok az olduğundan, bir sayfada yararlı bir bilgi veremiyordu. Prag, OpenStreetMap'in bu şehir için kullandığı iki düzine farklı yazılışta toplamda ancak bin kadar mekana ulaşmaktadır; Atina'da ise hiç umumi tuvalet kaydedilmemiştir. Bu mekanlar, \"yayınlanmadı\" bayrağı ayarlanmış olarak verilerde kalır — sayılar doğrudur, ancak üzerinde bir değerlendirme yapmak için çok yetersizdir ve haritaya eklemeler yapıldıkça kapsama alanı genişler.",
+  "csvLink": "Ölçüm yapılan her şehir için sayıları CSV olarak indirin",
+  "ctaAria": "Uygulamayı indirin",
+  "ctaTitle": "Haritayı yanınıza alın",
+  "ctaText": "Buradaki ve diğer her yerdeki tüm şehirler, tek bir uygulamada. iOS ve Android'de ücretsizdir; abonelik veya hesap gerektirmez.",
+  "dataNote": "Veriler, Açık Veritabanı Lisansı kapsamında lisanslanan OpenStreetMap katkıcılarından alınmıştır. Sayılar, her veri yüklemesinde güncellenir.",
+  "_note": "DeepL TR of cities-page.en.json."
+}

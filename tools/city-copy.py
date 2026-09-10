@@ -38,7 +38,9 @@ BATCH = 40
 
 TARGETS = {"de": "DE", "fr": "FR", "it": "IT", "es": "ES", "pt": "PT-BR",
            "nl": "NL", "pl": "PL", "hu": "HU", "ja": "JA", "ko": "KO", "zh": "ZH",
-           "hi": "HI", "ru": "RU"}
+           "hi": "HI", "ru": "RU",
+           "ar": "AR", "id": "ID", "vi": "VI", "tr": "TR", "fa": "FA",
+           "fil": "TL", "da": "DA", "sv": "SV", "nb": "NB", "is": "IS"}
                           # hi and ru are here for the all-cities hub only: no
                           # city page is in either — the dataset has no Indian
                           # or Russian city — but the hub is in every language

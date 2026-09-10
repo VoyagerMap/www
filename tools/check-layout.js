@@ -17,7 +17,8 @@ const VIEWPORTS = [
   { name: "mobile", width: 390, height: 844 },
 ];
 // Every page in every language: a screenshot only has to slip on one of them.
-const LANGS = ["en", "de", "fr", "es", "it", "pt", "nl", "pl", "hu", "ja", "zh", "ko", "hi", "ru"];
+const LANGS = ["en", "de", "fr", "es", "it", "pt", "nl", "pl", "hu", "ja", "zh", "ko", "hi", "ru",
+  "ar", "id", "vi", "tr", "fa", "fil", "da", "sv", "nb", "is"];
 const FILES = ["", "parking-map.html", "public-toilet-map.html",
                "drinking-water-map.html", "free-shower-map.html"];
 // City pages exist in English and one other language each, so they cannot be

@@ -33,12 +33,17 @@ PAGES = {
 }
 LEGAL = ["privacy-policy.html", "terms.html", "delete-data.html"]
 
+# Languages written right to left.
+RTL = {"ar", "fa"}
+
 # Open Graph expects language_TERRITORY. The territory is the market we address
 # with that language, not the only place it is spoken.
 OG_LOCALE = {
     "en": "en_US", "de": "de_DE", "fr": "fr_FR", "es": "es_ES", "it": "it_IT",
     "pt": "pt_BR", "nl": "nl_NL", "pl": "pl_PL", "hu": "hu_HU", "ja": "ja_JP",
     "zh": "zh_CN", "ko": "ko_KR", "hi": "hi_IN", "ru": "ru_RU",
+    "ar": "ar_SA", "id": "id_ID", "vi": "vi_VN", "tr": "tr_TR", "fa": "fa_IR",
+    "fil": "fil_PH", "da": "da_DK", "sv": "sv_SE", "nb": "nb_NO", "is": "is_IS",
 }
 
 
@@ -115,7 +120,12 @@ def localize(source, code, dic, page, codes, page_codes=None):
     page_codes = page_codes or codes
     t = source
 
-    t = re.sub(r'<html lang="[^"]*">', f'<html lang="{code}">', t, count=1)
+    # Arabic and Persian read right to left. Without dir the browser lays the
+    # page out left to right and only the runs of Arabic text flip, which puts
+    # punctuation on the wrong side of a sentence and the whole column in the
+    # wrong place. lang alone does not do this — dir has to be stated.
+    direction = ' dir="rtl"' if code in RTL else ""
+    t = re.sub(r'<html lang="[^"]*"[^>]*>', f'<html lang="{code}"{direction}>', t, count=1)
 
     # Assets, relative to where this page will live. Normalizes whatever form
     # the source happens to use, so re-running the generator is idempotent.

@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="../pictures/icon/favicon-96x96.png?v=20260527" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../pictures/icon/favicon.svg?v=20260527" />
+    <link rel="shortcut icon" href="../pictures/icon/favicon.ico?v=20260527" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../pictures/icon/apple-touch-icon.png?v=20260527" />
+    <meta name="apple-mobile-web-app-title" content="Voyager Maps" />
+    <link rel="manifest" href="../pictures/icon/site.webmanifest?v=20260527" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="اعثر على المراحيض ومياه الشرب ودشات الاستحمام وشبكات الواي فاي ومواقف السيارات أينما سافرت. متوفر مجانًا على أنظمة iOS وAndroid."
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+    <link rel="canonical" href="https://getvoyagermaps.com/ar/" />
+    <link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/" />
+    <link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/" />
+    <link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/" />
+    <link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/" />
+    <link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/" />
+    <link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/" />
+    <link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/" />
+    <link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/" />
+    <link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/" />
+    <link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/" />
+    <link rel="alternate" hreflang="zh" href="https://getvoyagermaps.com/zh/" />
+    <link rel="alternate" hreflang="ko" href="https://getvoyagermaps.com/ko/" />
+    <link rel="alternate" hreflang="ru" href="https://getvoyagermaps.com/ru/" />
+    <link rel="alternate" hreflang="ar" href="https://getvoyagermaps.com/ar/" />
+    <link rel="alternate" hreflang="id" href="https://getvoyagermaps.com/id/" />
+    <link rel="alternate" hreflang="vi" href="https://getvoyagermaps.com/vi/" />
+    <link rel="alternate" hreflang="tr" href="https://getvoyagermaps.com/tr/" />
+    <link rel="alternate" hreflang="fa" href="https://getvoyagermaps.com/fa/" />
+    <link rel="alternate" hreflang="fil" href="https://getvoyagermaps.com/fil/" />
+    <link rel="alternate" hreflang="da" href="https://getvoyagermaps.com/da/" />
+    <link rel="alternate" hreflang="sv" href="https://getvoyagermaps.com/sv/" />
+    <link rel="alternate" hreflang="nb" href="https://getvoyagermaps.com/nb/" />
+    <link rel="alternate" hreflang="is" href="https://getvoyagermaps.com/is/" />
+    <link rel="alternate" hreflang="hi" href="https://getvoyagermaps.com/hi/" />
+    <link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/" />
+    <meta property="og:title" content="Voyager Maps – المراحيض والمياه وشبكات الواي فاي أثناء التنقل" />
+    <meta
+      property="og:description"
+      content="The travel map built for real needs. Quickly find restrooms, drinking water, Wi-Fi, and more — without wading through irrelevant results."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://getvoyagermaps.com/ar/" />
+    <meta property="og:site_name" content="Voyager Maps" />
+    <meta property="og:locale" content="ar_SA" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="de_DE" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:locale:alternate" content="es_ES" />
+    <meta property="og:locale:alternate" content="it_IT" />
+    <meta property="og:locale:alternate" content="pt_BR" />
+    <meta property="og:locale:alternate" content="nl_NL" />
+    <meta property="og:locale:alternate" content="pl_PL" />
+    <meta property="og:locale:alternate" content="hu_HU" />
+    <meta property="og:locale:alternate" content="ja_JP" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    <meta property="og:locale:alternate" content="ko_KR" />
+    <meta property="og:locale:alternate" content="ru_RU" />
+    <meta property="og:locale:alternate" content="id_ID" />
+    <meta property="og:locale:alternate" content="vi_VN" />
+    <meta property="og:locale:alternate" content="tr_TR" />
+    <meta property="og:locale:alternate" content="fa_IR" />
+    <meta property="og:locale:alternate" content="fil_PH" />
+    <meta property="og:locale:alternate" content="da_DK" />
+    <meta property="og:locale:alternate" content="sv_SE" />
+    <meta property="og:locale:alternate" content="nb_NO" />
+    <meta property="og:locale:alternate" content="is_IS" />
+    <meta property="og:locale:alternate" content="hi_IN" />
+    <meta property="og:image" content="https://getvoyagermaps.com/assets/app-preview.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Voyager Maps – المراحيض والمياه وشبكات الواي فاي أثناء التنقل" />
+    <meta name="twitter:description" content="اعثر على المراحيض ومياه الشرب ودشات الاستحمام وشبكات الواي فاي ومواقف السيارات أينما سافرت. متوفر مجانًا على أنظمة iOS وAndroid." />
+    <meta name="twitter:image" content="https://getvoyagermaps.com/assets/app-preview.png" />
+    <meta name="ga4-measurement-id" content="G-FS5S0LLLK2" />
+    <title>Voyager Maps – المراحيض والمياه وشبكات الواي فاي أثناء التنقل</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Voyager Maps",
+        "url": "https://getvoyagermaps.com/ar/",
+        "description": "Find restrooms, drinking water, Wi-Fi, and laundromats wherever you travel — free on iOS and Android. The practical travel map built for real needs, not just directions.",
+        "inLanguage": "ar"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Voyager Maps",
+        "description": "Find toilets, drinking water, showers, parking, Wi-Fi and more — 5.5M locations worldwide. Free on iOS and Android.",
+        "url": "https://getvoyagermaps.com/ar/",
+        "applicationCategory": "TravelApplication",
+        "operatingSystem": "iOS, Android",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "downloadUrl": [
+          "https://apps.apple.com/app/6758412494",
+          "https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
+        ],
+        "inLanguage": "ar"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Voyager Maps free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, Voyager Maps is completely free on both iOS and Android. There are no subscriptions or in-app purchases."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many locations does Voyager Maps have?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Voyager Maps has over 5.5 million practical places worldwide, including public toilets, drinking water taps, free showers, Wi-Fi spots, laundromats, parking, and more."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Voyager Maps used for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Voyager Maps is a travel utility app for finding practical places while on the move — restrooms, free drinking water, showers, laundromats, and Wi-Fi. It is designed for travelers, road trippers, backpackers, van lifers, and cyclists."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is Voyager Maps different from Google Maps?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Google Maps is great for navigation and restaurants. Voyager Maps focuses exclusively on practical travel needs: public toilets, free drinking water, showers, laundromats, and parking. It shows far more locations in these categories — in Paris, for example, we list 289 drinking water refill points against about 20 found on Google Maps."
+            }
+          }
+        ],
+        "inLanguage": "ar"
+      }
+    </script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("consent", "default", {
+        analytics_storage: "denied",
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        wait_for_update: 500
+      });
+    </script>
+
+    <link rel="stylesheet" href="../assets/index.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="site-header">
+        <a class="brand" href="./index.html" aria-label="Voyager Maps"
+          ><img class="brand-mark" src="../pictures/icon/brand-mark.png" width="24" height="24" alt="" aria-hidden="true" /><span
+            class="brand-name"
+            ><span class="brand-name-lead">Voyager</span> Maps</span
+          ></a
+        >
+        <nav class="site-nav" aria-label="أقسام الصفحة" data-i18n-aria="navAria">
+          <a href="#compare" data-i18n="navWhy">لماذا Voyager</a>
+          <a href="#coverage" data-i18n="navFind">ما يمكنك العثور عليه</a>
+          <a href="#maps" data-i18n="navMaps">الخرائط</a>
+        </nav>
+        <nav class="lang-switch" aria-label="مفتاح تبديل اللغة" data-i18n-aria="langSwitcherAria"></nav>
+      </header>
+
+      <section class="hero" aria-label="قسم العنوان الرئيسي" data-i18n-aria="heroAria" data-track-section="hero">
+        <div class="hero-content">
+          <p class="hero-pill"><span class="hero-pill-dot" aria-hidden="true"></span><span data-i18n="heroFree">مجاني · iOS و Android</span></p>
+          <h1 data-i18n="heroTitle">اعثر على المراحيض والمياه ودشات الاستحمام وشبكات الواي فاي – أينما سافرت.</h1>
+          <p class="lead" data-i18n="heroLead">يساعدك تطبيق Voyager Maps في العثور على الأماكن التي تحتاجها فعليًّا أثناء السفر — مثل دورات المياه، ومصادر مياه الشرب، وشبكات الواي فاي، ومغاسل الملابس — خاصةً عندما تكون في مكان غير مألوف.</p>
+          <div class="cta-row">
+            <a
+              class="store-badge"
+              href="https://apps.apple.com/app/6758412494"
+              aria-label="قم بتنزيل تطبيق Voyager Maps من متجر التطبيقات"
+              data-i18n-aria="badgeAppleAria"
+              data-track="cta"
+              data-cta-type="app_store_ios"
+              data-cta-position="hero"
+            >
+              <span class="store-badge-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.3.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+              </span>
+              <span class="store-badge-copy">
+                <span class="store-badge-line1" data-i18n="badgeAppleLine">قم بالتنزيل من</span>
+                <span class="store-badge-line2">App Store</span>
+              </span>
+            </a>
+            <a
+              class="store-badge"
+              href="https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
+              aria-label="احصل على تطبيق Voyager Maps من Google Play"
+              data-i18n-aria="badgeGoogleAria"
+              data-track="cta"
+              data-cta-type="app_store_android"
+              data-cta-position="hero"
+            >
+              <span class="store-badge-icon" aria-hidden="true">
+                <svg width="19" height="21" viewBox="0 0 512 512" fill="currentColor" focusable="false"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l2.7 1.5 247.2-247v-5.8L47 0zm425.2 225L377.5 167l-65.1 65 65.1 65 95.6-57c27.2-15.6 27.2-41 0-56.6zM104.6 499l280.8-161.2-60.1-60.1-220.7 221.3z"/></svg>
+              </span>
+              <span class="store-badge-copy">
+                <span class="store-badge-line1" data-i18n="badgeGoogleLine">احصل عليه من</span>
+                <span class="store-badge-line2">Google Play</span>
+              </span>
+            </a>
+          </div>
+          <p class="hero-proof">
+            <svg class="hero-proof-stars" width="74" height="12" viewBox="0 0 74 12" role="img" aria-label="حصل التطبيق على تقييم 4.9 من 5 في متجر App Store وGoogle Play" data-i18n-aria="proofRatingAria" focusable="false">
+              <defs>
+                <linearGradient id="proofStars" x1="1" y1="0" x2="73" y2="0" gradientUnits="userSpaceOnUse">
+                  <stop offset="0.98" stop-color="#f0b429" />
+                  <stop offset="0.98" stop-color="#33425e" />
+                </linearGradient>
+              </defs>
+              <g fill="url(#proofStars)">
+                <path d="M7 .35 8.44 4.618 12.945 4.669 9.33 7.357 10.674 11.657 7 9.05 3.326 11.657 4.67 7.357 1.055 4.669 5.56 4.618Z" />
+                <path transform="translate(15 0)" d="M7 .35 8.44 4.618 12.945 4.669 9.33 7.357 10.674 11.657 7 9.05 3.326 11.657 4.67 7.357 1.055 4.669 5.56 4.618Z" />
+                <path transform="translate(30 0)" d="M7 .35 8.44 4.618 12.945 4.669 9.33 7.357 10.674 11.657 7 9.05 3.326 11.657 4.67 7.357 1.055 4.669 5.56 4.618Z" />
+                <path transform="translate(45 0)" d="M7 .35 8.44 4.618 12.945 4.669 9.33 7.357 10.674 11.657 7 9.05 3.326 11.657 4.67 7.357 1.055 4.669 5.56 4.618Z" />
+                <path transform="translate(60 0)" d="M7 .35 8.44 4.618 12.945 4.669 9.33 7.357 10.674 11.657 7 9.05 3.326 11.657 4.67 7.357 1.055 4.669 5.56 4.618Z" />
+              </g>
+            </svg>
+            <span class="hero-proof-value" data-i18n="proofRatingValue">4.9</span>
+            <span class="hero-proof-sep" aria-hidden="true">·</span>
+            <span class="hero-proof-count" data-i18n="proofDownloadsValue">1K+</span>
+            <span data-i18n="proofDownloadsLabel">التنزيلات</span>
+            <span class="hero-proof-sep" aria-hidden="true">·</span>
+            <span class="hero-proof-stores" data-i18n="proofStores">متجر التطبيقات (App Store) و«جوجل بلاي» (Google Play)</span>
+          </p>
+          <dl class="stat-strip">
+            <div class="stat">
+              <dd class="stat-value" data-i18n="statPlacesValue">5.5 مليون</dd>
+              <dt class="stat-label" data-i18n="statPlacesLabel">الأماكن العملية</dt>
+            </div>
+            <div class="stat">
+              <dd class="stat-value" data-i18n="statCountriesValue">237</dd>
+              <dt class="stat-label" data-i18n="statCountriesLabel">البلدان</dt>
+            </div>
+            <div class="stat">
+              <dd class="stat-value" data-i18n="statWifiValue">389 ألف</dd>
+              <dt class="stat-label" data-i18n="statWifiLabel">مع خدمة واي فاي مجانية</dt>
+            </div>
+          </dl>
+        </div>
+        <div class="hero-visual">
+          <figure class="preview-shell">
+            <picture>
+              <source type="image/webp" srcset="../pictures/paris-home-map-800w.webp 800w, ../pictures/paris-home-map.webp 1080w" sizes="(max-width: 900px) 78vw, 336px" />
+              <img
+                src="../pictures/paris-home-map-800w.jpg"
+                srcset="../pictures/paris-home-map-800w.jpg 800w, ../pictures/paris-home-map.jpg 1080w"
+                sizes="(max-width: 900px) 78vw, 336px"
+                width="800"
+                height="1731"
+                fetchpriority="high"
+                alt="صورة معاينة لتطبيق Voyager Maps"
+                data-i18n-alt="previewAria"
+                data-track-image="product_preview"
+              />
+            </picture>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="compare" aria-label="مقارنة بين «فوياجر مابس» و«جوجل مابس»" data-i18n-aria="vsAria" data-track-section="vs_comparison">
+        <p class="eyebrow" data-i18n="eyebrowDifference">الفرق</p>
+        <h2 data-i18n="vsTitle">لماذا لا تستخدم خرائط Google فحسب؟</h2>
+        <p class="section-lead" data-i18n="vsIntro">يُعد «Google Maps» رائعًا للتنقل. لكنه يقدم نتائج متفاوتة فيما يتعلق بالموارد المجتمعية المجانية — مثل دورات المياه وصنابير المياه ودشات الاستحمام. وقد تم تطوير تطبيق «Voyager Maps» خصيصًا لمثل هذه المواقف بالذات.</p>
+        <div class="vs-table" role="table" aria-label="Feature comparison">
+          <div class="vs-head-row" role="row">
+            <div class="vs-cell-need" role="columnheader" data-i18n="vsCityLabel">في باريس</div>
+            <div class="vs-head-label" role="columnheader" data-i18n="vsGmLabel">خرائط جوجل</div>
+            <div class="vs-head-label vs-vm-head" role="columnheader" data-i18n="vsVmLabel">Voyager Maps</div>
+          </div>
+          <div class="vs-row" role="row">
+            <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed1">مرحاض</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">خرائط جوجل</span><span data-i18n="vsGm1">يعرف بعض الأماكن العامة</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm1">✓ 331 مرحاضًا في باريس — خيارات عامة ومدفوعة ومخصصة للعملاء</span></div>
+          </div>
+          <div class="vs-row" role="row">
+            <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed2">إعادة تعبئة مياه الشرب</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">خرائط جوجل</span><span data-i18n="vsGm2">يعرض حوالي 20 مكانًا في أنحاء المدينة</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm2">✓ صنابير مياه مجانية وإعادة تعبئة — 289 مكانًا في باريس وحدها</span></div>
+          </div>
+          <div class="vs-row" role="row">
+            <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed3">الدش</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">خرائط جوجل</span><span data-i18n="vsGm3">لا توجد نتائج — فقط فنادق وأماكن غير ذات صلة</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm3">✓ العديد من أماكن الاستحمام المجانية وتلك التي تتطلب دفع رسوم زهيدة</span></div>
+          </div>
+          <div class="vs-row" role="row">
+            <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed4">شبكة واي فاي مجانية</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">خرائط جوجل</span><span data-i18n="vsGm4">معظمها مقاهي</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm4">✓ شبكات واي فاي مجانية ونقاط واي فاي مسموح بها من قبل العملاء</span></div>
+          </div>
+          <div class="vs-row vs-row-last" role="row">
+            <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed5">ما تركز عليه</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">خرائط جوجل</span><span data-i18n="vsGm5">نظام الملاحة، والمطاعم، والمقاهي</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm5">✓ احتياجات السفر العملية فقط</span></div>
+          </div>
+        </div>
+        <p class="vs-note" data-i18n="vsNote">نموذج يستند إلى باريس، فرنسا (يوليو 2026): أرقام «Voyager Maps» مسجلة في قاعدة بياناتنا، وأرقام «Google Maps» مستمدة من بحث يدوي عن الفئة نفسها.</p>
+      </section>
+
+      <section class="section" id="coverage" aria-label="ما يمكنك العثور عليه" data-i18n-aria="findAria" data-track-section="categories">
+        <p class="eyebrow" data-i18n="eyebrowCoverage">نطاق التغطية</p>
+        <h2 data-i18n="findTitle">ما يمكنك العثور عليه في جميع أنحاء العالم</h2>
+        <ul class="count-grid">
+          <li><span class="count-value" data-i18n="cat_toiletsCount">520 ألف</span><span class="count-label" data-i18n="cat_toilets">المراحيض</span></li>
+          <li><span class="count-value" data-i18n="cat_waterCount">459 ألف</span><span class="count-label" data-i18n="cat_water">مياه الشرب</span></li>
+          <li><span class="count-value" data-i18n="cat_campingCount">228 ألف</span><span class="count-label" data-i18n="cat_camping">التخييم والاستحمام</span></li>
+          <li><span class="count-value" data-i18n="cat_parkingCount">1.2 مليون</span><span class="count-label" data-i18n="cat_parking">أماكن وقوف السيارات</span></li>
+          <li><span class="count-value" data-i18n="cat_supermarketCount">493 ألف</span><span class="count-label" data-i18n="cat_supermarket">السوبرماركتات</span></li>
+          <li><span class="count-value" data-i18n="cat_pharmacyCount">437 ألف</span><span class="count-label" data-i18n="cat_pharmacy">الصيدليات</span></li>
+          <li><span class="count-value" data-i18n="cat_emergencyCount">544 ألف</span><span class="count-label" data-i18n="cat_emergency">الصحة والطوارئ</span></li>
+          <li><span class="count-value" data-i18n="cat_moneyCount">261 ألف</span><span class="count-label" data-i18n="cat_money">النقود والصرافة</span></li>
+          <li><span class="count-value" data-i18n="cat_attractionCount">248k</span><span class="count-label" data-i18n="cat_attraction">معالم الجذب السياحي</span></li>
+          <li><span class="count-value" data-i18n="cat_lockerCount">1.8 ألف</span><span class="count-label" data-i18n="cat_locker">خزائن الأمتعة</span></li>
+          <li><span class="count-value" data-i18n="cat_moreCount">1.1 مليون</span><span class="count-label" data-i18n="cat_more">محطات توقف مفيدة أخرى</span></li>
+          <li class="count-wifi"><span class="count-value">389k</span><span class="count-label" data-i18n="catWifiTile">شبكة واي فاي مجانية أو مخصصة للعملاء — قم بالتصفية للعثور عليها في أي مكان</span></li>
+        </ul>
+        <p class="section-note" data-i18n="findProof">فئات السفر العملية التي يبحث عنها الناس فعليًّا أثناء تنقلهم.</p>
+      </section>
+
+      <section class="section" id="cities" aria-label="التغطية في كل مدينة على حدة" data-i18n-aria="citiesAria" data-track-section="cities">
+        <p class="eyebrow" data-i18n="eyebrowCities">المدن التي يغطيها التطبيق</p>
+        <h2 data-i18n="citiesTitle">اكتشف ما الذي تم توثيقه على الخريطة في المدينة التي ستزورها قريبًا</h2>
+        <p class="section-lead" data-i18n="citiesLead">تحتوي كل مدينة من المدن الخمسين على صفحة خاصة بها، تضم جميع أنواع الأماكن العملية الموجودة داخلها — حتى تتمكن من الاطلاع على نطاق التغطية قبل الذهاب، وليس بعد الوصول.</p>
+        <!-- Filled per language by tools/build-pages.py: each city links to its
+             page in the reader's language where that exists and to the English
+             one otherwise, so a hardcoded ./rome-map.html cannot 404 under /hu/. -->
+        <ul class="city-teaser" data-city-teaser>
+          <li><a class="city-teaser-card" href="../istanbul-map.html" data-track="city" data-city="istanbul">
+            <span class="city-teaser-name">Istanbul</span>
+            <span class="city-teaser-figures"><span><b>468</b> دورات المياه</span><span><b>256</b> المياه</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../london-map.html" data-track="city" data-city="london">
+            <span class="city-teaser-name">London</span>
+            <span class="city-teaser-figures"><span><b>904</b> دورات المياه</span><span><b>604</b> المياه</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../dubai-map.html" data-track="city" data-city="dubai">
+            <span class="city-teaser-name">Dubai</span>
+            <span class="city-teaser-figures"><span><b>300</b> دورات المياه</span><span><b>78</b> المياه</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../paris-map.html" data-track="city" data-city="paris">
+            <span class="city-teaser-name">Paris</span>
+            <span class="city-teaser-figures"><span><b>891</b> دورات المياه</span><span><b>1,147</b> المياه</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../tokyo-map.html" data-track="city" data-city="tokyo">
+            <span class="city-teaser-name">Tokyo</span>
+            <span class="city-teaser-figures"><span><b>2,552</b> دورات المياه</span><span><b>1,591</b> المياه</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../singapore-map.html" data-track="city" data-city="singapore">
+            <span class="city-teaser-name">Singapore</span>
+            <span class="city-teaser-figures"><span><b>796</b> دورات المياه</span><span><b>232</b> المياه</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../new-york-map.html" data-track="city" data-city="new-york">
+            <span class="city-teaser-name">New York City</span>
+            <span class="city-teaser-figures"><span><b>439</b> دورات المياه</span><span><b>1,033</b> المياه</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../seoul-map.html" data-track="city" data-city="seoul">
+            <span class="city-teaser-name">Seoul</span>
+            <span class="city-teaser-figures"><span><b>746</b> دورات المياه</span><span><b>244</b> المياه</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../rome-map.html" data-track="city" data-city="rome">
+            <span class="city-teaser-name">Rome</span>
+            <span class="city-teaser-figures"><span><b>259</b> دورات المياه</span><span><b>2,109</b> المياه</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../barcelona-map.html" data-track="city" data-city="barcelona">
+            <span class="city-teaser-name">Barcelona</span>
+            <span class="city-teaser-figures"><span><b>271</b> دورات المياه</span><span><b>1,856</b> المياه</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../osaka-map.html" data-track="city" data-city="osaka">
+            <span class="city-teaser-name">Osaka</span>
+            <span class="city-teaser-figures"><span><b>409</b> دورات المياه</span><span><b>77</b> المياه</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../milan-map.html" data-track="city" data-city="milan">
+            <span class="city-teaser-name">Milan</span>
+            <span class="city-teaser-figures"><span><b>316</b> دورات المياه</span><span><b>796</b> المياه</span></span>
+          </a></li>
+        </ul>
+        <p class="city-teaser-more">
+          <a class="city-teaser-btn" href="./cities.html" data-i18n="citiesAllLink" data-track="nav" data-nav-target="city_index">شاهد جميع المدن الـ50</a>
+          <a class="city-teaser-csv" href="./data/cities.csv" data-i18n="citiesCsvLink" data-track="download" data-download-type="cities_csv">اطلع على الأرقام الإحصائية لكل مدينة في ملف CSV</a>
+        </p>
+      </section>
+
+      <section class="section" aria-label="تجربة المنتج" data-i18n-aria="expAria" data-track-section="experience">
+        <p class="eyebrow" data-i18n="eyebrowInApp">في التطبيق</p>
+        <h2 data-i18n="expTitle">تجربة بسيطة، قرارات سريعة</h2>
+        <p class="section-lead" data-i18n="expText">يستخدم تطبيق Voyager Maps واجهة خرائط بسيطة وفئات سفر محددة، مما يتيح لك استعراض الخيارات القريبة بسرعة واختيار وجهتك التالية بثقة.</p>
+        <div class="step-grid">
+          <figure class="step">
+            <span class="preview-shell preview-shell--shot">
+              <picture>
+                <source type="image/webp" srcset="../pictures/filter-categories-800w.webp 800w, ../pictures/filter-categories.webp 1080w" sizes="(max-width: 700px) 62vw, 320px" />
+                <img
+                  src="../pictures/filter-categories-800w.jpg"
+                  srcset="../pictures/filter-categories-800w.jpg 800w, ../pictures/filter-categories.jpg 1080w"
+                  sizes="(max-width: 700px) 62vw, 320px"
+                  width="800"
+                  height="1733"
+                  loading="lazy"
+                  decoding="async"
+                  alt="لوحة التصفية التي تحتوي على فئات السفر في تطبيق Voyager Maps"
+                  data-i18n-alt="expImage3Alt"
+                  data-track-image="filter_categories"
+                />
+              </picture>
+            </span>
+            <figcaption>
+              <strong data-i18n="expStep1Title">1 · اختر فئاتك</strong>
+              <span data-i18n="expStep1Text">قم بتفعيل ما تحتاجه وستقوم الخريطة بإخفاء كل ما عدا ذلك. احفظ الإعدادات كمجموعة لاستخدامها في المرة القادمة.</span>
+            </figcaption>
+          </figure>
+          <figure class="step">
+            <span class="preview-shell preview-shell--shot">
+              <picture>
+                <source type="image/webp" srcset="../pictures/paris-clusters-800w.webp 800w, ../pictures/paris-clusters.webp 1080w" sizes="(max-width: 700px) 62vw, 320px" />
+                <img
+                  src="../pictures/paris-clusters-800w.jpg"
+                  srcset="../pictures/paris-clusters-800w.jpg 800w, ../pictures/paris-clusters.jpg 1080w"
+                  sizes="(max-width: 700px) 62vw, 320px"
+                  width="800"
+                  height="1731"
+                  loading="lazy"
+                  decoding="async"
+                  alt="خريطة باريس مع آلاف الأماكن المجمعة في مجموعات في تطبيق Voyager Maps"
+                  data-i18n-alt="expImage2Alt"
+                  data-track-image="map_clusters"
+                />
+              </picture>
+            </span>
+            <figcaption>
+              <strong data-i18n="expStep2Title">2 · استكشف المنطقة</strong>
+              <span data-i18n="expStep2Text">تظل آلاف الأماكن قابلة للقراءة — حيث يتم تجميعها في مجموعات حتى تقوم بتكبير الشارع الذي تتواجد فيه.</span>
+            </figcaption>
+          </figure>
+          <figure class="step">
+            <span class="preview-shell preview-shell--shot">
+              <picture>
+                <source type="image/webp" srcset="../pictures/POI_quick_view-800w.webp 800w, ../pictures/POI_quick_view.webp 1080w" sizes="(max-width: 700px) 62vw, 320px" />
+                <img
+                  src="../pictures/POI_quick_view-800w.jpg"
+                  srcset="../pictures/POI_quick_view-800w.jpg 800w, ../pictures/POI_quick_view.jpg 1080w"
+                  sizes="(max-width: 700px) 62vw, 320px"
+                  width="800"
+                  height="1733"
+                  loading="lazy"
+                  decoding="async"
+                  alt="عرض سريع لتفاصيل المواقع في Voyager Maps"
+                  data-i18n-alt="expImage1Alt"
+                  data-track-image="poi_quick_view"
+                />
+              </picture>
+            </span>
+            <figcaption>
+              <strong data-i18n="expStep3Title">3 · تحقق قبل أن تبدأ المشي</strong>
+              <span data-i18n="expStep3Text">ساعات العمل، الرسوم، إمكانية الوصول للمستخدمين على الكراسي المتحركة — ثم توجه إلى هناك أو أضف الموقع إلى خط سير رحلتك.</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" aria-label="مصمم خصيصًا لمواقف السفر الحقيقية" data-i18n-aria="useAria" data-track-section="use_cases">
+        <p class="eyebrow" data-i18n="eyebrowBuiltFor">صُمم من أجل</p>
+        <h2 data-i18n="useTitle">مصمم خصيصًا لمواقف السفر الحقيقية</h2>
+        <ul class="audience-grid">
+          <li>
+            <a href="./parking-map.html" data-track="cta" data-cta-type="internal_map" data-cta-position="audience_roadtrip">
+              <span class="audience-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 17h2m14 0h2M5 17a2 2 0 104 0 2 2 0 10-4 0m10 0a2 2 0 104 0 2 2 0 10-4 0M3 17v-5l2-5h9l3 5h4v5"/></svg>
+              </span>
+              <strong data-i18n="use1Title">رحلة برية</strong>
+              <span class="audience-text" data-i18n="use1Text">اعثر على مياه الشرب ودورات المياه بشكل أكثر موثوقية، دون الحاجة إلى الخروج عن مسارك.</span>
+              <span class="audience-link" data-i18n="exploreParkingLink">خريطة مواقف السيارات</span>
+            </a>
+          </li>
+          <li>
+            <a href="./campervan-service-map.html" data-track="cta" data-cta-type="internal_map" data-cta-position="audience_vanlife">
+              <span class="audience-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 16V7a2 2 0 012-2h9a2 2 0 012 2v1h2.5L21 12v4M6 16a2 2 0 104 0 2 2 0 10-4 0m9 0a2 2 0 104 0 2 2 0 10-4 0M3 16h3m4 0h5"/></svg>
+              </span>
+              <strong data-i18n="use2Title">حياة في الشاحنة</strong>
+              <span class="audience-text" data-i18n="use2Text">تلبية احتياجاتك اليومية بكل بساطة، دون نتائج غير ذات صلة أو عمليات بحث مطولة.</span>
+              <span class="audience-link" data-i18n="exploreCampervanLink">خريطة خدمات عربات التخييم</span>
+            </a>
+          </li>
+          <li>
+            <a href="./backpacker-map.html" data-track="cta" data-cta-type="internal_map" data-cta-position="audience_backpacking">
+              <span class="audience-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M9 6V4.5A1.5 1.5 0 0110.5 3h3A1.5 1.5 0 0115 4.5V6m-9 0h12a2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2zm3 5h6"/></svg>
+              </span>
+              <strong data-i18n="use3Title">السفر بحقيبة الظهر</strong>
+              <span class="audience-text" data-i18n="use3Text">حُل احتياجاتك العملية بسرعة، أينما كنت — دون الحاجة إلى التخمين.</span>
+              <span class="audience-link" data-i18n="exploreBackpackerLink">خريطة الرحالة</span>
+            </a>
+          </li>
+          <li>
+            <a href="./drinking-water-map.html" data-track="cta" data-cta-type="internal_map" data-cta-position="audience_city">
+              <span class="audience-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M12 21s7-5.5 7-11a7 7 0 10-14 0c0 5.5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              </span>
+              <strong data-i18n="use4Title">استكشاف المدينة</strong>
+              <span class="audience-text" data-i18n="use4Text">خطط رحلتك بناءً على توفر مياه الشرب المجانية بدلاً من إهدار المال على الزجاجات.</span>
+              <span class="audience-link" data-i18n="exploreWaterLink">خريطة مياه الشرب</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" aria-label="التخطيط لرحلة عبر التطبيق" data-i18n-aria="tripAria" data-track-section="trip_planning">
+        <div class="card">
+          <h2 data-i18n="tripTitle">أكثر من مجرد العثور على المحطة التالية</h2>
+          <p class="section-lead" data-i18n="tripLead">يمكن أن تصبح الأماكن التي تعثر عليها خطة تحتفظ بها وتشاركها وتحسب تكلفتها — وهو الجزء الذي يتركه لك تطبيق الخرائط العام لتتولاه بنفسك.</p>
+          <div class="feature-grid">
+            <div class="mini">
+              <strong data-i18n="trip1Title">ضع خط سير رحلتك</strong>
+              <p data-i18n="trip1Text">احفظ الأماكن التي تجدها كنقاط توقف، بالترتيب الذي ستزورها به، مع تحديد الأوقات وإضافة الملاحظات.</p>
+            </div>
+            <div class="mini">
+              <strong data-i18n="trip2Title">شاركه مع من تسافر معهم</strong>
+              <p data-i18n="trip2Text">أرسل رابطًا أو أضف رفاق السفر حتى يتبع الجميع الخطة نفسها.</p>
+            </div>
+            <div class="mini">
+              <strong data-i18n="trip3Title">اكتشف ما يقدمه هذا التطبيق</strong>
+              <p data-i18n="trip3Text">حدد التكلفة التقديرية لأي محطة وشاهد الإجمالي لكل عملة — وهو أمر مفيد عندما تتخطى الرحلة الحدود.</p>
+            </div>
+            <div class="mini">
+              <strong data-i18n="trip4Title">احتفظ بالمواقع التي تستحق العودة إليها</strong>
+              <p data-i18n="trip4Text">ضع علامة «مفضل» على أي مكان ليصبح في متناول يدك بنقرة واحدة، في هذه الرحلة وفي الرحلة التالية.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-label="الدعوة النهائية لاتخاذ إجراء" data-i18n-aria="finalAria" data-track-section="final_cta">
+        <div class="final-cta">
+          <h2 data-i18n="finalTitle">كل الأماكن العملية التي تحتاجها — أينما ذهبت.</h2>
+          <p data-i18n="finalText">ثبّت تطبيق Voyager Maps واعثر على ما تحتاجه بسرعة أكبر، أينما كانت وجهتك.</p>
+          <div class="cta-row cta-row-center">
+            <a
+              class="store-badge"
+              href="https://apps.apple.com/app/6758412494"
+              aria-label="قم بتنزيل تطبيق Voyager Maps من متجر التطبيقات"
+              data-i18n-aria="badgeAppleAria"
+              data-track="cta"
+              data-cta-type="app_store_ios"
+              data-cta-position="final"
+            >
+              <span class="store-badge-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.3.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+              </span>
+              <span class="store-badge-copy">
+                <span class="store-badge-line1" data-i18n="badgeAppleLine">قم بالتنزيل من</span>
+                <span class="store-badge-line2">App Store</span>
+              </span>
+            </a>
+            <a
+              class="store-badge"
+              href="https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
+              aria-label="احصل على تطبيق Voyager Maps من Google Play"
+              data-i18n-aria="badgeGoogleAria"
+              data-track="cta"
+              data-cta-type="app_store_android"
+              data-cta-position="final"
+            >
+              <span class="store-badge-icon" aria-hidden="true">
+                <svg width="19" height="21" viewBox="0 0 512 512" fill="currentColor" focusable="false"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l2.7 1.5 247.2-247v-5.8L47 0zm425.2 225L377.5 167l-65.1 65 65.1 65 95.6-57c27.2-15.6 27.2-41 0-56.6zM104.6 499l280.8-161.2-60.1-60.1-220.7 221.3z"/></svg>
+              </span>
+              <span class="store-badge-copy">
+                <span class="store-badge-line1" data-i18n="badgeGoogleLine">احصل عليه من</span>
+                <span class="store-badge-line2">Google Play</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-label="الأسئلة الشائعة" data-i18n-aria="faqAria" data-track-section="faq">
+        <h2 data-i18n="faqTitle">الأسئلة الشائعة</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <strong data-i18n="faq1Q">هل تطبيق Voyager Maps مجاني؟</strong>
+            <p data-i18n="faq1A">نعم، تطبيق Voyager Maps مجاني تمامًا على كل من نظامي iOS وAndroid. ولا يتطلب أي اشتراكات أو مشتريات داخل التطبيق.</p>
+          </div>
+          <div class="faq-item">
+            <strong data-i18n="faq2Q">كم عدد المواقع التي يضمها تطبيق Voyager Maps؟</strong>
+            <p data-i18n="faq2A">يضم تطبيق Voyager Maps أكثر من 5.5 مليون موقع عملي في جميع أنحاء العالم، بما في ذلك المراحيض العامة، وصنابير مياه الشرب، ودشات الاستحمام المجانية، ونقاط الواي فاي، ومغاسل الملابس، ومواقف السيارات، والمزيد.</p>
+          </div>
+          <div class="faq-item">
+            <strong data-i18n="faq3Q">ما الغرض من استخدام تطبيق «Voyager Maps»؟</strong>
+            <p data-i18n="faq3A">«Voyager Maps» هو تطبيق مفيد للمسافرين يتيح العثور على الأماكن العملية أثناء التنقل — مثل دورات المياه، ومصادر مياه الشرب المجانية، ودشات الاستحمام، ومغاسل الملابس، ونقاط الواي فاي. وقد صُمم هذا التطبيق للمسافرين، ومحبي الرحلات البرية، ورحالة الظهر، وسكان المركبات الصغيرة، وراكبي الدراجات.</p>
+          </div>
+          <div class="faq-item">
+            <strong data-i18n="faq4Q">ما الذي يميز تطبيق Voyager Maps عن Google Maps؟</strong>
+            <p data-i18n="faq4A">يُعد «Google Maps» رائعًا للتنقل والبحث عن المطاعم. أما «Voyager Maps» فيركز حصريًّا على احتياجات السفر العملية: المراحيض العامة، ومياه الشرب المجانية، ودش الاستحمام، ومغاسل الملابس، ومواقف السيارات. ويُظهر التطبيق عددًا أكبر بكثير من المواقع ضمن هذه الفئات — ففي باريس، على سبيل المثال، ندرج 289 نقطة لتعبئة مياه الشرب مقابل حوالي 20 نقطة موجودة على «Google Maps».</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer" id="maps">
+        <div class="footer-brand">
+          <span class="brand"
+            ><img class="brand-mark" src="../pictures/icon/brand-mark.png" width="24" height="24" alt="" aria-hidden="true" /><span
+              class="brand-name"
+              ><span class="brand-name-lead">Voyager</span> Maps</span
+            ></span
+          >
+          <p data-i18n="footerTagline">أماكن مفيدة للمسافرين بـ 13 لغة. بيانات المواقع مقدمة من المساهمين في OpenStreetMap.</p>
+        </div>
+        <div>
+          <h2 data-i18n="exploreTitle">استكشف الخرائط</h2>
+          <ul class="footer-links">
+            <li><a href="./public-toilet-map.html" data-i18n="exploreToiletLink">خريطة المراحيض العامة</a></li>
+            <li><a href="./drinking-water-map.html" data-i18n="exploreWaterLink">خريطة مياه الشرب</a></li>
+            <li><a href="./free-shower-map.html" data-i18n="exploreShowerLink">خريطة الدشات المجانية</a></li>
+            <li><a href="./parking-map.html" data-i18n="exploreParkingLink">خريطة مواقف السيارات</a></li>
+            <li><a href="./campervan-service-map.html" data-i18n="exploreCampervanLink">خريطة خدمات عربات التخييم</a></li>
+            <li><a href="./backpacker-map.html" data-i18n="exploreBackpackerLink">خريطة الرحالة</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 data-i18n="legalTitle">الشؤون القانونية والوثائق</h2>
+          <ul class="footer-links">
+            <li><a href="../privacy-policy.html" data-i18n="privacyLink" data-track="legal" data-legal-type="privacy">سياسة الخصوصية</a></li>
+            <li><a href="../terms.html" data-i18n="termsLink" data-track="legal" data-legal-type="terms">الشروط</a></li>
+            <li><a href="../delete-data.html" data-i18n="deleteLink" data-track="legal" data-legal-type="delete_data">حذف البيانات</a></li>
+            <li><button type="button" class="footer-consent" id="consent-manage-footer" data-i18n="consentManage">إعدادات الخصوصية</button></li>
+          </ul>
+        </div>
+        <p class="footer-copy" data-i18n="footer">© موقع Voyager Maps الإلكتروني</p>
+      </footer>
+    </main>
+
+    <script src="../assets/languages.js"></script>
+    <script src="../locales/pages/ar.index.js"></script>
+    <script src="../assets/index.js"></script>
+  </body>
+</html>

@@ -13,6 +13,7 @@ import os
 import re
 import subprocess
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -73,8 +74,12 @@ def translate(texts, target, key, context=CONTEXT):
             API,
             data=urllib.parse.urlencode(params).encode(),
             headers={"Authorization": f"DeepL-Auth-Key {key}"})
-        with urllib.request.urlopen(req, timeout=120) as resp:
-            body = json.load(resp)
+        try:
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                body = json.load(resp)
+        except urllib.error.HTTPError as err:
+            # DeepL puts the reason in the body; without it a 400 says nothing.
+            sys.exit(f"DeepL {err.code} for {target}: {err.read().decode()[:400]}")
         out += [t["text"] for t in body["translations"]]
         print(f"  {min(start + BATCH, len(texts))}/{len(texts)}", flush=True)
     return out

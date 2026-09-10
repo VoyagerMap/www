@@ -1,0 +1,21 @@
+{
+  "pageTitle": "Alle byer på Voyager Maps",
+  "metaDescription": "De byer, som Voyager Maps dækker indgående, med antallet af offentlige toiletter, drikkevandshaner og andre praktiske steder, der er kortlagt i hver enkelt by.",
+  "eyebrow": "Byindeks",
+  "heroTitle": "Alle byer på kortet",
+  "heroLead": "Hver af disse har sin egen side, hvor der opgives, hvad kortet indeholder. Sorteret efter, hvor mange rejsende der tager derhen, ikke efter hvor mange data vi har — så listen fremstår som steder, der er værd at besøge.",
+  "tableAria": "Byer med en side, og hvad der er kortlagt i hver enkelt",
+  "colCity": "By",
+  "colTotal": "Steder",
+  "colToilets": "Toiletter",
+  "colWater": "Vand",
+  "restAria": "Byer, der er opmålt, men ikke offentliggjort",
+  "restTitle": "Målt, men ikke offentliggjort",
+  "restText": "Andre byer blev talt med og udeladt, fordi der er kortlagt for få af dem til, at en side kan give nogen nyttig information. Prag tæller samlet set knap tusind steder fordelt på de to dusin stavemåder, OpenStreetMap bruger for byen; Athen har slet ingen offentlige toiletter registreret. De forbliver i dataene med en offentliggørelsesmarkør sat til »nej« — tallene er korrekte, men de er simpelthen for sparsomme til at bygge videre på, og dækningen vokser i takt med, at folk tilføjer til kortet.",
+  "csvLink": "Download tallene for hver kortlagt by som en CSV-fil",
+  "ctaAria": "Hent appen",
+  "ctaTitle": "Tag kortet med dig",
+  "ctaText": "Alle byer her og alle andre steder i én app. Gratis til iOS og Android – ingen abonnementer og ingen konto kræves.",
+  "dataNote": "Dataene stammer fra OpenStreetMap-bidragydere og er licenseret under Open Database License. Tallene opdateres ved hver indlæsning af data.",
+  "_note": "DeepL DA of cities-page.en.json."
+}

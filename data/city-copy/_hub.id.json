@@ -1,0 +1,21 @@
+{
+  "pageTitle": "Setiap kota di Voyager Maps",
+  "metaDescription": "Kota-kota yang dicakup secara mendalam oleh Voyager Maps, beserta jumlah toilet umum, titik air minum, dan tempat-tempat praktis lainnya yang telah dipetakan di masing-masing kota.",
+  "eyebrow": "Indeks kota",
+  "heroTitle": "Setiap kota di peta",
+  "heroLead": "Masing-masing tempat ini memiliki halaman tersendiri yang mencantumkan apa saja yang terdapat di dalamnya. Urutannya berdasarkan jumlah wisatawan yang berkunjung ke sana, bukan berdasarkan seberapa banyak data yang kami miliki — sehingga daftar ini menampilkan tempat-tempat yang layak dikunjungi.",
+  "tableAria": "Kota-kota yang memiliki halaman, serta apa saja yang telah dipetakan di masing-masing kota",
+  "colCity": "Kota",
+  "colTotal": "Tempat",
+  "colToilets": "Toilet",
+  "colWater": "Air",
+  "restAria": "Kota-kota yang telah diukur namun belum dipublikasikan",
+  "restTitle": "Telah diukur, tetapi belum dipublikasikan",
+  "restText": "Kota-kota lain telah dihitung namun tidak dimasukkan, karena jumlah yang terpetakan terlalu sedikit sehingga halaman tersebut tidak dapat memberikan informasi yang berguna. Prague mencakup kurang dari seribu lokasi di seluruh dua lusin ejaan yang digunakan OpenStreetMap untuk kota tersebut; Athens tidak mencatat adanya toilet umum sama sekali. Lokasi-lokasi tersebut tetap ada dalam data dengan bendera publikasi yang disetel ke \"tidak\" — jumlahnya benar, hanya saja terlalu sedikit untuk dijadikan dasar, dan cakupan akan bertambah seiring orang-orang menambahkan data ke peta.",
+  "csvLink": "Unduh data jumlah untuk setiap kota yang diukur dalam format CSV",
+  "ctaAria": "Unduh aplikasinya",
+  "ctaTitle": "Bawa peta ini bersama Anda",
+  "ctaText": "Semua kota di sini, dan di mana pun, dalam satu aplikasi. Gratis di iOS dan Android, tanpa langganan dan tanpa perlu membuat akun.",
+  "dataNote": "Data lokasi berasal dari kontributor OpenStreetMap, yang dilisensikan di bawah Lisensi Basis Data Terbuka. Jumlahnya diperbarui setiap kali data dimuat.",
+  "_note": "DeepL ID of cities-page.en.json."
+}

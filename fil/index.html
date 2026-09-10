@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="fil">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="../pictures/icon/favicon-96x96.png?v=20260527" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../pictures/icon/favicon.svg?v=20260527" />
+    <link rel="shortcut icon" href="../pictures/icon/favicon.ico?v=20260527" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../pictures/icon/apple-touch-icon.png?v=20260527" />
+    <meta name="apple-mobile-web-app-title" content="Voyager Maps" />
+    <link rel="manifest" href="../pictures/icon/site.webmanifest?v=20260527" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hanapin ang mga banyo, inuming tubig, paliligo, Wi-Fi, at paradahan saan ka man maglakbay. Libre sa iOS at Android."
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+    <link rel="canonical" href="https://getvoyagermaps.com/fil/" />
+    <link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/" />
+    <link rel="alternate" hreflang="de" href="https://getvoyagermaps.com/de/" />
+    <link rel="alternate" hreflang="fr" href="https://getvoyagermaps.com/fr/" />
+    <link rel="alternate" hreflang="es" href="https://getvoyagermaps.com/es/" />
+    <link rel="alternate" hreflang="it" href="https://getvoyagermaps.com/it/" />
+    <link rel="alternate" hreflang="pt" href="https://getvoyagermaps.com/pt/" />
+    <link rel="alternate" hreflang="nl" href="https://getvoyagermaps.com/nl/" />
+    <link rel="alternate" hreflang="pl" href="https://getvoyagermaps.com/pl/" />
+    <link rel="alternate" hreflang="hu" href="https://getvoyagermaps.com/hu/" />
+    <link rel="alternate" hreflang="ja" href="https://getvoyagermaps.com/ja/" />
+    <link rel="alternate" hreflang="zh" href="https://getvoyagermaps.com/zh/" />
+    <link rel="alternate" hreflang="ko" href="https://getvoyagermaps.com/ko/" />
+    <link rel="alternate" hreflang="ru" href="https://getvoyagermaps.com/ru/" />
+    <link rel="alternate" hreflang="ar" href="https://getvoyagermaps.com/ar/" />
+    <link rel="alternate" hreflang="id" href="https://getvoyagermaps.com/id/" />
+    <link rel="alternate" hreflang="vi" href="https://getvoyagermaps.com/vi/" />
+    <link rel="alternate" hreflang="tr" href="https://getvoyagermaps.com/tr/" />
+    <link rel="alternate" hreflang="fa" href="https://getvoyagermaps.com/fa/" />
+    <link rel="alternate" hreflang="fil" href="https://getvoyagermaps.com/fil/" />
+    <link rel="alternate" hreflang="da" href="https://getvoyagermaps.com/da/" />
+    <link rel="alternate" hreflang="sv" href="https://getvoyagermaps.com/sv/" />
+    <link rel="alternate" hreflang="nb" href="https://getvoyagermaps.com/nb/" />
+    <link rel="alternate" hreflang="is" href="https://getvoyagermaps.com/is/" />
+    <link rel="alternate" hreflang="hi" href="https://getvoyagermaps.com/hi/" />
+    <link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/" />
+    <meta property="og:title" content="Voyager Maps – Mga Palikuran, Tubig at Wi-Fi sa Biyahe" />
+    <meta
+      property="og:description"
+      content="The travel map built for real needs. Quickly find restrooms, drinking water, Wi-Fi, and more — without wading through irrelevant results."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://getvoyagermaps.com/fil/" />
+    <meta property="og:site_name" content="Voyager Maps" />
+    <meta property="og:locale" content="fil_PH" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="de_DE" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:locale:alternate" content="es_ES" />
+    <meta property="og:locale:alternate" content="it_IT" />
+    <meta property="og:locale:alternate" content="pt_BR" />
+    <meta property="og:locale:alternate" content="nl_NL" />
+    <meta property="og:locale:alternate" content="pl_PL" />
+    <meta property="og:locale:alternate" content="hu_HU" />
+    <meta property="og:locale:alternate" content="ja_JP" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    <meta property="og:locale:alternate" content="ko_KR" />
+    <meta property="og:locale:alternate" content="ru_RU" />
+    <meta property="og:locale:alternate" content="ar_SA" />
+    <meta property="og:locale:alternate" content="id_ID" />
+    <meta property="og:locale:alternate" content="vi_VN" />
+    <meta property="og:locale:alternate" content="tr_TR" />
+    <meta property="og:locale:alternate" content="fa_IR" />
+    <meta property="og:locale:alternate" content="da_DK" />
+    <meta property="og:locale:alternate" content="sv_SE" />
+    <meta property="og:locale:alternate" content="nb_NO" />
+    <meta property="og:locale:alternate" content="is_IS" />
+    <meta property="og:locale:alternate" content="hi_IN" />
+    <meta property="og:image" content="https://getvoyagermaps.com/assets/app-preview.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Voyager Maps – Mga Palikuran, Tubig at Wi-Fi sa Biyahe" />
+    <meta name="twitter:description" content="Hanapin ang mga banyo, inuming tubig, paliligo, Wi-Fi, at paradahan saan ka man maglakbay. Libre sa iOS at Android." />
+    <meta name="twitter:image" content="https://getvoyagermaps.com/assets/app-preview.png" />
+    <meta name="ga4-measurement-id" content="G-FS5S0LLLK2" />
+    <title>Voyager Maps – Mga Palikuran, Tubig at Wi-Fi sa Biyahe</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Voyager Maps",
+        "url": "https://getvoyagermaps.com/fil/",
+        "description": "Find restrooms, drinking water, Wi-Fi, and laundromats wherever you travel — free on iOS and Android. The practical travel map built for real needs, not just directions.",
+        "inLanguage": "fil"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Voyager Maps",
+        "description": "Find toilets, drinking water, showers, parking, Wi-Fi and more — 5.5M locations worldwide. Free on iOS and Android.",
+        "url": "https://getvoyagermaps.com/fil/",
+        "applicationCategory": "TravelApplication",
+        "operatingSystem": "iOS, Android",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "downloadUrl": [
+          "https://apps.apple.com/app/6758412494",
+          "https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
+        ],
+        "inLanguage": "fil"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Voyager Maps free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, Voyager Maps is completely free on both iOS and Android. There are no subscriptions or in-app purchases."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many locations does Voyager Maps have?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Voyager Maps has over 5.5 million practical places worldwide, including public toilets, drinking water taps, free showers, Wi-Fi spots, laundromats, parking, and more."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Voyager Maps used for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Voyager Maps is a travel utility app for finding practical places while on the move — restrooms, free drinking water, showers, laundromats, and Wi-Fi. It is designed for travelers, road trippers, backpackers, van lifers, and cyclists."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is Voyager Maps different from Google Maps?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Google Maps is great for navigation and restaurants. Voyager Maps focuses exclusively on practical travel needs: public toilets, free drinking water, showers, laundromats, and parking. It shows far more locations in these categories — in Paris, for example, we list 289 drinking water refill points against about 20 found on Google Maps."
+            }
+          }
+        ],
+        "inLanguage": "fil"
+      }
+    </script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("consent", "default", {
+        analytics_storage: "denied",
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        wait_for_update: 500
+      });
+    </script>
+
+    <link rel="stylesheet" href="../assets/index.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="site-header">
+        <a class="brand" href="./index.html" aria-label="Voyager Maps"
+          ><img class="brand-mark" src="../pictures/icon/brand-mark.png" width="24" height="24" alt="" aria-hidden="true" /><span
+            class="brand-name"
+            ><span class="brand-name-lead">Voyager</span> Maps</span
+          ></a
+        >
+        <nav class="site-nav" aria-label="Mga seksyon ng pahina" data-i18n-aria="navAria">
+          <a href="#compare" data-i18n="navWhy">Bakit Voyager</a>
+          <a href="#coverage" data-i18n="navFind">Ang mga matatagpuan</a>
+          <a href="#maps" data-i18n="navMaps">Mga mapa</a>
+        </nav>
+        <nav class="lang-switch" aria-label="Tagapagpalit ng wika" data-i18n-aria="langSwitcherAria"></nav>
+      </header>
+
+      <section class="hero" aria-label="Bahagi ng bayani" data-i18n-aria="heroAria" data-track-section="hero">
+        <div class="hero-content">
+          <p class="hero-pill"><span class="hero-pill-dot" aria-hidden="true"></span><span data-i18n="heroFree">Libre · iOS at Android</span></p>
+          <h1 data-i18n="heroTitle">Hanapin ang mga banyo, tubig, shower at Wi-Fi – kahit saan ka maglakbay.</h1>
+          <p class="lead" data-i18n="heroLead">Tinutulungan ka ng Voyager Maps na mahanap ang mga lugar na talagang kailangan mo habang naglalakbay — mga banyo, inuming tubig, Wi-Fi, mga laundromats — lalo na kapag nasa isang lugar kang hindi pamilyar.</p>
+          <div class="cta-row">
+            <a
+              class="store-badge"
+              href="https://apps.apple.com/app/6758412494"
+              aria-label="I-download ang Voyager Maps mula sa App Store"
+              data-i18n-aria="badgeAppleAria"
+              data-track="cta"
+              data-cta-type="app_store_ios"
+              data-cta-position="hero"
+            >
+              <span class="store-badge-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.3.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+              </span>
+              <span class="store-badge-copy">
+                <span class="store-badge-line1" data-i18n="badgeAppleLine">Mag-download sa</span>
+                <span class="store-badge-line2">App Store</span>
+              </span>
+            </a>
+            <a
+              class="store-badge"
+              href="https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
+              aria-label="Kunin ang Voyager Maps sa Google Play"
+              data-i18n-aria="badgeGoogleAria"
+              data-track="cta"
+              data-cta-type="app_store_android"
+              data-cta-position="hero"
+            >
+              <span class="store-badge-icon" aria-hidden="true">
+                <svg width="19" height="21" viewBox="0 0 512 512" fill="currentColor" focusable="false"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l2.7 1.5 247.2-247v-5.8L47 0zm425.2 225L377.5 167l-65.1 65 65.1 65 95.6-57c27.2-15.6 27.2-41 0-56.6zM104.6 499l280.8-161.2-60.1-60.1-220.7 221.3z"/></svg>
+              </span>
+              <span class="store-badge-copy">
+                <span class="store-badge-line1" data-i18n="badgeGoogleLine">Kunin ito</span>
+                <span class="store-badge-line2">Google Play</span>
+              </span>
+            </a>
+          </div>
+          <p class="hero-proof">
+            <svg class="hero-proof-stars" width="74" height="12" viewBox="0 0 74 12" role="img" aria-label="Nakakuha ng 4.9 sa 5 sa App Store at Google Play" data-i18n-aria="proofRatingAria" focusable="false">
+              <defs>
+                <linearGradient id="proofStars" x1="1" y1="0" x2="73" y2="0" gradientUnits="userSpaceOnUse">
+                  <stop offset="0.98" stop-color="#f0b429" />
+                  <stop offset="0.98" stop-color="#33425e" />
+                </linearGradient>
+              </defs>
+              <g fill="url(#proofStars)">
+                <path d="M7 .35 8.44 4.618 12.945 4.669 9.33 7.357 10.674 11.657 7 9.05 3.326 11.657 4.67 7.357 1.055 4.669 5.56 4.618Z" />
+                <path transform="translate(15 0)" d="M7 .35 8.44 4.618 12.945 4.669 9.33 7.357 10.674 11.657 7 9.05 3.326 11.657 4.67 7.357 1.055 4.669 5.56 4.618Z" />
+                <path transform="translate(30 0)" d="M7 .35 8.44 4.618 12.945 4.669 9.33 7.357 10.674 11.657 7 9.05 3.326 11.657 4.67 7.357 1.055 4.669 5.56 4.618Z" />
+                <path transform="translate(45 0)" d="M7 .35 8.44 4.618 12.945 4.669 9.33 7.357 10.674 11.657 7 9.05 3.326 11.657 4.67 7.357 1.055 4.669 5.56 4.618Z" />
+                <path transform="translate(60 0)" d="M7 .35 8.44 4.618 12.945 4.669 9.33 7.357 10.674 11.657 7 9.05 3.326 11.657 4.67 7.357 1.055 4.669 5.56 4.618Z" />
+              </g>
+            </svg>
+            <span class="hero-proof-value" data-i18n="proofRatingValue">4.9</span>
+            <span class="hero-proof-sep" aria-hidden="true">·</span>
+            <span class="hero-proof-count" data-i18n="proofDownloadsValue">1K+</span>
+            <span data-i18n="proofDownloadsLabel">mga pag-download</span>
+            <span class="hero-proof-sep" aria-hidden="true">·</span>
+            <span class="hero-proof-stores" data-i18n="proofStores">App Store at Google Play</span>
+          </p>
+          <dl class="stat-strip">
+            <div class="stat">
+              <dd class="stat-value" data-i18n="statPlacesValue">5.5M</dd>
+              <dt class="stat-label" data-i18n="statPlacesLabel">mga praktikal na lugar</dt>
+            </div>
+            <div class="stat">
+              <dd class="stat-value" data-i18n="statCountriesValue">237</dd>
+              <dt class="stat-label" data-i18n="statCountriesLabel">mga bansa</dt>
+            </div>
+            <div class="stat">
+              <dd class="stat-value" data-i18n="statWifiValue">389k</dd>
+              <dt class="stat-label" data-i18n="statWifiLabel">na may libreng Wi-Fi</dt>
+            </div>
+          </dl>
+        </div>
+        <div class="hero-visual">
+          <figure class="preview-shell">
+            <picture>
+              <source type="image/webp" srcset="../pictures/paris-home-map-800w.webp 800w, ../pictures/paris-home-map.webp 1080w" sizes="(max-width: 900px) 78vw, 336px" />
+              <img
+                src="../pictures/paris-home-map-800w.jpg"
+                srcset="../pictures/paris-home-map-800w.jpg 800w, ../pictures/paris-home-map.jpg 1080w"
+                sizes="(max-width: 900px) 78vw, 336px"
+                width="800"
+                height="1731"
+                fetchpriority="high"
+                alt="Preview na imahe ng Voyager Maps app"
+                data-i18n-alt="previewAria"
+                data-track-image="product_preview"
+              />
+            </picture>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="compare" aria-label="Voyager Maps kumpara sa Google Maps" data-i18n-aria="vsAria" data-track-section="vs_comparison">
+        <p class="eyebrow" data-i18n="eyebrowDifference">Ang pagkakaiba</p>
+        <h2 data-i18n="vsTitle">Bakit hindi na lang gamitin ang Google Maps?</h2>
+        <p class="section-lead" data-i18n="vsIntro">Magaling ang Google Maps para sa pag-navigate. Ngunit para sa mga libreng pampublikong pasilidad — kubeta, gripo ng inuming tubig, palikuran — magkahalo ang mga resulta nito. Ginawa ang Voyager Maps para sa mga sandaling iyon.</p>
+        <div class="vs-table" role="table" aria-label="Feature comparison">
+          <div class="vs-head-row" role="row">
+            <div class="vs-cell-need" role="columnheader" data-i18n="vsCityLabel">Sa Paris</div>
+            <div class="vs-head-label" role="columnheader" data-i18n="vsGmLabel">Google Maps</div>
+            <div class="vs-head-label vs-vm-head" role="columnheader" data-i18n="vsVmLabel">Voyager Maps</div>
+          </div>
+          <div class="vs-row" role="row">
+            <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed1">Palikuran</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">Google Maps</span><span data-i18n="vsGm1">Alam nito ang ilang pampublikong pasilidad</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm1">✓ 331 na palikuran sa Paris — pampubliko, may bayad, at para sa mga kostumer</span></div>
+          </div>
+          <div class="vs-row" role="row">
+            <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed2">Pagpuno muli ng inuming tubig</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">Google Maps</span><span data-i18n="vsGm2">Ipinapakita ang ilan, mga 20 lugar sa buong lungsod</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm2">✓ Libreng gripo ng tubig at refill — 289 na lugar sa Paris lamang</span></div>
+          </div>
+          <div class="vs-row" role="row">
+            <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed3">Paliligo</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">Google Maps</span><span data-i18n="vsGm3">Walang resulta — mga hotel at mga hindi kaugnay na lugar lamang</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm3">✓ Ilang libreng at murang bayad na lugar para sa paliligo</span></div>
+          </div>
+          <div class="vs-row" role="row">
+            <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed4">Libreng Wi-Fi</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">Google Maps</span><span data-i18n="vsGm4">Karamihan ay mga café</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm4">✓ Libreng Wi-Fi at mga Wi-Fi spot na pinapayagan ng mga customer</span></div>
+          </div>
+          <div class="vs-row vs-row-last" role="row">
+            <div class="vs-cell-need" role="rowheader" data-i18n="vsNeed5">Ang pokus nito</div>
+            <div class="vs-miss" role="cell"><span class="vs-col-tag" data-i18n="vsGmLabel">Google Maps</span><span data-i18n="vsGm5">Navigasyon, mga restawran, mga kapehan</span></div>
+            <div class="vs-hit" role="cell"><span class="vs-col-tag" data-i18n="vsVmLabel">Voyager Maps</span><span data-i18n="vsVm5">✓ Mga praktikal na pangangailangan sa paglalakbay lamang</span></div>
+          </div>
+        </div>
+        <p class="vs-note" data-i18n="vsNote">Halimbawa batay sa Paris, Pransya (Hulyo 2026): mga bilang ng Voyager Maps ayon sa aming database, mga bilang mula sa Google Maps ayon sa manwal na paghahanap para sa parehong kategorya.</p>
+      </section>
+
+      <section class="section" id="coverage" aria-label="Ang mga matatagpuan" data-i18n-aria="findAria" data-track-section="categories">
+        <p class="eyebrow" data-i18n="eyebrowCoverage">Saklaw</p>
+        <h2 data-i18n="findTitle">Ang mga matatagpuan mo sa buong mundo</h2>
+        <ul class="count-grid">
+          <li><span class="count-value" data-i18n="cat_toiletsCount">520k</span><span class="count-label" data-i18n="cat_toilets">Mga Palikuran</span></li>
+          <li><span class="count-value" data-i18n="cat_waterCount">459k</span><span class="count-label" data-i18n="cat_water">Inuming tubig</span></li>
+          <li><span class="count-value" data-i18n="cat_campingCount">228k</span><span class="count-label" data-i18n="cat_camping">Kamping at mga paliligo</span></li>
+          <li><span class="count-value" data-i18n="cat_parkingCount">1.2M</span><span class="count-label" data-i18n="cat_parking">Mga paradahan</span></li>
+          <li><span class="count-value" data-i18n="cat_supermarketCount">493k</span><span class="count-label" data-i18n="cat_supermarket">Mga supermarket</span></li>
+          <li><span class="count-value" data-i18n="cat_pharmacyCount">437k</span><span class="count-label" data-i18n="cat_pharmacy">Mga parmasya</span></li>
+          <li><span class="count-value" data-i18n="cat_emergencyCount">544k</span><span class="count-label" data-i18n="cat_emergency">Kalusugan at emerhensiya</span></li>
+          <li><span class="count-value" data-i18n="cat_moneyCount">261k</span><span class="count-label" data-i18n="cat_money">Pera at palitan</span></li>
+          <li><span class="count-value" data-i18n="cat_attractionCount">248k</span><span class="count-label" data-i18n="cat_attraction">Mga Atraksyon</span></li>
+          <li><span class="count-value" data-i18n="cat_lockerCount">1.8k</span><span class="count-label" data-i18n="cat_locker">Mga locker para sa bagahe</span></li>
+          <li><span class="count-value" data-i18n="cat_moreCount">1.1M</span><span class="count-label" data-i18n="cat_more">Mas maraming kapaki-pakinabang na hihintuan</span></li>
+          <li class="count-wifi"><span class="count-value">389k</span><span class="count-label" data-i18n="catWifiTile">Libreng Wi-Fi o Wi-Fi para sa mga customer — salain ito kahit saan</span></li>
+        </ul>
+        <p class="section-note" data-i18n="findProof">Mga praktikal na kategorya ng paglalakbay na talagang hinahanap ng mga tao habang sila'y nasa paggalaw.</p>
+      </section>
+
+      <section class="section" id="cities" aria-label="Saklaw sa bawat lungsod" data-i18n-aria="citiesAria" data-track-section="cities">
+        <p class="eyebrow" data-i18n="eyebrowCities">Saklaw ng mga lungsod</p>
+        <h2 data-i18n="citiesTitle">Tingnan kung ano ang naka-mapa sa susunod mong lungsod</h2>
+        <p class="section-lead" data-i18n="citiesLead">Limampung lungsod ang may sariling pahina, na binibilang ang bawat uri ng praktikal na lugar na nasa mapa sa loob nila — para makita mo ang saklaw bago ka umalis, hindi pagdating mo na.</p>
+        <!-- Filled per language by tools/build-pages.py: each city links to its
+             page in the reader's language where that exists and to the English
+             one otherwise, so a hardcoded ./rome-map.html cannot 404 under /hu/. -->
+        <ul class="city-teaser" data-city-teaser>
+          <li><a class="city-teaser-card" href="../istanbul-map.html" data-track="city" data-city="istanbul">
+            <span class="city-teaser-name">Istanbul</span>
+            <span class="city-teaser-figures"><span><b>468</b> mga kubeta</span><span><b>256</b> tubig</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../london-map.html" data-track="city" data-city="london">
+            <span class="city-teaser-name">London</span>
+            <span class="city-teaser-figures"><span><b>904</b> mga kubeta</span><span><b>604</b> tubig</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../dubai-map.html" data-track="city" data-city="dubai">
+            <span class="city-teaser-name">Dubai</span>
+            <span class="city-teaser-figures"><span><b>300</b> mga kubeta</span><span><b>78</b> tubig</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../paris-map.html" data-track="city" data-city="paris">
+            <span class="city-teaser-name">Paris</span>
+            <span class="city-teaser-figures"><span><b>891</b> mga kubeta</span><span><b>1,147</b> tubig</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../tokyo-map.html" data-track="city" data-city="tokyo">
+            <span class="city-teaser-name">Tokyo</span>
+            <span class="city-teaser-figures"><span><b>2,552</b> mga kubeta</span><span><b>1,591</b> tubig</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../singapore-map.html" data-track="city" data-city="singapore">
+            <span class="city-teaser-name">Singapore</span>
+            <span class="city-teaser-figures"><span><b>796</b> mga kubeta</span><span><b>232</b> tubig</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../new-york-map.html" data-track="city" data-city="new-york">
+            <span class="city-teaser-name">New York City</span>
+            <span class="city-teaser-figures"><span><b>439</b> mga kubeta</span><span><b>1,033</b> tubig</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../seoul-map.html" data-track="city" data-city="seoul">
+            <span class="city-teaser-name">Seoul</span>
+            <span class="city-teaser-figures"><span><b>746</b> mga kubeta</span><span><b>244</b> tubig</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../rome-map.html" data-track="city" data-city="rome">
+            <span class="city-teaser-name">Rome</span>
+            <span class="city-teaser-figures"><span><b>259</b> mga kubeta</span><span><b>2,109</b> tubig</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../barcelona-map.html" data-track="city" data-city="barcelona">
+            <span class="city-teaser-name">Barcelona</span>
+            <span class="city-teaser-figures"><span><b>271</b> mga kubeta</span><span><b>1,856</b> tubig</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../osaka-map.html" data-track="city" data-city="osaka">
+            <span class="city-teaser-name">Osaka</span>
+            <span class="city-teaser-figures"><span><b>409</b> mga kubeta</span><span><b>77</b> tubig</span></span>
+          </a></li>
+          <li><a class="city-teaser-card" href="../milan-map.html" data-track="city" data-city="milan">
+            <span class="city-teaser-name">Milan</span>
+            <span class="city-teaser-figures"><span><b>316</b> mga kubeta</span><span><b>796</b> tubig</span></span>
+          </a></li>
+        </ul>
+        <p class="city-teaser-more">
+          <a class="city-teaser-btn" href="./cities.html" data-i18n="citiesAllLink" data-track="nav" data-nav-target="city_index">Tingnan ang lahat ng 50 lungsod</a>
+          <a class="city-teaser-csv" href="./data/cities.csv" data-i18n="citiesCsvLink" data-track="download" data-download-type="cities_csv">Tingnan ang bilang para sa bawat lungsod bilang CSV</a>
+        </p>
+      </section>
+
+      <section class="section" aria-label="Karanasan sa produkto" data-i18n-aria="expAria" data-track-section="experience">
+        <p class="eyebrow" data-i18n="eyebrowInApp">Sa app</p>
+        <h2 data-i18n="expTitle">Simpleng karanasan, mabilis na desisyon</h2>
+        <p class="section-lead" data-i18n="expText">Gumagamit ang Voyager Maps ng malinis na interface ng mapa at nakatuong kategorya ng paglalakbay, kaya mabilis mong masusuri ang mga opsyon sa paligid at mapipili nang may kumpiyansa ang susunod mong hihintuan.</p>
+        <div class="step-grid">
+          <figure class="step">
+            <span class="preview-shell preview-shell--shot">
+              <picture>
+                <source type="image/webp" srcset="../pictures/filter-categories-800w.webp 800w, ../pictures/filter-categories.webp 1080w" sizes="(max-width: 700px) 62vw, 320px" />
+                <img
+                  src="../pictures/filter-categories-800w.jpg"
+                  srcset="../pictures/filter-categories-800w.jpg 800w, ../pictures/filter-categories.jpg 1080w"
+                  sizes="(max-width: 700px) 62vw, 320px"
+                  width="800"
+                  height="1733"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Panel ng filter na may mga kategorya ng paglalakbay sa Voyager Maps"
+                  data-i18n-alt="expImage3Alt"
+                  data-track-image="filter_categories"
+                />
+              </picture>
+            </span>
+            <figcaption>
+              <strong data-i18n="expStep1Title">1 · Piliin ang iyong mga kategorya</strong>
+              <span data-i18n="expStep1Text">I-on ang mga kailangan mo at aalisin ng mapa ang lahat ng iba pa. I-save ang set bilang isang grupo para sa susunod.</span>
+            </figcaption>
+          </figure>
+          <figure class="step">
+            <span class="preview-shell preview-shell--shot">
+              <picture>
+                <source type="image/webp" srcset="../pictures/paris-clusters-800w.webp 800w, ../pictures/paris-clusters.webp 1080w" sizes="(max-width: 700px) 62vw, 320px" />
+                <img
+                  src="../pictures/paris-clusters-800w.jpg"
+                  srcset="../pictures/paris-clusters-800w.jpg 800w, ../pictures/paris-clusters.jpg 1080w"
+                  sizes="(max-width: 700px) 62vw, 320px"
+                  width="800"
+                  height="1731"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Mapa ng Paris na may libu-libong lugar na pinagsama-sama sa mga klaster sa Voyager Maps"
+                  data-i18n-alt="expImage2Alt"
+                  data-track-image="map_clusters"
+                />
+              </picture>
+            </span>
+            <figcaption>
+              <strong data-i18n="expStep2Title">2 · I-scan ang lugar</strong>
+              <span data-i18n="expStep2Text">Mga libu-libong lugar ang nananatiling madaling basahin — pinagsasama-sama ang mga ito sa mga kumpol hanggang sa mag-zoom ka sa iyong kalye.</span>
+            </figcaption>
+          </figure>
+          <figure class="step">
+            <span class="preview-shell preview-shell--shot">
+              <picture>
+                <source type="image/webp" srcset="../pictures/POI_quick_view-800w.webp 800w, ../pictures/POI_quick_view.webp 1080w" sizes="(max-width: 700px) 62vw, 320px" />
+                <img
+                  src="../pictures/POI_quick_view-800w.jpg"
+                  srcset="../pictures/POI_quick_view-800w.jpg 800w, ../pictures/POI_quick_view.jpg 1080w"
+                  sizes="(max-width: 700px) 62vw, 320px"
+                  width="800"
+                  height="1733"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Mabilis na pagtingin sa mga detalye ng lugar sa Voyager Maps"
+                  data-i18n-alt="expImage1Alt"
+                  data-track-image="poi_quick_view"
+                />
+              </picture>
+            </span>
+            <figcaption>
+              <strong data-i18n="expStep3Title">3 · Suriin bago ka maglakad</strong>
+              <span data-i18n="expStep3Text">Oras ng pagbubukas, bayad, access para sa wheelchair — pagkatapos ay mag-navigate papunta roon o idagdag ito sa iyong itineraryo.</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Dinisenyo para sa totoong sitwasyon sa paglalakbay" data-i18n-aria="useAria" data-track-section="use_cases">
+        <p class="eyebrow" data-i18n="eyebrowBuiltFor">Ginawa para sa</p>
+        <h2 data-i18n="useTitle">Dinisenyo para sa totoong sitwasyon sa paglalakbay</h2>
+        <ul class="audience-grid">
+          <li>
+            <a href="./parking-map.html" data-track="cta" data-cta-type="internal_map" data-cta-position="audience_roadtrip">
+              <span class="audience-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 17h2m14 0h2M5 17a2 2 0 104 0 2 2 0 10-4 0m10 0a2 2 0 104 0 2 2 0 10-4 0M3 17v-5l2-5h9l3 5h4v5"/></svg>
+              </span>
+              <strong data-i18n="use1Title">Pag-road trip</strong>
+              <span class="audience-text" data-i18n="use1Text">Mas maaasahan mong makakahanap ng inuming tubig at mga banyo nang hindi lumalayo sa iyong ruta.</span>
+              <span class="audience-link" data-i18n="exploreParkingLink">Mapa ng Paradahan</span>
+            </a>
+          </li>
+          <li>
+            <a href="./campervan-service-map.html" data-track="cta" data-cta-type="internal_map" data-cta-position="audience_vanlife">
+              <span class="audience-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 16V7a2 2 0 012-2h9a2 2 0 012 2v1h2.5L21 12v4M6 16a2 2 0 104 0 2 2 0 10-4 0m9 0a2 2 0 104 0 2 2 0 10-4 0M3 16h3m4 0h5"/></svg>
+              </span>
+              <strong data-i18n="use2Title">Buhay sa van</strong>
+              <span class="audience-text" data-i18n="use2Text">Lutasin nang simple ang pang-araw-araw na pangangailangan, nang walang hindi kaugnay na resulta o mahabang paghahanap.</span>
+              <span class="audience-link" data-i18n="exploreCampervanLink">Mapa ng Serbisyo ng Campervan</span>
+            </a>
+          </li>
+          <li>
+            <a href="./backpacker-map.html" data-track="cta" data-cta-type="internal_map" data-cta-position="audience_backpacking">
+              <span class="audience-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M9 6V4.5A1.5 1.5 0 0110.5 3h3A1.5 1.5 0 0115 4.5V6m-9 0h12a2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2zm3 5h6"/></svg>
+              </span>
+              <strong data-i18n="use3Title">Pagba-backpack</strong>
+              <span class="audience-text" data-i18n="use3Text">Lutasin nang mabilis ang mga praktikal na pangangailangan, kahit nasaan ka man — nang hindi na kailangang hulaan.</span>
+              <span class="audience-link" data-i18n="exploreBackpackerLink">Mapa para sa mga backpacker</span>
+            </a>
+          </li>
+          <li>
+            <a href="./drinking-water-map.html" data-track="cta" data-cta-type="internal_map" data-cta-position="audience_city">
+              <span class="audience-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M12 21s7-5.5 7-11a7 7 0 10-14 0c0 5.5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              </span>
+              <strong data-i18n="use4Title">Pagsusuri sa lungsod</strong>
+              <span class="audience-text" data-i18n="use4Text">Magplano batay sa libreng inuming tubig sa halip na magsayang ng pera sa mga bote.</span>
+              <span class="audience-link" data-i18n="exploreWaterLink">Mapa ng Tubig na Inumin</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" aria-label="Pagpaplano ng biyahe sa app" data-i18n-aria="tripAria" data-track-section="trip_planning">
+        <div class="card">
+          <h2 data-i18n="tripTitle">Higit pa sa paghahanap ng susunod na hintuan</h2>
+          <p class="section-lead" data-i18n="tripLead">Ang mga lugar na matatagpuan mo ay maaaring maging isang plano na maaari mong panatilihin, ibahagi, at tantiyahin ang gastos — ang bahagi na iniiwan sa iyo ng isang karaniwang app ng mapa.</p>
+          <div class="feature-grid">
+            <div class="mini">
+              <strong data-i18n="trip1Title">Gumawa ng itineraryo</strong>
+              <p data-i18n="trip1Text">I-save ang mga lugar na matatagpuan mo bilang mga hintuan, ayon sa pagkakasunod-sunod ng iyong pagbisita, kasama ang oras at mga tala.</p>
+            </div>
+            <div class="mini">
+              <strong data-i18n="trip2Title">Ibahagi ito sa mga kasama mong bumiyahe</strong>
+              <p data-i18n="trip2Text">Magpadala ng link, o magdagdag ng mga kasama sa paglalakbay para masunod ng lahat ang iisang plano.</p>
+            </div>
+            <div class="mini">
+              <strong data-i18n="trip3Title">Tingnan kung ano ang kabuuan nito</strong>
+              <p data-i18n="trip3Text">Maglagay ng tinatayang gastos sa anumang hinto at tingnan ang kabuuan kada pera — kapaki-pakinabang kapag tumatawid ang biyahe sa mga hangganan.</p>
+            </div>
+            <div class="mini">
+              <strong data-i18n="trip4Title">Panatilihin ang mga karapat-dapat balikan</strong>
+              <p data-i18n="trip4Text">Markahan ang anumang lugar bilang paborito at mananatiling isang tap lang ang layo, sa biyaheng ito at sa susunod.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Huling panawagan sa pagkilos" data-i18n-aria="finalAria" data-track-section="final_cta">
+        <div class="final-cta">
+          <h2 data-i18n="finalTitle">Bawat praktikal na lugar na kailangan mo — kahit saan ka magpunta.</h2>
+          <p data-i18n="finalText">I-install ang Voyager Maps at mas mabilis mong mahahanap ang kailangan mo, saan ka man dalhin ng iyong paglalakbay.</p>
+          <div class="cta-row cta-row-center">
+            <a
+              class="store-badge"
+              href="https://apps.apple.com/app/6758412494"
+              aria-label="I-download ang Voyager Maps mula sa App Store"
+              data-i18n-aria="badgeAppleAria"
+              data-track="cta"
+              data-cta-type="app_store_ios"
+              data-cta-position="final"
+            >
+              <span class="store-badge-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" focusable="false"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.3.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+              </span>
+              <span class="store-badge-copy">
+                <span class="store-badge-line1" data-i18n="badgeAppleLine">Mag-download sa</span>
+                <span class="store-badge-line2">App Store</span>
+              </span>
+            </a>
+            <a
+              class="store-badge"
+              href="https://play.google.com/store/apps/details?id=com.voyagermap.voyagermobil.voyagermobil"
+              aria-label="Kunin ang Voyager Maps sa Google Play"
+              data-i18n-aria="badgeGoogleAria"
+              data-track="cta"
+              data-cta-type="app_store_android"
+              data-cta-position="final"
+            >
+              <span class="store-badge-icon" aria-hidden="true">
+                <svg width="19" height="21" viewBox="0 0 512 512" fill="currentColor" focusable="false"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l2.7 1.5 247.2-247v-5.8L47 0zm425.2 225L377.5 167l-65.1 65 65.1 65 95.6-57c27.2-15.6 27.2-41 0-56.6zM104.6 499l280.8-161.2-60.1-60.1-220.7 221.3z"/></svg>
+              </span>
+              <span class="store-badge-copy">
+                <span class="store-badge-line1" data-i18n="badgeGoogleLine">Kunin ito</span>
+                <span class="store-badge-line2">Google Play</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Madalas na itanong na mga tanong" data-i18n-aria="faqAria" data-track-section="faq">
+        <h2 data-i18n="faqTitle">Madalas na itanong na mga tanong</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <strong data-i18n="faq1Q">Libre ba ang Voyager Maps?</strong>
+            <p data-i18n="faq1A">Oo, ang Voyager Maps ay ganap na libre sa parehong iOS at Android. Walang mga subscription o in-app na pagbili.</p>
+          </div>
+          <div class="faq-item">
+            <strong data-i18n="faq2Q">Ilan ang mga lokasyon na mayroon ang Voyager Maps?</strong>
+            <p data-i18n="faq2A">May mahigit 5.5 milyong praktikal na lugar ang Voyager Maps sa buong mundo, kabilang ang mga pampublikong banyo, gripo ng inuming tubig, libreng paliligo, Wi-Fi spots, mga laundromat, paradahan, at iba pa.</p>
+          </div>
+          <div class="faq-item">
+            <strong data-i18n="faq3Q">Para saan ginagamit ang Voyager Maps?</strong>
+            <p data-i18n="faq3A">Ang Voyager Maps ay isang travel utility app para sa paghahanap ng mga praktikal na lugar habang nasa biyahe — mga banyo, libreng inuming tubig, mga paliligo, mga laundromat, at Wi-Fi. Idinisenyo ito para sa mga manlalakbay, nagba-road trip, mga backpacker, mga van lifer, at mga siklista.</p>
+          </div>
+          <div class="faq-item">
+            <strong data-i18n="faq4Q">Paano naiiba ang Voyager Maps sa Google Maps?</strong>
+            <p data-i18n="faq4A">Magaling ang Google Maps para sa pag-navigate at mga restawran. Nakatuon lamang ang Voyager Maps sa mga praktikal na pangangailangan sa paglalakbay: pampublikong palikuran, libreng inuming tubig, mga paliligo, mga laundromat, at paradahan. Ipinapakita nito ang mas maraming lokasyon sa mga kategoryang ito — sa Paris, halimbawa, nakalista namin ang 289 na refill point ng inuming tubig kumpara sa humigit-kumulang 20 na matatagpuan sa Google Maps.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer" id="maps">
+        <div class="footer-brand">
+          <span class="brand"
+            ><img class="brand-mark" src="../pictures/icon/brand-mark.png" width="24" height="24" alt="" aria-hidden="true" /><span
+              class="brand-name"
+              ><span class="brand-name-lead">Voyager</span> Maps</span
+            ></span
+          >
+          <p data-i18n="footerTagline">Mga praktikal na lugar para sa paglalakbay sa 13 wika. Datos ng mga lugar mula sa mga kontribyutor ng OpenStreetMap.</p>
+        </div>
+        <div>
+          <h2 data-i18n="exploreTitle">Galugarin ang mga mapa</h2>
+          <ul class="footer-links">
+            <li><a href="./public-toilet-map.html" data-i18n="exploreToiletLink">Mapa ng mga Pampublikong Palikuran</a></li>
+            <li><a href="./drinking-water-map.html" data-i18n="exploreWaterLink">Mapa ng Tubig na Inumin</a></li>
+            <li><a href="./free-shower-map.html" data-i18n="exploreShowerLink">Libreng Mapa ng Paliligo</a></li>
+            <li><a href="./parking-map.html" data-i18n="exploreParkingLink">Mapa ng Paradahan</a></li>
+            <li><a href="./campervan-service-map.html" data-i18n="exploreCampervanLink">Mapa ng Serbisyo ng Campervan</a></li>
+            <li><a href="./backpacker-map.html" data-i18n="exploreBackpackerLink">Mapa para sa mga backpacker</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 data-i18n="legalTitle">Legal at dokumentasyon</h2>
+          <ul class="footer-links">
+            <li><a href="../privacy-policy.html" data-i18n="privacyLink" data-track="legal" data-legal-type="privacy">Patakaran sa Privacy</a></li>
+            <li><a href="../terms.html" data-i18n="termsLink" data-track="legal" data-legal-type="terms">Mga Tuntunin</a></li>
+            <li><a href="../delete-data.html" data-i18n="deleteLink" data-track="legal" data-legal-type="delete_data">Bura ang Datos</a></li>
+            <li><button type="button" class="footer-consent" id="consent-manage-footer" data-i18n="consentManage">Mga setting ng privacy</button></li>
+          </ul>
+        </div>
+        <p class="footer-copy" data-i18n="footer">© Website ng Voyager Maps</p>
+      </footer>
+    </main>
+
+    <script src="../assets/languages.js"></script>
+    <script src="../locales/pages/fil.index.js"></script>
+    <script src="../assets/index.js"></script>
+  </body>
+</html>
