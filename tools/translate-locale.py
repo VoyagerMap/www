@@ -23,9 +23,31 @@ BATCH = 45  # DeepL accepts up to 50 text params per request
 
 # Keys whose value is a language code, not prose.
 STRUCTURAL_KEYS = {"htmlLang"}
-# DeepL keeps proper nouns like "Voyager Maps" intact on its own. Forcing them
-# through ignore_tags made it treat them as foreign quotations and wrap them in
-# the target language's quote marks ("Wi-Fi"), so no tag handling is used.
+# The brand is substituted out before translation and back in afterwards.
+#
+# DeepL was trusted to keep it intact on its own, and mostly does — but not in
+# a language written in another script. Persian returned "نقشه‌های وویجر" and
+# Korean "보이저 맵스" for the product name, 28 and 27 strings each, and Hindi
+# and Arabic a few more. A brand rendered phonetically in Devanagari is not the
+# brand.
+#
+# ignore_tags was tried first and is worse: it made DeepL treat the name as a
+# foreign quotation and wrap it in the target language's quote marks. A
+# numbered brace is the form that survives — the same trick the mobile script
+# uses for placeholders, where it also kept the surrounding grammar right.
+BRAND = "Voyager Maps"
+BRAND_TOKEN = "{0}"
+
+
+def hide_brand(text):
+    """Swap the product name for a token DeepL will carry through untouched."""
+    return text.replace(BRAND, BRAND_TOKEN)
+
+
+def show_brand(text):
+    """Put it back. A token DeepL dropped means the name is simply absent,
+    which is not worth forcing — the sentence has been rewritten around it."""
+    return text.replace(BRAND_TOKEN, BRAND)
 
 # Sent alongside every batch but never translated. Without it "practical places"
 # came back as "Praktikumsplätze" (internship positions) in German.
@@ -69,7 +91,7 @@ def translate(texts, target, key, context=CONTEXT):
         params = [("target_lang", target), ("source_lang", "EN"),
                   # Casual register: the English copy says "you", not "one".
                   ("formality", "prefer_less"), ("context", context)]
-        params += [("text", t) for t in chunk]
+        params += [("text", hide_brand(t)) for t in chunk]
         req = urllib.request.Request(
             API,
             data=urllib.parse.urlencode(params).encode(),
@@ -80,7 +102,7 @@ def translate(texts, target, key, context=CONTEXT):
         except urllib.error.HTTPError as err:
             # DeepL puts the reason in the body; without it a 400 says nothing.
             sys.exit(f"DeepL {err.code} for {target}: {err.read().decode()[:400]}")
-        out += [t["text"] for t in body["translations"]]
+        out += [show_brand(t["text"]) for t in body["translations"]]
         print(f"  {min(start + BATCH, len(texts))}/{len(texts)}", flush=True)
     return out
 

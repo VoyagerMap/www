@@ -20,7 +20,7 @@ window.voyagerLocales["hi"] = {
       "primaryCtaAria": "ऐप में पूरा पार्किंग नक्शा खोलें",
       "badgeAppleLine": "पर डाउनलोड करें",
       "badgeGoogleLine": "इसे प्राप्त करें",
-      "badgeAppleAria": "ऐप स्टोर से वॉयेजर मैप्स डाउनलोड करें",
+      "badgeAppleAria": "ऐप स्टोर से Voyager Maps डाउनलोड करें",
       "badgeGoogleAria": "Google Play पर Voyager Maps प्राप्त करें",
       "proofRatingValue": "4.9",
       "proofDownloadsValue": "1,000+",

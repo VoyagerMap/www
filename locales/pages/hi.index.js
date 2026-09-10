@@ -206,7 +206,7 @@ window.voyagerLocales["hi"] = {
   "expImage2Caption": "समूहीकृत मानचित्र दृश्य",
   "navAria": "पृष्ठ अनुभाग",
   "langSwitcherAria": "भाषा स्विचर",
-  "navWhy": "वॉयेजर क्यों",
+  "navWhy": "Voyager क्यों",
   "navFind": "आप क्या पा सकते हैं",
   "navMaps": "नक्शे",
   "statPlacesLabel": "व्यावहारिक स्थान",

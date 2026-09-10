@@ -5,7 +5,7 @@ window.voyagerLocales["fa"] = {
   "cityPages": {
     "index": {
       "htmlLang": "fa",
-      "brandLabel": "نقشه‌های وویجر",
+      "brandLabel": "Voyager Maps",
       "langSwitcherAria": "تغییر زبان",
       "langOptionsAria": "گزینه‌های زبان",
       "badgeAppleLine": "دانلود در",
@@ -33,7 +33,7 @@ window.voyagerLocales["fa"] = {
       "footer": "© وب‌سایت Voyager Maps",
       "consentEyebrow": "تنظیمات حریم خصوصی",
       "consentTitle": "گزینه‌های حریم خصوصی شما",
-      "consentDescription": "ما تنها پس از رضایت شما و برای اهداف آماری، از تحلیل‌های اختیاری برای بهبود و پالایش نقشه وویجر استفاده می‌کنیم.",
+      "consentDescription": "ما تنها پس از رضایت شما و برای اهداف آماری، از تحلیل‌های اختیاری برای بهبود و پالایش Voyager Maps استفاده می‌کنیم.",
       "consentNecessaryLabel": "ضروری",
       "consentNecessaryDescription": "برای انتخاب زبان، وضعیت رضایت و عملکرد صفحهٔ اصلی ضروری است.",
       "consentNecessaryValue": "همیشه فعال",
