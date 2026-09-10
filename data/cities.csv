@@ -1,6 +1,6 @@
 slug,name_en,name_local,country,lang,rank,total,toilets,water,showers,laundry,parking,pharmacy,wifi,step_free,free_of_charge,with_hours,published
 tokyo,Tokyo,東京,JP,ja,5,20972,2552,1591,345,229,5394,2248,2657,2317,1048,4301,yes
-istanbul,Istanbul,İstanbul,TR,,1,15119,468,256,17,1,977,4097,1166,592,300,2866,yes
+istanbul,Istanbul,İstanbul,TR,tr,1,15119,468,256,17,1,977,4097,1166,592,300,2866,yes
 london,London,London,GB,,2,13232,904,604,16,111,1687,1002,1830,2061,1690,2521,yes
 melbourne,Melbourne,Melbourne,AU,,21,12401,1665,2098,52,131,3334,700,443,1420,3411,1348,yes
 sydney,Sydney,Sydney,AU,,20,12362,2040,2573,214,39,2557,567,329,1768,3173,1416,yes
@@ -14,7 +14,7 @@ warsaw,Warsaw,Warszawa,PL,pl,24,7488,407,184,14,32,1596,586,473,1889,1472,3044,y
 osaka,Osaka,大阪市,JP,ja,11,7416,409,77,14,105,3797,833,239,353,110,421,yes
 seoul,Seoul,서울특별시,KR,ko,8,7269,746,244,8,67,1238,810,767,347,232,531,yes
 taipei,Taipei,臺北市,TW,zh,18,7194,916,1272,5,26,808,345,681,598,387,3439,yes
-antalya,Antalya,Antalya,TR,,29,7184,653,835,212,2,235,1063,754,207,591,1044,yes
+antalya,Antalya,Antalya,TR,tr,29,7184,653,835,212,2,235,1063,754,207,591,1044,yes
 singapore,Singapore,Singapore,SG,,6,7097,796,232,34,38,1788,164,353,1108,422,783,yes
 hamburg,Hamburg,Hamburg,DE,de,32,7078,382,81,28,43,2378,356,650,2145,2132,2226,yes
 barcelona,Barcelona,Barcelona,ES,es,10,7066,271,1856,56,68,466,1024,1044,1142,1720,1382,yes
@@ -24,12 +24,12 @@ new-york,New York City,New York,US,,7,6478,439,1033,16,159,551,618,1413,1223,572
 yokohama,Yokohama,横浜市,JP,ja,44,5973,684,636,22,54,1779,896,132,283,237,630,yes
 munich,Munich,München,DE,de,19,5614,377,203,13,38,1279,311,797,1835,1248,2162,yes
 montreal,Montreal,Montréal,CA,fr,37,4957,234,866,5,45,1104,239,771,531,569,671,yes
-dubai,Dubai,دبي,AE,,3,4691,300,78,31,3,771,391,561,326,494,571,yes
+dubai,Dubai,دبي,AE,ar,3,4691,300,78,31,3,771,391,561,326,494,571,yes
 houston,Houston,Houston,US,,46,4397,194,201,8,42,1615,145,391,261,926,727,yes
 nagoya,Nagoya,名古屋市,JP,ja,40,4381,315,121,1,26,2205,309,252,173,248,600,yes
 kyoto,Kyoto,京都市,JP,ja,17,4352,604,192,12,54,1762,314,237,195,646,570,yes
 milan,Milan,Milano,IT,it,12,4189,316,796,4,36,672,458,343,617,556,764,yes
-izmir,Izmir,İzmir,TR,,999,4074,105,209,10,0,215,1384,213,113,217,415,no
+izmir,Izmir,İzmir,TR,tr,999,4074,105,209,10,0,215,1384,213,113,217,415,no
 lisbon,Lisbon,Lisboa,PT,pt,23,4011,254,539,6,56,320,267,920,341,246,1584,yes
 amsterdam,Amsterdam,Amsterdam,NL,nl,14,3924,152,558,23,27,498,89,508,690,247,981,yes
 zurich,Zurich,Zürich,CH,de,30,3664,280,1043,43,2,439,102,235,1065,487,1446,yes

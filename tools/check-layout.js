@@ -34,6 +34,10 @@ const CITY_PAGES = [
   "/vienna-map.html", "/de/vienna-map.html",
   "/budapest-map.html", "/hu/budapest-map.html",
   "/new-york-map.html", "/singapore-map.html",
+  // Right-to-left, and the only city page that is: worth measuring on its own.
+  "/dubai-map.html", "/ar/dubai-map.html",
+  // Turkish sets long compounds next to a fifteen-thousand-row count.
+  "/istanbul-map.html", "/tr/istanbul-map.html",
   // The all-cities index: a fifty-row table, the widest thing on the site.
   "/cities.html", "/hu/cities.html", "/ja/cities.html", "/hi/cities.html",
 ];

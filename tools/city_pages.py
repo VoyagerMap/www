@@ -16,6 +16,12 @@ import json
 import os
 
 SITE = "https://getvoyagermaps.com"
+
+# Languages written right to left. These pages render from their own
+# templates rather than through build-pages.py's page(), so the direction
+# has to be set here too — lang alone leaves the column laid out for a
+# left-to-right reader with only the Arabic runs flipped inside it.
+RTL = {"ar", "fa"}
 APPLE = "https://apps.apple.com/app/6758412494"
 GOOGLE = ("https://play.google.com/store/apps/details"
           "?id=com.voyagermap.voyagermobil.voyagermobil")
@@ -245,7 +251,8 @@ def build_hub(repo, locales, og_locale, codes, built, write_locale):
 
         html = template
         for key, value in {
-            "lang": code, "a": a, "canonical": canonical,
+            "lang": code, "dir": ' dir="rtl"' if code in RTL else "",
+            "a": a, "canonical": canonical,
             "hreflang": "\n".join(hreflang), "oglocale": "\n".join(oglocale),
             "jsonld": jsonld, "rows": "\n".join(body),
             "badges": badges(copy, "final"), "localefile": locale_file,
@@ -351,7 +358,8 @@ def build(repo, locales, og_locale, write_locale):
 
             html = template
             for key, value in {
-                "lang": lang, "a": a, "h": "./",
+                "lang": lang, "dir": ' dir="rtl"' if lang in RTL else "",
+                "a": a, "h": "./",
                 "title": esc(copy["pageTitle"]),
                 "description": esc(copy["metaDescription"]),
                 "canonical": canonical,
