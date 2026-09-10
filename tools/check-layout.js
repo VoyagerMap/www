@@ -38,6 +38,8 @@ const CITY_PAGES = [
   "/dubai-map.html", "/ar/dubai-map.html",
   // Turkish sets long compounds next to a fifteen-thousand-row count.
   "/istanbul-map.html", "/tr/istanbul-map.html",
+  // Moscow is the second largest city page on the site after Tokyo.
+  "/moscow-map.html", "/ru/moscow-map.html",
   // The all-cities index: a fifty-row table, the widest thing on the site.
   "/cities.html", "/hu/cities.html", "/ja/cities.html", "/hi/cities.html",
 ];

@@ -1,10 +1,12 @@
 slug,name_en,name_local,country,lang,rank,total,toilets,water,showers,laundry,parking,pharmacy,wifi,step_free,free_of_charge,with_hours,published
 tokyo,Tokyo,東京,JP,ja,5,20972,2552,1591,345,229,5394,2248,2657,2317,1048,4301,yes
+moscow,Moscow,Москва,RU,ru,14,18692,1534,144,17,19,3130,4244,2013,1161,3058,9243,yes
 istanbul,Istanbul,İstanbul,TR,tr,1,15119,468,256,17,1,977,4097,1166,592,300,2866,yes
 london,London,London,GB,,2,13232,904,604,16,111,1687,1002,1830,2061,1690,2521,yes
 melbourne,Melbourne,Melbourne,AU,,21,12401,1665,2098,52,131,3334,700,443,1420,3411,1348,yes
 sydney,Sydney,Sydney,AU,,20,12362,2040,2573,214,39,2557,567,329,1768,3173,1416,yes
 berlin,Berlin,Berlin,DE,de,16,11994,839,414,113,63,2559,669,1617,4354,2878,4632,yes
+saint-petersburg,Saint Petersburg,Санкт-Петербург,RU,ru,35,11537,703,207,2,3,2095,2067,1530,1114,2000,6823,yes
 paris,Paris,Paris,FR,fr,4,8486,891,1147,17,435,249,879,1338,1942,967,2964,yes
 rome,Rome,Roma,IT,it,9,8319,259,2109,29,29,1306,585,813,746,1176,998,yes
 vienna,Vienna,Wien,AT,de,15,8263,623,1746,65,24,984,340,738,2221,1522,2921,yes
@@ -21,6 +23,7 @@ barcelona,Barcelona,Barcelona,ES,es,10,7066,271,1856,56,68,466,1024,1044,1142,17
 brisbane,Brisbane,Brisbane,AU,,38,6883,933,1868,43,37,1946,231,186,992,2292,746,yes
 sao-paulo,São Paulo,São Paulo,BR,pt,28,6666,203,114,4,8,1518,931,441,482,365,951,yes
 new-york,New York City,New York,US,,7,6478,439,1033,16,159,551,618,1413,1223,572,2500,yes
+vladivostok,Vladivostok,Владивосток,RU,ru,999,6389,127,11,1,1,5253,232,110,10,4620,455,no
 yokohama,Yokohama,横浜市,JP,ja,44,5973,684,636,22,54,1779,896,132,283,237,630,yes
 munich,Munich,München,DE,de,19,5614,377,203,13,38,1279,311,797,1835,1248,2162,yes
 montreal,Montreal,Montréal,CA,fr,37,4957,234,866,5,45,1104,239,771,531,569,671,yes
@@ -32,22 +35,28 @@ milan,Milan,Milano,IT,it,12,4189,316,796,4,36,672,458,343,617,556,764,yes
 izmir,Izmir,İzmir,TR,tr,999,4074,105,209,10,0,215,1384,213,113,217,415,no
 lisbon,Lisbon,Lisboa,PT,pt,23,4011,254,539,6,56,320,267,920,341,246,1584,yes
 amsterdam,Amsterdam,Amsterdam,NL,nl,14,3924,152,558,23,27,498,89,508,690,247,981,yes
+yekaterinburg,Yekaterinburg,Екатеринбург,RU,ru,999,3793,121,194,2,5,822,682,266,86,519,1305,no
 zurich,Zurich,Zürich,CH,de,30,3664,280,1043,43,2,439,102,235,1065,487,1446,yes
 los-angeles,Los Angeles,Los Angeles,US,,26,3618,320,218,6,60,1124,159,323,187,486,464,yes
 the-hague,The Hague,Den Haag,NL,nl,999,3561,40,90,4,3,204,13,12,73,136,142,no
 krakow,Krakow,Kraków,PL,pl,25,3559,191,93,1,13,753,280,379,458,558,1107,yes
 chicago,Chicago,Chicago,US,,34,3532,280,247,14,57,795,142,457,443,431,785,yes
 sapporo,Sapporo,札幌市,JP,ja,41,3490,486,114,1,16,1120,350,151,217,381,830,yes
+kazan,Kazan,Казань,RU,ru,999,3362,137,113,3,6,246,724,163,523,187,2412,no
 rio-de-janeiro,Rio de Janeiro,Rio de Janeiro,BR,pt,27,3339,254,47,4,8,320,534,174,170,71,325,yes
 cologne,Cologne,Köln,DE,de,33,3245,180,49,17,30,838,215,345,1105,773,1205,yes
 austin,Austin,Austin,US,,999,2976,125,218,7,12,998,88,268,317,905,837,no
+chelyabinsk,Chelyabinsk,Челябинск,RU,ru,999,2910,68,29,3,0,797,462,111,55,466,859,no
 san-diego,San Diego,San Diego,US,,47,2892,398,252,19,20,861,50,274,231,597,392,yes
 dresden,Dresden,Dresden,DE,de,50,2882,335,43,16,12,1061,108,385,813,1196,952,yes
+omsk,Omsk,Омск,RU,ru,999,2856,30,257,1,3,820,654,134,141,738,1229,no
 poznan,Poznan,Poznań,PL,pl,49,2785,199,15,4,1,845,250,185,323,613,962,yes
 turin,Turin,Torino,IT,it,999,2719,136,733,1,27,450,320,130,293,548,387,no
 frankfurt,Frankfurt,Frankfurt am Main,DE,de,31,2662,176,62,17,19,698,147,327,935,631,910,yes
 wroclaw,Wroclaw,Wrocław,PL,pl,999,2634,149,42,28,5,540,240,154,472,453,1001,no
+krasnodar,Krasnodar,Краснодар,RU,ru,999,2561,115,11,0,0,417,529,295,71,258,978,no
 rotterdam,Rotterdam,Rotterdam,NL,nl,999,2540,52,71,0,7,288,66,105,177,138,812,no
+novosibirsk,Novosibirsk,Новосибирск,RU,ru,999,2488,62,73,1,0,512,507,160,119,360,852,no
 gdansk,Gdansk,Gdańsk,PL,pl,48,2483,160,64,7,5,614,155,175,167,433,601,yes
 seattle,Seattle,Seattle,US,,45,2479,219,198,6,12,1005,47,368,348,728,520,yes
 toulouse,Toulouse,Toulouse,FR,fr,999,2264,148,306,3,77,656,155,149,347,706,548,no
@@ -55,10 +64,12 @@ washington,"Washington, D.C.",Washington,US,,36,2260,188,226,1,8,501,66,250,182,
 valencia,Valencia,València,ES,es,999,2251,76,859,34,23,173,281,212,224,209,443,no
 genoa,Genoa,Genova,IT,it,999,2218,135,584,11,9,305,249,127,175,251,185,no
 kobe,Kobe,神戸市,JP,ja,43,2213,242,50,6,20,575,335,51,126,75,123,yes
+nizhny-novgorod,Nizhny Novgorod,Нижний Новгород,RU,ru,999,2181,74,84,2,0,304,466,190,51,228,1065,no
 marseille,Marseille,Marseille,FR,fr,999,2172,126,199,21,41,508,369,115,171,478,565,no
 zagreb,Zagreb,Zagreb,HR,,999,2169,100,170,21,17,491,188,207,200,431,559,no
 malaga,Malaga,Málaga,ES,es,999,2131,84,413,59,11,175,272,119,255,204,748,no
 fukuoka,Fukuoka,福岡市,JP,ja,42,2086,327,37,6,32,539,200,96,82,165,160,yes
+voronezh,Voronezh,Воронеж,RU,ru,999,2047,62,115,2,0,224,636,136,21,159,804,no
 lyon,Lyon,Lyon,FR,fr,39,2031,253,380,1,79,228,151,249,520,381,838,yes
 san-francisco,San Francisco,San Francisco,US,,35,2009,242,262,1,75,367,49,271,530,365,443,yes
 birmingham,Birmingham,Birmingham,GB,,999,1960,63,8,1,8,469,193,362,344,256,288,no

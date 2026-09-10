@@ -457,7 +457,7 @@
     "en": "Istanbul",
     "local": "İstanbul",
     "country": "TR",
-    "lang": null,
+    "lang": "tr",
     "cities": [
       "İstanbul"
     ],
@@ -467,7 +467,7 @@
     "en": "Antalya",
     "local": "Antalya",
     "country": "TR",
-    "lang": null,
+    "lang": "tr",
     "cities": [
       "Antalya"
     ],
@@ -477,7 +477,7 @@
     "en": "Izmir",
     "local": "İzmir",
     "country": "TR",
-    "lang": null,
+    "lang": "tr",
     "cities": [
       "İzmir"
     ],
@@ -832,7 +832,7 @@
     "en": "Dubai",
     "local": "دبي",
     "country": "AE",
-    "lang": null,
+    "lang": "ar",
     "cities": [
       "دبي"
     ],
@@ -1063,5 +1063,115 @@
       "Rio de Janeiro"
     ],
     "rank": 27
+  },
+  "moscow": {
+    "en": "Moscow",
+    "local": "Москва",
+    "country": "RU",
+    "lang": "ru",
+    "cities": [
+      "Москва"
+    ],
+    "rank": 14
+  },
+  "saint-petersburg": {
+    "en": "Saint Petersburg",
+    "local": "Санкт-Петербург",
+    "country": "RU",
+    "lang": "ru",
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "rank": 35
+  },
+  "vladivostok": {
+    "en": "Vladivostok",
+    "local": "Владивосток",
+    "country": "RU",
+    "lang": "ru",
+    "cities": [
+      "Владивосток"
+    ],
+    "rank": 999
+  },
+  "yekaterinburg": {
+    "en": "Yekaterinburg",
+    "local": "Екатеринбург",
+    "country": "RU",
+    "lang": "ru",
+    "cities": [
+      "Екатеринбург"
+    ],
+    "rank": 999
+  },
+  "kazan": {
+    "en": "Kazan",
+    "local": "Казань",
+    "country": "RU",
+    "lang": "ru",
+    "cities": [
+      "Казань"
+    ],
+    "rank": 999
+  },
+  "chelyabinsk": {
+    "en": "Chelyabinsk",
+    "local": "Челябинск",
+    "country": "RU",
+    "lang": "ru",
+    "cities": [
+      "Челябинск"
+    ],
+    "rank": 999
+  },
+  "omsk": {
+    "en": "Omsk",
+    "local": "Омск",
+    "country": "RU",
+    "lang": "ru",
+    "cities": [
+      "Омск"
+    ],
+    "rank": 999
+  },
+  "krasnodar": {
+    "en": "Krasnodar",
+    "local": "Краснодар",
+    "country": "RU",
+    "lang": "ru",
+    "cities": [
+      "Краснодар"
+    ],
+    "rank": 999
+  },
+  "novosibirsk": {
+    "en": "Novosibirsk",
+    "local": "Новосибирск",
+    "country": "RU",
+    "lang": "ru",
+    "cities": [
+      "Новосибирск"
+    ],
+    "rank": 999
+  },
+  "nizhny-novgorod": {
+    "en": "Nizhny Novgorod",
+    "local": "Нижний Новгород",
+    "country": "RU",
+    "lang": "ru",
+    "cities": [
+      "Нижний Новгород"
+    ],
+    "rank": 999
+  },
+  "voronezh": {
+    "en": "Voronezh",
+    "local": "Воронеж",
+    "country": "RU",
+    "lang": "ru",
+    "cities": [
+      "Воронеж"
+    ],
+    "rank": 999
   }
 }

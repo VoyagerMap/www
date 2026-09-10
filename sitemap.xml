@@ -5031,6 +5031,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/madrid-map.html" />
   </url>
   <url>
+    <loc>https://getvoyagermaps.com/moscow-map.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/moscow-map.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getvoyagermaps.com/ru/moscow-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/moscow-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/ru/moscow-map.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/moscow-map.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getvoyagermaps.com/ru/moscow-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/moscow-map.html" />
+  </url>
+  <url>
     <loc>https://getvoyagermaps.com/amsterdam-map.html</loc>
     <lastmod>2026-09-10</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/amsterdam-map.html" />
@@ -5291,6 +5305,20 @@
     <lastmod>2026-09-10</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/chicago-map.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/chicago-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/saint-petersburg-map.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/saint-petersburg-map.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getvoyagermaps.com/ru/saint-petersburg-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/saint-petersburg-map.html" />
+  </url>
+  <url>
+    <loc>https://getvoyagermaps.com/ru/saint-petersburg-map.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getvoyagermaps.com/saint-petersburg-map.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getvoyagermaps.com/ru/saint-petersburg-map.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getvoyagermaps.com/saint-petersburg-map.html" />
   </url>
   <url>
     <loc>https://getvoyagermaps.com/san-francisco-map.html</loc>
