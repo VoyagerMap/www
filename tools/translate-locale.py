@@ -64,6 +64,25 @@ LABEL_CONTEXT = {
 LABEL_HINT = ("One category of places shown on a travel map, listed next to "
               "Toilets, Drinking water, Showers and Parking.")
 
+# Languages whose software convention is the formal second person, whatever the
+# English source does. Russian is the one that bit us: prefer_less put the whole
+# site in ты, which reads as a stranger being over-familiar and disagreed with
+# the mobile app, where the same fix is already in scripts/translate_locales.py.
+# Keep the two lists in step.
+FORMAL_TARGETS = {"RU"}
+
+# Targets DeepL has no formality model for. Sending the parameter anyway is a
+# 400 on some of them, so it is left off rather than guessed.
+NO_FORMALITY = {"ZH", "UK", "AR", "FA", "TL", "HI", "ID", "KO", "TH", "TR",
+                "VI", "DA", "SV", "NB", "IS"}
+
+
+def formality_for(target):
+    """The register to ask DeepL for, or None to leave the choice to it."""
+    if target in NO_FORMALITY:
+        return None
+    return "prefer_more" if target in FORMAL_TARGETS else "prefer_less"
+
 
 def load_english():
     node = subprocess.run(
@@ -89,8 +108,12 @@ def translate(texts, target, key, context=CONTEXT):
     for start in range(0, len(texts), BATCH):
         chunk = texts[start:start + BATCH]
         params = [("target_lang", target), ("source_lang", "EN"),
-                  # Casual register: the English copy says "you", not "one".
-                  ("formality", "prefer_less"), ("context", context)]
+                  ("context", context)]
+        # The English copy says "you", not "one", so casual is the default —
+        # but "you" is not a register, and some languages have to pick one.
+        register = formality_for(target)
+        if register:
+            params.append(("formality", register))
         params += [("text", hide_brand(t)) for t in chunk]
         req = urllib.request.Request(
             API,

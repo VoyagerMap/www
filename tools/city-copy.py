@@ -67,12 +67,30 @@ def auth_key():
     sys.exit("DEEPL_AUTH_KEY missing from .env.local")
 
 
+# Kept in step with tools/translate-locale.py: Russian software convention is
+# the formal second person, and prefer_less had put the city pages in ты while
+# the mobile app said вы. Targets DeepL has no formality model for get nothing.
+FORMAL_TARGETS = {"RU"}
+NO_FORMALITY = {"ZH", "UK", "AR", "FA", "TL", "HI", "ID", "KO", "TH", "TR",
+                "VI", "DA", "SV", "NB", "IS"}
+
+
+def formality_for(target):
+    """The register to ask DeepL for, or None to leave the choice to it."""
+    if target in NO_FORMALITY:
+        return None
+    return "prefer_more" if target in FORMAL_TARGETS else "prefer_less"
+
+
 def deepl(texts, target, key):
     out = []
     for start in range(0, len(texts), BATCH):
         chunk = texts[start:start + BATCH]
         params = [("target_lang", target), ("source_lang", "EN"),
-                  ("formality", "prefer_less"), ("context", CONTEXT)]
+                  ("context", CONTEXT)]
+        register = formality_for(target)
+        if register:
+            params.append(("formality", register))
         params += [("text", t) for t in chunk]
         req = urllib.request.Request(
             API, data=urllib.parse.urlencode(params).encode(),
