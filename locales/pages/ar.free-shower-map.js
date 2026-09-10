@@ -12,7 +12,7 @@ window.voyagerLocales["ar"] = {
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "مفتاح تبديل اللغة",
       "langOptionsAria": "خيارات اللغة",
-      "heroAria": "صورة رئيسية لصفحة الهبوط الخاصة بالدش المجاني",
+      "heroAria": "صورة رئيسية لصفحة الدش المجاني",
       "eyebrow": "خريطة مفيدة للسفر",
       "heroTitle": "اعثر على حمامات مجانية أثناء السفر",
       "heroLead": "تنتشر معلومات عن أماكن الاستحمام في المنتديات ومدونات النصائح والقوائم غير المكتملة — مما يجعل من الصعب بشكل مدهش الحفاظ على النظافة أثناء السفر.",
@@ -25,7 +25,7 @@ window.voyagerLocales["ar"] = {
       "proofRatingValue": "4.9",
       "proofDownloadsValue": "1K+",
       "proofDownloadsLabel": "التنزيلات",
-      "proofStores": "متجر التطبيقات و Google Play",
+      "proofStores": "App Store و Google Play",
       "proofRatingAria": "حصل التطبيق على تقييم 4.9 من 5 في متجر App Store وGoogle Play",
       "pageFree": "مجاني · iOS و Android",
       "previewAlt": "نظرة عامة على مواقع الدشات المجانية",
@@ -58,7 +58,7 @@ window.voyagerLocales["ar"] = {
       "consentDescription": "نحن لا نستخدم أدوات التحليل الاختيارية إلا بعد الحصول على موافقتك، وذلك لأغراض إحصائية، بهدف تحسين تطبيق Voyager Maps وتطويره.",
       "consentNecessaryLabel": "ضروري",
       "consentNecessaryDescription": "مطلوب لاختيار اللغة، وحالة الموافقة، ووظائف الصفحة الأساسية.",
-      "consentNecessaryValue": "يعمل دائمًا",
+      "consentNecessaryValue": "نشط دائمًا",
       "consentStatisticsLabel": "إحصائيات",
       "consentStatisticsValue": "Google Analytics 4 لتتبع الزيارات وأحداث التفاعل",
       "consentNote": "يمكنك تغيير هذا القرار في أي وقت باستخدام زر الخصوصية.",
@@ -79,7 +79,7 @@ window.voyagerLocales["ar"] = {
       "privacyLink": "سياسة الخصوصية",
       "termsLink": "الشروط",
       "deleteLink": "حذف البيانات",
-      "footer": "© موقع «Voyager Maps» الإلكتروني"
+      "footer": "© موقع Voyager Maps الإلكتروني"
     }
   }
 };

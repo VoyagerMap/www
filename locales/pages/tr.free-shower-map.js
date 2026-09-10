@@ -12,7 +12,7 @@ window.voyagerLocales["tr"] = {
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "Dil seçici",
       "langOptionsAria": "Dil seçenekleri",
-      "heroAria": "Ücretsiz duş sayfa başlığı",
+      "heroAria": "Ücretsiz duş sayfasının ana görseli",
       "eyebrow": "Seyahat yardımcı haritası",
       "heroTitle": "Seyahat ederken ücretsiz duş yerlerini bulun",
       "heroLead": "Duş noktaları forumlara, tavsiye bloglarına ve eksik listelere dağılmış durumda; bu da yolculuk sırasında temiz kalmayı şaşırtıcı derecede zorlaştırıyor.",

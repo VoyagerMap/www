@@ -5,14 +5,14 @@ window.voyagerLocales["fil"] = {
   "landingPages": {
     "shower": {
       "htmlLang": "fil",
-      "pageTitle": "Libreng Mapa ng Paliligo",
+      "pageTitle": "Mapa ng Libreng Shower",
       "meta": {
         "description": "Maghanap ng mga paliligo habang naglalakbay: mga kampingan, mga dalampasigan at mga pampublikong pasilidad malapit sa iyong ruta. Libreng app."
       },
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "Tagapagpalit ng wika",
       "langOptionsAria": "Mga pagpipilian sa wika",
-      "heroAria": "Landing hero para sa libreng paliligo",
+      "heroAria": "Pangunahing larawan ng pahina ng libreng shower",
       "eyebrow": "Mapas na pang-biyahe",
       "heroTitle": "Maghanap ng libreng paliligo habang naglalakbay",
       "heroLead": "Ang mga lugar ng paliligo ay nakakalat sa iba't ibang forum, tip blog, at hindi kumpletong listahan — kaya nakakagulat na napakahirap manatiling sariwa habang naglalakbay.",
@@ -62,7 +62,7 @@ window.voyagerLocales["fil"] = {
       "consentStatisticsLabel": "Estadistika",
       "consentStatisticsValue": "Google Analytics 4 para sa mga pagbisita at mga kaganapan sa pakikipag-ugnayan",
       "consentNote": "Maaari mong baguhin ang desisyong ito anumang oras gamit ang privacy button.",
-      "consentReject": "Gamitin lamang kung kinakailangan",
+      "consentReject": "Kinakailangan lamang",
       "consentCustomize": "I-customize",
       "consentSave": "I-save ang mga kagustuhan",
       "consentAccept": "Tanggapin ang analytics",
@@ -71,7 +71,7 @@ window.voyagerLocales["fil"] = {
       "exploreHomeLink": "Pangunahing Pahina",
       "exploreWaterLink": "Mapa ng Tubig na Inumin",
       "exploreToiletLink": "Mapa ng mga Pampublikong Palikuran",
-      "exploreShowerLink": "Libreng Mapa ng Paliligo",
+      "exploreShowerLink": "Mapa ng Libreng Shower",
       "exploreParkingLink": "Mapa ng Paradahan",
       "exploreCampervanLink": "Mapa ng Serbisyo para sa Campervan",
       "exploreBackpackerLink": "Mapa para sa mga backpacker",

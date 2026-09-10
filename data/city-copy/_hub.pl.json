@@ -11,7 +11,7 @@
   "colWater": "Woda",
   "restAria": "Miasta, które zostały uwzględnione w pomiarach, ale nie zostały opublikowane",
   "restTitle": "Zmierzone, ale nieopublikowane",
-  "restText": "Inne miasta zostały policzone, ale pominięte, bo jest ich zbyt mało, żeby strona zawierała jakieś przydatne informacje. W Pradze, biorąc pod uwagę dwa tuziny różnych nazw używanych przez OpenStreetMap, z trudem zbiera się nawet tysiąc miejsc; w Atenach nie odnotowano żadnych toalet publicznych. Pozostają one w danych z flagą „opublikowane” ustawioną na „nie” – liczby są prawdziwe, po prostu jest ich za mało, by na nich bazować, a zasięg rośnie w miarę jak ludzie dodają nowe punkty do mapy.",
+  "restText": "Inne miasta zostały policzone, ale pominięte, bo zbyt mało w nich zaznaczono, żeby strona zawierała jakieś przydatne informacje. W Pradze, biorąc pod uwagę dwa tuziny różnych nazw używanych przez OpenStreetMap, z trudem zbiera się nawet tysiąc miejsc; w Atenach nie odnotowano żadnych toalet publicznych. Pozostają one w danych z flagą „opublikowane” ustawioną na „nie” – liczby są prawdziwe, po prostu jest ich za mało, by na nich bazować, a zasięg rośnie w miarę jak ludzie dodają nowe punkty do mapy.",
   "csvLink": "Pobierz dane liczbowe dla każdego z mierzonych miast w formacie CSV",
   "ctaAria": "Pobierz aplikację",
   "ctaTitle": "Zabierz mapę ze sobą",

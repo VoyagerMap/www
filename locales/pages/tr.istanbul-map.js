@@ -40,7 +40,7 @@ window.voyagerLocales["tr"] = {
       "consentStatisticsLabel": "İstatistikler",
       "consentStatisticsValue": "Ziyaretler ve etkileşim olayları için Google Analytics 4",
       "consentNote": "Gizlilik düğmesini kullanarak bu tercihinizi istediğiniz zaman değiştirebilirsiniz.",
-      "consentReject": "Yalnızca gerekli olanları kullanın",
+      "consentReject": "Yalnızca gerekli olanlar",
       "consentCustomize": "Özelleştir",
       "consentSave": "Tercihleri kaydet",
       "consentAccept": "Analitik verilerini kabul et",

@@ -11,7 +11,7 @@ window.voyagerLocales["pt"] = {
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "Seletor de idioma",
       "langOptionsAria": "Opções de idioma",
-      "heroAria": "Página inicial para mochileiros e quem viaja sozinho",
+      "heroAria": "Imagem principal da página para mochileiros e quem viaja sozinho",
       "eyebrow": "Mapa útil para viagens",
       "heroTitle": "O mapa prático para mochileiros",
       "heroLead": "Cidade nova, mochila pesada, faltam seis horas pro check-in. Em algum lugar a uma curta distância a pé tem um chuveiro, uma lavanderia, uma torneira de água potável e Wi-Fi grátis — e nada disso tá no mapa que você tem na mão.",
@@ -61,7 +61,7 @@ window.voyagerLocales["pt"] = {
       "consentStatisticsLabel": "Estatísticas",
       "consentStatisticsValue": "Google Analytics 4 para acompanhar visitas e eventos de interação",
       "consentNote": "Você pode mudar essa opção a qualquer momento usando o botão de privacidade.",
-      "consentReject": "Use só o que for necessário",
+      "consentReject": "Apenas as necessárias",
       "consentCustomize": "Personalizar",
       "consentSave": "Salvar preferências",
       "consentAccept": "Aceitar análises",
@@ -76,7 +76,7 @@ window.voyagerLocales["pt"] = {
       "exploreBackpackerLink": "Mapa do Mochileiro",
       "legalTitle": "Informações legais e documentação",
       "privacyLink": "Política de Privacidade",
-      "termsLink": "Termos",
+      "termsLink": "Termos de utilização",
       "deleteLink": "Apagar dados",
       "footer": "© Site do Voyager Maps"
     }

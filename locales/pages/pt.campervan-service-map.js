@@ -11,7 +11,7 @@ window.voyagerLocales["pt"] = {
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "Seletor de idioma",
       "langOptionsAria": "Opções de idioma",
-      "heroAria": "Página inicial dos pontos de serviço para trailers",
+      "heroAria": "Imagem principal da página sobre pontos de serviço para trailers",
       "eyebrow": "Mapa útil para viagens",
       "heroTitle": "Água, chuveiros e locais para acampar para o seu trailer",
       "heroLead": "A vista é perfeita, mas o tanque de água está vazio. Pontos de serviço, torneiras para reabastecimento e chuveiros estão espalhados por fóruns e listas exclusivas para membros, então a parte prática da vida na van exige muito mais pesquisa do que deveria.",
@@ -61,7 +61,7 @@ window.voyagerLocales["pt"] = {
       "consentStatisticsLabel": "Estatísticas",
       "consentStatisticsValue": "Google Analytics 4 para acompanhar visitas e eventos de interação",
       "consentNote": "Você pode mudar essa opção a qualquer momento usando o botão de privacidade.",
-      "consentReject": "Use só o que for necessário",
+      "consentReject": "Apenas as necessárias",
       "consentCustomize": "Personalizar",
       "consentSave": "Salvar preferências",
       "consentAccept": "Aceitar análises",
@@ -76,7 +76,7 @@ window.voyagerLocales["pt"] = {
       "exploreBackpackerLink": "Mapa do Mochileiro",
       "legalTitle": "Informações legais e documentação",
       "privacyLink": "Política de Privacidade",
-      "termsLink": "Termos",
+      "termsLink": "Termos de utilização",
       "deleteLink": "Apagar dados",
       "footer": "© Site do Voyager Maps"
     }

@@ -40,7 +40,7 @@ window.voyagerLocales["is"] = {
       "consentStatisticsLabel": "Tölfræði",
       "consentStatisticsValue": "Google Analytics 4 fyrir heimsóknir og samskiptaviðburði",
       "consentNote": "Þú getur breytt þessari ákvörðun hvenær sem er með persónuverndarhnappinum.",
-      "consentReject": "Nota eingöngu eftir þörfum",
+      "consentReject": "Aðeins nauðsynlegar",
       "consentCustomize": "Aðlaga",
       "consentSave": "Vista stillingar",
       "consentAccept": "Samþykkja greiningar",

@@ -1,6 +1,6 @@
 {
   "pageTitle": "Toutes les villes sur Voyager Maps",
-  "metaDescription": "Les villes que Voyager Maps couvre en détail, avec le nombre de toilettes publiques, de points d'eau potable et d'autres lieux pratiques répertoriés dans chacune d'elles.",
+  "metaDescription": "Les villes que Voyager Maps couvre en détail, avec le nombre de toilettes publiques, de points d’eau potable et d’autres lieux pratiques répertoriés dans chacune d’elles.",
   "eyebrow": "Index des villes",
   "heroTitle": "Toutes les villes sur la carte",
   "heroLead": "Chacun de ces lieux dispose de sa propre page, qui répertorie ce que la carte contient à cet endroit. Le classement se fait en fonction du nombre de voyageurs qui s’y rendent, et non en fonction de la quantité de données dont on dispose — la liste présente donc les endroits qui valent le détour.",
@@ -11,11 +11,11 @@
   "colWater": "Eau",
   "restAria": "Villes répertoriées mais non publiées",
   "restTitle": "Mesuré, mais non publié",
-  "restText": "D'autres villes ont été comptabilisées puis écartées, car trop peu d'entre elles sont répertoriées pour qu'une page puisse fournir des informations utiles. Prague totalise à peine un millier de lieux, toutes orthographes confondues parmi la vingtaine utilisée par OpenStreetMap ; Athènes n’enregistre quant à elle aucune toilette publique. Ces données restent dans la base avec un indicateur de publication réglé sur « non » : les chiffres sont exacts, mais trop maigres pour être exploitables, et la couverture s’étoffe au fur et à mesure que les utilisateurs enrichissent la carte.",
+  "restText": "D’autres villes ont été comptabilisées puis écartées, car trop peu de choses y sont répertoriées pour qu’une page puisse fournir des informations utiles. Prague totalise à peine un millier de lieux, toutes orthographes confondues parmi la vingtaine utilisée par OpenStreetMap ; Athènes n’enregistre quant à elle aucune toilette publique. Ces données restent dans la base avec un indicateur de publication réglé sur « non » : les chiffres sont exacts, mais trop maigres pour être exploitables, et la couverture s’étoffe au fur et à mesure que les utilisateurs enrichissent la carte.",
   "csvLink": "Télécharge les chiffres pour chaque ville recensée au format CSV",
-  "ctaAria": "Télécharge l'appli",
+  "ctaAria": "Télécharge l’appli",
   "ctaTitle": "Emporte la carte avec toi",
   "ctaText": "Toutes les villes d’ici, et partout ailleurs, dans une seule appli. Gratuit sur iOS et Android, sans abonnement ni compte requis.",
-  "dataNote": "Données fournies par les contributeurs d'OpenStreetMap, sous licence Open Database License. Les chiffres sont mis à jour à chaque chargement des données.",
+  "dataNote": "Données fournies par les contributeurs d’OpenStreetMap, sous licence Open Database License. Les chiffres sont mis à jour à chaque chargement des données.",
   "_note": "DeepL FR of cities-page.en.json."
 }

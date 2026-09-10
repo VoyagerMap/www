@@ -5,14 +5,14 @@ window.voyagerLocales["nl"] = {
   "landingPages": {
     "shower": {
       "htmlLang": "nl",
-      "pageTitle": "Gratis douchekaart",
+      "pageTitle": "Kaart met gratis douches",
       "meta": {
         "description": "Vind douches tijdens je reis: campings, stranden en openbare voorzieningen in de buurt van je route. Gratis app."
       },
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "Taalkeuze",
       "langOptionsAria": "Taalopties",
-      "heroAria": "Gratis douche – hero-afbeelding op de startpagina",
+      "heroAria": "Hoofdafbeelding van de pagina over gratis douches",
       "eyebrow": "Handige reiskaart",
       "heroTitle": "Vind gratis douches tijdens je reis",
       "heroLead": "Doucheplekken zijn verspreid over forums, tipsblogs en onvolledige lijsten — waardoor het verrassend lastig is om onderweg fris te blijven.",
@@ -62,7 +62,7 @@ window.voyagerLocales["nl"] = {
       "consentStatisticsLabel": "Statistieken",
       "consentStatisticsValue": "Google Analytics 4 voor bezoeken en interactie-events",
       "consentNote": "Je kunt deze keuze op elk moment wijzigen via de privacyknop.",
-      "consentReject": "Gebruik alleen wat nodig is",
+      "consentReject": "Alleen noodzakelijke",
       "consentCustomize": "Aanpassen",
       "consentSave": "Voorkeuren opslaan",
       "consentAccept": "Analytics accepteren",
@@ -71,7 +71,7 @@ window.voyagerLocales["nl"] = {
       "exploreHomeLink": "Home",
       "exploreWaterLink": "Kaart met drinkwaterpunten",
       "exploreToiletLink": "Kaart met openbare toiletten",
-      "exploreShowerLink": "Gratis douchekaart",
+      "exploreShowerLink": "Kaart met gratis douches",
       "exploreParkingLink": "Parkeerkaart",
       "legalTitle": "Juridische informatie en documentatie",
       "privacyLink": "Privacybeleid",

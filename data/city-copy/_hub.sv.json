@@ -11,7 +11,7 @@
   "colWater": "Vatten",
   "restAria": "Städer som har mätts men inte publicerats",
   "restTitle": "Uppmätt, men inte publicerat",
-  "restText": "Andra städer har räknats men utelämnats, eftersom för få av dem är kartlagda för att en sida ska kunna ge någon användbar information. Prag sammanställer knappt tusen platser över de två dussin stavningar som OpenStreetMap använder för staden; Aten har inga offentliga toaletter alls registrerade. De finns kvar i data med en publiceringsflagga inställd på nej – siffrorna stämmer, men de är helt enkelt för få för att man ska kunna bygga vidare på dem, och täckningen växer i takt med att människor lägger till information på kartan.",
+  "restText": "Andra städer har räknats men utelämnats, eftersom för lite i dem är kartlagt för att en sida ska kunna ge någon användbar information. Prag sammanställer knappt tusen platser över de två dussin stavningar som OpenStreetMap använder för staden; Aten har inga offentliga toaletter alls registrerade. De finns kvar i data med en publiceringsflagga inställd på nej – siffrorna stämmer, men de är helt enkelt för få för att man ska kunna bygga vidare på dem, och täckningen växer i takt med att människor lägger till information på kartan.",
   "csvLink": "Ladda ner siffrorna för varje undersökt stad som en CSV-fil",
   "ctaAria": "Ladda ner appen",
   "ctaTitle": "Ta med dig kartan",

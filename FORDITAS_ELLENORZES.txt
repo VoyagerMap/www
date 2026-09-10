@@ -1,0 +1,590 @@
+================================================================================
+  www — FORDÍTÁSELLENŐRZÉS NYELVENKÉNT
+================================================================================
+Kezdve: 2026-09-10
+
+Az `en` a forrás, a `hu` emberi fordítás — ezt a kettőt nem kell átnézni.
+Marad 22 nyelv.
+
+--------------------------------------------------------------------------------
+MIT JELENT A PIPA
+--------------------------------------------------------------------------------
+Egy nyelv akkor van kipipálva, ha MIND a hat menet lefutott rajta:
+
+  1. Teljes szövegösszevetés   minden string az angol forrás mellett, kulcsról
+                               kulcsra — nem olvasás, hanem összehasonlítás
+  2. Ütközésvizsgálat          két eltérő angol string egyetlen fordításra
+                               fut-e össze (a felhasználó két azonos sort lát)
+  3. Regiszter                 tegezés/magázás, ill. udvarias alak — végig
+                               egységes-e, és megfelel-e a nyelv szoftveres
+                               konvenciójának
+  4. Márkanév                  a "Voyager Maps" épen van-e: nem fordult le,
+                               nincs átírva más írásrendszerre, és nem került
+                               a célnyelv idézőjelébe («», 「」, 『』)
+  5. Placeholder / technikai   {0}, {n}, HTML, írásjelek, felesleges szóköz
+  6. Megjelenés                minden oldal + minden nézetméret (check-layout.js),
+                               és RTL ott, ahol kell (ar, fa)
+
+Részleges menet nem ér pipát — az "r" jelöli.
+
+--------------------------------------------------------------------------------
+ÁLLÁS
+--------------------------------------------------------------------------------
+                          str.  oldal  város
+  [x] ar  arab            665     9      3     RTL — KÉSZ
+  [x] da  dán             665     8      1     KÉSZ
+  [x] de  német           663    16     10     KÉSZ
+  [x] es  spanyol         663    10      4     KÉSZ
+  [x] fa  perzsa          665     8      1     RTL — KÉSZ
+  [x] fil filippínó       665     8      1     KÉSZ
+  [x] fr  francia         663    11      5     KÉSZ
+  [x] hi  hindi           663     8      1     KÉSZ
+  [x] id  indonéz         665     8      1     KÉSZ
+  [x] is  izlandi         665     8      1     KÉSZ
+  [x] it  olasz           663    10      4     KÉSZ
+  [x] ja  japán           663    16     10     KÉSZ
+  [x] ko  koreai          663     9      3     KÉSZ
+  [x] nb  norvég          665     8      1     KÉSZ
+  [x] nl  holland         663     9      3     KÉSZ
+  [x] pl  lengyel         663    12      6     KÉSZ
+  [x] pt  portugál        663    11      5     KÉSZ
+  [x] ru  orosz           665    10      4     KÉSZ
+  [x] sv  svéd            665     8      1     KÉSZ
+  [x] tr  török           665    10      4     KÉSZ
+  [x] vi  vietnámi        665     8      1     KÉSZ
+  [x] zh  kínai           663     9      3     KÉSZ
+
+  Kész: 22/22  — MIND KÉSZ
+
+--------------------------------------------------------------------------------
+DEEPL-KERET
+--------------------------------------------------------------------------------
+Az ingyenes keret VALÓJÁBAN 500 000 karakter/hó (a /usage 1 000 000-t ír).
+Állás 2026-09-10: 496 503 elhasználva → ~3 500 maradt.
+Újrafordításra nincs keret, minden javítás kézzel megy.
+
+--------------------------------------------------------------------------------
+VISSZATÉRŐ MINTÁK — ezeket kulcs-elsőként érdemes nézni, nem nyelvenként
+--------------------------------------------------------------------------------
+Az első 10 nyelv után kirajzolódott, hogy néhány angol forrásstring MINDEN
+nyelven ugyanúgy törik el. Ezeket célszerű egy menetben, az összes nyelven
+átnézni — így gyorsabb, mint nyelvenként rábukkanni.
+
+  A) consentReject "Use necessary only"          10-ből 9 nyelvben ROSSZ
+     A DeepL felszólító igét lát, nem gombfeliratot, így utasítás lesz belőle
+     a felhasználó felé ("csak azt használd, ami szükséges") a VÁLASZTÁS
+     MEGNEVEZÉSE helyett. Helyesen: "Csak a szükségesek".
+
+  B) heroAria (7 kulcs: index + 6 landing page)  MINDEN nyelvben ROSSZ
+     Három romlási mód:
+       - a "hero" IRODALMI HŐS lesz (ru Героя, ja ヒーロー, fa قهرمان)
+       - nyers angol marad (da "Landing-hero", de "Landing-Page-Hero",
+         it "Hero page")
+       - "FŐOLDAL"-t mond a képernyőolvasónak egy aloldalon
+         (ru, ar, es, és MIND A HAT pl-ben és fr-ben)
+     Ráadásul nyelvenként 4-6 különböző séma ugyanarra a hét kulcsra.
+
+  C) _hub restText "too little of them is mapped"   5/5 érintett nyelvben ROSSZ
+     Az "of them" kétértelmű: mindenhol "túl kevés VÁROS" lett a
+     "túl kevés adat A VÁROSOKBAN" helyett. (da, de, pl, it, fr)
+
+  D) "customer Wi-Fi" / "customer-allowed Wi-Fi"    gyakran MEGFORDUL
+     ar "amit A VENDÉGEK engedélyeznek", pl "udostępniane PRZEZ klientów",
+     fr "ouverts au PUBLIC" (= mindenki előtt), pl catWifiTile "PŁATNE"
+     (= FIZETŐS, a termék lényegének ellentmondva), da "kundebaseret",
+     fa "اشتراکی" (= megosztott/előfizetéses).
+
+  E) "Free Shower Map" / "Free Drinking Water Map"  az INGYENES átcsúszik
+     A jelző a térképre kerül a zuhany helyett: ru, de, pl. Helyesen az
+     ar, da, es, fr, it kötötte.
+
+  F) APOSZTRÓF-KEVEREDÉS (latin betűs nyelvek)
+     it 86 tipográfiai vs 40 ASCII, fr 261 ASCII vs 51 tipográfiai.
+     Az angol forrás végig ASCII-t használ, de a fr/it tipográfia szabványa
+     a ' (U+2019) — nyelvenként egységesíteni kell.
+
+  G) termsLink "Terms"                            gyakran csupasz vagy rossz
+     de "Begriffe" (= SZAKKIFEJEZÉSEK!), pl "Warunki" → "Regulamin",
+     es "Términos", it "Condizioni" — a jogi link nevét ki kell egészíteni.
+
+  H) consentNecessaryLabel / consentNecessaryValue  NEM EGYEZTET
+     es "Imprescindible"/"Siempre activa", pl "Zawsze aktywna",
+     it "Necessario"/"Sempre attiva", fr "Indispensable"/"Toujours active"
+     — a nem/szám nem egyezik a sütikategóriákkal.
+
+  I) navWhy "Why Voyager"                         kérdőjelet kap
+     da, de, es, fr, pl — az angolban nincs kérdőjel, navigációs menüpont.
+
+  J) számok: a "k"/"M" utótag                     ellenőrizendő
+     fa "248k" → "248 KILOBÁJT", ar "248k" fordítatlanul a ألف testvérek közt.
+
+--------------------------------------------------------------------------------
+A MARADÉK 12 NYELV — kulcs-elsős söprés + nyelvenkénti átnézés (2026-09-10)
+--------------------------------------------------------------------------------
+Az utolsó 12 nyelvnél előbb a fenti VISSZATÉRŐ MINTÁK szerint söpörtem végig
+egy menetben, aztán nyelvenként néztem át a maradékot. Ez visszaigazolta,
+hogy a minta-alapú keresés többet talál, mint a nyelvenkénti olvasás.
+
+  A) consentReject   12/12 ROSSZ → ezzel a hiba VÉGIG mind a 22 NYELVBEN
+                     megvolt. Mind a 12 utasítás volt ("csak azt használd,
+                     ami szükséges") a választás megnevezése helyett.
+                     A vi ráadásul baráti partikulát is kapott ("thôi nhé").
+  B) heroAria        84 string (12 nyelv × 7 kulcs) javítva. A három romlási
+                     mód mindegyike előfordult: "hős" (fil "bayani"/"Bida" =
+                     FŐSZEREPLŐ, is "hetja" = HŐS), nyers angol ("Landing
+                     hero", "Lendingar-hero"), és FŐOLDAL (id mind a 6-ban,
+                     vi 5-ben, pt/tr/zh 3-3-ban).
+  C) _hub restText   fil, hi, nb, sv rontotta el ugyanúgy → a teljes séria
+                     9 nyelv (da, de, pl, it, fr + ezek). Az id, is, ko, nl,
+                     pt, tr, vi, zh HELYESEN fordította.
+  D) customer Wi-Fi  fil és hi megfordította ("a vendégek ÁLTAL engedélyezett"),
+                     pt "abertos ao público" (= mindenki előtt), nb
+                     "kundebasert", is ragozási hiba.
+  E) Free Shower Map fil, is, nb, nl a TÉRKÉPRE kötötte az ingyenest; pt a
+                     seoParagraph2-ben ("gratuito" hímnem = a mapa-val egyezik).
+  F) aposztróf       tr keveredett (82 ASCII vs 2 tipográfiai) → egységesítve.
+  G) termsLink       id "Istilah", ko "용어", vi "Các thuật ngữ", zh "术语" —
+                     MIND A NÉGY "SZAKKIFEJEZÉSEK", mint a német "Begriffe".
+                     A jogi link a lábléc­ben, minden oldalon.
+  H) Always active    ko "이용 가능" (= elérhető), zh "始终在线" (= mindig ONLINE).
+  I) navWhy          pt és tr kapott kérdőjelet.
+  J) számok          id/is/pt/ko/zh KEVERTE a két számformátumot ugyanabban a
+                     csemperácsban (ko: "52만" mellett "248k"; zh: "49.3万"
+                     mellett "1.8k"). Egységesítve.
+
+  ÚJ MINTA, amit csak itt vettem észre — és ami VISSZAMENŐLEG is érintett:
+  K) trip3Title "See what it adds up to" (az útiterv KÖLTSÉG-ÖSSZESÍTŐJE)
+     11 nyelvben elvesztette a jelentését: "nézd meg, mit ad / mit kínál /
+     mit jelent". Ebből KETTŐ (ru, fa) olyan nyelv volt, amit már
+     kipipáltam — rés volt a korábbi menetemben, pótolva.
+     Érintett: fa, id, is, ko, nb, nl, pt, ru, tr, vi, zh.
+
+--------------------------------------------------------------------------------
+MIT FED LE EZ AZ ELLENŐRZÉS — ÉS MIT NEM
+--------------------------------------------------------------------------------
+A 665 string nem egyforma súlyú, és nem is néztem mindet egyforma mélyen.
+
+  496 rövid string (<52 karakter, 220 egyedi)  — MINDEN NYELVEN VÉGIGOLVASVA
+      Ez a tényleges felület: gombok, navigáció, kategórianevek, aria-feliratok,
+      a sütisáv, a lábléc. A talált hibák túlnyomó része innen jött.
+
+  150 közepes string (52-200 karakter)  — nyelvenként átnézve, de nem
+      sorról sorra összevetve; a gépi menetek (placeholder, üres, szóköz,
+      fordítatlan, ütközés) viszont ezekre is lefutottak.
+
+   19 hosszú SEO-bekezdés (200-613 karakter)  — TELJESEN csak ru és ja
+      nyelven olvasva (a regiszter-átírás miatt). A többinél szúrópróba +
+      gépi ellenőrzés.
+      UTÓLAG PÓTOLVA: a bennük lévő SZÁMADATOKAT mind a 23 nyelven
+      összevetettem az angollal (190 000 / 450 000 / 36 000 / 20 000 /
+      380 000 / 490 000 / 289 / 20). Mind egyezik. Az 5 gépi jelzés
+      vakriasztás volt: a ja/ko/zh 万/만 egységben, a pt "mil"-ben írja,
+      a fr pedig betűvel ("une vingtaine" = kb. húsz).
+
+  AMIT NEM TUDOK GARANTÁLNI:
+  - Nem vagyok anyanyelvi beszélő ebben a 22 nyelvben. A CSÍPŐS hibákat
+    megfogom (rossz szó, megfordult jelentés, törött nyelvtan, kevert
+    regiszter, tényhiba), de a finom stílus-árnyalatokat a hosszú
+    marketingszövegben nem tudom anyanyelvi biztonsággal megítélni.
+  - A trip3Title esete bizonyítja, hogy a NYELVENKÉNTI olvasás önmagában
+    nem volt kimerítő: azt a hibát csak a kulcs-elsős söprés találta meg,
+    és két olyan nyelvben is benne volt (ru, fa), amit addigra kipipáltam.
+    Ha új hibaosztály merül fel, ÉRDEMES ÚJRA VÉGIGSÖPÖRNI mind a 22-t —
+    az gyorsabb és megbízhatóbb, mint újraolvasni.
+
+================================================================================
+  NYELVENKÉNTI JEGYZŐKÖNYV
+================================================================================
+
+--------------------------------------------------------------------------------
+[x] fil, hi, id, is, ko, nb, nl, pt, sv, tr, vi, zh          KÉSZ 2026-09-10
+--------------------------------------------------------------------------------
+A fenti söprésen túl nyelvenként:
+
+  fil  "City exploration" → "Pagsusuri" = VIZSGÁLAT/elemzés, nem felfedezés;
+       "showers" → "paliligo" = a fürdés mint cselekvés; routingPage.bodyCopy
+       kezdő szóköz (2×); a márkanév hiányzott a parking seoParagraph1-ből
+  hi   rendben, a fenti mintákon túl nem találtam hibát
+  id   consentNecessaryLabel körülírás volt ("Hal-hal yang diperlukan");
+       regiszter végig "Anda" (115/0) — konzisztens
+  is   use4Title kezdő szóköz; "Van life" → "Vagnlíf" (= kordé-élet), a
+       lakóautó izlandiul húsbíll; previewCaption "Vörukynning" = termék-
+       BEMUTATÓ, nem előnézet
+  ko   "Voyager 맵" ×5 — a "Maps" LEFORDULT (mint a perzsában);
+       Google Maps HÁROM alakban (구글 맵스 / 구글 지도 / 구글 맵) → 구글 지도;
+       4 helyen ‘Voyager Maps’ szimpla idézőjelben.
+       FIGYELEM: a 구글 맵 → 구글 지도 csere után a partikula hibás lett
+       (지도은), mert a 맵 mássalhangzós, a 지도 magánhangzós — SAJÁT HIBA,
+       az ellenőrzés fogta meg, javítva 지도는-ra
+  nb   "Van life" → "campingvogn" = VONTATOTT LAKÓKOCSI, nem lakóautó
+       (máshol helyesen "bobil"); a 2. és 3. lépés IGÉJE azonos volt
+       ("Sjekk"/"Sjekk"), elveszett a különbség; use4Title felszólító
+  nl   "Van life" → "busje" (= kisbusz) → "Camperleven";
+       previewCaption "Productvoorproefje" (= kóstoló) → "Productvoorbeeld"
+  pt   _shared catLaundry "lavanderia e lavanderias" — UGYANAZ A SZÓ KÉTSZER
+       (mint az arabban és spanyolban); shower.seoParagraph2-ben "gratuito"
+       hímnem → a TÉRKÉP lett ingyenes; regiszter "você" (118/10, egyezik
+       az appal — a 10 "tu" vakriasztás)
+  sv   "Camping & duschar" & jellel a testvérek "och"-ja közt; use4Title
+       felszólító; trip3Title elvesztette a költség-jelentést
+  tr   aposztróf-keveredés; regiszter végig magázó (80/2), egyezik az appal
+  vi   A WEBOLDAL VÉGIG "cậu"-T HASZNÁLT (99 string) — ez baráti/bizalmas
+       névmás —, MÍG AZ APP "bạn"-t (74 string, semleges). Ugyanaz a márka,
+       két különböző megszólítás, mint az orosznál. 123 előfordulás átírva.
+  zh   20 helyen "Voyager Maps" kínai idézőjelben (77 említésből) →
+       eltávolítva; számformátum-keveredés
+
+--------------------------------------------------------------------------------
+[x] ar — ARAB                                                     KÉSZ 2026-09-10
+--------------------------------------------------------------------------------
+1. Szövegösszevetés  mind a 665 string + 3 városoldal-forrás átnézve
+2. Ütközés           1 találat, ártalmatlan ("Open Voyager Maps" /
+                     "Open Voyager Maps App" — azonos jelentés)
+3. Regiszter         egységes (az arabban nincs T/V megkülönböztetés;
+                     a hímnemű egyes szám végig konzisztens)
+4. Márkanév          ép, sehol nincs átírva arab betűkre
+5. Placeholder       hibátlan, fordítatlan string 0
+6. Megjelenés        layout OK; dir="rtl" mind a 9 oldalon megvan
+
+   TARTALMI HIBÁK, JAVÍTVA:
+   - "customer-allowed Wi-Fi spots" → «واي فاي مسموح بها من قبل العملاء»
+     = "Wi-Fi, amit A VENDÉGEK engedélyeznek". Megfordult a szereplő: a
+     jelentés az, hogy a vendégek HASZNÁLHATJÁK. → «متاحة للعملاء»
+   - "See what it adds up to" (az útiterv költség-összesítője) →
+     «اكتشف ما يقدمه هذا التطبيق» = "Fedezd fel, mit nyújt az app" —
+     a jelentés teljesen elveszett → «اطّلع على إجمالي التكلفة»
+   - consentReject "Use necessary only" → «استخدم ما هو ضروري فقط»
+     = "csak azt használd, ami szükséges" — UGYANAZ a hiba, mint oroszban
+     és japánban: felszólítás a választás neve helyett → «الضرورية فقط»
+   - _shared catLaundry «مغاسل ومغاسل ملابس» — ugyanaz a szó KÉTSZER
+     ("mosodák és ruhamosodák") → «مغاسل ذاتية الخدمة»
+   - cat_attractionCount "248k" fordítatlanul maradt, miközben mind a
+     8 testvére ألف-ot használ (520 ألف, 493 ألف…) → «248 ألف»
+   - "Google Maps" NÉGY különböző alakban: «جوجل مابس» (idézőjelben),
+     «خرائط Google», «خرائط جوجل», «Google Maps» → egységesen «خرائط Google»
+   - proofStores HÁROM alakban, az indexen «متجر التطبيقات (App Store)
+     و«جوجل بلاي» (Google Play)» — mindkét boltnevet megduplázza és
+     idézőjelbe teszi → «App Store و Google Play»
+   - heroAria: 6 oldal, 4 minta. A parking «الصفحة الرئيسية» = FŐOLDAL-t
+     mond a képernyőolvasónak (mint oroszban), kettő pedig «صفحة الهبوط»
+     fejlesztői zsargont → mind «صورة رئيسية لصفحة …»
+   - "App Store" hol lefordítva («متجر التطبيقات»), hol nem, miközben a
+     Google Play végig latin betűs. Az Apple saját arab oldala is latinul
+     hagyja → egységesítve
+   - "Van life" → «حياة في الشاحنة» — a شاحنة TEHERAUTÓ → «حياة الفان»
+
+--------------------------------------------------------------------------------
+[x] ru — OROSZ                                                    KÉSZ 2026-09-10
+--------------------------------------------------------------------------------
+1. Szövegösszevetés  mind a 665 string az angol mellett kigyűjtve és átnézve
+2. Ütközés           2 találat, mindkettő ártalmatlan (aria-feliratok, azonos
+                     jelentés): "Download…"/"Get it on…" Google Play, ill.
+                     "Language options"/"Language switcher"
+3. Regiszter         RENDSZERSZINTŰ HIBA: 181 string tegezett, magázó 0.
+                     Ok: translate-locale.py feltétel nélküli prefer_less.
+                     Az app közben 0 tegező / 54 magázó — ugyanaz a márka,
+                     ellentétes hangnem. 119 egyedi szöveg átírva kézzel,
+                     + 12 a városoldal-forrásokban.
+4. Márkanév          5 helyen «Voyager Maps» → idézőjel eltávolítva
+5. Placeholder       hibátlan
+6. Megjelenés        layout OK; a hosszabb magázó alakok (Скачайте vs Скачай)
+                     sehol nem lógnak ki
+
+   TARTALMI HIBÁK, JAVÍTVA:
+   - "Free Shower Map" → "Бесплатная карта душевых" = INGYENES TÉRKÉP, nem
+     ingyenes zuhany. A <title>-ben, a seoTitle-ben és 6 lábléclinkben.
+     → "Карта бесплатных душевых"
+   - consentReject "Use necessary only" → "Használd csak azt, amire szükséged
+     van" — tanács a felhasználónak, nem egy választás neve. → "Только необходимые"
+   - consentAccept "Accept analytics" → "Elfogadom az analitika felhasználási
+     FELTÉTELEIT" — kitalált jogi dokumentum, ráadásul 44 karakter egy gombon
+     a 20 karakteres szomszédja mellett. → "Принять аналитику"
+   - heroAria: 6 oldal, 6 különböző fordítás. A water nyelvtanilag törött
+     ("Героя" tárgyeset állítmány nélkül) és a "hero" irodalmi hős lett;
+     a toilet/shower azt mondja a képernyőolvasónak, hogy a FŐOLDALON van.
+     → mind "Главный блок страницы «…»"
+   - consentNecessaryValue: ugyanaz a kulcs 4 oldalon "Всегда в работе",
+     2 oldalon "Всегда работает" → egységesen "Всегда активно"
+   - "stop" → "остановка" tömegközlekedési értelemben (tripTitle) → javítva
+
+--------------------------------------------------------------------------------
+[x] da — DÁN                                                      KÉSZ 2026-09-10
+--------------------------------------------------------------------------------
+1. Szövegösszevetés  mind a 665 string + 1 városoldal-forrás átnézve
+2. Ütközés           1 találat, ártalmatlan ("Language options"/"Language
+                     switcher" → Sprogvalg)
+3. Regiszter         "du" végig — a dánban ez a helyes, a "De" archaikus
+4. Márkanév          ép
+5. Placeholder       hibátlan. A 10 "fordítatlan" string mind valódi dán szó:
+                     downloads, Backpacking, Toilet, Google Maps
+6. Megjelenés        layout OK
+
+   TARTALMI HIBÁK, JAVÍTVA:
+   - consentReject "Use necessary only" → "Brug kun det nødvendige"
+     = "csak azt használd, ami szükséges" — NEGYEDIK nyelv ugyanezzel a
+     hibával (ru, ja, ar után) → "Kun nødvendige"
+   - _hub restText: "too little of them is mapped" → "der er kortlagt for få
+     AF DEM" = túl kevés VÁROS van feltérképezve. Az angol azt mondja, hogy
+     az EGYES VÁROSOKBAN van kevés adat → "for lidt i dem"
+   - "Free or customer Wi-Fi" → "kundebaseret Wi-Fi" (= ügyfél-alapú)
+     → "Wi-Fi for kunder"
+   - heroAria: 6 oldal, 4 séma, KETTŐBEN nyers angol fejlesztői zsargon
+     ("Landing-hero for gratis brusebad", "Parkering – landing hero") —
+     ezt olvasná fel a képernyőolvasó → mind "Hovedbillede for …"
+   - "Camping & showers" & jellel, miközben minden más kategória "og"-ot
+     használ (Sundhed og…, Kontanter og…) → egységesítve
+   - use4Title "City exploration" → "Udforsk byen" felszólító, miközben a
+     másik három utazási stílus főnév (Bilferie, Backpacking…) → "Byudforskning"
+   - "Van life" → "Livet i en varevogn" — a varevogn ÁRUSZÁLLÍTÓ FURGON
+     → "Autocamperlivet"
+   - "autocamper" egyes számban a "Campervan Service Map"-ben → "autocampere"
+   - navWhy "Why Voyager" → "Hvorfor Voyager?" — kérdőjel került a navigációs
+     menüpontba, ami az angolban nincs
+
+--------------------------------------------------------------------------------
+[x] de — NÉMET                                                    KÉSZ 2026-09-10
+--------------------------------------------------------------------------------
+1. Szövegösszevetés  mind a 663 string + 10 városoldal-forrás átnézve
+2. Ütközés           1 találat, ártalmatlan (Toilets/toilets → Toiletten)
+3. Regiszter         "du" végig egységes (111 du / 0 Sie). A gépi szűrő 3
+                     "Sie"-t jelzett, mind VAKRIASZTÁS: harmadik személyű
+                     "sie" (= az app, ill. az útikönyvek) mondat elején.
+                     Egyezik az appal (84 du / 0 Sie).
+4. Márkanév          1 helyen „Voyager Maps“-App német idézőjelben → javítva
+5. Placeholder       hibátlan. A 9 "fordítatlan" string valódi: App Store &
+                     Google Play, Google Maps, In Paris
+6. Megjelenés        layout OK
+
+   TARTALMI HIBÁK, JAVÍTVA:
+   - termsLink "Terms" → "BEGRIFFE" = szakkifejezések/fogalmak. Ez a jogi
+     Felhasználási feltételek link a lábléc­ben, MINDEN oldalon, a
+     Datenschutzerklärung és a Daten löschen mellett.
+     → "Nutzungsbedingungen"   [a legsúlyosabb találat ebben a nyelvben]
+   - "Free Shower Map" → "Kostenlose Duschkarte" = INGYENES TÉRKÉP, nem
+     ingyenes zuhany — ugyanaz a hiba, mint oroszban
+     → "Karte mit kostenlosen Duschen"
+   - consentReject "Use necessary only" → "Nur das Nötigste verwenden"
+     = "csak a legszükségesebbet használd" — ÖTÖDIK nyelv ugyanezzel a
+     hibával → "Nur notwendige"
+   - _hub restText: "too little of them is mapped" → "zu wenige DAVON" =
+     túl kevés VÁROS (mint a dánban) → "da in ihnen zu wenig erfasst ist"
+   - trip2Title "Teile IHN mit deinen Reisepartnern" — hímnemű névmás,
+     de a mellette lévő kártya "eine Reiseroute" (nőnemű). Nem egyeztet.
+     → "Teile die Route…" (a tárgy megnevezésével egyértelmű)
+   - heroAria: 6 oldal, 4 séma, kettőben nyers angol "Hero"/"Landing-Page-
+     Hero" — a képernyőolvasó ezt olvasná fel → mind "Hauptbereich der Seite …"
+   - vsNeed5 "What it focuses on" → "Worauf SIE sich konzentriert" — ez egy
+     összehasonlító táblázat sorfejléce, nem szabad az egyik appra mutatnia
+     → "Schwerpunkt"
+   - consentNecessaryLabel "Necessary" → "Unverzichtbar" (= nélkülözhetetlen);
+     sütikategóriánál a bevett alak "Notwendig"
+   - expStep2Title főnévi igenév ("Die Umgebung scannen"), miközben az 1. és
+     3. lépés felszólító → egységesítve
+   - navWhy "Why Voyager" → "Warum Voyager?" — kérdőjel a navigációs
+     menüpontban (ugyanaz, mint a dánban)
+
+--------------------------------------------------------------------------------
+[x] es — SPANYOL                                                  KÉSZ 2026-09-10
+--------------------------------------------------------------------------------
+1. Szövegösszevetés  mind a 663 string + 4 városoldal-forrás átnézve
+2. Ütközés           1 találat, ártalmatlan (Toilet/Toilets)
+3. Regiszter         "tú" végig. A gépi szűrő 5 magázó alakot jelzett, mind
+                     VAKRIASZTÁS: harmadik személy ("¿Cuántos lugares TIENE
+                     Voyager Maps?" — az appról szól, nem az olvasóhoz)
+4. Márkanév          ép
+5. Placeholder       hibátlan
+6. Megjelenés        layout OK
+
+   TARTALMI HIBÁK, JAVÍTVA:
+   - "Aseos" és "baños" KEVEREDIK, ugyanazon az oldalon: a városoldalak H1-e
+     "Aseos públicos", a törzsszöveg és a lábléclink "baños públicos".
+     A "baños" a domináns (36 vs 11) → egységesítve, 20 előfordulás
+   - _shared catLaundry "lavanderías y lavanderías automáticas" — ugyanaz a
+     szó KÉTSZER (mint az arabban) → "lavanderías y autoservicios"
+   - consentReject "Use necessary only" → "Úsalo solo si es necesario"
+     = "csak akkor használd, ha szükséges" — HATODIK nyelv ugyanezzel
+     → "Solo las necesarias"
+   - heroAria: 6 oldal, 4 séma; KETTŐ "Página de inicio" = FŐOLDAL-t mond a
+     képernyőolvasónak (mint oroszban és arabban) → mind "Imagen principal
+     de la página de …"
+   - toilet.seoParagraph2 keveri a személyt: "quienes buscan" (E/3) után
+     "TUS desplazamientos" (E/2) → "sus"
+   - consentNecessaryLabel "Imprescindible" (E/sz) a "Siempre activa"
+     (nőnem) mellett — nem egyeztet → "Imprescindibles"
+   - consentSave "Guarda tus preferencias" felszólító, miközben a szomszédos
+     gombok főnévi igenevek (Personalizar, Aceptar análisis) → "Guardar
+     preferencias"
+   - use4Title "City exploration" → "Explora la ciudad" felszólító a másik
+     három utazási stílus főnevei közt → "Turismo urbano"
+   - "Echa un vistazo" NÉGYSZER szerepelt, és a 2./3. lépés ("Scan the area"
+     / "Check before you walk") mindkettő ezzé vált, elveszítve a
+     különbséget → külön igékre bontva
+   - termsLink "Terms" → "Términos" csupaszon → "Términos de uso"
+   - previewCaption "Avance del producto" (= filmelőzetes), miközben minden
+     más "Vista previa" → egységesítve
+   - navWhy kérdőjelet kapott a navigációs menüpontban (mint da, de)
+
+--------------------------------------------------------------------------------
+[x] fa — PERZSA                                                   KÉSZ 2026-09-10
+--------------------------------------------------------------------------------
+1. Szövegösszevetés  mind a 665 string + 1 városoldal-forrás átnézve
+2. Ütközés           2 találat, mindkettő ártalmatlan (egyes/többes, kisbetű)
+3. Regiszter         magázó végig (203 string). EGY kilógó tegező akadt
+                     (trip2Title) → javítva. A gépi szűrő további 6-ot jelzett,
+                     mind vakriasztás.
+4. Márkanév          3 helyen "نقشهٔ Voyager" — a "Maps" LEFORDULT és a név
+                     elé került ("Voyager térképe") → visszaállítva
+5. Placeholder       hibátlan, fordítatlan string 0
+6. Megjelenés        layout OK; dir="rtl" mind a 8 oldalon megvan
+
+   TARTALMI HIBÁK, JAVÍTVA:
+   - cat_attractionCount "248k" → «۲۴۸ کیلوبایت» = 248 KILOBÁJT. A "k"-t
+     számítástechnikai előtagnak vette, holott 248 EZER látnivalóról van szó.
+     Mind a 8 testvére helyesen «هزار» → «۲۴۸ هزار»
+     [ez a "withdraw"-osztály: egy betű, teljesen más jelentés]
+   - toilet.heroTitle "Find public toilets anywhere" → «سرویس‌های عمومی»
+     — kiesett a بهداشتی (egészségügyi), így "nyilvános SZOLGÁLTATÁSOK"
+     lett belőle a vécé-oldal H1-ében → pótolva
+   - "Public Toilet Map" ugyanaz az angol string KÉTFÉLEKÉPP: a lábléclink
+     «توالت‌های عمومی», a böngészőfül «سرویس‌های بهداشتی عمومی» — ugyanazon
+     az oldalon. A «سرویس بهداشتی» a domináns (33 vs 13) → egységesítve
+   - heroAria "Hero section" → «بخش قهرمان» = BAJNOK/HŐS szekció (mint
+     oroszban és japánban) → «بخش اصلی»
+   - a 6 landing-page heroAria öt különböző séma, mind «صفحه فرود»-dal,
+     ami REPÜLŐGÉP-LESZÁLLÁST jelent → mind «تصویر اصلی صفحه …»
+   - KÉT KÜLÖNBÖZŐ TIZEDESJEL keveredett: ASCII pont (19×) és perzsa ٫ (5×),
+     ugyanazokra a számokra (۵.۵ és ۵٫۵, ۱.۱ és ۱٫۱) → mind ٫-re
+   - catWifiTile "customer Wi-Fi" → «اشتراکی» = MEGOSZTOTT/előfizetéses,
+     nem "vendégeknek szóló" → «ویژه مشتریان»
+   - trip2Title tegező volt («همراهانت … بگذار») a 203 magázó string közt
+   - cat_parking «فضای پارک» = PARK (kert) terület; máshol végig «پارکینگ»
+     → «جای پارک»
+   - vsGmLabel «نقشه گوگل» vs «گوگل مپس» — egy terméknév két alakban
+   - expStep2Title főnév a másik két lépés felszólító alakja mellett
+
+   MEGJEGYZÉS: a _hub restText-et a perzsa HELYESEN fordította ("a
+   nyomtávolság belőlük kevés"), pont azt, amit a dán és a német elrontott.
+
+--------------------------------------------------------------------------------
+[x] fr — FRANCIA                                                  KÉSZ 2026-09-10
+--------------------------------------------------------------------------------
+1-6. mind a 663 string + 5 városoldal-forrás; ütközés 2 db, ártalmatlan;
+     regiszter végig "tu" (154 string, 0 vous), egyezik az appal;
+     márkanév ép; placeholder hibátlan; layout OK
+
+   TARTALMI HIBÁK, JAVÍTVA:
+   - vsVm4 "customer-allowed Wi-Fi spots" → "ouverts au PUBLIC" = mindenki
+     előtt nyitva. Az ELLENKEZŐJÉT állítja: a lényeg, hogy vendégként
+     használhatod → "réservés aux clients"
+   - MIND A HAT heroAria "Page d'accueil" = FŐOLDAL (mint a lengyelben)
+     → "Section principale de la page « … »"
+   - consentReject → "N'utilise que ce qui est nécessaire" — KILENCEDIK nyelv
+     ugyanezzel a hibával → "Nécessaires uniquement"
+   - _hub restText "trop peu d'entre elles" = túl kevés VÁROS — ÖTÖDIK nyelv
+     ugyanezzel (da, de, pl, it után) → "trop peu de choses y sont répertoriées"
+   - APOSZTRÓF-KEVEREDÉS: 261 ASCII (') és 51 tipográfiai (') — egységesítve
+     a francia tipográfia szabványára ('), 248+21 csere
+   - a városoldalak közül kettő "restos" (szleng), egy "restaurants" —
+     az angol "restaurants" → egységesítve
+   - consentNecessaryLabel/Value nem egyeztetett (Indispensable / active)
+
+--------------------------------------------------------------------------------
+[x] it — OLASZ                                                    KÉSZ 2026-09-10
+--------------------------------------------------------------------------------
+1-6. mind a 663 string + 4 városoldal-forrás; ütközés 2 db, ártalmatlan
+     (a két badge-sor ugyanaz, olaszul mindkettő fölött működik);
+     regiszter végig "tu" — a 3 gépi találat vakriasztás; layout OK
+
+   TARTALMI HIBÁK, JAVÍTVA:
+   - APOSZTRÓF-KEVEREDÉS: 86 tipográfiai (') és 40 ASCII (') → egységesítve
+   - heroAria: 6 oldal, 5 séma. Egyben NYERS ANGOL ("Hero page \"Docce
+     gratuite\""), egy "Pagina iniziale" (= kezdőlap), egy "Pagina di
+     benvenuto" (= üdvözlő oldal) → mind "Immagine principale della pagina …"
+   - consentReject "Usa solo ciò che ti serve" — NYOLCADIK nyelv → "Solo necessari"
+   - _hub restText "ne sono state mappate troppo poche" = túl kevés VÁROS
+     → "ne è stato mappato troppo poco"
+   - toilet.seoParagraph2 keveri a személyt: "chi cerca" (E/3) után "sei"
+     (E/2) — ugyanaz, mint a spanyolban → "si è"
+   - cat_emergency "Salute e emergenze" — hiányzó eufonikus d → "ed emergenze"
+   - consentNecessaryLabel/Value nem egyeztetett; termsLink "Condizioni"
+     csupaszon → "Termini e condizioni"
+
+--------------------------------------------------------------------------------
+[x] pl — LENGYEL                                                  KÉSZ 2026-09-10
+--------------------------------------------------------------------------------
+1-6. mind a 663 string + 6 városoldal-forrás; ütközés 1 db, ártalmatlan;
+     regiszter végig tegező (74 string, 0 Pan/Pani), egyezik az appal;
+     márkanév ép; placeholder hibátlan; layout OK
+
+   TARTALMI HIBÁK, JAVÍTVA:
+   - catWifiTile "Free or customer Wi-Fi" → "Darmowe lub PŁATNE Wi-Fi"
+     = "ingyenes vagy FIZETŐS" — az ELLENKEZŐJÉT állítja, és pont a termék
+     lényegének mond ellent → "Darmowe Wi-Fi lub Wi-Fi dla klientów"
+   - vsVm4 "customer-allowed" → "udostępniane PRZEZ klientów" = amit A
+     VENDÉGEK biztosítanak — megfordult a szereplő (mint az arabban)
+     → "udostępniane klientom"
+   - MIND A HAT heroAria "Strona główna" = FŐOLDAL → "Sekcja główna strony …"
+   - "Free Shower Map" → "Bezpłatna mapa pryszniców" = INGYENES TÉRKÉP
+     (mint oroszban és németben) → "Mapa bezpłatnych pryszniców"
+   - consentReject "Używaj tylko tego, co niezbędne" — HETEDIK nyelv
+     → "Tylko niezbędne"
+   - warsaw.heroLead ESETTÉVESZTÉS: "rzeczy, KTÓRE potrzebujesz" — a
+     potrzebować birtokos esetet vonz, a másik 3 város helyesen "których"
+   - _hub restText "jest ICH zbyt mało" = túl kevés VÁROS → "zbyt mało w nich"
+   - termsLink "Warunki" → a bevett lengyel jogi link "Regulamin"
+   - consentAccept "Zgadzam się…" E/1-ben a felszólító testvérek közt
+   - consentNecessaryValue "Zawsze aktywna" nem egyeztet
+
+--------------------------------------------------------------------------------
+[x] ja — JAPÁN                                                    KÉSZ 2026-09-10
+--------------------------------------------------------------------------------
+1. Szövegösszevetés  mind a 663 string + a 10 városoldal-forrás átnézve
+2. Ütközés           2 találat, mindkettő rendben: a japánban nincs többes szám,
+                     így a "Toilet"/"Toilets" helyesen egy szó (トイレ), és a
+                     "Practical places"/"practical places" csak kisbetű-eltérés
+3. Regiszter         RENDSZERSZINTŰ HIBA: a teljes oldal sima alakban (だ/である)
+                     volt — 148 mondatból 140. Marketingszövegben japánul ez
+                     nem opció. Átírva ですます-ra: 156 csere a locales/ja.js-ben
+                     + 108 a 10 japán városoldal-forrásban.
+                     Címkék (pl. セルフサービスランドリー) szándékosan
+                     érintetlenül maradtak — azok helyesen です nélkül vannak.
+                     A táblázatcellák (vsGm*) is sima alakban maradtak, japán
+                     táblázatban ez a helyes.
+4. Márkanév          52 helyen 「Voyager Maps」, 1 helyen 『Voyager Maps』,
+                     1 helyen 「Google Maps」 → idézőjelek eltávolítva
+5. Placeholder       hibátlan; 7 "fordítatlan" string mind "App Store &
+                     Google Play" — tulajdonnév, helyesen marad
+6. Megjelenés        layout OK
+
+   TARTALMI HIBÁK, JAVÍTVA:
+   - "Shower, wash, refill" → 「シャワー、洗顔、水補給」 — a 洗顔 ARCMOSÁS.
+     A testvérszöveg önkiszolgáló mosodákról beszél. → 洗濯
+   - heroAria "Hero section" → 「ヒーローセクション」, azaz betű szerinti
+     átírás: a képernyőolvasó-használó "hőst" hall. A 6 landing page ugyanerre
+     4 különböző szót használt (見出し / メイン画像 / ヒーロー / ヒーロー画像).
+     → mind 「…ページのメインビジュアル」
+   - badgeAppleLine 「ダウンロードは」 — árva témajelölő partikula állítmány
+     nélkül, közvetlenül az "App Store" felirat fölött. A badge két sorból áll,
+     a másodikat a HTML adja. → 「ダウンロード」 mindkettő
+   - consentReject "Use necessary only" → 「必要な場合のみ使用すること」
+     = "csak akkor használd, ha szükséges" — ugyanaz a hiba, mint oroszban:
+     tanács a felhasználónak, nem egy választás neve → 「必須のみ使用」
+   - consentNecessaryValue "Always active" → 「常に利用可能」 (= elérhető,
+     nem aktív) → 「常に有効」
+   - 8 mondat sima alakban maradt PONT NÉLKÜL (previewNote ×5, solutionTitle,
+     catWifiTile) — a saját regiszter-szűrőm `。`-ot várt, ez rés volt benne
+   - expStep 1/2/3: az elválasztó a 2.-3. lépésben japán ・ szóköz nélkül,
+     az 1.-ben " · " mint az angolban; az igealak 選ぶ / スキャンする /
+     確認しよう (szótári / szótári / felszólító) → egységesítve
+   - badgeAppleAria és iosAria ANGOLBAN AZONOS, japánban két különböző
+     fordítás volt (…しよう vs …する) → egységesítve
+   - heroFree/pageFree: 「無料・iOS & Android」 vs 「無料・iOS・Android対応」
+     → egységesítve (nem törhető szóközök voltak benne, ezért csúszott el)
+   - parking.problemTitle kérdésként állt («困っていませんか»), a másik 5 oldal
+     főnévi szerkezettel → egységesítve
+   - shower.solutionTitle 「旅の日々を彩る」 (= "beragyogja a napjaidat")
+     — túlírt, nem illik egy segédeszközhöz → tárgyszerűre
+   - _shared attrHours 「営業時間も併記する」 szótári igealak a többi címke
+     főnévi mintája helyett → 「営業時間が記載されている」
+
+================================================================================

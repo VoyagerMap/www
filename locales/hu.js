@@ -687,7 +687,7 @@ window.voyagerLocales["hu"] = {
   expStep3Title: "3 · Indulás előtt ellenőrizd!",
   expStep3Text: "Nyitvatartási idő, díjak, akadálymentes hozzáférés – majd navigálj oda, vagy vedd fel az útvonaladba.",
   vsCityLabel: "Párizsban",
-  footerTagline: "Hasznos utazási helyek 13 nyelven. Helyadatok az OpenStreetMap közreműködőitől.",
+  footerTagline: "Hasznos utazási helyek 24 nyelven. Helyadatok az OpenStreetMap közreműködőitől.",
   installBarTitle: "Töltsd le az appot",
   installBarCta: "Telepítés",
   catWifiTile: "Ingyenes vagy vendég-Wi-Fi – bárhol rászűrhetsz",

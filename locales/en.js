@@ -194,7 +194,7 @@ window.voyagerLocales.en = {
   termsLink: "Terms",
   deleteLink: "Delete Data",
   footer: "© Voyager Maps website",
-  footerTagline: "Practical travel places in 13 languages. Place data from OpenStreetMap contributors.",
+  footerTagline: "Practical travel places in 24 languages. Place data from OpenStreetMap contributors.",
   installBarTitle: "Get Voyager Maps",
   installBarCta: "Install",
   landingPages: {

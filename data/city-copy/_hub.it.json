@@ -11,7 +11,7 @@
   "colWater": "Acqua",
   "restAria": "Città analizzate ma non pubblicate",
   "restTitle": "Misurato, ma non pubblicato",
-  "restText": "Altre città sono state conteggiate ma escluse, perché ne sono state mappate troppo poche per poter fornire informazioni utili in questa pagina. Praga totalizza a malapena un migliaio di luoghi tra le due dozzine di varianti ortografiche che OpenStreetMap usa per indicarla; Atene non registra alcun bagno pubblico. Questi luoghi rimangono nei dati con un flag di pubblicazione impostato su “no”: i conteggi sono corretti, ma sono semplicemente troppo scarsi per essere significativi, e la copertura cresce man mano che le persone aggiungono informazioni alla mappa.",
+  "restText": "Altre città sono state conteggiate ma escluse, perché ne è stato mappato troppo poco per poter fornire informazioni utili in questa pagina. Praga totalizza a malapena un migliaio di luoghi tra le due dozzine di varianti ortografiche che OpenStreetMap usa per indicarla; Atene non registra alcun bagno pubblico. Questi luoghi rimangono nei dati con un flag di pubblicazione impostato su “no”: i conteggi sono corretti, ma sono semplicemente troppo scarsi per essere significativi, e la copertura cresce man mano che le persone aggiungono informazioni alla mappa.",
   "csvLink": "Scarica i conteggi per ogni città analizzata in formato CSV",
   "ctaAria": "Scarica l’app",
   "ctaTitle": "Porta la mappa con te",

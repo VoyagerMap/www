@@ -5,14 +5,14 @@ window.voyagerLocales["is"] = {
   "landingPages": {
     "shower": {
       "htmlLang": "is",
-      "pageTitle": "Ókeypis sturtukort",
+      "pageTitle": "Kort yfir ókeypis sturtur",
       "meta": {
         "description": "Finndu sturtur á ferðalögum: tjaldstæði, strendur og almennar aðstöðu nálægt leiðinni þinni. Ókeypis forrit."
       },
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "Tungumálsrofi",
       "langOptionsAria": "Tungumálavalkostir",
-      "heroAria": "Ókeypis sturtalendingarhetja",
+      "heroAria": "Aðalmynd síðunnar um ókeypis sturtur",
       "eyebrow": "Ferðahagnýtt kort",
       "heroTitle": "Finndu ókeypis sturtur á ferðalögum",
       "heroLead": "Sturtustaðir eru dreifðir um spjallborð, ráðablogg og ófullkomnar skrár — sem gerir það ótrúlega erfitt að halda sér ferskum á ferðinni.",
@@ -50,7 +50,7 @@ window.voyagerLocales["is"] = {
       "ctaBlockTitle": "Finndu fleiri staði í nágrenninu",
       "ctaBlockText": "Opnaðu forritið til að finna fleiri sturtustaði nálægt leiðinni þinni.",
       "seoAria": "SEO-efni um ókeypis sturtakort fyrir ferðalög",
-      "seoTitle": "Ókeypis sturtukort fyrir vegferðir, bakpokaferðir og líf í sendibíl",
+      "seoTitle": "Kort yfir ókeypis sturtur fyrir vegferðir, bakpokaferðir og líf í sendibíl",
       "seoParagraph1": "Leitin að ókeypis sturtulausun fyrir ferðalög hefst yfirleitt þegar þægindi verða raunveruleg nauðsyn en ekki bara fín viðbót. Á löngum bílferðum, margra daga borgarferðum, bakpokaferðum, hjólreiðafærum eða vanlífsferðum getur aðgangur að sturtum reynst óvænt erfitt að skipuleggja. Nytsamlegir staðir kunna að vera í nágrenninu, en þeir eru oft dreifðir um samfélagsfærslur, staðbundnar tillögur, upplýsingar um strendur eða skráningar yfir aðstöðu sem erfitt er að skoða á einum stað.",
       "seoParagraph2": "Betri ókeypis sturtakort hjálpar til við að draga úr þessum hnökrum með því að gera hagnýtar lausnir í nágrenninu auðveldari að finna. Í stað þess að treysta eingöngu á víðtækar kortaleitir geta ferðalangar leitað að gagnlegum sturtastöðum með markvissari nálgun. Hvort sem þú vilt ferskast upp á milli ferðalaga, skipuleggja stopp á löngu bílferðalagi eða halda daglegum venjum viðráðanlegum á ferðalögum, gerir ferðakort yfir sturtur leitina mun hagnýtari. Þetta er gildi ókeypis ferðaupplýsinga um sturtur, skipulagðra út frá raunverulegum hreyfingum og daglegum þörfum ferðalanga.",
       "consentEyebrow": "Persónuverndarstillingar",
@@ -71,7 +71,7 @@ window.voyagerLocales["is"] = {
       "exploreHomeLink": "Heim",
       "exploreWaterLink": "Kort yfir drykkjarvatn",
       "exploreToiletLink": "Kort yfir almenningsklósett",
-      "exploreShowerLink": "Ókeypis sturtukort",
+      "exploreShowerLink": "Kort yfir ókeypis sturtur",
       "exploreParkingLink": "Bílastæðakort",
       "exploreCampervanLink": "Kort af þjónustu fyrir húsbíla",
       "exploreBackpackerLink": "Bakpoka-kort",

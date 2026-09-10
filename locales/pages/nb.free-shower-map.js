@@ -5,14 +5,14 @@ window.voyagerLocales["nb"] = {
   "landingPages": {
     "shower": {
       "htmlLang": "nb",
-      "pageTitle": "Gratis dusjkart",
+      "pageTitle": "Kart over gratis dusjer",
       "meta": {
         "description": "Finn dusjer når du er på reise: campingplasser, strender og offentlige fasiliteter i nærheten av reiseruten din. Gratis app."
       },
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "Språkvelger",
       "langOptionsAria": "Språkvalg",
-      "heroAria": "Landing-hero for gratis dusj",
+      "heroAria": "Hovedbilde for gratis dusjer",
       "eyebrow": "Kart med nyttige reiseopplysninger",
       "heroTitle": "Finn gratis dusjer når du er på reise",
       "heroLead": "Steder med dusjer er spredt utover fora, tipsblogger og ufullstendige oversikter – noe som gjør det overraskende vanskelig å holde seg frisk og frisk på reise.",
@@ -62,7 +62,7 @@ window.voyagerLocales["nb"] = {
       "consentStatisticsLabel": "Statistikk",
       "consentStatisticsValue": "Google Analytics 4 for besøk og interaksjonshendelser",
       "consentNote": "Du kan når som helst endre dette valget ved å trykke på personvernknappen.",
-      "consentReject": "Bruk kun det som er nødvendig",
+      "consentReject": "Kun nødvendige",
       "consentCustomize": "Tilpass",
       "consentSave": "Lagre innstillinger",
       "consentAccept": "Godta analyse",
@@ -71,7 +71,7 @@ window.voyagerLocales["nb"] = {
       "exploreHomeLink": "Hjem",
       "exploreWaterLink": "Kart over drikkevann",
       "exploreToiletLink": "Kart over offentlige toaletter",
-      "exploreShowerLink": "Gratis dusjkart",
+      "exploreShowerLink": "Kart over gratis dusjer",
       "exploreParkingLink": "Parkeringskart",
       "exploreCampervanLink": "Kart over tjenester for bobilister",
       "exploreBackpackerLink": "Backpacker-kart",

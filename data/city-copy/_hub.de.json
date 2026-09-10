@@ -11,7 +11,7 @@
   "colWater": "Wasser",
   "restAria": "Erfasste, aber nicht veröffentlichte Städte",
   "restTitle": "Gemessen, aber nicht veröffentlicht",
-  "restText": "Andere Städte wurden gezählt und weggelassen, da zu wenige davon erfasst sind, als dass eine Seite noch aussagekräftige Informationen liefern könnte. In Prag kommen über die zwei Dutzend Schreibweisen, die OpenStreetMap dafür verwendet, gerade mal knapp tausend Orte zusammen; in Athen sind überhaupt keine öffentlichen Toiletten verzeichnet. Sie bleiben in den Daten erhalten, allerdings mit dem Flag „no“ – die Zahlen stimmen, sie sind nur zu spärlich, um darauf aufzubauen, und die Abdeckung wächst, je mehr Leute die Karte ergänzen.",
+  "restText": "Andere Städte wurden gezählt und weggelassen, da in ihnen zu wenig erfasst ist, als dass eine Seite noch aussagekräftige Informationen liefern könnte. In Prag kommen über die zwei Dutzend Schreibweisen, die OpenStreetMap dafür verwendet, gerade mal knapp tausend Orte zusammen; in Athen sind überhaupt keine öffentlichen Toiletten verzeichnet. Sie bleiben in den Daten erhalten, allerdings mit dem Flag „no“ – die Zahlen stimmen, sie sind nur zu spärlich, um darauf aufzubauen, und die Abdeckung wächst, je mehr Leute die Karte ergänzen.",
   "csvLink": "Lade die Zahlen für jede erfasste Stadt als CSV-Datei herunter",
   "ctaAria": "Hol dir die App",
   "ctaTitle": "Nimm die Karte mit",
