@@ -68,7 +68,7 @@ window.voyagerLocales["en"] = {
       "otherCitiesTitle": "Other cities on the map",
       "otherCitiesIntro": "The same counts for the other places Voyager Maps covers in depth.",
       "allCitiesLink": "See the counts for every city as a CSV",
-      "dataNote": "Place data from OpenStreetMap contributors, licensed under the Open Database License. Counts taken on 2026-09-09 and refreshed with each data load. Absence from the map is not evidence that a place does not exist.",
+      "dataNote": "Place data from OpenStreetMap contributors, licensed under the Open Database License. Counts taken on 2026-09-10 and refreshed with each data load. Absence from the map is not evidence that a place does not exist.",
       "backToHome": "Voyager Maps home",
       "pageTitle": "Public toilets and drinking water in Rio de Janeiro",
       "metaDescription": "3,339 practical places mapped in Rio de Janeiro: 254 public toilets, 47 drinking water points, 320 places to park. Free on iOS and Android.",

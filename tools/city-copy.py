@@ -38,8 +38,10 @@ BATCH = 40
 
 TARGETS = {"de": "DE", "fr": "FR", "it": "IT", "es": "ES", "pt": "PT-BR",
            "nl": "NL", "pl": "PL", "hu": "HU", "ja": "JA", "ko": "KO", "zh": "ZH",
-           "hi": "HI"}   # hi is here for the all-cities hub only: no city
-                          # page is in Hindi, but the hub is in every language
+           "hi": "HI", "ru": "RU"}
+                          # hi and ru are here for the all-cities hub only: no
+                          # city page is in either — the dataset has no Indian
+                          # or Russian city — but the hub is in every language
 
 CONTEXT = (
     "Copy for a page of Voyager Maps, a free travel app showing practical "

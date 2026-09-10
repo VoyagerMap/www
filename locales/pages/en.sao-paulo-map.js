@@ -68,7 +68,7 @@ window.voyagerLocales["en"] = {
       "otherCitiesTitle": "Other cities on the map",
       "otherCitiesIntro": "The same counts for the other places Voyager Maps covers in depth.",
       "allCitiesLink": "See the counts for every city as a CSV",
-      "dataNote": "Place data from OpenStreetMap contributors, licensed under the Open Database License. Counts taken on 2026-09-09 and refreshed with each data load. Absence from the map is not evidence that a place does not exist.",
+      "dataNote": "Place data from OpenStreetMap contributors, licensed under the Open Database License. Counts taken on 2026-09-10 and refreshed with each data load. Absence from the map is not evidence that a place does not exist.",
       "backToHome": "Voyager Maps home",
       "pageTitle": "Public toilets and drinking water in São Paulo",
       "metaDescription": "6,666 practical places mapped in São Paulo: 203 public toilets, 114 drinking water points, 1,518 places to park. Free on iOS and Android.",
