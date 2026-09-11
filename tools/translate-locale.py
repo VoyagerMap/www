@@ -68,8 +68,10 @@ LABEL_HINT = ("One category of places shown on a travel map, listed next to "
 # English source does. Russian is the one that bit us: prefer_less put the whole
 # site in ты, which reads as a stranger being over-familiar and disagreed with
 # the mobile app, where the same fix is already in scripts/translate_locales.py.
+# Japanese likewise: the site speaks in です/ます, and prefer_less brings every
+# new sentence back in the plain だ/である form, to be put right by hand.
 # Keep the two lists in step.
-FORMAL_TARGETS = {"RU"}
+FORMAL_TARGETS = {"RU", "JA"}
 
 # Targets DeepL has no formality model for. Sending the parameter anyway is a
 # 400 on some of them, so it is left off rather than guessed.

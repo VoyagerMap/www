@@ -69,8 +69,9 @@ def auth_key():
 
 # Kept in step with tools/translate-locale.py: Russian software convention is
 # the formal second person, and prefer_less had put the city pages in ты while
-# the mobile app said вы. Targets DeepL has no formality model for get nothing.
-FORMAL_TARGETS = {"RU"}
+# the mobile app said вы. Japanese is written in です/ます for the same reason.
+# Targets DeepL has no formality model for get nothing.
+FORMAL_TARGETS = {"RU", "JA"}
 NO_FORMALITY = {"ZH", "UK", "AR", "FA", "TL", "HI", "ID", "KO", "TH", "TR",
                 "VI", "DA", "SV", "NB", "IS"}
 
