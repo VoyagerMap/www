@@ -45,7 +45,7 @@ window.voyagerLocales["fr"] = {
       "feature3Title": "Des détails qui comptent",
       "feature3Text": "Lorsque ces informations sont disponibles, tu peux aussi voir le tarif, l’accès aux fauteuils roulants, les horaires d’ouverture et un numéro de téléphone que tu peux appeler directement depuis l’appli.",
       "ctaBlockAria": "Appel à l’action",
-      "ctaBlockTitle": "Trouve un parking près de chez toi",
+      "ctaBlockTitle": "Trouve un parking à proximité",
       "ctaBlockText": "Ouvre l’appli pour voir les possibilités de stationnement près de là où tu te trouves.",
       "seoAria": "Contenu SEO sur les cartes de parkings",
       "seoTitle": "Une carte des parkings pour tes road trips, tes escapades en ville et tes trajets quotidiens",

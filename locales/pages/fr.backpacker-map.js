@@ -4,6 +4,7 @@ window.voyagerLocales = window.voyagerLocales || {};
 window.voyagerLocales["fr"] = {
   "landingPages": {
     "backpacker": {
+      "htmlLang": "fr",
       "pageTitle": "Carte pour les routards et les voyageurs en solo",
       "meta": {
         "description": "Douches, laverie, eau potable et Wi-Fi pour les routards et les voyageurs en solo. 5,5 millions de lieux dans le monde entier. App gratuite, pas besoin de compte."
@@ -39,15 +40,15 @@ window.voyagerLocales["fr"] = {
       "solutionAria": "Comment l’appli aide les routards et les voyageurs en solo",
       "solutionTitle": "Conçue pour combler les lacunes entre les auberges de jeunesse",
       "solutionText": "Une carte pour tout ce qui compte vraiment dans ta journée : plus de 36 000 douches, près de 20 000 laveries en libre-service, plus de 450 000 points d’eau potable, 490 000 toilettes et 380 000 lieux proposant une connexion Wi-Fi — soit 5,5 millions de lieux à travers le monde.",
-      "feature1Title": "Fais une douche, lave-toi, fais le plein",
+      "feature1Title": "Prends une douche, fais ta lessive, remplis ta bouteille",
       "feature1Text": "Des douches, des laveries en libre-service et de l’eau potable : de quoi rendre plus supportable une longue escale entre deux nuitées.",
       "feature2Title": "Eau et Wi-Fi gratuits",
       "feature2Text": "Filtre les lieux gratuits : points de remplissage, robinets publics et endroits avec Wi-Fi en libre accès.",
       "feature3Title": "Pas besoin de compte, pas d’inscription",
       "feature3Text": "Ouvre la carte et utilise-la. Pas besoin de t’inscrire, et ça marche pareil dans tous les pays où tu passes.",
       "ctaBlockAria": "Appel à l’action",
-      "ctaBlockTitle": "Trouve ce dont tu as besoin près de chez toi",
-      "ctaBlockText": "Ouvre l’appli pour trouver des douches, une laverie et de l’eau près de chez toi.",
+      "ctaBlockTitle": "Trouve ce dont tu as besoin à proximité",
+      "ctaBlockText": "Ouvre l’appli pour trouver des douches, une laverie et de l’eau à proximité.",
       "seoAria": "Contenu SEO sur les infrastructures pour les voyageurs en sac à dos et les voyageurs en solo",
       "seoTitle": "Carte pour les voyages en sac à dos et en solo, avec les auberges de jeunesse, les gares et les étapes en ville",
       "seoParagraph1": "Le voyage en sac à dos, c’est surtout de la logistique déguisée en aventure. Un bus de nuit arrive à six heures, l’enregistrement est à deux heures, et les huit heures entre les deux dépendent entièrement de ta capacité à trouver une douche, un endroit où laisser ton sac, un robinet pour remplir ta bouteille et un siège avec du Wi-Fi. Rien de tout ça ne figure dans un guide touristique, et c’est justement quand tu cherches tout ça dans une ville que tu ne connais pas, dans une langue que tu ne comprends peut-être pas, que ton téléphone est le moins utile.",

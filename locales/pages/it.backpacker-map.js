@@ -4,6 +4,7 @@ window.voyagerLocales = window.voyagerLocales || {};
 window.voyagerLocales["it"] = {
   "landingPages": {
     "backpacker": {
+      "htmlLang": "it",
       "pageTitle": "Mappa per backpacker e viaggiatori solitari",
       "meta": {
         "description": "Docce, lavanderia, acqua potabile e Wi-Fi per backpacker e viaggiatori solitari. 5,5 milioni di luoghi in tutto il mondo. App gratuita, senza bisogno di account."
@@ -14,7 +15,7 @@ window.voyagerLocales["it"] = {
       "heroAria": "Immagine principale della pagina dedicata a backpacker e viaggiatori solitari",
       "eyebrow": "Mappa utile per i viaggi",
       "heroTitle": "La mappa pratica per i viaggiatori con lo zaino in spalla",
-      "heroLead": "Città nuova, zaino pesante, sei ore al check-in. Da qualche parte, raggiungibile a piedi, c’è una doccia, una lavanderia a gettoni, un rubinetto con acqua potabile e il Wi-Fi gratuito — ma niente di tutto questo è segnato sulla mappa che hai in mano.",
+      "heroLead": "Città nuova, zaino pesante, mancano sei ore al check-in. Da qualche parte, raggiungibile a piedi, c’è una doccia, una lavanderia a gettoni, un rubinetto con acqua potabile e il Wi-Fi gratuito — ma niente di tutto questo è segnato sulla mappa che hai in mano.",
       "primaryCta": "Apri la mappa completa nell’app",
       "primaryCtaAria": "Apri la mappa completa per backpacker nell’app",
       "badgeAppleLine": "Scaricala su",
@@ -51,7 +52,7 @@ window.voyagerLocales["it"] = {
       "seoAria": "Contenuti SEO sulle strutture per viaggiatori zaino in spalla e chi viaggia da soli",
       "seoTitle": "Mappa per viaggiatori zaino in spalla e solitari, con ostelli, stazioni e tappe in città",
       "seoParagraph1": "Il viaggio con lo zaino in spalla è soprattutto logistica travestita da avventura. L’autobus notturno arriva alle sei, il check-in è alle due, e le otto ore che intercorrono dipendono interamente dalla tua capacità di trovare una doccia, un posto dove lasciare lo zaino, un rubinetto per riempire la borraccia e un posto a sedere con il Wi-Fi. Niente di tutto questo si trova nelle guide turistiche, e cercarlo in una città che non conosci, in una lingua che magari non capisci, è proprio il momento in cui il telefono è meno utile.",
-      "seoParagraph2": "Una mappa per backpacker vale la pena portarla con te solo se copre gli aspetti pratici del viaggio: docce, lavanderie self-service, acqua potabile, bagni pubblici, Wi-Fi, supermercati e farmacie, in ogni paese e non solo in quelli più conosciuti. Voyager Maps si basa su dati cartografici aperti e funziona senza bisogno di un account, quindi la mappa si comporta esattamente allo stesso modo sia che tu sia di passaggio tra un ostello e l’altro a Lisbona, in attesa di una coincidenza a Bangkok, o durante una lunga giornata a piedi in una città che non hai mai visitato. Soprattutto per chi viaggia da solo, sapere dove si trovano questi punti di ristoro elimina una piccola ma costante fonte di stress dal viaggio.",
+      "seoParagraph2": "Una mappa per backpacker vale la pena portarla con te solo se copre gli aspetti pratici del viaggio: docce, lavanderie self-service, acqua potabile, bagni pubblici, Wi-Fi, supermercati e farmacie, in ogni paese e non solo in quelli più conosciuti. Voyager Maps si basa su dati cartografici aperti e funziona senza bisogno di un account, quindi la mappa si comporta esattamente allo stesso modo sia che tu sia di passaggio tra un ostello e l’altro a Lisbona, in attesa di una coincidenza a Bangkok, o durante una lunga giornata a piedi in una città che non hai mai visitato. Soprattutto per chi viaggia da solo, sapere dove si trovano le fermate utili elimina una piccola ma costante fonte di stress dal viaggio.",
       "consentEyebrow": "Impostazioni sulla privacy",
       "consentTitle": "Le tue opzioni sulla privacy",
       "consentDescription": "Utilizziamo strumenti di analisi opzionali solo dopo aver ottenuto il tuo consenso, a fini statistici, per migliorare e perfezionare Voyager Maps.",

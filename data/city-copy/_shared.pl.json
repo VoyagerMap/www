@@ -20,9 +20,9 @@
   "seoAria": "O wyszukiwaniu przydatnych miejsc w tym mieście",
   "otherCitiesAria": "Zasięg w innych miastach",
   "otherCitiesTitle": "Inne miasta na mapie",
-  "otherCitiesIntro": "To samo dotyczy innych miejsc, które Voyager Maps szczegółowo opisuje.",
+  "otherCitiesIntro": "Podobne dane są dostępne także dla innych miast szczegółowo opisanych w Voyager Maps.",
   "allCitiesLink": "Zobacz dane liczbowe dla każdego miasta w formacie CSV",
-  "dataNote": "Dane pochodzą od użytkowników OpenStreetMap i są objęte licencją Open Database License. Liczby zebrano 9 września 2026 r. i są aktualizowane przy każdym ładowaniu danych. Brak danego miejsca na mapie nie oznacza, że ono nie istnieje.",
+  "dataNote": "Dane pochodzą od użytkowników OpenStreetMap i są objęte licencją Open Database License. Liczby zebrano 10 września 2026 r. i są aktualizowane przy każdym ładowaniu danych. Brak danego miejsca na mapie nie oznacza, że ono nie istnieje.",
   "backToHome": "Strona główna Voyager Maps",
   "_note": "DeepL PL of _shared.en.json. Re-run tools/city-copy.py --force after editing the English."
 }

@@ -43,7 +43,7 @@ window.voyagerLocales["pl"] = {
       "feature1Title": "Wyselekcjonowane miejsca",
       "feature1Text": "Przydatne miejsca z prysznicami, wybrane z myślą o praktycznych potrzebach podróżnych, zamiast ogólnych, nieprecyzyjnych list miejsc.",
       "feature2Title": "Dla podróżników",
-      "feature2Text": "Przydatna podczas życia w kamperze, podróży z plecakiem, długich tras samochodowych i innych mobilnych sposobów podróżowania.",
+      "feature2Text": "Przydaje się podczas życia w kamperze, podróży z plecakiem, długich tras samochodowych i innych mobilnych sposobów podróżowania.",
       "feature3Title": "Przydatne miejsca",
       "feature3Text": "Wskazuje miejsca, których na większości map nie widać wyraźnie, a które mogą się przydać, gdy chcesz się odświeżyć podczas podróży.",
       "ctaBlockAria": "Wezwanie do działania",

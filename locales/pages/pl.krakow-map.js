@@ -66,9 +66,9 @@ window.voyagerLocales["pl"] = {
       "seoAria": "O wyszukiwaniu przydatnych miejsc w tym mieście",
       "otherCitiesAria": "Zasięg w innych miastach",
       "otherCitiesTitle": "Inne miasta na mapie",
-      "otherCitiesIntro": "To samo dotyczy innych miejsc, które Voyager Maps szczegółowo opisuje.",
+      "otherCitiesIntro": "Podobne dane są dostępne także dla innych miast szczegółowo opisanych w Voyager Maps.",
       "allCitiesLink": "Zobacz dane liczbowe dla każdego miasta w formacie CSV",
-      "dataNote": "Dane pochodzą od użytkowników OpenStreetMap i są objęte licencją Open Database License. Liczby zebrano 9 września 2026 r. i są aktualizowane przy każdym ładowaniu danych. Brak danego miejsca na mapie nie oznacza, że ono nie istnieje.",
+      "dataNote": "Dane pochodzą od użytkowników OpenStreetMap i są objęte licencją Open Database License. Liczby zebrano 10 września 2026 r. i są aktualizowane przy każdym ładowaniu danych. Brak danego miejsca na mapie nie oznacza, że ono nie istnieje.",
       "backToHome": "Strona główna Voyager Maps",
       "pageTitle": "Toalety publiczne i woda pitna w Krakowie",
       "metaDescription": "W Krakowie zidentyfikowano 3 559 przydatnych miejsc: 191 toalet publicznych, 93 punkty z wodą pitną, 753 miejsca parkingowe. Aplikacja jest darmowa na iOS i Androida.",
@@ -78,7 +78,7 @@ window.voyagerLocales["pl"] = {
       "statsIntro": "Ile obiektów każdego rodzaju znajduje się obecnie na mapie w Krakowie. Są to lokalizacje zaznaczone na mapie, a nie szacunkowa liczba wszystkich istniejących obiektów — dane pochodzą z OpenStreetMap i są uzupełniane w miarę jak ludzie dodają do nich nowe informacje.",
       "ctaBlockTitle": "Znajdź te miejsca w Krakowie na swoim telefonie",
       "seoTitle": "Jak znaleźć toaletę, kran z wodą pitną lub prysznic w Krakowie",
-      "seoText": "Ogólne aplikacje mapowe skupiają się na firmach i wskazówkach dojazdu, więc rzeczy darmowe i publiczne – toaleta w parku, fontanna z wodą pitną na placu, prysznic na plaży – są w nich zazwyczaj najsłabiej uwzględnione. Właśnie tę lukę wypełnia ta mapa. W Krakowie obecnie zawiera 191 toalet publicznych i 93 miejsca do napełnienia butelki, a przy każdym z nich znajdziesz informacje o kosztach, godzinach otwarcia i dostępie, zgodnie z danymi źródłowymi. Działa tak samo w każdym mieście, do którego się wybierzesz.",
+      "seoText": "Ogólne aplikacje mapowe skupiają się na firmach i wskazówkach dojazdu, więc rzeczy darmowe i publiczne – toaleta w parku, fontanna z wodą pitną na placu, prysznic na plaży – są w nich zazwyczaj najsłabiej uwzględnione. Właśnie tę lukę wypełnia ta mapa. W Krakowie Voyager Maps zawiera obecnie 191 toalet publicznych i 93 miejsca do napełnienia butelki, a przy każdym z nich znajdziesz informacje o kosztach, godzinach otwarcia i dostępności, zgodnie z danymi źródłowymi. Działa tak samo w każdym mieście, do którego się wybierzesz.",
       "highlight": "W Krakowie jest 2,1 razy więcej toalet publicznych niż miejsc, gdzie można napełnić butelkę – 191 w porównaniu z 93. Warto się zaopatrzyć, zanim wyruszysz w drogę."
     }
   }

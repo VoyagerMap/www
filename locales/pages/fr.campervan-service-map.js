@@ -4,6 +4,7 @@ window.voyagerLocales = window.voyagerLocales || {};
 window.voyagerLocales["fr"] = {
   "landingPages": {
     "campervan": {
+      "htmlLang": "fr",
       "pageTitle": "Carte des services pour camping-cars et fourgons aménagés",
       "meta": {
         "description": "Trouve des points d’eau, des douches, des laveries et des campings pour ton camping-car ou ton mobil-home. Plus de 190 000 sites dans le monde entier. App gratuite, pas besoin de compte."
@@ -37,13 +38,13 @@ window.voyagerLocales["fr"] = {
       "problem2": "Les applis communautaires ne répertorient que les lieux que quelqu’un a pris la peine d’ajouter, donc la couverture se raréfie dès que tu t’éloignes des itinéraires les plus fréquentés.",
       "problem3": "Les applications de cartographie classiques traitent un camping-car comme une voiture et indiquent rarement si un arrêt est utile quand tu vis dans ton véhicule.",
       "solutionAria": "Comment l’appli aide les voyageurs en camping-car et en fourgon aménagé",
-      "solutionTitle": "Tout ce dont un campeur peut venir à manquer",
+      "solutionTitle": "Tout ce dont tu peux manquer en voyage en camping-car",
       "solutionText": "Voyager Maps regroupe tous ces lieux pratiques sur une seule carte : plus de 190 000 campings et aires de caravaning, plus de 450 000 points d’eau potable, 36 000 douches et près de 20 000 laveries en libre-service dans le monde entier — sans oublier les toilettes, les stations-service et les parkings sur ton trajet.",
       "feature1Title": "Fais le plein et rafraîchis-toi",
       "feature1Text": "De l’eau potable, des douches et des laveries en libre-service : tu peux filtrer les résultats pour ne voir que ce dont tu as besoin tout de suite.",
       "feature2Title": "Un endroit où passer la nuit",
       "feature2Text": "Plus de 190 000 campings et aires de caravaning dans le monde entier, des emplacements tout équipés aux simples haltes pour la nuit.",
-      "feature3Title": "À l’écart des axes principaux",
+      "feature3Title": "Fonctionne aussi hors des grands axes",
       "feature3Text": "L’appli s’appuie sur des données cartographiques ouvertes plutôt que sur les contributions des utilisateurs, donc la couverture ne s’effondre pas dès que tu quittes les zones très fréquentées.",
       "ctaBlockAria": "Appel à l’action",
       "ctaBlockTitle": "Prépare ta prochaine étape",

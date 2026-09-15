@@ -4,6 +4,7 @@ window.voyagerLocales = window.voyagerLocales || {};
 window.voyagerLocales["it"] = {
   "landingPages": {
     "campervan": {
+      "htmlLang": "it",
       "pageTitle": "Mappa dei servizi per camper e roulotte",
       "meta": {
         "description": "Trova punti di rifornimento idrico, docce, lavanderie e campeggi per il tuo camper o roulotte. Oltre 190.000 località in tutto il mondo. App gratuita, senza bisogno di account."
@@ -37,13 +38,13 @@ window.voyagerLocales["it"] = {
       "problem2": "Le app della community conoscono solo i luoghi che qualcuno si è preso la briga di aggiungere, quindi la copertura si dirada non appena ti allontani dai percorsi più battuti.",
       "problem3": "Le app di mappe generiche trattano un camper come un’auto e raramente indicano se una tappa è utile quando vivi nel tuo veicolo.",
       "solutionAria": "Come l’app aiuta chi viaggia in camper o in roulotte",
-      "solutionTitle": "Tutto ciò di cui un campeggiatore può davvero rimanere senza",
+      "solutionTitle": "Tutto ciò che serve davvero a chi viaggia in camper",
       "solutionText": "Voyager Maps riunisce tutte queste tappe utili su un’unica mappa: oltre 190.000 campeggi e aree per roulotte, più di 450.000 punti di rifornimento di acqua potabile, 36.000 docce e quasi 20.000 lavanderie self-service in tutto il mondo — oltre a bagni, distributori di carburante e parcheggi lungo il percorso.",
       "feature1Title": "Fai il pieno e rinfrescati",
       "feature1Text": "Acqua potabile, docce e lavanderie self-service: filtra i risultati in base a ciò di cui hai bisogno in questo momento.",
       "feature2Title": "Un posto dove passare la notte",
       "feature2Text": "Oltre 190.000 campeggi e aree di sosta per roulotte in tutto il mondo, dalle piazzole con servizi completi alle semplici aree di sosta per la notte.",
-      "feature3Title": "Si trova lontano dalle strade principali",
+      "feature3Title": "Funziona anche fuori dalle strade principali",
       "feature3Text": "Si basa su dati cartografici aperti anziché sui contributi degli utenti, quindi la copertura non si riduce quando esci dalle zone più frequentate.",
       "ctaBlockAria": "Invito all’azione",
       "ctaBlockTitle": "Organizza la tua prossima tappa",

@@ -5,6 +5,8 @@ window.voyagerLocales["pl"] = {
   "htmlLang": "pl",
   "pageTitle": "Voyager Maps – Toalety, woda i Wi-Fi w trasie",
   "metaDescription": "Znajdź toalety, wodę pitną, prysznice, Wi-Fi i parkingi, gdziekolwiek jesteś. Aplikacja jest za darmo na iOS i Androida.",
+  "structuredWebDescription": "Znajdź toalety, wodę pitną, Wi-Fi i pralnie, gdziekolwiek podróżujesz - za darmo na iOS i Androida. Praktyczna mapa podróżnicza stworzona z myślą o realnych potrzebach, nie tylko o wskazówkach dojazdu.",
+  "structuredAppDescription": "Znajdź toalety, wodę pitną, prysznice, parkingi, Wi‑Fi i inne miejsca - 5,5 mln lokalizacji na całym świecie. Za darmo na iOS i Androida.",
   "heroAria": "Sekcja główna",
   "heroTitle": "Znajdź toalety, wodę, prysznice i Wi-Fi – gdziekolwiek jesteś.",
   "heroLead": "Voyager Maps pomaga znaleźć miejsca, których naprawdę potrzebujesz podczas podróży – toalety, wodę pitną, Wi-Fi, pralnie – zwłaszcza gdy jesteś w nieznanym miejscu.",

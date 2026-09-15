@@ -39,7 +39,7 @@ window.voyagerLocales["pl"] = {
       "problem3": "Ogólne aplikacje z mapami rzadko skupiają się na praktycznym dostępie do wody, gdy potrzebujesz jej szybko podczas spaceru, podróży samochodem czy przemieszczania się po mieście.",
       "solutionAria": "Jak ta aplikacja pomaga podróżnym znaleźć wodę",
       "solutionTitle": "Bardziej praktyczny sposób na znalezienie miejsc do uzupełnienia zapasów w pobliżu",
-      "solutionText": "Aplikacja pomaga znaleźć starannie wyselekcjonowane miejsca, które odpowiadają Twoim rzeczywistym potrzebom, a nie tylko generyczne wyniki wyszukiwania. Zamiast przewijać listę nieistotnych miejsc, możesz od razu skupić się na tym, co naprawdę ma znaczenie, gdy szybko potrzebujesz wody.",
+      "solutionText": "Aplikacja pomaga znaleźć starannie wyselekcjonowane miejsca, które odpowiadają twoim rzeczywistym potrzebom, a nie tylko generyczne wyniki wyszukiwania. Zamiast przewijać listę nieistotnych miejsc, możesz od razu skupić się na tym, co naprawdę ma znaczenie, gdy szybko potrzebujesz wody.",
       "feature1Title": "Wyselekcjonowane miejsca",
       "feature1Text": "Przydatne punkty uzupełniania wody, krany i miejsca z dostępem do wody zebrane z myślą o prawdziwych potrzebach podróżnych.",
       "feature2Title": "Dla podróżników",

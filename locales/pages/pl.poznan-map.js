@@ -66,9 +66,9 @@ window.voyagerLocales["pl"] = {
       "seoAria": "O wyszukiwaniu przydatnych miejsc w tym mieście",
       "otherCitiesAria": "Zasięg w innych miastach",
       "otherCitiesTitle": "Inne miasta na mapie",
-      "otherCitiesIntro": "To samo dotyczy innych miejsc, które Voyager Maps szczegółowo opisuje.",
+      "otherCitiesIntro": "Podobne dane są dostępne także dla innych miast szczegółowo opisanych w Voyager Maps.",
       "allCitiesLink": "Zobacz dane liczbowe dla każdego miasta w formacie CSV",
-      "dataNote": "Dane pochodzą od użytkowników OpenStreetMap i są objęte licencją Open Database License. Liczby zebrano 9 września 2026 r. i są aktualizowane przy każdym ładowaniu danych. Brak danego miejsca na mapie nie oznacza, że ono nie istnieje.",
+      "dataNote": "Dane pochodzą od użytkowników OpenStreetMap i są objęte licencją Open Database License. Liczby zebrano 10 września 2026 r. i są aktualizowane przy każdym ładowaniu danych. Brak danego miejsca na mapie nie oznacza, że ono nie istnieje.",
       "backToHome": "Strona główna Voyager Maps",
       "pageTitle": "Toalety publiczne i woda pitna w Poznaniu",
       "metaDescription": "W Poznaniu zaznaczono 2 785 przydatnych miejsc: 199 toalet publicznych, 15 punktów z wodą pitną, 845 miejsc parkingowych. Aplikacja jest za darmo na iOS i Androida.",
@@ -78,7 +78,7 @@ window.voyagerLocales["pl"] = {
       "statsIntro": "Ile obiektów każdego rodzaju znajduje się obecnie na mapie w Poznaniu. Są to lokalizacje zaznaczone na mapie, a nie szacunkowa liczba wszystkich istniejących obiektów – dane pochodzą z OpenStreetMap i są uzupełniane w miarę dodawania nowych informacji przez użytkowników.",
       "ctaBlockTitle": "Znajdź te miejsca w Poznaniu na swoim telefonie",
       "seoTitle": "Jak znaleźć toaletę, kran z wodą pitną lub prysznic w Poznaniu",
-      "seoText": "Ogólne aplikacje mapowe skupiają się na firmach i wskazówkach dojazdu, więc rzeczy darmowe i publiczne – toaleta w parku, fontanna z wodą pitną na placu, prysznic na plaży – są w nich najmniej dobrze uwzględnione. Właśnie tę lukę wypełnia ta mapa. W Poznaniu ma obecnie w bazie 199 toalet publicznych i 15 miejsc do napełnienia butelki, a przy każdym z nich znajdziesz informacje o kosztach, godzinach otwarcia i dostępności, zgodnie z danymi źródłowymi. Działa to tak samo w każdym mieście, do którego się wybierzesz.",
+      "seoText": "Ogólne aplikacje mapowe skupiają się na firmach i wskazówkach dojazdu, więc rzeczy darmowe i publiczne – toaleta w parku, fontanna z wodą pitną na placu, prysznic na plaży – są w nich zazwyczaj najsłabiej uwzględnione. Właśnie tę lukę wypełnia ta mapa. W Poznaniu Voyager Maps ma obecnie w bazie 199 toalet publicznych i 15 miejsc do napełnienia butelki, a przy każdym z nich znajdziesz informacje o kosztach, godzinach otwarcia i dostępności, zgodnie z danymi źródłowymi. Działa to tak samo w każdym mieście, do którego się wybierzesz.",
       "highlight": "W Poznaniu jest 13,3 razy więcej toalet publicznych niż miejsc, gdzie można napełnić butelkę – 199 w porównaniu z 15. Warto napełnić butelkę przed wyruszeniem w drogę."
     }
   }

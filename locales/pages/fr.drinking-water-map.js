@@ -7,7 +7,7 @@ window.voyagerLocales["fr"] = {
       "htmlLang": "fr",
       "pageTitle": "Carte des points d’eau potable gratuits",
       "meta": {
-        "description": "Trouve de l’eau potable gratuite pendant tes déplacements : robinets publics, fontaines et points de remplissage près de chez toi. App gratuite."
+        "description": "Trouve de l’eau potable gratuite pendant tes déplacements : robinets publics, fontaines et points de remplissage à proximité. App gratuite."
       },
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "Sélection de la langue",
@@ -48,11 +48,11 @@ window.voyagerLocales["fr"] = {
       "feature3Text": "Elle met en avant des lieux qui sont souvent absents ou difficiles à trouver sur la plupart des cartes.",
       "ctaBlockAria": "Appel à l’action",
       "ctaBlockTitle": "Découvre d’autres lieux à proximité",
-      "ctaBlockText": "Ouvre l’appli pour découvrir d’autres points d’eau près de chez toi.",
+      "ctaBlockText": "Ouvre l’appli pour découvrir d’autres points d’eau à proximité.",
       "seoAria": "Contenu SEO sur les cartes des points d’eau potable",
       "seoTitle": "Carte des points d’eau potable pour les voyageurs, les randonneurs et les road trips",
       "seoParagraph1": "Une bonne carte de l’eau potable t’aide à faire une chose toute simple plus rapidement : trouver de l’eau potable gratuite sans avoir à deviner. Quand tu voyages, que tu explores une nouvelle ville ou que tu passes de longues heures sur la route, ce n’est pas toujours facile de repérer des points de remplissage fiables. Des robinets publics, des bornes de remplissage de bouteilles et d’autres sources d’eau gratuites peuvent se trouver à proximité, mais elles sont souvent dispersées entre différentes applications, cachées dans des avis, ou difficiles à repérer lors d’une recherche classique sur une carte.",
-      "seoParagraph2": "Cette page s’adresse à ceux qui cherchent une carte de l’eau potable axée sur l’accès pratique. Au lieu de te fier à des résultats généraux, tu peux adopter une approche plus adaptée aux voyageurs pour découvrir des points d’eau potable gratuits qui te seront utiles quand tu es en déplacement. Que tu souhaites remplir une bouteille avant de prendre le train, éviter d’acheter des bouteilles en plastique supplémentaires lors d’une balade en ville ou trouver de l’eau lors d’une pause sur la route, l’objectif est simple : accéder plus rapidement aux points d’eau utiles près de chez toi.",
+      "seoParagraph2": "Cette page s’adresse à ceux qui cherchent une carte de l’eau potable axée sur l’accès pratique. Au lieu de te fier à des résultats généraux, tu peux adopter une approche plus adaptée aux voyageurs pour découvrir des points d’eau potable gratuits qui te seront utiles quand tu es en déplacement. Que tu souhaites remplir une bouteille avant de prendre le train, éviter d’acheter des bouteilles en plastique supplémentaires lors d’une balade en ville ou trouver de l’eau lors d’une pause sur la route, l’objectif est simple : accéder plus rapidement aux points d’eau utiles à proximité.",
       "consentEyebrow": "Paramètres de confidentialité",
       "consentTitle": "Tes choix en matière de confidentialité",
       "consentDescription": "On utilise les données d’analyse uniquement si tu donnes ton accord, à des fins statistiques, pour améliorer et perfectionner Voyager Maps.",

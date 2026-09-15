@@ -62,13 +62,13 @@ window.voyagerLocales["fr"] = {
       "attrWifi": "proposant le Wi-Fi gratuit",
       "highlightAria": "Ce qui ressort de cette ville",
       "ctaBlockAria": "Télécharge l’appli",
-      "ctaBlockText": "Ouvre la carte, regarde ce qu’il y a près de chez toi en ce moment, et filtre les résultats pour trouver exactement ce dont tu as besoin. Gratuit sur iOS et Android, sans abonnement ni compte requis.",
+      "ctaBlockText": "Ouvre la carte, regarde ce qu’il y a à proximité en ce moment, et filtre les résultats pour trouver exactement ce dont tu as besoin. Gratuit sur iOS et Android, sans abonnement ni compte requis.",
       "seoAria": "À propos de la recherche de lieux pratiques dans cette ville",
       "otherCitiesAria": "Couverture dans d’autres villes",
       "otherCitiesTitle": "Autres villes sur la carte",
       "otherCitiesIntro": "C’est pareil pour les autres lieux que Voyager Maps couvre en détail.",
       "allCitiesLink": "Consulte les chiffres pour chaque ville au format CSV",
-      "dataNote": "Données fournies par les contributeurs d’OpenStreetMap, sous licence Open Database License. Chiffres relevés le 09/09/2026 et mis à jour à chaque chargement de données. L’absence d’un lieu sur la carte ne signifie pas qu’il n’existe pas.",
+      "dataNote": "Données fournies par les contributeurs d’OpenStreetMap, sous licence Open Database License. Chiffres relevés le 10/09/2026 et mis à jour à chaque chargement de données. L’absence d’un lieu sur la carte ne signifie pas qu’il n’existe pas.",
       "backToHome": "Page d’accueil de Voyager Maps",
       "pageTitle": "Toilettes publiques et points d’eau potable à Paris",
       "metaDescription": "8 486 lieux pratiques répertoriés à Paris : 891 toilettes publiques, 1 147 points d’eau potable, 249 places de parking. Gratuit sur iOS et Android.",
@@ -79,7 +79,7 @@ window.voyagerLocales["fr"] = {
       "ctaBlockTitle": "Trouve ces lieux à Paris sur ton téléphone",
       "seoTitle": "Trouver des toilettes, un point d’eau ou une douche à Paris",
       "seoText": "Les applications de cartographie classiques sont axées sur les commerces et les itinéraires ; du coup, les lieux gratuits et publics — comme des toilettes dans un parc, une fontaine sur une place ou une douche à la plage — sont ceux qu’elles couvrent le moins bien. C’est cette lacune que cette carte comble. À Paris, elle recense actuellement 891 toilettes publiques et 1 147 points de remplissage de bouteilles, chacun accompagné des informations fournies par la source concernant le prix, les horaires d’ouverture et l’accès. Ça marche de la même façon dans toutes les villes où tu te rendras ensuite.",
-      "highlight": "À Paris, 1 942 lieux sont répertoriés comme étant accessibles sans marche."
+      "highlight": "À Paris, 1 942 lieux sont répertoriés comme étant accessibles sans marches."
     }
   }
 };

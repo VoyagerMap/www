@@ -105,9 +105,11 @@ def badges(copy, position):
 
 
 def proof_row(copy):
-    paths = "".join(
-        f'<path{"" if i == 0 else f" transform=\"translate({i * 15} 0)\""} d="{STAR}" />'
-        for i in range(5))
+    paths = []
+    for i in range(5):
+        transform = "" if i == 0 else f' transform="translate({i * 15} 0)"'
+        paths.append(f'<path{transform} d="{STAR}" />')
+    paths = "".join(paths)
     return f'''          <p class="hero-proof">
             <svg class="hero-proof-stars" width="74" height="12" viewBox="0 0 74 12" role="img" aria-label="{esc(copy["proofRatingAria"])}" data-i18n-aria="proofRatingAria" focusable="false">
               <defs><linearGradient id="proofStars" x1="1" y1="0" x2="73" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0.98" stop-color="#f0b429" /><stop offset="0.98" stop-color="#33425e" /></linearGradient></defs>

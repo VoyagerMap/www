@@ -12,6 +12,7 @@ import html as H
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 from datetime import date
@@ -48,10 +49,18 @@ OG_LOCALE = {
 
 
 def node_json(expr):
-    out = subprocess.run(
-        ["docker", "run", "--rm", "-v", f"{REPO}:/w", "-w", "/w", "node:20-alpine",
-         "node", "-e", expr],
-        capture_output=True, text=True, check=True)
+    docker = shutil.which("docker")
+    if docker:
+        result = subprocess.run(
+            [docker, "run", "--rm", "-v", f"{REPO}:/w", "-w", "/w", "node:20-alpine",
+             "node", "-e", expr],
+            capture_output=True, text=True)
+        if result.returncode == 0:
+            return json.loads(result.stdout.strip().splitlines()[-1])
+    # A local Node installation is sufficient for the simple locale modules.
+    # Keep Docker as the preferred environment so CI remains reproducible.
+    local_expr = expr.replace("/w/", REPO + "/")
+    out = subprocess.run(["node", "-e", local_expr], capture_output=True, text=True, check=True)
     return json.loads(out.stdout.strip().splitlines()[-1])
 
 
@@ -212,7 +221,7 @@ def localize(source, code, dic, page, codes, page_codes=None):
     t = re.sub(r'(<meta\s+name="description"\s*\n?\s*content=)"[^"]*"',
                lambda m: f'{m.group(1)}"{esc(desc)}"', t)
     for prop in ("og:description", "twitter:description"):
-        t = re.sub(r'(<meta (?:property|name)="%s" content=)"[^"]*"' % prop,
+        t = re.sub(r'(<meta\s+(?:property|name)="%s"\s+content=)"[^"]*"' % prop,
                    lambda m: f'{m.group(1)}"{esc(desc)}"', t)
     for prop in ("og:title", "twitter:title"):
         t = re.sub(r'(<meta (?:property|name)="%s" content=)"[^"]*"' % prop,
@@ -242,6 +251,18 @@ def localize(source, code, dic, page, codes, page_codes=None):
             if obj.get("@type") == "WebPage":
                 obj["name"] = title
                 obj["description"] = desc
+            if obj.get("@type") == "WebSite" and dic.get("structuredWebDescription"):
+                obj["description"] = dic["structuredWebDescription"]
+            if obj.get("@type") == "SoftwareApplication" and dic.get("structuredAppDescription"):
+                obj["description"] = dic["structuredAppDescription"]
+            if obj.get("@type") == "FAQPage":
+                for index, item in enumerate(obj.get("mainEntity", []), start=1):
+                    question = dic.get(f"faq{index}Q")
+                    answer = dic.get(f"faq{index}A")
+                    if question:
+                        item["name"] = question
+                    if answer and isinstance(item.get("acceptedAnswer"), dict):
+                        item["acceptedAnswer"]["text"] = answer
         body = json.dumps(obj, ensure_ascii=False, indent=2).replace("\n", "\n      ")
         return m.group(0).replace(m.group(1), body)
     t = re.sub(r'<script type="application/ld\+json">\s*(\{.*?\})\s*</script>', swap_ld, t, flags=re.S)

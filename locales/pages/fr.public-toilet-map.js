@@ -48,7 +48,7 @@ window.voyagerLocales["fr"] = {
       "feature3Text": "Elle met en avant les toilettes publiques et autres lieux pratiques que de nombreuses applications cartographiques ne font pas ressortir clairement.",
       "ctaBlockAria": "Appel à l’action",
       "ctaBlockTitle": "Découvre d’autres lieux à proximité",
-      "ctaBlockText": "Ouvre l’appli pour découvrir d’autres lieux avec des toilettes près de chez toi.",
+      "ctaBlockText": "Ouvre l’appli pour découvrir d’autres lieux avec des toilettes à proximité.",
       "seoAria": "Contenu SEO sur les cartes des toilettes publiques",
       "seoTitle": "Carte des toilettes publiques pour les voyages, les escapades en ville et les haltes sur la route",
       "seoParagraph1": "Une carte fiable des toilettes publiques est l’un des outils de voyage les plus pratiques qui soient. Que tu sois dans une nouvelle ville, sur un long trajet en voiture ou en train, ou encore dans des gares et des zones touristiques, trouver des toilettes devrait être simple. En réalité, l’emplacement des toilettes publiques est souvent incohérent d’une appli de cartographie à l’autre, et l’option la plus proche n’est pas toujours facile à repérer parmi les résultats de recherche habituels.",

@@ -62,7 +62,7 @@ window.voyagerLocales["it"] = {
       "ctaAria": "Scarica l’app",
       "ctaTitle": "Porta la mappa con te",
       "ctaText": "Tutte le città qui, e ovunque altrove, in un’unica app. Gratuita su iOS e Android, senza abbonamento e senza bisogno di creare un account.",
-      "dataNote": "I dati provengono dai collaboratori di OpenStreetMap e sono concessi in licenza secondo l’Open Database License. Le conteggi vengono aggiornati a ogni caricamento dei dati."
+      "dataNote": "I dati provengono dai collaboratori di OpenStreetMap e sono concessi in licenza secondo l’Open Database License. I conteggi vengono aggiornati a ogni caricamento dei dati."
     }
   }
 };

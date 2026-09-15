@@ -3,6 +3,8 @@ window.voyagerLocales["it"] = {
   htmlLang: "it",
   pageTitle: "Voyager Maps – Bagni, acqua e Wi-Fi in viaggio",
   metaDescription: "Trova bagni, acqua potabile, docce, Wi-Fi e parcheggi ovunque tu vada. Gratis su iOS e Android.",
+  structuredWebDescription: "Trova bagni, acqua potabile, Wi-Fi e lavanderie ovunque viaggi, gratis su iOS e Android. La mappa di viaggio pratica pensata per esigenze reali, non solo per le indicazioni stradali.",
+  structuredAppDescription: "Trova bagni, acqua potabile, docce, parcheggi, Wi-Fi e altro: 5,5 milioni di luoghi in tutto il mondo. Gratis su iOS e Android.",
   heroAria: "Sezione principale",
   heroTitle: "Trova bagni, acqua, docce e Wi-Fi – ovunque tu vada.",
   heroLead: "Voyager Maps ti aiuta a trovare i posti di cui hai davvero bisogno quando sei in viaggio — bagni, acqua potabile, Wi-Fi, lavanderie a gettoni — soprattutto quando ti trovi in un posto che non conosci.",
@@ -30,7 +32,7 @@ window.voyagerLocales["it"] = {
   openAppAria: "Apri Voyager Maps",
   whyAria: "Perché è stata creata Voyager Maps",
   whyTitle: "Perché è stata creata Voyager Maps",
-  whyText: "La maggior parte delle app di mappe punta solo a farti arrivare da qualche parte. Voyager Maps invece si concentra su ciò di cui hai bisogno una volta arrivato: un modo veloce per trovare quei posti utili che rendono il viaggio davvero piacevole.",
+  whyText: "La maggior parte delle app di mappe punta solo a farti arrivare da qualche parte. Voyager Maps invece si concentra su ciò di cui hai bisogno una volta arrivato: un modo veloce per trovare quei posti utili che rendono il viaggio più semplice.",
   whyExamples: "I viaggiatori si trovano spesso in situazioni come queste:",
   problem1: "Arrivi in una nuova città e hai bisogno di trovare subito un bagno o una connessione Wi-Fi.",
   problem2: "Stai guidando sotto il sole cocente e hai solo bisogno di riempire la tua borraccia.",
@@ -58,7 +60,7 @@ window.voyagerLocales["it"] = {
   trip2Text: "Invia un link o aggiungi i tuoi compagni di viaggio, così tutti seguiranno lo stesso programma.",
   trip3Title: "Scopri a quanto ammonta il totale",
   trip3Text: "Inserisci un costo stimato per ogni tappa e visualizza il totale per valuta: utile quando il viaggio attraversa i confini.",
-  trip4Title: "Salva quelli in cui vale la pena tornare",
+  trip4Title: "Salva i luoghi in cui vale la pena tornare",
   trip4Text: "Segna qualsiasi posto come preferito e lo avrai a portata di tocco, sia in questo viaggio che in quello successivo.",
   cat_parking: "Posti auto",
   cat_parkingCount: "1,2M",
@@ -460,6 +462,7 @@ window.voyagerLocales["it"] = {
       exploreBackpackerLink: "Mappa per backpacker"
     },
     campervan: {
+      htmlLang: "it",
       pageTitle: "Mappa dei servizi per camper e roulotte",
       meta: {
         description: "Trova punti di rifornimento idrico, docce, lavanderie e campeggi per il tuo camper o roulotte. Oltre 190.000 località in tutto il mondo. App gratuita, senza bisogno di account."
@@ -493,13 +496,13 @@ window.voyagerLocales["it"] = {
       problem2: "Le app della community conoscono solo i luoghi che qualcuno si è preso la briga di aggiungere, quindi la copertura si dirada non appena ti allontani dai percorsi più battuti.",
       problem3: "Le app di mappe generiche trattano un camper come un’auto e raramente indicano se una tappa è utile quando vivi nel tuo veicolo.",
       solutionAria: "Come l’app aiuta chi viaggia in camper o in roulotte",
-      solutionTitle: "Tutto ciò di cui un campeggiatore può davvero rimanere senza",
+      solutionTitle: "Tutto ciò che serve davvero a chi viaggia in camper",
       solutionText: "Voyager Maps riunisce tutte queste tappe utili su un’unica mappa: oltre 190.000 campeggi e aree per roulotte, più di 450.000 punti di rifornimento di acqua potabile, 36.000 docce e quasi 20.000 lavanderie self-service in tutto il mondo — oltre a bagni, distributori di carburante e parcheggi lungo il percorso.",
       feature1Title: "Fai il pieno e rinfrescati",
       feature1Text: "Acqua potabile, docce e lavanderie self-service: filtra i risultati in base a ciò di cui hai bisogno in questo momento.",
       feature2Title: "Un posto dove passare la notte",
       feature2Text: "Oltre 190.000 campeggi e aree di sosta per roulotte in tutto il mondo, dalle piazzole con servizi completi alle semplici aree di sosta per la notte.",
-      feature3Title: "Si trova lontano dalle strade principali",
+      feature3Title: "Funziona anche fuori dalle strade principali",
       feature3Text: "Si basa su dati cartografici aperti anziché sui contributi degli utenti, quindi la copertura non si riduce quando esci dalle zone più frequentate.",
       ctaBlockAria: "Invito all’azione",
       ctaBlockTitle: "Organizza la tua prossima tappa",
@@ -537,6 +540,7 @@ window.voyagerLocales["it"] = {
       footer: "© Sito web di Voyager Maps"
     },
     backpacker: {
+      htmlLang: "it",
       pageTitle: "Mappa per backpacker e viaggiatori solitari",
       meta: {
         description: "Docce, lavanderia, acqua potabile e Wi-Fi per backpacker e viaggiatori solitari. 5,5 milioni di luoghi in tutto il mondo. App gratuita, senza bisogno di account."
@@ -547,7 +551,7 @@ window.voyagerLocales["it"] = {
       heroAria: "Immagine principale della pagina dedicata a backpacker e viaggiatori solitari",
       eyebrow: "Mappa utile per i viaggi",
       heroTitle: "La mappa pratica per i viaggiatori con lo zaino in spalla",
-      heroLead: "Città nuova, zaino pesante, sei ore al check-in. Da qualche parte, raggiungibile a piedi, c’è una doccia, una lavanderia a gettoni, un rubinetto con acqua potabile e il Wi-Fi gratuito — ma niente di tutto questo è segnato sulla mappa che hai in mano.",
+      heroLead: "Città nuova, zaino pesante, mancano sei ore al check-in. Da qualche parte, raggiungibile a piedi, c’è una doccia, una lavanderia a gettoni, un rubinetto con acqua potabile e il Wi-Fi gratuito — ma niente di tutto questo è segnato sulla mappa che hai in mano.",
       primaryCta: "Apri la mappa completa nell’app",
       primaryCtaAria: "Apri la mappa completa per backpacker nell’app",
       badgeAppleLine: "Scaricala su",
@@ -584,7 +588,7 @@ window.voyagerLocales["it"] = {
       seoAria: "Contenuti SEO sulle strutture per viaggiatori zaino in spalla e chi viaggia da soli",
       seoTitle: "Mappa per viaggiatori zaino in spalla e solitari, con ostelli, stazioni e tappe in città",
       seoParagraph1: "Il viaggio con lo zaino in spalla è soprattutto logistica travestita da avventura. L’autobus notturno arriva alle sei, il check-in è alle due, e le otto ore che intercorrono dipendono interamente dalla tua capacità di trovare una doccia, un posto dove lasciare lo zaino, un rubinetto per riempire la borraccia e un posto a sedere con il Wi-Fi. Niente di tutto questo si trova nelle guide turistiche, e cercarlo in una città che non conosci, in una lingua che magari non capisci, è proprio il momento in cui il telefono è meno utile.",
-      seoParagraph2: "Una mappa per backpacker vale la pena portarla con te solo se copre gli aspetti pratici del viaggio: docce, lavanderie self-service, acqua potabile, bagni pubblici, Wi-Fi, supermercati e farmacie, in ogni paese e non solo in quelli più conosciuti. Voyager Maps si basa su dati cartografici aperti e funziona senza bisogno di un account, quindi la mappa si comporta esattamente allo stesso modo sia che tu sia di passaggio tra un ostello e l’altro a Lisbona, in attesa di una coincidenza a Bangkok, o durante una lunga giornata a piedi in una città che non hai mai visitato. Soprattutto per chi viaggia da solo, sapere dove si trovano questi punti di ristoro elimina una piccola ma costante fonte di stress dal viaggio.",
+      seoParagraph2: "Una mappa per backpacker vale la pena portarla con te solo se copre gli aspetti pratici del viaggio: docce, lavanderie self-service, acqua potabile, bagni pubblici, Wi-Fi, supermercati e farmacie, in ogni paese e non solo in quelli più conosciuti. Voyager Maps si basa su dati cartografici aperti e funziona senza bisogno di un account, quindi la mappa si comporta esattamente allo stesso modo sia che tu sia di passaggio tra un ostello e l’altro a Lisbona, in attesa di una coincidenza a Bangkok, o durante una lunga giornata a piedi in una città che non hai mai visitato. Soprattutto per chi viaggia da solo, sapere dove si trovano le fermate utili elimina una piccola ma costante fonte di stress dal viaggio.",
       consentEyebrow: "Impostazioni sulla privacy",
       consentTitle: "Le tue opzioni sulla privacy",
       consentDescription: "Utilizziamo strumenti di analisi opzionali solo dopo aver ottenuto il tuo consenso, a fini statistici, per migliorare e perfezionare Voyager Maps.",
