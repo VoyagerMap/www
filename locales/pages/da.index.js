@@ -7,7 +7,7 @@ window.voyagerLocales["da"] = {
   "metaDescription": "Find toiletter, drikkevand, brusebade, Wi-Fi og parkeringspladser, uanset hvor du rejser hen. Gratis til iOS og Android.",
   "heroAria": "Hovedafsnit",
   "heroTitle": "Find toiletter, vand, brusere og Wi-Fi – uanset hvor du rejser hen.",
-  "heroLead": "Voyager Maps hjælper dig med at finde de steder, du rent faktisk har brug for, når du er på rejse – toiletter, drikkevand, Wi-Fi, vaskemaskiner – især når du befinder dig et ukendt sted.",
+  "heroLead": "Voyager Maps hjælper dig med at finde de steder, du rent faktisk har brug for, når du er på rejse – toiletter, drikkevand, Wi-Fi, vaskemaskiner – især når du befinder dig på et ukendt sted.",
   "ctaIos": "Download fra App Store",
   "ctaAndroid": "Download fra Google Play",
   "ctaOpenApp": "Åbn Voyager Maps",

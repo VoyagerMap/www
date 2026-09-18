@@ -58,7 +58,7 @@ window.voyagerLocales["es"] = {
       "consentDescription": "Solo usamos herramientas de análisis opcionales tras tu consentimiento, con fines estadísticos, para mejorar y perfeccionar Voyager Maps.",
       "consentNecessaryLabel": "Imprescindibles",
       "consentNecessaryDescription": "Es necesario para la selección del idioma, el estado de consentimiento y las funciones básicas de la página.",
-      "consentNecessaryValue": "Siempre activa",
+      "consentNecessaryValue": "Siempre activas",
       "consentStatisticsLabel": "Estadísticas",
       "consentStatisticsValue": "Google Analytics 4 para el seguimiento de visitas y eventos de interacción",
       "consentNote": "Puedes cambiar esta configuración en cualquier momento con el botón de privacidad.",

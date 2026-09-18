@@ -38,7 +38,7 @@ window.voyagerLocales["is"] = {
       "problem2": "Samfélagsforrit þekkja aðeins staði sem einhverjum datt í hug að bæta við, svo þjónustan þynnist út um leið og þú ferð frá vinsælum leiðum.",
       "problem3": "Almenn kortforrit meðhöndla húsbíl eins og bíl og sýna sjaldan hvort áningarstaður sé gagnlegur þegar þú býrð í farartækinu þínu.",
       "solutionAria": "Hvernig appið hjálpar ferðalöngum í húsbílum og tjaldvögnum",
-      "solutionTitle": "Allt sem tjaldari klárar upp",
+      "solutionTitle": "Allt sem ferðalangur á húsbíl gæti þurft",
       "solutionText": "Voyager Maps setur hagnýta áningarstaði á eina kortið: meira en 190.000 tjald- og húsbílastæði, yfir 450.000 drykkjarvatnspunktar, 36.000 sturtur og tæplega 20.000 sjálfsafgreiðsluþvottahús um allan heim — auk salerna, eldsneytis og bílastæða á leiðinni.",
       "feature1Title": "Fylltu á og ferskaðu þig upp",
       "feature1Text": "Drykktan vatn, sturtur og sjálfsafgreiðsluþvottahús, síað niður í það sem þú þarft akkúrat núna.",

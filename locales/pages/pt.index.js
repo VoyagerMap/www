@@ -60,7 +60,7 @@ window.voyagerLocales["pt"] = {
   "trip2Text": "Manda um link ou adiciona seus companheiros de viagem pra que todo mundo siga o mesmo plano.",
   "trip3Title": "Veja quanto dá no total",
   "trip3Text": "Coloca um custo estimado em qualquer parada e vê o total por moeda — útil quando a viagem passa por vários países.",
-  "trip4Title": "Guarde aqueles que valem a pena voltar",
+  "trip4Title": "Guarde os lugares aos quais vale a pena voltar",
   "trip4Text": "Marque qualquer lugar como favorito e ele ficará a um toque de distância, tanto nessa viagem quanto na próxima.",
   "cat_parking": "Vagas de estacionamento",
   "cat_parkingCount": "1,2M",

@@ -68,7 +68,7 @@ window.voyagerLocales["ko"] = {
       "otherCitiesTitle": "지도상의 다른 도시들",
       "otherCitiesIntro": "'Voyager Maps'가 상세히 다루는 다른 장소들에 대해서도 동일한 기준이 적용됩니다.",
       "allCitiesLink": "모든 도시의 집계 내역을 CSV 파일로 확인하세요.",
-      "dataNote": "OpenStreetMap 기여자들이 제공한 데이터로, Open Database License에 따라 라이선스가 부여되었습니다. 집계일은 2026-09-09이며, 데이터가 로드될 때마다 갱신됩니다. 지도에 표시되지 않았다고 해서 해당 장소가 존재하지 않는다는 증거는 아닙니다.",
+      "dataNote": "OpenStreetMap 기여자들이 제공한 데이터로, Open Database License에 따라 라이선스가 부여되었습니다. 집계일은 2026-09-10이며, 데이터가 로드될 때마다 갱신됩니다. 지도에 표시되지 않았다고 해서 해당 장소가 존재하지 않는다는 증거는 아닙니다.",
       "backToHome": "Voyager Maps 홈",
       "pageTitle": "서울의 공중화장실 및 식수 공급 시설",
       "metaDescription": "서울에 7,269곳의 실용적인 장소가 지도에 표시되어 있습니다: 공중화장실 746곳, 식수대 244곳, 주차장 1,238곳. iOS 및 Android에서 무료로 이용 가능합니다.",

@@ -537,7 +537,7 @@ window.voyagerLocales["vi"] = {
       solutionAria: "Ứng dụng này hỗ trợ du khách đi xe cắm trại và xe nhà di động như thế nào",
       solutionTitle: "Tất cả những thứ mà người đi cắm trại thường hay thiếu hụt",
       solutionText: "Voyager Maps tập hợp tất cả các điểm dừng tiện ích trên cùng một bản đồ: hơn 190.000 khu cắm trại và bãi đỗ xe caravan, hơn 450.000 điểm lấy nước uống, 36.000 phòng tắm và gần 20.000 tiệm giặt là tự phục vụ trên toàn thế giới — cùng với nhà vệ sinh, trạm xăng và bãi đỗ xe dọc đường.",
-      feature1Title: "Nạp năng lượng và làm mới bản thân",
+      feature1Title: "Nạp nước và làm mới bản thân",
       feature1Text: "Nước uống, phòng tắm và tiệm giặt tự phục vụ – tất cả đều được lọc ra để chỉ hiển thị những thứ bạn cần ngay lúc này.",
       feature2Title: "Nơi nghỉ qua đêm",
       feature2Text: "Hơn 190.000 khu cắm trại và khu dành cho xe caravan trên toàn thế giới, từ những khu có đầy đủ tiện nghi đến những điểm dừng chân qua đêm đơn giản.",

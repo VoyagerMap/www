@@ -4,6 +4,7 @@ window.voyagerLocales = window.voyagerLocales || {};
 window.voyagerLocales["pt"] = {
   "landingPages": {
     "campervan": {
+      "htmlLang": "pt",
       "pageTitle": "Mapa de serviços para trailers e motorhomes",
       "meta": {
         "description": "Encontre pontos de abastecimento de água, chuveiros, lavanderias e locais para acampar com seu trailer ou motorhome. Mais de 190.000 locais no mundo todo. App grátis, sem precisar criar conta."
@@ -37,13 +38,13 @@ window.voyagerLocales["pt"] = {
       "problem2": "Os apps comunitários só conhecem os lugares que alguém se deu ao trabalho de adicionar, então a cobertura fica mais escassa assim que você sai das rotas mais populares.",
       "problem3": "Os aplicativos de mapas comuns tratam um trailer como se fosse um carro e raramente mostram se um local de parada é útil quando você está morando no seu veículo.",
       "solutionAria": "Como o app ajuda quem viaja de van de acampamento e motorhome",
-      "solutionTitle": "Tudo o que um campista realmente fica sem",
+      "solutionTitle": "Tudo de que você pode precisar numa viagem de trailer",
       "solutionText": "O Voyager Maps reúne todos esses pontos úteis em um único mapa: mais de 190 mil locais para acampamento e estacionamento de trailers, mais de 450 mil pontos de água potável, 36 mil chuveiros e quase 20 mil lavanderias self-service em todo o mundo — além de banheiros, postos de combustível e estacionamentos pelo caminho.",
       "feature1Title": "Reabasteça e dê uma refrescada",
       "feature1Text": "Água potável, chuveiros e lavanderias self-service, filtrados de acordo com o que você precisa agora.",
       "feature2Title": "Um lugar pra passar a noite",
       "feature2Text": "Mais de 190 mil locais para acampamento e estacionamento de trailers em todo o mundo, desde áreas com todos os serviços até simples pontos para passar a noite.",
-      "feature3Title": "Fica um pouco afastado das rotas principais",
+      "feature3Title": "Funciona também fora das rotas principais",
       "feature3Text": "Feito com dados de mapas abertos, em vez de informações enviadas pelos usuários, então a cobertura não fica ruim quando você sai das áreas mais movimentadas.",
       "ctaBlockAria": "Chamada à ação",
       "ctaBlockTitle": "Planeja sua próxima parada",

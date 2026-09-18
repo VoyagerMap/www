@@ -22,7 +22,7 @@
   "otherCitiesTitle": "Otras ciudades en el mapa",
   "otherCitiesIntro": "Lo mismo se aplica al resto de lugares que Voyager Maps cubre en profundidad.",
   "allCitiesLink": "Consulta las cifras de cada ciudad en un archivo CSV",
-  "dataNote": "Datos aportados por los colaboradores de OpenStreetMap, bajo la licencia Open Database License. Cifras recopiladas el 09-09-2026 y actualizadas con cada carga de datos. Que un lugar no aparezca en el mapa no significa que no exista.",
+  "dataNote": "Datos aportados por los colaboradores de OpenStreetMap, bajo la licencia Open Database License. Cifras recopiladas el 10-09-2026 y actualizadas con cada carga de datos. Que un lugar no aparezca en el mapa no significa que no exista.",
   "backToHome": "Página de inicio de Voyager Maps",
   "_note": "DeepL ES of _shared.en.json. Re-run tools/city-copy.py --force after editing the English."
 }

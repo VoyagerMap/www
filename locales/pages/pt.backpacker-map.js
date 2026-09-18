@@ -4,6 +4,7 @@ window.voyagerLocales = window.voyagerLocales || {};
 window.voyagerLocales["pt"] = {
   "landingPages": {
     "backpacker": {
+      "htmlLang": "pt",
       "pageTitle": "Mapa para mochileiros e quem viaja sozinho",
       "meta": {
         "description": "Chuveiros, lavanderia, água potável e Wi-Fi para mochileiros e quem viaja sozinho. 5,5 milhões de locais no mundo todo. App grátis, sem precisar criar conta."

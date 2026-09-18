@@ -49,7 +49,7 @@ window.voyagerLocales["pt"] = {
       "metaDescription": "As cidades que o Voyager Maps cobre em detalhes, com o número de banheiros públicos, pontos de água potável e outros locais úteis mapeados em cada uma delas.",
       "eyebrow": "Índice de cidades",
       "heroTitle": "Todas as cidades no mapa",
-      "heroLead": "Cada um desses itens tem uma página própria, listando o que o mapa contém. A lista é ordenada pelo número de viajantes que vão a esses lugares, e não pela quantidade de dados que temos — assim, a lista mostra os lugares que valem a pena visitar.",
+      "heroLead": "Cada uma dessas cidades tem uma página própria, listando o que o mapa contém. A lista é ordenada pelo número de viajantes que vão a esses lugares, e não pela quantidade de dados que temos — assim, a lista mostra os lugares que valem a pena visitar.",
       "tableAria": "Cidades com uma página e o que está mapeado em cada uma",
       "colCity": "Cidade",
       "colTotal": "Locais",

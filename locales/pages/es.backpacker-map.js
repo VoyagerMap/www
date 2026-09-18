@@ -4,6 +4,7 @@ window.voyagerLocales = window.voyagerLocales || {};
 window.voyagerLocales["es"] = {
   "landingPages": {
     "backpacker": {
+      "htmlLang": "es",
       "pageTitle": "Mapa para mochileros y viajeros en solitario",
       "meta": {
         "description": "Duchas, lavanderías, agua potable y Wi-Fi para mochileros y viajeros en solitario. 5,5 millones de lugares en todo el mundo. App gratis, sin necesidad de crear una cuenta."
@@ -57,7 +58,7 @@ window.voyagerLocales["es"] = {
       "consentDescription": "Solo usamos herramientas de análisis opcionales tras tu consentimiento, con fines estadísticos, para mejorar y perfeccionar Voyager Maps.",
       "consentNecessaryLabel": "Imprescindibles",
       "consentNecessaryDescription": "Es necesario para la selección del idioma, el estado del consentimiento y las funciones básicas de la página.",
-      "consentNecessaryValue": "Siempre activa",
+      "consentNecessaryValue": "Siempre activas",
       "consentStatisticsLabel": "Estadísticas",
       "consentStatisticsValue": "Google Analytics 4 para el seguimiento de visitas y eventos de interacción",
       "consentNote": "Puedes cambiar esta configuración en cualquier momento con el botón de privacidad.",

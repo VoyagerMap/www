@@ -68,7 +68,7 @@ window.voyagerLocales["ja"] = {
       "otherCitiesTitle": "地図上のその他の都市",
       "otherCitiesIntro": "Voyager Mapsが詳細にカバーしている他の場所についても同様です。",
       "allCitiesLink": "各都市の件数をCSV形式で確認する",
-      "dataNote": "データはOpenStreetMapの貢献者によるもので、Open Database Licenseの下でライセンスされています。集計は2026年9月9日時点のものであり、データの読み込みごとに更新されます。地図上に表示されていないからといって、その場所が存在しないことを示すものではありません。",
+      "dataNote": "データはOpenStreetMapの貢献者によるもので、Open Database Licenseの下でライセンスされています。集計は2026年9月10日時点のものであり、データの読み込みごとに更新されます。地図上に表示されていないからといって、その場所が存在しないことを示すものではありません。",
       "backToHome": "Voyager Maps ホーム",
       "pageTitle": "神戸の公衆トイレと飲用水",
       "metaDescription": "神戸市には2,213か所の実用的なスポットが登録されています：公衆トイレ242か所、飲用水給水所50か所、駐車場575か所。iOSおよびAndroidで無料利用可能。",

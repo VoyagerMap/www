@@ -36,7 +36,7 @@ window.voyagerLocales["es"] = {
       "consentDescription": "Solo usamos herramientas de análisis opcionales tras tu consentimiento, con fines estadísticos, para mejorar y perfeccionar Voyager Maps.",
       "consentNecessaryLabel": "Imprescindibles",
       "consentNecessaryDescription": "Es necesario para la selección del idioma, el estado de consentimiento y las funciones básicas de la página.",
-      "consentNecessaryValue": "Siempre activa",
+      "consentNecessaryValue": "Siempre activas",
       "consentStatisticsLabel": "Estadísticas",
       "consentStatisticsValue": "Google Analytics 4 para el seguimiento de visitas y eventos de interacción",
       "consentNote": "Puedes cambiar esta configuración en cualquier momento con el botón de privacidad.",
@@ -68,7 +68,7 @@ window.voyagerLocales["es"] = {
       "otherCitiesTitle": "Otras ciudades en el mapa",
       "otherCitiesIntro": "Lo mismo se aplica al resto de lugares que Voyager Maps cubre en profundidad.",
       "allCitiesLink": "Consulta las cifras de cada ciudad en un archivo CSV",
-      "dataNote": "Datos aportados por los colaboradores de OpenStreetMap, bajo la licencia Open Database License. Cifras recopiladas el 09-09-2026 y actualizadas con cada carga de datos. Que un lugar no aparezca en el mapa no significa que no exista.",
+      "dataNote": "Datos aportados por los colaboradores de OpenStreetMap, bajo la licencia Open Database License. Cifras recopiladas el 10-09-2026 y actualizadas con cada carga de datos. Que un lugar no aparezca en el mapa no significa que no exista.",
       "backToHome": "Página de inicio de Voyager Maps",
       "pageTitle": "Baños públicos y agua potable en Madrid",
       "metaDescription": "8.167 lugares prácticos localizados en Madrid: 233 baños públicos, 2.061 grifos de agua potable, 653 plazas de aparcamiento. Gratis en iOS y Android.",
@@ -78,7 +78,7 @@ window.voyagerLocales["es"] = {
       "statsIntro": "Cuántos lugares de cada tipo hay actualmente en Madrid según el mapa. Se trata de ubicaciones registradas, no de una estimación de todos los que existen; la información procede de OpenStreetMap y va creciendo a medida que la gente la amplía.",
       "ctaBlockTitle": "Busca estos lugares en Madrid con tu móvil",
       "seoTitle": "Encontrar un baño, una fuente o una ducha en Madrid",
-      "seoText": "Las apps de mapas generales se centran en negocios y direcciones, así que los servicios públicos y gratuitos —un baño en un parque, una fuente de agua potable en una plaza, una ducha en la playa— son los que menos bien cubren. Esa es la laguna que llena este mapa. En Madrid cuenta actualmente con 233 baños públicos y 2.061 lugares para rellenar una botella, cada uno con la información que la fuente tiene registrada sobre precio, horario y acceso. Funciona igual en cualquier ciudad a la que viajes.",
+      "seoText": "Las apps de mapas generales se centran en negocios y direcciones, así que los servicios públicos y gratuitos —un baño en un parque, una fuente de agua potable en una plaza, una ducha en la playa— son los que menos bien cubren. Esa es la laguna que llena este mapa. En Madrid, Voyager Maps cuenta actualmente con 233 baños públicos y 2.061 lugares para rellenar una botella, cada uno con la información que la fuente tiene registrada sobre precio, horario y acceso. Funciona igual en cualquier ciudad a la que viajes.",
       "highlight": "Madrid es una ciudad en la que conviene llevar una botella: tiene 8,8 veces más puntos públicos de agua potable que baños públicos: 2.061 frente a 233."
     }
   }

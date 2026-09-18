@@ -68,7 +68,7 @@ window.voyagerLocales["pt"] = {
       "otherCitiesTitle": "Outras cidades no mapa",
       "otherCitiesIntro": "O mesmo vale para os outros locais que o Voyager Maps cobre em detalhes.",
       "allCitiesLink": "Veja as contagens de cada cidade em um arquivo CSV",
-      "dataNote": "Dados fornecidos por colaboradores do OpenStreetMap, licenciados sob a Open Database License. Contagens feitas em 09/09/2026 e atualizadas a cada carregamento de dados. A ausência de um local no mapa não significa que ele não exista.",
+      "dataNote": "Dados fornecidos por colaboradores do OpenStreetMap, licenciados sob a Open Database License. Contagens feitas em 10/09/2026 e atualizadas a cada carregamento de dados. A ausência de um local no mapa não significa que ele não exista.",
       "backToHome": "Página inicial do Voyager Maps",
       "pageTitle": "Banheiros públicos e água potável em São Paulo",
       "metaDescription": "6.666 locais úteis mapeados em São Paulo: 203 banheiros públicos, 114 pontos de água potável, 1.518 vagas para estacionar. Grátis no iOS e no Android.",

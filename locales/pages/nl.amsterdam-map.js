@@ -68,7 +68,7 @@ window.voyagerLocales["nl"] = {
       "otherCitiesTitle": "Andere steden op de kaart",
       "otherCitiesIntro": "Hetzelfde geldt voor de andere plekken die Voyager Maps uitgebreid in kaart brengt.",
       "allCitiesLink": "Bekijk de aantallen voor elke stad als CSV-bestand",
-      "dataNote": "Gegevens afkomstig van OpenStreetMap-bijdragers, onder de Open Database License. Tellingen zijn op 9 september 2026 vastgelegd en worden bij elke gegevensupdate vernieuwd. Als een plek niet op de kaart staat, betekent dat niet dat die plek niet bestaat.",
+      "dataNote": "Gegevens afkomstig van OpenStreetMap-bijdragers, onder de Open Database License. Tellingen zijn op 10 september 2026 vastgelegd en worden bij elke gegevensupdate vernieuwd. Als een plek niet op de kaart staat, betekent dat niet dat die plek niet bestaat.",
       "backToHome": "Voyager Maps-startpagina",
       "pageTitle": "Openbare toiletten en drinkwater in Amsterdam",
       "metaDescription": "3.924 handige plekken in kaart gebracht in Amsterdam: 152 openbare toiletten, 558 drinkwaterpunten, 498 parkeerplekken. Gratis op iOS en Android.",

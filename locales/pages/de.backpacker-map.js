@@ -4,6 +4,7 @@ window.voyagerLocales = window.voyagerLocales || {};
 window.voyagerLocales["de"] = {
   "landingPages": {
     "backpacker": {
+      "htmlLang": "de",
       "pageTitle": "Karte für Rucksacktouristen und Alleinreisende",
       "meta": {
         "description": "Duschen, Waschmöglichkeiten, Trinkwasser und WLAN für Rucksacktouristen und Alleinreisende. 5,5 Millionen Orte weltweit. Kostenlose App, kein Konto erforderlich."

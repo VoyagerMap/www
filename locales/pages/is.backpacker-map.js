@@ -44,7 +44,7 @@ window.voyagerLocales["is"] = {
       "feature1Text": "Sturtar, sjálfsafgreiðsluþvottahús og drykkjarvatn, svo langar biðir á milli rúma haldist viðráðanlegar.",
       "feature2Title": "Ókeypis vatn og Wi-Fi",
       "feature2Text": "Sía fyrir staði sem kosta ekkert — endurhleðslustöðvar, opinberir vatnskrani og staðir með opnu Wi-Fi.",
-      "feature3Title": "Enginn aðgangur, engin skráning",
+      "feature3Title": "Enginn reikningur, engin skráning",
       "feature3Text": "Opnaðu kortið og notaðu það. Engin skráning þarf og það virkar eins í hverju landi sem þú ferð um.",
       "ctaBlockAria": "Ákall til aðgerða",
       "ctaBlockTitle": "Finndu það sem þú þarft í nágrenninu",

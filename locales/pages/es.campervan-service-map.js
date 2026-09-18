@@ -4,6 +4,7 @@ window.voyagerLocales = window.voyagerLocales || {};
 window.voyagerLocales["es"] = {
   "landingPages": {
     "campervan": {
+      "htmlLang": "es",
       "pageTitle": "Mapa de servicios para furgonetas camper y autocaravanas",
       "meta": {
         "description": "Encuentra puntos de recarga de agua, duchas, lavanderías y campings para tu autocaravana o caravana. Más de 190 000 lugares en todo el mundo. App gratis, sin necesidad de crear una cuenta."
@@ -37,13 +38,13 @@ window.voyagerLocales["es"] = {
       "problem2": "Las apps comunitarias solo conocen los sitios que alguien se ha molestado en añadir, así que la cobertura se va reduciendo en cuanto te sales de las rutas más populares.",
       "problem3": "Las apps de mapas generales tratan una autocaravana como si fuera un coche y casi nunca indican si un lugar de parada te sirve de algo cuando vives en tu vehículo.",
       "solutionAria": "Cómo te ayuda la app si viajas en furgoneta camper o autocaravana",
-      "solutionTitle": "Todo aquello de lo que realmente te quedas sin...",
+      "solutionTitle": "Todo lo que necesitas cuando viajas en autocaravana",
       "solutionText": "Voyager Maps reúne todos estos lugares prácticos en un solo mapa: más de 190 000 campings y áreas de caravanas, más de 450 000 puntos de agua potable, 36 000 duchas y cerca de 20 000 lavanderías de autoservicio en todo el mundo, además de baños, gasolineras y aparcamientos por el camino.",
-      "feature1Title": "Repón fuerzas y refréscate",
+      "feature1Title": "Llena el depósito y refréscate",
       "feature1Text": "Agua potable, duchas y lavanderías de autoservicio: te muestro solo lo que necesitas en este momento.",
       "feature2Title": "Un sitio donde pasar la noche",
       "feature2Text": "Más de 190 000 campings y áreas de autocaravanas en todo el mundo, desde parcelas con todos los servicios hasta simples lugares para pasar la noche.",
-      "feature3Title": "Se encuentra alejado de las rutas principales",
+      "feature3Title": "Funciona también fuera de las rutas principales",
       "feature3Text": "Se basa en datos cartográficos abiertos en lugar de en las aportaciones de los usuarios, así que la cobertura no se reduce en cuanto te alejas de las zonas más transitadas.",
       "ctaBlockAria": "Llamada a la acción",
       "ctaBlockTitle": "Planifica tu próxima parada",
@@ -57,7 +58,7 @@ window.voyagerLocales["es"] = {
       "consentDescription": "Solo usamos herramientas de análisis opcionales tras tu consentimiento, con fines estadísticos, para mejorar y perfeccionar Voyager Maps.",
       "consentNecessaryLabel": "Imprescindibles",
       "consentNecessaryDescription": "Es necesario para la selección del idioma, el estado de consentimiento y las funciones básicas de la página.",
-      "consentNecessaryValue": "Siempre activa",
+      "consentNecessaryValue": "Siempre activas",
       "consentStatisticsLabel": "Estadísticas",
       "consentStatisticsValue": "Google Analytics 4 para el seguimiento de visitas y eventos de interacción",
       "consentNote": "Puedes cambiar esta configuración en cualquier momento con el botón de privacidad.",

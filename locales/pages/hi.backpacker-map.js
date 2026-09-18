@@ -4,6 +4,7 @@ window.voyagerLocales = window.voyagerLocales || {};
 window.voyagerLocales["hi"] = {
   "landingPages": {
     "backpacker": {
+      "htmlLang": "hi",
       "pageTitle": "बैकपैकर और सोलो ट्रैवल मैप",
       "meta": {
         "description": "बैकपैकर्स और अकेले यात्रियों के लिए शावर, लॉन्ड्री, पीने का पानी और वाई-फाई। दुनिया भर में 5.5 मिलियन स्थान। मुफ्त ऐप, कोई खाता नहीं।"

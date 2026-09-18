@@ -58,7 +58,7 @@ window.voyagerLocales["pt"] = {
   trip2Text: "Manda um link ou adiciona seus companheiros de viagem pra que todo mundo siga o mesmo plano.",
   trip3Title: "Veja quanto dá no total",
   trip3Text: "Coloca um custo estimado em qualquer parada e vê o total por moeda — útil quando a viagem passa por vários países.",
-  trip4Title: "Guarde aqueles que valem a pena voltar",
+  trip4Title: "Guarde os lugares aos quais vale a pena voltar",
   trip4Text: "Marque qualquer lugar como favorito e ele ficará a um toque de distância, tanto nessa viagem quanto na próxima.",
   cat_parking: "Vagas de estacionamento",
   cat_parkingCount: "1,2M",
@@ -460,6 +460,7 @@ window.voyagerLocales["pt"] = {
       exploreBackpackerLink: "Mapa do Mochileiro"
     },
     campervan: {
+      htmlLang: "pt",
       pageTitle: "Mapa de serviços para trailers e motorhomes",
       meta: {
         description: "Encontre pontos de abastecimento de água, chuveiros, lavanderias e locais para acampar com seu trailer ou motorhome. Mais de 190.000 locais no mundo todo. App grátis, sem precisar criar conta."
@@ -493,13 +494,13 @@ window.voyagerLocales["pt"] = {
       problem2: "Os apps comunitários só conhecem os lugares que alguém se deu ao trabalho de adicionar, então a cobertura fica mais escassa assim que você sai das rotas mais populares.",
       problem3: "Os aplicativos de mapas comuns tratam um trailer como se fosse um carro e raramente mostram se um local de parada é útil quando você está morando no seu veículo.",
       solutionAria: "Como o app ajuda quem viaja de van de acampamento e motorhome",
-      solutionTitle: "Tudo o que um campista realmente fica sem",
+      solutionTitle: "Tudo de que você pode precisar numa viagem de trailer",
       solutionText: "O Voyager Maps reúne todos esses pontos úteis em um único mapa: mais de 190 mil locais para acampamento e estacionamento de trailers, mais de 450 mil pontos de água potável, 36 mil chuveiros e quase 20 mil lavanderias self-service em todo o mundo — além de banheiros, postos de combustível e estacionamentos pelo caminho.",
       feature1Title: "Reabasteça e dê uma refrescada",
       feature1Text: "Água potável, chuveiros e lavanderias self-service, filtrados de acordo com o que você precisa agora.",
       feature2Title: "Um lugar pra passar a noite",
       feature2Text: "Mais de 190 mil locais para acampamento e estacionamento de trailers em todo o mundo, desde áreas com todos os serviços até simples pontos para passar a noite.",
-      feature3Title: "Fica um pouco afastado das rotas principais",
+      feature3Title: "Funciona também fora das rotas principais",
       feature3Text: "Feito com dados de mapas abertos, em vez de informações enviadas pelos usuários, então a cobertura não fica ruim quando você sai das áreas mais movimentadas.",
       ctaBlockAria: "Chamada à ação",
       ctaBlockTitle: "Planeja sua próxima parada",
@@ -537,6 +538,7 @@ window.voyagerLocales["pt"] = {
       footer: "© Site do Voyager Maps"
     },
     backpacker: {
+      htmlLang: "pt",
       pageTitle: "Mapa para mochileiros e quem viaja sozinho",
       meta: {
         description: "Chuveiros, lavanderia, água potável e Wi-Fi para mochileiros e quem viaja sozinho. 5,5 milhões de locais no mundo todo. App grátis, sem precisar criar conta."

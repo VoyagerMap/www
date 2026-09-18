@@ -4,6 +4,7 @@ window.voyagerLocales = window.voyagerLocales || {};
 window.voyagerLocales["zh"] = {
   "landingPages": {
     "campervan": {
+      "htmlLang": "zh",
       "pageTitle": "露营车及房车服务地图",
       "meta": {
         "description": "为您的露营车或房车寻找加水点、淋浴设施、洗衣服务及露营地。全球覆盖19万+个地点。免费应用，无需注册。"

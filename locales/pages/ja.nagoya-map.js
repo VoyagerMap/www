@@ -68,7 +68,7 @@ window.voyagerLocales["ja"] = {
       "otherCitiesTitle": "地図上のその他の都市",
       "otherCitiesIntro": "Voyager Mapsが詳細にカバーしている他の場所についても同様です。",
       "allCitiesLink": "各都市の件数をCSV形式で確認する",
-      "dataNote": "データはOpenStreetMapの貢献者によるもので、Open Database Licenseの下でライセンスされています。集計は2026年9月9日時点のものであり、データの読み込みごとに更新されます。地図上に表示されていないからといって、その場所が存在しないことを示すものではありません。",
+      "dataNote": "データはOpenStreetMapの貢献者によるもので、Open Database Licenseの下でライセンスされています。集計は2026年9月10日時点のものであり、データの読み込みごとに更新されます。地図上に表示されていないからといって、その場所が存在しないことを示すものではありません。",
       "backToHome": "Voyager Maps ホーム",
       "pageTitle": "名古屋の公衆トイレと飲用水",
       "metaDescription": "名古屋で4,381か所の実用的なスポットがマッピングされています：公衆トイレ315か所、飲用水の給水所121か所、駐車場2,205か所。iOSおよびAndroidで無料。",

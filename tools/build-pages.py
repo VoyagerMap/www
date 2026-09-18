@@ -251,10 +251,10 @@ def localize(source, code, dic, page, codes, page_codes=None):
             if obj.get("@type") == "WebPage":
                 obj["name"] = title
                 obj["description"] = desc
-            if obj.get("@type") == "WebSite" and dic.get("structuredWebDescription"):
-                obj["description"] = dic["structuredWebDescription"]
-            if obj.get("@type") == "SoftwareApplication" and dic.get("structuredAppDescription"):
-                obj["description"] = dic["structuredAppDescription"]
+            if obj.get("@type") == "WebSite":
+                obj["description"] = dic.get("structuredWebDescription") or dic.get("metaDescription", obj.get("description", ""))
+            if obj.get("@type") == "SoftwareApplication":
+                obj["description"] = dic.get("structuredAppDescription") or dic.get("metaDescription", obj.get("description", ""))
             if obj.get("@type") == "FAQPage":
                 for index, item in enumerate(obj.get("mainEntity", []), start=1):
                     question = dic.get(f"faq{index}Q")

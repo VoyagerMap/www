@@ -4,6 +4,7 @@ window.voyagerLocales = window.voyagerLocales || {};
 window.voyagerLocales["nl"] = {
   "landingPages": {
     "backpacker": {
+      "htmlLang": "nl",
       "pageTitle": "Kaart voor backpackers en solo-reizigers",
       "meta": {
         "description": "Douches, wasserettes, drinkwater en wifi voor backpackers en solo-reizigers. 5,5 miljoen locaties wereldwijd. Gratis app, geen account nodig."

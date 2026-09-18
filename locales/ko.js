@@ -460,6 +460,7 @@ window.voyagerLocales["ko"] = {
       exploreBackpackerLink: "배낭여행자 지도"
     },
     campervan: {
+      htmlLang: "ko",
       pageTitle: "캠핑카 및 모터홈 서비스 지도",
       meta: {
         description: "캠핑카나 모터홈을 위한 물 보충소, 샤워 시설, 세탁소, 캠핑장을 찾아보세요. 전 세계 19만 개 이상의 장소가 등록되어 있습니다. 무료 앱이며, 계정 등록이 필요 없습니다."
@@ -495,7 +496,7 @@ window.voyagerLocales["ko"] = {
       solutionAria: "이 앱이 캠핑카 및 모터홈 여행객에게 어떤 도움을 주는지",
       solutionTitle: "캠핑객이 실제로 부족해지기 쉬운 모든 것",
       solutionText: "'Voyager Maps'는 실용적인 휴게 시설을 하나의 지도에 모아 제공합니다: 전 세계 19만 개 이상의 캠핑장 및 캐러밴 사이트, 45만 개 이상의 식수 공급소, 3만 6천 개의 샤워 시설, 2만 개에 가까운 셀프 세탁소 — 여기에 이동 경로상의 공중화장실, 주유소, 주차장 정보까지 모두 포함합니다.",
-      feature1Title: "기력을 보충하고 상쾌함을 되찾으세요",
+      feature1Title: "물을 채우고 상쾌하게 쉬어 가세요",
       feature1Text: "식수, 샤워 시설, 셀프 세탁소 등, 지금 당장 필요한 시설만 선별해 제공합니다.",
       feature2Title: "하룻밤 묵을 곳",
       feature2Text: "전 세계 19만 개 이상의 캠핑장 및 캐러밴 사이트를 제공하며, 모든 편의 시설이 갖춰진 사이트부터 간단한 하룻밤 숙박 장소까지 다양하게 포함되어 있습니다.",
@@ -537,6 +538,7 @@ window.voyagerLocales["ko"] = {
       footer: "© Voyager Maps 웹사이트"
     },
     backpacker: {
+      htmlLang: "ko",
       pageTitle: "배낭여행자 및 혼자 여행하는 분들을 위한 지도",
       meta: {
         description: "배낭여행객과 혼자 여행하는 분들을 위한 샤워 시설, 세탁소, 식수, Wi-Fi. 전 세계 550만 곳. 무료 앱, 회원가입 불필요."
@@ -547,7 +549,7 @@ window.voyagerLocales["ko"] = {
       heroAria: "배낭여행객 및 나홀로 여행 페이지 메인 이미지",
       eyebrow: "여행에 유용한 지도",
       heroTitle: "배낭여행객을 위한 실용적인 지도",
-      heroLead: "낯선 도시, 무거운 짐, 체크인까지 6시간 남았다. 도보로 갈 수 있는 거리 어딘가에는 샤워실, 세탁소, 식수대, 무료 Wi-Fi가 있을 텐데, 지금 손에 들고 있는 지도에는 그 어느 것도 표시되어 있지 않습니다.",
+      heroLead: "낯선 도시, 무거운 짐, 체크인까지 6시간이 남았습니다. 도보로 갈 수 있는 거리 어딘가에는 샤워실, 세탁소, 식수대, 무료 Wi-Fi가 있을 텐데, 지금 손에 들고 있는 지도에는 그 어느 것도 표시되어 있지 않습니다.",
       primaryCta: "앱에서 전체 지도 보기",
       primaryCtaAria: "앱에서 전체 백패커 지도를 열어보세요",
       badgeAppleLine: "다음에서 다운로드하세요.",

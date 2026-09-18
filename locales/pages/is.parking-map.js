@@ -15,7 +15,7 @@ window.voyagerLocales["is"] = {
       "heroAria": "Aðalmynd síðunnar um bílastæði",
       "eyebrow": "Ferðahagnýtt kort",
       "heroTitle": "Finndu bílastæði hvar sem er",
-      "heroLead": "Yfir 1,1 milljón bílastæða á 237 stöðum — bílastæði, margra hæða og neðanjarðar bílageymslur og vegstöðvar — þar af 810.000 ókeypis.",
+      "heroLead": "Yfir 1,1 milljón bílastæða í 237 löndum — bílastæði, margra hæða og neðanjarðar bílageymslur og vegstöðvar — þar af 810.000 ókeypis.",
       "primaryCta": "Opnaðu kortið í heild í forritinu",
       "primaryCtaAria": "Opnaðu alla bílastæðakortið í appinu",
       "badgeAppleLine": "Sæktu á",

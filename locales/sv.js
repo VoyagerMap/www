@@ -541,7 +541,7 @@ window.voyagerLocales["sv"] = {
       feature1Text: "Dricksvatten, duschar och självbetjänings tvättstuga – filtrerat efter just det du behöver just nu.",
       feature2Title: "Någonstans att övernatta",
       feature2Text: "Över 190 000 camping- och husvagnsplatser världen över, från platser med full service till enkla övernattningsställen.",
-      feature3Title: "Ligger en bit bort från huvudvägarna",
+      feature3Title: "Fungerar även utanför huvudvägarna",
       feature3Text: "Appen bygger på öppna kartdata snarare än bidrag från användare, vilket innebär att täckningen inte försämras när du lämnar de livliga områdena.",
       ctaBlockAria: "Uppmaning till handling",
       ctaBlockTitle: "Planera ditt nästa stopp",

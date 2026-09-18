@@ -460,6 +460,7 @@ window.voyagerLocales["zh"] = {
       exploreBackpackerLink: "背包客地图"
     },
     campervan: {
+      htmlLang: "zh",
       pageTitle: "露营车及房车服务地图",
       meta: {
         description: "为您的露营车或房车寻找加水点、淋浴设施、洗衣服务及露营地。全球覆盖19万+个地点。免费应用，无需注册。"
@@ -537,6 +538,7 @@ window.voyagerLocales["zh"] = {
       footer: "© Voyager Maps 网站"
     },
     backpacker: {
+      htmlLang: "zh",
       pageTitle: "背包客与独自旅行地图",
       meta: {
         description: "为背包客和独自旅行者提供淋浴、洗衣、饮用水和Wi-Fi服务。全球覆盖550万个地点。免费应用，无需注册。"
@@ -547,7 +549,7 @@ window.voyagerLocales["zh"] = {
       heroAria: "背包客与独自旅行者页面主图",
       eyebrow: "旅行实用地图",
       heroTitle: "背包客的实用地图",
-      heroLead: "初到新城市，背包沉重，距离办理登机手续还有六小时。步行范围内某处有淋浴间、自助洗衣店、饮用水龙头和免费Wi-Fi——但这些设施都没有标注在你手里的地图上。",
+      heroLead: "初到新城市，背包沉重，距离办理入住手续还有六小时。步行范围内某处有淋浴间、自助洗衣店、饮用水龙头和免费Wi-Fi——但这些设施都没有标注在你手里的地图上。",
       primaryCta: "在应用中打开完整地图",
       primaryCtaAria: "在应用中打开完整的背包客地图",
       badgeAppleLine: "在",

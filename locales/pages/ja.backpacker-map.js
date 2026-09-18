@@ -4,6 +4,7 @@ window.voyagerLocales = window.voyagerLocales || {};
 window.voyagerLocales["ja"] = {
   "landingPages": {
     "backpacker": {
+      "htmlLang": "ja",
       "pageTitle": "バックパッカー＆一人旅マップ",
       "meta": {
         "description": "バックパッカーや一人旅の旅行者向けのシャワー、コインランドリー、飲料水、Wi-Fi。世界中で550万カ所を網羅。無料アプリで、アカウント登録は不要です。"

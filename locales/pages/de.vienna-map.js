@@ -68,7 +68,7 @@ window.voyagerLocales["de"] = {
       "otherCitiesTitle": "Andere Städte auf der Karte",
       "otherCitiesIntro": "Das Gleiche gilt für die anderen Orte, die Voyager Maps ausführlich abdeckt.",
       "allCitiesLink": "Die Zahlen für jede Stadt als CSV-Datei anzeigen",
-      "dataNote": "Die Daten stammen von OpenStreetMap-Mitwirkenden und unterliegen der Open Database License. Die Zählungen wurden am 09.09.2026 durchgeführt und werden bei jedem Datenabruf aktualisiert. Das Fehlen eines Ortes auf der Karte bedeutet nicht, dass dieser Ort nicht existiert.",
+      "dataNote": "Die Daten stammen von OpenStreetMap-Mitwirkenden und unterliegen der Open Database License. Die Zählungen wurden am 10.09.2026 durchgeführt und werden bei jedem Datenabruf aktualisiert. Das Fehlen eines Ortes auf der Karte bedeutet nicht, dass dieser Ort nicht existiert.",
       "backToHome": "Voyager Maps-Startseite",
       "pageTitle": "Öffentliche Toiletten und Trinkwasser in Wien",
       "metaDescription": "8.263 nützliche Orte in Wien erfasst: 623 öffentliche Toiletten, 1.746 Trinkwasserhähne, 984 Parkplätze. Kostenlos für iOS und Android.",

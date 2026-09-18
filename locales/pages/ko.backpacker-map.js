@@ -4,6 +4,7 @@ window.voyagerLocales = window.voyagerLocales || {};
 window.voyagerLocales["ko"] = {
   "landingPages": {
     "backpacker": {
+      "htmlLang": "ko",
       "pageTitle": "배낭여행자 및 혼자 여행하는 분들을 위한 지도",
       "meta": {
         "description": "배낭여행객과 혼자 여행하는 분들을 위한 샤워 시설, 세탁소, 식수, Wi-Fi. 전 세계 550만 곳. 무료 앱, 회원가입 불필요."
@@ -14,7 +15,7 @@ window.voyagerLocales["ko"] = {
       "heroAria": "배낭여행객 및 나홀로 여행 페이지 메인 이미지",
       "eyebrow": "여행에 유용한 지도",
       "heroTitle": "배낭여행객을 위한 실용적인 지도",
-      "heroLead": "낯선 도시, 무거운 짐, 체크인까지 6시간 남았다. 도보로 갈 수 있는 거리 어딘가에는 샤워실, 세탁소, 식수대, 무료 Wi-Fi가 있을 텐데, 지금 손에 들고 있는 지도에는 그 어느 것도 표시되어 있지 않습니다.",
+      "heroLead": "낯선 도시, 무거운 짐, 체크인까지 6시간이 남았습니다. 도보로 갈 수 있는 거리 어딘가에는 샤워실, 세탁소, 식수대, 무료 Wi-Fi가 있을 텐데, 지금 손에 들고 있는 지도에는 그 어느 것도 표시되어 있지 않습니다.",
       "primaryCta": "앱에서 전체 지도 보기",
       "primaryCtaAria": "앱에서 전체 백패커 지도를 열어보세요",
       "badgeAppleLine": "다음에서 다운로드하세요.",

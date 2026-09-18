@@ -460,6 +460,7 @@ window.voyagerLocales["de"] = {
       exploreBackpackerLink: "Backpacker-Karte"
     },
     campervan: {
+      htmlLang: "de",
       pageTitle: "Karte mit Serviceangeboten für Wohnmobile und Camper",
       meta: {
         description: "Finde Wasserauffüllstellen, Duschen, Waschsalons und Campingplätze für dein Wohnmobil oder deinen Camper. Über 190.000 Standorte weltweit. Kostenlose App, kein Konto erforderlich."
@@ -499,7 +500,7 @@ window.voyagerLocales["de"] = {
       feature1Text: "Trinkwasser, Duschen und Selbstbedienungs-Waschsalons – gefiltert genau nach dem, was du gerade brauchst.",
       feature2Title: "Ein Ort für die Nacht",
       feature2Text: "Mehr als 190.000 Camping- und Wohnwagenstellplätze weltweit, von Stellplätzen mit kompletter Ausstattung bis hin zu einfachen Übernachtungsmöglichkeiten.",
-      feature3Title: "Liegt abseits der Hauptverkehrswege",
+      feature3Title: "Funktioniert auch abseits der Hauptverkehrswege",
       feature3Text: "Basiert auf offenen Kartendaten statt auf Einsendungen von Nutzern, sodass die Abdeckung nicht nachlässt, sobald du die stark frequentierten Korridore verlässt.",
       ctaBlockAria: "Aufruf zum Handeln",
       ctaBlockTitle: "Plane deinen nächsten Stopp",
@@ -537,6 +538,7 @@ window.voyagerLocales["de"] = {
       footer: "© Voyager Maps-Website"
     },
     backpacker: {
+      htmlLang: "de",
       pageTitle: "Karte für Rucksacktouristen und Alleinreisende",
       meta: {
         description: "Duschen, Waschmöglichkeiten, Trinkwasser und WLAN für Rucksacktouristen und Alleinreisende. 5,5 Millionen Orte weltweit. Kostenlose App, kein Konto erforderlich."

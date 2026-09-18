@@ -68,7 +68,7 @@ window.voyagerLocales["zh"] = {
       "otherCitiesTitle": "地图上的其他城市",
       "otherCitiesIntro": "对于“Voyager Maps”深入覆盖的其他地点，同样适用此规则。",
       "allCitiesLink": "查看各城市的统计数据（CSV格式）",
-      "dataNote": "数据来源于 OpenStreetMap 贡献者，遵循开放数据库许可协议。统计数据采集于 2026-09-09，并在每次数据加载时更新。地图上未显示某处地点，并不意味着该地点不存在。",
+      "dataNote": "数据来源于 OpenStreetMap 贡献者，遵循开放数据库许可协议。统计数据采集于 2026-09-10，并在每次数据加载时更新。地图上未显示某处地点，并不意味着该地点不存在。",
       "backToHome": "Voyager Maps 主页",
       "pageTitle": "台北的公共厕所和饮用水设施",
       "metaDescription": "台北地区已标注7,194处实用地点：916处公共厕所、1,272处饮水点、808处停车位。iOS和Android平台均可免费下载。",

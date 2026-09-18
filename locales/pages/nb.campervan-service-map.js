@@ -44,7 +44,7 @@ window.voyagerLocales["nb"] = {
       "feature1Text": "Drikkevann, dusjer og selvbetjent vaskeri – filtrert ned til akkurat det du trenger akkurat nå.",
       "feature2Title": "Et sted å overnatte",
       "feature2Text": "Mer enn 190 000 campingplasser og bobilplasser over hele verden, fra plasser med full service til enkle overnattingssteder.",
-      "feature3Title": "Ligger litt utenfor hovedveiene",
+      "feature3Title": "Fungerer også utenfor hovedveiene",
       "feature3Text": "Bygget på åpne kartdata i stedet for innmeldinger fra medlemmer, slik at dekningen ikke svikter når du forlater de travle områdene.",
       "ctaBlockAria": "Oppfordring til handling",
       "ctaBlockTitle": "Planlegg ditt neste stopp",

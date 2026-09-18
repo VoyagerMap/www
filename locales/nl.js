@@ -460,6 +460,7 @@ window.voyagerLocales["nl"] = {
       exploreBackpackerLink: "Backpacker-kaart"
     },
     campervan: {
+      htmlLang: "nl",
       pageTitle: "Kaart met voorzieningen voor campers en caravans",
       meta: {
         description: "Vind watervulpunten, douches, wasserettes en campings voor je camper of caravan. Meer dan 190.000 locaties wereldwijd. Gratis app, geen account nodig."
@@ -499,7 +500,7 @@ window.voyagerLocales["nl"] = {
       feature1Text: "Drinkwater, douches en zelfbedieningswasserettes, precies wat je op dit moment nodig hebt.",
       feature2Title: "Een plek om te overnachten",
       feature2Text: "Meer dan 190.000 campings en caravanterreinen wereldwijd, van staanplaatsen met alle voorzieningen tot simpele overnachtingsplekken.",
-      feature3Title: "Ligt iets buiten de hoofdwegen",
+      feature3Title: "Werkt ook buiten de hoofdwegen",
       feature3Text: "Gebaseerd op open kaartgegevens in plaats van inzendingen van gebruikers, dus de dekking valt niet weg zodra je de drukke routes verlaat.",
       ctaBlockAria: "Oproep tot actie",
       ctaBlockTitle: "Plan je volgende stop",
@@ -537,6 +538,7 @@ window.voyagerLocales["nl"] = {
       footer: "© Website van Voyager Maps"
     },
     backpacker: {
+      htmlLang: "nl",
       pageTitle: "Kaart voor backpackers en solo-reizigers",
       meta: {
         description: "Douches, wasserettes, drinkwater en wifi voor backpackers en solo-reizigers. 5,5 miljoen locaties wereldwijd. Gratis app, geen account nodig."

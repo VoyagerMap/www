@@ -15,7 +15,7 @@ window.voyagerLocales["nb"] = {
       "heroAria": "Hovedbilde for gratis dusjer",
       "eyebrow": "Kart med nyttige reiseopplysninger",
       "heroTitle": "Finn gratis dusjer når du er på reise",
-      "heroLead": "Steder med dusjer er spredt utover fora, tipsblogger og ufullstendige oversikter – noe som gjør det overraskende vanskelig å holde seg frisk og frisk på reise.",
+      "heroLead": "Steder med dusjer er spredt utover fora, tipsblogger og ufullstendige oversikter – noe som gjør det overraskende vanskelig å holde seg frisk på reise.",
       "primaryCta": "Åpne hele kartet i appen",
       "primaryCtaAria": "Åpne det fullstendige dusjkartet i appen",
       "badgeAppleLine": "Last ned på",

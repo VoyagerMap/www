@@ -460,6 +460,7 @@ window.voyagerLocales["ja"] = {
       exploreBackpackerLink: "バックパッカー向けマップ"
     },
     campervan: {
+      htmlLang: "ja",
       pageTitle: "キャンピングカー・モーターホーム向けサービスマップ",
       meta: {
         description: "キャンピングカーやモーターホーム用の給水スポット、シャワー、コインランドリー、キャンプ場を探せます。世界中に19万カ所以上を掲載。無料アプリで、アカウント登録は不要です。"
@@ -495,7 +496,7 @@ window.voyagerLocales["ja"] = {
       solutionAria: "このアプリがキャンピングカーやモーターホームでの旅行者にどのように役立つか",
       solutionTitle: "キャンパーが実際に不足しがちなものすべて",
       solutionText: "Voyager Mapsは、実用的なスポットを1つの地図にまとめて表示します： 世界中の19万カ所以上のキャンプ場やキャラバンサイト、45万カ所以上の給水ポイント、3万6,000カ所のシャワー、2万カ所近くのセルフサービスコインランドリーに加え、道中のトイレ、ガソリンスタンド、駐車場も表示されます。",
-      feature1Title: "水分補給とリフレッシュ",
+      feature1Title: "給水してリフレッシュ",
       feature1Text: "飲料水、シャワー、コインランドリー――今まさに必要なものだけを絞り込んで表示します。",
       feature2Title: "一晩泊まれる場所",
       feature2Text: "世界中に19万カ所以上のキャンプ場やキャラバンサイトを掲載。設備が充実したサイトから、単に一晩泊まるだけの場所まで幅広く網羅しています。",
@@ -537,6 +538,7 @@ window.voyagerLocales["ja"] = {
       footer: "© Voyager Maps ウェブサイト"
     },
     backpacker: {
+      htmlLang: "ja",
       pageTitle: "バックパッカー＆一人旅マップ",
       meta: {
         description: "バックパッカーや一人旅の旅行者向けのシャワー、コインランドリー、飲料水、Wi-Fi。世界中で550万カ所を網羅。無料アプリで、アカウント登録は不要です。"

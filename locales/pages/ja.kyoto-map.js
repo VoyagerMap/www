@@ -68,7 +68,7 @@ window.voyagerLocales["ja"] = {
       "otherCitiesTitle": "地図上のその他の都市",
       "otherCitiesIntro": "Voyager Mapsが詳細にカバーしている他の場所についても同様です。",
       "allCitiesLink": "各都市の件数をCSV形式で確認する",
-      "dataNote": "データはOpenStreetMapの貢献者によるもので、Open Database Licenseの下でライセンスされています。集計は2026年9月9日時点のものであり、データの読み込みごとに更新されます。地図上に表示されていないからといって、その場所が存在しないことを示すものではありません。",
+      "dataNote": "データはOpenStreetMapの貢献者によるもので、Open Database Licenseの下でライセンスされています。集計は2026年9月10日時点のものであり、データの読み込みごとに更新されます。地図上に表示されていないからといって、その場所が存在しないことを示すものではありません。",
       "backToHome": "Voyager Maps ホーム",
       "pageTitle": "京都の公衆トイレと飲用水",
       "metaDescription": "京都で地図上に登録された実用的なスポットは4,352カ所：公衆トイレ604カ所、飲用水の給水所192カ所、駐車場1,762カ所。iOSおよびAndroidで無料提供中。",
