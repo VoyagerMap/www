@@ -38,7 +38,7 @@ window.voyagerLocales["nl"] = {
       "problem2": "Reizigers verspillen vaak tijd met het kopen van flessenwater omdat ze niet snel kunnen zien waar ze in de buurt hun fles kunnen bijvullen.",
       "problem3": "Algemene kaart-apps richten zich zelden op praktische toegang tot water wanneer je dat snel nodig hebt tijdens een wandeling, roadtrip of verplaatsing in de stad.",
       "solutionAria": "Hoe de app reizigers helpt water te vinden",
-      "solutionTitle": "Een handigere manier om oplaadpunten in de buurt te vinden",
+      "solutionTitle": "Een handigere manier om watervulpunten in de buurt te vinden",
       "solutionText": "De app helpt je bij het vinden van zorgvuldig geselecteerde locaties die zijn afgestemd op echte behoeften, in plaats van algemene zoekresultaten. In plaats van door irrelevante plekken te scrollen, kun je je richten op wat er echt toe doet als je snel water nodig hebt.",
       "feature1Title": "Zorgvuldig geselecteerde locaties",
       "feature1Text": "Handige vulpunten, kraantjes en plekken waar je water kunt halen, verzameld voor echte reisbehoeften.",

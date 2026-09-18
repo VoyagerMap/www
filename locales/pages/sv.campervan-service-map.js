@@ -41,7 +41,7 @@ window.voyagerLocales["sv"] = {
       "solutionTitle": "Allt som en campare faktiskt kan komma att sakna",
       "solutionText": "Voyager Maps samlar alla praktiska stopp på en karta: mer än 190 000 camping- och husvagnsplatser, över 450 000 dricksvattenpunkter, 36 000 duschar och nära 20 000 självbetjäningstvättar världen över – plus toaletter, bensinstationer och parkeringsplatser längs vägen.",
       "feature1Title": "Fyll på och fräscha upp dig",
-      "feature1Text": "Dricksvatten, duschar och självbetjänings tvättstuga – filtrerat efter just det du behöver just nu.",
+      "feature1Text": "Dricksvatten, duschar och självbetjäningstvättar – filtrerat efter just det du behöver just nu.",
       "feature2Title": "Någonstans att övernatta",
       "feature2Text": "Över 190 000 camping- och husvagnsplatser världen över, från platser med full service till enkla övernattningsställen.",
       "feature3Title": "Fungerar även utanför huvudvägarna",

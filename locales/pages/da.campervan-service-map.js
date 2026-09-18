@@ -15,7 +15,7 @@ window.voyagerLocales["da"] = {
       "heroAria": "Hovedbillede for servicepunkter til autocampere",
       "eyebrow": "Kort med praktiske rejseoplysninger",
       "heroTitle": "Vand, brusere og campingpladser til din autocamper",
-      "heroLead": "Udsigten er perfekt, men vandtanken er tom. Servicesteder, påfyldningshaner og brusere er spredt ud over forskellige fora og lukkede medlemslister, så den praktiske del af livet i en campingvogn kræver langt mere søgen, end den burde.",
+      "heroLead": "Udsigten er perfekt, men vandtanken er tom. Servicesteder, påfyldningshaner og brusere er spredt ud over forskellige fora og lukkede medlemslister, så den praktiske del af livet i en autocamper kræver langt mere søgen, end den burde.",
       "primaryCta": "Åbn det fulde kort i appen",
       "primaryCtaAria": "Åbn det fulde kort over servicefaciliteter til autocamper i appen",
       "badgeAppleLine": "Download på",

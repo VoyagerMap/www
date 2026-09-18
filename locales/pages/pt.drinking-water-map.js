@@ -38,7 +38,7 @@ window.voyagerLocales["pt"] = {
       "problem2": "Muitas vezes, os viajantes perdem tempo comprando água engarrafada porque não conseguem verificar rapidamente onde há opções para reabastecer a água por perto.",
       "problem3": "Os aplicativos de mapas em geral raramente se concentram no acesso prático à água quando você precisa dela rapidamente durante uma caminhada, viagem de carro ou deslocamento pela cidade.",
       "solutionAria": "Como o app ajuda os viajantes a encontrar água",
-      "solutionTitle": "Uma maneira mais prática de encontrar pontos de recarga por perto",
+      "solutionTitle": "Uma maneira mais prática de encontrar pontos de reabastecimento por perto",
       "solutionText": "O app te ajuda a encontrar locais selecionados com base em necessidades reais, e não em resultados de busca genéricos. Em vez de ficar rolando a tela por lugares sem relação, você pode ir direto ao que realmente importa quando precisa de água rapidinho.",
       "feature1Title": "Locais selecionados",
       "feature1Text": "Pontos úteis para reabastecimento, torneiras e locais de acesso à água, reunidos para atender às necessidades reais de viagem.",

@@ -471,7 +471,7 @@ window.voyagerLocales["de"] = {
       heroAria: "Hauptbereich der Seite „Servicepunkte für Wohnmobile“",
       eyebrow: "Praktische Reisekarte",
       heroTitle: "Wasser, Duschen und Campingplätze für dein Wohnmobil",
-      heroLead: "Die Aussicht ist perfekt, aber der Wassertank ist leer. Versorgungsstellen, Wasserhähne zum Nachfüllen und Duschen sind über Foren und Mitgliederlisten verstreut, sodass die praktische Seite des Van-Livs viel mehr Suchen erfordert, als es eigentlich sollte.",
+      heroLead: "Die Aussicht ist perfekt, aber der Wassertank ist leer. Versorgungsstellen, Wasserhähne zum Nachfüllen und Duschen sind über Foren und Mitgliederlisten verstreut, sodass die praktische Seite des Vanlife viel mehr Suchen erfordert, als sie eigentlich sollte.",
       primaryCta: "Vollständige Karte in der App öffnen",
       primaryCtaAria: "Öffne die vollständige Karte mit den Campervan-Serviceangeboten in der App",
       badgeAppleLine: "Lade sie dir im",
