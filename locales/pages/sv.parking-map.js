@@ -49,7 +49,7 @@ window.voyagerLocales["sv"] = {
       "ctaBlockText": "Öppna appen för att se vilka parkeringsmöjligheter som finns i närheten av där du befinner dig just nu.",
       "seoAria": "SEO-innehåll om parkeringskartor",
       "seoTitle": "Parkeringskarta för bilresor, storstadsresor och vardagskörning",
-      "seoParagraph1": "En parkeringskarta är ett av de verktyg man bara tänker på när man behöver den, oftast när man kör runt i ett okänt stadskärna. Voyager Maps innehåller 1 174 855 parkeringsplatser världen över – parkeringshus, flervåningsgarage och underjordiska garage samt de parkeringsplatser längs vägen som vanliga kartor ofta utelämnar – så frågan om var du ska ställa bilen har ett svar redan innan du anländer.",
+      "seoParagraph1": "En parkeringskarta är ett av de verktyg man bara tänker på när man behöver den, oftast när man kör runt i en okänd stadskärna. Voyager Maps innehåller 1 174 855 parkeringsplatser världen över – parkeringshus, flervåningsgarage och underjordiska garage samt de parkeringsplatser längs vägen som vanliga kartor ofta utelämnar – så frågan om var du ska ställa bilen har ett svar redan innan du anländer.",
       "seoParagraph2": "Kostnaden är oftast den avgörande faktorn, och 810 544 av dessa platser är registrerade som kostnadsfria. Oavsett om det gäller en bilresa, en van life-rutt eller en helg i en stad du inte känner till, kan du filtrera kartan så att den endast visar parkeringsplatser och se vad som är gratis i närheten. På så sätt förvandlas några stressiga minuter till ett beslut du fattar i förväg.",
       "consentEyebrow": "Sekretessinställningar",
       "consentTitle": "Dina integritetsinställningar",

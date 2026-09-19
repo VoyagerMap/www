@@ -24,7 +24,7 @@ window.voyagerLocales["da"] = {
       "exploreToiletLink": "Kort over offentlige toiletter",
       "exploreShowerLink": "Kort over gratis brusebade",
       "exploreParkingLink": "Parkeringskort",
-      "exploreCampervanLink": "Kort over servicefaciliteter til autocamperer",
+      "exploreCampervanLink": "Kort over servicefaciliteter til autocampere",
       "exploreBackpackerLink": "Backpacker-kort",
       "legalTitle": "Juridiske oplysninger og dokumentation",
       "privacyLink": "Privatlivspolitik",

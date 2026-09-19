@@ -24,7 +24,7 @@ window.voyagerLocales["pt"] = {
       "exploreToiletLink": "Mapa de banheiros públicos",
       "exploreShowerLink": "Mapa de chuveiros grátis",
       "exploreParkingLink": "Mapa de estacionamentos",
-      "exploreCampervanLink": "Mapa de serviços para trailers",
+      "exploreCampervanLink": "Mapa de serviços para vans e motorhomes",
       "exploreBackpackerLink": "Mapa do Mochileiro",
       "legalTitle": "Informações legais e documentação",
       "privacyLink": "Política de Privacidade",

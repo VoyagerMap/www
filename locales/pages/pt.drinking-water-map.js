@@ -17,7 +17,7 @@ window.voyagerLocales["pt"] = {
       "heroTitle": "Encontre água potável de graça em qualquer lugar",
       "heroLead": "Ficar sem água no meio da viagem já é frustrante o suficiente — mas quando os pontos de abastecimento estão escondidos, desatualizados ou simplesmente não aparecem no seu mapa, é ainda pior.",
       "primaryCta": "Abrir o mapa completo no app",
-      "primaryCtaAria": "Abre o mapa completo de água potável no app",
+      "primaryCtaAria": "Abra o mapa completo de água potável no app",
       "badgeAppleLine": "Baixe na",
       "badgeGoogleLine": "Baixe no",
       "badgeAppleAria": "Baixe o Voyager Maps na App Store",
@@ -78,7 +78,7 @@ window.voyagerLocales["pt"] = {
       "termsLink": "Termos de utilização",
       "deleteLink": "Apagar dados",
       "footer": "© Site do Voyager Maps",
-      "exploreCampervanLink": "Mapa de serviços para trailers",
+      "exploreCampervanLink": "Mapa de serviços para vans e motorhomes",
       "exploreBackpackerLink": "Mapa do Mochileiro"
     }
   }

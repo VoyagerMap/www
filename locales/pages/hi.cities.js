@@ -33,7 +33,7 @@ window.voyagerLocales["hi"] = {
       "footer": "© Voyager Maps वेबसाइट",
       "consentEyebrow": "गोपनीयता सेटिंग्स",
       "consentTitle": "आपकी गोपनीयता विकल्प",
-      "consentDescription": "हम केवल आपके सहमति के बाद, सांख्यिकीय उद्देश्यों के लिए, Voyager Maps को बेहतर और परिष्कृत करने हेतु वैकल्पिक एनालिटिक्स का उपयोग करते हैं।",
+      "consentDescription": "हम केवल आपकी सहमति के बाद, सांख्यिकीय उद्देश्यों के लिए, Voyager Maps को बेहतर और परिष्कृत करने हेतु वैकल्पिक एनालिटिक्स का उपयोग करते हैं।",
       "consentNecessaryLabel": "आवश्यक",
       "consentNecessaryDescription": "भाषा चयन, सहमति स्थिति, और मुख्य पृष्ठ कार्यक्षमता के लिए आवश्यक।",
       "consentNecessaryValue": "हमेशा सक्रिय",

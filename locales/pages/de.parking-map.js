@@ -49,7 +49,7 @@ window.voyagerLocales["de"] = {
       "ctaBlockText": "Öffne die App, um die Parkmöglichkeiten in deiner aktuellen Umgebung anzuzeigen.",
       "seoAria": "SEO-Inhalte zu Parkplatzkarten",
       "seoTitle": "Parkplatzkarte für Roadtrips, Städtereisen und den Alltag",
-      "seoParagraph1": "Eine Parkplatzkarte ist eines dieser Hilfsmittel, an die man erst denkt, wenn man sie gerade braucht – meist, während man in einem unbekannten Stadtzentrum seine Runden dreht. Voyager Maps enthält weltweit 1.174.855 Parkplätze – Parkhäuser, Mehrgeschoss- und Tiefgaragen sowie die Parkmöglichkeiten am Straßenrand, die auf gewöhnlichen Karten oft nicht verzeichnet sind –, sodass die Frage, wo man das Auto abstellen kann, schon vor der Ankunft beantwortet ist.",
+      "seoParagraph1": "Eine Parkplatzkarte ist eines dieser Hilfsmittel, an die du erst denkst, wenn du sie gerade brauchst – meist, während du in einem unbekannten Stadtzentrum deine Runden drehst. Voyager Maps enthält weltweit 1.174.855 Parkplätze – Parkhäuser, mehrgeschossige Parkgaragen, Tiefgaragen sowie Parkmöglichkeiten am Straßenrand, die auf gewöhnlichen Karten oft nicht verzeichnet sind –, sodass du schon vor der Ankunft weißt, wo du dein Auto abstellen kannst.",
       "seoParagraph2": "Die Kosten sind meist der entscheidende Faktor, und 810.544 dieser Orte sind als kostenlos verzeichnet. Ob für einen Roadtrip, eine „Van-Life“-Route oder ein Wochenende in einer fremden Stadt: Die Möglichkeit, die Karte allein auf Parkplätze zu filtern und zu sehen, was in der Nähe kostenlos ist, verwandelt ein paar stressige Minuten in eine Entscheidung, die du schon im Voraus treffen kannst.",
       "consentEyebrow": "Datenschutzeinstellungen",
       "consentTitle": "Deine Datenschutzoptionen",

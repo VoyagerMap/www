@@ -37,7 +37,7 @@ window.voyagerLocales["pt"] = {
       "problem3": "Ficar dando voltas por todo o centro da cidade desperdiça combustível e tempo que uma alternativa mais próxima teria economizado.",
       "solutionAria": "Como o app ajuda os motoristas a encontrar vagas para estacionar",
       "solutionTitle": "Feito pra quem está dirigindo e precisa de um lugar, não de um desvio",
-      "solutionText": "Estacionamento é a maior categoria no Voyager Maps: 1.174.855 locais em todo o mundo, desde vagas na rua até estacionamentos de vários andares e subterrâneos. Filtra o mapa só para estacionamentos e vê as opções por perto, sem resultados irrelevantes atrapalhando.",
+      "solutionText": "Estacionamento é a maior categoria no Voyager Maps: 1.174.855 locais em todo o mundo, desde vagas na rua até estacionamentos de vários andares e subterrâneos. Filtre o mapa só para estacionamentos e veja as opções por perto, sem resultados irrelevantes atrapalhando.",
       "feature1Title": "810.000 opções gratuitas",
       "feature1Text": "Cerca de dois terços dos locais de estacionamento estão registrados como gratuitos, então geralmente há uma opção sem custo por perto.",
       "feature2Title": "Cobertura mundial",
@@ -76,7 +76,7 @@ window.voyagerLocales["pt"] = {
       "termsLink": "Termos de utilização",
       "deleteLink": "Apagar dados",
       "footer": "© Site do Voyager Maps",
-      "exploreCampervanLink": "Mapa de serviços para trailers",
+      "exploreCampervanLink": "Mapa de serviços para vans e motorhomes",
       "exploreBackpackerLink": "Mapa do Mochileiro"
     }
   }

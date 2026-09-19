@@ -267,7 +267,7 @@ window.voyagerLocales["fr"] = {
       solutionTitle: "Conçue pour t’aider à trouver facilement des toilettes quand tu es en déplacement",
       solutionText: "L’appli donne la priorité à l’accès aux toilettes, en t’aidant à trouver des lieux triés sur le volet qui répondent rapidement à tes besoins concrets. Elle s’articule autour des lieux pratiques souvent négligés sur les grandes cartes génériques.",
       feature1Title: "Lieux sélectionnés",
-      feature1Text: "Des points de toilettes utiles répertoriés pour t’éviter de te poser des questions quand tu es dans un endroit que tu connais pas.",
+      feature1Text: "Des toilettes utiles répertoriées pour t’éviter de chercher au hasard dans un endroit que tu ne connais pas.",
       feature2Title: "Destiné aux voyageurs",
       feature2Text: "Très pratique quand tu es entre deux étapes, que tu arrives dans une ville ou que tu veux que ton voyage se passe sans accroc.",
       feature3Title: "Lieux pratiques",
@@ -354,7 +354,7 @@ window.voyagerLocales["fr"] = {
       ctaBlockTitle: "Découvre d’autres lieux à proximité",
       ctaBlockText: "Ouvre l’appli pour trouver d’autres endroits où prendre une douche près de ton itinéraire.",
       seoAria: "Contenu SEO sur les cartes de voyage indiquant les douches gratuites",
-      seoTitle: "Carte de voyage gratuite avec les douches pour les road trips, les voyages en sac à dos et la vie en van",
+      seoTitle: "Carte des douches gratuites pour les road trips, les voyages en sac à dos et la vie en van",
       seoParagraph1: "La recherche d’une solution pour prendre une douche gratuitement commence souvent quand le confort devient un vrai besoin, et non plus un simple petit plus. Que ce soit lors de longs trajets en voiture, de séjours de plusieurs jours en ville, de circuits en sac à dos, de voyages à vélo ou de voyages en van, trouver une douche peut s’avérer étonnamment compliqué à organiser. Il existe peut-être des endroits pratiques à proximité, mais ils sont souvent dispersés entre les publications de la communauté, les recommandations locales, les infos sur les plages ou les listes d’équipements, et ce n’est pas facile de tout consulter au même endroit.",
       seoParagraph2: "Une meilleure carte gratuite des douches aide à réduire ces désagréments en facilitant la découverte des options pratiques à proximité. Au lieu de se contenter de recherches générales sur une carte, les voyageurs peuvent rechercher des emplacements de douches utiles de manière plus ciblée. Que tu souhaites te rafraîchir entre deux correspondances, prévoir une pause pendant un long trajet en voiture ou maintenir tes habitudes quotidiennes même en voyage, une carte des douches spécialement conçue pour les voyageurs rend la recherche plus pratique. C’est là tout l’intérêt d’informations gratuites sur les douches de voyage, organisées en fonction de tes déplacements réels et de tes besoins quotidiens en tant que voyageur.",
       consentEyebrow: "Paramètres de confidentialité",
@@ -431,7 +431,7 @@ window.voyagerLocales["fr"] = {
       ctaBlockText: "Ouvre l’appli pour voir les possibilités de stationnement près de là où tu te trouves.",
       seoAria: "Contenu SEO sur les cartes de parkings",
       seoTitle: "Une carte des parkings pour tes road trips, tes escapades en ville et tes trajets quotidiens",
-      seoParagraph1: "Une carte des parkings, c’est le genre d’outil auquel tu ne penses qu’au moment où t’en as besoin, généralement quand tu tournes en rond dans le centre-ville d’une ville que tu connais pas. Voyager Maps répertorie 1 174 855 emplacements de stationnement dans le monde entier — parkings, parkings à plusieurs étages et souterrains, ainsi que les places en bord de route que les cartes classiques ont tendance à ignorer — pour que tu saches où garer ta voiture avant même d’arriver.",
+      seoParagraph1: "Une carte des parkings, c’est le genre d’outil auquel tu ne penses qu’au moment où t’en as besoin, généralement quand tu tournes en rond dans le centre-ville d’une ville que tu ne connais pas. Voyager Maps répertorie 1 174 855 emplacements de stationnement dans le monde entier — parkings, parkings à plusieurs étages et souterrains, ainsi que les places en bord de route que les cartes classiques ont tendance à ignorer — pour que tu saches où garer ta voiture avant même d’arriver.",
       seoParagraph2: "Le prix est souvent le facteur décisif, et 810 544 de ces lieux sont répertoriés comme gratuits. Que ce soit pour un road trip, un itinéraire en van ou un week-end dans une ville que tu ne connais pas, pouvoir filtrer la carte pour n’afficher que les parkings et voir ce qui est gratuit à proximité te permet de transformer quelques minutes de stress en une décision que tu prends à l’avance.",
       consentEyebrow: "Paramètres de confidentialité",
       consentTitle: "Tes choix en matière de confidentialité",
@@ -465,7 +465,7 @@ window.voyagerLocales["fr"] = {
       htmlLang: "fr",
       pageTitle: "Carte des services pour camping-cars et fourgons aménagés",
       meta: {
-        description: "Trouve des points d’eau, des douches, des laveries et des campings pour ton camping-car ou ton mobil-home. Plus de 190 000 sites dans le monde entier. App gratuite, pas besoin de compte."
+        description: "Trouve des points d’eau, des douches, des laveries et des campings pour ton camping-car ou ton fourgon aménagé. Plus de 190 000 sites dans le monde entier. App gratuite, pas besoin de compte."
       },
       brandLabel: "Voyager Maps",
       langSwitcherAria: "Sélection de la langue",

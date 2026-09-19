@@ -16,7 +16,7 @@ window.voyagerLocales["tr"] = {
       "eyebrow": "Seyahat yardımcı haritası",
       "heroTitle": "Her yerde umumi tuvaletleri bulun",
       "heroLead": "Acilen bir tuvalete ihtiyaç duyduğunuzda, standart harita sonuçları genellikle eksik, güncel olmayan veya alakasız yerlerin arasında kaybolmuş olur.",
-      "primaryCta": "Uygulamada tam haritayı aç",
+      "primaryCta": "Uygulamada tam haritayı açın",
       "primaryCtaAria": "Uygulamada tam umumi tuvalet haritasını açın",
       "badgeAppleLine": "Uygulamayı şuradan indirin:",
       "badgeGoogleLine": "Uygulamayı indirin",

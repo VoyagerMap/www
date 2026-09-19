@@ -7,7 +7,7 @@ window.voyagerLocales["es"] = {
       "htmlLang": "es",
       "pageTitle": "Mapa de servicios para furgonetas camper y autocaravanas",
       "meta": {
-        "description": "Encuentra puntos de recarga de agua, duchas, lavanderías y campings para tu autocaravana o caravana. Más de 190 000 lugares en todo el mundo. App gratis, sin necesidad de crear una cuenta."
+        "description": "Encuentra puntos de recarga de agua, duchas, lavanderías y campings para tu autocaravana o furgoneta camper. Más de 190 000 lugares en todo el mundo. App gratis, sin necesidad de crear una cuenta."
       },
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "Selector de idioma",
@@ -39,9 +39,9 @@ window.voyagerLocales["es"] = {
       "problem3": "Las apps de mapas generales tratan una autocaravana como si fuera un coche y casi nunca indican si un lugar de parada te sirve de algo cuando vives en tu vehículo.",
       "solutionAria": "Cómo te ayuda la app si viajas en furgoneta camper o autocaravana",
       "solutionTitle": "Todo lo que necesitas cuando viajas en autocaravana",
-      "solutionText": "Voyager Maps reúne todos estos lugares prácticos en un solo mapa: más de 190 000 campings y áreas de caravanas, más de 450 000 puntos de agua potable, 36 000 duchas y cerca de 20 000 lavanderías de autoservicio en todo el mundo, además de baños, gasolineras y aparcamientos por el camino.",
+      "solutionText": "Voyager Maps reúne todos estos lugares prácticos en un solo mapa: más de 190 000 campings y áreas para autocaravanas, más de 450 000 puntos de agua potable, 36 000 duchas y cerca de 20 000 lavanderías de autoservicio en todo el mundo, además de baños, gasolineras y aparcamientos por el camino.",
       "feature1Title": "Llena el depósito y refréscate",
-      "feature1Text": "Agua potable, duchas y lavanderías de autoservicio: te muestro solo lo que necesitas en este momento.",
+      "feature1Text": "Agua potable, duchas y lavanderías de autoservicio, filtradas según lo que necesitas en este momento.",
       "feature2Title": "Un sitio donde pasar la noche",
       "feature2Text": "Más de 190 000 campings y áreas de autocaravanas en todo el mundo, desde parcelas con todos los servicios hasta simples lugares para pasar la noche.",
       "feature3Title": "Funciona también fuera de las rutas principales",
@@ -52,7 +52,7 @@ window.voyagerLocales["es"] = {
       "seoAria": "Contenido optimizado para SEO sobre puntos de servicio para furgonetas camper y autocaravanas",
       "seoTitle": "Puntos de servicio para furgonetas camper y autocaravanas, ideales para la vida en furgoneta, viajes por carretera y rutas largas",
       "seoParagraph1": "Viajar en autocaravana se basa en una lista breve de cosas imprescindibles: agua potable, una ducha que funcione, un sitio para lavar la ropa y un sitio donde pasar la noche. Encontrarlos rara vez es la parte más relajada del viaje. Los puntos de servicio para autocaravanas y furgonetas camper están documentados de forma desigual: algunos en páginas de clubes a las que solo se accede con carné de socio, otros en hilos de foros desactualizados desde hace años, y otros solo en un idioma que no dominas. El resultado es que los viajeros con experiencia suelen planificar su ruta en función de los pocos sitios en los que ya confían, en lugar de los muchos que hay cerca.",
-      "seoParagraph2": "Un mapa de servicios para autocaravanas es más útil cuando se basa en datos cartográficos abiertos en lugar de en las aportaciones de los usuarios, ya que así la cobertura refleja lo que realmente hay sobre el terreno y no lo que alguien haya publicado por casualidad. Voyager Maps reúne campings, áreas de caravanas, puntos de agua potable, duchas, lavanderías de autoservicio, baños, gasolineras y aparcamientos en un único mapa en el que puedes buscar, para que puedas ver qué hay cerca de tu parada de esta noche antes de llegar allí. Tanto si viajas a tiempo completo, como si te vas de viaje largo en verano o pasas un fin de semana fuera en una furgoneta adaptada, las paradas prácticas son las que vale la pena tener a mano.",
+      "seoParagraph2": "Un mapa de servicios para autocaravanas es más útil cuando se basa en datos cartográficos abiertos en lugar de en las aportaciones de los usuarios, ya que así la cobertura refleja lo que realmente hay sobre el terreno y no lo que alguien haya publicado por casualidad. Voyager Maps reúne campings, áreas para autocaravanas, puntos de agua potable, duchas, lavanderías de autoservicio, baños, gasolineras y aparcamientos en un único mapa en el que puedes buscar, para que puedas ver qué hay cerca de tu parada de esta noche antes de llegar allí. Tanto si viajas a tiempo completo, como si te vas de viaje largo en verano o pasas un fin de semana fuera en una furgoneta adaptada, las paradas prácticas son las que vale la pena tener a mano.",
       "consentEyebrow": "Configuración de privacidad",
       "consentTitle": "Tus opciones de privacidad",
       "consentDescription": "Solo usamos herramientas de análisis opcionales tras tu consentimiento, con fines estadísticos, para mejorar y perfeccionar Voyager Maps.",

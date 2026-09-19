@@ -35,7 +35,7 @@ window.voyagerLocales["hu"] = {
       "consentTitle": "Adatkezelési beállítások",
       "consentDescription": "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapset.",
       "consentNecessaryLabel": "Szükséges",
-      "consentNecessaryDescription": "A nyelvválasztáshoz, a consent állapot mentéséhez és az oldal alapműködéséhez kell.",
+      "consentNecessaryDescription": "A nyelvválasztáshoz, a hozzájárulási beállítások mentéséhez és az oldal alapműködéséhez szükséges.",
       "consentNecessaryValue": "Mindig aktív",
       "consentStatisticsLabel": "Statisztika",
       "consentStatisticsValue": "Google Analytics 4 a látogatások és interakciók mérésére",

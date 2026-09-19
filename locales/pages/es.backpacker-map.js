@@ -34,7 +34,7 @@ window.voyagerLocales["es"] = {
       "previewNote": "Solo estás viendo una vista previa limitada",
       "problemAria": "Los problemas a los que se enfrentan los viajeros en solitario a la hora de encontrar servicios prácticos",
       "problemTitle": "Las horas que hay entre la salida del hotel y el autobús nocturno",
-      "problem1": "Las guías suelen hablar de qué ver. Rara vez te dicen dónde ducharte, lavar la ropa, rellenar una botella o sentarte con conexión Wi-Fi mientras esperas a que te den una cama.",
+      "problem1": "Las guías suelen hablar de qué ver. Rara vez te dicen dónde ducharte, lavar la ropa, rellenar una botella o sentarte con conexión Wi-Fi mientras esperas para hacer el check-in.",
       "problem2": "Viajar solo significa llevar contigo todo lo que tienes, así que dar un rodeo para ir a un sitio que luego resulta estar cerrado te cuesta más que solo tiempo.",
       "problem3": "Los viajes con poco presupuesto se basan en el agua gratis, el wifi gratis y el lavado de ropa barato: las tres cosas que las apps de mapas habituales no suelen mostrar bien.",
       "solutionAria": "Cómo ayuda la app a los mochileros y a quienes viajan solos",

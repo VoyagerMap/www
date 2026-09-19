@@ -43,7 +43,7 @@ window.voyagerLocales["fil"] = {
       "feature1Title": "Paliligo, paghuhugas, muling pagpuno",
       "feature1Text": "Mga paliligo, self-service na labahan, at inuming tubig, kaya nananatiling madali pangasiwaan ang mahabang pagitan ng mga tulugan.",
       "feature2Title": "Libreng tubig at Wi-Fi",
-      "feature2Text": "Salain ang mga lugar na walang bayad — mga refill point, pampublikong gripo, at mga lugar na may bukas na Wi-Fi.",
+      "feature2Text": "Salain ang mga lugar na libre — mga refill point, pampublikong gripo, at mga lugar na may libreng Wi-Fi o Wi-Fi para sa mga customer.",
       "feature3Title": "Walang account, walang pag-sign up",
       "feature3Text": "Buksan ang mapa at gamitin ito. Walang kailangang irehistro, at pareho ang paggana nito sa bawat bansang iyong dadaan.",
       "ctaBlockAria": "Panawagan sa pagkilos",

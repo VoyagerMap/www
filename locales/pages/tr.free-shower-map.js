@@ -16,7 +16,7 @@ window.voyagerLocales["tr"] = {
       "eyebrow": "Seyahat yardımcı haritası",
       "heroTitle": "Seyahat ederken ücretsiz duş yerlerini bulun",
       "heroLead": "Duş noktaları forumlara, tavsiye bloglarına ve eksik listelere dağılmış durumda; bu da yolculuk sırasında temiz kalmayı şaşırtıcı derecede zorlaştırıyor.",
-      "primaryCta": "Uygulamada tam haritayı aç",
+      "primaryCta": "Uygulamada tam haritayı açın",
       "primaryCtaAria": "Uygulamada tam duş haritasını açın",
       "badgeAppleLine": "Uygulamayı şuradan indirin:",
       "badgeGoogleLine": "Uygulamayı indirin",

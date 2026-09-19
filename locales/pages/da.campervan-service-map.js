@@ -5,9 +5,9 @@ window.voyagerLocales["da"] = {
   "landingPages": {
     "campervan": {
       "htmlLang": "da",
-      "pageTitle": "Kort over servicefaciliteter til autocamper og campingvogn",
+      "pageTitle": "Kort over servicefaciliteter til autocampere og campervans",
       "meta": {
-        "description": "Find vandpåfyldningssteder, brusebade, vaskeri og campingpladser til din campingvogn eller autocamper. Over 190.000 steder verden over. Gratis app, ingen konto kræves."
+        "description": "Find vandpåfyldningssteder, brusebade, vaskeri og campingpladser til din autocamper eller campervan. Over 190.000 steder verden over. Gratis app, ingen konto kræves."
       },
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "Sprogvælger",
@@ -37,9 +37,9 @@ window.voyagerLocales["da"] = {
       "problem1": "Campingpladser er godt dækket overalt. De ting, man rent faktisk løber tør for – ferskvand, et brusebad, et vaskeri, et sted at tømme en tank – er netop dem, som ingen nævner samlet.",
       "problem2": "Fællesskabsapps kender kun de steder, som nogen har taget sig tid til at tilføje, så dækningen bliver tyndere, så snart man forlader de populære ruter.",
       "problem3": "Almindelige kortapps behandler en autocamper som en bil og viser sjældent, om et stop er til nogen nytte, når man bor i sit køretøj.",
-      "solutionAria": "Sådan hjælper appen rejsende i campingvogne og autocampere",
+      "solutionAria": "Sådan hjælper appen rejsende i autocampere og campervans",
       "solutionTitle": "Alt det, en campist rent faktisk kan løbe tør for",
-      "solutionText": "Voyager Maps samler de praktiske stop på ét kort: mere end 190.000 camping- og campingvognspladser, over 450.000 drikkevandspunkter, 36.000 brusebade og tæt på 20.000 selvbetjeningsvaskerier over hele verden — plus toiletter, tankstationer og parkeringspladser undervejs.",
+      "solutionText": "Voyager Maps samler de praktiske stop på ét kort: mere end 190.000 camping- og autocamperpladser, over 450.000 drikkevandspunkter, 36.000 brusebade og tæt på 20.000 selvbetjeningsvaskerier over hele verden — plus toiletter, tankstationer og parkeringspladser undervejs.",
       "feature1Title": "Fyld op og frisk dig op",
       "feature1Text": "Drikkevand, brusere og selvbetjeningsvaskeri – filtreret ned til netop det, du har brug for lige nu.",
       "feature2Title": "Et sted at overnatte",
@@ -49,10 +49,10 @@ window.voyagerLocales["da"] = {
       "ctaBlockAria": "Opfordring til handling",
       "ctaBlockTitle": "Planlæg dit næste stop",
       "ctaBlockText": "Åbn appen for at finde vand, brusebade og campingpladser i nærheden af din rute.",
-      "seoAria": "SEO-indhold om servicesteder for campingvogne og autocampere",
-      "seoTitle": "Servicesteder for campingvogne og autocampere til livet på farten, bilture og lange rejser",
-      "seoParagraph1": "Rejser i autocamper drejer sig om en kort liste af nødvendigheder: ferskvand, et fungerende brusebad, et sted at vaske tøj og en plads at overnatte. At finde disse ting er sjældent den afslappende del af rejsen. Servicesteder for autocampere og campingvogne er dokumenteret uensartet – nogle på klubwebsteder, der kræver medlemskab, nogle i forummindlæg, der er flere år gamle, og nogle kun på et sprog, du ikke forstår. Resultatet er, at erfarne rejsende ofte planlægger deres rute ud fra de få steder, de allerede stoler på, i stedet for de mange, der findes i nærheden.",
-      "seoParagraph2": "Et servicekort til autocamperne er mere nyttigt, når det bygger på åbne kortdata i stedet for indsendelser fra medlemmer, fordi dækningen så afspejler, hvad der rent faktisk findes på stedet, snarere end hvem der tilfældigvis har lagt et indlæg om det. Voyager Maps samler campingpladser, pladser til campingvogne, drikkevandssteder, brusere, selvbetjeningsvaskerier, toiletter, tankstationer og parkeringspladser på ét søgbart kort, så du kan tjekke, hvad der ligger i nærheden af aftenens overnatningssted, inden du kører derhen. Uanset om du er på fuldtidsrejse, tager på en lang sommertur eller tilbringer en weekend væk i en ombygget varevogn, er det de praktiske stop, der er værd at have ved hånden.",
+      "seoAria": "SEO-indhold om servicesteder for autocampere og campervans",
+      "seoTitle": "Servicesteder for autocampere og campervans til livet på farten, bilture og lange rejser",
+      "seoParagraph1": "Rejser i autocamper drejer sig om en kort liste af nødvendigheder: ferskvand, et fungerende brusebad, et sted at vaske tøj og en plads at overnatte. At finde disse ting er sjældent den afslappende del af rejsen. Servicesteder for autocampere og campervans er dokumenteret uensartet – nogle på klubwebsteder, der kræver medlemskab, nogle i forummindlæg, der er flere år gamle, og nogle kun på et sprog, du ikke forstår. Resultatet er, at erfarne rejsende ofte planlægger deres rute ud fra de få steder, de allerede stoler på, i stedet for de mange, der findes i nærheden.",
+      "seoParagraph2": "Et servicekort til autocampere er mere nyttigt, når det bygger på åbne kortdata i stedet for indsendelser fra medlemmer, fordi dækningen så afspejler, hvad der rent faktisk findes på stedet, snarere end hvem der tilfældigvis har lagt et indlæg om det. Voyager Maps samler campingpladser, autocamperpladser, drikkevandssteder, brusere, selvbetjeningsvaskerier, toiletter, tankstationer og parkeringspladser på ét søgbart kort, så du kan tjekke, hvad der ligger i nærheden af aftenens overnatningssted, inden du kører derhen. Uanset om du er på fuldtidsrejse, tager på en lang sommertur eller tilbringer en weekend væk i en ombygget varevogn, er det de praktiske stop, der er værd at have ved hånden.",
       "consentEyebrow": "Privatlivsindstillinger",
       "consentTitle": "Dine valg vedrørende privatliv",
       "consentDescription": "Vi bruger kun valgfri analyse efter dit samtykke til statistiske formål for at forbedre og videreudvikle Voyager Maps.",

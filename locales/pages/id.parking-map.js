@@ -69,7 +69,7 @@ window.voyagerLocales["id"] = {
       "exploreHomeLink": "Beranda",
       "exploreWaterLink": "Peta Air Minum",
       "exploreToiletLink": "Peta Toilet Umum",
-      "exploreShowerLink": "Peta Kamar Mandi Gratis",
+      "exploreShowerLink": "Peta Shower Gratis",
       "exploreParkingLink": "Peta Tempat Parkir",
       "exploreCampervanLink": "Peta Layanan Campervan",
       "exploreBackpackerLink": "Peta Backpacker",

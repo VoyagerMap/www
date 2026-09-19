@@ -41,7 +41,7 @@ window.voyagerLocales["fr"] = {
       "solutionTitle": "Conçue pour t’aider à trouver facilement des toilettes quand tu es en déplacement",
       "solutionText": "L’appli donne la priorité à l’accès aux toilettes, en t’aidant à trouver des lieux triés sur le volet qui répondent rapidement à tes besoins concrets. Elle s’articule autour des lieux pratiques souvent négligés sur les grandes cartes génériques.",
       "feature1Title": "Lieux sélectionnés",
-      "feature1Text": "Des points de toilettes utiles répertoriés pour t’éviter de te poser des questions quand tu es dans un endroit que tu connais pas.",
+      "feature1Text": "Des toilettes utiles répertoriées pour t’éviter de chercher au hasard dans un endroit que tu ne connais pas.",
       "feature2Title": "Destiné aux voyageurs",
       "feature2Text": "Très pratique quand tu es entre deux étapes, que tu arrives dans une ville ou que tu veux que ton voyage se passe sans accroc.",
       "feature3Title": "Lieux pratiques",

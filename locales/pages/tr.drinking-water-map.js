@@ -16,7 +16,7 @@ window.voyagerLocales["tr"] = {
       "eyebrow": "Seyahat yardımcı haritası",
       "heroTitle": "Her yerde ücretsiz içme suyu bulun",
       "heroLead": "Yolculuğun ortasında suyun bitmesi zaten yeterince sinir bozucu bir durumdur; ancak su doldurma noktaları haritada gizli, güncel olmayan veya hiç gösterilmiyorsa, durum daha da kötüleşir.",
-      "primaryCta": "Uygulamada tam haritayı aç",
+      "primaryCta": "Uygulamada tam haritayı açın",
       "primaryCtaAria": "Uygulamada içme suyu haritasının tamamını açın",
       "badgeAppleLine": "Uygulamayı şuradan indirin:",
       "badgeGoogleLine": "Uygulamayı indirin",

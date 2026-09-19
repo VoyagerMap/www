@@ -38,7 +38,7 @@ window.voyagerLocales["is"] = {
       "problem2": "Ferðalangar eyða oft tíma í að kaupa flöskuvatn vegna þess að þeir geta ekki fljótt staðfest hvar hægt er að fylla á vatni í nágrenninu.",
       "problem3": "Almenn kortforrit einblína sjaldan á hagnýtan aðgang að vatni þegar þú þarft það fljótt á göngu, bílferð eða þegar þú ert að skipta um samgöngutæki í borg.",
       "solutionAria": "Hvernig forritið hjálpar ferðalöngum að finna vatn",
-      "solutionTitle": "Hagnýtari leið til að finna nálægar endurfyllingarsstöðvar",
+      "solutionTitle": "Hagnýtari leið til að finna nálægar áfyllingarstöðvar",
       "solutionText": "Forritið hjálpar þér að finna völd staði sem byggja á raunverulegum þörfum, ekki almennum leitarniðurstöðum. Í stað þess að fletta í gegnum óskylda staði geturðu einbeitt þér að því sem skiptir raunverulega máli þegar þú þarft vatn fljótt.",
       "feature1Title": "Valin staðsetningar",
       "feature1Text": "Hagnýtir endurhleðslustaðir, kranar og aðgengisstaðir að vatni safnað fyrir raunverulegar ferðþarfir.",

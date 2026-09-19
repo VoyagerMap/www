@@ -16,7 +16,7 @@ window.voyagerLocales["tr"] = {
       "eyebrow": "Seyahat için kullanışlı harita",
       "heroTitle": "Karavanınız için su, duş ve kamp alanları",
       "heroLead": "Manzara mükemmel ama su deposu boş. Hizmet noktaları, su doldurma muslukları ve duşlar çeşitli forumlara ve üyelere özel listelere dağılmış durumda; bu yüzden karavan hayatının pratik kısmı, olması gerekenden çok daha fazla arama gerektiriyor.",
-      "primaryCta": "Uygulamada tam haritayı aç",
+      "primaryCta": "Uygulamada tam haritayı açın",
       "primaryCtaAria": "Uygulamada tam karavan hizmet haritasını açın",
       "badgeAppleLine": "Uygulamayı şuradan indirin:",
       "badgeGoogleLine": "Uygulamayı indirin",

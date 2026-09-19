@@ -5,9 +5,9 @@ window.voyagerLocales["nb"] = {
   "landingPages": {
     "campervan": {
       "htmlLang": "nb",
-      "pageTitle": "Kart over tjenester for campingvogner og bobiler",
+      "pageTitle": "Kart over tjenester for bobiler og campervans",
       "meta": {
-        "description": "Finn vannpåfyllingssteder, dusjer, vaskerier og campingplasser for campingvognen eller bobilen din. Over 190 000 steder over hele verden. Gratis app, ingen konto nødvendig."
+        "description": "Finn vannpåfyllingssteder, dusjer, vaskerier og campingplasser for bobilen eller campervanen din. Over 190 000 steder over hele verden. Gratis app, ingen konto nødvendig."
       },
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "Språkvelger",
@@ -15,7 +15,7 @@ window.voyagerLocales["nb"] = {
       "heroAria": "Hovedbilde for servicepunkter for bobiler",
       "eyebrow": "Kart med nyttige reiseopplysninger",
       "heroTitle": "Vann, dusjer og campingplasser for bobilen din",
-      "heroLead": "Utsikten er perfekt, men vanntanken er tom. Servicepunkter, påfyllingskraner og dusjer er spredt utover ulike fora og lukkede medlemslister, så den praktiske siden av livet i campingbilen krever langt mer leting enn det burde.",
+      "heroLead": "Utsikten er perfekt, men vanntanken er tom. Servicepunkter, påfyllingskraner og dusjer er spredt utover ulike fora og lukkede medlemslister, så den praktiske siden av livet i bobilen krever langt mer leting enn den burde.",
       "primaryCta": "Åpne hele kartet i appen",
       "primaryCtaAria": "Åpne det fullstendige servicekartet for bobiler i appen",
       "badgeAppleLine": "Last ned på",
@@ -37,7 +37,7 @@ window.voyagerLocales["nb"] = {
       "problem1": "Campingplasser er godt dekket overalt. Det du faktisk går tom for – ferskvann, en dusj, et vaskeri, et sted å tømme en tank – er de tingene ingen oppgir samlet.",
       "problem2": "Brukerbaserte apper kjenner bare til stedene som noen har tatt seg bryet med å legge til, så dekningen blir tynnere så snart du forlater de populære rutene.",
       "problem3": "Vanlige kartapper behandler en bobil som en vanlig bil og viser sjelden om et stoppested er nyttig når du bor i kjøretøyet ditt.",
-      "solutionAria": "Hvordan appen hjelper reisende med campingvogn og bobil",
+      "solutionAria": "Hvordan appen hjelper reisende med bobil og campervan",
       "solutionTitle": "Alt en campist faktisk kan gå tom for",
       "solutionText": "Voyager Maps samler alle de praktiske stoppestedene på ett kart: mer enn 190 000 campingplasser og bobilplasser, over 450 000 drikkevannspunkter, 36 000 dusjer og nær 20 000 selvbetjente vaskerier over hele verden – i tillegg til toaletter, drivstoff og parkeringsplasser underveis.",
       "feature1Title": "Fyll opp og frisk deg opp",
@@ -49,9 +49,9 @@ window.voyagerLocales["nb"] = {
       "ctaBlockAria": "Oppfordring til handling",
       "ctaBlockTitle": "Planlegg ditt neste stopp",
       "ctaBlockText": "Åpne appen for å finne vann, dusjer og campingplasser i nærheten av reiseruten din.",
-      "seoAria": "SEO-innhold om servicepunkter for campingvogner og bobiler",
-      "seoTitle": "Servicepunkter for campingbiler og bobiler for «van life», bilturer og lange reiser",
-      "seoParagraph1": "Reiser med bobil baserer seg på en kort liste over nødvendigheter: ferskvann, en fungerende dusj, et sted å vaske klær og en overnattingsplass. Å finne disse er sjelden den avslappende delen av turen. Tjenestepunkter for bobiler og campingvogner er dokumentert ujevnt – noen på klubbsider som krever medlemskap, noen i forumtråder som er flere år gamle, og noen kun på et språk du ikke forstår. Resultatet er at erfarne reisende ofte planlegger ruten sin rundt de få stedene de allerede stoler på, i stedet for de mange som finnes i nærheten.",
+      "seoAria": "SEO-innhold om servicepunkter for bobiler og campervans",
+      "seoTitle": "Servicepunkter for bobiler og campervans for «van life», bilturer og lange reiser",
+      "seoParagraph1": "Reiser med bobil baserer seg på en kort liste over nødvendigheter: ferskvann, en fungerende dusj, et sted å vaske klær og en overnattingsplass. Å finne disse er sjelden den avslappende delen av turen. Tjenestepunkter for bobiler og campervans er dokumentert ujevnt – noen på klubbsider som krever medlemskap, noen i forumtråder som er flere år gamle, og noen kun på et språk du ikke forstår. Resultatet er at erfarne reisende ofte planlegger ruten sin rundt de få stedene de allerede stoler på, i stedet for de mange som finnes i nærheten.",
       "seoParagraph2": "Et kart over tjenester for bobiler er mer nyttig når det baserer seg på åpne kartdata i stedet for innspill fra medlemmer, fordi dekningen da gjenspeiler hva som faktisk finnes på stedet, i stedet for hvem som tilfeldigvis har lagt ut informasjon om det. Voyager Maps samler campingplasser, bobilparkeringer, drikkevannspunkter, dusjer, selvbetjente vaskerier, toaletter, bensinstasjoner og parkeringsplasser i ett søkbart kart, slik at du kan sjekke hva som finnes i nærheten av kveldens overnattingssted før du kjører dit. Enten du er på fulltidstur, tar en lang sommertur eller tilbringer en helg borte i en ombygd varebil, er det de praktiske stoppestedene som er verdt å ha for hånden.",
       "consentEyebrow": "Personverninnstillinger",
       "consentTitle": "Dine personvernvalg",

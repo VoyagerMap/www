@@ -128,7 +128,7 @@ window.voyagerLocales["tr"] = {
   "expImage5Caption": "Gece kullanımı için karanlık mod",
   "vsAria": "Voyager Maps ile Google Maps karşılaştırması",
   "vsTitle": "Neden sadece Google Haritalar'ı kullanmıyorsunuz?",
-  "vsIntro": "Google Maps, yol bulma konusunda harikadır. Ancak tuvaletler, su muslukları ve duşlar gibi ücretsiz topluluk kaynakları söz konusu olduğunda, sonuçlar pek tutarlı değildir. Voyager Maps tam da bu tür durumlar için geliştirilmiştir.",
+  "vsIntro": "Google Maps, yol bulma konusunda harikadır. Ancak tuvaletler, su muslukları ve duşlar gibi ücretsiz kamusal hizmetleri aradığınızda, sonuçlar her zaman tutarlı değildir. Voyager Maps tam da bu tür durumlar için geliştirilmiştir.",
   "vsCityLabel": "Paris'te",
   "vsGmLabel": "Google Haritalar",
   "vsVmLabel": "Voyager Maps",

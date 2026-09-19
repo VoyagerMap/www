@@ -95,7 +95,7 @@ window.voyagerLocales["it"] = {
   "expImage1Caption": "Dettagli rapidi sui luoghi nell’app",
   "vsAria": "Voyager Maps rispetto a Google Maps",
   "vsTitle": "Perché non usare semplicemente Google Maps?",
-  "vsIntro": "Google Maps è fantastico per la navigazione. Ma quando si tratta di risorse comunitarie gratuite — bagni, rubinetti dell’acqua, docce — i risultati sono un po’ incostanti. Voyager Maps è stata creata proprio per quei momenti.",
+  "vsIntro": "Google Maps è fantastico per la navigazione. Ma quando cerchi servizi pubblici gratuiti — bagni, rubinetti dell’acqua, docce — i risultati sono spesso discontinui. Voyager Maps è stata creata proprio per quei momenti.",
   "vsGmLabel": "Google Maps",
   "vsVmLabel": "Voyager Maps",
   "vsNeed1": "Servizi igienici",

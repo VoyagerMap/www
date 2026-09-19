@@ -45,7 +45,7 @@ window.voyagerLocales["de"] = {
       "feature2Title": "Auf Reisende ausgerichtet",
       "feature2Text": "Nützlich für das Leben im Wohnmobil, Rucksackreisen, Langstreckenfahrten und andere mobile Reiseformen.",
       "feature3Title": "Praktische Orte",
-      "feature3Text": "Zeigt Orte an, die auf den meisten Karten nicht deutlich zu erkennen sind, wenn du dich unterwegs mal frisch machen musst.",
+      "feature3Text": "Zeigt Orte an, die auf den meisten Karten schwer zu finden sind, wenn du dich unterwegs mal frisch machen musst.",
       "ctaBlockAria": "Aufruf zum Handeln",
       "ctaBlockTitle": "Finde weitere Orte in der Nähe",
       "ctaBlockText": "Öffne die App, um weitere Duschmöglichkeiten in der Nähe deiner Route zu finden.",

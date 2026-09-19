@@ -32,7 +32,7 @@ window.voyagerLocales["nl"] = {
       "previewNote": "Parkeerplekken in het centrum van Parijs, weergegeven in de Voyager Maps-app.",
       "problemAria": "Moeite met het vinden van een parkeerplek?",
       "problemTitle": "Waarom parkeren nog steeds een probleem is in een onbekende stad",
-      "problem1": "Als je ergens nieuw aankomt, is de eerste vraag zelden waar je heen moet — het is altijd: waar kun je de auto parkeren?",
+      "problem1": "Als je ergens nieuw aankomt, is de eerste vraag zelden waar je heen moet — meestal is het: waar kun je de auto parkeren?",
       "problem2": "Of een parkeerplaats nu gratis, betaald, overdekt of überhaupt open is, ontbreekt vaak in de resultaten van gewone kaarten.",
       "problem3": "Rondjes rijden door het hele stadscentrum kost brandstof en tijd die je met een alternatief in de buurt had kunnen besparen.",
       "solutionAria": "Hoe de app automobilisten helpt bij het vinden van een parkeerplaats",

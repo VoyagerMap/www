@@ -7,7 +7,7 @@ window.voyagerLocales["fr"] = {
       "htmlLang": "fr",
       "pageTitle": "Carte des services pour camping-cars et fourgons aménagés",
       "meta": {
-        "description": "Trouve des points d’eau, des douches, des laveries et des campings pour ton camping-car ou ton mobil-home. Plus de 190 000 sites dans le monde entier. App gratuite, pas besoin de compte."
+        "description": "Trouve des points d’eau, des douches, des laveries et des campings pour ton camping-car ou ton fourgon aménagé. Plus de 190 000 sites dans le monde entier. App gratuite, pas besoin de compte."
       },
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "Sélection de la langue",

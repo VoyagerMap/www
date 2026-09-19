@@ -16,7 +16,7 @@ window.voyagerLocales["tr"] = {
       "eyebrow": "Seyahat yardımcı haritası",
       "heroTitle": "Her yerde park yeri bulun",
       "heroLead": "237 ülkede 1,1 milyondan fazla park yeri — otoparklar, çok katlı ve yer altı garajları ile yol kenarındaki park alanları — bunların 810.000'i ücretsizdir.",
-      "primaryCta": "Uygulamada tam haritayı aç",
+      "primaryCta": "Uygulamada tam haritayı açın",
       "primaryCtaAria": "Uygulamada tam otopark haritasını açın",
       "badgeAppleLine": "Uygulamayı şu adresten indirin:",
       "badgeGoogleLine": "Uygulamayı indirin",

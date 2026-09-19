@@ -17,7 +17,7 @@ window.voyagerLocales["pt"] = {
       "heroTitle": "Encontre chuveiros gratuitos durante a viagem",
       "heroLead": "Os locais com chuveiros estão espalhados por fóruns, blogs de dicas e listas incompletas — o que torna surpreendentemente difícil se manter limpo na estrada.",
       "primaryCta": "Abrir o mapa completo no app",
-      "primaryCtaAria": "Abre o mapa completo dos chuveiros no app",
+      "primaryCtaAria": "Abra o mapa completo dos chuveiros no app",
       "badgeAppleLine": "Baixe na",
       "badgeGoogleLine": "Baixe no",
       "badgeAppleAria": "Baixe o Voyager Maps na App Store",
@@ -78,7 +78,7 @@ window.voyagerLocales["pt"] = {
       "termsLink": "Termos de utilização",
       "deleteLink": "Apagar dados",
       "footer": "© Site do Voyager Maps",
-      "exploreCampervanLink": "Mapa de serviços para trailers",
+      "exploreCampervanLink": "Mapa de serviços para vans e motorhomes",
       "exploreBackpackerLink": "Mapa do Mochileiro"
     }
   }

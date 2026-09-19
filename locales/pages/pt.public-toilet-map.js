@@ -17,7 +17,7 @@ window.voyagerLocales["pt"] = {
       "heroTitle": "Encontre banheiros públicos em qualquer lugar",
       "heroLead": "Quando você precisa de um banheiro rapidinho, os resultados dos mapas comuns costumam estar incompletos, desatualizados ou escondidos entre lugares irrelevantes.",
       "primaryCta": "Abrir o mapa completo no app",
-      "primaryCtaAria": "Abre o mapa completo dos banheiros públicos no app",
+      "primaryCtaAria": "Abra o mapa completo dos banheiros públicos no app",
       "badgeAppleLine": "Baixe na",
       "badgeGoogleLine": "Baixe no",
       "badgeAppleAria": "Baixe o Voyager Maps na App Store",
@@ -48,7 +48,7 @@ window.voyagerLocales["pt"] = {
       "feature3Text": "Destaca banheiros públicos e outros pontos de utilidade que muitos aplicativos de mapa não mostram com clareza.",
       "ctaBlockAria": "Chamada à ação",
       "ctaBlockTitle": "Encontre mais locais por perto",
-      "ctaBlockText": "Abre o app pra ver mais locais de banheiros perto de você.",
+      "ctaBlockText": "Abra o app para ver mais banheiros perto de você.",
       "seoAria": "Conteúdo de SEO sobre mapas de banheiros públicos",
       "seoTitle": "Mapa de banheiros públicos para viagens, passeios pela cidade e paradas na estrada",
       "seoParagraph1": "Um mapa confiável de banheiros públicos é uma das ferramentas de viagem mais práticas que você pode ter. Quando você está em uma cidade nova, numa longa viagem de carro ou passando por estações de trem e áreas turísticas, encontrar um banheiro deveria ser simples. Na verdade, a localização dos banheiros públicos costuma variar entre os aplicativos de mapa comuns, e nem sempre é fácil identificar a opção mais próxima e útil nos resultados de busca normais.",
@@ -78,7 +78,7 @@ window.voyagerLocales["pt"] = {
       "termsLink": "Termos de utilização",
       "deleteLink": "Apagar dados",
       "footer": "© Site do Voyager Maps",
-      "exploreCampervanLink": "Mapa de serviços para trailers",
+      "exploreCampervanLink": "Mapa de serviços para vans e motorhomes",
       "exploreBackpackerLink": "Mapa do Mochileiro"
     }
   }

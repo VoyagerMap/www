@@ -43,7 +43,7 @@ window.voyagerLocales["pl"] = {
       "feature1Title": "Wyselekcjonowane miejsca",
       "feature1Text": "Zebrane informacje o przydatnych toaletach, żebyś nie musiał zgadywać, gdzie się one znajdują w nieznanych miejscach.",
       "feature2Title": "Dla podróżników",
-      "feature2Text": "Przyda się, gdy jesteś w drodze między przystankami, właśnie przyjeżdżasz do miasta albo chcesz, żeby Twoja podróż przebiegała bez problemów.",
+      "feature2Text": "Przyda się, gdy jesteś między przystankami, właśnie przyjeżdżasz do miasta albo chcesz, żeby twoja podróż przebiegała bez problemów.",
       "feature3Title": "Przydatne miejsca",
       "feature3Text": "Wyróżnia publiczne toalety i podobne punkty usługowe, których wiele aplikacji mapowych nie pokazuje wystarczająco wyraźnie.",
       "ctaBlockAria": "Wezwanie do działania",
