@@ -7,7 +7,7 @@ window.voyagerLocales["es"] = {
       "htmlLang": "es",
       "pageTitle": "Mapa de servicios para furgonetas camper y autocaravanas",
       "meta": {
-        "description": "Encuentra puntos de recarga de agua, duchas, lavanderías y campings para tu autocaravana o furgoneta camper. Más de 190 000 lugares en todo el mundo. App gratis, sin necesidad de crear una cuenta."
+        "description": "Encuentra agua, duchas, lavanderías y campings para autocaravanas y furgonetas camper en todo el mundo. App gratis, sin cuenta."
       },
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "Selector de idioma",
@@ -19,7 +19,7 @@ window.voyagerLocales["es"] = {
       "primaryCta": "Abre el mapa completo en la app",
       "primaryCtaAria": "Abre el mapa completo de servicios para autocaravanas en la app",
       "badgeAppleLine": "Descárgala en la",
-      "badgeGoogleLine": "Descárgatela en",
+      "badgeGoogleLine": "Descárgala en",
       "badgeAppleAria": "Descarga Voyager Maps desde la App Store",
       "badgeGoogleAria": "Descarga Voyager Maps en Google Play",
       "proofRatingValue": "4,9",
@@ -34,7 +34,7 @@ window.voyagerLocales["es"] = {
       "previewNote": "Solo estás viendo una vista previa limitada",
       "problemAria": "¿Te cuesta encontrar puntos de servicio para autocaravanas?",
       "problemTitle": "Encontrar un sitio donde acampar es fácil. Encontrar agua, no tanto.",
-      "problem1": "Los campings están bien cubiertos en todas partes. Las cosas de las que realmente te quedas sin —agua potable, una ducha, una lavandería, un sitio donde vaciar el depósito— son las que nadie suele mencionar juntas.",
+      "problem1": "Los campings están bien representados en todas partes. Las cosas que realmente se agotan —agua potable, una ducha, una lavandería, un sitio donde vaciar el depósito— son las que nadie suele reunir en una misma lista.",
       "problem2": "Las apps comunitarias solo conocen los sitios que alguien se ha molestado en añadir, así que la cobertura se va reduciendo en cuanto te sales de las rutas más populares.",
       "problem3": "Las apps de mapas generales tratan una autocaravana como si fuera un coche y casi nunca indican si un lugar de parada te sirve de algo cuando vives en tu vehículo.",
       "solutionAria": "Cómo te ayuda la app si viajas en furgoneta camper o autocaravana",
@@ -57,7 +57,7 @@ window.voyagerLocales["es"] = {
       "consentTitle": "Tus opciones de privacidad",
       "consentDescription": "Solo usamos herramientas de análisis opcionales tras tu consentimiento, con fines estadísticos, para mejorar y perfeccionar Voyager Maps.",
       "consentNecessaryLabel": "Imprescindibles",
-      "consentNecessaryDescription": "Es necesario para la selección del idioma, el estado de consentimiento y las funciones básicas de la página.",
+      "consentNecessaryDescription": "Es necesario para la selección del idioma, el estado del consentimiento y las funciones básicas de la página.",
       "consentNecessaryValue": "Siempre activas",
       "consentStatisticsLabel": "Estadísticas",
       "consentStatisticsValue": "Google Analytics 4 para el seguimiento de visitas y eventos de interacción",

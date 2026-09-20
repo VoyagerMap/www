@@ -5,7 +5,7 @@ window.voyagerLocales["de"] = {
   "landingPages": {
     "water": {
       "htmlLang": "de",
-      "pageTitle": "Karte mit kostenlosen Trinkwasserquellen",
+      "pageTitle": "Kostenlose Trinkwasserkarte",
       "meta": {
         "description": "Finde kostenloses Trinkwasser auf Reisen: öffentliche Wasserhähne, Trinkbrunnen und Nachfüllstationen in deiner Nähe. Kostenlose App."
       },
@@ -34,14 +34,14 @@ window.voyagerLocales["de"] = {
       "previewNote": "Du siehst hier nur eine begrenzte Vorschau",
       "problemAria": "Probleme bei der Suche nach kostenlosem Trinkwasser",
       "problemTitle": "Warum es immer noch schwieriger ist, kostenloses Wasser zu finden, als es eigentlich sein sollte",
-      "problem1": "Kostenlose Trinkwasserstellen sind oft in Parks, Bahnhöfen, öffentlichen Gebäuden oder an Nachfüllstellen versteckt, die nie deutlich gekennzeichnet sind.",
-      "problem2": "Reisende verschwenden oft Zeit damit, Wasser in Flaschen zu kaufen, weil sie nicht schnell überprüfen können, wo es in der Nähe Möglichkeiten zum Nachfüllen gibt.",
-      "problem3": "Allgemeine Karten-Apps konzentrieren sich selten auf den praktischen Zugang zu Wasser, wenn du ihn während eines Spaziergangs, einer Autofahrt oder eines Stadttrips schnell brauchst.",
+      "problem1": "Kostenlose Trinkwasserstellen liegen oft versteckt in Parks, Bahnhöfen oder öffentlichen Gebäuden oder erscheinen auf der Karte einfach nicht deutlich.",
+      "problem2": "Reisende verlieren oft Zeit beim Kauf von Flaschenwasser, weil sie nicht schnell prüfen können, wo es in der Nähe Nachfüllmöglichkeiten gibt.",
+      "problem3": "Allgemeine Karten-Apps konzentrieren sich selten auf den praktischen Zugang zu Wasser, wenn du beim Spaziergang, auf einem Roadtrip oder beim Umsteigen in einer Stadt schnell welches brauchst.",
       "solutionAria": "So hilft die App Reisenden dabei, Wasser zu finden",
       "solutionTitle": "Eine praktischere Art, Nachfüllstellen in der Nähe zu finden",
       "solutionText": "Die App hilft dir dabei, sorgfältig ausgewählte Orte zu finden, die auf echte Bedürfnisse zugeschnitten sind – und nicht nur allgemeine Suchergebnisse anzeigt. Anstatt durch irrelevante Orte zu scrollen, kannst du dich direkt auf das konzentrieren, was wirklich wichtig ist, wenn du schnell Wasser brauchst.",
       "feature1Title": "Ausgewählte Orte",
-      "feature1Text": "Nützliche Nachfüllstellen, Wasserhähne und Wasserzugänge, zusammengestellt für echte Reiseanforderungen.",
+      "feature1Text": "Nützliche Nachfüllstellen, Trinkwasserhähne und Wasserstellen für echte Bedürfnisse auf Reisen.",
       "feature2Title": "Auf Reisende ausgerichtet",
       "feature2Text": "Die App ist auf Situationen zugeschnitten, in denen du zu Fuß unterwegs bist, umsteigst, mit dem Auto fährst oder unbekannte Gegenden erkundest.",
       "feature3Title": "Praktische Orte",
@@ -55,14 +55,14 @@ window.voyagerLocales["de"] = {
       "seoParagraph2": "Diese Seite richtet sich an alle, die nach einer Trinkwasserkarte suchen, bei der der praktische Zugang im Vordergrund steht. Anstatt dich auf allgemeine Ortsergebnisse zu verlassen, kannst du einen eher auf Reisende ausgerichteten Ansatz nutzen, um kostenlose Trinkwasserstellen zu entdecken, die unterwegs sinnvoll sind. Egal, ob du vor einer Zugfahrt eine Flasche auffüllen, beim Stadtrundgang den Kauf zusätzlicher Plastikflaschen vermeiden oder an einem Rastplatz auf einer Autoreise Wasser finden möchtest – das Ziel ist einfach: schnellerer Zugang zu nützlichen Wasserstellen in deiner Nähe.",
       "consentEyebrow": "Datenschutzeinstellungen",
       "consentTitle": "Deine Datenschutzoptionen",
-      "consentDescription": "Wir nutzen optionale Analysedaten nur nach deiner Einwilligung zu statistischen Zwecken, um Voyager Maps zu verbessern und weiterzuentwickeln.",
+      "consentDescription": "Wir nutzen optionale Analysedaten erst nach deiner Einwilligung zu statistischen Zwecken, um Voyager Maps zu verbessern und weiterzuentwickeln.",
       "consentNecessaryLabel": "Notwendig",
       "consentNecessaryDescription": "Erforderlich für die Sprachauswahl, den Einwilligungsstatus und die Kernfunktionen der Seite.",
       "consentNecessaryValue": "Immer aktiv",
       "consentStatisticsLabel": "Statistiken",
       "consentStatisticsValue": "Google Analytics 4 für Besuche und Interaktionsereignisse",
       "consentNote": "Du kannst diese Einstellung jederzeit über die Datenschutz-Schaltfläche ändern.",
-      "consentReject": "Nur notwendige",
+      "consentReject": "Nur Notwendiges verwenden",
       "consentCustomize": "Anpassen",
       "consentSave": "Einstellungen speichern",
       "consentAccept": "Analytics akzeptieren",
@@ -78,7 +78,7 @@ window.voyagerLocales["de"] = {
       "termsLink": "Nutzungsbedingungen",
       "deleteLink": "Daten löschen",
       "footer": "© Voyager Maps-Website",
-      "exploreCampervanLink": "Karte mit Serviceangeboten für Wohnmobile",
+      "exploreCampervanLink": "Karte mit Wohnmobil-Servicestellen",
       "exploreBackpackerLink": "Backpacker-Karte"
     }
   }

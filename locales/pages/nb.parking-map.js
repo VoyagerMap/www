@@ -34,7 +34,7 @@ window.voyagerLocales["nb"] = {
       "problemTitle": "Hvorfor parkering fortsatt er et problem i en ukjent by",
       "problem1": "Når man ankommer et nytt sted, er det første spørsmålet sjelden selve reisemålet – det er hvor man skal parkere bilen.",
       "problem2": "Om en parkeringsplass er gratis, betalt, overbygd eller i det hele tatt åpen, er ofte ikke angitt i vanlige kartresultater.",
-      "problem3": "Å kjøre en hel runde gjennom sentrum sløser med drivstoff og tid som et alternativ i nærheten ville ha spart.",
+      "problem3": "Å kjøre rundt i et fullt sentrum sløser med drivstoff og tid som et alternativ i nærheten ville ha spart.",
       "solutionAria": "Slik hjelper appen bilister med å finne parkeringsplasser",
       "solutionTitle": "Laget for bilister som trenger et sted, ikke en omvei",
       "solutionText": "Parkering er den største kategorien i Voyager Maps: 1 174 855 steder over hele verden, fra gateparkering til fleretasjes- og underjordiske parkeringshus. Filtrer kartet slik at det kun viser parkeringsplasser, og se alternativene i nærheten uten at irrelevante resultater kommer i veien.",

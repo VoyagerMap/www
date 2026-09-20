@@ -552,7 +552,7 @@ window.voyagerLocales.en = {
       pageTitle: "Campervan & Motorhome Service Map",
       meta: {
         description:
-          "Find water refills, showers, laundry and campsites for your camper or motorhome. 190,000+ sites worldwide. Free app, no account."
+          "Find water, showers, laundry and campsites for campervans and motorhomes worldwide. Free app, no account needed."
       },
       brandLabel: "Voyager Maps",
       langSwitcherAria: "Language switcher",
@@ -642,7 +642,7 @@ window.voyagerLocales.en = {
       pageTitle: "Backpacker & Solo Travel Map",
       meta: {
         description:
-          "Showers, laundry, drinking water and Wi-Fi for backpackers and solo travellers. 5.5M places worldwide. Free app, no account."
+          "Find showers, laundry, drinking water and Wi-Fi for backpackers and solo travellers worldwide. Free app, no account."
       },
       brandLabel: "Voyager Maps",
       langSwitcherAria: "Language switcher",

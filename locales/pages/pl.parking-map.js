@@ -19,7 +19,7 @@ window.voyagerLocales["pl"] = {
       "primaryCta": "Otwórz pełną mapę w aplikacji",
       "primaryCtaAria": "Otwórz pełną mapę parkingów w aplikacji",
       "badgeAppleLine": "Pobierz w",
-      "badgeGoogleLine": "Pobierz ją na",
+      "badgeGoogleLine": "Pobierz z",
       "badgeAppleAria": "Pobierz Voyager Maps z App Store",
       "badgeGoogleAria": "Pobierz Voyager Maps z Google Play",
       "proofRatingValue": "4,9",
@@ -34,16 +34,16 @@ window.voyagerLocales["pl"] = {
       "problemTitle": "Dlaczego parkowanie wciąż jest problemem w nieznanym mieście",
       "problem1": "Kiedy przyjeżdżasz w nowe miejsce, rzadko pierwsze pytanie dotyczy samego celu podróży – chodzi raczej o to, gdzie zostawić auto.",
       "problem2": "W zwykłych wynikach map często brakuje informacji, czy parking jest darmowy, płatny, zadaszony albo w ogóle otwarty.",
-      "problem3": "Jeżdżenie w kółko po całym centrum miasta to strata paliwa i czasu, którego zaoszczędziłaby pobliska alternatywa.",
+      "problem3": "Krążenie po zatłoczonym centrum miasta marnuje paliwo i czas, które pozwoliłaby zaoszczędzić pobliska alternatywa.",
       "solutionAria": "Jak ta aplikacja pomaga kierowcom znaleźć miejsce parkingowe",
-      "solutionTitle": "Stworzona dla kierowców, którzy potrzebują konkretnego miejsca, a nie zbędnego objazdu",
+      "solutionTitle": "Dla kierowców, którzy potrzebują miejsca, a nie objazdu",
       "solutionText": "Parkingi to największa kategoria w Voyager Maps: 1 174 855 lokalizacji na całym świecie, od parkingów przyulicznych po wielopoziomowe i podziemne garaże. Filtruj mapę, żeby wyświetlała tylko parkingi, i zobacz opcje w pobliżu bez zbędnych wyników, które tylko przeszkadzają.",
       "feature1Title": "810 000 darmowych opcji",
-      "feature1Text": "Około dwie trzecie miejsc parkingowych jest oznaczonych jako bezpłatne, więc często w pobliżu znajdziesz opcję, z której możesz skorzystać za darmo.",
+      "feature1Text": "Około dwóch trzecich miejsc parkingowych jest oznaczonych jako bezpłatne, więc często w pobliżu znajdziesz opcję, z której możesz skorzystać za darmo.",
       "feature2Title": "Zasięg na całym świecie",
       "feature2Text": "Dane o parkingach z 237 krajów i terytoriów – przydadzą się nie tylko w dużych miastach Europy i Ameryki Północnej.",
       "feature3Title": "Szczegóły, które mają znaczenie",
-      "feature3Text": "Tam, gdzie są te informacje, zobaczysz też cenę, dostęp dla osób na wózkach, godziny otwarcia i numer telefonu, pod który możesz zadzwonić bezpośrednio z aplikacji.",
+      "feature3Text": "Tam, gdzie podano te informacje, zobaczysz też opłatę, dostęp dla osób na wózkach, godziny otwarcia i numer telefonu, pod który możesz zadzwonić bezpośrednio z aplikacji.",
       "ctaBlockAria": "Wezwanie do działania",
       "ctaBlockTitle": "Znajdź parking w pobliżu",
       "ctaBlockText": "Otwórz aplikację, żeby zobaczyć opcje parkingowe w okolicy, w której właśnie jesteś.",
@@ -77,7 +77,7 @@ window.voyagerLocales["pl"] = {
       "deleteLink": "Usuń dane",
       "footer": "© Strona internetowa Voyager Maps",
       "exploreCampervanLink": "Mapa usług dla kamperów",
-      "exploreBackpackerLink": "Mapa dla backpackerów"
+      "exploreBackpackerLink": "Mapa dla podróżujących z plecakiem"
     }
   }
 };

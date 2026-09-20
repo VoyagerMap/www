@@ -7,7 +7,7 @@ window.voyagerLocales["en"] = {
       "htmlLang": "en",
       "pageTitle": "Campervan & Motorhome Service Map",
       "meta": {
-        "description": "Find water refills, showers, laundry and campsites for your camper or motorhome. 190,000+ sites worldwide. Free app, no account."
+        "description": "Find water, showers, laundry and campsites for campervans and motorhomes worldwide. Free app, no account needed."
       },
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "Language switcher",

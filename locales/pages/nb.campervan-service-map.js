@@ -7,7 +7,7 @@ window.voyagerLocales["nb"] = {
       "htmlLang": "nb",
       "pageTitle": "Kart over tjenester for bobiler og campervans",
       "meta": {
-        "description": "Finn vannpåfyllingssteder, dusjer, vaskerier og campingplasser for bobilen eller campervanen din. Over 190 000 steder over hele verden. Gratis app, ingen konto nødvendig."
+        "description": "Finn vann, dusjer, vaskerier og campingplasser for bobiler og campervans over hele verden. Gratis app, ingen konto nødvendig."
       },
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "Språkvelger",

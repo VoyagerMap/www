@@ -5,7 +5,7 @@ window.voyagerLocales["pt"] = {
   "landingPages": {
     "water": {
       "htmlLang": "pt",
-      "pageTitle": "Mapa de Água Potável Grátis",
+      "pageTitle": "Mapa de água potável grátis",
       "meta": {
         "description": "Encontre água potável de graça durante a viagem: torneiras públicas, bebedouros e pontos de recarga perto de você. App grátis."
       },
@@ -39,11 +39,11 @@ window.voyagerLocales["pt"] = {
       "problem3": "Os aplicativos de mapas em geral raramente se concentram no acesso prático à água quando você precisa dela rapidamente durante uma caminhada, viagem de carro ou deslocamento pela cidade.",
       "solutionAria": "Como o app ajuda os viajantes a encontrar água",
       "solutionTitle": "Uma maneira mais prática de encontrar pontos de reabastecimento por perto",
-      "solutionText": "O app te ajuda a encontrar locais selecionados com base em necessidades reais, e não em resultados de busca genéricos. Em vez de ficar rolando a tela por lugares sem relação, você pode ir direto ao que realmente importa quando precisa de água rapidinho.",
+      "solutionText": "O app ajuda você a encontrar locais selecionados com base em necessidades reais, e não em resultados de busca genéricos. Em vez de percorrer lugares sem relação, você pode ir direto ao que realmente importa quando precisa de água rapidamente.",
       "feature1Title": "Locais selecionados",
       "feature1Text": "Pontos úteis para reabastecimento, torneiras e locais de acesso à água, reunidos para atender às necessidades reais de viagem.",
       "feature2Title": "Focado no viajante",
-      "feature2Text": "Feito pra te ajudar nos momentos em que você tá andando, fazendo baldeações, dirigindo ou explorando lugares que não conhece.",
+      "feature2Text": "Feito para os momentos em que você está caminhando, fazendo baldeações, dirigindo ou explorando lugares que não conhece.",
       "feature3Title": "Locais úteis",
       "feature3Text": "Destaca lugares que geralmente não aparecem ou ficam escondidos na maioria dos mapas.",
       "ctaBlockAria": "Chamada à ação",
@@ -52,7 +52,7 @@ window.voyagerLocales["pt"] = {
       "seoAria": "Conteúdo de SEO sobre mapas de água potável",
       "seoTitle": "Mapa de água potável para viajantes, caminhantes e quem está de viagem de carro",
       "seoParagraph1": "Um bom mapa de água potável te ajuda a fazer uma coisa simples mais rápido: encontrar água potável de graça sem precisar adivinhar. Quando você está viajando, explorando uma cidade nova ou passando muitas horas na estrada, nem sempre é fácil achar pontos de abastecimento confiáveis. Torneiras públicas, estações de recarga de garrafas e outras fontes de água grátis podem estar por perto, mas muitas vezes estão espalhadas por diferentes apps, escondidas em comentários ou não aparecem claramente numa busca normal no mapa.",
-      "seoParagraph2": "Essa página foi criada pra quem tá procurando um mapa de água potável que se concentre no acesso prático. Em vez de depender de resultados gerais de locais, você pode usar uma abordagem mais voltada pro viajante pra descobrir pontos de água potável de graça que fazem sentido quando você tá em movimento. Seja para encher uma garrafa antes de uma viagem de trem, evitar comprar garrafas plásticas extras durante um passeio pela cidade ou encontrar água em uma parada durante uma viagem de carro, o objetivo é simples: acesso mais rápido a pontos úteis de água perto de você.",
+      "seoParagraph2": "Esta página foi criada para quem procura um mapa de água potável voltado ao acesso prático. Em vez de depender de resultados gerais de locais, você pode usar uma abordagem mais direcionada ao viajante para descobrir pontos de água potável gratuita que sejam úteis durante o trajeto. Seja para encher uma garrafa antes de uma viagem de trem, evitar comprar garrafas plásticas extras durante um passeio pela cidade ou encontrar água em uma parada durante uma viagem de carro, o objetivo é simples: acesso mais rápido a pontos úteis de água perto de você.",
       "consentEyebrow": "Configurações de privacidade",
       "consentTitle": "Suas opções de privacidade",
       "consentDescription": "Só usamos análises opcionais depois que você der seu consentimento, para fins estatísticos, a fim de melhorar e aperfeiçoar o Voyager Maps.",
@@ -67,19 +67,19 @@ window.voyagerLocales["pt"] = {
       "consentSave": "Salvar preferências",
       "consentAccept": "Aceitar análises",
       "consentManage": "Configurações de privacidade",
-      "exploreTitle": "Explora os mapas",
+      "exploreTitle": "Explore os mapas",
       "exploreHomeLink": "Página inicial",
-      "exploreWaterLink": "Mapa de Água Potável",
+      "exploreWaterLink": "Mapa de água potável",
       "exploreToiletLink": "Mapa de banheiros públicos",
       "exploreShowerLink": "Mapa de chuveiros grátis",
       "exploreParkingLink": "Mapa de estacionamentos",
       "legalTitle": "Informações legais e documentação",
-      "privacyLink": "Política de Privacidade",
-      "termsLink": "Termos de utilização",
+      "privacyLink": "Política de privacidade",
+      "termsLink": "Termos de uso",
       "deleteLink": "Apagar dados",
       "footer": "© Site do Voyager Maps",
       "exploreCampervanLink": "Mapa de serviços para vans e motorhomes",
-      "exploreBackpackerLink": "Mapa do Mochileiro"
+      "exploreBackpackerLink": "Mapa para mochileiros"
     }
   }
 };

@@ -7,7 +7,7 @@ window.voyagerLocales["hu"] = {
       "htmlLang": "hu",
       "pageTitle": "Hátizsákos és egyedül utazók térképe",
       "meta": {
-        "description": "Zuhanyok, mosodák, ivóvíz és Wi-Fi hátizsákos utazóknak és egyedül utazóknak. Világszerte 5,5 millió helyszín. Ingyenes alkalmazás, regisztráció nélkül."
+        "description": "Találj zuhanyzót, mosodát, ivóvizet és Wi-Fi-t hátizsákos vagy egyéni utazáshoz világszerte. Ingyenes app, fiók nélkül."
       },
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "Nyelvválasztó",
@@ -18,10 +18,10 @@ window.voyagerLocales["hu"] = {
       "heroLead": "Új város, nehéz csomag, hat óra van még a bejelentkezésig. Valahol sétatávolságon belül van egy zuhanyzó, egy mosoda, egy ivóvízcsap és ingyenes Wi-Fi – de ezek egyike sem szerepel a kezedben lévő térképen.",
       "primaryCta": "Teljes térkép megnyitása az alkalmazásban",
       "primaryCtaAria": "Nyisd meg a teljes hátizsákos utazóknak szóló térképet az alkalmazásban",
-      "badgeAppleLine": "Letöltés az",
-      "badgeGoogleLine": "Töltsd le itt",
-      "badgeAppleAria": "Töltsd le a Voyager Maps alkalmazást az App Store-ból!",
-      "badgeGoogleAria": "Töltsd le a Voyager Maps alkalmazást a Google Playről!",
+      "badgeAppleLine": "Letöltés innen:",
+      "badgeGoogleLine": "Letöltés innen:",
+      "badgeAppleAria": "Voyager Maps letöltése az App Store-ból",
+      "badgeGoogleAria": "Voyager Maps letöltése a Google Playről",
       "proofRatingValue": "4,9",
       "proofDownloadsValue": "1000+",
       "proofDownloadsLabel": "letöltés",
@@ -54,7 +54,7 @@ window.voyagerLocales["hu"] = {
       "seoParagraph1": "A hátizsákos utazás többnyire logisztika, amit kalandnak álcáznak. Az éjszakai busz hatkor érkezik, a bejelentkezés kettőkor van, és a kettő közötti nyolc óra teljes mértékben attól függ, hogy találsz-e zuhanyzót, helyet, ahol leteheted a táskádat, csapot, ahol feltöltheted a palackodat, és egy Wi-Fi-vel ellátott ülőhelyet. Ezek közül semmi sem szerepel az útikönyvekben, és éppen egy ismeretlen városban, egy olyan nyelven, amelyet talán nem is értesz, a legkevésbé jön jól a telefon.",
       "seoParagraph2": "Egy hátizsákos utazóknak szóló térkép csak akkor érdemes magaddal vinni, ha az utazás gyakorlati szempontjait is lefedi: zuhanyzók, önkiszolgáló mosodák, ivóvíz, nyilvános WC-k, Wi-Fi, szupermarketek és gyógyszertárak – és mindezt minden országban, nem csak a jól dokumentált helyeken. A Voyager Maps nyílt térképadatokon alapul és fiók nélkül is működik, így ugyanaz a térkép pontosan ugyanúgy viselkedik, akár Lisszabonban szállók között utazol, akár Bangkokban vársz átszállásra, akár egy hosszú napot sétálsz egy olyan városban, ahol még soha nem jártál. Különösen az egyedül utazók számára az, hogy tudják, hol találhatók a praktikus megállóhelyek, eltávolít egy apró, de állandó feszültségforrást az utazásból.",
       "consentEyebrow": "Adatvédelmi beállítások",
-      "consentTitle": "Adatvédelmi beállítások",
+      "consentTitle": "Adatkezelési beállítások",
       "consentDescription": "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapset.",
       "consentNecessaryLabel": "Szükséges",
       "consentNecessaryDescription": "A nyelvválasztáshoz, a hozzájárulási beállítások mentéséhez és az oldal alapműködéséhez szükséges.",
@@ -69,17 +69,17 @@ window.voyagerLocales["hu"] = {
       "consentManage": "Adatvédelmi beállítások",
       "exploreTitle": "Fedezd fel a térképeket",
       "exploreHomeLink": "Főoldal",
-      "exploreWaterLink": "Ivóvíz-térkép",
-      "exploreToiletLink": "Nyilvános WC-térkép",
-      "exploreShowerLink": "Ingyenes zuhanyzó-térkép",
-      "exploreParkingLink": "Parkolási térkép",
+      "exploreWaterLink": "Ivóvíztérkép",
+      "exploreToiletLink": "Nyilvános WC-k térképe",
+      "exploreShowerLink": "Ingyenes zuhanyzók térképe",
+      "exploreParkingLink": "Parkolótérkép",
       "exploreCampervanLink": "Kempingbusz-szolgáltatási térkép",
       "exploreBackpackerLink": "Backpacker-térkép",
-      "legalTitle": "Jogi információk és dokumentáció",
-      "privacyLink": "Adatvédelmi irányelvek",
-      "termsLink": "Feltételek",
-      "deleteLink": "Adatok törlése",
-      "footer": "© A Voyager Maps weboldala"
+      "legalTitle": "Jogi és dokumentációs oldalak",
+      "privacyLink": "Adatvédelmi tájékoztató",
+      "termsLink": "Felhasználási feltételek",
+      "deleteLink": "Adattörlés",
+      "footer": "© Voyager Maps weboldal"
     }
   }
 };

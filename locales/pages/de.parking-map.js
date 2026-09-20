@@ -5,7 +5,7 @@ window.voyagerLocales["de"] = {
   "landingPages": {
     "parking": {
       "htmlLang": "de",
-      "pageTitle": "Parkplatzkarte – Finde kostenlose Parkplätze",
+      "pageTitle": "Parkplatzkarte – Kostenlose Parkplätze finden",
       "meta": {
         "description": "Finde überall Parkplätze: 1,1 Millionen Parkplätze und Parkhäuser in 237 Ländern, davon 810.000 kostenlos."
       },
@@ -34,10 +34,10 @@ window.voyagerLocales["de"] = {
       "problemTitle": "Warum das Parken in einer fremden Stadt immer noch ein Problem ist",
       "problem1": "Wenn man an einem neuen Ort ankommt, ist die erste Frage selten das Ziel selbst – sondern wo man das Auto abstellen kann.",
       "problem2": "Ob ein Parkplatz kostenlos, kostenpflichtig, überdacht oder überhaupt geöffnet ist, fehlt oft in den üblichen Kartenergebnissen.",
-      "problem3": "Wenn du das gesamte Stadtzentrum abfährst, verschwendest du Benzin und Zeit, die du mit einer Alternative in der Nähe hättest sparen können.",
+      "problem3": "Wenn du in einem vollen Stadtzentrum im Kreis fährst, verschwendest du Kraftstoff und Zeit, die dir eine Alternative in der Nähe erspart hätte.",
       "solutionAria": "So hilft die App Autofahrern beim Parken",
       "solutionTitle": "Entwickelt für Autofahrer, die einen Platz brauchen – und keinen Umweg",
-      "solutionText": "Parkplätze sind die größte Kategorie in Voyager Maps: 1.174.855 Standorte weltweit, von Parkplätzen am Straßenrand bis hin zu Parkhäusern und Tiefgaragen. Filtere die Karte auf Parkplätze ein und sieh dir die Optionen in deiner Nähe an, ohne dass irrelevante Ergebnisse im Weg sind.",
+      "solutionText": "Parken ist die größte Kategorie in Voyager Maps: 1.174.855 Standorte weltweit, von Parkplätzen am Straßenrand bis hin zu Parkhäusern und Tiefgaragen. Filtere die Karte ausschließlich nach Parkplätzen und sieh dir die Optionen in deiner Nähe an, ohne dass irrelevante Ergebnisse im Weg sind.",
       "feature1Title": "810.000 kostenlose Optionen",
       "feature1Text": "Etwa zwei Drittel der Parkplätze sind als kostenlos verzeichnet, sodass oft eine kostenlose Möglichkeit in der Nähe ist.",
       "feature2Title": "Weltweite Abdeckung",
@@ -60,7 +60,7 @@ window.voyagerLocales["de"] = {
       "consentStatisticsLabel": "Statistiken",
       "consentStatisticsValue": "Google Analytics 4 für Besuche und Interaktionsereignisse",
       "consentNote": "Du kannst diese Einstellung jederzeit über die Datenschutz-Schaltfläche ändern.",
-      "consentReject": "Nur notwendige",
+      "consentReject": "Nur Notwendiges verwenden",
       "consentCustomize": "Anpassen",
       "consentSave": "Einstellungen speichern",
       "consentAccept": "Analytics akzeptieren",
@@ -76,7 +76,7 @@ window.voyagerLocales["de"] = {
       "termsLink": "Nutzungsbedingungen",
       "deleteLink": "Daten löschen",
       "footer": "© Voyager Maps-Website",
-      "exploreCampervanLink": "Karte mit Serviceangeboten für Wohnmobile",
+      "exploreCampervanLink": "Karte mit Wohnmobil-Servicestellen",
       "exploreBackpackerLink": "Backpacker-Karte"
     }
   }

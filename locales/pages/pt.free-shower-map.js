@@ -38,7 +38,7 @@ window.voyagerLocales["pt"] = {
       "problem2": "Mochileiros, viajantes de van, ciclistas e quem faz viagens de carro costumam contar com dicas espalhadas por aí, em vez de um lugar único e claro para pesquisar.",
       "problem3": "A maioria dos principais aplicativos de mapas não prioriza pontos práticos para higiene quando você está planejando um dia mais longo de viagem.",
       "solutionAria": "Como o app ajuda os viajantes a encontrar chuveiros",
-      "solutionTitle": "Descubra chuveiros práticos, feito especialmente para os dias de viagem",
+      "solutionTitle": "Encontre chuveiros com praticidade durante a viagem",
       "solutionText": "O app ajuda a encontrar locais selecionados de acordo com as necessidades reais dos viajantes, facilitando a localização de lugares úteis que muitas vezes não aparecem nos resultados de busca convencionais.",
       "feature1Title": "Locais selecionados",
       "feature1Text": "Locais úteis para tomar banho, selecionados pensando na praticidade da viagem, em vez de listas genéricas e abrangentes de lugares.",
@@ -52,7 +52,7 @@ window.voyagerLocales["pt"] = {
       "seoAria": "Conteúdo de SEO sobre mapas de viagem com chuveiros gratuitos",
       "seoTitle": "Mapa de viagem com chuveiros gratuitos para viagens de carro, mochilões e vida em van",
       "seoParagraph1": "A busca por uma solução gratuita para tomar banho durante uma viagem geralmente começa quando o conforto se torna uma necessidade real, e não apenas um extra legal. Em longas viagens de carro, passeios de vários dias pela cidade, trilhas de mochila, viagens de bicicleta ou na vida em van, o acesso a chuveiros pode ser surpreendentemente difícil de organizar. Pode ser que existam lugares úteis por perto, mas eles geralmente estão espalhados por posts de comunidades, recomendações locais, informações sobre praias ou listas de instalações que não são fáceis de conferir num só lugar.",
-      "seoParagraph2": "Um mapa de chuveiros gratuitos, mais bem feito, ajuda a diminuir esse incômodo, facilitando a descoberta de opções úteis nas proximidades. Em vez de depender só de buscas gerais no mapa, você pode procurar locais com chuveiros de forma mais direcionada. Seja para te refrescar entre uma conexão e outra, planejar uma parada durante uma longa viagem de carro ou manter suas rotinas diárias em dia enquanto viaja, um mapa de chuveiros voltado para viagens torna a busca mais prática. Esse é o valor das informações gratuitas sobre chuveiros para viajantes, organizadas em torno dos teus movimentos reais e das necessidades do dia a dia de quem viaja.",
+      "seoParagraph2": "Um mapa de chuveiros gratuitos mais completo ajuda a reduzir esse incômodo ao facilitar a descoberta de opções úteis nas proximidades. Em vez de depender apenas de buscas gerais no mapa, você pode procurar locais com chuveiros de forma mais direcionada. Seja para se refrescar entre uma conexão e outra, planejar uma parada durante uma longa viagem de carro ou manter sua rotina diária enquanto viaja, um mapa de chuveiros voltado para viagens torna a busca mais prática. Esse é o valor de organizar informações sobre chuveiros gratuitos em torno dos deslocamentos reais e das necessidades cotidianas de quem viaja.",
       "consentEyebrow": "Configurações de privacidade",
       "consentTitle": "Suas opções de privacidade",
       "consentDescription": "Só usamos análises opcionais depois que você der seu consentimento, para fins estatísticos, a fim de melhorar e aperfeiçoar o Voyager Maps.",
@@ -67,19 +67,19 @@ window.voyagerLocales["pt"] = {
       "consentSave": "Salvar preferências",
       "consentAccept": "Aceitar análises",
       "consentManage": "Configurações de privacidade",
-      "exploreTitle": "Explora os mapas",
+      "exploreTitle": "Explore os mapas",
       "exploreHomeLink": "Página inicial",
-      "exploreWaterLink": "Mapa de Água Potável",
+      "exploreWaterLink": "Mapa de água potável",
       "exploreToiletLink": "Mapa de banheiros públicos",
       "exploreShowerLink": "Mapa de chuveiros grátis",
       "exploreParkingLink": "Mapa de estacionamentos",
       "legalTitle": "Informações legais e documentação",
-      "privacyLink": "Política de Privacidade",
-      "termsLink": "Termos de utilização",
+      "privacyLink": "Política de privacidade",
+      "termsLink": "Termos de uso",
       "deleteLink": "Apagar dados",
       "footer": "© Site do Voyager Maps",
       "exploreCampervanLink": "Mapa de serviços para vans e motorhomes",
-      "exploreBackpackerLink": "Mapa do Mochileiro"
+      "exploreBackpackerLink": "Mapa para mochileiros"
     }
   }
 };

@@ -5,7 +5,7 @@ window.voyagerLocales["de"] = {
   "landingPages": {
     "shower": {
       "htmlLang": "de",
-      "pageTitle": "Karte mit kostenlosen Duschen",
+      "pageTitle": "Karte für kostenlose Duschen",
       "meta": {
         "description": "Finde Duschen auf Reisen: Campingplätze, Strände und öffentliche Einrichtungen in der Nähe deiner Route. Kostenlose App."
       },
@@ -34,7 +34,7 @@ window.voyagerLocales["de"] = {
       "previewNote": "Du siehst hier nur eine begrenzte Vorschau",
       "problemAria": "Probleme, auf Reisen kostenlose Duschen zu finden",
       "problemTitle": "Warum es unterwegs so schwer ist, Duschmöglichkeiten zu finden",
-      "problem1": "Kostenlose Duschen für Reisende gibt es verstreut auf Campingplätzen, in öffentlichen Einrichtungen, an Stränden und an Treffpunkten der Einheimischen – Orte, die man nicht so schnell findet.",
+      "problem1": "Kostenlose Duschen für Reisende sind über Campingplätze, öffentliche Einrichtungen, Strandbereiche und gemeinschaftlich genutzte Orte verstreut und lassen sich nur schwer schnell finden.",
       "problem2": "Rucksacktouristen, Camper, Radfahrer und Roadtripper verlassen sich oft auf vereinzelte Tipps, statt an einer zentralen Stelle nach Informationen zu suchen.",
       "problem3": "Die meisten großen Karten-Apps legen bei der Planung eines längeren Reisetages keinen besonderen Wert auf praktische Hygienestationen.",
       "solutionAria": "So hilft die App Reisenden dabei, Duschen zu finden",
@@ -43,14 +43,14 @@ window.voyagerLocales["de"] = {
       "feature1Title": "Ausgewählte Orte",
       "feature1Text": "Nützliche Duschmöglichkeiten, die speziell für den praktischen Reisealltag ausgewählt wurden – statt allgemeiner, pauschaler Ortslisten.",
       "feature2Title": "Auf Reisende ausgerichtet",
-      "feature2Text": "Nützlich für das Leben im Wohnmobil, Rucksackreisen, Langstreckenfahrten und andere mobile Reiseformen.",
+      "feature2Text": "Nützlich für Vanlife, Rucksackreisen, Langstreckenfahrten und andere Formen des mobilen Reisens.",
       "feature3Title": "Praktische Orte",
       "feature3Text": "Zeigt Orte an, die auf den meisten Karten schwer zu finden sind, wenn du dich unterwegs mal frisch machen musst.",
       "ctaBlockAria": "Aufruf zum Handeln",
       "ctaBlockTitle": "Finde weitere Orte in der Nähe",
       "ctaBlockText": "Öffne die App, um weitere Duschmöglichkeiten in der Nähe deiner Route zu finden.",
-      "seoAria": "SEO-Inhalte zu kostenlosen Reisekarten mit Duschmöglichkeiten",
-      "seoTitle": "Kostenlose Reisekarte mit Duschmöglichkeiten für Roadtrips, Rucksackreisen und das Leben im Van",
+      "seoAria": "SEO-Inhalte zu Karten mit kostenlosen Duschen auf Reisen",
+      "seoTitle": "Karte mit kostenlosen Duschen für Roadtrips, Rucksackreisen und Vanlife",
       "seoParagraph1": "Die Suche nach einer kostenlosen Duschmöglichkeit auf Reisen beginnt meist dann, wenn Komfort kein nettes Extra mehr ist, sondern ein echtes Bedürfnis. Auf langen Roadtrips, mehrtägigen Städtereisen, Rucksacktouren, Radreisen oder beim Leben im Wohnmobil kann es überraschend schwierig sein, Zugang zu Duschen zu organisieren. Nützliche Orte gibt es vielleicht in der Nähe, aber sie sind oft über Community-Beiträge, lokale Empfehlungen, Strandinformationen oder Verzeichnisse von Einrichtungen verstreut, die sich nicht einfach an einem Ort zusammenfassen lassen.",
       "seoParagraph2": "Eine bessere kostenlose Duschkarte hilft dabei, diese Hürden zu überwinden, indem sie es einfacher macht, praktische Optionen in der Nähe zu finden. Anstatt sich nur auf allgemeine Kartensuchen zu verlassen, können Reisende gezielt nach nützlichen Duschorten suchen. Egal, ob du dich zwischen zwei Etappen deiner Reise erfrischen möchtest, einen Stopp während einer langen Autofahrt planst oder deine täglichen Routinen auch auf Reisen beibehalten willst – eine auf Reisen ausgerichtete Duschkarte macht die Suche praktischer. Das ist der Mehrwert kostenloser Reiseinformationen zu Duschen, die auf tatsächliche Fortbewegung und die alltäglichen Bedürfnisse von Reisenden zugeschnitten sind.",
       "consentEyebrow": "Datenschutzeinstellungen",
@@ -62,7 +62,7 @@ window.voyagerLocales["de"] = {
       "consentStatisticsLabel": "Statistiken",
       "consentStatisticsValue": "Google Analytics 4 für Besuche und Interaktionsereignisse",
       "consentNote": "Du kannst diese Einstellung jederzeit über die Datenschutz-Schaltfläche ändern.",
-      "consentReject": "Nur notwendige",
+      "consentReject": "Nur Notwendiges verwenden",
       "consentCustomize": "Anpassen",
       "consentSave": "Einstellungen speichern",
       "consentAccept": "Analytics akzeptieren",
@@ -78,7 +78,7 @@ window.voyagerLocales["de"] = {
       "termsLink": "Nutzungsbedingungen",
       "deleteLink": "Daten löschen",
       "footer": "© Voyager Maps-Website",
-      "exploreCampervanLink": "Karte mit Serviceangeboten für Wohnmobile",
+      "exploreCampervanLink": "Karte mit Wohnmobil-Servicestellen",
       "exploreBackpackerLink": "Backpacker-Karte"
     }
   }

@@ -5,7 +5,7 @@ window.voyagerLocales["nl"] = {
   "landingPages": {
     "parking": {
       "htmlLang": "nl",
-      "pageTitle": "Parkeerkaart - Vind gratis parkeerplaatsen",
+      "pageTitle": "Parkeerkaart – Vind gratis parkeerplaatsen",
       "meta": {
         "description": "Vind overal een parkeerplek: 1,1 miljoen parkeerplaatsen en parkeergarages in 237 landen, waarvan 810.000 gratis."
       },
@@ -49,7 +49,7 @@ window.voyagerLocales["nl"] = {
       "ctaBlockText": "Open de app om de parkeermogelijkheden in de buurt van je huidige locatie te bekijken.",
       "seoAria": "SEO-content over parkeerkaarten",
       "seoTitle": "Parkeerkaart voor roadtrips, stedentrips en dagelijkse ritjes",
-      "seoParagraph1": "Een parkeerkaart is zo’n hulpmiddel waar je pas aan denkt op het moment dat je het nodig hebt, meestal terwijl je rondjes rijdt in een onbekend stadscentrum. Voyager Maps bevat wereldwijd 1.174.855 parkeerlocaties — parkeerterreinen, parkeergarages en ondergrondse parkeergarages, en de parkeerplekken langs de weg die op gewone kaarten vaak worden overgeslagen — zodat je al weet waar je de auto kunt parkeren nog voordat je er bent.",
+      "seoParagraph1": "Een parkeerkaart is zo’n hulpmiddel waar je pas aan denkt op het moment dat je het nodig hebt, meestal terwijl je rondjes rijdt in een onbekend stadscentrum. Voyager Maps bevat wereldwijd 1.174.855 parkeerlocaties — parkeerterreinen, parkeergarages en ondergrondse garages, en de parkeerplekken langs de weg die op gewone kaarten vaak worden overgeslagen — zodat je al weet waar je de auto kunt parkeren nog voordat je er bent.",
       "seoParagraph2": "De prijs is meestal de doorslaggevende factor, en 810.544 van die locaties staan geregistreerd als gratis. Of je nu een roadtrip maakt, een ‘van life’-route volgt of een weekendje naar een onbekende stad gaat: door de kaart te filteren op alleen parkeerplaatsen en te zien wat er in de buurt gratis is, verander je een paar stressvolle minuten in een beslissing die je van tevoren al kunt nemen.",
       "consentEyebrow": "Privacyinstellingen",
       "consentTitle": "Je privacykeuzes",
@@ -58,7 +58,7 @@ window.voyagerLocales["nl"] = {
       "consentNecessaryDescription": "Noodzakelijk voor taalselectie, toestemmingsstatus en de basisfunctionaliteit van de pagina.",
       "consentNecessaryValue": "Altijd actief",
       "consentStatisticsLabel": "Statistieken",
-      "consentStatisticsValue": "Google Analytics 4 voor bezoeken en interactie-events",
+      "consentStatisticsValue": "Google Analytics 4 voor bezoeken en interactiegebeurtenissen",
       "consentNote": "Je kunt deze keuze op elk moment wijzigen via de privacyknop.",
       "consentReject": "Alleen noodzakelijke",
       "consentCustomize": "Aanpassen",

@@ -60,7 +60,7 @@ window.voyagerLocales["nl"] = {
       "consentNecessaryDescription": "Noodzakelijk voor taalselectie, toestemmingsstatus en de basisfunctionaliteit van de pagina.",
       "consentNecessaryValue": "Altijd actief",
       "consentStatisticsLabel": "Statistieken",
-      "consentStatisticsValue": "Google Analytics 4 voor bezoeken en interactie-events",
+      "consentStatisticsValue": "Google Analytics 4 voor bezoeken en interactiegebeurtenissen",
       "consentNote": "Je kunt deze keuze op elk moment wijzigen via de privacyknop.",
       "consentReject": "Alleen noodzakelijke",
       "consentCustomize": "Aanpassen",

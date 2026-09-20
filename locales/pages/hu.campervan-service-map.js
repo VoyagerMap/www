@@ -7,7 +7,7 @@ window.voyagerLocales["hu"] = {
       "htmlLang": "hu",
       "pageTitle": "Lakókocsi- és lakóautó-szolgáltatások térképe",
       "meta": {
-        "description": "Találj vízvételi helyeket, zuhanyzókat, mosodákat és kempingeket a lakókocsidhoz vagy lakóautódhoz. Több mint 190 000 hely világszerte. Ingyenes alkalmazás, fiók nélkül."
+        "description": "Találj vizet, zuhanyzót, mosodát és kempinget lakóautós utazáshoz világszerte. Ingyenes app, fiók nélkül."
       },
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "Nyelvválasztó",
@@ -18,10 +18,10 @@ window.voyagerLocales["hu"] = {
       "heroLead": "A kilátás tökéletes, de a víztartály üres. A szervizpontok, vízvételezési lehetőségek és zuhanyzók fórumokon és tagsági listákon szétszórva jelennek meg, ezért a lakóautós utazás gyakorlati része a kelleténél több keresgélést igényel.",
       "primaryCta": "Teljes térkép megnyitása az alkalmazásban",
       "primaryCtaAria": "Nyisd meg a teljes lakóautó-szerviztérképet az alkalmazásban",
-      "badgeAppleLine": "Letöltés az",
-      "badgeGoogleLine": "Töltsd le itt",
-      "badgeAppleAria": "Töltsd le a Voyager Maps alkalmazást az App Store-ból!",
-      "badgeGoogleAria": "Töltsd le a Voyager Maps alkalmazást a Google Playről!",
+      "badgeAppleLine": "Letöltés innen:",
+      "badgeGoogleLine": "Letöltés innen:",
+      "badgeAppleAria": "Voyager Maps letöltése az App Store-ból",
+      "badgeGoogleAria": "Voyager Maps letöltése a Google Playről",
       "proofRatingValue": "4,9",
       "proofDownloadsValue": "1000+",
       "proofDownloadsLabel": "letöltés",
@@ -54,7 +54,7 @@ window.voyagerLocales["hu"] = {
       "seoParagraph1": "A lakókocsis utazáshoz csak néhány alapvető dologra van szükség: friss víz, működő zuhany, hely a ruhák mosására és éjszakai táborhely. Ezek megtalálása ritkán jelenti az utazás nyugodt részét. A lakóautók és kempingautók számára kialakított szolgáltatási pontok dokumentálása egyenetlen: egyesek tagsággal rendelkező klubok weboldalain találhatók, mások évek óta elavult fórumszálakban, megint mások pedig olyan nyelven, amelyet nem ismer az utazó. Ennek eredményeként a tapasztalt utazók gyakran azokra a kevés helyekre alapozzák útvonaluk tervezését, amelyekben már megbíznak, ahelyett, hogy a közelben található számos lehetőség közül választanának.",
       "seoParagraph2": "A lakókocsi-szolgáltatások térképe akkor a leghasznosabb, ha nyílt térképadatokon alapul, ahelyett, hogy a tagok bejegyzésein alapulna, mert így a lefedettség a valós helyzetet tükrözi, nem pedig azt, hogy ki éppen posztolt róla. A Voyager Maps kempingeket, lakókocsi-parkolókat, ivóvíz-csapokat, zuhanyzókat, önkiszolgáló mosodákat, WC-ket, üzemanyagtöltő állomásokat és parkolókat egyesít egy kereshető térképen, így még az odaérkezés előtt ellenőrizheted, mi található a ma esti szálláshelyed közelében. Akár teljes munkaidőben utazol, akár egy hosszú nyári utazásra indulsz, akár egy hétvégét töltesz el egy átalakított kempingautóval, a praktikus megállóhelyeket érdemes kéznél tartani.",
       "consentEyebrow": "Adatvédelmi beállítások",
-      "consentTitle": "Adatvédelmi beállítások",
+      "consentTitle": "Adatkezelési beállítások",
       "consentDescription": "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapset.",
       "consentNecessaryLabel": "Szükséges",
       "consentNecessaryDescription": "A nyelvválasztáshoz, a hozzájárulási beállítások mentéséhez és az oldal alapműködéséhez szükséges.",
@@ -69,17 +69,17 @@ window.voyagerLocales["hu"] = {
       "consentManage": "Adatvédelmi beállítások",
       "exploreTitle": "Fedezd fel a térképeket",
       "exploreHomeLink": "Főoldal",
-      "exploreWaterLink": "Ivóvíz-térkép",
-      "exploreToiletLink": "Nyilvános WC-térkép",
-      "exploreShowerLink": "Ingyenes zuhanyzó-térkép",
-      "exploreParkingLink": "Parkolási térkép",
+      "exploreWaterLink": "Ivóvíztérkép",
+      "exploreToiletLink": "Nyilvános WC-k térképe",
+      "exploreShowerLink": "Ingyenes zuhanyzók térképe",
+      "exploreParkingLink": "Parkolótérkép",
       "exploreCampervanLink": "Kempingbusz-szolgáltatási térkép",
       "exploreBackpackerLink": "Backpacker-térkép",
-      "legalTitle": "Jogi információk és dokumentáció",
-      "privacyLink": "Adatvédelmi irányelvek",
-      "termsLink": "Feltételek",
-      "deleteLink": "Adatok törlése",
-      "footer": "© A Voyager Maps weboldala"
+      "legalTitle": "Jogi és dokumentációs oldalak",
+      "privacyLink": "Adatvédelmi tájékoztató",
+      "termsLink": "Felhasználási feltételek",
+      "deleteLink": "Adattörlés",
+      "footer": "© Voyager Maps weboldal"
     }
   }
 };

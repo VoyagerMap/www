@@ -5,7 +5,7 @@ window.voyagerLocales["de"] = {
   "landingPages": {
     "toilet": {
       "htmlLang": "de",
-      "pageTitle": "Karte mit öffentlichen Toiletten",
+      "pageTitle": "Karte für öffentliche Toiletten",
       "meta": {
         "description": "Finde öffentliche Toiletten auf Reisen, darunter auch Toiletten an Tankstellen und in Geschäften. Kostenlose App."
       },
@@ -50,7 +50,7 @@ window.voyagerLocales["de"] = {
       "ctaBlockTitle": "Finde weitere Orte in der Nähe",
       "ctaBlockText": "Öffne die App, um weitere Toilettenstandorte in deiner Nähe zu sehen.",
       "seoAria": "SEO-Inhalte zu Karten mit öffentlichen Toiletten",
-      "seoTitle": "Karte mit öffentlichen Toiletten für Reisen, Städtereisen und Raststätten",
+      "seoTitle": "Karte für öffentliche Toiletten auf Reisen, bei Städtereisen und unterwegs",
       "seoParagraph1": "Eine zuverlässige Karte mit öffentlichen Toiletten ist eines der praktischsten Reisehilfsmittel, die man haben kann. Wenn du in einer neuen Stadt bist, eine lange Autofahrt machst oder dich durch Bahnhöfe und Touristengebiete bewegst, sollte es einfach sein, eine Toilette zu finden. In der Realität sind die Standorte öffentlicher Toiletten in gängigen Karten-Apps oft uneinheitlich, und die nächstgelegene geeignete Option lässt sich nicht immer leicht aus den normalen Suchergebnissen herausfinden.",
       "seoParagraph2": "Diese Seite richtet sich an alle, die nach einer Karte mit öffentlichen Toiletten suchen, die sich besser für die Praxis eignet. Anstatt Toiletten als nebensächliches Detail zu behandeln, geht es darum, öffentliche Toiletten leichter zu finden, wenn es auf die Zeit ankommt. Das kann bedeuten, vor einem langen Umstieg eine öffentliche Toilette zu finden, Toiletten in der Nähe von belebten Sehenswürdigkeiten ausfindig zu machen oder praktische Zwischenstopps während der Autofahrt zu identifizieren. Für Reisende, Familien und den alltäglichen Stadtalltag sorgt eine bessere Toilettensuche für weniger Stress und hilft dabei, dass Ausflüge reibungsloser verlaufen.",
       "consentEyebrow": "Datenschutzeinstellungen",
@@ -62,7 +62,7 @@ window.voyagerLocales["de"] = {
       "consentStatisticsLabel": "Statistiken",
       "consentStatisticsValue": "Google Analytics 4 für Besuche und Interaktionsereignisse",
       "consentNote": "Du kannst diese Einstellung jederzeit über die Datenschutz-Schaltfläche ändern.",
-      "consentReject": "Nur notwendige",
+      "consentReject": "Nur Notwendiges verwenden",
       "consentCustomize": "Anpassen",
       "consentSave": "Einstellungen speichern",
       "consentAccept": "Analytics akzeptieren",
@@ -78,7 +78,7 @@ window.voyagerLocales["de"] = {
       "termsLink": "Nutzungsbedingungen",
       "deleteLink": "Daten löschen",
       "footer": "© Voyager Maps-Website",
-      "exploreCampervanLink": "Karte mit Serviceangeboten für Wohnmobile",
+      "exploreCampervanLink": "Karte mit Wohnmobil-Servicestellen",
       "exploreBackpackerLink": "Backpacker-Karte"
     }
   }

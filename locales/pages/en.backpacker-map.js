@@ -7,7 +7,7 @@ window.voyagerLocales["en"] = {
       "htmlLang": "en",
       "pageTitle": "Backpacker & Solo Travel Map",
       "meta": {
-        "description": "Showers, laundry, drinking water and Wi-Fi for backpackers and solo travellers. 5.5M places worldwide. Free app, no account."
+        "description": "Find showers, laundry, drinking water and Wi-Fi for backpackers and solo travellers worldwide. Free app, no account."
       },
       "brandLabel": "Voyager Maps",
       "langSwitcherAria": "Language switcher",
