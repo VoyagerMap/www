@@ -39,8 +39,20 @@ jobs:
 
       # A key missing from one locale is not a build error: the English source
       # text simply survives into the localized page. This is what notices.
-      - name: Every rendered key exists in every language
+      #
+      # --strict also fails on the opposite: a key no page renders any more.
+      # index.html was rebuilt in 6a3c3b1 and the strings for the section it
+      # dropped stayed in all twenty-four locales for months, getting
+      # translated and reviewed by hand the whole time.
+      - name: Every rendered key exists, and nothing else does
         run: npm run check:keys
+
+      # The faults that are not a missing key: one English string rendered two
+      # ways in one language, an index copy disagreeing with the `shared`
+      # block, mixed formal and informal address, a value left in English.
+      # Warnings print without failing; the error-level checks hold the line.
+      - name: Translations agree with themselves
+        run: npm run check:i18n
 
       # Measures the real rendered boxes in headless Chrome — horizontal
       # overflow and distorted screenshots, at 1280px and 390px.

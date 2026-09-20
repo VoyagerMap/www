@@ -1,10 +1,10 @@
 # Voyager Maps
 
-> A free travel map of the practical places most maps leave out: public toilets, free drinking water, showers, laundromats, Wi-Fi, parking and campervan services. 5.5 million locations across 237 countries and territories, from OpenStreetMap, available on the web, iOS and Android in 13 languages.
+> A free travel map of the practical places most maps leave out: public toilets, free drinking water, showers, laundromats, Wi-Fi, parking and campervan services. 5.5 million locations across 237 countries and territories, from OpenStreetMap, available on the web, iOS and Android in 24 languages.
 
 Voyager Maps answers one kind of question: *where is the nearest useful thing right now* — a restroom, a place to refill a bottle, a shower, a laundromat, somewhere to park a van overnight. General map services index businesses and directions; these categories are patchy there because they are rarely anyone's commercial listing. This site publishes them as counted, categorised data instead.
 
-Last updated: 2026-09-09 — city pages and their counts added on this date.
+Last updated: 2026-09-20 — language coverage corrected to 24; structured data added to the category maps.
 
 ## Coverage
 
@@ -73,11 +73,13 @@ Fifty cities have a page of their own, each reporting how many of each kind of p
 
 ## Languages
 
-The home page and the six category maps exist in all 13 languages. The city pages are the exception: each exists in English and, where the site has that language, in the language of its own country — a page about Vienna's toilets in Korean would be a URL nobody searches for. Every page carries an hreflang set naming exactly the languages it was built in.
+The home page and the six category maps exist in all 24 languages. The city pages are the exception: each exists in English and, where the site has that language, in the language of its own country — a page about Vienna's toilets in Korean would be a URL nobody searches for. Every page carries an hreflang set naming exactly the languages it was built in.
 
 English is at the site root; each other language lives under its own path prefix.
 
-- Path prefixes: `/de/` `/fr/` `/es/` `/it/` `/pt/` `/nl/` `/pl/` `/hu/` `/ja/` `/zh/` `/ko/` `/hi/`
+<!-- generated: languages -->
+- Path prefixes: `/de/` `/fr/` `/es/` `/it/` `/pt/` `/nl/` `/pl/` `/hu/` `/ja/` `/zh/` `/ko/` `/ru/` `/ar/` `/id/` `/vi/` `/tr/` `/fa/` `/fil/` `/da/` `/sv/` `/nb/` `/is/` `/hi/`
+<!-- /generated -->
 - Example: the drinking water map in German is at https://getvoyagermaps.com/de/drinking-water-map.html
 
 ## Optional

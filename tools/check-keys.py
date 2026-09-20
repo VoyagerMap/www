@@ -10,6 +10,15 @@ this guards, and it is the one that actually reaches a reader.
 It also flags keys defined in a locale that no page uses any more, which is
 how locales/en.js ended up carrying a dead `heroProof` for months.
 
+That second check used to ask the question one page at a time, so a key used
+only on a landing page looked dead when index.html was examined and the report
+could not be trusted — `exploreHomeLink` was named in it for months while six
+pages rendered it. It now gathers every reference the site makes first, from
+all the pages, the city templates, the runtime scripts and the key list in
+city_pages.py, and only then asks what is left over. That covers the landing
+groups too, where 528 strings were surviving translation and review because
+nothing looked inside them.
+
 Usage:  python3 tools/check-keys.py [--strict]
         --strict also fails on unused keys, not just missing ones.
 """
@@ -45,6 +54,47 @@ def runtime_keys():
     return found
 
 
+# Pages outside PAGES that still render dictionary keys, and the templates the
+# city pages are stamped from. Leaving any of these out turns a live key into
+# a reported-dead one, which is how this check lost its credibility before.
+EXTRA_PAGES = ["routing.html", "cities.html", "404.html"]
+TEMPLATES = ["data/city-page.template.html", "data/cities-page.template.html"]
+
+
+def referenced():
+    """Every key the site asks for, from wherever it asks."""
+    found = set(runtime_keys())
+    for rel in list(bp.PAGES) + EXTRA_PAGES + bp.LEGAL + TEMPLATES:
+        path = os.path.join(REPO, rel)
+        if os.path.exists(path):
+            found |= set(ATTR.findall(open(path, encoding="utf-8").read()))
+    # city_pages.py copies its chrome by naming the keys in a list.
+    src = open(os.path.join(REPO, "tools", "city_pages.py"), encoding="utf-8").read()
+    found |= set(re.findall(r'"([a-zA-Z][A-Za-z0-9_]{3,})"', src))
+    # A page names the branch it reads in its page-config block, which is how
+    # routing.html reaches routingPageWrapper.routing. Without this the branch
+    # itself looks unreferenced even while a page renders every string in it.
+    for rel in list(bp.PAGES) + EXTRA_PAGES + bp.LEGAL:
+        path = os.path.join(REPO, rel)
+        if os.path.exists(path):
+            text = open(path, encoding="utf-8").read()
+            found |= set(re.findall(r'"locale(?:Group|Key)"\s*:\s*"([^"]+)"', text))
+    return found
+
+
+def dead_branches(en, live):
+    """Whole sub-dictionaries nothing reads.
+
+    locales/*.js carried both `routingPage` and `routingPageWrapper.routing`,
+    byte for byte the same seventeen strings. routing.html asks for the second
+    one by name; the first was read by nothing and had been quietly drifting
+    away from its twin in four languages.
+    """
+    keep = BUILD_KEYS | {"routingPageWrapper"}
+    return sorted(k for k, v in en.items()
+                  if isinstance(v, dict) and k not in keep and k not in live)
+
+
 def load(codes):
     """Read the locale files with the host's node — no container needed."""
     req = ";".join(f"require('{REPO}/locales/{c}.js')" for c in codes)
@@ -59,7 +109,10 @@ def main():
     strict = "--strict" in sys.argv
     languages = bp.load_languages()
     codes = [l["code"] for l in languages]
-    locales = load(codes)
+    # Landing groups inherit from the language's `shared` block, exactly as
+    # the generator resolves them. Without this every shared key reads as
+    # missing from all six groups.
+    locales = bp.resolve_shared(load(codes))
 
     from_js = runtime_keys()
     missing, unused = [], []
@@ -75,14 +128,25 @@ def main():
             gone = sorted(k for k in used if not isinstance(dic.get(k), str))
             if gone:
                 missing.append(f"{page} [{code}]: {', '.join(gone)}")
-        # Unused is a property of the dictionary, not of any one language, so
-        # it is only worth asking of the source locale.
-        if group is None:
-            spare = sorted(k for k, v in locales["en"].items()
-                           if isinstance(v, str) and k not in used
-                           and k not in BUILD_KEYS and k not in from_js)
-            if spare:
-                unused.append(f"{page}: {', '.join(spare)}")
+    # Unused is a property of the dictionary, not of any one page or language,
+    # so it is asked once, of the source locale, against everything the site
+    # references anywhere.
+    live = referenced()
+    en = locales["en"]
+    spare = sorted(k for k, v in en.items()
+                   if isinstance(v, str) and k not in live and k not in BUILD_KEYS)
+    if spare:
+        unused.append(f"locales/en.js: {', '.join(spare)}")
+    by_key = {}
+    for name, page in (en.get("landingPages") or {}).items():
+        for k, v in page.items():
+            if isinstance(v, str) and k not in live and k not in BUILD_KEYS:
+                by_key.setdefault(k, []).append(name)
+    for k, groups in sorted(by_key.items()):
+        unused.append(f"landingPages.*.{k}: {len(groups)} groups ({', '.join(groups)})")
+    for branch in dead_branches(en, live):
+        n = sum(1 for v in en[branch].values() if isinstance(v, str))
+        unused.append(f"{branch}: whole branch, {n} strings, nothing reads it")
 
     # The key existing is not the same as the page showing it. Every
     # "Privacy Policy" link on the site stayed English in all thirteen

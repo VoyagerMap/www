@@ -116,7 +116,7 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def localize(source, code, dic, page, codes, page_codes=None):
+def localize(source, code, dic, page, codes, page_codes=None, root=None):
     """Bake one language's text into the source page.
 
     `codes` is every language the site has — used to recognise and rewrite
@@ -127,6 +127,10 @@ def localize(source, code, dic, page, codes, page_codes=None):
     yet would be worse than not advertising them.
     """
     page_codes = page_codes or codes
+    # A landing page's dictionary holds only its own group, so the strings
+    # that describe the product rather than the page — the app's own
+    # description, the word for "Home" — are read from the language's root.
+    root = root if root is not None else dic
     t = source
 
     # Arabic and Persian read right to left. Without dir the browser lays the
@@ -245,16 +249,31 @@ def localize(source, code, dic, page, codes, page_codes=None):
         except ValueError:
             return m.group(0)
         if isinstance(obj, dict):
-            obj["inLanguage"] = code
-            if "url" in obj:
-                obj["url"] = url_for(code, page)
-            if obj.get("@type") == "WebPage":
+            kind = obj.get("@type")
+            # BreadcrumbList describes a path, not a document; inLanguage and
+            # url are not its properties and Google reads neither.
+            if kind != "BreadcrumbList":
+                obj["inLanguage"] = code
+                if "url" in obj:
+                    obj["url"] = url_for(code, page)
+            if kind == "WebPage":
                 obj["name"] = title
                 obj["description"] = desc
-            if obj.get("@type") == "WebSite":
-                obj["description"] = dic.get("structuredWebDescription") or dic.get("metaDescription", obj.get("description", ""))
-            if obj.get("@type") == "SoftwareApplication":
-                obj["description"] = dic.get("structuredAppDescription") or dic.get("metaDescription", obj.get("description", ""))
+            if kind == "WebSite":
+                obj["description"] = root.get("structuredWebDescription") or root.get("metaDescription", obj.get("description", ""))
+            if kind == "SoftwareApplication":
+                # One product, described the same way wherever it is declared,
+                # and anchored to the language's home rather than to whichever
+                # landing page happens to carry the block.
+                obj["description"] = root.get("structuredAppDescription") or root.get("metaDescription", obj.get("description", ""))
+                obj["url"] = url_for(code, "index.html")
+            if kind == "BreadcrumbList":
+                items = obj.get("itemListElement") or []
+                if items:
+                    items[0]["name"] = root.get("exploreHomeLink", items[0].get("name", "Home"))
+                    items[0]["item"] = url_for(code, "index.html")
+                if len(items) > 1:
+                    items[-1]["name"] = dic.get("pageTitle", items[-1].get("name", ""))
             if obj.get("@type") == "FAQPage":
                 for index, item in enumerate(obj.get("mainEntity", []), start=1):
                     question = dic.get(f"faq{index}Q")
@@ -350,6 +369,36 @@ def locale_asset(code, page):
     return f"locales/pages/{code}.{slug}.js"
 
 
+def resolve_shared(locales):
+    """Fold each language's `shared` block into its six landing page groups.
+
+    Forty-four of a landing page's strings are the same on all six of them —
+    the store badge lines, the consent notice, the language switcher, the
+    footer. Held per group they were six copies of one sentence per language,
+    5280 redundant strings across the site, and a correction applied to five
+    of the six was the single most common way a translation went half-done.
+
+    `shared` holds one copy. A group that genuinely needs its own wording
+    still wins by defining the key itself, so the block costs no expressive
+    power.
+
+    Inherited keys land first and the group's own follow, which makes the
+    generated slice say plainly which is which. That ordering is the only
+    thing adopting the block changes — no value moves — so a language's
+    slice is rewritten once, when it migrates, and is stable after.
+    """
+    for dic in locales.values():
+        shared = dic.pop("shared", None)
+        if not shared:
+            continue
+        groups = dic.get("landingPages") or {}
+        for group, page in groups.items():
+            merged = {k: v for k, v in shared.items() if k not in page}
+            merged.update(page)
+            groups[group] = merged
+    return locales
+
+
 def page_dictionary(locales, code, page, group):
     """The only branch of the dictionary this page's runtime can reach.
 
@@ -362,7 +411,8 @@ def page_dictionary(locales, code, page, group):
     """
     if group:
         return {"landingPages": {group: locales[code]["landingPages"][group]}}
-    return {k: v for k, v in locales[code].items() if k != "landingPages"}
+    return {k: v for k, v in locales[code].items()
+            if k not in ("landingPages", "shared")}
 
 
 def write_locale_file(rel, code, payload, source):
@@ -382,10 +432,39 @@ def write_page_locale(code, page, payload):
                       f"This page's slice of locales/{code}.js; edit that instead.")
 
 
+def write_llms_txt(codes):
+    """Keep llms.txt's language facts true.
+
+    The file is prose and is written by hand, but two of its statements are
+    facts the generator already holds — how many languages the site has and
+    what their path prefixes are. Left to a human they went stale: it claimed
+    thirteen languages and listed twelve prefixes while the site served
+    twenty-four. Language models read this file and repeated the figure.
+
+    Only the marked block and the count are rewritten; every other line is
+    whatever was written there.
+    """
+    path = os.path.join(REPO, "llms.txt")
+    if not os.path.exists(path):
+        return
+    text = open(path, encoding="utf-8").read()
+    prefixes = " ".join(f"`/{c}/`" for c in codes if c != "en")
+    block = ("<!-- generated: languages -->\n"
+             f"- Path prefixes: {prefixes}\n"
+             "<!-- /generated -->")
+    text, hits = re.subn(r"<!-- generated: languages -->.*?<!-- /generated -->",
+                         lambda _: block, text, flags=re.S)
+    text = re.sub(r"\b\d+ languages\b", f"{len(codes)} languages", text)
+    if hits:
+        with open(path, "w", encoding="utf-8") as fh:
+            fh.write(text)
+
+
 def main():
     languages = load_languages()
     codes = [l["code"] for l in languages]
-    locales = load_locales(codes)
+    locales = resolve_shared(load_locales(codes))
+    write_llms_txt(codes)
 
     # A page is only generated for the languages that actually translate it, so
     # a newly added page can ship in English and pick up languages as their
@@ -425,7 +504,8 @@ def main():
             dic = locales[code]
             if group:
                 dic = dic["landingPages"][group]
-            out = localize(source, code, dic, page, codes, page_codes[page])
+            out = localize(source, code, dic, page, codes, page_codes[page],
+                           root=locales[code])
             # Matches the marker whether it is still empty or already holds
             # a previous run's list: the generator writes English back over
             # its own source, so a build that only recognised the empty form

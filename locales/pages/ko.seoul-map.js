@@ -22,7 +22,7 @@ window.voyagerLocales["ko"] = {
       "exploreHomeLink": "홈",
       "exploreWaterLink": "식수 지도",
       "exploreToiletLink": "공중화장실 지도",
-      "exploreShowerLink": "무료 샤워 지도",
+      "exploreShowerLink": "무료 샤워 시설 지도",
       "exploreParkingLink": "주차장 지도",
       "exploreCampervanLink": "캠핑카 서비스 지도",
       "exploreBackpackerLink": "배낭여행자 지도",

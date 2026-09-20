@@ -1,0 +1,38 @@
+# Tell Bing, Yandex and Seznam which pages changed, once they are actually live.
+#
+# Deliberately not part of checks.yml. That workflow validates and publishes
+# nothing; this one reaches out to third parties, and the two should be able to
+# fail independently.
+#
+# Two things make this correct rather than merely automatic:
+#
+#   It waits for the deployment. IndexNow asks the engine to come and fetch the
+#   URL, so submitting on push — before GitHub Pages has served the new build —
+#   invites a crawl of the old page and wastes the signal. deployment_status
+#   fires when the Pages deployment has actually succeeded.
+#
+#   It submits only what changed. Resubmitting all 286 URLs on every push tells
+#   the engines nothing new and is the traffic IndexNow asks callers not to
+#   send.
+#
+# Google does not participate in IndexNow and still needs Search Console.
+name: indexnow
+
+on:
+  deployment_status:
+
+jobs:
+  submit:
+    if: >-
+      github.event.deployment_status.state == 'success' &&
+      github.event.deployment.environment == 'github-pages'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.deployment.sha }}
+          # changed_urls() diffs against the previous commit.
+          fetch-depth: 2
+
+      - name: Submit the pages this deployment changed
+        run: python3 tools/indexnow.py --changed

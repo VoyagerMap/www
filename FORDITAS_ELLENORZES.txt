@@ -588,3 +588,146 @@ A fenti söprésen túl nyelvenként:
      főnévi mintája helyett → 「営業時間が記載されている」
 
 ================================================================================
+
+================================================================================
+  ESZKÖZÖK — 2026-09-20-tól
+================================================================================
+
+A 09-19-i átvizsgálás 17 félbehagyott javítást talált: a gyökérértéket
+javították, a hat landing page másolatát nem. Ez nem figyelmetlenség volt,
+hanem a fájlszerkezet következménye. Azóta a következő a helyzet:
+
+--------------------------------------------------------------------------------
+1. shared: BLOKK — egyszer kell átírni, nem hatszor
+--------------------------------------------------------------------------------
+A landing page-ek 44 stringje mind a hat oldalon azonos volt: a store-badge
+sorok, a süti-szöveg, a nyelvváltó, a lábléc. Ezek most egyszer szerepelnek,
+a `shared:` blokkban, közvetlenül a `landingPages:` előtt.
+
+  window.voyagerLocales["de"] = {
+    ...                          <- index kulcsok, változatlanul
+    shared: {                    <- amit mind a hat landing page örököl
+      badgeGoogleLine: "Hol sie dir bei",
+      ...
+    },
+    landingPages: {
+      water: { pageTitle: ..., heroTitle: ... },   <- csak ami tényleg sajátja
+    }
+  }
+
+  - Közös szöveget javítani  ->  írd át a `shared:` blokkban, egy helyen.
+  - Egy oldalnak MÁS kell    ->  vedd fel a kulcsot a saját csoportjába,
+                                 az felülírja az örököltet.
+  - A generált locales/pages/*.js változatlan marad; a böngésző nem lát
+    ebből semmit. A feloldás build-pages.py resolve_shared()-ben történik.
+
+  Egy nyelv átállítása:  python3 tools/migrate-shared.py <kód>
+  (Mind a 24 már átállt. 5253 sorral rövidebbek a forrásfájlok.)
+
+--------------------------------------------------------------------------------
+2. tools/check-i18n.py — amit a check-keys.py nem lát
+--------------------------------------------------------------------------------
+A check-keys.py azt kérdezi, LÉTEZIK-e a kulcs. Ez azt, hogy UGYANAZT
+mondja-e mindenhol. Hat ellenőrzés:
+
+  divergence     egy angol string két különböző fordítása egy nyelven belül
+                 (a fenti "két eltérő angol → egy fordítás" INVERZE, ami
+                 eddig vakfolt volt a 2. menetben)
+  shared-drift   az index példánya nem egyezik a shared blokkal
+  dead-override  egy csoport olyat ír ki, amit úgyis örökölne — törlendő
+  register       tegezés/magázás keveredik egy nyelven belül
+  seo-length     a meta description / pageTitle túllóg a találati kivonaton
+  english        a fordítás betűre azonos az angol forrással
+
+  python3 tools/check-i18n.py            # minden nyelv
+  python3 tools/check-i18n.py de fr      # csak ezek
+  python3 tools/check-i18n.py --strict   # a figyelmeztetések is buknak
+
+2026-09-20-tól MIND A HAT hibaszintű, mert mind a hat zöld. Nem így indult:
+a divergence 35 találattal, a seo-length eggyel. Amíg a hátralék megvolt,
+csak figyelmeztettek. Ezt a mintát érdemes tartani, ha később új ellenőrzés
+kerül bele — egy check, ami a bevezetése napján bukik, kikapcsolásra kerül,
+és akkor már nem check.
+
+--------------------------------------------------------------------------------
+3. scripts/pre-commit.sh — commit előtt, nem push után
+--------------------------------------------------------------------------------
+A 09-19-i hibahalmaz teljes egészében commitolatlan working tree-ben élt,
+ahol a CI még nem néz oda. A hook újragenerálja az oldalakat, és elbukik,
+ha a diff nem üres — vagyis ha a forrást javítottad, de a generált oldal
+a régi szöveget mutatja.
+
+  telepítés:  ln -sf ../../scripts/pre-commit.sh .git/hooks/pre-commit
+
+================================================================================
+
+--------------------------------------------------------------------------------
+4. HALOTT KULCSOK — 2026-09-20-án kitakarítva
+--------------------------------------------------------------------------------
+A 6a3c3b1 („feat(home): rebuild the landing page around install and proof")
+kivette az index.html „why" szekcióját és a régi hero-CTA-kat, de a stringek
+mind a 24 locale fájlban bent maradtak. Mellettük négy kulcs a landing
+csoportokban egy korábbi preview-felépítésből. Összesen 26 kulcsnév,
+946 string — ezeket a szeptemberi átnézés végigolvasta, összevetette és
+javította, holott egyiket sem látta soha senki.
+
+  python3 tools/prune-locales.py --dry-run   # mit törölne
+  python3 tools/prune-locales.py             # törlés mind a 24 nyelvben
+
+Mit számít:
+  - a látogató landing oldalanként ~291 bájtnyi halott stringet töltött le
+  - a forrásfájlok 76 KB-tal, a generált szeletek 85 KB-tal rövidebbek
+  - a divergence-hátralék 30-ról 25-re esett: öt figyelmeztetés olyan
+    stringen állt, amit semmi nem rendereli
+  - DeepL-keretet égetett minden újrafordításnál, és a keret elfogyott
+
+Hogy ne gyűljön újra:
+  A check-keys.py unused-ellenőrzése régen oldalanként kérdezett, ezért az
+  `exploreHomeLink`-et hónapokig halottnak jelentette, miközben hat oldal
+  rendereli — emiatt nem lehetett megbízni benne, és senki nem futtatta
+  --strict módban. Most előbb összegyűjti az ÖSSZES hivatkozást (minden
+  oldal, a két város-sablon, az assets/*.js és a city_pages.py kulcslistája),
+  és csak utána kérdezi, mi maradt; a landing csoportokba is belenéz.
+
+  A CI mostantól `--strict` módban futtatja, tehát halott kulccsal nem lehet
+  mergelni. A pre-commit hook SZÁNDÉKOSAN nem strict: aki épp most törölt egy
+  szekciót és még nem ért a locale-okhoz, tudjon commitolni — egy olyan hook,
+  ami félkész munkára bekiabál, `--no-verify`-t szül, és akkor már semmit sem
+  véd.
+
+================================================================================
+
+--------------------------------------------------------------------------------
+5. A 35 DIVERGENCIA LEDOLGOZVA — 2026-09-20
+--------------------------------------------------------------------------------
+Nem mind a 35-öt kellett kézzel eldönteni:
+
+  5 magától eltűnt a halott kulcsok törlésével (previewOverlay stb.)
+  5 a halott `routingPage` ág törlésével (da 1, ru 1, sv 3) — a két
+    routing-szótár egyike olvasatlanul sodródott el a másiktól
+ 20 kézi döntés, majd egy `migrate-shared.py` újrafuttatás
+  1 seo-length: a koreai címben a ", " helyett "·" (37 -> 35 karakter)
+
+A 20 kézi döntésnél nem többségi alapon választottam, hanem az adott nyelv
+saját konvenciója szerint. Három visszatérő minta:
+
+  A) Egy oldal kilóg a hatból. A koreaiban a `water` csoport mind a négy
+     feature/CTA címe eltért a többitől — egy blokkban a toilet+shower
+     alakjához igazítva.
+
+  B) explore*Link vs pageTitle. Ugyanaz az angol string, két helyen. A
+     döntés nyelvenként más lett:
+       de  -> "Karte MIT öffentlichen Toiletten" (a `für` célt vagy
+              közönséget jelöl; a térkép tartalmazza a WC-ket. A
+              "Karte für Backpacker" ezért helyesen marad `für`.)
+       hi  -> "नक्शा", ami 7:3 arányban a túlnyomó alak ebben a nyelvben
+       fil -> "Mapa ng MGA Libreng Shower" (a `mga` jelöli a többes számot)
+       ko  -> "무료 샤워 시설 지도" (a `샤워` magát a zuhanyzást jelenti,
+              helyekhez `시설` kell)
+
+  C) findAria vs navFind. Mindkettő ugyanarra az angolra megy; a rövidebb,
+     nav-címkéhez való alak nyert (fr, pl, és korábban hu).
+
+Mostantól a divergence hibaszintű: új eltérés nem tud bekerülni.
+
+================================================================================

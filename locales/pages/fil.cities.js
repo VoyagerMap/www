@@ -22,7 +22,7 @@ window.voyagerLocales["fil"] = {
       "exploreHomeLink": "Home",
       "exploreWaterLink": "Mapa ng Inuming Tubig",
       "exploreToiletLink": "Mapa ng mga Pampublikong Palikuran",
-      "exploreShowerLink": "Mapa ng Libreng Shower",
+      "exploreShowerLink": "Mapa ng mga Libreng Shower",
       "exploreParkingLink": "Mapa ng Paradahan",
       "exploreCampervanLink": "Mapa ng mga Serbisyo para sa Campervan",
       "exploreBackpackerLink": "Mapa para sa mga backpacker",
