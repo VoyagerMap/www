@@ -34,7 +34,7 @@ window.voyagerLocales["nb"] = {
   "citiesTitle": "Se hva som er kartlagt i byen du skal besøke",
   "citiesLead": "Femti byer har hver sin egen side, der alle typer praktiske steder som kartet inneholder er oppført – slik at du kan se hva som finnes før du drar, ikke etter at du har kommet frem.",
   "citiesToiletsLabel": "toaletter",
-  "citiesWaterLabel": "vann",
+  "citiesWaterLabel": "drikkevann",
   "citiesAllLink": "Se alle 50 byene",
   "citiesCsvLink": "Se tallene for hver by i CSV-format",
   "eyebrowDifference": "Forskjellen",

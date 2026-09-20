@@ -422,7 +422,7 @@ window.voyagerLocales["fr"] = {
   citiesTitle: "Découvre ce qui est répertorié dans la ville où tu vas te rendre",
   citiesLead: "Cinquante villes disposent chacune de leur propre page, répertoriant tous les lieux pratiques que la carte recense en leur sein — pour que tu puisses voir ce qui est disponible avant de partir, et pas seulement une fois arrivé.",
   citiesToiletsLabel: "toilettes",
-  citiesWaterLabel: "eau",
+  citiesWaterLabel: "eau potable",
   citiesCsvLink: "Consulte les chiffres pour chaque ville au format CSV",
   citiesAllLink: "Découvre les 50 villes"
 };

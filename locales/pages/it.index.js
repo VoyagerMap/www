@@ -191,7 +191,7 @@ window.voyagerLocales["it"] = {
   "citiesTitle": "Scopri cosa c’è in mappa nella tua prossima destinazione",
   "citiesLead": "Cinquanta città hanno una pagina dedicata, che elenca ogni tipo di luogo utile presente sulla mappa al loro interno: così puoi vedere cosa c’è a disposizione prima di partire, non dopo essere arrivato.",
   "citiesToiletsLabel": "bagni",
-  "citiesWaterLabel": "acqua",
+  "citiesWaterLabel": "acqua potabile",
   "citiesCsvLink": "Guarda i dati relativi a ogni città in un file CSV",
   "citiesAllLink": "Scopri tutte le 50 città"
 };

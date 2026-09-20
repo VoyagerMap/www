@@ -440,7 +440,7 @@ window.voyagerLocales["hu"] = {
   citiesTitle: "Nézd meg, mi szerepel a térképen a következő városodban",
   citiesLead: "Ötven városnak van saját oldala, amelyeken felsorolják az adott városban található összes praktikus helyet – így már indulás előtt megnézheted, hogy mit kínál a térkép, nem pedig csak érkezés után.",
   citiesToiletsLabel: "WC-k",
-  citiesWaterLabel: "víz",
+  citiesWaterLabel: "ivóvíz",
   citiesCsvLink: "Az egyes városok adatai CSV-formátumban megtekinthetők",
   citiesAllLink: "Az összes 50 város megtekintése"
 };

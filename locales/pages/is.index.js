@@ -34,7 +34,7 @@ window.voyagerLocales["is"] = {
   "citiesTitle": "Sjáðu hvað er skráð á kortið í næstu borg",
   "citiesLead": "Fimmtíu borgir hafa hver sína síðu þar sem allar gerðir hagnýtra staða innan borgarinnar eru taldar — svo þú getir séð umfangið áður en þú leggur af stað, en ekki fyrst eftir komuna.",
   "citiesToiletsLabel": "salerni",
-  "citiesWaterLabel": "vatn",
+  "citiesWaterLabel": "drykkjarvatn",
   "citiesAllLink": "Sjáðu allar 50 borgirnar",
   "citiesCsvLink": "Sjáðu tölulegar upplýsingar fyrir hverja borg sem CSV-skrá",
   "eyebrowDifference": "Munurinn",

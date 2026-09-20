@@ -189,7 +189,7 @@ window.voyagerLocales["pt"] = {
   "citiesTitle": "Veja o que está marcado no mapa da sua próxima cidade",
   "citiesLead": "Cinquenta cidades têm uma página própria, listando todos os tipos de locais úteis que o mapa inclui nelas — assim, você pode conferir a cobertura antes de sair, e não depois de chegar.",
   "citiesToiletsLabel": "banheiros",
-  "citiesWaterLabel": "água",
+  "citiesWaterLabel": "água potável",
   "citiesCsvLink": "Veja os números de cada cidade em um arquivo CSV",
   "citiesAllLink": "Veja todas as 50 cidades"
 };

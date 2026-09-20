@@ -189,7 +189,7 @@ window.voyagerLocales["nl"] = {
   "citiesTitle": "Kijk wat er in je volgende stad op de kaart staat",
   "citiesLead": "Vijftig steden hebben een eigen pagina, waarop alle praktische plekken op de kaart binnen die stad zijn geteld — zodat je van tevoren kunt zien wat er allemaal te vinden is, en niet pas als je er bent.",
   "citiesToiletsLabel": "toiletten",
-  "citiesWaterLabel": "water",
+  "citiesWaterLabel": "drinkwater",
   "citiesCsvLink": "Bekijk de aantallen voor elke stad als CSV-bestand",
   "citiesAllLink": "Bekijk alle 50 steden"
 };

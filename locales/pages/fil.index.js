@@ -34,7 +34,7 @@ window.voyagerLocales["fil"] = {
   "citiesTitle": "Tingnan kung ano ang naka-map sa susunod mong pupuntahang lungsod",
   "citiesLead": "May sariling pahina ang limampung lungsod, kasama ang bilang ng bawat uri ng praktikal na lugar na nasa mapa sa loob ng mga ito — para makita mo ang saklaw bago bumiyahe, hindi kapag naroon ka na.",
   "citiesToiletsLabel": "mga kubeta",
-  "citiesWaterLabel": "tubig",
+  "citiesWaterLabel": "inuming tubig",
   "citiesAllLink": "Tingnan ang lahat ng 50 lungsod",
   "citiesCsvLink": "Tingnan ang bilang para sa bawat lungsod bilang CSV",
   "eyebrowDifference": "Ang pagkakaiba",

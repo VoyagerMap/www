@@ -34,7 +34,7 @@ window.voyagerLocales["en"] = {
   "citiesTitle": "See what is mapped in your next city",
   "citiesLead": "Fifty cities have a page of their own, counting every kind of practical place the map holds inside them — so you can see the coverage before you go, not after you arrive.",
   "citiesToiletsLabel": "toilets",
-  "citiesWaterLabel": "water",
+  "citiesWaterLabel": "drinking water",
   "citiesAllLink": "See all 50 cities",
   "citiesCsvLink": "See the counts for every city as a CSV",
   "eyebrowDifference": "The difference",

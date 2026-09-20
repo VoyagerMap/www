@@ -34,7 +34,7 @@ window.voyagerLocales["id"] = {
   "citiesTitle": "Lihat apa saja yang terpetakan di kota tujuan Anda berikutnya",
   "citiesLead": "Lima puluh kota memiliki halaman tersendiri yang menghitung setiap jenis tempat praktis di dalamnya — sehingga Anda dapat melihat cakupannya sebelum berangkat, bukan setelah tiba.",
   "citiesToiletsLabel": "toilet",
-  "citiesWaterLabel": "air",
+  "citiesWaterLabel": "air minum",
   "citiesAllLink": "Lihat semua 50 kota",
   "citiesCsvLink": "Lihat jumlahnya untuk setiap kota dalam format CSV",
   "eyebrowDifference": "Perbedaannya",

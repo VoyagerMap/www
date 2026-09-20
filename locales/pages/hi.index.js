@@ -189,7 +189,7 @@ window.voyagerLocales["hi"] = {
   "citiesTitle": "देखें कि आपके अगले शहर में नक्शे पर क्या उपलब्ध है",
   "citiesLead": "पचास शहरों का अपना पेज है, जिसमें नक्शे पर मौजूद हर तरह के उपयोगी स्थानों को शामिल किया गया है — ताकि आप जाने से पहले कवरेज देख सकें, न कि पहुंचने के बाद।",
   "citiesToiletsLabel": "शौचालय",
-  "citiesWaterLabel": "पानी",
+  "citiesWaterLabel": "पीने का पानी",
   "citiesCsvLink": "हर शहर की संख्या CSV में देखें",
   "citiesAllLink": "सभी 50 शहर देखें"
 };

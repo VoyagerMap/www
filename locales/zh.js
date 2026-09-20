@@ -420,7 +420,7 @@ window.voyagerLocales["zh"] = {
   citiesTitle: "看看您下一站要去的城市里有哪些设施被标注在地图上",
   citiesLead: "50座城市均设有专属页面，详细列出了地图中涵盖的各类实用场所——这样您就能在出发前就了解覆盖范围，而不是等到到达后才发现。",
   citiesToiletsLabel: "公厕",
-  citiesWaterLabel: "水",
+  citiesWaterLabel: "饮用水",
   citiesCsvLink: "以CSV格式查看各城市的设施数量",
   citiesAllLink: "查看全部 50 个城市"
 };

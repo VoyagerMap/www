@@ -32,7 +32,7 @@ window.voyagerLocales["da"] = {
   citiesTitle: "Se, hvad der er markeret på kortet i din næste by",
   citiesLead: "Halvtreds byer har hver deres egen side, hvor alle de praktiske steder, som kortet indeholder, er opført — så du kan se, hvad der er tilgængeligt, inden du tager afsted, ikke først når du er ankommet.",
   citiesToiletsLabel: "toiletter",
-  citiesWaterLabel: "vand",
+  citiesWaterLabel: "drikkevand",
   citiesAllLink: "Se alle 50 byer",
   citiesCsvLink: "Se tallene for hver by som en CSV-fil",
   eyebrowDifference: "Forskellen",

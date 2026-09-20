@@ -32,7 +32,7 @@ window.voyagerLocales["fa"] = {
   citiesTitle: "ببینید در مقصد شهری بعدی‌تان چه مکان‌هایی روی نقشه است",
   citiesLead: "هر یک از پنجاه شهر صفحهٔ جداگانه‌ای دارد که همهٔ انواع مکان‌های کاربردی داخل شهر را می‌شمارد — تا پوشش نقشه را پیش از حرکت ببینید، نه پس از رسیدن.",
   citiesToiletsLabel: "سرویس‌های بهداشتی",
-  citiesWaterLabel: "آب",
+  citiesWaterLabel: "آب آشامیدنی",
   citiesAllLink: "مشاهدهٔ تمام ۵۰ شهر",
   citiesCsvLink: "تعدادها را برای هر شهر به صورت CSV ببینید",
   eyebrowDifference: "تفاوت",

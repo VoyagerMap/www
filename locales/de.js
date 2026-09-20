@@ -420,7 +420,7 @@ window.voyagerLocales["de"] = {
   citiesTitle: "Schau dir an, was in deiner nächsten Stadt auf der Karte verzeichnet ist",
   citiesLead: "Fünfzig Städte haben eine eigene Seite, auf der alle praktischen Orte aufgelistet sind, die die Karte in ihnen enthält – so kannst du dir schon vor deiner Abreise einen Überblick verschaffen, nicht erst nach deiner Ankunft.",
   citiesToiletsLabel: "Toiletten",
-  citiesWaterLabel: "Wasser",
+  citiesWaterLabel: "Trinkwasser",
   citiesCsvLink: "Die Zahlen für jede Stadt als CSV-Datei anzeigen",
   citiesAllLink: "Alle 50 Städte anzeigen"
 };

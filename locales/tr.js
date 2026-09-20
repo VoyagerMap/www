@@ -32,7 +32,7 @@ window.voyagerLocales["tr"] = {
   citiesTitle: "Bir sonraki ziyaret edeceğiniz şehirde haritada neler olduğunu görün",
   citiesLead: "Elli şehrin kendine ait sayfasında, haritanın o şehirde içerdiği her tür kullanışlı yerin sayısı bulunur — böylece kapsamı vardığınızda değil, yola çıkmadan önce görebilirsiniz.",
   citiesToiletsLabel: "tuvaletler",
-  citiesWaterLabel: "su",
+  citiesWaterLabel: "içme suyu",
   citiesAllLink: "50 şehrin tümünü görün",
   citiesCsvLink: "Her şehir için sayıları CSV dosyası olarak görüntüleyin",
   eyebrowDifference: "Fark",

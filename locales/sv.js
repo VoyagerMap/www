@@ -32,7 +32,7 @@ window.voyagerLocales["sv"] = {
   citiesTitle: "Se vad som finns utmärkt på kartan i din nästa stad",
   citiesLead: "Femtio städer har en egen sida där alla typer av praktiska platser som finns på kartan räknas upp – så att du kan se vad som finns innan du åker, inte först när du har kommit fram.",
   citiesToiletsLabel: "toaletter",
-  citiesWaterLabel: "vatten",
+  citiesWaterLabel: "dricksvatten",
   citiesAllLink: "Se alla 50 städer",
   citiesCsvLink: "Se siffrorna för varje stad i CSV-format",
   eyebrowDifference: "Skillnaden",

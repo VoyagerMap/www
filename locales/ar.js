@@ -32,7 +32,7 @@ window.voyagerLocales["ar"] = {
   citiesTitle: "اطّلع على الأماكن المرسومة على الخريطة في مدينتك القادمة",
   citiesLead: "لكل مدينة من المدن الخمسين صفحة خاصة تحصي جميع أنواع الأماكن العملية داخلها — لتعرف مدى التغطية قبل السفر، لا بعد الوصول.",
   citiesToiletsLabel: "دورات المياه",
-  citiesWaterLabel: "المياه",
+  citiesWaterLabel: "مياه الشرب",
   citiesAllLink: "شاهد جميع المدن الـ50",
   citiesCsvLink: "اطلع على الأرقام الإحصائية لكل مدينة في ملف CSV",
   eyebrowDifference: "الفرق",

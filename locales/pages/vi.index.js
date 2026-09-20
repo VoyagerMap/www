@@ -34,7 +34,7 @@ window.voyagerLocales["vi"] = {
   "citiesTitle": "Xem những gì đã được lập bản đồ tại thành phố tiếp theo của bạn",
   "citiesLead": "Năm mươi thành phố có trang riêng, thống kê mọi loại địa điểm thiết thực có trên bản đồ trong phạm vi thành phố — để bạn biết mức độ phủ sóng trước khi đi, thay vì đến nơi mới biết.",
   "citiesToiletsLabel": "nhà vệ sinh",
-  "citiesWaterLabel": "nước",
+  "citiesWaterLabel": "nước uống",
   "citiesAllLink": "Xem tất cả 50 thành phố",
   "citiesCsvLink": "Xem số lượng địa điểm tại từng thành phố dưới dạng CSV",
   "eyebrowDifference": "Điểm khác biệt",
