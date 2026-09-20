@@ -147,7 +147,12 @@ def localize(source, code, dic, page, codes, page_codes=None, root=None):
     # each candidate inside a srcset (the first one sits right after the quote,
     # the rest after commas — missing those left the images 404ing on localized
     # pages, which in turn left an empty frame where the screenshot should be).
-    t = re.sub(r'(?<=["\s,])(?:\./|/)(assets|locales|pictures)/',
+    #
+    # `data` joined the list after Search Console reported the 404s: the CSV of
+    # per-city counts is linked as ./data/cities.csv, which resolves inside the
+    # language directory on all twenty-three localized homepages and does not
+    # exist there.
+    t = re.sub(r'(?<=["\s,])(?:\./|/)(assets|data|locales|pictures)/',
                lambda m: f'{prefix}{m.group(1)}/', t)
 
     # The legal pages exist only at the site root — they are not translated —
