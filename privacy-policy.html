@@ -61,8 +61,10 @@
   <li><strong>Map and preference data:</strong> saved places, favourites, preferences and app interaction data needed
       for core functionality.</li>
   <li><strong>User-generated content:</strong> custom places (private or public), descriptions, uploaded images,
-      Wi-Fi details of a place, visibility depending on your sharing settings. Image metadata (EXIF, including
-      location) is removed when an image is uploaded.</li>
+      Wi-Fi details of a place (its network name and, if you add it, its password), visibility depending on your
+      sharing settings. Image metadata (EXIF, including location) is removed when an image is uploaded. If a venue
+      asks us not to show its Wi-Fi password, we delete the stored password and do not accept a new one for that
+      place.</li>
   <li><strong>Reports and proposed changes to places:</strong> what you reported or proposed, an optional note
       to us, the time, your distance from the place, and what became of the report (see section 3/B).</li>
   <li><strong>Trips and sharing:</strong> itineraries, their stops and notes, the members of a shared trip and their
@@ -128,9 +130,9 @@
   <li><strong>No device fingerprinting.</strong> We do not derive an identifier from your device's technical
       characteristics (such as the user-agent, language or screen), and a guest session is not linked to your
       IP address or user-agent.</li>
-  <li><strong>Content made in guest mode stays on the device.</strong> Places and travel plans created without an
-      account are kept in the App, not on our servers. If you later create an account, they are transferred to it;
-      until then, losing or replacing the device means losing them.</li>
+  <li><strong>Content made in guest mode stays on the device.</strong> Places, travel plans and the photos added to
+      them without an account are kept in the App, not on our servers. If you later create an account, they are
+      transferred to it; until then, losing or replacing the device means losing them.</li>
   <li><strong>Traffic is counted, for security only.</strong> Because a large part of our map can be read without
       an account, we record per guest session how many requests it made in a given hour, from which
       <em>network</em> (the address truncated to its network prefix — IPv4 /24, IPv6 /48 — never the full IP
@@ -153,11 +155,15 @@
   been reviewed.
 </p>
 <ul>
-  <li><strong>What goes to OSM:</strong> only place data — for example name, type, opening hours, fees, accessibility,
-      and a place's description as approved by the reviewer. For a report made near the place, the day of the report
-      is recorded as the day the place was checked on site.</li>
+  <li><strong>What goes to OSM:</strong> only place data — for example type, opening hours, fees, accessibility,
+      whether the place has a toilet or Wi-Fi, the Wi-Fi network's name, and a place's description as approved by the
+      reviewer. A new name, a closure, and a report that a place is somewhere else (with the position you marked for
+      the place) are left to local mappers as a public note rather than written directly. For a report made within
+      about 2 km of the place, the day of the report is recorded as the day the place was checked on site.</li>
   <li><strong>What never goes to OSM:</strong> your name, account, email address, photos, Wi-Fi passwords, the note
-      you wrote to us, or your location.</li>
+      you wrote to us, your own location, and the town, region and country we fill in for our own use. A place
+      marked as a home never goes to OSM in any form — neither as data nor as a note — even if you share it with
+      other users of the App.</li>
   <li><strong>What we keep:</strong> the report itself, its review and its outcome, linked to your account while the
       account exists. OSM data is published under the Open Database License and cannot be withdrawn from OSM
       once published; see section 4.4 of the Terms of Service.</li>
@@ -267,6 +273,25 @@
   the European Union. Uploaded files are kept in object storage and referenced via stored URLs.
 </p>
 
+<h2>8/A. Data Kept on Your Device</h2>
+<p>
+  Some data is kept in the App on your device, so that it keeps working without a connection:
+</p>
+<ul>
+  <li><strong>Waiting for a connection:</strong> places you add, changes to your own places, and the photos that go
+      with them (and with your trips) while there is no connection. They are sent to us when the connection returns,
+      when the App starts, or when you sign in, and removed from the device once they have arrived. If our server
+      refuses one of them three times, the App tells you and removes it.</li>
+  <li><strong>Copies for offline use:</strong> the list of your own places, your trips, and copies of photos you have
+      already seen (up to about 200 MB; the oldest go first). Your system may also clear the photo copies to free
+      space. The copy of your place list is removed when you sign out.</li>
+  <li><strong>After signing out:</strong> anything still waiting stays on the device, separate from every other
+      account, and is sent when the same account signs in again. It is never sent as anyone else.</li>
+</ul>
+<p>
+  Deleting the App, or clearing its data, removes all of this from the device.
+</p>
+
 <h2>9. Recipients and Transfers Outside the EEA</h2>
 <p>
   We do not sell personal data. We share it only to the extent needed, with the following recipients, who act as
@@ -282,7 +307,9 @@
       address, device and app information and the map area being viewed.</li>
   <li><strong>OpenStreetMap Foundation</strong> – receives place data only, never personal data (section 3/B).</li>
   <li><strong>Other members of a trip</strong> you share, and the people you invite, see what the sharing settings
-      allow; <strong>other users</strong> see content you publish (public places, descriptions, images, Wi-Fi details).</li>
+      allow; <strong>other users</strong> see content you publish (public places, descriptions, images, Wi-Fi details).
+      This includes a place you make public as your home: its position and its Wi-Fi details are shown to every user
+      of the App.</li>
   <li><strong>Authorities</strong>, where the law requires it.</li>
 </ul>
 <p>
@@ -302,6 +329,8 @@
   <li><strong>Hourly guest request counts:</strong> deleted after 30 days.</li>
   <li><strong>Content created in guest mode:</strong> held on your device, for as long as you keep the App
       installed; deleting the App deletes it.</li>
+  <li><strong>Data kept on your device for offline use:</strong> until it has been sent to us, or until you delete
+      the App (section 8/A).</li>
   <li><strong>Server warnings and errors, refused requests:</strong> 30 days (section 7).</li>
   <li><strong>Consent records:</strong> kept after account deletion, without any other data about you, for as long
       as we may need to prove that consent was given (in general, the 5-year limitation period).</li>
