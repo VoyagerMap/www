@@ -14,7 +14,7 @@
 
 <h1>Privacy Policy</h1>
 
-<p><strong>Effective date:</strong> September 24, 2026</p>
+<p><strong>Effective date:</strong> October 12, 2026</p>
 
 <p>
   This Privacy Policy describes how the <strong>Voyager Map</strong> mobile application (the “App”)
@@ -75,7 +75,7 @@
       session made per hour together with a truncated network prefix, the platform and the app version. See section 3/A.</li>
   <li><strong>Feedback and bug reports:</strong> submitted feedback and diagnostic information.</li>
   <li><strong>Analytics and technical data (with consent):</strong> in-app events, device and app data, crash reports,
-      performance data, SDK-generated identifiers.</li>
+      performance data, SDK-generated identifiers, and masked screen recordings (section 5/A).</li>
   <li><strong>Server and security data:</strong> IP address, user-agent, request time and error information
       (see section 7).</li>
 </ul>
@@ -108,8 +108,8 @@
   <li><strong>Preventing abuse, automated bulk extraction and excessive use of our services</strong>
       – legitimate interest</li>
   <li><strong>Billing and legal compliance</strong> – legal obligation</li>
-  <li><strong>Product analytics, crash and performance reporting in the App</strong> (PostHog and Firebase, see
-      section 5) – consent</li>
+  <li><strong>Product analytics, crash and performance reporting and masked screen recordings in the App</strong>
+      (PostHog and Firebase, see section 5) – consent</li>
   <li><strong>Advertising and marketing measurement</strong> – consent, where required</li>
 </ul>
 <p>
@@ -203,20 +203,45 @@
 
 <h2>5. Analytics, Crash Reporting and Product Tools in the App</h2>
 <p>
-  The App uses <strong>PostHog</strong> (product analytics, feature flags, surveys, and limited session replay where
-  enabled) and Google <strong>Firebase</strong> (Analytics, Crashlytics crash reports, Performance Monitoring and
-  In-App Messaging) to understand how the App is used and to fix errors.
+  The App uses <strong>PostHog</strong> (product analytics, feature flags, surveys and masked screen recordings,
+  see section 5/A) and Google <strong>Firebase</strong> (Analytics, Crashlytics crash reports, Performance Monitoring
+  and In-App Messaging) to understand how the App is used and to fix errors.
 </p>
 <p>
   <strong>These tools run only with your consent.</strong> Until you grant it, they collect and send nothing
   &mdash; the App works exactly the same either way. You can withdraw consent at any time in the
-  App&rsquo;s settings, which stops any further collection.
+  App&rsquo;s settings (<em>Usage &amp; Performance Analytics</em>), which stops any further collection, including
+  screen recordings.
 </p>
 <p>
-  PostHog data is processed on PostHog&rsquo;s <strong>EU</strong> infrastructure. Where session replay is enabled,
-  masking is applied to reduce the likelihood of capturing text entered in the App or other sensitive content.
+  PostHog data is processed on PostHog&rsquo;s <strong>EU</strong> infrastructure.
   Firebase is provided by Google Ireland Limited; see section 9 for transfers outside the EEA.
 </p>
+<p>
+  If you allow notifications, the App receives a push token from Firebase Cloud Messaging so that we can send you
+  notifications. You can turn notifications off in your device settings at any time.
+</p>
+
+<h3>5/A. Screen recordings (session replay)</h3>
+<p>
+  With your consent, the App records how it is used, as a series of screenshots of the App&rsquo;s own screens
+  together with your touches, scrolling and the names of the screens you visit. <strong>Text, images and maps are
+  covered in the recording</strong>, so what you read or type &mdash; including place names, descriptions and what
+  you enter into forms &mdash; and the map itself are not visible in it. What remains is the layout of the screens
+  and where you tapped. The masking is applied automatically, on your device, before anything is sent.
+</p>
+<ul>
+  <li><strong>Purpose:</strong> to find usability problems and errors in the App.</li>
+  <li><strong>Legal basis:</strong> your consent; the recordings are not made without it.</li>
+  <li><strong>Linked to:</strong> the same identifiers as the other analytics data &mdash; an SDK-generated
+      identifier and, when you are signed in, your user ID.</li>
+  <li><strong>Storage:</strong> PostHog, EU infrastructure; recordings are deleted after <strong>30 days</strong>
+      (section 10).</li>
+  <li><strong>Withdrawal:</strong> there is no separate switch for recordings. Turning off
+      <em>Usage &amp; Performance Analytics</em> in the App&rsquo;s settings stops them at once, together with the
+      other tools in this section. You may also ask us to delete recordings of you before the 30 days have passed
+      (section 11).</li>
+</ul>
 <p>
   If you allow notifications, the App receives a push token from Firebase Cloud Messaging so that we can send you
   notifications. You can turn notifications off in your device settings at any time.
@@ -314,7 +339,7 @@
   <li><strong>Google</strong> – Sign in with Google; Firebase (section 5); sending our emails through Google's mail
       service; Google Analytics on the website (section 6/A).</li>
   <li><strong>Apple</strong> – Sign in with Apple.</li>
-  <li><strong>PostHog</strong> – product analytics, processed in the EU (section 5).</li>
+  <li><strong>PostHog</strong> – product analytics and masked screen recordings, processed in the EU (section 5).</li>
   <li><strong>Mapbox, Inc.</strong> (United States) – map display. To deliver map tiles, Mapbox receives your IP
       address, device and app information and the map area being viewed.</li>
   <li><strong>OpenStreetMap Foundation</strong> – receives place data only, never personal data (section 3/B).</li>
@@ -344,6 +369,7 @@
   <li><strong>Data kept on your device for offline use:</strong> until it has been sent to us, or until you delete
       the App (section 8/A).</li>
   <li><strong>Server warnings and errors, refused requests:</strong> 30 days (section 7).</li>
+  <li><strong>Screen recordings in the App (with consent):</strong> 30 days, then deleted (section 5/A).</li>
   <li><strong>Consent records:</strong> kept after account deletion, without any other data about you, for as long
       as we may need to prove that consent was given (in general, the 5-year limitation period).</li>
   <li><strong>Do-not-email list:</strong> for as long as we send email (section 4).</li>
