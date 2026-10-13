@@ -53,7 +53,7 @@ window.voyagerLocales["nb"] = {
       "heroAria": "Hovedbilde for offentlige toaletter",
       "eyebrow": "Kart med nyttige reisefunksjoner",
       "heroTitle": "Finn offentlige toaletter hvor som helst",
-      "heroLead": "Når du trenger et toalett raskt, er vanlige kartresultater ofte ufullstendige, utdaterte eller begravd under irrelevante steder.",
+      "heroLead": "Finn offentlige toaletter i nærheten på byturen eller bilturen. Oppdag praktiske stopp med Voyager Maps, gratisappen for iOS og Android.",
       "previewAlt": "Forhåndsvisning av offentlige toalettsteder",
       "previewNote": "Du ser bare en begrenset forhåndsvisning",
       "problemAria": "Problemer med å finne offentlige toaletter",

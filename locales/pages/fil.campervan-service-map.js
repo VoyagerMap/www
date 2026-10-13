@@ -53,7 +53,7 @@ window.voyagerLocales["fil"] = {
       },
       "heroAria": "Pangunahing seksyon ng pahina ng mga service point para sa campervan",
       "heroTitle": "Tubig, mga shower at campsite para sa iyong camper",
-      "heroLead": "Perpekto ang tanawin at walang laman ang tangke ng tubig. Ang mga service point, refill tap, at shower ay nakakalat sa iba't ibang forum at sa mga listahang para lamang sa mga miyembro, kaya ang praktikal na bahagi ng pamumuhay sa van ay nangangailangan ng mas maraming paghahanap kaysa sa nararapat.",
+      "heroLead": "Ihanda ang susunod mong paglalakbay sa van nang mas komportable. Maghanap ng inuming tubig, shower, campsite at laundromat malapit sa mga hintuan gamit ang Voyager Maps, ang libreng app para sa iOS at Android.",
       "previewAlt": "Paunang pagtingin sa mga kampingan at mga service point para sa mga campervan",
       "previewNote": "Nakikita mo lamang ang limitadong paunang sulyap",
       "problemAria": "Problema sa paghahanap ng mga punto ng serbisyo para sa campervan",

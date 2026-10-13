@@ -53,7 +53,7 @@ window.voyagerLocales["is"] = {
       },
       "heroAria": "Aðalmynd síðunnar um almenningssalerni",
       "heroTitle": "Finndu almenningssalerni hvar sem er",
-      "heroLead": "Þegar þú þarft fljótt að finna salerni eru hefðbundnar kortaleitir oft ófullkomnar, úreltar eða grafnar undir óviðkomandi stöðum.",
+      "heroLead": "Finndu almenningssalerni nálægt þér á borgargöngunni eða í bílferðinni. Uppgötvaðu gagnlega viðkomustaði með Voyager Maps, ókeypis appinu fyrir iOS og Android.",
       "previewAlt": "Forskoðun á staðsetningum almenningssalerna",
       "previewNote": "Þú sérð aðeins takmarkaða forskoðun",
       "problemAria": "Vandamál við að finna almenningssalerni",

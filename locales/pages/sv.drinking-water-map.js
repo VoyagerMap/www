@@ -53,7 +53,7 @@ window.voyagerLocales["sv"] = {
       },
       "heroAria": "Huvudbild för dricksvatten",
       "heroTitle": "Hitta gratis dricksvatten var som helst",
-      "heroLead": "Att få slut på vatten mitt under resan är frustrerande nog – men när påfyllningsställena är dolda, inaktuella eller helt enkelt saknas på kartan är det ännu värre.",
+      "heroLead": "Fyll din flaska och fortsätt upptäcka. Sök efter gratis dricksvatten, offentliga kranar och dricksfontäner nära dig med Voyager Maps, gratisappen för iOS och Android.",
       "previewAlt": "Förhandsvisning av platser med dricksvatten",
       "previewNote": "Du ser endast en begränsad förhandsvisning",
       "problemAria": "Svårt att hitta gratis dricksvatten",

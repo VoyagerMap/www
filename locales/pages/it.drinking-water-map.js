@@ -53,7 +53,7 @@ window.voyagerLocales["it"] = {
       },
       "heroAria": "Immagine principale della pagina dedicata all’acqua potabile",
       "heroTitle": "Trova acqua potabile gratis ovunque",
-      "heroLead": "Rimanere senza acqua a metà viaggio è già abbastanza frustrante, ma quando i punti di rifornimento sono nascosti, non aggiornati o semplicemente non compaiono sulla mappa, è ancora peggio.",
+      "heroLead": "Riempi la borraccia e continua a esplorare. Cerca acqua potabile gratuita, rubinetti pubblici e fontanelle vicino a te con Voyager Maps, l’app gratuita per iOS e Android.",
       "previewAlt": "Anteprima dei punti di rifornimento di acqua potabile",
       "previewNote": "Stai visualizzando solo un’anteprima limitata",
       "problemAria": "Hai difficoltà a trovare acqua potabile gratuita?",

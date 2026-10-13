@@ -53,7 +53,7 @@ window.voyagerLocales["zh"] = {
       },
       "heroAria": "公共厕所页面首屏区域",
       "heroTitle": "随时随地查找公共厕所",
-      "heroLead": "当您急需寻找洗手间时，普通地图搜索结果往往不完整、过时，或者被无关地点淹没。",
+      "heroLead": "从城市漫步到自驾游停靠，轻松查找附近的公共厕所。用适用于iOS和Android的免费应用Voyager Maps，探索方便停靠的地点。",
       "previewAlt": "公共厕所位置预览",
       "previewNote": "您目前仅能查看部分预览内容",
       "problemAria": "查找公共厕所时的难题",

@@ -53,7 +53,7 @@ window.voyagerLocales["es"] = {
       },
       "heroAria": "Imagen principal de la página para mochileros y viajeros en solitario",
       "heroTitle": "El mapa práctico para mochileros",
-      "heroLead": "Una ciudad nueva, una mochila pesada y seis horas hasta el check-in. En algún sitio al que puedas llegar andando hay una ducha, una lavandería, un grifo de agua potable y Wi-Fi gratis, pero nada de eso aparece en el mapa que tienes en la mano.",
+      "heroLead": "Viaja ligero y encuentra lo que necesitas en tu próxima parada: duchas, lavanderías, puntos de agua potable y Wi-Fi gratis. Descarga Voyager Maps gratis para iOS y Android.",
       "previewAlt": "Vista previa de duchas, lavanderías y puntos de agua para mochileros",
       "previewNote": "Solo estás viendo una vista previa limitada",
       "problemAria": "Los problemas a los que se enfrentan los viajeros en solitario a la hora de encontrar servicios prácticos",

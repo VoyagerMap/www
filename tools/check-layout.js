@@ -20,7 +20,8 @@ const VIEWPORTS = [
 const LANGS = ["en", "de", "fr", "es", "it", "pt", "nl", "pl", "hu", "ja", "zh", "ko", "hi", "ru",
   "ar", "id", "vi", "tr", "fa", "fil", "da", "sv", "nb", "is"];
 const FILES = ["", "parking-map.html", "public-toilet-map.html",
-               "drinking-water-map.html", "free-shower-map.html"];
+               "drinking-water-map.html", "free-shower-map.html",
+               "campervan-service-map.html", "backpacker-map.html"];
 // City pages exist in English and one other language each, so they cannot be
 // expanded from the language list like the rest. These are the awkward ones by
 // script and word length rather than a sample: the longest headline (Rio de

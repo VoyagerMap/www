@@ -53,7 +53,7 @@ window.voyagerLocales["zh"] = {
       },
       "heroAria": "背包客与独自旅行者页面首屏区域",
       "heroTitle": "背包客的实用地图",
-      "heroLead": "初到新城市，背包沉重，距离办理入住还有六小时。步行范围内就有淋浴间、自助洗衣店、饮用水龙头和免费 Wi-Fi——但您手中的地图一个也没标出来。",
+      "heroLead": "轻装出行，在下一站附近找到日常所需：淋浴设施、洗衣店、饮用水补给点和免费Wi-Fi。免费下载适用于iOS和Android的Voyager Maps。",
       "previewAlt": "面向背包客的淋浴、洗衣及供水点预览",
       "previewNote": "您目前仅能查看部分预览内容",
       "problemAria": "独自旅行者在寻找实用设施时面临的难题",

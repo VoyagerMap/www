@@ -13,13 +13,19 @@
   const LANGUAGE_STORAGE_KEY = "voyager_docs_language_v1";
   let gaInitialized = false;
   let gaScriptLoading = null;
+  let analyticsInitialization = null;
+  let consentRevision = 0;
+  let sectionObserver = null;
+  let imageObserver = null;
   let consentModeApplied = true;
   let currentLanguage = "en";
   let hasTrackedEngagedRead = false;
+  let engagedReadTimer = null;
   const trackedScrollBuckets = new Set();
   const viewedSections = new Set();
   const viewedImages = new Set();
-  const pageStartTime = Date.now();
+  let activeReadMs = 0;
+  let activeReadStartedAt = null;
 
   const ALL_LANGUAGES = window.voyagerLanguages || [{ code: "en", label: "English", flag: "" }];
   const flagSvgs = Object.fromEntries(ALL_LANGUAGES.map((l) => [l.code, l.flag]));
@@ -64,16 +70,20 @@
 
   function loadGtagScript(measurementId) {
     if (!isAnalyticsEnabled || !measurementId) return Promise.resolve(false);
-    if (document.querySelector('script[data-ga-loader="true"]')) return Promise.resolve(true);
     if (gaScriptLoading) return gaScriptLoading;
+    if (document.querySelector('script[data-ga-loader="true"][data-ga-loaded="true"]')) return Promise.resolve(true);
 
     gaScriptLoading = new Promise((resolve, reject) => {
       const script = document.createElement("script");
       script.async = true;
       script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
       script.dataset.gaLoader = "true";
-      script.onload = () => resolve(true);
+      script.onload = () => {
+        script.dataset.gaLoaded = "true";
+        resolve(true);
+      };
       script.onerror = () => {
+        script.remove();
         gaScriptLoading = null;
         reject(new Error("Failed to load Google Analytics"));
       };
@@ -166,37 +176,50 @@
     return !!(consent && consent.statistics);
   }
 
-  async function initAnalytics() {
-    if (!isAnalyticsEnabled || gaInitialized || !hasStatisticsConsent()) return;
-
-    ensureDataLayer();
-
-    try {
-      await loadGtagScript(GA_MEASUREMENT_ID);
-    } catch {
-      return;
+  function initAnalytics() {
+    if (!isAnalyticsEnabled || !hasStatisticsConsent()) return Promise.resolve(false);
+    if (gaInitialized) return Promise.resolve(true);
+    // The consent event and button handler can both request initialization.
+    // Share the pending work, including when consent changes during loading.
+    if (analyticsInitialization) {
+      return analyticsInitialization.then(() => initAnalytics());
     }
 
-    applyConsentMode();
+    const revision = consentRevision;
+    ensureDataLayer();
+    analyticsInitialization = (async () => {
+      try {
+        await loadGtagScript(GA_MEASUREMENT_ID);
+      } catch {
+        return false;
+      }
+      if (revision !== consentRevision || !hasStatisticsConsent()) return false;
 
-    window.gtag("js", new Date());
-    window.gtag("config", GA_MEASUREMENT_ID, {
-      send_page_view: false,
-      anonymize_ip: true,
-      debug_mode: /localhost|127\.0\.0\.1/.test(window.location.hostname)
+      applyConsentMode();
+      window.gtag("js", new Date());
+      window.gtag("config", GA_MEASUREMENT_ID, {
+        send_page_view: false,
+        anonymize_ip: true,
+        debug_mode: /localhost|127\.0\.0\.1/.test(window.location.hostname)
+      });
+      window.gtag("event", "page_view", {
+        page_title: document.title,
+        page_location: window.location.href,
+        page_path: window.location.pathname + window.location.search
+      });
+
+      gaInitialized = true;
+      trackEvent("landing_view", { engagement_point: "initial_load" });
+      refreshVisibleMeasurements();
+      return true;
+    })().finally(() => {
+      analyticsInitialization = null;
     });
-
-    window.gtag("event", "page_view", {
-      page_title: document.title,
-      page_location: window.location.href,
-      page_path: window.location.pathname + window.location.search
-    });
-
-    gaInitialized = true;
+    return analyticsInitialization;
   }
 
   function trackEvent(eventName, params = {}) {
-    if (!window.gtag || !isAnalyticsEnabled || !gaInitialized || !hasStatisticsConsent()) return;
+    if (!window.gtag || !isAnalyticsEnabled || !gaInitialized || !hasStatisticsConsent()) return false;
 
     window.gtag("event", `${eventName}${TRACK_EVENT_SUFFIX}`, {
       page_type: pageConfig.pageType || "landing_page",
@@ -204,6 +227,7 @@
       landing_topic: pageConfig.topic || "general",
       ...params
     });
+    return true;
   }
 
   function trackCtaClick(anchor) {
@@ -248,26 +272,29 @@
     const currentPercent = getScrollPercent();
     [25, 50, 75, 90].forEach((bucket) => {
       if (currentPercent >= bucket && !trackedScrollBuckets.has(bucket)) {
-        trackedScrollBuckets.add(bucket);
-        trackEvent("scroll_depth", {
+        if (trackEvent("scroll_depth", {
           scroll_percent_bucket: bucket
-        });
+        })) trackedScrollBuckets.add(bucket);
       }
     });
   }
 
   function maybeTrackEngagedRead() {
-    if (hasTrackedEngagedRead) return;
-    const secondsOnPage = Math.round((Date.now() - pageStartTime) / 1000);
+    if (hasTrackedEngagedRead || !gaInitialized || !hasStatisticsConsent() || document.hidden) return;
+    const secondsOnPage = Math.floor((activeReadMs +
+      (activeReadStartedAt === null ? 0 : Date.now() - activeReadStartedAt)) / 1000);
     const currentPercent = getScrollPercent();
 
     if (secondsOnPage >= 30 && currentPercent >= 50) {
-      hasTrackedEngagedRead = true;
-      trackEvent("engaged_read", {
+      hasTrackedEngagedRead = trackEvent("engaged_read", {
         seconds_on_page: secondsOnPage,
         scroll_percent_bucket: 50,
         engagement_tier: "high"
       });
+      if (hasTrackedEngagedRead && engagedReadTimer !== null) {
+        clearInterval(engagedReadTimer);
+        engagedReadTimer = null;
+      }
     }
   }
 
@@ -275,17 +302,17 @@
     const sections = document.querySelectorAll("[data-track-section]");
     if (!sections.length || typeof IntersectionObserver !== "function") return;
 
-    const sectionObserver = new IntersectionObserver(
+    sectionObserver?.disconnect();
+    sectionObserver = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (!entry.isIntersecting || entry.intersectionRatio < 0.45) return;
           const sectionId = entry.target.getAttribute("data-track-section");
           if (!sectionId || viewedSections.has(sectionId)) return;
 
-          viewedSections.add(sectionId);
-          trackEvent("section_view", {
+          if (trackEvent("section_view", {
             section_id: sectionId
-          });
+          })) viewedSections.add(sectionId);
         });
       },
       { threshold: [0.45] }
@@ -298,23 +325,39 @@
     const images = document.querySelectorAll("[data-track-image]");
     if (!images.length || typeof IntersectionObserver !== "function") return;
 
-    const imageObserver = new IntersectionObserver(
+    imageObserver?.disconnect();
+    imageObserver = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (!entry.isIntersecting || entry.intersectionRatio < 0.4) return;
           const imageName = entry.target.getAttribute("data-track-image");
           if (!imageName || viewedImages.has(imageName)) return;
 
-          viewedImages.add(imageName);
-          trackEvent("image_preview_view", {
+          if (trackEvent("image_preview_view", {
             image_name: imageName
-          });
+          })) viewedImages.add(imageName);
         });
       },
       { threshold: [0.4] }
     );
 
     images.forEach((image) => imageObserver.observe(image));
+  }
+
+  function syncEngagementClock() {
+    const now = Date.now();
+    if (activeReadStartedAt !== null) activeReadMs += now - activeReadStartedAt;
+    activeReadStartedAt = gaInitialized && hasStatisticsConsent() && !document.hidden ? now : null;
+    if (!hasStatisticsConsent()) activeReadMs = 0;
+  }
+
+  function refreshVisibleMeasurements() {
+    if (!gaInitialized || !hasStatisticsConsent()) return;
+    syncEngagementClock();
+    // Observe what is visible now; never replay pre-consent interactions.
+    setupSectionObserver();
+    setupImageObserver();
+    trackScrollDepth();
   }
 
   /**
@@ -368,7 +411,9 @@
           );
         } else {
           if (url.searchParams.has("ct")) return;
-          url.searchParams.set("ct", `${source}_${campaign}`.slice(0, 40));
+          // Apple documents a maximum of 30 characters for campaign tokens:
+          // https://developer.apple.com/help/app-store-connect-analytics/acquisition/campaign-links/
+          url.searchParams.set("ct", `${source}_${campaign}`.slice(0, 30));
           url.searchParams.set("mt", "8");
           if (APPLE_PROVIDER_TOKEN) url.searchParams.set("pt", APPLE_PROVIDER_TOKEN);
         }
@@ -425,7 +470,8 @@
     };
 
     window.addEventListener("scroll", onScroll, { passive: true });
-    setTimeout(maybeTrackEngagedRead, 30000);
+    document.addEventListener("visibilitychange", syncEngagementClock);
+    engagedReadTimer = setInterval(maybeTrackEngagedRead, 1000);
     onScroll();
   }
 
@@ -445,7 +491,9 @@
     if (!selected) return;
 
     document.documentElement.lang = selected.htmlLang || lang;
-    document.title = selected.pageTitle || document.title;
+    // Generated pages already carry the localized title and optional brand
+    // suffix. Preserve it on initial render instead of dropping that suffix.
+    if (source !== "init" && selected.pageTitle) document.title = selected.pageTitle;
 
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription && selected.meta?.description) {
@@ -540,15 +588,15 @@
     const hadStatisticsConsent = hasStatisticsConsent();
     const consent = writeConsentState(enabled);
     updateConsentMode(consent.statistics);
-    if (!enabled) gaInitialized = false;
     toggleConsentBanner(false);
     if (consent.statistics) {
-      initAnalytics();
-      setTimeout(() => {
+      const revision = consentRevision;
+      initAnalytics().then((ready) => {
+        if (!ready || revision !== consentRevision) return;
         trackEvent("consent_update", {
           statistics: "granted"
         });
-      }, 0);
+      });
     } else if (hadStatisticsConsent) {
       trackEvent("consent_update", {
         statistics: "denied"
@@ -608,7 +656,13 @@
     if (consentSave) consentSave.addEventListener("click", () => setStatisticsConsent(!!consentStatisticsToggle?.checked));
 
     window.addEventListener(CONSENT_CHANGE_EVENT, () => {
-      if (hasStatisticsConsent()) initAnalytics();
+      consentRevision += 1;
+      syncEngagementClock();
+      if (hasStatisticsConsent()) {
+        initAnalytics().then((ready) => {
+          if (ready) refreshVisibleMeasurements();
+        });
+      }
     });
   }
 
@@ -623,9 +677,6 @@
     applyLanguage(initialDocumentLanguage, "init");
     syncConsentUi();
     initAnalytics();
-    trackEvent("landing_view", {
-      engagement_point: "initial_load"
-    });
   }
 
   const DEMO_CENTER = [41.9028, 12.4964];

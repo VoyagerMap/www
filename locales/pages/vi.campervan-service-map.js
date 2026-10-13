@@ -53,7 +53,7 @@ window.voyagerLocales["vi"] = {
       },
       "heroAria": "Hình ảnh chính của trang điểm dịch vụ xe cắm trại",
       "heroTitle": "Nước, chỗ tắm và khu cắm trại cho xe của bạn",
-      "heroLead": "Khung cảnh thật hoàn hảo nhưng bình nước lại cạn. Các điểm dịch vụ, vòi lấy nước và chỗ tắm nằm rải rác trên diễn đàn và danh sách chỉ dành cho thành viên, nên những nhu cầu thiết thực của cuộc sống trên xe van tốn nhiều công tìm kiếm hơn mức cần thiết.",
+      "heroLead": "Chuẩn bị cho chuyến đi bằng xe van tiếp theo thật thoải mái. Tìm nước uống, chỗ tắm, khu cắm trại và tiệm giặt gần điểm dừng với Voyager Maps, ứng dụng miễn phí cho iOS và Android.",
       "previewAlt": "Xem trước các khu cắm trại và điểm dịch vụ dành cho xe cắm trại",
       "previewNote": "Bạn chỉ đang xem bản xem trước giới hạn",
       "problemAria": "Khó khăn khi tìm các điểm dịch vụ dành cho xe cắm trại",

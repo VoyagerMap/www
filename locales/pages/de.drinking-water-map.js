@@ -53,7 +53,7 @@ window.voyagerLocales["de"] = {
       },
       "heroAria": "Hauptbereich der Seite „Trinkwasser“",
       "heroTitle": "Finde überall kostenloses Trinkwasser",
-      "heroLead": "Wenn dir mitten auf der Reise das Wasser ausgeht, ist das schon frustrierend genug – aber wenn die Nachfüllstellen versteckt, veraltet oder einfach gar nicht auf deiner Karte verzeichnet sind, ist es noch schlimmer.",
+      "heroLead": "Füll deine Flasche auf und entdecke weiter. Suche kostenloses Trinkwasser, öffentliche Wasserhähne und Trinkbrunnen in deiner Nähe mit Voyager Maps, der kostenlosen App für iOS und Android.",
       "previewAlt": "Vorschau auf Trinkwasserstellen",
       "previewNote": "Du siehst hier nur eine begrenzte Vorschau",
       "problemAria": "Probleme bei der Suche nach kostenlosem Trinkwasser",

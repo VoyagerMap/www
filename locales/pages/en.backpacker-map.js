@@ -53,7 +53,7 @@ window.voyagerLocales["en"] = {
       },
       "heroAria": "Backpacker and solo travel landing hero",
       "heroTitle": "The practical map for backpackers",
-      "heroLead": "New city, heavy pack, six hours until check-in. Somewhere within walking distance there is a shower, a laundrette, a drinking tap and free Wi-Fi — none of which are on the map in your hand.",
+      "heroLead": "Travel light and find your everyday essentials: showers, laundry, drinking water refill points and free Wi-Fi near your next stop. Download Voyager Maps for free on iOS and Android.",
       "previewAlt": "Preview of showers, laundry and water points for backpackers",
       "previewNote": "You are only seeing a limited preview",
       "problemAria": "Problems solo travellers face finding practical facilities",

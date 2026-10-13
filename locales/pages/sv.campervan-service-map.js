@@ -53,7 +53,7 @@ window.voyagerLocales["sv"] = {
       },
       "heroAria": "Huvudbild för servicepunkter för husbilar",
       "heroTitle": "Vatten, duschar och campingplatser för din husbil",
-      "heroLead": "Utsikten är perfekt, men vattentanken är tom. Serviceplatser, påfyllningskranar och duschar är utspridda över olika forum och medlemslistor, vilket gör att den praktiska sidan av livet i husbilen kräver mycket mer letande än vad den borde.",
+      "heroLead": "Gör dig redo för nästa äventyr med husbilen. Hitta dricksvatten, duschar, campingplatser och tvättomater nära dina stopp med Voyager Maps, gratisappen för iOS och Android.",
       "previewAlt": "Förhandsvisning av campingplatser och serviceplatser för husbilar",
       "previewNote": "Du ser endast en begränsad förhandsvisning",
       "problemAria": "Problem med att hitta serviceställen för husbilar",

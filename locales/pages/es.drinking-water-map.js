@@ -53,7 +53,7 @@ window.voyagerLocales["es"] = {
       },
       "heroAria": "Imagen principal de la página de agua potable",
       "heroTitle": "Encuentra agua potable gratis en cualquier sitio",
-      "heroLead": "Quedarte sin agua en mitad del viaje ya es bastante frustrante, pero cuando los puntos de recarga están ocultos, desactualizados o simplemente no aparecen en tu mapa, es aún peor.",
+      "heroLead": "Rellena tu botella y sigue explorando. Busca agua potable gratis, grifos públicos y fuentes cerca de ti con Voyager Maps, la app gratuita para iOS y Android.",
       "previewAlt": "Vista previa de los puntos de agua potable",
       "previewNote": "Solo estás viendo una vista previa limitada",
       "problemAria": "¿Te cuesta encontrar agua potable gratis?",

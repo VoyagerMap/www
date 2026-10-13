@@ -53,7 +53,7 @@ window.voyagerLocales["nl"] = {
       },
       "heroAria": "Hoofdafbeelding van de pagina over openbare toiletten",
       "heroTitle": "Vind overal openbare toiletten",
-      "heroLead": "Als je snel een toilet nodig hebt, zijn de resultaten op gewone kaarten vaak onvolledig, verouderd of verstopt tussen irrelevante plekken.",
+      "heroLead": "Vind openbare toiletten in de buurt, tijdens een stadswandeling of roadtrip. Ontdek handige tussenstops met Voyager Maps, de gratis app voor iOS en Android.",
       "previewAlt": "Voorbeeld van de locaties van openbare toiletten",
       "previewNote": "Je ziet nu slechts een beperkt voorproefje",
       "problemAria": "Moeite met het vinden van openbare toiletten?",

@@ -53,7 +53,7 @@ window.voyagerLocales["ko"] = {
       },
       "heroAria": "공중화장실 페이지 메인 이미지",
       "heroTitle": "어디서나 공중화장실을 찾아보세요",
-      "heroLead": "급하게 화장실이 필요할 때, 일반 지도 검색 결과는 불완전하거나 오래된 경우가 많고 관련 없는 장소들 사이에 묻히기도 합니다.",
+      "heroLead": "도시 산책부터 자동차 여행 중 정차까지, 주변 공중화장실을 찾아보세요. iOS와 Android용 무료 앱 Voyager Maps로 들를 수 있는 장소를 살펴보세요.",
       "previewAlt": "공중화장실 위치 미리 보기",
       "previewNote": "현재는 제한된 미리보기만 확인하실 수 있습니다.",
       "problemAria": "공중화장실을 찾기 힘든 문제",

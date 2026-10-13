@@ -52,7 +52,7 @@ window.voyagerLocales["pl"] = {
       },
       "heroAria": "Sekcja główna strony o punktach serwisowych dla kamperów",
       "heroTitle": "Woda, prysznice i pola kempingowe dla twojego kampera",
-      "heroLead": "Widok jest idealny, a zbiornik na wodę pusty. Punkty serwisowe, krany do napełniania i prysznice są rozrzucone po różnych forach i listach tylko dla członków, więc praktyczna strona życia w kamperze wymaga o wiele więcej szukania, niż powinno.",
+      "heroLead": "Przygotuj kolejną przygodę w kamperze. Znajdź wodę pitną, prysznice, kempingi i pralnie w pobliżu swoich postojów z Voyager Maps, darmową aplikacją na iOS i Androida.",
       "previewAlt": "Podgląd kempingów i punktów serwisowych dla kamperów",
       "previewNote": "Widzisz tylko ograniczony podgląd",
       "problemAria": "Problemy ze znalezieniem punktów serwisowych dla kamperów",

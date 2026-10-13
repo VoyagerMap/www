@@ -53,7 +53,7 @@ window.voyagerLocales["nb"] = {
       "heroAria": "Hovedbilde for servicepunkter for bobiler",
       "eyebrow": "Kart med nyttige reiseopplysninger",
       "heroTitle": "Vann, dusjer og campingplasser for bobilen din",
-      "heroLead": "Utsikten er perfekt, men vanntanken er tom. Servicepunkter, påfyllingskraner og dusjer er spredt utover ulike fora og lukkede medlemslister, så den praktiske siden av livet i bobilen krever langt mer leting enn den burde.",
+      "heroLead": "Gjør deg klar for neste eventyr med bobilen. Finn drikkevann, dusjer, campingplasser og vaskerier nær stoppene dine med Voyager Maps, gratisappen for iOS og Android.",
       "previewAlt": "Forhåndsvisning av campingplasser og servicepunkter for bobiler",
       "previewNote": "Du ser bare en begrenset forhåndsvisning",
       "problemAria": "Problemer med å finne servicepunkter for bobiler",

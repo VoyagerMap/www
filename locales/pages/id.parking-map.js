@@ -53,7 +53,7 @@ window.voyagerLocales["id"] = {
       },
       "heroAria": "Gambar utama halaman parkir",
       "heroTitle": "Temukan tempat parkir di mana saja",
-      "heroLead": "Lebih dari 1,1 juta lokasi parkir di 237 negara — tempat parkir mobil, garasi bertingkat dan bawah tanah, serta tempat berhenti di pinggir jalan — dengan 810.000 di antaranya gratis.",
+      "heroLead": "Cari tempat parkir sebelum tiba. Jelajahi lebih dari 1,1 juta lokasi parkir di Voyager Maps, termasuk 810.000 yang tercatat gratis. Aplikasinya gratis untuk iOS dan Android.",
       "previewAlt": "Tangkapan layar aplikasi Voyager Maps yang menampilkan lokasi parkir di seluruh pusat kota Paris",
       "previewNote": "Lokasi parkir di pusat kota Paris, ditampilkan dalam aplikasi Voyager Maps.",
       "problemAria": "Kesulitan mencari tempat parkir",

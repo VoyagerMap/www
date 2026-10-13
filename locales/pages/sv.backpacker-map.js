@@ -53,7 +53,7 @@ window.voyagerLocales["sv"] = {
       },
       "heroAria": "Huvudbild för backpackare och ensamresande",
       "heroTitle": "Den praktiska kartan för backpackare",
-      "heroLead": "Ny stad, tung packning, sex timmar kvar till incheckning. Någonstans inom gångavstånd finns en dusch, en självbetjäningstvätt, en dricksvattenkran och gratis Wi-Fi – men inget av detta finns på kartan du har i handen.",
+      "heroLead": "Res lätt och hitta det du behöver vid nästa stopp: duschar, tvättomater, dricksvatten och gratis Wi-Fi. Ladda ner Voyager Maps gratis för iOS och Android.",
       "previewAlt": "Förhandsvisning av duschar, tvättmöjligheter och vattenpunkter för backpackare",
       "previewNote": "Du ser endast en begränsad förhandsvisning",
       "problemAria": "Problem som ensamresande stöter på när de letar efter praktiska faciliteter",

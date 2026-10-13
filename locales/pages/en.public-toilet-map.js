@@ -53,7 +53,7 @@ window.voyagerLocales["en"] = {
       },
       "heroAria": "Public toilet landing hero",
       "heroTitle": "Find public toilets anywhere",
-      "heroLead": "When you need a restroom quickly, standard map results are often incomplete, outdated, or buried under irrelevant places.",
+      "heroLead": "Find public toilets and restrooms near you, from city walks to road trip stops. Explore useful locations with Voyager Maps, the free app for iOS and Android.",
       "previewAlt": "Preview of public toilet locations",
       "previewNote": "You are only seeing a limited preview",
       "problemAria": "Problems finding public toilets",

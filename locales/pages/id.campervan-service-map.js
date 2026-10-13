@@ -53,7 +53,7 @@ window.voyagerLocales["id"] = {
       },
       "heroAria": "Gambar utama halaman titik layanan campervan",
       "heroTitle": "Air, tempat mandi, dan lokasi perkemahan untuk kendaraan kemping Anda",
-      "heroLead": "Pemandangannya sempurna, tetapi tangki airnya kosong. Titik layanan, keran isi ulang, dan tempat mandi tersebar di berbagai forum dan daftar khusus anggota, sehingga kebutuhan praktis dalam perjalanan dengan van memerlukan pencarian jauh lebih lama daripada yang seharusnya.",
+      "heroLead": "Siapkan petualangan dengan van berikutnya dengan lebih nyaman. Cari air minum, tempat mandi, tempat berkemah, dan binatu di dekat persinggahanmu dengan Voyager Maps, aplikasi gratis untuk iOS dan Android.",
       "previewAlt": "Pratinjau lokasi perkemahan dan titik layanan untuk kendaraan kemping",
       "previewNote": "Anda hanya melihat pratinjau terbatas",
       "problemAria": "Kesulitan menemukan titik layanan untuk campervan",

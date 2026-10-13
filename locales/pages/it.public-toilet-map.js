@@ -53,7 +53,7 @@ window.voyagerLocales["it"] = {
       },
       "heroAria": "Immagine principale della pagina dedicata ai bagni pubblici",
       "heroTitle": "Trova bagni pubblici ovunque",
-      "heroLead": "Quando hai bisogno di un bagno in fretta, i risultati delle mappe standard sono spesso incompleti, obsoleti o nascosti tra luoghi irrilevanti.",
+      "heroLead": "Trova bagni pubblici vicino a te, durante una passeggiata in città o un viaggio on the road. Scopri le prossime soste con Voyager Maps, l’app gratuita per iOS e Android.",
       "previewAlt": "Anteprima delle posizioni dei bagni pubblici",
       "previewNote": "Stai visualizzando solo un’anteprima limitata",
       "problemAria": "Hai difficoltà a trovare i bagni pubblici?",

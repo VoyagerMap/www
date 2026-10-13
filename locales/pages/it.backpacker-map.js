@@ -53,7 +53,7 @@ window.voyagerLocales["it"] = {
       },
       "heroAria": "Sezione principale della pagina per chi viaggia zaino in spalla e in solitaria",
       "heroTitle": "La mappa pratica per i viaggiatori con lo zaino in spalla",
-      "heroLead": "Città nuova, zaino pesante, mancano sei ore al check-in. Da qualche parte, raggiungibile a piedi, c’è una doccia, una lavanderia a gettoni, un rubinetto con acqua potabile e il Wi-Fi gratuito — ma niente di tutto questo è segnato sulla mappa che hai in mano.",
+      "heroLead": "Viaggia leggero e trova l’essenziale alla prossima tappa: docce, lavanderie, punti di acqua potabile e Wi-Fi gratuito. Scarica Voyager Maps gratis per iOS e Android.",
       "previewAlt": "Anteprima delle docce, delle lavanderie e dei punti di rifornimento idrico per i viaggiatori con lo zaino in spalla",
       "previewNote": "Stai visualizzando solo un’anteprima limitata",
       "problemAria": "I problemi che chi viaggia da solo deve affrontare nella ricerca di servizi utili",

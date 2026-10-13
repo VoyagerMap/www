@@ -53,7 +53,7 @@ window.voyagerLocales["id"] = {
       },
       "heroAria": "Gambar utama halaman untuk backpacker dan pelancong solo",
       "heroTitle": "Peta praktis untuk para backpacker",
-      "heroLead": "Kota baru, ransel berat, enam jam lagi menuju waktu check-in. Di suatu tempat dalam jarak berjalan kaki ada tempat mandi, binatu, keran air minum, dan Wi-Fi gratis — tetapi tidak satu pun terlihat di peta yang Anda pegang.",
+      "heroLead": "Bepergian ringan dan temukan kebutuhan sehari-hari di dekat tujuan berikutnya: tempat mandi, binatu, titik isi ulang air minum, dan Wi-Fi gratis. Unduh Voyager Maps gratis untuk iOS dan Android.",
       "previewAlt": "Pratinjau tempat mandi, binatu, dan titik air untuk backpacker",
       "previewNote": "Anda hanya melihat pratinjau terbatas",
       "problemAria": "Masalah yang dihadapi wisatawan solo dalam mencari fasilitas praktis",

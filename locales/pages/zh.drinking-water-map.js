@@ -53,7 +53,7 @@ window.voyagerLocales["zh"] = {
       },
       "heroAria": "饮用水页面首屏区域",
       "heroTitle": "随时随地找到免费饮用水",
-      "heroLead": "旅途中突然没水已经够让人沮丧了——但如果补水点位置隐蔽、信息过时，或者地图上根本没有标注，情况就更糟了。",
+      "heroLead": "装满水瓶，继续探索。用适用于iOS和Android的免费应用Voyager Maps，寻找附近的免费饮用水、公共水龙头和饮水设施。",
       "previewAlt": "饮用水点预览",
       "previewNote": "您目前仅能查看部分预览内容",
       "problemAria": "查找免费饮用水时的难题",

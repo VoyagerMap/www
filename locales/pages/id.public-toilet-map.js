@@ -53,7 +53,7 @@ window.voyagerLocales["id"] = {
       },
       "heroAria": "Gambar utama halaman toilet umum",
       "heroTitle": "Temukan toilet umum di mana saja",
-      "heroLead": "Saat Anda membutuhkan toilet dengan cepat, hasil pencarian peta pada umumnya sering kali tidak lengkap, sudah ketinggalan zaman, atau tersembunyi di antara lokasi-lokasi yang tidak relevan.",
+      "heroLead": "Cari toilet umum di dekatmu saat menjelajahi kota atau singgah dalam perjalanan darat. Temukan lokasi yang berguna dengan Voyager Maps, aplikasi gratis untuk iOS dan Android.",
       "previewAlt": "Pratinjau lokasi toilet umum",
       "previewNote": "Anda hanya melihat pratinjau terbatas",
       "problemAria": "Kesulitan menemukan toilet umum",

@@ -53,7 +53,7 @@ window.voyagerLocales["da"] = {
       },
       "heroAria": "Hovedbillede for offentlige toiletter",
       "heroTitle": "Find offentlige toiletter overalt",
-      "heroLead": "Når du hurtigt har brug for et toilet, er resultaterne på almindelige kort ofte ufuldstændige, forældede eller begravet under irrelevante steder.",
+      "heroLead": "Find offentlige toiletter i nærheden på gåturen i byen eller på bilturen. Opdag praktiske stop med Voyager Maps, den gratis app til iOS og Android.",
       "previewAlt": "Oversigt over placeringer af offentlige toiletter",
       "previewNote": "Du ser kun et begrænset uddrag",
       "problemAria": "Problemer med at finde offentlige toiletter",

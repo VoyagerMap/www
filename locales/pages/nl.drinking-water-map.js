@@ -53,7 +53,7 @@ window.voyagerLocales["nl"] = {
       },
       "heroAria": "Hoofdafbeelding van de pagina over drinkwater",
       "heroTitle": "Vind overal gratis drinkwater",
-      "heroLead": "Zonder water komen te zitten tijdens je reis is al frustrerend genoeg — maar als de plekken om je voorraad aan te vullen verborgen zijn, verouderd zijn of gewoonweg ontbreken op je kaart, is het nog erger.",
+      "heroLead": "Vul je fles en blijf op ontdekking gaan. Zoek gratis drinkwater, openbare kranen en drinkfonteinen in de buurt met Voyager Maps, de gratis app voor iOS en Android.",
       "previewAlt": "Voorbeeld van drinkwaterlocaties",
       "previewNote": "Je ziet nu slechts een beperkt voorproefje",
       "problemAria": "Moeite met het vinden van gratis drinkwater?",

@@ -52,7 +52,7 @@ window.voyagerLocales["pl"] = {
       },
       "heroAria": "Sekcja główna strony dla podróżujących z plecakiem i w pojedynkę",
       "heroTitle": "Praktyczna mapa dla podróżujących z plecakiem",
-      "heroLead": "Nowe miasto, ciężki plecak, sześć godzin do zameldowania. Gdzieś w zasięgu spaceru jest prysznic, pralnia, kran z wodą pitną i darmowe Wi-Fi – a żadnej z tych rzeczy nie ma na mapie, którą trzymasz w ręku.",
+      "heroLead": "Podróżuj lekko i znajdź to, czego potrzebujesz na kolejnym postoju: prysznice, pralnie, punkty z wodą pitną i darmowe Wi-Fi. Pobierz Voyager Maps za darmo na iOS i Androida.",
       "previewAlt": "Podgląd pryszniców, pralni i punktów z wodą dla podróżujących z plecakiem",
       "previewNote": "Widzisz tylko ograniczony podgląd",
       "problemAria": "Problemy, z jakimi borykają się osoby podróżujące samotnie, szukając przydatnych udogodnień",

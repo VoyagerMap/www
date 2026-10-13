@@ -53,7 +53,7 @@ window.voyagerLocales["pt"] = {
       },
       "heroAria": "Imagem principal da página sobre banheiros públicos",
       "heroTitle": "Encontre banheiros públicos em qualquer lugar",
-      "heroLead": "Quando você precisa encontrar um banheiro rapidamente, os resultados dos mapas comuns costumam estar incompletos, desatualizados ou escondidos entre lugares irrelevantes.",
+      "heroLead": "Encontre banheiros públicos perto de você, nos passeios pela cidade ou nas viagens de carro. Descubra suas próximas paradas com Voyager Maps, o app gratuito para iOS e Android.",
       "previewAlt": "Prévia dos locais dos banheiros públicos",
       "previewNote": "Você está vendo apenas uma prévia limitada",
       "problemAria": "Dificuldade em encontrar banheiros públicos",

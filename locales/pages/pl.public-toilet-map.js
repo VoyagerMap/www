@@ -53,7 +53,7 @@ window.voyagerLocales["pl"] = {
       },
       "heroAria": "Sekcja główna strony o toaletach publicznych",
       "heroTitle": "Znajdź publiczne toalety gdziekolwiek jesteś",
-      "heroLead": "Kiedy szybko potrzebujesz toalety, standardowe wyniki na mapie są często niekompletne, nieaktualne albo zagubione wśród nieistotnych miejsc.",
+      "heroLead": "Znajdź publiczne toalety w pobliżu podczas spaceru po mieście lub podróży samochodem. Odkryj miejsca na postój z Voyager Maps, darmową aplikacją na iOS i Androida.",
       "previewAlt": "Podgląd lokalizacji toalet publicznych",
       "previewNote": "Widzisz tylko ograniczony podgląd",
       "problemAria": "Problemy ze znalezieniem toalet publicznych",

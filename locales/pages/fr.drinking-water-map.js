@@ -53,7 +53,7 @@ window.voyagerLocales["fr"] = {
       },
       "heroAria": "Section principale de la page « Eau potable »",
       "heroTitle": "Trouve de l’eau potable gratuite partout",
-      "heroLead": "Se retrouver à court d’eau en plein voyage est déjà frustrant — mais c’est encore pire lorsque les points de remplissage sont cachés, obsolètes ou tout simplement absents de ta carte.",
+      "heroLead": "Remplis ta gourde et poursuis tes découvertes. Cherche de l’eau potable gratuite, des robinets publics et des fontaines à proximité avec Voyager Maps, l’appli gratuite sur iOS et Android.",
       "previewAlt": "Aperçu des points d’eau potable",
       "previewNote": "Tu ne vois qu’un aperçu limité",
       "problemAria": "Tu as du mal à trouver de l’eau potable gratuite ?",

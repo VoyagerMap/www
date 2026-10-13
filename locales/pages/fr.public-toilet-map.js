@@ -53,7 +53,7 @@ window.voyagerLocales["fr"] = {
       },
       "heroAria": "Section principale de la page « Toilettes publiques »",
       "heroTitle": "Trouve des toilettes publiques où que tu sois",
-      "heroLead": "Quand tu as besoin d’aller aux toilettes rapidement, les résultats des cartes classiques sont souvent incomplets, obsolètes ou noyés parmi des lieux qui ne t’intéressent pas.",
+      "heroLead": "Trouve des toilettes publiques près de toi, en balade en ville ou en road trip. Repère tes prochaines pauses avec Voyager Maps, l’appli gratuite sur iOS et Android.",
       "previewAlt": "Aperçu de l’emplacement des toilettes publiques",
       "previewNote": "Tu ne vois qu’un aperçu limité",
       "problemAria": "Tu as du mal à trouver des toilettes publiques ?",

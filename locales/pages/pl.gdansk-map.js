@@ -17,7 +17,7 @@ window.voyagerLocales["pl"] = {
       "proofDownloadsLabel": "pobrań",
       "proofStores": "App Store & Google Play",
       "proofRatingAria": "Ocena 4,9 na 5 w App Store i Google Play",
-      "pageFree": "Za darmo · iOS i Android",
+      "pageFree": "Darmowa aplikacja · iOS i Android",
       "exploreTitle": "Przeglądaj mapy",
       "exploreHomeLink": "Strona główna",
       "exploreWaterLink": "Mapa punktów z wodą pitną",

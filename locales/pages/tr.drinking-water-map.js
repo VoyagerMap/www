@@ -53,7 +53,7 @@ window.voyagerLocales["tr"] = {
       "heroAria": "İçme suyu açılış bölümü",
       "eyebrow": "Seyahat yardımcı haritası",
       "heroTitle": "Her yerde ücretsiz içme suyu bulun",
-      "heroLead": "Yolculuğun ortasında suyun bitmesi yeterince can sıkıcıdır — dolum noktaları gizliyse, güncel değilse veya haritanızda hiç yoksa durum daha da kötüleşir.",
+      "heroLead": "Şişenizi doldurun ve keşfetmeye devam edin. iOS ve Android için ücretsiz uygulama Voyager Maps ile yakınınızdaki ücretsiz içme suyunu, ortak kullanıma açık muslukları ve içme suyu çeşmelerini bulun.",
       "previewAlt": "İçme suyu noktalarının önizlemesi",
       "previewNote": "Şu anda yalnızca sınırlı bir önizleme görüyorsunuz",
       "problemAria": "Ücretsiz içme suyu bulma sorunları",

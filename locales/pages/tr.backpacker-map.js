@@ -53,7 +53,7 @@ window.voyagerLocales["tr"] = {
       "heroAria": "Sırt çantalı ve tek başına seyahat edenler sayfasının açılış bölümü",
       "eyebrow": "Seyahat yardımcı haritası",
       "heroTitle": "Sırt çantalı gezginler için pratik harita",
-      "heroLead": "Yeni bir şehir, ağır bir sırt çantası, giriş saatine altı saat var. Yürüme mesafesinde bir duş, çamaşırhane, içme suyu musluğu ve ücretsiz Wi-Fi bulunuyor — ama hiçbiri elinizdeki haritada görünmüyor.",
+      "heroLead": "Hafif seyahat edin ve bir sonraki durağınızın yakınında günlük ihtiyaçlarınızı bulun: duşlar, çamaşırhaneler, içme suyu dolum noktaları ve ücretsiz Wi-Fi. Voyager Maps'i iOS ve Android için ücretsiz indirin.",
       "previewAlt": "Sırt çantalı gezginler için duş, çamaşırhane ve su noktalarının önizlemesi",
       "previewNote": "Şu anda yalnızca sınırlı bir önizleme görüyorsunuz",
       "problemAria": "Yalnız seyahat edenlerin pratik tesisleri bulurken karşılaştıkları sorunlar",

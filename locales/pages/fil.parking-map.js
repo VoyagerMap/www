@@ -53,7 +53,7 @@ window.voyagerLocales["fil"] = {
       },
       "heroAria": "Pangunahing seksyon ng pahina ng paradahan",
       "heroTitle": "Maghanap ng paradahan kahit saan",
-      "heroLead": "Mahigit 1.1 milyong lokasyon ng paradahan sa 237 bansa — mga paradahan, multi-palapag at ilalim-lupang garahe, at mga himpilan sa gilid ng kalsada — kung saan 810,000 dito ay libre.",
+      "heroLead": "Maghanap ng paradahan bago dumating. Tingnan ang mahigit 1.1 milyong lokasyon sa Voyager Maps, kabilang ang 810,000 na nakatalang libre. Libre ang app para sa iOS at Android.",
       "previewAlt": "Screenshot ng Voyager Maps app na nagpapakita ng mga lokasyon ng paradahan sa buong sentral na Paris",
       "previewNote": "Mga lokasyon ng paradahan sa sentral na Paris, ipinapakita sa Voyager Maps app.",
       "problemAria": "Problema sa paghahanap ng paradahan",

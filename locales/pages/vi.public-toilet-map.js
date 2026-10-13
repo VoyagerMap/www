@@ -53,7 +53,7 @@ window.voyagerLocales["vi"] = {
       },
       "heroAria": "Hình ảnh chính của trang nhà vệ sinh công cộng",
       "heroTitle": "Tìm nhà vệ sinh công cộng ở bất cứ đâu",
-      "heroLead": "Khi bạn cần tìm nhà vệ sinh gấp, kết quả trên bản đồ thông thường thường không đầy đủ, lỗi thời hoặc bị chôn vùi giữa những địa điểm không liên quan.",
+      "heroLead": "Tìm nhà vệ sinh công cộng gần bạn khi dạo phố hoặc dừng chân trên hành trình đường dài. Khám phá địa điểm hữu ích với Voyager Maps, ứng dụng miễn phí cho iOS và Android.",
       "previewAlt": "Xem trước các địa điểm nhà vệ sinh công cộng",
       "previewNote": "Bạn chỉ đang xem bản xem trước giới hạn",
       "problemAria": "Khó tìm nhà vệ sinh công cộng",

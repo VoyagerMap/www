@@ -53,7 +53,7 @@ window.voyagerLocales["fr"] = {
       },
       "heroAria": "Section principale de la page « Services pour camping-cars »",
       "heroTitle": "De l’eau, des douches et des campings pour ton camping-car",
-      "heroLead": "La vue est parfaite, mais le réservoir d’eau est vide. Les points de service, les robinets de remplissage et les douches sont éparpillés entre les forums et les listes réservées aux membres, ce qui fait que le côté pratique de la vie en van demande bien plus de recherches que ça ne devrait.",
+      "heroLead": "Prépare ta prochaine aventure en van. Trouve de l’eau potable, des douches, des campings et des laveries près de tes étapes avec Voyager Maps, l’appli gratuite sur iOS et Android.",
       "previewAlt": "Aperçu des campings et des points de service pour les camping-cars",
       "previewNote": "Tu ne vois qu’un aperçu limité",
       "problemAria": "Tu as du mal à trouver des points de service pour camping-cars ?",

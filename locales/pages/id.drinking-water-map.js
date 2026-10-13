@@ -53,7 +53,7 @@ window.voyagerLocales["id"] = {
       },
       "heroAria": "Gambar utama halaman air minum",
       "heroTitle": "Temukan air minum gratis di mana saja",
-      "heroLead": "Kehabisan air di tengah perjalanan saja sudah cukup membuat frustrasi — tetapi ketika titik pengisian air tersembunyi, informasinya sudah usang, atau bahkan tidak tercantum di peta Anda, situasinya menjadi lebih buruk lagi.",
+      "heroLead": "Isi ulang botolmu dan lanjutkan petualangan. Cari air minum gratis, keran umum, dan pancuran air minum di dekatmu dengan Voyager Maps, aplikasi gratis untuk iOS dan Android.",
       "previewAlt": "Pratinjau lokasi air minum",
       "previewNote": "Anda hanya melihat pratinjau terbatas",
       "problemAria": "Kesulitan menemukan air minum gratis",

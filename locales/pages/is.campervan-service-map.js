@@ -53,7 +53,7 @@ window.voyagerLocales["is"] = {
       },
       "heroAria": "Aðalmynd síðunnar um þjónustustöðvar húsbíla",
       "heroTitle": "Vatn, sturtur og tjaldstæði fyrir húsbílinn þinn",
-      "heroLead": "Útsýnið er fullkomið en vatnstankurinn er tómur. Þjónustustöðvar, áfyllingarkranar og sturtur eru dreifð um spjallborð og lokaða félagalista, svo hagnýti hluti húsbílaferðalaga krefst mun meiri leitar en eðlilegt er.",
+      "heroLead": "Undirbúðu næsta ævintýri í húsbílnum. Finndu drykkjarvatn, sturtur, tjaldstæði og þvottahús nálægt viðkomustöðum þínum með Voyager Maps, ókeypis appinu fyrir iOS og Android.",
       "previewAlt": "Yfirlit yfir tjaldstæði og þjónustustöðvar fyrir húsbíla",
       "previewNote": "Þú sérð aðeins takmarkaða forskoðun",
       "problemAria": "Vandamál með að finna þjónustustöðvar fyrir húsbíla",

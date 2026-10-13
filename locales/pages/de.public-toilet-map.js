@@ -53,7 +53,7 @@ window.voyagerLocales["de"] = {
       },
       "heroAria": "Hauptbereich der Seite „Öffentliche Toiletten“",
       "heroTitle": "Finde überall öffentliche Toiletten",
-      "heroLead": "Wenn du schnell eine Toilette brauchst, sind die Ergebnisse herkömmlicher Karten oft unvollständig, veraltet oder unter irrelevanten Orten begraben.",
+      "heroLead": "Finde öffentliche Toiletten in deiner Nähe, beim Stadtbummel oder auf dem Roadtrip. Entdecke passende Stopps mit Voyager Maps, der kostenlosen App für iOS und Android.",
       "previewAlt": "Vorschau auf die Standorte öffentlicher Toiletten",
       "previewNote": "Du siehst hier nur eine begrenzte Vorschau",
       "problemAria": "Probleme bei der Suche nach öffentlichen Toiletten",

@@ -53,7 +53,7 @@ window.voyagerLocales["pl"] = {
       },
       "heroAria": "Sekcja główna strony o parkingach",
       "heroTitle": "Znajdź parking gdziekolwiek",
-      "heroLead": "Ponad 1,1 miliona miejsc parkingowych w 237 krajach – parkingi, garaże wielopoziomowe i podziemne oraz miejsca postojowe przy drogach – z czego 810 000 jest bezpłatnych.",
+      "heroLead": "Znajdź parking, zanim dotrzesz na miejsce. Odkryj ponad 1,1 miliona lokalizacji, w tym 810 000 oznaczonych w danych jako bezpłatne, z Voyager Maps. Darmowa aplikacja na iOS i Androida.",
       "previewAlt": "Zrzut ekranu z aplikacji Voyager Maps pokazujący lokalizacje parkingów w centrum Paryża",
       "previewNote": "Miejsca parkingowe w centrum Paryża, pokazane w aplikacji Voyager Maps.",
       "problemAria": "Problemy ze znalezieniem miejsca parkingowego",

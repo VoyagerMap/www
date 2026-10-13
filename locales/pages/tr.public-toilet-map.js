@@ -53,7 +53,7 @@ window.voyagerLocales["tr"] = {
       "heroAria": "Umumi tuvalet açılış bölümü",
       "eyebrow": "Seyahat yardımcı haritası",
       "heroTitle": "Her yerde umumi tuvaletleri bulun",
-      "heroLead": "Acilen bir tuvalete ihtiyaç duyduğunuzda, standart harita sonuçları genellikle eksik, güncel olmayan veya alakasız yerlerin arasında kaybolmuş olur.",
+      "heroLead": "Şehir yürüyüşlerinde veya yol molalarında yakınınızdaki umumi tuvaletleri bulun. iOS ve Android için ücretsiz uygulama Voyager Maps ile kullanışlı yerleri keşfedin.",
       "previewAlt": "Umumi tuvaletlerin önizlemesi",
       "previewNote": "Şu anda yalnızca sınırlı bir önizleme görüyorsunuz",
       "problemAria": "Umumi tuvalet bulma sorunları",

@@ -53,7 +53,7 @@ window.voyagerLocales["sv"] = {
       },
       "heroAria": "Huvudbild för offentliga toaletter",
       "heroTitle": "Hitta offentliga toaletter var som helst",
-      "heroLead": "När du snabbt behöver hitta en toalett är vanliga kartresultat ofta ofullständiga, inaktuella eller gömda bland irrelevanta platser.",
+      "heroLead": "Hitta offentliga toaletter nära dig på stadspromenaden eller bilresan. Upptäck praktiska stopp med Voyager Maps, gratisappen för iOS och Android.",
       "previewAlt": "Förhandsvisning av platser med offentliga toaletter",
       "previewNote": "Du ser endast en begränsad förhandsvisning",
       "problemAria": "Svårt att hitta offentliga toaletter",

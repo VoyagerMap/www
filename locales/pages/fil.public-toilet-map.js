@@ -53,7 +53,7 @@ window.voyagerLocales["fil"] = {
       },
       "heroAria": "Pangunahing seksyon ng pahina ng pampublikong palikuran",
       "heroTitle": "Hanapin ang mga pampublikong banyo kahit saan",
-      "heroLead": "Kapag kailangan mong agad na makahanap ng banyo, madalas hindi kumpleto, lipas na, o natatabunan ng mga hindi kaugnay na lugar ang karaniwang resulta ng mapa.",
+      "heroLead": "Maghanap ng pampublikong banyo sa malapit habang naglilibot sa lungsod o humihinto sa road trip. Tingnan ang mga kapaki-pakinabang na lugar sa Voyager Maps, ang libreng app para sa iOS at Android.",
       "previewAlt": "Paunang pagtingin sa mga lokasyon ng pampublikong palikuran",
       "previewNote": "Nakikita mo lamang ang limitadong paunang sulyap",
       "problemAria": "Problema sa paghahanap ng pampublikong palikuran",

@@ -53,7 +53,7 @@ window.voyagerLocales["vi"] = {
       },
       "heroAria": "Hình ảnh chính của trang bãi đỗ xe",
       "heroTitle": "Tìm chỗ đỗ xe ở bất cứ đâu",
-      "heroLead": "Hơn 1,1 triệu điểm đỗ xe trên 237 quốc gia — từ bãi đỗ xe, nhà để xe nhiều tầng và hầm ngầm, đến các điểm dừng ven đường — trong đó có tới 810.000 điểm hoàn toàn miễn phí.",
+      "heroLead": "Tìm chỗ đỗ xe trước khi đến nơi. Khám phá hơn 1,1 triệu địa điểm đỗ xe trong Voyager Maps, trong đó 810.000 điểm được ghi nhận là miễn phí. Ứng dụng miễn phí cho iOS và Android.",
       "previewAlt": "Ảnh chụp màn hình ứng dụng Voyager Maps hiển thị các vị trí bãi đỗ xe ở trung tâm Paris",
       "previewNote": "Các điểm đỗ xe ở trung tâm Paris, được hiển thị trên ứng dụng Voyager Maps.",
       "problemAria": "Khó tìm chỗ đỗ xe",
