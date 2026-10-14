@@ -45,15 +45,15 @@ window.voyagerLocales["nb"] = {
       "termsLink": "Vilkår",
       "deleteLink": "Slett data",
       "footer": "© Voyager Maps-nettstedet",
-      "pageTitle": "Kart over offentlige toaletter",
+      "pageTitle": "Offentlige toaletter nær deg - Toalettkart",
       "meta": {
-        "description": "Finn offentlige toaletter når du er på reise, inkludert toaletter på bensinstasjoner og i butikker. Gratis app."
+        "description": "Finn offentlige toaletter nær deg med Voyager Maps. Se tilgjengelige opplysninger om adgang. Last ned gratisappen for iOS og Android."
       },
       "langOptionsAria": "Språkvalg",
       "heroAria": "Hovedbilde for offentlige toaletter",
       "eyebrow": "Kart med nyttige reisefunksjoner",
-      "heroTitle": "Finn offentlige toaletter hvor som helst",
-      "heroLead": "Finn offentlige toaletter i nærheten på byturen eller bilturen. Oppdag praktiske stopp med Voyager Maps, gratisappen for iOS og Android.",
+      "heroTitle": "Finn offentlige toaletter nær deg",
+      "heroLead": "Finn ditt neste toalettstopp med Voyager Maps, fra byvandringer til bilturer. Utforsk toaletter på kartet og se opplysninger om adgang der de finnes. Appen er gratis for iOS og Android.",
       "previewAlt": "Forhåndsvisning av offentlige toalettsteder",
       "previewNote": "Du ser bare en begrenset forhåndsvisning",
       "problemAria": "Problemer med å finne offentlige toaletter",

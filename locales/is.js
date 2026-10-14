@@ -245,13 +245,13 @@ window.voyagerLocales["is"] = {
       seoParagraph2: "Þessi síða er ætluð fólki sem leitar að drykkjarvatnskorti með áherslu á greiðan aðgang. Í stað almennra leitarniðurstaðna geturðu notað kort sem miðast við ferðalanga til að finna ókeypis drykkjarvatn þegar þú ert á ferðinni. Hvort sem þú vilt fylla á flösku fyrir lestarferð, forðast að kaupa fleiri plastflöskur á borgargöngu eða finna vatn í áningarstað á bílferð er markmiðið einfalt: skjótari aðgangur að gagnlegum vatnsbólum í nágrenninu."
     },
     toilet: {
-      pageTitle: "Kort yfir almenningssalerni",
+      pageTitle: "Almenningssalerni nálægt þér - Salerniskort",
       meta: {
-        description: "Finndu almenningssalerni á ferðalögum, þar á meðal salerni á bensínstöðvum og í verslunum. Ókeypis forrit."
+        description: "Finndu almenningssalerni nálægt þér með Voyager Maps. Skoðaðu tiltækar upplýsingar um aðgang. Sæktu ókeypis appið fyrir iOS og Android."
       },
       heroAria: "Aðalmynd síðunnar um almenningssalerni",
-      heroTitle: "Finndu almenningssalerni hvar sem er",
-      heroLead: "Finndu almenningssalerni nálægt þér á borgargöngunni eða í bílferðinni. Uppgötvaðu gagnlega viðkomustaði með Voyager Maps, ókeypis appinu fyrir iOS og Android.",
+      heroTitle: "Finndu almenningssalerni nálægt þér",
+      heroLead: "Finndu næsta salerni með Voyager Maps, hvort sem þú ert á borgargöngu eða í bílferð. Skoðaðu salerni á kortinu og upplýsingar um aðgang þar sem þær liggja fyrir. Appið er ókeypis fyrir iOS og Android.",
       previewAlt: "Forskoðun á staðsetningum almenningssalerna",
       previewNote: "Þú sérð aðeins takmarkaða forskoðun",
       problemAria: "Vandamál við að finna almenningssalerni",

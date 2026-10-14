@@ -46,14 +46,14 @@ window.voyagerLocales["tr"] = {
       "termsLink": "Kullanım Koşulları",
       "deleteLink": "Verileri Sil",
       "footer": "© Voyager Maps web sitesi",
-      "pageTitle": "Umumi Tuvalet Haritası",
+      "pageTitle": "Yakınınızdaki umumi tuvaletler - Harita",
       "meta": {
-        "description": "Seyahat ederken, benzin istasyonları ve mağazalardaki tuvaletler dahil olmak üzere umumi tuvaletleri bulun. Ücretsiz uygulama."
+        "description": "Voyager Maps ile yakınınızdaki umumi tuvaletleri bulun. Varsa erişim bilgilerini inceleyin. iOS ve Android için ücretsiz uygulamayı indirin."
       },
       "heroAria": "Umumi tuvalet açılış bölümü",
       "eyebrow": "Seyahat yardımcı haritası",
-      "heroTitle": "Her yerde umumi tuvaletleri bulun",
-      "heroLead": "Şehir yürüyüşlerinde veya yol molalarında yakınınızdaki umumi tuvaletleri bulun. iOS ve Android için ücretsiz uygulama Voyager Maps ile kullanışlı yerleri keşfedin.",
+      "heroTitle": "Yakınınızdaki umumi tuvaletleri bulun",
+      "heroLead": "Şehir yürüyüşlerinde ya da araba yolculuklarında, bir sonraki tuvalet molanız için Voyager Maps ile bir yer bulun. Haritadaki tuvaletleri keşfedin ve varsa erişim bilgilerini inceleyin. Uygulama iOS ve Android için ücretsizdir.",
       "previewAlt": "Umumi tuvaletlerin önizlemesi",
       "previewNote": "Şu anda yalnızca sınırlı bir önizleme görüyorsunuz",
       "problemAria": "Umumi tuvalet bulma sorunları",

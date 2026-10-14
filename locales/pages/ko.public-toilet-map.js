@@ -47,13 +47,13 @@ window.voyagerLocales["ko"] = {
       "footer": "© Voyager Maps 웹사이트",
       "exploreCampervanLink": "캠핑카 서비스 지도",
       "exploreBackpackerLink": "배낭여행자 지도",
-      "pageTitle": "공중화장실 지도",
+      "pageTitle": "주변 공중화장실 | 화장실 지도",
       "meta": {
-        "description": "여행 중 주유소나 상점 내 화장실을 포함한 공중화장실을 찾아보세요. 무료 앱입니다."
+        "description": "Voyager Maps로 주변 공중화장실을 찾고 이용 정보가 있으면 확인하세요. iOS·Android용 무료 앱을 받으세요."
       },
       "heroAria": "공중화장실 페이지 메인 이미지",
-      "heroTitle": "어디서나 공중화장실을 찾아보세요",
-      "heroLead": "도시 산책부터 자동차 여행 중 정차까지, 주변 공중화장실을 찾아보세요. iOS와 Android용 무료 앱 Voyager Maps로 들를 수 있는 장소를 살펴보세요.",
+      "heroTitle": "주변 공중화장실을 찾아보세요",
+      "heroLead": "도시 산책부터 자동차 여행까지, Voyager Maps로 다음에 들를 화장실을 찾아보세요. 지도에 표시된 화장실을 살펴보고 이용 정보가 있는 경우 확인하세요. iOS와 Android용 무료 앱입니다.",
       "previewAlt": "공중화장실 위치 미리 보기",
       "previewNote": "현재는 제한된 미리보기만 확인하실 수 있습니다.",
       "problemAria": "공중화장실을 찾기 힘든 문제",

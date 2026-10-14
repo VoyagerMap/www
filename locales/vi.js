@@ -245,13 +245,13 @@ window.voyagerLocales["vi"] = {
       seoParagraph2: "Trang này được thiết kế dành cho những ai đang tìm kiếm bản đồ nước uống tập trung vào tính tiện lợi. Thay vì chỉ dựa vào kết quả tìm kiếm chung chung, bạn có thể áp dụng cách tiếp cận hướng đến người du lịch hơn để khám phá các điểm nước uống miễn phí phù hợp khi bạn đang di chuyển. Dù bạn muốn đổ đầy chai nước trước khi lên tàu, tránh mua thêm chai nhựa khi dạo phố, hay tìm nước uống tại điểm dừng chân trên hành trình đường bộ, mục tiêu rất đơn giản: tiếp cận nhanh hơn các điểm nước uống hữu ích gần bạn."
     },
     toilet: {
-      pageTitle: "Bản đồ nhà vệ sinh công cộng",
+      pageTitle: "Nhà vệ sinh công cộng gần bạn | Bản đồ",
       meta: {
-        description: "Tìm nhà vệ sinh công cộng khi đi du lịch, bao gồm cả nhà vệ sinh tại trạm xăng và các cửa hàng. Ứng dụng miễn phí."
+        description: "Tìm nhà vệ sinh công cộng gần bạn với Voyager Maps. Xem thông tin về điều kiện sử dụng hiện có. Tải ứng dụng miễn phí cho iOS và Android."
       },
       heroAria: "Hình ảnh chính của trang nhà vệ sinh công cộng",
-      heroTitle: "Tìm nhà vệ sinh công cộng ở bất cứ đâu",
-      heroLead: "Tìm nhà vệ sinh công cộng gần bạn khi dạo phố hoặc dừng chân trên hành trình đường dài. Khám phá địa điểm hữu ích với Voyager Maps, ứng dụng miễn phí cho iOS và Android.",
+      heroTitle: "Tìm nhà vệ sinh công cộng gần bạn",
+      heroLead: "Từ dạo phố đến những chuyến đi đường dài, tìm nơi dừng chân tiếp theo để đi vệ sinh với Voyager Maps. Khám phá các nhà vệ sinh được đánh dấu trên bản đồ và xem thông tin về điều kiện sử dụng khi có. Ứng dụng miễn phí cho iOS và Android.",
       previewAlt: "Xem trước các địa điểm nhà vệ sinh công cộng",
       previewNote: "Bạn chỉ đang xem bản xem trước giới hạn",
       problemAria: "Khó tìm nhà vệ sinh công cộng",

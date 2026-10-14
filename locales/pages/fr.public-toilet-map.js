@@ -47,13 +47,13 @@ window.voyagerLocales["fr"] = {
       "footer": "© Site web de Voyager Maps",
       "exploreCampervanLink": "Carte des services pour camping-cars",
       "exploreBackpackerLink": "Carte du routard",
-      "pageTitle": "Carte des toilettes publiques",
+      "pageTitle": "Toilettes publiques près de toi | Carte",
       "meta": {
-        "description": "Trouve des toilettes publiques quand tu voyages, y compris celles des stations-service et des magasins. App gratuite."
+        "description": "Trouve des toilettes publiques près de toi avec Voyager Maps. Consulte les infos d’accès disponibles. Télécharge l’appli gratuite sur iOS et Android."
       },
       "heroAria": "Section principale de la page « Toilettes publiques »",
-      "heroTitle": "Trouve des toilettes publiques où que tu sois",
-      "heroLead": "Trouve des toilettes publiques près de toi, en balade en ville ou en road trip. Repère tes prochaines pauses avec Voyager Maps, l’appli gratuite sur iOS et Android.",
+      "heroTitle": "Trouve des toilettes publiques près de toi",
+      "heroLead": "Des balades en ville aux road trips, repère ta prochaine pause toilettes avec Voyager Maps. Explore les toilettes sur la carte et consulte les conditions d’accès lorsqu’elles sont renseignées. L’appli est gratuite sur iOS et Android.",
       "previewAlt": "Aperçu de l’emplacement des toilettes publiques",
       "previewNote": "Tu ne vois qu’un aperçu limité",
       "problemAria": "Tu as du mal à trouver des toilettes publiques ?",

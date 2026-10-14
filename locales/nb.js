@@ -245,15 +245,15 @@ window.voyagerLocales["nb"] = {
       seoParagraph2: "Denne siden er laget for folk som leter etter et drikkevannskart med fokus på praktisk tilgang. I stedet for å stole på generelle stedsresultater, kan du bruke en mer reisendeorientert tilnærming for å finne steder med gratis drikkevann som er nyttige når du er på farten. Enten du ønsker å fylle opp en flaske før en togtur, unngå å kjøpe ekstra plastflasker på en byvandring eller finne vann ved et stopp under en biltur, er målet enkelt: raskere tilgang til nyttige vannsteder i nærheten av deg."
     },
     toilet: {
-      pageTitle: "Kart over offentlige toaletter",
+      pageTitle: "Offentlige toaletter nær deg - Toalettkart",
       meta: {
-        description: "Finn offentlige toaletter når du er på reise, inkludert toaletter på bensinstasjoner og i butikker. Gratis app."
+        description: "Finn offentlige toaletter nær deg med Voyager Maps. Se tilgjengelige opplysninger om adgang. Last ned gratisappen for iOS og Android."
       },
       langOptionsAria: "Språkvalg",
       heroAria: "Hovedbilde for offentlige toaletter",
       eyebrow: "Kart med nyttige reisefunksjoner",
-      heroTitle: "Finn offentlige toaletter hvor som helst",
-      heroLead: "Finn offentlige toaletter i nærheten på byturen eller bilturen. Oppdag praktiske stopp med Voyager Maps, gratisappen for iOS og Android.",
+      heroTitle: "Finn offentlige toaletter nær deg",
+      heroLead: "Finn ditt neste toalettstopp med Voyager Maps, fra byvandringer til bilturer. Utforsk toaletter på kartet og se opplysninger om adgang der de finnes. Appen er gratis for iOS og Android.",
       previewAlt: "Forhåndsvisning av offentlige toalettsteder",
       previewNote: "Du ser bare en begrenset forhåndsvisning",
       problemAria: "Problemer med å finne offentlige toaletter",

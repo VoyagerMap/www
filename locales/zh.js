@@ -210,13 +210,13 @@ window.voyagerLocales["zh"] = {
       seoParagraph2: "本页面面向正在查找实用饮用水地图的用户。您不必依赖宽泛的地点搜索结果，而能以更符合旅行需求的方式找到途中真正有用的免费饮水点。无论是上火车前给水瓶补水、城市步行时少买塑料瓶，还是在自驾途中寻找取水处，目标都很简单：更快找到附近实用的饮水点。"
     },
     toilet: {
-      pageTitle: "公共厕所地图",
+      pageTitle: "附近的公共厕所 | 厕所地图",
       meta: {
-        description: "旅行途中查找公共厕所，包括加油站和商店内的卫生间。免费应用。"
+        description: "用Voyager Maps查找附近的公共厕所，查看已提供的使用信息。下载适用于iOS和Android的免费应用。"
       },
       heroAria: "公共厕所页面首屏区域",
-      heroTitle: "随时随地查找公共厕所",
-      heroLead: "从城市漫步到自驾游停靠，轻松查找附近的公共厕所。用适用于iOS和Android的免费应用Voyager Maps，探索方便停靠的地点。",
+      heroTitle: "查找附近的公共厕所",
+      heroLead: "从城市漫步到自驾旅行，用Voyager Maps寻找下一处如厕地点。浏览地图上标注的厕所，并在有相关信息时查看使用详情。应用免费，适用于iOS和Android。",
       previewAlt: "公共厕所位置预览",
       previewNote: "您目前仅能查看部分预览内容",
       problemAria: "查找公共厕所时的难题",

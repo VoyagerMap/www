@@ -47,13 +47,13 @@ window.voyagerLocales["pl"] = {
       "exploreCampervanLink": "Mapa usług dla kamperów",
       "exploreBackpackerLink": "Mapa dla podróżujących z plecakiem",
       "htmlLang": "pl",
-      "pageTitle": "Mapa toalet publicznych",
+      "pageTitle": "Toalety publiczne w pobliżu | Mapa",
       "meta": {
-        "description": "Znajdź publiczne toalety podczas podróży, w tym toalety na stacjach benzynowych i w sklepach. Darmowa aplikacja."
+        "description": "Znajdź publiczne toalety w pobliżu z Voyager Maps. Sprawdź podane warunki korzystania. Pobierz darmową aplikację na iOS i Androida."
       },
       "heroAria": "Sekcja główna strony o toaletach publicznych",
-      "heroTitle": "Znajdź publiczne toalety gdziekolwiek jesteś",
-      "heroLead": "Znajdź publiczne toalety w pobliżu podczas spaceru po mieście lub podróży samochodem. Odkryj miejsca na postój z Voyager Maps, darmową aplikacją na iOS i Androida.",
+      "heroTitle": "Znajdź publiczne toalety w pobliżu",
+      "heroLead": "Podczas spaceru po mieście czy podróży samochodem znajdź miejsce na kolejną przerwę na toaletę z Voyager Maps. Przeglądaj toalety na mapie i sprawdź warunki korzystania, jeśli są podane. Aplikacja jest darmowa na iOS i Androida.",
       "previewAlt": "Podgląd lokalizacji toalet publicznych",
       "previewNote": "Widzisz tylko ograniczony podgląd",
       "problemAria": "Problemy ze znalezieniem toalet publicznych",

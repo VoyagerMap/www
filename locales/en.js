@@ -245,13 +245,13 @@ window.voyagerLocales["en"] = {
       seoParagraph2: "This page is designed for people searching for a drinking water map that focuses on practical access. Instead of relying on general place results, you can use a more traveler-focused approach to discover free drinking water locations that make sense when you are moving. Whether you want to refill a bottle before a train ride, avoid buying extra plastic bottles on a city walk, or find water on a road trip stop, the goal is simple: quicker access to useful water spots near you."
     },
     toilet: {
-      pageTitle: "Public Toilet Map",
+      pageTitle: "Public Toilets Near You - Restroom Map",
       meta: {
-        description: "Find public toilets while travelling, including restrooms at fuel stations and shops. Free app."
+        description: "Find public toilets and restrooms near you with Voyager Maps. Check available access details. Download the free app for iOS and Android."
       },
       heroAria: "Public toilet landing hero",
-      heroTitle: "Find public toilets anywhere",
-      heroLead: "Find public toilets and restrooms near you, from city walks to road trip stops. Explore useful locations with Voyager Maps, the free app for iOS and Android.",
+      heroTitle: "Find public toilets near you",
+      heroLead: "From city walks to road trips, find your next toilet stop with Voyager Maps. Explore mapped restrooms and check access details where available. Free on iOS and Android.",
       previewAlt: "Preview of public toilet locations",
       previewNote: "You are only seeing a limited preview",
       problemAria: "Problems finding public toilets",

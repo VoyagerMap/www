@@ -212,13 +212,13 @@ window.voyagerLocales["fr"] = {
       seoParagraph2: "Cette page s’adresse à ceux qui cherchent une carte de l’eau potable axée sur l’accès pratique. Au lieu de te fier à des résultats généraux, tu peux adopter une approche plus adaptée aux voyageurs pour découvrir des points d’eau potable gratuits qui te seront utiles quand tu es en déplacement. Que tu souhaites remplir une bouteille avant de prendre le train, éviter d’acheter des bouteilles en plastique supplémentaires lors d’une balade en ville ou trouver de l’eau lors d’une pause sur la route, l’objectif est simple : accéder plus rapidement aux points d’eau utiles à proximité."
     },
     toilet: {
-      pageTitle: "Carte des toilettes publiques",
+      pageTitle: "Toilettes publiques près de toi | Carte",
       meta: {
-        description: "Trouve des toilettes publiques quand tu voyages, y compris celles des stations-service et des magasins. App gratuite."
+        description: "Trouve des toilettes publiques près de toi avec Voyager Maps. Consulte les infos d’accès disponibles. Télécharge l’appli gratuite sur iOS et Android."
       },
       heroAria: "Section principale de la page « Toilettes publiques »",
-      heroTitle: "Trouve des toilettes publiques où que tu sois",
-      heroLead: "Trouve des toilettes publiques près de toi, en balade en ville ou en road trip. Repère tes prochaines pauses avec Voyager Maps, l’appli gratuite sur iOS et Android.",
+      heroTitle: "Trouve des toilettes publiques près de toi",
+      heroLead: "Des balades en ville aux road trips, repère ta prochaine pause toilettes avec Voyager Maps. Explore les toilettes sur la carte et consulte les conditions d’accès lorsqu’elles sont renseignées. L’appli est gratuite sur iOS et Android.",
       previewAlt: "Aperçu de l’emplacement des toilettes publiques",
       previewNote: "Tu ne vois qu’un aperçu limité",
       problemAria: "Tu as du mal à trouver des toilettes publiques ?",

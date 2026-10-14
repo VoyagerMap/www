@@ -245,13 +245,13 @@ window.voyagerLocales["fil"] = {
       seoParagraph2: "Ang pahinang ito ay idinisenyo para sa mga naghahanap ng mapa ng inuming tubig na nakatuon sa praktikal na pag-access. Sa halip na umasa sa pangkalahatang resulta ng mga lugar, maaari kang gumamit ng mas nakatuon sa manlalakbay na pamamaraan upang matuklasan ang mga libreng lokasyon ng inuming tubig na may katuturan habang ikaw ay gumagalaw. Kung gusto mong muling punuin ang bote bago sumakay sa tren, iwasan ang pagbili ng dagdag na plastik na bote habang naglalakad sa lungsod, o maghanap ng tubig sa isang paghinto sa road trip, simple lang ang layunin: mas mabilis na pag-access sa mga kapaki-pakinabang na lugar ng tubig malapit sa iyo."
     },
     toilet: {
-      pageTitle: "Mapa ng mga Pampublikong Palikuran",
+      pageTitle: "Pampublikong banyo sa malapit - Mapa",
       meta: {
-        description: "Maghanap ng pampublikong banyo habang naglalakbay, kabilang ang mga banyo sa mga gasolinahan at tindahan. Libreng app."
+        description: "Hanapin sa Voyager Maps ang pampublikong banyo sa malapit. Tingnan ang detalye ng access kung mayroon. I-download ang libreng app para sa iOS at Android."
       },
       heroAria: "Pangunahing seksyon ng pahina ng pampublikong palikuran",
-      heroTitle: "Hanapin ang mga pampublikong banyo kahit saan",
-      heroLead: "Maghanap ng pampublikong banyo sa malapit habang naglilibot sa lungsod o humihinto sa road trip. Tingnan ang mga kapaki-pakinabang na lugar sa Voyager Maps, ang libreng app para sa iOS at Android.",
+      heroTitle: "Maghanap ng pampublikong banyo malapit sa iyo",
+      heroLead: "Mula sa paglalakad sa lungsod hanggang sa road trip, hanapin ang susunod mong hintuan para magbanyo gamit ang Voyager Maps. Tingnan ang mga banyo sa mapa at ang mga detalye ng access kung mayroon. Libre ang app para sa iOS at Android.",
       previewAlt: "Paunang pagtingin sa mga lokasyon ng pampublikong palikuran",
       previewNote: "Nakikita mo lamang ang limitadong paunang sulyap",
       problemAria: "Problema sa paghahanap ng pampublikong palikuran",

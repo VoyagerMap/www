@@ -47,13 +47,13 @@ window.voyagerLocales["pt"] = {
       "footer": "© Site do Voyager Maps",
       "exploreCampervanLink": "Mapa de serviços para vans e motorhomes",
       "exploreBackpackerLink": "Mapa para mochileiros",
-      "pageTitle": "Mapa de banheiros públicos",
+      "pageTitle": "Banheiros públicos perto de você | Mapa",
       "meta": {
-        "description": "Encontre banheiros públicos durante a viagem, incluindo os de postos de gasolina e lojas. App grátis."
+        "description": "Encontre banheiros públicos perto de você com Voyager Maps. Confira os dados de acesso disponíveis. Baixe o app gratuito para iOS e Android."
       },
       "heroAria": "Imagem principal da página sobre banheiros públicos",
-      "heroTitle": "Encontre banheiros públicos em qualquer lugar",
-      "heroLead": "Encontre banheiros públicos perto de você, nos passeios pela cidade ou nas viagens de carro. Descubra suas próximas paradas com Voyager Maps, o app gratuito para iOS e Android.",
+      "heroTitle": "Encontre banheiros públicos perto de você",
+      "heroLead": "Dos passeios pela cidade às viagens de carro, encontre sua próxima parada para ir ao banheiro com Voyager Maps. Explore os banheiros no mapa e confira as condições de acesso, quando disponíveis. O app é gratuito para iOS e Android.",
       "previewAlt": "Prévia dos locais dos banheiros públicos",
       "previewNote": "Você está vendo apenas uma prévia limitada",
       "problemAria": "Dificuldade em encontrar banheiros públicos",

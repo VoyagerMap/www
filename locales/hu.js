@@ -210,15 +210,15 @@ window.voyagerLocales["hu"] = {
       seoParagraph2: "Ez az oldal azoknak szól, akik olyan ivóvíz térképet keresnek, amely a gyakorlati elérésre fókuszál. Az általános helytalálatok helyett egy utazókra szabottabb megközelítéssel fedezhetsz fel ingyenes ivóvíz helyeket, amelyek tényleg akkor hasznosak, amikor mozgásban vagy. Legyen szó kulacs újratöltéséről egy vonatút előtt, a felesleges műanyag palackok elkerüléséről városi séta közben, vagy víz kereséséről egy road trip megállónál, a cél egyszerű: gyorsabb hozzáférés a hasznos vízvételi helyekhez a közeledben."
     },
     toilet: {
-      pageTitle: "Nyilvános WC-térkép",
+      pageTitle: "Nyilvános WC-k a közelben | Mosdótérkép",
       meta: {
-        description: "Találj nyilvános WC-ket utazás közben, a benzinkutak és üzletek mosdóit is beleértve. Ingyenes alkalmazás."
+        description: "Találj nyilvános WC-ket a közeledben a Voyager Maps-ben. Nézd meg a feltüntetett használati feltételeket. Töltsd le az ingyenes appot iOS-re és Androidra."
       },
       langOptionsAria: "Nyelvi lehetőségek",
       heroAria: "Nyilvános WC landing nyitó szekció",
       eyebrow: "Praktikus utazási térkép",
-      heroTitle: "Találj nyilvános WC-ket bárhol",
-      heroLead: "Találj nyilvános mosdókat a közeledben, városi séta vagy autós utazás közben. Fedezz fel praktikus megállókat a Voyager Maps ingyenes iOS- és Android-appjával.",
+      heroTitle: "Találj nyilvános WC-ket a közeledben",
+      heroLead: "Városi sétán vagy autós utazáson keresd meg a következő mosdót a Voyager Maps-ben. Nézd meg a térképen jelölt mosdókat és a megadott használati tudnivalókat. Az app ingyenes iOS-en és Androidon.",
       pageFree: "Ingyenes · iOS & Android",
       previewAlt: "Nyilvános WC helyek előnézete",
       previewNote: "Csak egy korlátozott előnézetet látsz",

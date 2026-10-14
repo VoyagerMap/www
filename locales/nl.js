@@ -210,13 +210,13 @@ window.voyagerLocales["nl"] = {
       seoParagraph2: "Deze pagina is bedoeld voor mensen die op zoek zijn naar een drinkwaterkaart die zich richt op praktische toegankelijkheid. In plaats van te vertrouwen op algemene zoekresultaten, kun je een meer op reizigers gerichte aanpak gebruiken om gratis drinkwaterlocaties te ontdekken die handig zijn als je onderweg bent. Of je nu je fles wilt bijvullen voor een treinreis, geen extra plastic flesjes wilt kopen tijdens een stadswandeling of water wilt vinden bij een tussenstop tijdens een roadtrip, het doel is simpel: snellere toegang tot handige waterplekken bij jou in de buurt."
     },
     toilet: {
-      pageTitle: "Kaart met openbare toiletten",
+      pageTitle: "Openbare toiletten in de buurt | Kaart",
       meta: {
-        description: "Vind openbare toiletten tijdens het reizen, inclusief toiletten bij tankstations en winkels. Gratis app."
+        description: "Vind openbare toiletten in de buurt met Voyager Maps. Bekijk beschikbare toegangsinformatie. Download de gratis app voor iOS en Android."
       },
       heroAria: "Hoofdafbeelding van de pagina over openbare toiletten",
-      heroTitle: "Vind overal openbare toiletten",
-      heroLead: "Vind openbare toiletten in de buurt, tijdens een stadswandeling of roadtrip. Ontdek handige tussenstops met Voyager Maps, de gratis app voor iOS en Android.",
+      heroTitle: "Vind openbare toiletten bij jou in de buurt",
+      heroLead: "Van stadswandelingen tot roadtrips: vind je volgende toiletstop met Voyager Maps. Bekijk toiletten op de kaart en controleer de toegangsinformatie, wanneer beschikbaar. De app is gratis voor iOS en Android.",
       previewAlt: "Voorbeeld van de locaties van openbare toiletten",
       previewNote: "Je ziet nu slechts een beperkt voorproefje",
       problemAria: "Moeite met het vinden van openbare toiletten?",

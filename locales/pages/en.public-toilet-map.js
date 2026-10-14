@@ -47,13 +47,13 @@ window.voyagerLocales["en"] = {
       "termsLink": "Terms",
       "deleteLink": "Delete Data",
       "footer": "© Voyager Maps website",
-      "pageTitle": "Public Toilet Map",
+      "pageTitle": "Public Toilets Near You - Restroom Map",
       "meta": {
-        "description": "Find public toilets while travelling, including restrooms at fuel stations and shops. Free app."
+        "description": "Find public toilets and restrooms near you with Voyager Maps. Check available access details. Download the free app for iOS and Android."
       },
       "heroAria": "Public toilet landing hero",
-      "heroTitle": "Find public toilets anywhere",
-      "heroLead": "Find public toilets and restrooms near you, from city walks to road trip stops. Explore useful locations with Voyager Maps, the free app for iOS and Android.",
+      "heroTitle": "Find public toilets near you",
+      "heroLead": "From city walks to road trips, find your next toilet stop with Voyager Maps. Explore mapped restrooms and check access details where available. Free on iOS and Android.",
       "previewAlt": "Preview of public toilet locations",
       "previewNote": "You are only seeing a limited preview",
       "problemAria": "Problems finding public toilets",

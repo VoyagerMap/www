@@ -210,13 +210,13 @@ window.voyagerLocales["pt"] = {
       seoParagraph2: "Esta página foi criada para quem procura um mapa de água potável voltado ao acesso prático. Em vez de depender de resultados gerais de locais, você pode usar uma abordagem mais direcionada ao viajante para descobrir pontos de água potável gratuita que sejam úteis durante o trajeto. Seja para encher uma garrafa antes de uma viagem de trem, evitar comprar garrafas plásticas extras durante um passeio pela cidade ou encontrar água em uma parada durante uma viagem de carro, o objetivo é simples: acesso mais rápido a pontos úteis de água perto de você."
     },
     toilet: {
-      pageTitle: "Mapa de banheiros públicos",
+      pageTitle: "Banheiros públicos perto de você | Mapa",
       meta: {
-        description: "Encontre banheiros públicos durante a viagem, incluindo os de postos de gasolina e lojas. App grátis."
+        description: "Encontre banheiros públicos perto de você com Voyager Maps. Confira os dados de acesso disponíveis. Baixe o app gratuito para iOS e Android."
       },
       heroAria: "Imagem principal da página sobre banheiros públicos",
-      heroTitle: "Encontre banheiros públicos em qualquer lugar",
-      heroLead: "Encontre banheiros públicos perto de você, nos passeios pela cidade ou nas viagens de carro. Descubra suas próximas paradas com Voyager Maps, o app gratuito para iOS e Android.",
+      heroTitle: "Encontre banheiros públicos perto de você",
+      heroLead: "Dos passeios pela cidade às viagens de carro, encontre sua próxima parada para ir ao banheiro com Voyager Maps. Explore os banheiros no mapa e confira as condições de acesso, quando disponíveis. O app é gratuito para iOS e Android.",
       previewAlt: "Prévia dos locais dos banheiros públicos",
       previewNote: "Você está vendo apenas uma prévia limitada",
       problemAria: "Dificuldade em encontrar banheiros públicos",

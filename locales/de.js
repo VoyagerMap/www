@@ -210,13 +210,13 @@ window.voyagerLocales["de"] = {
       seoParagraph2: "Diese Seite richtet sich an alle, die nach einer Trinkwasserkarte suchen, bei der der praktische Zugang im Vordergrund steht. Anstatt dich auf allgemeine Ortsergebnisse zu verlassen, kannst du einen eher auf Reisende ausgerichteten Ansatz nutzen, um kostenlose Trinkwasserstellen zu entdecken, die unterwegs sinnvoll sind. Egal, ob du vor einer Zugfahrt eine Flasche auffüllen, beim Stadtrundgang den Kauf zusätzlicher Plastikflaschen vermeiden oder an einem Rastplatz auf einer Autoreise Wasser finden möchtest – das Ziel ist einfach: schnellerer Zugang zu nützlichen Wasserstellen in deiner Nähe."
     },
     toilet: {
-      pageTitle: "Karte mit öffentlichen Toiletten",
+      pageTitle: "Öffentliche Toiletten in der Nähe | Karte",
       meta: {
-        description: "Finde öffentliche Toiletten auf Reisen, darunter auch Toiletten an Tankstellen und in Geschäften. Kostenlose App."
+        description: "Finde öffentliche Toiletten in deiner Nähe mit Voyager Maps. Prüfe verfügbare Zugangsinfos. Lade die kostenlose App für iOS und Android herunter."
       },
       heroAria: "Hauptbereich der Seite „Öffentliche Toiletten“",
-      heroTitle: "Finde überall öffentliche Toiletten",
-      heroLead: "Finde öffentliche Toiletten in deiner Nähe, beim Stadtbummel oder auf dem Roadtrip. Entdecke passende Stopps mit Voyager Maps, der kostenlosen App für iOS und Android.",
+      heroTitle: "Finde öffentliche Toiletten in deiner Nähe",
+      heroLead: "Ob Stadtbummel oder Roadtrip: Finde deinen nächsten Toilettenstopp mit Voyager Maps. Entdecke Toiletten auf der Karte und prüfe Zugangsinfos, sofern vorhanden. Die App ist kostenlos für iOS und Android.",
       previewAlt: "Vorschau auf die Standorte öffentlicher Toiletten",
       previewNote: "Du siehst hier nur eine begrenzte Vorschau",
       problemAria: "Probleme bei der Suche nach öffentlichen Toiletten",
