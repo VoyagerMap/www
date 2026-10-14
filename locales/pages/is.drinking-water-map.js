@@ -53,7 +53,7 @@ window.voyagerLocales["is"] = {
       },
       "heroAria": "Aðalmynd síðunnar um drykkjarvatn",
       "heroTitle": "Finndu ókeypis drykkjarvatn hvar sem er",
-      "heroLead": "Það er nógu pirrandi að verða vatnslaus á miðri ferð — en enn verra þegar áfyllingarstaðir eru faldir, úreltir eða einfaldlega vantar á kortið.",
+      "heroLead": "Fylltu flöskuna og haltu áfram að kanna. Leitaðu að ókeypis drykkjarvatni, almenningskrönum og drykkjarbrunnum nálægt þér með Voyager Maps, ókeypis appinu fyrir iOS og Android.",
       "previewAlt": "Forskoðun á stöðum með drykkjarvatni",
       "previewNote": "Þú sérð aðeins takmarkaða forskoðun",
       "problemAria": "Vandamál með að finna ókeypis drykkjarvatn",

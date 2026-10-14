@@ -53,7 +53,7 @@ window.voyagerLocales["en"] = {
       },
       "heroAria": "Drinking water landing hero",
       "heroTitle": "Find free drinking water anywhere",
-      "heroLead": "Running out of water mid-trip is frustrating enough — but when refill spots are hidden, outdated, or simply missing from your map, it's even worse.",
+      "heroLead": "Refill your bottle and keep exploring. Find free drinking water, public taps and water fountains near you with Voyager Maps, the free app for iOS and Android.",
       "previewAlt": "Preview of drinking water locations",
       "previewNote": "You are only seeing a limited preview",
       "problemAria": "Problems finding free drinking water",

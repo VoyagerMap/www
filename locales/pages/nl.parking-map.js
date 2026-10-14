@@ -53,7 +53,7 @@ window.voyagerLocales["nl"] = {
       },
       "heroAria": "Hoofdafbeelding van de pagina over parkeren",
       "heroTitle": "Vind overal een parkeerplek",
-      "heroLead": "Meer dan 1,1 miljoen parkeerplekken in 237 landen — parkeerterreinen, parkeergarages en ondergrondse parkeergarages, en parkeerplekken langs de weg — waarvan 810.000 gratis zijn.",
+      "heroLead": "Vind een parkeerplek voordat je aankomt. Verken meer dan 1,1 miljoen parkeerlocaties, waaronder 810.000 die als gratis geregistreerd staan, met Voyager Maps. Gratis voor iOS en Android.",
       "previewAlt": "Screenshot van de Voyager Maps-app met parkeerlocaties in het centrum van Parijs",
       "previewNote": "Parkeerplekken in het centrum van Parijs, weergegeven in de Voyager Maps-app.",
       "problemAria": "Moeite met het vinden van een parkeerplek?",

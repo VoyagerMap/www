@@ -53,7 +53,7 @@ window.voyagerLocales["nl"] = {
       },
       "heroAria": "Hoofdgedeelte van de pagina voor backpackers en soloreizigers",
       "heroTitle": "De handige kaart voor backpackers",
-      "heroLead": "Nieuwe stad, zware rugzak, nog zes uur tot je moet inchecken. Ergens op loopafstand zijn een douche, een wasserette, een drinkwaterkraan en gratis wifi — maar geen daarvan staat op de kaart die je bij je hebt.",
+      "heroLead": "Reis licht en vind wat je onderweg nodig hebt: douches, wasserettes, drinkwaterpunten en gratis wifi bij je volgende stop. Download Voyager Maps gratis voor iOS en Android.",
       "previewAlt": "Voorbeeld van douches, wasserettes en waterpunten voor backpackers",
       "previewNote": "Je ziet nu slechts een beperkt voorproefje",
       "problemAria": "Problemen waarmee soloreizigers te maken krijgen bij het vinden van praktische voorzieningen",

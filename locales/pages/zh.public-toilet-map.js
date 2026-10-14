@@ -47,13 +47,13 @@ window.voyagerLocales["zh"] = {
       "footer": "© Voyager Maps 网站",
       "exploreCampervanLink": "房车服务地图",
       "exploreBackpackerLink": "背包客地图",
-      "pageTitle": "公共厕所地图",
+      "pageTitle": "附近的公共厕所 | 厕所地图",
       "meta": {
-        "description": "旅行途中查找公共厕所，包括加油站和商店内的卫生间。免费应用。"
+        "description": "用Voyager Maps查找附近的公共厕所，查看已提供的使用信息。下载适用于iOS和Android的免费应用。"
       },
       "heroAria": "公共厕所页面首屏区域",
-      "heroTitle": "随时随地查找公共厕所",
-      "heroLead": "当您急需寻找洗手间时，普通地图搜索结果往往不完整、过时，或者被无关地点淹没。",
+      "heroTitle": "查找附近的公共厕所",
+      "heroLead": "从城市漫步到自驾旅行，用Voyager Maps寻找下一处如厕地点。浏览地图上标注的厕所，并在有相关信息时查看使用详情。应用免费，适用于iOS和Android。",
       "previewAlt": "公共厕所位置预览",
       "previewNote": "您目前仅能查看部分预览内容",
       "problemAria": "查找公共厕所时的难题",

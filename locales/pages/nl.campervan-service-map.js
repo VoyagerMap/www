@@ -53,7 +53,7 @@ window.voyagerLocales["nl"] = {
       },
       "heroAria": "Hoofdafbeelding van de pagina over servicepunten voor campers",
       "heroTitle": "Water, douches en campings voor je camper",
-      "heroLead": "Het uitzicht is perfect, maar de watertank is leeg. Servicepunten, vulkranen en douches staan verspreid over forums en ledenlijsten, waardoor het praktische deel van het camperleven veel meer zoekwerk kost dan nodig zou zijn.",
+      "heroLead": "Bereid je volgende avontuur met je busje of camper voor. Vind drinkwater, douches, campings en wasserettes bij je tussenstops met Voyager Maps, de gratis app voor iOS en Android.",
       "previewAlt": "Voorbeeld van campings en servicepunten voor campers",
       "previewNote": "Je ziet nu slechts een beperkt voorproefje",
       "problemAria": "Heb je moeite met het vinden van servicepunten voor campers?",

@@ -53,7 +53,7 @@ window.voyagerLocales["is"] = {
       },
       "heroAria": "Aðalmynd síðunnar fyrir bakpokaferðalanga og þá sem ferðast einir",
       "heroTitle": "Hagnýtt kort fyrir bakpokaferðalanga",
-      "heroLead": "Ný borg, þungur farangur, sex klukkustundir þangað til innritun. Einhvers staðar innan göngufæris eru sturta, þvottahús, drykkjarvatnskrani og ókeypis Wi-Fi — en ekkert af þessu er á kortinu sem þú heldur í höndinni.",
+      "heroLead": "Ferðastu létt og finndu það sem þú þarft á næsta viðkomustað: sturtur, þvottahús, drykkjarvatn og ókeypis Wi-Fi. Sæktu Voyager Maps ókeypis fyrir iOS og Android.",
       "previewAlt": "Forskoðun á sturtum, þvottahúsum og vatnsstöðvum fyrir bakpokaferðalanga",
       "previewNote": "Þú sérð aðeins takmarkaða forskoðun",
       "problemAria": "Vandamál sem ferðalangar á eigin spýtur standa frammi fyrir við að finna hagnýta aðstöðu",

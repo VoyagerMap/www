@@ -47,13 +47,13 @@ window.voyagerLocales["fil"] = {
       "termsLink": "Mga Tuntunin",
       "deleteLink": "Burahin ang Data",
       "footer": "© Website ng Voyager Maps",
-      "pageTitle": "Mapa ng mga Pampublikong Palikuran",
+      "pageTitle": "Pampublikong banyo sa malapit - Mapa",
       "meta": {
-        "description": "Maghanap ng pampublikong banyo habang naglalakbay, kabilang ang mga banyo sa mga gasolinahan at tindahan. Libreng app."
+        "description": "Hanapin sa Voyager Maps ang pampublikong banyo sa malapit. Tingnan ang detalye ng access kung mayroon. I-download ang libreng app para sa iOS at Android."
       },
       "heroAria": "Pangunahing seksyon ng pahina ng pampublikong palikuran",
-      "heroTitle": "Hanapin ang mga pampublikong banyo kahit saan",
-      "heroLead": "Kapag kailangan mong agad na makahanap ng banyo, madalas hindi kumpleto, lipas na, o natatabunan ng mga hindi kaugnay na lugar ang karaniwang resulta ng mapa.",
+      "heroTitle": "Maghanap ng pampublikong banyo malapit sa iyo",
+      "heroLead": "Mula sa paglalakad sa lungsod hanggang sa road trip, hanapin ang susunod mong hintuan para magbanyo gamit ang Voyager Maps. Tingnan ang mga banyo sa mapa at ang mga detalye ng access kung mayroon. Libre ang app para sa iOS at Android.",
       "previewAlt": "Paunang pagtingin sa mga lokasyon ng pampublikong palikuran",
       "previewNote": "Nakikita mo lamang ang limitadong paunang sulyap",
       "problemAria": "Problema sa paghahanap ng pampublikong palikuran",

@@ -33,7 +33,7 @@ window.voyagerLocales["hu"] = {
       "footer": "© Voyager Maps weboldal",
       "consentEyebrow": "Adatvédelmi beállítások",
       "consentTitle": "Adatkezelési beállítások",
-      "consentDescription": "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapset.",
+      "consentDescription": "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Maps-et.",
       "consentNecessaryLabel": "Szükséges",
       "consentNecessaryDescription": "A nyelvválasztáshoz, a hozzájárulási beállítások mentéséhez és az oldal alapműködéséhez szükséges.",
       "consentNecessaryValue": "Mindig aktív",

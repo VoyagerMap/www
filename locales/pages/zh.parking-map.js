@@ -53,7 +53,7 @@ window.voyagerLocales["zh"] = {
       },
       "heroAria": "停车页面首屏区域",
       "heroTitle": "随时随地找到停车位",
-      "heroLead": "覆盖237个国家/地区的110多万个停车点——包括停车场、多层停车场、地下车库及路边停车位——其中81万个为免费停车位。",
+      "heroLead": "到达前先找好停车地点。Voyager Maps收录了110多万个停车点，其中81万个被记录为免费。应用可在iOS和Android上免费使用。",
       "previewAlt": "Voyager Maps 应用截图，展示巴黎市中心的停车地点",
       "previewNote": "Voyager Maps 应用中显示的巴黎市中心停车位。",
       "problemAria": "查找停车位时的难题",

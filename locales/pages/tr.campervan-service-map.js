@@ -53,7 +53,7 @@ window.voyagerLocales["tr"] = {
       "heroAria": "Karavan hizmet noktaları açılış bölümü",
       "eyebrow": "Seyahat için kullanışlı harita",
       "heroTitle": "Karavanınız için su, duş ve kamp alanları",
-      "heroLead": "Manzara mükemmel ama su deposu boş. Hizmet noktaları, su doldurma muslukları ve duşlar çeşitli forumlara ve üyelere özel listelere dağılmış durumda; bu yüzden karavan hayatının pratik kısmı, olması gerekenden çok daha fazla arama gerektiriyor.",
+      "heroLead": "Bir sonraki karavan maceranıza rahatça hazırlanın. iOS ve Android için ücretsiz uygulama Voyager Maps ile duraklarınızın yakınındaki içme suyu, duş, kamp alanı ve çamaşırhaneleri bulun.",
       "previewAlt": "Karavanlar için kamp alanları ve hizmet noktalarının önizlemesi",
       "previewNote": "Şu anda yalnızca sınırlı bir önizleme görüyorsunuz",
       "problemAria": "Karavan servis noktalarını bulma sorunları",

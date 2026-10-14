@@ -53,7 +53,7 @@ window.voyagerLocales["fr"] = {
       },
       "heroAria": "Section principale de la page « Parkings »",
       "heroTitle": "Trouve une place de parking partout",
-      "heroLead": "Plus de 1,1 million d’emplacements de stationnement dans 237 pays — parkings, parkings à étages, parkings souterrains et places en bord de route — dont 810 000 gratuits.",
+      "heroLead": "Trouve où te garer avant d’arriver. Explore plus de 1,1 million de lieux de stationnement, dont 810 000 répertoriés comme gratuits, avec Voyager Maps. Appli gratuite sur iOS et Android.",
       "previewAlt": "Capture d’écran de l’appli Voyager Maps indiquant les emplacements de stationnement dans le centre de Paris",
       "previewNote": "Emplacements de stationnement dans le centre de Paris, affichés dans l’appli Voyager Maps.",
       "problemAria": "Tu as du mal à trouver une place de parking ?",

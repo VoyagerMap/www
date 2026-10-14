@@ -53,7 +53,7 @@ window.voyagerLocales["pt"] = {
       },
       "heroAria": "Imagem principal da página para mochileiros e quem viaja sozinho",
       "heroTitle": "O mapa prático para mochileiros",
-      "heroLead": "Cidade nova, mochila pesada, faltam seis horas para o check-in. Em algum lugar a uma curta distância a pé há um chuveiro, uma lavanderia, uma torneira de água potável e Wi-Fi grátis — e nada disso está no mapa que você tem em mãos.",
+      "heroLead": "Viaje leve e encontre o essencial na próxima parada: chuveiros, lavanderias, pontos de água potável e Wi-Fi grátis. Baixe o Voyager Maps gratuitamente para iOS e Android.",
       "previewAlt": "Prévia dos chuveiros, lavanderias e pontos de água para mochileiros",
       "previewNote": "Você está vendo apenas uma prévia limitada",
       "problemAria": "Problemas que quem viaja sozinho enfrenta ao procurar serviços úteis",

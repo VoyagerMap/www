@@ -47,13 +47,13 @@ window.voyagerLocales["nl"] = {
       "footer": "© Website van Voyager Maps",
       "exploreCampervanLink": "Kaart met voorzieningen voor campers",
       "exploreBackpackerLink": "Backpacker-kaart",
-      "pageTitle": "Kaart met openbare toiletten",
+      "pageTitle": "Openbare toiletten in de buurt | Kaart",
       "meta": {
-        "description": "Vind openbare toiletten tijdens het reizen, inclusief toiletten bij tankstations en winkels. Gratis app."
+        "description": "Vind openbare toiletten in de buurt met Voyager Maps. Bekijk beschikbare toegangsinformatie. Download de gratis app voor iOS en Android."
       },
       "heroAria": "Hoofdafbeelding van de pagina over openbare toiletten",
-      "heroTitle": "Vind overal openbare toiletten",
-      "heroLead": "Als je snel een toilet nodig hebt, zijn de resultaten op gewone kaarten vaak onvolledig, verouderd of verstopt tussen irrelevante plekken.",
+      "heroTitle": "Vind openbare toiletten bij jou in de buurt",
+      "heroLead": "Van stadswandelingen tot roadtrips: vind je volgende toiletstop met Voyager Maps. Bekijk toiletten op de kaart en controleer de toegangsinformatie, wanneer beschikbaar. De app is gratis voor iOS en Android.",
       "previewAlt": "Voorbeeld van de locaties van openbare toiletten",
       "previewNote": "Je ziet nu slechts een beperkt voorproefje",
       "problemAria": "Moeite met het vinden van openbare toiletten?",

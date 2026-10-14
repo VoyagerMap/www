@@ -53,7 +53,7 @@ window.voyagerLocales["da"] = {
       },
       "heroAria": "Hovedbillede for drikkevand",
       "heroTitle": "Find gratis drikkevand overalt",
-      "heroLead": "At løbe tør for vand midt på rejsen er frustrerende nok — men når påfyldningsstederne er skjulte, forældede eller simpelthen mangler på dit kort, er det endnu værre.",
+      "heroLead": "Fyld din flaske, og fortsæt på opdagelse. Søg efter gratis drikkevand, offentlige vandhaner og drikkefontæner i nærheden med Voyager Maps, den gratis app til iOS og Android.",
       "previewAlt": "Eksempel på steder med drikkevand",
       "previewNote": "Du ser kun et begrænset uddrag",
       "problemAria": "Problemer med at finde gratis drikkevand",

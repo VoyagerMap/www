@@ -47,13 +47,13 @@ window.voyagerLocales["ja"] = {
       "footer": "© Voyager Maps ウェブサイト",
       "exploreCampervanLink": "キャンピングカー向けサービスマップ",
       "exploreBackpackerLink": "バックパッカー向けマップ",
-      "pageTitle": "公衆トイレマップ",
+      "pageTitle": "近くの公衆トイレ | トイレマップ",
       "meta": {
-        "description": "旅行中に公衆トイレを探せます。ガソリンスタンドや店舗内のトイレも含まれます。無料アプリです。"
+        "description": "Voyager Mapsで近くの公衆トイレを探せます。掲載されている利用情報をご確認ください。iOS・Androidの無料アプリをダウンロードできます。"
       },
       "heroAria": "公衆トイレページのメインビジュアル",
-      "heroTitle": "どこでも公衆トイレを見つける",
-      "heroLead": "急いでトイレを探したいとき、一般的な地図の検索結果は、不完全だったり、古かったり、関係のない場所に埋もれていたりすることがよくあります。",
+      "heroTitle": "近くの公衆トイレを探しましょう",
+      "heroLead": "街歩きからドライブ旅行まで、Voyager Mapsで次に立ち寄るトイレを探せます。地図に掲載されたトイレを見て、利用に関する情報がある場合はご確認ください。iOS・Android向けの無料アプリです。",
       "previewAlt": "公衆トイレスポットのプレビュー",
       "previewNote": "表示されているのは限定プレビューです",
       "problemAria": "公衆トイレを見つけにくい理由",

@@ -47,13 +47,13 @@ window.voyagerLocales["it"] = {
       "footer": "© Sito web di Voyager Maps",
       "exploreCampervanLink": "Mappa dei servizi per camper",
       "exploreBackpackerLink": "Mappa per backpacker",
-      "pageTitle": "Mappa dei bagni pubblici",
+      "pageTitle": "Bagni pubblici vicino a te | Mappa",
       "meta": {
-        "description": "Trova i bagni pubblici mentre sei in viaggio, compresi quelli delle stazioni di servizio e dei negozi. App gratuita."
+        "description": "Trova bagni pubblici vicino a te con Voyager Maps. Consulta le informazioni di accesso disponibili. Scarica l’app gratuita per iOS e Android."
       },
       "heroAria": "Immagine principale della pagina dedicata ai bagni pubblici",
-      "heroTitle": "Trova bagni pubblici ovunque",
-      "heroLead": "Quando hai bisogno di un bagno in fretta, i risultati delle mappe standard sono spesso incompleti, obsoleti o nascosti tra luoghi irrilevanti.",
+      "heroTitle": "Trova bagni pubblici vicino a te",
+      "heroLead": "Dalle passeggiate in città ai viaggi on the road, trova dove fare la prossima sosta per andare in bagno con Voyager Maps. Esplora i bagni sulla mappa e consulta le condizioni di accesso, quando disponibili. L’app è gratuita per iOS e Android.",
       "previewAlt": "Anteprima delle posizioni dei bagni pubblici",
       "previewNote": "Stai visualizzando solo un’anteprima limitata",
       "problemAria": "Hai difficoltà a trovare i bagni pubblici?",

@@ -53,7 +53,7 @@ window.voyagerLocales["en"] = {
       },
       "heroAria": "Parking landing hero",
       "heroTitle": "Find parking anywhere",
-      "heroLead": "Over 1.1 million parking locations across 237 countries — car parks, multi-storey and underground garages, and roadside stops — with 810,000 of them free of charge.",
+      "heroLead": "Find a place to park before you arrive. Explore over 1.1 million parking locations, including 810,000 recorded as free, with Voyager Maps. Free on iOS and Android.",
       "previewAlt": "Voyager Maps app screenshot showing parking locations across central Paris",
       "previewNote": "Parking locations in central Paris, shown in the Voyager Maps app.",
       "problemAria": "Problems finding parking",

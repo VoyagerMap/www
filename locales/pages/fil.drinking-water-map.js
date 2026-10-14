@@ -53,7 +53,7 @@ window.voyagerLocales["fil"] = {
       },
       "heroAria": "Pangunahing seksyon ng pahina ng inuming tubig",
       "heroTitle": "Hanapin ang libreng inuming tubig kahit saan",
-      "heroLead": "Nakakainis na maubusan ng tubig habang naglalakbay — pero kapag nakatago, lipas na, o simpleng wala sa mapa mo ang mga lugar para mag-refill, mas nakakainis pa.",
+      "heroLead": "Mag-refill ng bote at magpatuloy sa pag-explore. Maghanap ng libreng inuming tubig, pampublikong gripo at drinking fountain sa malapit gamit ang Voyager Maps, ang libreng app para sa iOS at Android.",
       "previewAlt": "Paunang sulyap sa mga lokasyon ng inuming tubig",
       "previewNote": "Nakikita mo lamang ang limitadong paunang sulyap",
       "problemAria": "Problema sa paghahanap ng libreng inuming tubig",

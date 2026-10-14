@@ -53,7 +53,7 @@ window.voyagerLocales["fil"] = {
       },
       "heroAria": "Pangunahing seksyon ng pahina para sa mga backpacker at solo traveler",
       "heroTitle": "Ang praktikal na mapa para sa mga backpacker",
-      "heroLead": "Bagong lungsod, mabigat na backpack, anim na oras bago mag-check-in. May shower, laundromat, gripo ng inuming tubig at libreng Wi-Fi na kayang lakarin mula rito — pero wala sa mga iyon ang nasa mapang hawak mo.",
+      "heroLead": "Maglakbay nang magaan at hanapin ang pang-araw-araw na kailangan malapit sa susunod mong hintuan: shower, laundromat, refill point ng inuming tubig at libreng Wi-Fi. I-download ang Voyager Maps nang libre para sa iOS at Android.",
       "previewAlt": "Preview ng mga shower, laundromat at inuming tubig para sa mga backpacker",
       "previewNote": "Nakikita mo lamang ang limitadong paunang sulyap",
       "problemAria": "Mga problemang kinahaharap ng mga naglalakbay nang mag-isa sa paghahanap ng mga praktikal na pasilidad",

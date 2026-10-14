@@ -53,7 +53,7 @@ window.voyagerLocales["vi"] = {
       },
       "heroAria": "Phần mở đầu của trang dành cho khách du lịch ba lô và người đi một mình",
       "heroTitle": "Bản đồ thiết thực cho khách du lịch ba lô",
-      "heroLead": "Thành phố mới, ba lô nặng, còn sáu tiếng nữa mới được nhận phòng. Trong khoảng cách đi bộ có chỗ tắm, tiệm giặt tự phục vụ, vòi nước uống và Wi-Fi miễn phí — nhưng không nơi nào xuất hiện trên tấm bản đồ bạn đang có.",
+      "heroLead": "Du lịch gọn nhẹ và tìm tiện ích hằng ngày gần điểm đến tiếp theo: chỗ tắm, tiệm giặt, điểm lấy nước uống và Wi-Fi miễn phí. Tải Voyager Maps miễn phí cho iOS và Android.",
       "previewAlt": "Xem trước các điểm tắm, giặt là và lấy nước dành cho dân phượt",
       "previewNote": "Bạn chỉ đang xem bản xem trước giới hạn",
       "problemAria": "Những khó khăn mà du khách đi một mình gặp phải khi tìm kiếm các tiện ích thiết thực",

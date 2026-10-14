@@ -53,7 +53,7 @@ window.voyagerLocales["it"] = {
       },
       "heroAria": "Immagine principale della pagina dedicata ai parcheggi",
       "heroTitle": "Trova parcheggio ovunque",
-      "heroLead": "Oltre 1,1 milioni di posti auto in 237 paesi — parcheggi, garage a più piani e sotterranei, e aree di sosta lungo le strade — di cui 810.000 gratuiti.",
+      "heroLead": "Trova dove parcheggiare prima di arrivare. Esplora oltre 1,1 milioni di luoghi per la sosta, di cui 810.000 registrati come gratuiti, con Voyager Maps. App gratuita per iOS e Android.",
       "previewAlt": "Screenshot dell’app Voyager Maps che mostra le posizioni dei parcheggi nel centro di Parigi",
       "previewNote": "Posti auto nel centro di Parigi, visualizzati nell’app Voyager Maps.",
       "problemAria": "Hai problemi a trovare parcheggio?",

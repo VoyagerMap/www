@@ -53,7 +53,7 @@ window.voyagerLocales["zh"] = {
       },
       "heroAria": "房车服务点页面首屏区域",
       "heroTitle": "为您的房车提供饮用水、淋浴设施和露营地",
-      "heroLead": "风景虽美，水箱却已见底。服务点、加水龙头和淋浴设施散见于各类论坛和会员专属列表中，因此房车生活的实用部分往往需要花费远超预期的时间去寻找。",
+      "heroLead": "让下一段房车旅程更舒适。用适用于iOS和Android的免费应用Voyager Maps，查找停靠点附近的饮用水、淋浴设施、露营地和洗衣店。",
       "previewAlt": "房车露营地及服务点的预览",
       "previewNote": "您目前仅能查看部分预览内容",
       "problemAria": "找不到房车服务点？",

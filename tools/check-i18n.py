@@ -7,7 +7,7 @@ everywhere and simply says different things — which is what a half-applied
 correction looks like from the outside, and is how most of this site's
 translation faults have actually shown up.
 
-Six checks, each one written because it found something real:
+Checks for specific defects, each written because it found something real:
 
   divergence      One English string rendered two ways inside one language.
                   "Public Toilet Map" was two different German headings and
@@ -24,6 +24,8 @@ Six checks, each one written because it found something real:
                   shows. Translations run 30-50% longer than the English.
   english         A translated value byte-identical to the English source,
                   outside the handful of brand names that stay English.
+  label-fragment  A price/platform label has an empty segment around its
+                  middle-dot separator. This is not a grammar check.
 
 Usage:  python3 tools/check-i18n.py [--strict] [--only CHECK] [code ...]
         --strict  also fails on warnings, not just errors.
@@ -55,6 +57,18 @@ ALLOWED_IDENTICAL = {
     ("fr", "vsGm5"),            # "Navigation, restaurants, cafés" — all French words
     ("nl", "ctaOpenApp"),       # "Open" is the Dutch imperative too
     ("nl", "openAppAria"),
+}
+
+# These four pages deliberately adapt the generic English landing copy to
+# local search intent (steps, screenshot disclosure, and nearby facilities).
+# Only these fields skip translation-consistency checks; all other checks,
+# including length, missing keys and register, still apply.
+ADAPTED_COPY = {
+    (code, f"landingPages.{group}.{key}")
+    for code, group in (("fr", "shower"), ("it", "shower"),
+                        ("pl", "shower"), ("pl", "water"))
+    for key in ("pageTitle", "previewNote", "feature1Title",
+                "feature2Title", "feature3Title", "ctaBlockTitle")
 }
 
 # Search results truncate. Latin scripts get the usual character budget; CJK
@@ -118,6 +132,8 @@ def check_divergence(code, dic, english):
     """One English string that became two in this language."""
     by_source = defaultdict(lambda: defaultdict(list))
     for path, value in dic.items():
+        if (code, path) in ADAPTED_COPY:
+            continue
         source = english.get(path)
         if not source or len(source) < 8:
             continue
@@ -203,11 +219,25 @@ def check_english(code, dic, english):
     return out
 
 
-# All six are clean as of 2026-09-20, so all six block. They were not when
+def check_label_fragment(code, dic):
+    """Catch lost words in pageFree labels, including shared labels."""
+    out = []
+    for path, value in dic.items():
+        if path.split(".")[-1] != "pageFree":
+            continue
+        parts = value.split("·")
+        if not value.strip() or any(not part.strip() for part in parts):
+            out.append((f"{code}: {path} has an incomplete label", value))
+    return out
+
+
+# The original six are clean as of 2026-09-20, so all six block. They were not when
 # this tool was written: divergence started at 35 findings and seo-length at
 # one, and both reported without failing until the backlog was paid down.
 # Keep that pattern for anything added later — a check that fails on the day
 # it lands gets switched off, and then it is not a check.
+# label-fragment also blocks: it reproduced the missing price label before
+# the copy was fixed. None of these checks is a general grammar validator.
 CHECKS = {
     "divergence": "error",
     "shared-drift": "error",
@@ -215,6 +245,7 @@ CHECKS = {
     "register": "error",
     "seo-length": "error",
     "english": "error",
+    "label-fragment": "error",
 }
 
 
@@ -248,6 +279,8 @@ def main():
             findings["seo-length"] += check_seo_length(code, dic)
         if only in (None, "english") and code != SOURCE:
             findings["english"] += check_english(code, dic, english)
+        if only in (None, "label-fragment"):
+            findings["label-fragment"] += check_label_fragment(code, flatten(source))
 
     failed = 0
     for name, level in CHECKS.items():

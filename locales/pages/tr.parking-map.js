@@ -53,7 +53,7 @@ window.voyagerLocales["tr"] = {
       "heroAria": "Otopark açılış bölümü",
       "eyebrow": "Seyahat yardımcı haritası",
       "heroTitle": "Her yerde park yeri bulun",
-      "heroLead": "237 ülkede 1,1 milyondan fazla park yeri — otoparklar, çok katlı ve yer altı garajları ile yol kenarındaki park alanları — bunların 810.000'i ücretsizdir.",
+      "heroLead": "Varmadan önce park edecek bir yer bulun. Voyager Maps'te 810.000'i ücretsiz olarak kaydedilmiş 1,1 milyondan fazla park noktasını keşfedin. Uygulama iOS ve Android'de ücretsizdir.",
       "previewAlt": "Paris merkezindeki otoparkları gösteren Voyager Maps uygulaması ekran görüntüsü",
       "previewNote": "Voyager Maps uygulamasında gösterilen Paris merkezindeki otoparklar.",
       "problemAria": "Park yeri bulma sorunları",

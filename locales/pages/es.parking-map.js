@@ -53,7 +53,7 @@ window.voyagerLocales["es"] = {
       },
       "heroAria": "Imagen principal de la página de aparcamientos",
       "heroTitle": "Encuentra aparcamiento en cualquier sitio",
-      "heroLead": "Más de 1,1 millones de plazas de aparcamiento en 237 países —aparcamientos, aparcamientos de varias plantas y subterráneos, y zonas de aparcamiento en la calle—, de las cuales 810 000 son gratuitas.",
+      "heroLead": "Encuentra dónde aparcar antes de llegar. Explora más de 1,1 millones de lugares de aparcamiento, incluidos 810 000 registrados como gratuitos, con Voyager Maps. App gratuita para iOS y Android.",
       "previewAlt": "Captura de pantalla de la app Voyager Maps que muestra las ubicaciones de los aparcamientos en el centro de París",
       "previewNote": "Ubicaciones de aparcamientos en el centro de París, mostradas en la app Voyager Maps.",
       "problemAria": "¿Te cuesta encontrar aparcamiento?",

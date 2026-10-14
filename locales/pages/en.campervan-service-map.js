@@ -53,7 +53,7 @@ window.voyagerLocales["en"] = {
       },
       "heroAria": "Campervan service points landing hero",
       "heroTitle": "Water, showers and campsites for your camper",
-      "heroLead": "The view is perfect and the water tank is empty. Service points, refill taps and showers sit scattered across forums and members-only lists, so the practical half of van life takes far more searching than it should.",
+      "heroLead": "Keep your next van life adventure moving. Find drinking water, showers, campsites and laundry near your stops with Voyager Maps, the free app for iOS and Android.",
       "previewAlt": "Preview of campsites and service points for campervans",
       "previewNote": "You are only seeing a limited preview",
       "problemAria": "Problems finding campervan service points",

@@ -18,7 +18,7 @@ window.voyagerLocales["hu"] = {
       "proofRatingAria": "4,9 az 5-ből az App Store-ban és a Google Playen",
       "consentEyebrow": "Adatvédelmi beállítások",
       "consentTitle": "Adatkezelési beállítások",
-      "consentDescription": "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Mapset.",
+      "consentDescription": "Az opcionális analitikát csak a hozzájárulásod után használjuk statisztikai célokra, hogy fejlesszük és finomítsuk a Voyager Maps-et.",
       "consentNecessaryLabel": "Szükséges",
       "consentNecessaryDescription": "A nyelvválasztáshoz, a hozzájárulási beállítások mentéséhez és az oldal alapműködéséhez szükséges.",
       "consentNecessaryValue": "Mindig aktív",
@@ -43,15 +43,15 @@ window.voyagerLocales["hu"] = {
       "footer": "© Voyager Maps weboldal",
       "exploreCampervanLink": "Kempingbusz-szolgáltatási térkép",
       "exploreBackpackerLink": "Backpacker-térkép",
-      "pageTitle": "Nyilvános WC-térkép",
+      "pageTitle": "Nyilvános WC-k a közelben | Mosdótérkép",
       "meta": {
-        "description": "Találj nyilvános WC-ket utazás közben, a benzinkutak és üzletek mosdóit is beleértve. Ingyenes alkalmazás."
+        "description": "Találj nyilvános WC-ket a közeledben a Voyager Maps-ben. Nézd meg a feltüntetett használati feltételeket. Töltsd le az ingyenes appot iOS-re és Androidra."
       },
       "langOptionsAria": "Nyelvi lehetőségek",
       "heroAria": "Nyilvános WC landing nyitó szekció",
       "eyebrow": "Praktikus utazási térkép",
-      "heroTitle": "Találj nyilvános WC-ket bárhol",
-      "heroLead": "Amikor gyorsan mosdóra van szükséged, a hagyományos térképes találatok gyakran hiányosak, elavultak vagy irreleváns helyek közé vannak elrejtve.",
+      "heroTitle": "Találj nyilvános WC-ket a közeledben",
+      "heroLead": "Városi sétán vagy autós utazáson keresd meg a következő mosdót a Voyager Maps-ben. Nézd meg a térképen jelölt mosdókat és a megadott használati tudnivalókat. Az app ingyenes iOS-en és Androidon.",
       "pageFree": "Ingyenes · iOS & Android",
       "previewAlt": "Nyilvános WC helyek előnézete",
       "previewNote": "Csak egy korlátozott előnézetet látsz",

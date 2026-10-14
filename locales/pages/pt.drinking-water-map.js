@@ -53,7 +53,7 @@ window.voyagerLocales["pt"] = {
       },
       "heroAria": "Imagem principal da página sobre água potável",
       "heroTitle": "Encontre água potável de graça em qualquer lugar",
-      "heroLead": "Ficar sem água no meio da viagem já é frustrante o suficiente — mas quando os pontos de abastecimento estão escondidos, desatualizados ou simplesmente não aparecem no seu mapa, é ainda pior.",
+      "heroLead": "Encha sua garrafa e continue explorando. Busque água potável grátis, torneiras públicas e bebedouros perto de você com Voyager Maps, o app gratuito para iOS e Android.",
       "previewAlt": "Pré-visualização dos locais com água potável",
       "previewNote": "Você está vendo apenas uma prévia limitada",
       "problemAria": "Dificuldade em encontrar água potável de graça",

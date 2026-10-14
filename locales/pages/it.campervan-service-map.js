@@ -53,7 +53,7 @@ window.voyagerLocales["it"] = {
       },
       "heroAria": "Immagine principale della pagina dedicata ai punti di servizio per camper",
       "heroTitle": "Acqua, docce e campeggi per il tuo camper",
-      "heroLead": "Il panorama è perfetto, ma il serbatoio dell’acqua è vuoto. I punti di servizio, i rubinetti per il rifornimento e le docce sono sparsi tra forum e liste riservate ai membri, quindi la parte pratica della vita in camper richiede molto più tempo per essere organizzata di quanto dovrebbe.",
+      "heroLead": "Prepara la tua prossima avventura in van o camper. Trova acqua potabile, docce, campeggi e lavanderie vicino alle tue tappe con Voyager Maps, l’app gratuita per iOS e Android.",
       "previewAlt": "Anteprima dei campeggi e dei punti di servizio per camper",
       "previewNote": "Stai visualizzando solo un’anteprima limitata",
       "problemAria": "Hai difficoltà a trovare le aree di servizio per camper?",

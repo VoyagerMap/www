@@ -47,13 +47,13 @@ window.voyagerLocales["id"] = {
       "termsLink": "Syarat & Ketentuan",
       "deleteLink": "Hapus Data",
       "footer": "© Situs web Voyager Maps",
-      "pageTitle": "Peta Toilet Umum",
+      "pageTitle": "Toilet umum dekat Anda - Peta toilet",
       "meta": {
-        "description": "Temukan toilet umum saat bepergian, termasuk toilet di pom bensin dan toko-toko. Aplikasi gratis."
+        "description": "Temukan toilet umum dekat Anda di Voyager Maps. Lihat info akses jika tersedia. Unduh aplikasi gratis untuk iOS dan Android."
       },
       "heroAria": "Gambar utama halaman toilet umum",
-      "heroTitle": "Temukan toilet umum di mana saja",
-      "heroLead": "Saat Anda membutuhkan toilet dengan cepat, hasil pencarian peta pada umumnya sering kali tidak lengkap, sudah ketinggalan zaman, atau tersembunyi di antara lokasi-lokasi yang tidak relevan.",
+      "heroTitle": "Temukan toilet umum di dekat Anda",
+      "heroLead": "Dari jalan-jalan di kota hingga perjalanan darat, temukan tempat singgah berikutnya untuk ke toilet dengan Voyager Maps. Jelajahi toilet di peta dan lihat informasi akses jika tersedia. Aplikasi ini gratis untuk iOS dan Android.",
       "previewAlt": "Pratinjau lokasi toilet umum",
       "previewNote": "Anda hanya melihat pratinjau terbatas",
       "problemAria": "Kesulitan menemukan toilet umum",

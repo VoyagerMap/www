@@ -53,7 +53,7 @@ window.voyagerLocales["fr"] = {
       },
       "heroAria": "Section principale de la page « Routards et voyageurs en solo »",
       "heroTitle": "La carte pratique des voyageurs en sac à dos",
-      "heroLead": "Une nouvelle ville, un sac bien rempli, six heures avant l’enregistrement. Quelque part à quelques pas de là, il y a une douche, une laverie, un robinet d’eau potable et du Wi-Fi gratuit — mais rien de tout ça n’apparaît sur la carte que tu as en main.",
+      "heroLead": "Voyage léger et trouve l’essentiel à ta prochaine étape : douches, laveries, points d’eau potable et Wi-Fi gratuit. Télécharge Voyager Maps gratuitement sur iOS et Android.",
       "previewAlt": "Aperçu des douches, laveries et points d’eau pour les routards",
       "previewNote": "Tu ne vois qu’un aperçu limité",
       "problemAria": "Les difficultés rencontrées par les voyageurs en solo pour trouver des infrastructures pratiques",

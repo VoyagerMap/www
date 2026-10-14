@@ -53,7 +53,7 @@ window.voyagerLocales["vi"] = {
       },
       "heroAria": "Hình ảnh chính của trang nước uống",
       "heroTitle": "Tìm nước uống miễn phí ở bất cứ đâu",
-      "heroLead": "Hết nước giữa hành trình đã đủ phiền — nhưng còn tệ hơn khi các điểm lấy nước khó tìm, thông tin đã cũ hoặc đơn giản là không có trên bản đồ.",
+      "heroLead": "Đổ đầy bình nước và tiếp tục khám phá. Tìm nước uống miễn phí, vòi nước công cộng và điểm uống nước gần bạn với Voyager Maps, ứng dụng miễn phí cho iOS và Android.",
       "previewAlt": "Xem trước các điểm cấp nước uống",
       "previewNote": "Bạn chỉ đang xem bản xem trước giới hạn",
       "problemAria": "Khó khăn khi tìm nước uống miễn phí",

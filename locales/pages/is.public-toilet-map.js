@@ -47,13 +47,13 @@ window.voyagerLocales["is"] = {
       "termsLink": "Skilmálar",
       "deleteLink": "Eyða gögnum",
       "footer": "© Vefsvæði Voyager Maps",
-      "pageTitle": "Kort yfir almenningssalerni",
+      "pageTitle": "Almenningssalerni nálægt þér - Salerniskort",
       "meta": {
-        "description": "Finndu almenningssalerni á ferðalögum, þar á meðal salerni á bensínstöðvum og í verslunum. Ókeypis forrit."
+        "description": "Finndu almenningssalerni nálægt þér með Voyager Maps. Skoðaðu tiltækar upplýsingar um aðgang. Sæktu ókeypis appið fyrir iOS og Android."
       },
       "heroAria": "Aðalmynd síðunnar um almenningssalerni",
-      "heroTitle": "Finndu almenningssalerni hvar sem er",
-      "heroLead": "Þegar þú þarft fljótt að finna salerni eru hefðbundnar kortaleitir oft ófullkomnar, úreltar eða grafnar undir óviðkomandi stöðum.",
+      "heroTitle": "Finndu almenningssalerni nálægt þér",
+      "heroLead": "Finndu næsta salerni með Voyager Maps, hvort sem þú ert á borgargöngu eða í bílferð. Skoðaðu salerni á kortinu og upplýsingar um aðgang þar sem þær liggja fyrir. Appið er ókeypis fyrir iOS og Android.",
       "previewAlt": "Forskoðun á staðsetningum almenningssalerna",
       "previewNote": "Þú sérð aðeins takmarkaða forskoðun",
       "problemAria": "Vandamál við að finna almenningssalerni",

@@ -53,7 +53,7 @@ window.voyagerLocales["ko"] = {
       },
       "heroAria": "주차 페이지 메인 이미지",
       "heroTitle": "어디서나 주차 공간을 찾으세요",
-      "heroLead": "237개국에 걸쳐 110만 개 이상의 주차 장소(일반 주차장, 다층 및 지하 주차장, 노상 주차 구역 등)를 제공하며, 그중 81만 개는 무료로 이용 가능합니다.",
+      "heroLead": "도착하기 전에 주차할 곳을 찾아보세요. Voyager Maps에는 110만 곳 이상의 주차 위치가 있으며, 그중 81만 곳은 무료로 기록되어 있습니다. iOS와 Android에서 무료로 이용하세요.",
       "previewAlt": "파리 중심가의 주차 위치를 보여주는 Voyager Maps 앱 스크린샷",
       "previewNote": "Voyager Maps 앱에 표시된 파리 도심의 주차 장소들.",
       "problemAria": "주차 공간 찾기가 어려우신가요?",

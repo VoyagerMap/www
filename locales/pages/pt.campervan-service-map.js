@@ -53,7 +53,7 @@ window.voyagerLocales["pt"] = {
       },
       "heroAria": "Imagem principal da página sobre pontos de serviço para vans e motorhomes",
       "heroTitle": "Água, chuveiros e campings para sua van ou motorhome",
-      "heroLead": "A vista é perfeita, mas o tanque de água está vazio. Pontos de serviço, torneiras para reabastecimento e chuveiros estão espalhados por fóruns e listas exclusivas para membros, então a parte prática da vida na van exige muito mais pesquisa do que deveria.",
+      "heroLead": "Prepare sua próxima aventura de van. Encontre água potável, chuveiros, campings e lavanderias perto das suas paradas com Voyager Maps, o app gratuito para iOS e Android.",
       "previewAlt": "Prévia de áreas de acampamento e pontos de serviço para vans e motorhomes",
       "previewNote": "Você está vendo apenas uma prévia limitada",
       "problemAria": "Dificuldade em encontrar pontos de serviço para vans e motorhomes",

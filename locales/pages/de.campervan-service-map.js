@@ -53,7 +53,7 @@ window.voyagerLocales["de"] = {
       },
       "heroAria": "Hauptbereich der Seite „Wohnmobil-Servicestellen“",
       "heroTitle": "Wasser, Duschen und Campingplätze für dein Wohnmobil",
-      "heroLead": "Die Aussicht ist perfekt, aber der Wassertank ist leer. Versorgungsstellen, Wasserhähne zum Nachfüllen und Duschen sind über Foren und Mitgliederlisten verstreut, sodass die praktische Seite des Vanlife viel mehr Suchen erfordert, als sie eigentlich sollte.",
+      "heroLead": "Bereit für dein nächstes Vanlife-Abenteuer? Finde Trinkwasser, Duschen, Campingplätze und Waschsalons bei deinen Stopps mit Voyager Maps, der kostenlosen App für iOS und Android.",
       "previewAlt": "Vorschau auf Campingplätze und Servicestellen für Wohnmobile",
       "previewNote": "Du siehst hier nur eine begrenzte Vorschau",
       "problemAria": "Probleme beim Finden von Wohnmobil-Servicestellen",

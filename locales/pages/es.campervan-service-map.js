@@ -53,7 +53,7 @@ window.voyagerLocales["es"] = {
       },
       "heroAria": "Imagen principal de la página de puntos de servicio para autocaravanas",
       "heroTitle": "Agua, duchas y campings para tu autocaravana",
-      "heroLead": "Las vistas son geniales, pero el depósito de agua está vacío. Los puntos de servicio, las fuentes para rellenar y las duchas están dispersos por foros y listas exclusivas para miembros, así que la parte práctica de la vida en furgoneta te lleva mucho más tiempo de lo que debería.",
+      "heroLead": "Prepara tu próxima aventura en furgoneta. Encuentra agua potable, duchas, campings y lavanderías cerca de tus paradas con Voyager Maps, la app gratuita para iOS y Android.",
       "previewAlt": "Vista previa de campings y puntos de servicio para autocaravanas",
       "previewNote": "Solo estás viendo una vista previa limitada",
       "problemAria": "¿Te cuesta encontrar puntos de servicio para autocaravanas?",

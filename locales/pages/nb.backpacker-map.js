@@ -53,7 +53,7 @@ window.voyagerLocales["nb"] = {
       "heroAria": "Hovedbilde for backpackere og soloreisende",
       "eyebrow": "Kart med nyttige reisefunksjoner",
       "heroTitle": "Det praktiske kartet for backpackere",
-      "heroLead": "Ny by, tung bagasje, seks timer til innsjekking. Et eller annet sted innen gangavstand finnes det en dusj, et vaskeri, en drikkevannskran og gratis Wi-Fi – men ingen av disse stedene er markert på kartet du har i hånden.",
+      "heroLead": "Reis lett og finn det du trenger ved neste stopp: dusjer, vaskerier, drikkevann og gratis Wi-Fi. Last ned Voyager Maps gratis for iOS og Android.",
       "previewAlt": "Forhåndsvisning av dusjer, vaskerier og vannkilder for backpackere",
       "previewNote": "Du ser bare en begrenset forhåndsvisning",
       "problemAria": "Utfordringer soloreisende møter når de skal finne praktiske fasiliteter",

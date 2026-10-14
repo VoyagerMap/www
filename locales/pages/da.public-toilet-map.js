@@ -47,13 +47,13 @@ window.voyagerLocales["da"] = {
       "termsLink": "Vilkår",
       "deleteLink": "Slet data",
       "footer": "© Voyager Maps' hjemmeside",
-      "pageTitle": "Kort over offentlige toiletter",
+      "pageTitle": "Offentlige toiletter nær dig - Toiletkort",
       "meta": {
-        "description": "Find offentlige toiletter, når du er på farten, herunder toiletter på tankstationer og i butikker. Gratis app."
+        "description": "Find offentlige toiletter nær dig med Voyager Maps. Se adgangsoplysninger, når de findes. Hent den gratis app til iOS og Android."
       },
       "heroAria": "Hovedbillede for offentlige toiletter",
-      "heroTitle": "Find offentlige toiletter overalt",
-      "heroLead": "Når du hurtigt har brug for et toilet, er resultaterne på almindelige kort ofte ufuldstændige, forældede eller begravet under irrelevante steder.",
+      "heroTitle": "Find offentlige toiletter nær dig",
+      "heroLead": "Find dit næste toiletstop med Voyager Maps, fra gåture i byen til bilferier. Udforsk toiletter på kortet, og se adgangsoplysninger, når de findes. Appen er gratis til iOS og Android.",
       "previewAlt": "Oversigt over placeringer af offentlige toiletter",
       "previewNote": "Du ser kun et begrænset uddrag",
       "problemAria": "Problemer med at finde offentlige toiletter",

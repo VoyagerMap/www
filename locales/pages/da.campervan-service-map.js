@@ -53,7 +53,7 @@ window.voyagerLocales["da"] = {
       },
       "heroAria": "Hovedbillede for servicepunkter til autocampere",
       "heroTitle": "Vand, brusefaciliteter og campingpladser til din autocamper",
-      "heroLead": "Udsigten er perfekt, men vandtanken er tom. Servicesteder, påfyldningshaner og brusefaciliteter er spredt ud over forskellige fora og lukkede medlemslister, så den praktiske del af livet i en autocamper kræver langt mere søgen, end den burde.",
+      "heroLead": "Gør dig klar til næste eventyr i autocamperen. Find drikkevand, brusefaciliteter, campingpladser og vaskerier nær dine stop med Voyager Maps, den gratis app til iOS og Android.",
       "previewAlt": "Oversigt over campingpladser og servicepunkter for autocamper",
       "previewNote": "Du ser kun et begrænset uddrag",
       "problemAria": "Problemer med at finde servicesteder til autocamper",

@@ -53,7 +53,7 @@ window.voyagerLocales["de"] = {
       },
       "heroAria": "Hauptbereich der Seite „Backpacker und Alleinreisende“",
       "heroTitle": "Die praktische Karte für Backpacker",
-      "heroLead": "Neue Stadt, schweres Gepäck, noch sechs Stunden bis zum Check-in. Irgendwo in Laufnähe gibt es eine Dusche, einen Waschsalon, einen Trinkwasserhahn und kostenloses WLAN – nichts davon ist auf der Karte in deiner Hand verzeichnet.",
+      "heroLead": "Reise leicht und finde, was du unterwegs brauchst: Duschen, Waschsalons, Trinkwasserstellen und kostenloses WLAN an deinem nächsten Stopp. Lade Voyager Maps kostenlos für iOS und Android herunter.",
       "previewAlt": "Vorschau auf Duschen, Waschmöglichkeiten und Wasserstellen für Backpacker",
       "previewNote": "Du siehst hier nur eine begrenzte Vorschau",
       "problemAria": "Probleme, mit denen Alleinreisende bei der Suche nach praktischen Einrichtungen konfrontiert sind",

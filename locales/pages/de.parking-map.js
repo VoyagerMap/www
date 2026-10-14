@@ -53,7 +53,7 @@ window.voyagerLocales["de"] = {
       },
       "heroAria": "Hauptbereich der Seite „Parken“",
       "heroTitle": "Finde überall einen Parkplatz",
-      "heroLead": "Über 1,1 Millionen Parkplätze in 237 Ländern – Parkplätze, Parkhäuser und Tiefgaragen sowie Parkmöglichkeiten am Straßenrand – davon sind 810.000 kostenlos.",
+      "heroLead": "Finde einen Parkplatz, bevor du ankommst. Entdecke über 1,1 Millionen Parkmöglichkeiten, darunter 810.000 als kostenlos erfasste, mit Voyager Maps. Kostenlos für iOS und Android.",
       "previewAlt": "Screenshot der Voyager Maps-App, der Parkplätze im Zentrum von Paris anzeigt",
       "previewNote": "Parkplätze im Zentrum von Paris, dargestellt in der Voyager Maps-App.",
       "problemAria": "Probleme beim Parken",

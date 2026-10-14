@@ -53,7 +53,7 @@ window.voyagerLocales["nb"] = {
       "heroAria": "Hovedbilde for parkering",
       "eyebrow": "Kart med nyttige reisefunksjoner",
       "heroTitle": "Finn parkeringsplass hvor som helst",
-      "heroLead": "Over 1,1 millioner parkeringsplasser i 237 land – parkeringsplasser, fleretasjes- og underjordiske garasjer samt parkeringsplasser langs veien – hvorav 810 000 er gratis.",
+      "heroLead": "Finn parkering før du kommer frem. Utforsk over 1,1 millioner parkeringssteder, inkludert 810 000 registrert som gratis, med Voyager Maps. Gratisapp for iOS og Android.",
       "previewAlt": "Skjermbilde fra Voyager Maps-appen som viser parkeringsplasser i sentrum av Paris",
       "previewNote": "Parkeringsplasser i sentrum av Paris, vist i Voyager Maps-appen.",
       "problemAria": "Problemer med å finne parkeringsplass",

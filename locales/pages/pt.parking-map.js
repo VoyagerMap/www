@@ -53,7 +53,7 @@ window.voyagerLocales["pt"] = {
       },
       "heroAria": "Imagem principal da página sobre estacionamento",
       "heroTitle": "Encontre estacionamento em qualquer lugar",
-      "heroLead": "Mais de 1,1 milhão de locais de estacionamento em 237 países — estacionamentos, garagens de vários andares e subterrâneas, além de vagas à beira da estrada —, sendo 810 mil delas gratuitas.",
+      "heroLead": "Encontre onde estacionar antes de chegar. Explore mais de 1,1 milhão de locais, incluindo 810 mil registrados como gratuitos, com Voyager Maps. App gratuito para iOS e Android.",
       "previewAlt": "Captura de tela do aplicativo Voyager Maps mostrando locais de estacionamento no centro de Paris",
       "previewNote": "Locais de estacionamento no centro de Paris, mostrados no aplicativo Voyager Maps.",
       "problemAria": "Dificuldade para encontrar estacionamento",

@@ -47,13 +47,13 @@ window.voyagerLocales["de"] = {
       "footer": "© Voyager Maps-Website",
       "exploreCampervanLink": "Karte mit Wohnmobil-Servicestellen",
       "exploreBackpackerLink": "Backpacker-Karte",
-      "pageTitle": "Karte mit öffentlichen Toiletten",
+      "pageTitle": "Öffentliche Toiletten in der Nähe | Karte",
       "meta": {
-        "description": "Finde öffentliche Toiletten auf Reisen, darunter auch Toiletten an Tankstellen und in Geschäften. Kostenlose App."
+        "description": "Finde öffentliche Toiletten in deiner Nähe mit Voyager Maps. Prüfe verfügbare Zugangsinfos. Lade die kostenlose App für iOS und Android herunter."
       },
       "heroAria": "Hauptbereich der Seite „Öffentliche Toiletten“",
-      "heroTitle": "Finde überall öffentliche Toiletten",
-      "heroLead": "Wenn du schnell eine Toilette brauchst, sind die Ergebnisse herkömmlicher Karten oft unvollständig, veraltet oder unter irrelevanten Orten begraben.",
+      "heroTitle": "Finde öffentliche Toiletten in deiner Nähe",
+      "heroLead": "Ob Stadtbummel oder Roadtrip: Finde deinen nächsten Toilettenstopp mit Voyager Maps. Entdecke Toiletten auf der Karte und prüfe Zugangsinfos, sofern vorhanden. Die App ist kostenlos für iOS und Android.",
       "previewAlt": "Vorschau auf die Standorte öffentlicher Toiletten",
       "previewNote": "Du siehst hier nur eine begrenzte Vorschau",
       "problemAria": "Probleme bei der Suche nach öffentlichen Toiletten",

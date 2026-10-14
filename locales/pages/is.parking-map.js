@@ -53,7 +53,7 @@ window.voyagerLocales["is"] = {
       },
       "heroAria": "Aðalmynd síðunnar um bílastæði",
       "heroTitle": "Finndu bílastæði hvar sem er",
-      "heroLead": "Yfir 1,1 milljón bílastæða í 237 löndum — opin bílastæði, bílastæðahús, neðanjarðarbílastæði og stæði við vegi — þar af 810.000 ókeypis.",
+      "heroLead": "Finndu bílastæði áður en þú kemur á staðinn. Skoðaðu yfir 1,1 milljón bílastæða, þar af 810.000 skráð sem ókeypis, með Voyager Maps. Ókeypis app fyrir iOS og Android.",
       "previewAlt": "Skjámynd af Voyager Maps-forritinu sem sýnir bílastæði um miðborg Parísar",
       "previewNote": "Bílastæði í miðborg Parísar, sýnd í Voyager Maps-forritinu.",
       "problemAria": "Vandamál með að finna bílastæði",
