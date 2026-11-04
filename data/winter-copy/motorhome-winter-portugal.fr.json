@@ -1,0 +1,21 @@
+{
+  "countryName": "Portugal",
+  "linkLabel": "Hiverner au Portugal en camping-car",
+  "pageTitle": "Hiverner au Portugal en camping-car : vidange et GPL",
+  "metaDescription": "{dump} bornes de vidange, {lpg} stations avec GPL et {sites} aires de camping-car au Portugal, district par district. Carte gratuite pour iOS et Android.",
+  "eyebrow": "Hiver en camping-car · Portugal",
+  "heroTitle": "Hiverner au Portugal en camping-car : vidange, eau et GPL sur une seule carte",
+  "heroLead": "Où vider les réservoirs, faire le plein d’eau propre et trouver du GPL, de l’Algarve jusqu’au nord : {dump} bornes de vidange et {lpg} stations-service avec GPL dans tout le Portugal, sur ton téléphone.",
+  "statsTitle": "Ce qui est cartographié au Portugal",
+  "statsIntro": "Le nombre de lieux de chaque type que la carte connaît aujourd’hui au Portugal. Ce sont des lieux cartographiés, pas tous ceux qui existent : les données viennent d’OpenStreetMap et s’enrichissent à mesure que des gens les complètent.",
+  "highlight": "Au Portugal, la carte connaît plus de stations-service avec GPL que de bornes de vidange : {lpg} contre {dump}. Le district qui a le plus de bornes est {topRegion}, avec {topDump}.",
+  "regionTitle": "District par district",
+  "colRegion": "District",
+  "regionIntro": "Bornes de vidange, stations-service avec GPL, aires de camping-car et points d’eau potable dans chaque district portugais, celui qui a le plus de bornes en premier.",
+  "ctaBlockTitle": "Prépare la route de l’Algarve sur ton téléphone",
+  "seoTitle": "Vidange et GPL au Portugal : ce qu’il faut savoir avant l’hiver",
+  "seoText1": "Beaucoup de camping-cars passent l’hiver en Algarve, et d’autres continuent le long de la côte de l’Alentejo et dans le centre du pays. Sur la route, les questions sont pratiques : où vider les réservoirs, où trouver de l’eau propre, et quelle station a du GPL ?",
+  "seoText2": "Le Portugal restreint les nuits en camping-car en dehors des emplacements prévus, surtout sur la côte et dans les zones protégées : il est donc plus important qu’ailleurs de savoir où sont les aires et les campings. Fie-toi aux panneaux sur place, et avant de te rendre quelque part, vérifie que le lieu existe toujours : la carte montre ce qui a été enregistré, et les choses changent.",
+  "otherIntro": "Les mêmes chiffres pour l’Espagne, et la carte des services pour toutes tes autres routes.",
+  "_note": "Read by tools/winter_pages.py."
+}

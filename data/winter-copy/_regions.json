@@ -1,0 +1,33 @@
+{
+  "_note": "Region names as poi.state_region spells them, in each page language. English is the key unless given. Read by tools/winter_pages.py; a region missing here fails the build rather than showing in English.",
+  "ES": {
+    "Andalusia": {"de": "Andalusien", "nl": "Andalusië", "fr": "Andalousie"},
+    "Castille and León": {"de": "Kastilien und León", "nl": "Castilië en León", "fr": "Castille-et-León"},
+    "Catalonia": {"de": "Katalonien", "nl": "Catalonië", "fr": "Catalogne"},
+    "Galicia": {"de": "Galicien", "nl": "Galicië", "fr": "Galice"},
+    "Aragon": {"de": "Aragonien", "nl": "Aragón", "fr": "Aragon"},
+    "Valencia": {"en": "Valencia (Costa Blanca)", "de": "Valencia (Costa Blanca)", "nl": "Valencia (Costa Blanca)", "fr": "Communauté valencienne (Costa Blanca)"},
+    "Asturias": {"de": "Asturien", "nl": "Asturië", "fr": "Asturies"},
+    "Basque Country": {"de": "Baskenland", "nl": "Baskenland", "fr": "Pays basque"},
+    "Castille-La Mancha": {"de": "Kastilien-La Mancha", "nl": "Castilië-La Mancha", "fr": "Castille-La Manche"},
+    "Extremadura": {"de": "Extremadura", "nl": "Extremadura", "fr": "Estrémadure"},
+    "Cantabria": {"de": "Kantabrien", "nl": "Cantabrië", "fr": "Cantabrie"},
+    "Navarre": {"de": "Navarra", "nl": "Navarra", "fr": "Navarre"},
+    "Murcia": {"de": "Murcia", "nl": "Murcia", "fr": "Murcie"},
+    "La Rioja": {"de": "La Rioja", "nl": "La Rioja", "fr": "La Rioja"},
+    "Madrid": {"de": "Madrid", "nl": "Madrid", "fr": "Madrid"},
+    "Canary Islands": {"de": "Kanarische Inseln", "nl": "Canarische Eilanden", "fr": "Îles Canaries"},
+    "Balearic Islands": {"de": "Balearen", "nl": "Balearen", "fr": "Îles Baléares"},
+    "Ceuta": {"de": "Ceuta", "nl": "Ceuta", "fr": "Ceuta"}
+  },
+  "PT": {
+    "Faro": {"en": "Faro (Algarve)", "de": "Faro (Algarve)", "nl": "Faro (Algarve)", "fr": "Faro (Algarve)"},
+    "Coimbra": {}, "Leiria": {}, "Guarda": {}, "Setúbal": {}, "Viana do Castelo": {},
+    "Viseu": {}, "Aveiro": {}, "Beja": {}, "Bragança": {}, "Castelo Branco": {},
+    "Évora": {}, "Portalegre": {}, "Porto": {}, "Vila Real": {}, "Braga": {},
+    "Santarém": {},
+    "Lisbon": {"de": "Lissabon", "nl": "Lissabon", "fr": "Lisbonne"},
+    "Azores": {"de": "Azoren", "nl": "Azoren", "fr": "Açores"},
+    "Madeira": {}
+  }
+}

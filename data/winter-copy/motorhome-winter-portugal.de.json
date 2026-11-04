@@ -1,0 +1,21 @@
+{
+  "countryName": "Portugal",
+  "linkLabel": "Mit dem Wohnmobil in Portugal überwintern",
+  "pageTitle": "Wohnmobil in Portugal überwintern: Entsorgung und Autogas",
+  "metaDescription": "{dump} Entsorgungsstationen, {lpg} Tankstellen mit Autogas und {sites} Stellplätze in Portugal, nach Distrikt. Kostenlose Wohnmobil-Karte für iOS und Android.",
+  "eyebrow": "Wohnmobil-Winter · Portugal",
+  "heroTitle": "Mit dem Wohnmobil in Portugal überwintern: Entsorgung, Wasser und Autogas auf einer Karte",
+  "heroLead": "Wo du die Tanks leeren, Frischwasser fassen und Autogas tanken kannst, von der Algarve bis in den Norden: {dump} Entsorgungsstationen und {lpg} Tankstellen mit Autogas in ganz Portugal, auf deinem Handy.",
+  "statsTitle": "Was in Portugal kartiert ist",
+  "statsIntro": "So viele davon hat die Karte heute in Portugal. Das sind kartierte Orte, nicht alle, die es gibt: Die Daten stammen aus OpenStreetMap und wachsen, wenn Menschen sie ergänzen.",
+  "highlight": "In Portugal kennt die Karte mehr Tankstellen mit Autogas als Entsorgungsstationen, {lpg} gegenüber {dump}. Die meisten Entsorgungsstationen hat {topRegion}: {topDump}.",
+  "regionTitle": "Distrikt für Distrikt",
+  "colRegion": "Distrikt",
+  "regionIntro": "Entsorgungsstationen, Tankstellen mit Autogas, Stellplätze und Trinkwasserstellen in jedem portugiesischen Distrikt, der mit den meisten Entsorgungsstationen zuerst.",
+  "ctaBlockTitle": "Plane die Fahrt an die Algarve auf dem Handy",
+  "seoTitle": "Entsorgung und Autogas in Portugal: Was du vor dem Winter wissen solltest",
+  "seoText1": "Viele Wohnmobile verbringen den Winter an der Algarve, und manche fahren weiter an der Küste des Alentejo entlang und durch die Mitte des Landes. Unterwegs sind die Fragen praktisch: Wo kann ich die Tanks leeren, wo gibt es Frischwasser, und welche Tankstelle hat Autogas, in Portugal GPL genannt?",
+  "seoText2": "Portugal schränkt das Übernachten im Wohnmobil außerhalb dafür vorgesehener Plätze ein, vor allem an der Küste und in Schutzgebieten. Deshalb ist es hier wichtiger als anderswo zu wissen, wo die Stellplätze und Campingplätze sind. Achte auf die Schilder vor Ort und prüfe vor der Fahrt, ob es den Ort noch gibt: Die Karte zeigt, was erfasst ist, und vieles ändert sich.",
+  "otherIntro": "Dieselben Zahlen für Spanien und die Service-Karte für überall sonst, wo du hinfährst.",
+  "_note": "Read by tools/winter_pages.py."
+}

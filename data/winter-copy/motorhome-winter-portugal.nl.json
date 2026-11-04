@@ -1,0 +1,21 @@
+{
+  "countryName": "Portugal",
+  "linkLabel": "Overwinteren in Portugal met de camper",
+  "pageTitle": "Overwinteren in Portugal met de camper: loospunten en LPG",
+  "metaDescription": "{dump} loospunten, {lpg} tankstations met LPG en {sites} camperplaatsen in Portugal, per district. Gratis camperkaart voor iOS en Android.",
+  "eyebrow": "Camperwinter · Portugal",
+  "heroTitle": "Overwinteren in Portugal met de camper: loospunten, water en LPG op één kaart",
+  "heroLead": "Waar je de tanks leegt, vers water tankt en LPG vindt, van de Algarve tot het noorden: {dump} loospunten en {lpg} tankstations met LPG in heel Portugal, op je telefoon.",
+  "statsTitle": "Wat er in Portugal op de kaart staat",
+  "statsIntro": "Zoveel van elk staat er vandaag in Portugal op de kaart. Dit zijn plekken die in kaart zijn gebracht, niet alle die er zijn: de gegevens komen van OpenStreetMap en groeien naarmate mensen ze aanvullen.",
+  "highlight": "In Portugal kent de kaart meer tankstations met LPG dan loospunten, {lpg} tegenover {dump}. De meeste loospunten heeft {topRegion}: {topDump}.",
+  "regionTitle": "Per district",
+  "colRegion": "District",
+  "regionIntro": "Loospunten, tankstations met LPG, camperplaatsen en drinkwaterpunten in elk Portugees district, dat met de meeste loospunten bovenaan.",
+  "ctaBlockTitle": "Plan de rit naar de Algarve op je telefoon",
+  "seoTitle": "Loospunten en LPG in Portugal: wat je moet weten voor de winter",
+  "seoText1": "Veel campers brengen de winter door in de Algarve, en een deel rijdt verder langs de kust van de Alentejo en door het midden van het land. Onderweg zijn de vragen praktisch: waar kan ik de tanks legen, waar is vers water, en welk tankstation heeft LPG, dat in Portugal GPL heet?",
+  "seoText2": "Portugal beperkt overnachten in de camper buiten de daarvoor bedoelde plekken, vooral aan de kust en in beschermde natuurgebieden. Daarom is het hier belangrijker dan elders om te weten waar de camperplaatsen en campings zijn. Let op de borden ter plaatse en kijk voor je ergens heen rijdt of de plek er nog is: de kaart toont wat is vastgelegd, en dingen veranderen.",
+  "otherIntro": "Dezelfde aantallen voor Spanje, en de servicekaart voor overal waar je verder rijdt.",
+  "_note": "Read by tools/winter_pages.py."
+}

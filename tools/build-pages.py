@@ -20,6 +20,7 @@ from datetime import date
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "tools"))
 import city_pages  # noqa: E402  (needs REPO on the path first)
+import winter_pages  # noqa: E402
 SITE = "https://getvoyagermaps.com"
 
 # Root-relative pages, and which locale group each one reads.
@@ -500,8 +501,16 @@ def main():
     print(f"{len(cities)} city pages "
           f"({sum(1 for l, _, _ in cities if l == 'en')} cities), "
           f"{len(hub)} city index pages")
+    winter = winter_pages.build(
+        REPO, locales, OG_LOCALE,
+        lambda rel, lang, payload: write_locale_file(
+            rel, lang, payload,
+            "Rendered from data/winter-copy/ and data/winter.csv; edit them "
+            "and re-run tools/build-pages.py."))
+    print(f"{len(winter)} motorhome winter pages")
 
-    written = [rel for _, rel, _ in cities] + [rel for _, rel, _ in hub]
+    written = ([rel for _, rel, _ in cities] + [rel for _, rel, _ in hub]
+               + [rel for _, rel, _ in winter])
     for page in PAGES:
         source = open(os.path.join(REPO, page), encoding="utf-8").read()
         group = PAGES[page]
@@ -521,6 +530,14 @@ def main():
                     lambda _: '<ul class="city-teaser" data-city-teaser>\n%s\n        </ul>'
                     % city_pages.teaser(REPO, code, cities, locales[code]),
                     out, count=1, flags=re.S)
+            # Same idea for the winter pages: the campervan page links to them
+            # in the languages they exist in, and the markers stay so the next
+            # build finds them again in the English source it wrote back.
+            out = re.sub(
+                r'<!-- winter-teaser -->.*?<!-- /winter-teaser -->',
+                lambda _: '<!-- winter-teaser -->%s<!-- /winter-teaser -->'
+                % winter_pages.teaser(REPO, code),
+                out, count=1, flags=re.S)
             dest = os.path.join(REPO, page if code == "en" else os.path.join(code, page))
             os.makedirs(os.path.dirname(dest) or ".", exist_ok=True)
             open(dest, "w", encoding="utf-8").write(out)
@@ -532,6 +549,8 @@ def main():
     live = {locale_asset(c, p) for p in PAGES for c in page_codes[p]}
     live |= {locale_asset(lang, os.path.basename(rel)) for lang, rel, _ in cities}
     live |= {f"locales/pages/{code}.cities.js" for code, _, _ in hub}
+    live |= {f"locales/pages/{lang}.{os.path.basename(rel)[:-len('.html')]}.js"
+             for lang, rel, _ in winter}
     pages_dir = os.path.join(REPO, "locales", "pages")
     for name in sorted(os.listdir(pages_dir)):
         rel = f"locales/pages/{name}"
@@ -573,6 +592,16 @@ def main():
         stamp = lastmod_for(rel, dates, dirty, today)
         rows.append(f"  <url>\n    <loc>{canonical}</loc>"
                     f"\n    <lastmod>{stamp}</lastmod>{hub_alts}\n  </url>")
+    for lang, rel, canonical in winter:
+        slug = os.path.basename(rel)[:-len(".html")]
+        alts = "".join(
+            f'\n    <xhtml:link rel="alternate" hreflang="{c}" href="{winter_pages.url_for(c, slug)}" />'
+            for c in winter_pages.LANGS)
+        alts += ('\n    <xhtml:link rel="alternate" hreflang="x-default" '
+                 f'href="{winter_pages.url_for("en", slug)}" />')
+        stamp = lastmod_for(rel, dates, dirty, today)
+        rows.append(f"  <url>\n    <loc>{canonical}</loc>"
+                    f"\n    <lastmod>{stamp}</lastmod>{alts}\n  </url>")
     for page in LEGAL:
         stamp = lastmod_for(page, dates, dirty, today)
         rows.append(f"  <url>\n    <loc>{SITE}/{page}</loc>"

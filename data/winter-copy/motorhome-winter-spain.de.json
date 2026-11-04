@@ -1,0 +1,20 @@
+{
+  "countryName": "Spanien",
+  "linkLabel": "Mit dem Wohnmobil in Spanien überwintern",
+  "pageTitle": "Wohnmobil in Spanien überwintern: Entsorgung und Autogas",
+  "metaDescription": "{dump} Entsorgungsstationen, {lpg} Tankstellen mit Autogas und {sites} Stellplätze in Spanien, nach Region. Kostenlose Wohnmobil-Karte für iOS und Android.",
+  "eyebrow": "Wohnmobil-Winter · Spanien",
+  "heroTitle": "Mit dem Wohnmobil in Spanien überwintern: Entsorgung, Wasser und Autogas auf einer Karte",
+  "heroLead": "Wo du die Tanks leeren, Frischwasser fassen und Autogas tanken kannst, auf der Fahrt in den Süden und vor Ort: {dump} Entsorgungsstationen und {sites} Stellplätze in ganz Spanien, auf deinem Handy.",
+  "statsTitle": "Was in Spanien kartiert ist",
+  "statsIntro": "So viele davon hat die Karte heute in Spanien. Das sind kartierte Orte, nicht alle, die es gibt: Die Daten stammen aus OpenStreetMap und wachsen, wenn Menschen sie ergänzen.",
+  "highlight": "{topRegion} hat die meisten Entsorgungsstationen auf der Karte in Spanien, nämlich {topDump}, dazu {topSites} Stellplätze: gut zu wissen an der Südküste, wo viele Wohnmobile den Winter verbringen.",
+  "regionTitle": "Region für Region",
+  "regionIntro": "Entsorgungsstationen, Tankstellen mit Autogas, Stellplätze und Trinkwasserstellen in jeder spanischen Region, die mit den meisten Entsorgungsstationen zuerst.",
+  "ctaBlockTitle": "Plane die Fahrt in den Süden auf dem Handy",
+  "seoTitle": "Entsorgung und Autogas in Spanien: Was du vor dem Winter wissen solltest",
+  "seoText1": "Spanien ist das Land, in dem viele europäische Wohnmobile überwintern, von der Costa Blanca bis Andalusien, und an der Küste ist von November bis März viel los. Unterwegs sind die Fragen praktisch: Wo kann ich die Tanks leeren, wo gibt es Frischwasser, und welche Tankstelle hat Autogas für Heizung und Kocher?",
+  "seoText2": "Viele spanische Gemeinden betreiben eine área de autocaravanas mit Entsorgungsstation, manche kostenlos, manche gegen Gebühr, und die Regeln zum Übernachten unterscheiden sich von Ort zu Ort. Achte also auf die Schilder vor Ort. Prüfe vor der Fahrt, ob es den Ort noch gibt: Die Karte zeigt, was erfasst ist, und vieles ändert sich.",
+  "otherIntro": "Dieselben Zahlen für Portugal und die Service-Karte für überall sonst, wo du hinfährst.",
+  "_note": "Read by tools/winter_pages.py."
+}

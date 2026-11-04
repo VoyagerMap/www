@@ -1,0 +1,21 @@
+{
+  "countryName": "Portugal",
+  "linkLabel": "Wintering in Portugal by motorhome",
+  "pageTitle": "Wintering in Portugal by motorhome: dump stations and LPG",
+  "metaDescription": "{dump} dump stations, {lpg} LPG fuel stations and {sites} caravan sites mapped in Portugal, district by district. Free motorhome map for iOS and Android.",
+  "eyebrow": "Motorhome winter · Portugal",
+  "heroTitle": "Wintering in Portugal by motorhome: dump stations, water and LPG on one map",
+  "heroLead": "Where to empty the tanks, take on fresh water and find LPG, from the Algarve to the north: {dump} dump stations and {lpg} fuel stations with LPG mapped across Portugal, on your phone.",
+  "statsTitle": "What is mapped in Portugal",
+  "statsIntro": "How many of each the map holds in Portugal today. These are mapped places, not every one that exists: the data comes from OpenStreetMap and grows as people add to it.",
+  "highlight": "In Portugal the map knows more fuel stations selling LPG than dump stations, {lpg} against {dump}. {topRegion} has the most dump stations: {topDump}.",
+  "regionTitle": "District by district",
+  "colRegion": "District",
+  "regionIntro": "Dump stations, fuel stations with LPG, caravan sites and drinking water points in each Portuguese district, most dump stations first.",
+  "ctaBlockTitle": "Plan the drive to the Algarve on your phone",
+  "seoTitle": "Dump stations and LPG in Portugal: what to know before the winter",
+  "seoText1": "Many motorhomes spend the winter in the Algarve, and more travel on along the Alentejo coast and through the centre. The questions on the road are practical ones: where can I empty the tanks, where is fresh water, and which fuel station has LPG, sold in Portugal as GPL.",
+  "seoText2": "Portugal restricts overnight stays in motorhomes outside designated places, above all on the coast and in protected areas, so knowing where the caravan sites and campsites are matters more than in many countries. Check the local signs, and before you drive to a place, make sure it is still there: the map shows what has been recorded, and things change.",
+  "otherIntro": "The same counts for Spain, and the services map for everywhere else you drive.",
+  "_note": "Read by tools/winter_pages.py."
+}

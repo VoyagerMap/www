@@ -1,0 +1,20 @@
+{
+  "countryName": "Spain",
+  "linkLabel": "Wintering in Spain by motorhome",
+  "pageTitle": "Wintering in Spain by motorhome: dump stations and LPG",
+  "metaDescription": "{dump} dump stations, {lpg} LPG fuel stations and {sites} caravan sites mapped in Spain, region by region. Free motorhome map for iOS and Android.",
+  "eyebrow": "Motorhome winter · Spain",
+  "heroTitle": "Wintering in Spain by motorhome: dump stations, water and LPG on one map",
+  "heroLead": "Where to empty the tanks, take on fresh water and find LPG, on the drive south and once you are there: {dump} dump stations and {sites} caravan sites mapped across Spain, on your phone.",
+  "statsTitle": "What is mapped in Spain",
+  "statsIntro": "How many of each the map holds in Spain today. These are mapped places, not every one that exists: the data comes from OpenStreetMap and grows as people add to it.",
+  "highlight": "{topRegion} has the most dump stations on the map in Spain, {topDump} of them, and {topSites} caravan sites: worth knowing on the south coast, where many motorhomes spend the winter.",
+  "regionTitle": "Region by region",
+  "regionIntro": "Dump stations, fuel stations with LPG, caravan sites and drinking water points in each Spanish region, most dump stations first.",
+  "ctaBlockTitle": "Plan the drive south on your phone",
+  "seoTitle": "Dump stations and LPG in Spain: what to know before the winter",
+  "seoText1": "Spain is where many European motorhomes spend the winter, from the Costa Blanca to Andalusia, and the coast is busy from November to March. The questions on the road are practical ones: where can I empty the tanks, where is fresh water, and which fuel station has LPG for the heating and the cooker.",
+  "seoText2": "Many Spanish towns run an área de autocaravanas with a dump station, some free and some paid, and the rules on overnight parking differ from one town to the next, so check the local signs. Before you drive to a place, make sure it is still there: the map shows what has been recorded, and things change.",
+  "otherIntro": "The same counts for Portugal, and the services map for everywhere else you drive.",
+  "_note": "Read by tools/winter_pages.py."
+}

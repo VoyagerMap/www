@@ -1523,6 +1523,11 @@ body.consent-active {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  /* Four features read as two pairs; on three columns the fourth sat alone. */
+  .feature-grid.feature-grid-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .preview-frame,
   .preview-image {
     min-height: 360px;

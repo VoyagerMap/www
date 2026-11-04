@@ -43,6 +43,11 @@ const CITY_PAGES = [
   "/moscow-map.html", "/ru/moscow-map.html",
   // The all-cities index: a fifty-row table, the widest thing on the site.
   "/cities.html", "/hu/cities.html", "/ja/cities.html", "/hi/cities.html",
+  // The motorhome winter pages: a five-column region table, and German
+  // compounds in the column heads.
+  "/motorhome-winter-spain.html", "/de/motorhome-winter-spain.html",
+  "/motorhome-winter-portugal.html", "/fr/motorhome-winter-portugal.html",
+  "/nl/motorhome-winter-spain.html",
 ];
 const PAGES = LANGS.flatMap((l) => FILES.map((f) => (l === "en" ? `/${f}` : `/${l}/${f}`)))
   .concat(CITY_PAGES);

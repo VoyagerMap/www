@@ -1,0 +1,20 @@
+{
+  "countryName": "Spanje",
+  "linkLabel": "Overwinteren in Spanje met de camper",
+  "pageTitle": "Overwinteren in Spanje met de camper: loospunten en LPG",
+  "metaDescription": "{dump} loospunten, {lpg} tankstations met LPG en {sites} camperplaatsen in Spanje, per regio. Gratis camperkaart voor iOS en Android.",
+  "eyebrow": "Camperwinter · Spanje",
+  "heroTitle": "Overwinteren in Spanje met de camper: loospunten, water en LPG op één kaart",
+  "heroLead": "Waar je de tanks leegt, vers water tankt en LPG vindt, onderweg naar het zuiden en eenmaal daar: {dump} loospunten en {sites} camperplaatsen in heel Spanje, op je telefoon.",
+  "statsTitle": "Wat er in Spanje op de kaart staat",
+  "statsIntro": "Zoveel van elk staat er vandaag in Spanje op de kaart. Dit zijn plekken die in kaart zijn gebracht, niet alle die er zijn: de gegevens komen van OpenStreetMap en groeien naarmate mensen ze aanvullen.",
+  "highlight": "{topRegion} heeft de meeste loospunten op de kaart in Spanje, {topDump} in totaal, en {topSites} camperplaatsen: handig om te weten aan de zuidkust, waar veel campers de winter doorbrengen.",
+  "regionTitle": "Per regio",
+  "regionIntro": "Loospunten, tankstations met LPG, camperplaatsen en drinkwaterpunten in elke Spaanse regio, die met de meeste loospunten bovenaan.",
+  "ctaBlockTitle": "Plan de rit naar het zuiden op je telefoon",
+  "seoTitle": "Loospunten en LPG in Spanje: wat je moet weten voor de winter",
+  "seoText1": "Spanje is het land waar veel Europese campers overwinteren, van de Costa Blanca tot Andalusië, en aan de kust is het van november tot maart druk. Onderweg zijn de vragen praktisch: waar kan ik de tanks legen, waar is vers water, en welk tankstation heeft LPG voor de verwarming en het kooktoestel?",
+  "seoText2": "Veel Spaanse gemeenten hebben een área de autocaravanas met een loospunt, soms gratis en soms betaald, en de regels voor overnachten verschillen per gemeente. Let dus op de borden ter plaatse. Kijk voor je ergens heen rijdt of de plek er nog is: de kaart toont wat is vastgelegd, en dingen veranderen.",
+  "otherIntro": "Dezelfde aantallen voor Portugal, en de servicekaart voor overal waar je verder rijdt.",
+  "_note": "Read by tools/winter_pages.py."
+}

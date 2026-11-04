@@ -1,0 +1,41 @@
+country,region,dump,lpg,water,sites,campsites,showers,laundry
+ES,,1709,358,47980,1635,1636,3506,1157
+ES,Andalusia,284,39,4551,267,227,814,135
+ES,Castille and León,259,32,7786,223,174,102,87
+ES,Catalonia,231,147,8312,219,315,804,203
+ES,Galicia,186,15,4052,179,142,284,168
+ES,Aragon,133,15,2244,102,128,59,37
+ES,Valencia,127,19,3619,143,207,386,112
+ES,Asturias,102,12,1701,86,50,81,63
+ES,Basque Country,77,8,4676,65,30,150,68
+ES,Castille-La Mancha,76,12,1900,88,60,28,32
+ES,Extremadura,60,5,697,46,41,22,7
+ES,Cantabria,56,15,1358,41,57,115,29
+ES,Navarre,54,4,1431,53,30,14,18
+ES,Murcia,41,6,260,41,21,32,14
+ES,La Rioja,12,3,880,16,8,17,6
+ES,Madrid,8,22,3633,12,31,77,108
+ES,Canary Islands,3,2,544,43,96,360,41
+ES,Balearic Islands,0,2,305,10,16,161,29
+ES,Ceuta,0,0,7,1,1,0,0
+PT,,235,449,6643,323,416,494,603
+PT,Faro,54,27,192,67,37,58,56
+PT,Coimbra,18,29,541,23,32,24,36
+PT,Leiria,17,36,360,29,27,25,34
+PT,Guarda,15,7,348,19,11,3,2
+PT,Setúbal,13,33,254,16,33,27,63
+PT,Viana do Castelo,13,15,273,11,14,13,5
+PT,Viseu,12,20,340,15,12,7,9
+PT,Aveiro,10,36,366,17,18,33,51
+PT,Beja,10,8,125,13,20,20,8
+PT,Bragança,10,5,137,9,12,6,4
+PT,Castelo Branco,9,12,155,15,14,15,6
+PT,Évora,9,7,73,15,9,8,8
+PT,Portalegre,8,4,129,12,11,3,2
+PT,Porto,8,78,398,9,13,26,113
+PT,Vila Real,8,5,415,9,9,2,8
+PT,Braga,7,34,272,9,34,13,36
+PT,Santarém,6,30,273,17,21,8,11
+PT,Lisbon,6,60,1015,16,15,42,130
+PT,Azores,1,1,366,2,38,108,4
+PT,Madeira,0,1,592,0,33,50,17
