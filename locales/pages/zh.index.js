@@ -133,7 +133,8 @@ window.voyagerLocales["zh"] = {
   "privacyLink": "隐私政策",
   "termsLink": "使用条款",
   "deleteLink": "删除数据",
-  "footer": "© Voyager Maps 网站",
+  "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+  "contactTitle": "联系我们",
   "routingPageWrapper": {
     "routing": {
       "htmlLang": "zh",

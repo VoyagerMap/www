@@ -46,7 +46,8 @@ window.voyagerLocales["is"] = {
       "privacyLink": "Persónuverndarstefna",
       "termsLink": "Skilmálar",
       "deleteLink": "Eyða gögnum",
-      "footer": "© Vefsvæði Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Hafa samband",
       "pageTitle": "Bílastæðakort - Finndu ókeypis bílastæði",
       "meta": {
         "description": "Finndu bílastæði hvar sem er: 1,1 milljón bílastæða og bílageymslna í 237 löndum, 810.000 þeirra ókeypis."

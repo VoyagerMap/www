@@ -46,7 +46,8 @@ window.voyagerLocales["is"] = {
       "privacyLink": "Persónuverndarstefna",
       "termsLink": "Skilmálar",
       "deleteLink": "Eyða gögnum",
-      "footer": "© Vefsvæði Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Hafa samband",
       "pageTitle": "Kort fyrir bakpokaferðalanga og þá sem ferðast einir",
       "meta": {
         "description": "Finndu sturtur, þvottahús, drykkjarvatn og Wi-Fi fyrir bakpokaferðalanga og þá sem ferðast einir um allan heim. Ókeypis forrit, án reiknings."

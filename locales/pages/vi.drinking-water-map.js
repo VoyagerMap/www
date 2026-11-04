@@ -46,7 +46,8 @@ window.voyagerLocales["vi"] = {
       "privacyLink": "Chính sách quyền riêng tư",
       "termsLink": "Điều khoản sử dụng",
       "deleteLink": "Xóa dữ liệu",
-      "footer": "© Trang web Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Liên hệ",
       "pageTitle": "Bản đồ nước uống miễn phí",
       "meta": {
         "description": "Tìm nước uống miễn phí khi đi du lịch: vòi nước công cộng, đài phun nước và các điểm nạp nước gần bạn. Ứng dụng miễn phí."

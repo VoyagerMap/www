@@ -46,7 +46,8 @@ window.voyagerLocales["fa"] = {
       "privacyLink": "سیاست حفظ حریم خصوصی",
       "termsLink": "شرایط",
       "deleteLink": "حذف داده‌ها",
-      "footer": "© وب‌سایت Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "تماس با ما",
       "pageTitle": "نقشه رایگان آب آشامیدنی",
       "meta": {
         "description": "در حین سفر آب آشامیدنی رایگان پیدا کنید: شیرهای عمومی، فواره‌ها و نقاط پر کردن مجدد نزدیک شما. اپلیکیشن رایگان."

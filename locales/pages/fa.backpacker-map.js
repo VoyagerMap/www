@@ -46,7 +46,8 @@ window.voyagerLocales["fa"] = {
       "privacyLink": "سیاست حفظ حریم خصوصی",
       "termsLink": "شرایط",
       "deleteLink": "حذف داده‌ها",
-      "footer": "© وب‌سایت Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "تماس با ما",
       "pageTitle": "نقشه کوله‌گردی و سفر انفرادی",
       "meta": {
         "description": "دوش، لباس‌شویی، آب آشامیدنی و وای‌فای را برای کوله‌گردها و مسافران انفرادی در سراسر جهان پیدا کنید. اپلیکیشن رایگان، بدون حساب کاربری."

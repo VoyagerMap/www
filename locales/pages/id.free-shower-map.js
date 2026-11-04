@@ -46,7 +46,8 @@ window.voyagerLocales["id"] = {
       "privacyLink": "Kebijakan Privasi",
       "termsLink": "Syarat & Ketentuan",
       "deleteLink": "Hapus Data",
-      "footer": "© Situs web Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontak",
       "pageTitle": "Mandi gratis di dekatmu | Peta tempat mandi",
       "meta": {
         "description": "Cari tempat mandi gratis di Voyager Maps. Lihat lokasi di fasilitas umum dan pantai serta detail tersedia. Unduh aplikasi gratis untuk iOS dan Android."

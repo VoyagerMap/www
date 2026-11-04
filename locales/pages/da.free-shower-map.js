@@ -46,7 +46,8 @@ window.voyagerLocales["da"] = {
       "privacyLink": "Privatlivspolitik",
       "termsLink": "Vilkår",
       "deleteLink": "Slet data",
-      "footer": "© Voyager Maps' hjemmeside",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontakt",
       "pageTitle": "Gratis brusebad i nærheden | Brusekort",
       "meta": {
         "description": "Find gratis brusebad med Voyager Maps. Udforsk offentlige brusefaciliteter og strandbrusere, se stedernes oplysninger og hent den gratis app til iOS og Android."

@@ -46,7 +46,8 @@ window.voyagerLocales["vi"] = {
       "privacyLink": "Chính sách quyền riêng tư",
       "termsLink": "Điều khoản sử dụng",
       "deleteLink": "Xóa dữ liệu",
-      "footer": "© Trang web Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Liên hệ",
       "pageTitle": "Chỗ tắm miễn phí gần bạn | Bản đồ chỗ tắm",
       "meta": {
         "description": "Tìm chỗ tắm miễn phí gần bạn với Voyager Maps. Xem địa điểm tại cơ sở công cộng, bãi biển và thông tin hiện có. Tải ứng dụng miễn phí cho iOS và Android."

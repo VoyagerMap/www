@@ -135,7 +135,8 @@ window.voyagerLocales["pl"] = {
   "privacyLink": "Polityka prywatności",
   "termsLink": "Regulamin",
   "deleteLink": "Usuń dane",
-  "footer": "© Strona internetowa Voyager Maps",
+  "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+  "contactTitle": "Kontakt",
   "routingPageWrapper": {
     "routing": {
       "htmlLang": "pl",

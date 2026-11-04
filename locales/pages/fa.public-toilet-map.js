@@ -46,7 +46,8 @@ window.voyagerLocales["fa"] = {
       "privacyLink": "سیاست حفظ حریم خصوصی",
       "termsLink": "شرایط",
       "deleteLink": "حذف داده‌ها",
-      "footer": "© وب‌سایت Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "تماس با ما",
       "pageTitle": "سرویس‌های بهداشتی عمومی نزدیک شما | نقشه",
       "meta": {
         "description": "با Voyager Maps سرویس‌های بهداشتی عمومی نزدیک را پیدا کنید. اطلاعات موجود دربارهٔ دسترسی را ببینید. اپلیکیشن رایگان را برای iOS و Android دانلود کنید."

@@ -46,7 +46,8 @@ window.voyagerLocales["vi"] = {
       "privacyLink": "Chính sách quyền riêng tư",
       "termsLink": "Điều khoản sử dụng",
       "deleteLink": "Xóa dữ liệu",
-      "footer": "© Trang web Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Liên hệ",
       "pageTitle": "Bản đồ dịch vụ cho xe campervan và motorhome",
       "meta": {
         "description": "Tìm nước, chỗ tắm, tiệm giặt và khu cắm trại cho xe campervan và motorhome trên toàn thế giới. Ứng dụng miễn phí, không cần tài khoản."

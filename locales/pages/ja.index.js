@@ -133,7 +133,8 @@ window.voyagerLocales["ja"] = {
   "privacyLink": "プライバシーポリシー",
   "termsLink": "利用規約",
   "deleteLink": "データの削除",
-  "footer": "© Voyager Maps ウェブサイト",
+  "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+  "contactTitle": "お問い合わせ",
   "routingPageWrapper": {
     "routing": {
       "htmlLang": "ja",

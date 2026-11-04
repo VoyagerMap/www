@@ -163,7 +163,8 @@ window.voyagerLocales["fa"] = {
   privacyLink: "سیاست حفظ حریم خصوصی",
   termsLink: "شرایط",
   deleteLink: "حذف داده‌ها",
-  footer: "© وب‌سایت Voyager Maps",
+  footer: "© 2025 Kálmán Fekete · Voyager Maps",
+  contactTitle: "تماس با ما",
   footerTagline: "مکان‌های کاربردی سفر به ۲۴ زبان. داده‌های مکان از مشارکت‌کنندگان OpenStreetMap.",
   installBarTitle: "Voyager Maps را دریافت کنید",
   installBarCta: "نصب",
@@ -210,7 +211,8 @@ window.voyagerLocales["fa"] = {
     privacyLink: "سیاست حفظ حریم خصوصی",
     termsLink: "شرایط",
     deleteLink: "حذف داده‌ها",
-    footer: "© وب‌سایت Voyager Maps"
+    footer: "© 2025 Kálmán Fekete · Voyager Maps",
+    contactTitle: "تماس با ما"
   },
   landingPages: {
     water: {

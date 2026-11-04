@@ -47,6 +47,8 @@ KEEPS_ENGLISH = {
     "Voyager Maps", "App Store", "Google Play", "Google Maps", "Wi-Fi",
     "OpenStreetMap", "Google Analytics 4", "App Store & Google Play",
     "iOS", "Android", "CSV", "SEO",
+    # The copyright line is a year, the owner's name and the brand.
+    "© 2025 Kálmán Fekete · Voyager Maps",
 }
 
 # Translations that genuinely land on the English wording. Listed one by one

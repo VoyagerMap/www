@@ -46,7 +46,8 @@ window.voyagerLocales["vi"] = {
       "privacyLink": "Chính sách quyền riêng tư",
       "termsLink": "Điều khoản sử dụng",
       "deleteLink": "Xóa dữ liệu",
-      "footer": "© Trang web Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Liên hệ",
       "pageTitle": "Bản đồ bãi đỗ xe - Tìm chỗ đỗ xe miễn phí",
       "meta": {
         "description": "Tìm chỗ đỗ xe ở bất cứ đâu: 1,1 triệu bãi đỗ xe và nhà để xe tại 237 quốc gia, trong đó có 810.000 chỗ miễn phí."

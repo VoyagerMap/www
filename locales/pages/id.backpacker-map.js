@@ -46,7 +46,8 @@ window.voyagerLocales["id"] = {
       "privacyLink": "Kebijakan Privasi",
       "termsLink": "Syarat & Ketentuan",
       "deleteLink": "Hapus Data",
-      "footer": "© Situs web Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontak",
       "pageTitle": "Peta untuk Backpacker & Wisatawan Solo",
       "meta": {
         "description": "Temukan tempat mandi, binatu, air minum, dan Wi-Fi untuk backpacker dan pelancong solo di seluruh dunia. Aplikasi gratis, tanpa akun."

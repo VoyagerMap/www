@@ -46,7 +46,8 @@ window.voyagerLocales["fil"] = {
       "privacyLink": "Patakaran sa Privacy",
       "termsLink": "Mga Tuntunin",
       "deleteLink": "Burahin ang Data",
-      "footer": "© Website ng Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Makipag-ugnayan",
       "pageTitle": "Pampublikong banyo sa malapit - Mapa",
       "meta": {
         "description": "Hanapin sa Voyager Maps ang pampublikong banyo sa malapit. Tingnan ang detalye ng access kung mayroon. I-download ang libreng app para sa iOS at Android."

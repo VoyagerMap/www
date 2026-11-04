@@ -163,7 +163,8 @@ window.voyagerLocales["is"] = {
   privacyLink: "Persónuverndarstefna",
   termsLink: "Skilmálar",
   deleteLink: "Eyða gögnum",
-  footer: "© Vefsvæði Voyager Maps",
+  footer: "© 2025 Kálmán Fekete · Voyager Maps",
+  contactTitle: "Hafa samband",
   footerTagline: "Hagnýtir staðir fyrir ferðalanga á 24 tungumálum. Staðagögn frá þátttakendum OpenStreetMap.",
   installBarTitle: "Fáðu Voyager Maps",
   installBarCta: "Sæktu",
@@ -210,7 +211,8 @@ window.voyagerLocales["is"] = {
     privacyLink: "Persónuverndarstefna",
     termsLink: "Skilmálar",
     deleteLink: "Eyða gögnum",
-    footer: "© Vefsvæði Voyager Maps"
+    footer: "© 2025 Kálmán Fekete · Voyager Maps",
+    contactTitle: "Hafa samband"
   },
   landingPages: {
     water: {

@@ -46,7 +46,8 @@ window.voyagerLocales["sv"] = {
       "privacyLink": "Integritetspolicy",
       "termsLink": "Villkor",
       "deleteLink": "Radera data",
-      "footer": "© Voyager Maps webbplats",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontakt",
       "pageTitle": "Karta för backpackare och ensamresande",
       "meta": {
         "description": "Hitta duschar, tvättmöjligheter, dricksvatten och Wi-Fi för backpackare och ensamresande världen över. Gratis app, inget konto krävs."

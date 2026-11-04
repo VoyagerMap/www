@@ -46,7 +46,8 @@ window.voyagerLocales["sv"] = {
       "privacyLink": "Integritetspolicy",
       "termsLink": "Villkor",
       "deleteLink": "Radera data",
-      "footer": "© Voyager Maps webbplats",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontakt",
       "pageTitle": "Karta över serviceplatser för husbilar och campervans",
       "meta": {
         "description": "Hitta vatten, duschar, tvättmöjligheter och campingplatser för husbilar och campervans världen över. Gratis app, inget konto krävs."

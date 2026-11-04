@@ -45,7 +45,8 @@ window.voyagerLocales["tr"] = {
       "privacyLink": "Gizlilik Politikası",
       "termsLink": "Kullanım Koşulları",
       "deleteLink": "Verileri Sil",
-      "footer": "© Voyager Maps web sitesi",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "İletişim",
       "pageTitle": "Yakınınızdaki umumi tuvaletler - Harita",
       "meta": {
         "description": "Voyager Maps ile yakınınızdaki umumi tuvaletleri bulun. Varsa erişim bilgilerini inceleyin. iOS ve Android için ücretsiz uygulamayı indirin."

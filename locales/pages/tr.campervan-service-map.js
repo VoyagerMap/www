@@ -45,7 +45,8 @@ window.voyagerLocales["tr"] = {
       "privacyLink": "Gizlilik Politikası",
       "termsLink": "Kullanım Koşulları",
       "deleteLink": "Verileri Sil",
-      "footer": "© Voyager Maps web sitesi",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "İletişim",
       "pageTitle": "Karavan ve Kamp Aracı Hizmet Haritası",
       "meta": {
         "description": "Dünya genelinde karavanlar için su, duş, çamaşırhane ve kamp alanları bulun. Ücretsiz uygulama, hesap gerekmez."

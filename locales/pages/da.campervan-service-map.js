@@ -46,7 +46,8 @@ window.voyagerLocales["da"] = {
       "privacyLink": "Privatlivspolitik",
       "termsLink": "Vilkår",
       "deleteLink": "Slet data",
-      "footer": "© Voyager Maps' hjemmeside",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontakt",
       "pageTitle": "Kort over servicefaciliteter til autocampere og campervans",
       "meta": {
         "description": "Find vand, brusefaciliteter, vaskerier og campingpladser til autocampere og campervans verden over. Gratis app, ingen konto kræves."

@@ -46,7 +46,8 @@ window.voyagerLocales["ru"] = {
       "privacyLink": "Политика конфиденциальности",
       "termsLink": "Условия",
       "deleteLink": "Удалить данные",
-      "footer": "© Сайт Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Контакты",
       "pageTitle": "Карта сервисных точек для кемперов и автодомов",
       "meta": {
         "description": "Найдите воду, душевые, прачечные и кемпинги для кемперов и автодомов по всему миру. Бесплатное приложение без регистрации."

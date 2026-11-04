@@ -46,7 +46,8 @@ window.voyagerLocales["ar"] = {
       "privacyLink": "سياسة الخصوصية",
       "termsLink": "الشروط",
       "deleteLink": "حذف البيانات",
-      "footer": "© موقع Voyager Maps الإلكتروني",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "اتصل بنا",
       "pageTitle": "خريطة الرحالة والمسافرين منفردين",
       "meta": {
         "description": "اعثر على أماكن الاستحمام ومغاسل الملابس ومياه الشرب والواي فاي للمسافرين بحقائب الظهر والمسافرين منفردين حول العالم. تطبيق مجاني بلا حساب."

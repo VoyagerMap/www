@@ -133,7 +133,8 @@ window.voyagerLocales["ko"] = {
   "privacyLink": "개인정보 처리방침",
   "termsLink": "이용약관",
   "deleteLink": "데이터 삭제",
-  "footer": "© Voyager Maps 웹사이트",
+  "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+  "contactTitle": "문의",
   "routingPageWrapper": {
     "routing": {
       "htmlLang": "ko",

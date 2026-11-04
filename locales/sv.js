@@ -163,7 +163,8 @@ window.voyagerLocales["sv"] = {
   privacyLink: "Integritetspolicy",
   termsLink: "Villkor",
   deleteLink: "Radera data",
-  footer: "© Voyager Maps webbplats",
+  footer: "© 2025 Kálmán Fekete · Voyager Maps",
+  contactTitle: "Kontakt",
   footerTagline: "Praktiska platser för resenärer på 24 språk. Platsdata från OpenStreetMap-bidragsgivare.",
   installBarTitle: "Skaffa Voyager Maps",
   installBarCta: "Installera",
@@ -210,7 +211,8 @@ window.voyagerLocales["sv"] = {
     privacyLink: "Integritetspolicy",
     termsLink: "Villkor",
     deleteLink: "Radera data",
-    footer: "© Voyager Maps webbplats"
+    footer: "© 2025 Kálmán Fekete · Voyager Maps",
+    contactTitle: "Kontakt"
   },
   landingPages: {
     water: {

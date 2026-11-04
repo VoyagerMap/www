@@ -46,7 +46,8 @@ window.voyagerLocales["fil"] = {
       "privacyLink": "Patakaran sa Privacy",
       "termsLink": "Mga Tuntunin",
       "deleteLink": "Burahin ang Data",
-      "footer": "© Website ng Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Makipag-ugnayan",
       "pageTitle": "Mapa ng Libreng Inuming Tubig",
       "meta": {
         "description": "Maghanap ng libreng inuming tubig habang naglalakbay: pampublikong gripo, fountain, at refill point malapit sa iyo. Libreng app."

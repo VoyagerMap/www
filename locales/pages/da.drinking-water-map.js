@@ -46,7 +46,8 @@ window.voyagerLocales["da"] = {
       "privacyLink": "Privatlivspolitik",
       "termsLink": "Vilkår",
       "deleteLink": "Slet data",
-      "footer": "© Voyager Maps' hjemmeside",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontakt",
       "pageTitle": "Kort over gratis drikkevand",
       "meta": {
         "description": "Find gratis drikkevand, når du er på farten: offentlige vandhaner, springvand og genopfyldningssteder i nærheden af dig. Gratis app."

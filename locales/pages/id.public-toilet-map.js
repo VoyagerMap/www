@@ -46,7 +46,8 @@ window.voyagerLocales["id"] = {
       "privacyLink": "Kebijakan Privasi",
       "termsLink": "Syarat & Ketentuan",
       "deleteLink": "Hapus Data",
-      "footer": "© Situs web Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontak",
       "pageTitle": "Toilet umum dekat Anda - Peta toilet",
       "meta": {
         "description": "Temukan toilet umum dekat Anda di Voyager Maps. Lihat info akses jika tersedia. Unduh aplikasi gratis untuk iOS dan Android."

@@ -131,7 +131,8 @@ window.voyagerLocales["ko"] = {
   privacyLink: "개인정보 처리방침",
   termsLink: "이용약관",
   deleteLink: "데이터 삭제",
-  footer: "© Voyager Maps 웹사이트",
+  footer: "© 2025 Kálmán Fekete · Voyager Maps",
+  contactTitle: "문의",
   shared: {
     htmlLang: "ko",
     brandLabel: "Voyager Maps",
@@ -173,7 +174,8 @@ window.voyagerLocales["ko"] = {
     privacyLink: "개인정보 처리방침",
     termsLink: "이용약관",
     deleteLink: "데이터 삭제",
-    footer: "© Voyager Maps 웹사이트",
+    footer: "© 2025 Kálmán Fekete · Voyager Maps",
+    contactTitle: "문의",
     exploreCampervanLink: "캠핑카 서비스 지도",
     exploreBackpackerLink: "배낭여행자 지도"
   },

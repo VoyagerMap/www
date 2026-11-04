@@ -45,7 +45,8 @@ window.voyagerLocales["tr"] = {
       "privacyLink": "Gizlilik Politikası",
       "termsLink": "Kullanım Koşulları",
       "deleteLink": "Verileri Sil",
-      "footer": "© Voyager Maps web sitesi",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "İletişim",
       "pageTitle": "Ücretsiz İçme Suyu Haritası",
       "meta": {
         "description": "Seyahat ederken ücretsiz içme suyu bulun: yakınınızdaki umumi musluklar, çeşmeler ve su doldurma noktaları. Ücretsiz uygulama."

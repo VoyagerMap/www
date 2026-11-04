@@ -45,7 +45,8 @@ window.voyagerLocales["tr"] = {
       "privacyLink": "Gizlilik Politikası",
       "termsLink": "Kullanım Koşulları",
       "deleteLink": "Verileri Sil",
-      "footer": "© Voyager Maps web sitesi",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "İletişim",
       "pageTitle": "Sırt Çantalı Gezginler ve Yalnız Seyahat Haritası",
       "meta": {
         "description": "Dünya genelinde sırt çantalı ve yalnız gezginler için duş, çamaşırhane, içme suyu ve Wi-Fi bulun. Ücretsiz uygulama, hesap gerekmez."

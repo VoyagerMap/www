@@ -46,7 +46,8 @@ window.voyagerLocales["is"] = {
       "privacyLink": "Persónuverndarstefna",
       "termsLink": "Skilmálar",
       "deleteLink": "Eyða gögnum",
-      "footer": "© Vefsvæði Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Hafa samband",
       "pageTitle": "Þjónustukort fyrir húsbíla og ferðabíla",
       "meta": {
         "description": "Finndu vatn, sturtur, þvottahús og tjaldstæði fyrir húsbíla og ferðabíla um allan heim. Ókeypis forrit, engin skráning."

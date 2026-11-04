@@ -46,7 +46,8 @@ window.voyagerLocales["da"] = {
       "privacyLink": "Privatlivspolitik",
       "termsLink": "Vilkår",
       "deleteLink": "Slet data",
-      "footer": "© Voyager Maps' hjemmeside",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontakt",
       "pageTitle": "Offentlige toiletter nær dig - Toiletkort",
       "meta": {
         "description": "Find offentlige toiletter nær dig med Voyager Maps. Se adgangsoplysninger, når de findes. Hent den gratis app til iOS og Android."

@@ -46,7 +46,8 @@ window.voyagerLocales["en"] = {
       "privacyLink": "Privacy Policy",
       "termsLink": "Terms",
       "deleteLink": "Delete Data",
-      "footer": "© Voyager Maps website",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Contact",
       "pageTitle": "Parking Map - Find Free Parking",
       "meta": {
         "description": "Find parking anywhere: 1.1 million car parks and garages in 237 countries, 810,000 of them free."

@@ -46,7 +46,8 @@ window.voyagerLocales["fa"] = {
       "privacyLink": "سیاست حفظ حریم خصوصی",
       "termsLink": "شرایط",
       "deleteLink": "حذف داده‌ها",
-      "footer": "© وب‌سایت Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "تماس با ما",
       "pageTitle": "نقشه خدمات کمپر و خانهٔ متحرک",
       "meta": {
         "description": "آب، دوش، لباس‌شویی و محل کمپ را برای کمپرها و خانه‌های متحرک در سراسر جهان پیدا کنید. اپلیکیشن رایگان، بدون نیاز به حساب کاربری."

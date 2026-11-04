@@ -46,7 +46,8 @@ window.voyagerLocales["ru"] = {
       "privacyLink": "Политика конфиденциальности",
       "termsLink": "Условия",
       "deleteLink": "Удалить данные",
-      "footer": "© Сайт Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Контакты",
       "pageTitle": "Бесплатные душевые рядом | Карта душевых",
       "meta": {
         "description": "Ищите бесплатный душ рядом в Voyager Maps: общественные и пляжные душевые, доступные сведения. Скачайте бесплатное приложение для iOS и Android."

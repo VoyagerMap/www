@@ -133,7 +133,8 @@ window.voyagerLocales["hi"] = {
   "privacyLink": "गोपनीयता नीति",
   "termsLink": "शर्तें",
   "deleteLink": "डेटा हटाएँ",
-  "footer": "© Voyager Maps वेबसाइट",
+  "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+  "contactTitle": "संपर्क",
   "routingPageWrapper": {
     "routing": {
       "htmlLang": "hi",

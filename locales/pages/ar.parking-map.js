@@ -46,7 +46,8 @@ window.voyagerLocales["ar"] = {
       "privacyLink": "سياسة الخصوصية",
       "termsLink": "الشروط",
       "deleteLink": "حذف البيانات",
-      "footer": "© موقع Voyager Maps الإلكتروني",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "اتصل بنا",
       "pageTitle": "خريطة مواقف السيارات — اعثر على موقف مجاني",
       "meta": {
         "description": "اعثر على مواقف للسيارات في أي مكان: 1.1 مليون موقف سيارات ومرآب في 237 دولة، منها 810,000 موقف مجاني."

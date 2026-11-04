@@ -46,7 +46,8 @@ window.voyagerLocales["fa"] = {
       "privacyLink": "سیاست حفظ حریم خصوصی",
       "termsLink": "شرایط",
       "deleteLink": "حذف داده‌ها",
-      "footer": "© وب‌سایت Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "تماس با ما",
       "pageTitle": "نقشه پارکینگ — پیدا کردن جای پارک رایگان",
       "meta": {
         "description": "پارکینگ را در هر کجا پیدا کنید: ۱٫۱ میلیون پارکینگ و گاراژ در ۲۳۷ کشور، ۸۱۰٬۰۰۰ مورد از آن‌ها رایگان."

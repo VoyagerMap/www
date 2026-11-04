@@ -46,7 +46,8 @@ window.voyagerLocales["is"] = {
       "privacyLink": "Persónuverndarstefna",
       "termsLink": "Skilmálar",
       "deleteLink": "Eyða gögnum",
-      "footer": "© Vefsvæði Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Hafa samband",
       "pageTitle": "Almenningssalerni nálægt þér - Salerniskort",
       "meta": {
         "description": "Finndu almenningssalerni nálægt þér með Voyager Maps. Skoðaðu tiltækar upplýsingar um aðgang. Sæktu ókeypis appið fyrir iOS og Android."

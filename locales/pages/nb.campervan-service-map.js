@@ -44,7 +44,8 @@ window.voyagerLocales["nb"] = {
       "privacyLink": "Personvernpolicy",
       "termsLink": "Vilkår",
       "deleteLink": "Slett data",
-      "footer": "© Voyager Maps-nettstedet",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontakt",
       "pageTitle": "Kart over tjenester for bobiler og campervans",
       "meta": {
         "description": "Finn vann, dusjer, vaskerier og campingplasser for bobiler og campervans over hele verden. Gratis app, ingen konto nødvendig."

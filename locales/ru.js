@@ -163,7 +163,8 @@ window.voyagerLocales["ru"] = {
   privacyLink: "Политика конфиденциальности",
   termsLink: "Условия",
   deleteLink: "Удалить данные",
-  footer: "© Сайт Voyager Maps",
+  footer: "© 2025 Kálmán Fekete · Voyager Maps",
+  contactTitle: "Контакты",
   footerTagline: "Полезные места для путешественников на 24 языках. Данные о местах предоставлены участниками OpenStreetMap.",
   installBarTitle: "Скачайте Voyager Maps",
   installBarCta: "Установите",
@@ -210,7 +211,8 @@ window.voyagerLocales["ru"] = {
     privacyLink: "Политика конфиденциальности",
     termsLink: "Условия",
     deleteLink: "Удалить данные",
-    footer: "© Сайт Voyager Maps"
+    footer: "© 2025 Kálmán Fekete · Voyager Maps",
+    contactTitle: "Контакты"
   },
   landingPages: {
     water: {

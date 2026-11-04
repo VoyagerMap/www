@@ -46,7 +46,8 @@ window.voyagerLocales["vi"] = {
       "privacyLink": "Chính sách quyền riêng tư",
       "termsLink": "Điều khoản sử dụng",
       "deleteLink": "Xóa dữ liệu",
-      "footer": "© Trang web Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Liên hệ",
       "pageTitle": "Nhà vệ sinh công cộng gần bạn | Bản đồ",
       "meta": {
         "description": "Tìm nhà vệ sinh công cộng gần bạn với Voyager Maps. Xem thông tin về điều kiện sử dụng hiện có. Tải ứng dụng miễn phí cho iOS và Android."

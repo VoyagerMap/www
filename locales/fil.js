@@ -163,7 +163,8 @@ window.voyagerLocales["fil"] = {
   privacyLink: "Patakaran sa Privacy",
   termsLink: "Mga Tuntunin",
   deleteLink: "Burahin ang Data",
-  footer: "© Website ng Voyager Maps",
+  footer: "© 2025 Kálmán Fekete · Voyager Maps",
+  contactTitle: "Makipag-ugnayan",
   footerTagline: "Mga praktikal na lugar para sa paglalakbay sa 24 wika. Datos ng mga lugar mula sa mga kontribyutor ng OpenStreetMap.",
   installBarTitle: "Kunin ang Voyager Maps",
   installBarCta: "I-install",
@@ -210,7 +211,8 @@ window.voyagerLocales["fil"] = {
     privacyLink: "Patakaran sa Privacy",
     termsLink: "Mga Tuntunin",
     deleteLink: "Burahin ang Data",
-    footer: "© Website ng Voyager Maps"
+    footer: "© 2025 Kálmán Fekete · Voyager Maps",
+    contactTitle: "Makipag-ugnayan"
   },
   landingPages: {
     water: {

@@ -45,7 +45,8 @@ window.voyagerLocales["tr"] = {
       "privacyLink": "Gizlilik Politikası",
       "termsLink": "Kullanım Koşulları",
       "deleteLink": "Verileri Sil",
-      "footer": "© Voyager Maps web sitesi",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "İletişim",
       "pageTitle": "Yakınınızdaki ücretsiz duşlar | Duş haritası",
       "meta": {
         "description": "Voyager Maps ile yakındaki ücretsiz duşları arayın. Kamu ve plaj duşlarını, mevcut bilgileri inceleyin. iOS ve Android için ücretsiz uygulamayı indirin."

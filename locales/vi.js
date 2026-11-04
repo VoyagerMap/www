@@ -163,7 +163,8 @@ window.voyagerLocales["vi"] = {
   privacyLink: "Chính sách quyền riêng tư",
   termsLink: "Điều khoản sử dụng",
   deleteLink: "Xóa dữ liệu",
-  footer: "© Trang web Voyager Maps",
+  footer: "© 2025 Kálmán Fekete · Voyager Maps",
+  contactTitle: "Liên hệ",
   footerTagline: "Các địa điểm thiết thực cho chuyến đi bằng 24 ngôn ngữ. Dữ liệu địa điểm từ những người đóng góp cho OpenStreetMap.",
   installBarTitle: "Tải ngay Voyager Maps",
   installBarCta: "Tải về",
@@ -210,7 +211,8 @@ window.voyagerLocales["vi"] = {
     privacyLink: "Chính sách quyền riêng tư",
     termsLink: "Điều khoản sử dụng",
     deleteLink: "Xóa dữ liệu",
-    footer: "© Trang web Voyager Maps"
+    footer: "© 2025 Kálmán Fekete · Voyager Maps",
+    contactTitle: "Liên hệ"
   },
   landingPages: {
     water: {

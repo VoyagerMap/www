@@ -46,7 +46,8 @@ window.voyagerLocales["ru"] = {
       "privacyLink": "Политика конфиденциальности",
       "termsLink": "Условия",
       "deleteLink": "Удалить данные",
-      "footer": "© Сайт Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Контакты",
       "pageTitle": "Карта парковок — найдите бесплатную парковку",
       "meta": {
         "description": "Найдите парковку где угодно: 1,1 миллиона парковок и гаражей в 237 странах, из них 810 000 — бесплатные."

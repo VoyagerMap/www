@@ -46,7 +46,8 @@ window.voyagerLocales["id"] = {
       "privacyLink": "Kebijakan Privasi",
       "termsLink": "Syarat & Ketentuan",
       "deleteLink": "Hapus Data",
-      "footer": "© Situs web Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontak",
       "pageTitle": "Peta Parkir - Temukan Tempat Parkir Gratis",
       "meta": {
         "description": "Temukan tempat parkir di mana saja: 1,1 juta tempat parkir dan garasi di 237 negara, 810.000 di antaranya gratis."

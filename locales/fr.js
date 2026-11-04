@@ -133,7 +133,8 @@ window.voyagerLocales["fr"] = {
   privacyLink: "Politique de confidentialité",
   termsLink: "Conditions générales",
   deleteLink: "Supprimer les données",
-  footer: "© Site web de Voyager Maps",
+  footer: "© 2025 Kálmán Fekete · Voyager Maps",
+  contactTitle: "Contact",
   shared: {
     htmlLang: "fr",
     brandLabel: "Voyager Maps",
@@ -175,7 +176,8 @@ window.voyagerLocales["fr"] = {
     privacyLink: "Politique de confidentialité",
     termsLink: "Conditions générales",
     deleteLink: "Supprimer les données",
-    footer: "© Site web de Voyager Maps",
+    footer: "© 2025 Kálmán Fekete · Voyager Maps",
+    contactTitle: "Contact",
     exploreCampervanLink: "Carte des services pour camping-cars",
     exploreBackpackerLink: "Carte du routard"
   },

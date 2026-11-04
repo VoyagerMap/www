@@ -46,7 +46,8 @@ window.voyagerLocales["fil"] = {
       "privacyLink": "Patakaran sa Privacy",
       "termsLink": "Mga Tuntunin",
       "deleteLink": "Burahin ang Data",
-      "footer": "© Website ng Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Makipag-ugnayan",
       "pageTitle": "Libreng shower sa malapit | Mapa ng shower",
       "meta": {
         "description": "Hanapin sa Voyager Maps ang libreng shower sa malapit, sa pampublikong pasilidad at beach, at mga detalye. I-download ang libreng app para sa iOS at Android."

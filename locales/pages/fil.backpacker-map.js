@@ -46,7 +46,8 @@ window.voyagerLocales["fil"] = {
       "privacyLink": "Patakaran sa Privacy",
       "termsLink": "Mga Tuntunin",
       "deleteLink": "Burahin ang Data",
-      "footer": "© Website ng Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Makipag-ugnayan",
       "pageTitle": "Mapa para sa mga Backpacker at Nag-iisang Biyahero",
       "meta": {
         "description": "Maghanap ng mga shower, laundromat, inuming tubig at Wi-Fi para sa mga backpacker at solo traveler sa buong mundo. Libreng app, walang account."

@@ -46,7 +46,8 @@ window.voyagerLocales["en"] = {
       "privacyLink": "Privacy Policy",
       "termsLink": "Terms",
       "deleteLink": "Delete Data",
-      "footer": "© Voyager Maps website",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Contact",
       "pageTitle": "Backpacker & Solo Travel Map",
       "meta": {
         "description": "Find showers, laundry, drinking water and Wi-Fi for backpackers and solo travellers worldwide. Free app, no account."

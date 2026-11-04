@@ -46,7 +46,8 @@ window.voyagerLocales["ru"] = {
       "privacyLink": "Политика конфиденциальности",
       "termsLink": "Условия",
       "deleteLink": "Удалить данные",
-      "footer": "© Сайт Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Контакты",
       "pageTitle": "Карта для путешествий с рюкзаком и в одиночку",
       "meta": {
         "description": "Найдите душевые, прачечные, питьевую воду и Wi-Fi для поездок с рюкзаком и в одиночку по всему миру. Бесплатное приложение без регистрации."

@@ -46,7 +46,8 @@ window.voyagerLocales["sv"] = {
       "privacyLink": "Integritetspolicy",
       "termsLink": "Villkor",
       "deleteLink": "Radera data",
-      "footer": "© Voyager Maps webbplats",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontakt",
       "pageTitle": "Offentliga toaletter nära dig - Toalettkarta",
       "meta": {
         "description": "Hitta offentliga toaletter nära dig med Voyager Maps. Se tillgängliga uppgifter om tillträde. Ladda ner gratisappen för iOS och Android."

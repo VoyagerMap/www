@@ -46,7 +46,8 @@ window.voyagerLocales["vi"] = {
       "privacyLink": "Chính sách quyền riêng tư",
       "termsLink": "Điều khoản sử dụng",
       "deleteLink": "Xóa dữ liệu",
-      "footer": "© Trang web Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Liên hệ",
       "pageTitle": "Bản đồ dành cho khách du lịch ba lô & du lịch một mình",
       "meta": {
         "description": "Tìm chỗ tắm, tiệm giặt, nước uống và Wi-Fi cho khách du lịch ba lô và người đi một mình trên toàn thế giới. Miễn phí, không cần tài khoản."

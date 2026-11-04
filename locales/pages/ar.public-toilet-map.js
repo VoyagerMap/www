@@ -46,7 +46,8 @@ window.voyagerLocales["ar"] = {
       "privacyLink": "سياسة الخصوصية",
       "termsLink": "الشروط",
       "deleteLink": "حذف البيانات",
-      "footer": "© موقع Voyager Maps الإلكتروني",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "اتصل بنا",
       "pageTitle": "مراحيض عامة بالقرب منك | خريطة المراحيض",
       "meta": {
         "description": "اعثر على مراحيض عامة بالقرب منك مع Voyager Maps. اطّلع على تفاصيل الاستخدام المتاحة. حمّل التطبيق المجاني لـ iOS وAndroid."

@@ -46,7 +46,8 @@ window.voyagerLocales["fa"] = {
       "privacyLink": "سیاست حفظ حریم خصوصی",
       "termsLink": "شرایط",
       "deleteLink": "حذف داده‌ها",
-      "footer": "© وب‌سایت Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "تماس با ما",
       "pageTitle": "دوش‌های رایگان نزدیک شما | نقشهٔ دوش",
       "meta": {
         "description": "با Voyager Maps دوش‌های رایگان نزدیک خود را پیدا کنید. محل دوش‌های عمومی و ساحلی و اطلاعات موجود را ببینید. اپلیکیشن رایگان را برای iOS و Android دانلود کنید."

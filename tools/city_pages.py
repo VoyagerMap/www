@@ -37,6 +37,7 @@ CHROME = [
     "exploreShowerLink", "exploreParkingLink", "exploreCampervanLink",
     "exploreBackpackerLink",
     "legalTitle", "privacyLink", "termsLink", "deleteLink", "footer",
+    "contactTitle",
     "consentEyebrow", "consentTitle", "consentDescription",
     "consentNecessaryLabel", "consentNecessaryDescription",
     "consentNecessaryValue", "consentStatisticsLabel", "consentStatisticsValue",

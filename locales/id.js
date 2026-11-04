@@ -163,7 +163,8 @@ window.voyagerLocales["id"] = {
   privacyLink: "Kebijakan Privasi",
   termsLink: "Syarat & Ketentuan",
   deleteLink: "Hapus Data",
-  footer: "© Situs web Voyager Maps",
+  footer: "© 2025 Kálmán Fekete · Voyager Maps",
+  contactTitle: "Kontak",
   footerTagline: "Tempat praktis untuk perjalanan dalam 24 bahasa. Data lokasi dari kontributor OpenStreetMap.",
   installBarTitle: "Unduh Voyager Maps",
   installBarCta: "Unduh",
@@ -210,7 +211,8 @@ window.voyagerLocales["id"] = {
     privacyLink: "Kebijakan Privasi",
     termsLink: "Syarat & Ketentuan",
     deleteLink: "Hapus Data",
-    footer: "© Situs web Voyager Maps"
+    footer: "© 2025 Kálmán Fekete · Voyager Maps",
+    contactTitle: "Kontak"
   },
   landingPages: {
     water: {

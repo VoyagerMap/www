@@ -44,7 +44,8 @@ window.voyagerLocales["nb"] = {
       "privacyLink": "Personvernpolicy",
       "termsLink": "Vilkår",
       "deleteLink": "Slett data",
-      "footer": "© Voyager Maps-nettstedet",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontakt",
       "pageTitle": "Parkeringskart – Finn gratis parkering",
       "meta": {
         "description": "Finn parkeringsplass hvor som helst: 1,1 millioner parkeringsplasser og parkeringshus i 237 land, hvorav 810 000 er gratis."

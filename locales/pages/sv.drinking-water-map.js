@@ -46,7 +46,8 @@ window.voyagerLocales["sv"] = {
       "privacyLink": "Integritetspolicy",
       "termsLink": "Villkor",
       "deleteLink": "Radera data",
-      "footer": "© Voyager Maps webbplats",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontakt",
       "pageTitle": "Karta över gratis dricksvatten",
       "meta": {
         "description": "Hitta gratis dricksvatten när du är på resande fot: offentliga kranar, fontäner och påfyllningsställen i din närhet. Gratis app."

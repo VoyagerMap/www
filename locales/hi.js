@@ -131,7 +131,8 @@ window.voyagerLocales["hi"] = {
   privacyLink: "गोपनीयता नीति",
   termsLink: "शर्तें",
   deleteLink: "डेटा हटाएँ",
-  footer: "© Voyager Maps वेबसाइट",
+  footer: "© 2025 Kálmán Fekete · Voyager Maps",
+  contactTitle: "संपर्क",
   shared: {
     htmlLang: "hi",
     brandLabel: "Voyager Maps",
@@ -173,7 +174,8 @@ window.voyagerLocales["hi"] = {
     privacyLink: "गोपनीयता नीति",
     termsLink: "शर्तें",
     deleteLink: "डेटा हटाएँ",
-    footer: "© Voyager Maps वेबसाइट",
+    footer: "© 2025 Kálmán Fekete · Voyager Maps",
+    contactTitle: "संपर्क",
     exploreCampervanLink: "कैम्परवैन सेवा मानचित्र",
     exploreBackpackerLink: "बैकपैकर मैप"
   },

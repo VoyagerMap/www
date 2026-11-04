@@ -163,7 +163,8 @@ window.voyagerLocales["da"] = {
   privacyLink: "Privatlivspolitik",
   termsLink: "Vilkår",
   deleteLink: "Slet data",
-  footer: "© Voyager Maps' hjemmeside",
+  footer: "© 2025 Kálmán Fekete · Voyager Maps",
+  contactTitle: "Kontakt",
   footerTagline: "Praktiske steder for rejsende på 24 sprog. Stedsdata fra OpenStreetMap-bidragydere.",
   installBarTitle: "Hent Voyager Maps",
   installBarCta: "Installer",
@@ -210,7 +211,8 @@ window.voyagerLocales["da"] = {
     privacyLink: "Privatlivspolitik",
     termsLink: "Vilkår",
     deleteLink: "Slet data",
-    footer: "© Voyager Maps' hjemmeside"
+    footer: "© 2025 Kálmán Fekete · Voyager Maps",
+    contactTitle: "Kontakt"
   },
   landingPages: {
     water: {

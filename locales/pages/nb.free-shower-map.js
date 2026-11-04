@@ -44,7 +44,8 @@ window.voyagerLocales["nb"] = {
       "privacyLink": "Personvernpolicy",
       "termsLink": "Vilkår",
       "deleteLink": "Slett data",
-      "footer": "© Voyager Maps-nettstedet",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontakt",
       "pageTitle": "Gratis dusjer i nærheten | Dusjkart",
       "meta": {
         "description": "Finn gratis dusjer med Voyager Maps. Utforsk offentlige dusjer og stranddusjer, se opplysninger om stedene og last ned gratisappen for iOS og Android."

@@ -44,7 +44,8 @@ window.voyagerLocales["nb"] = {
       "privacyLink": "Personvernpolicy",
       "termsLink": "Vilkår",
       "deleteLink": "Slett data",
-      "footer": "© Voyager Maps-nettstedet",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontakt",
       "pageTitle": "Kart over gratis drikkevann",
       "meta": {
         "description": "Finn gratis drikkevann når du er på reise: offentlige vannkraner, drikkefontener og påfyllingssteder i nærheten. Gratis app."

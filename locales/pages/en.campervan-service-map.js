@@ -46,7 +46,8 @@ window.voyagerLocales["en"] = {
       "privacyLink": "Privacy Policy",
       "termsLink": "Terms",
       "deleteLink": "Delete Data",
-      "footer": "© Voyager Maps website",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Contact",
       "pageTitle": "Campervan & Motorhome Service Map",
       "meta": {
         "description": "Find water, showers, laundry and campsites for campervans and motorhomes worldwide. Free app, no account needed."

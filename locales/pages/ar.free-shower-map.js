@@ -46,7 +46,8 @@ window.voyagerLocales["ar"] = {
       "privacyLink": "سياسة الخصوصية",
       "termsLink": "الشروط",
       "deleteLink": "حذف البيانات",
-      "footer": "© موقع Voyager Maps الإلكتروني",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "اتصل بنا",
       "pageTitle": "استحمام مجاني بالقرب منك | خريطة الاستحمام",
       "meta": {
         "description": "اعثر على أماكن استحمام مجانية بالقرب منك مع Voyager Maps. استكشف مواقع الاستحمام العامة وعلى الشواطئ وتفاصيلها المتاحة. حمّل التطبيق المجاني لـ iOS وAndroid."

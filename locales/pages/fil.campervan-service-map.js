@@ -46,7 +46,8 @@ window.voyagerLocales["fil"] = {
       "privacyLink": "Patakaran sa Privacy",
       "termsLink": "Mga Tuntunin",
       "deleteLink": "Burahin ang Data",
-      "footer": "© Website ng Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Makipag-ugnayan",
       "pageTitle": "Mapa ng mga Serbisyo para sa Campervan at Motorhome",
       "meta": {
         "description": "Maghanap ng tubig, shower, laundromat, at campsite para sa mga campervan at motorhome sa buong mundo. Libreng app, walang account."

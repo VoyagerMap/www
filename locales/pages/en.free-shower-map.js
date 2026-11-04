@@ -46,7 +46,8 @@ window.voyagerLocales["en"] = {
       "privacyLink": "Privacy Policy",
       "termsLink": "Terms",
       "deleteLink": "Delete Data",
-      "footer": "© Voyager Maps website",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Contact",
       "pageTitle": "Free Showers Near You - Shower Map",
       "meta": {
         "description": "Find free showers near you with Voyager Maps. Explore public and beach shower locations on your travels. Download the free app for iOS and Android."

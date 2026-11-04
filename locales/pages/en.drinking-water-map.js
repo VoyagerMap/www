@@ -46,7 +46,8 @@ window.voyagerLocales["en"] = {
       "privacyLink": "Privacy Policy",
       "termsLink": "Terms",
       "deleteLink": "Delete Data",
-      "footer": "© Voyager Maps website",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Contact",
       "pageTitle": "Free Drinking Water Map",
       "meta": {
         "description": "Find free drinking water while travelling: public taps, fountains and refill points near you. Free app."

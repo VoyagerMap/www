@@ -46,7 +46,8 @@ window.voyagerLocales["ru"] = {
       "privacyLink": "Политика конфиденциальности",
       "termsLink": "Условия",
       "deleteLink": "Удалить данные",
-      "footer": "© Сайт Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Контакты",
       "pageTitle": "Общественные туалеты рядом | Карта туалетов",
       "meta": {
         "description": "Ищите общественные туалеты рядом в Voyager Maps. Проверьте имеющиеся сведения о доступе. Скачайте бесплатное приложение для iOS и Android."

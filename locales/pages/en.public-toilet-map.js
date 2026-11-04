@@ -46,7 +46,8 @@ window.voyagerLocales["en"] = {
       "privacyLink": "Privacy Policy",
       "termsLink": "Terms",
       "deleteLink": "Delete Data",
-      "footer": "© Voyager Maps website",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Contact",
       "pageTitle": "Public Toilets Near You - Restroom Map",
       "meta": {
         "description": "Find public toilets and restrooms near you with Voyager Maps. Check available access details. Download the free app for iOS and Android."

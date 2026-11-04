@@ -163,7 +163,8 @@ window.voyagerLocales["ar"] = {
   privacyLink: "سياسة الخصوصية",
   termsLink: "الشروط",
   deleteLink: "حذف البيانات",
-  footer: "© موقع Voyager Maps الإلكتروني",
+  footer: "© 2025 Kálmán Fekete · Voyager Maps",
+  contactTitle: "اتصل بنا",
   footerTagline: "أماكن مفيدة للمسافرين بـ 24 لغة. بيانات المواقع مقدمة من المساهمين في OpenStreetMap.",
   installBarTitle: "احصل على تطبيق Voyager Maps",
   installBarCta: "تثبيت",
@@ -210,7 +211,8 @@ window.voyagerLocales["ar"] = {
     privacyLink: "سياسة الخصوصية",
     termsLink: "الشروط",
     deleteLink: "حذف البيانات",
-    footer: "© موقع Voyager Maps الإلكتروني"
+    footer: "© 2025 Kálmán Fekete · Voyager Maps",
+    contactTitle: "اتصل بنا"
   },
   landingPages: {
     water: {

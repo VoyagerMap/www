@@ -46,7 +46,8 @@ window.voyagerLocales["id"] = {
       "privacyLink": "Kebijakan Privasi",
       "termsLink": "Syarat & Ketentuan",
       "deleteLink": "Hapus Data",
-      "footer": "© Situs web Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontak",
       "pageTitle": "Peta Air Minum Gratis",
       "meta": {
         "description": "Temukan air minum gratis saat bepergian: keran umum, air mancur, dan tempat isi ulang di dekat Anda. Aplikasi gratis."

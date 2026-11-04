@@ -46,7 +46,8 @@ window.voyagerLocales["sv"] = {
       "privacyLink": "Integritetspolicy",
       "termsLink": "Villkor",
       "deleteLink": "Radera data",
-      "footer": "© Voyager Maps webbplats",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontakt",
       "pageTitle": "Gratis duschar nära dig | Duschkarta",
       "meta": {
         "description": "Hitta gratis duschar med Voyager Maps. Utforska offentliga duschar och strandduschar, se platsuppgifter och ladda ner gratisappen för iOS och Android."

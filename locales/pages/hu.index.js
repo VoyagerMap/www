@@ -133,7 +133,8 @@ window.voyagerLocales["hu"] = {
   "privacyLink": "Adatvédelmi tájékoztató",
   "termsLink": "Felhasználási feltételek",
   "deleteLink": "Adattörlés",
-  "footer": "© Voyager Maps weboldal",
+  "footer": "© 2025 Fekete Kálmán · Voyager Maps",
+  "contactTitle": "Kapcsolat",
   "routingPageWrapper": {
     "routing": {
       "htmlLang": "hu",

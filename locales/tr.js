@@ -163,7 +163,8 @@ window.voyagerLocales["tr"] = {
   privacyLink: "Gizlilik Politikası",
   termsLink: "Kullanım Koşulları",
   deleteLink: "Verileri Sil",
-  footer: "© Voyager Maps web sitesi",
+  footer: "© 2025 Kálmán Fekete · Voyager Maps",
+  contactTitle: "İletişim",
   footerTagline: "24 dilde pratik seyahat noktaları. OpenStreetMap katkıcılarından gelen konum verileri.",
   installBarTitle: "Voyager Maps'i indirin",
   installBarCta: "Yükle",
@@ -209,7 +210,8 @@ window.voyagerLocales["tr"] = {
     privacyLink: "Gizlilik Politikası",
     termsLink: "Kullanım Koşulları",
     deleteLink: "Verileri Sil",
-    footer: "© Voyager Maps web sitesi"
+    footer: "© 2025 Kálmán Fekete · Voyager Maps",
+    contactTitle: "İletişim"
   },
   landingPages: {
     water: {

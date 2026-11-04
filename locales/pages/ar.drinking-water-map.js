@@ -46,7 +46,8 @@ window.voyagerLocales["ar"] = {
       "privacyLink": "سياسة الخصوصية",
       "termsLink": "الشروط",
       "deleteLink": "حذف البيانات",
-      "footer": "© موقع Voyager Maps الإلكتروني",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "اتصل بنا",
       "pageTitle": "خريطة مياه الشرب المجانية",
       "meta": {
         "description": "اعثر على مياه الشرب المجانية أثناء السفر: صنابير عامة، ونوافير، ونقاط إعادة تعبئة بالقرب منك. تطبيق مجاني."

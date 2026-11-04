@@ -46,7 +46,8 @@ window.voyagerLocales["ru"] = {
       "privacyLink": "Политика конфиденциальности",
       "termsLink": "Условия",
       "deleteLink": "Удалить данные",
-      "footer": "© Сайт Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Контакты",
       "pageTitle": "Карта мест с бесплатной питьевой водой",
       "meta": {
         "description": "Найдите бесплатную питьевую воду в путешествии: общественные краны, фонтанчики и ближайшие точки набора воды. Бесплатное приложение."

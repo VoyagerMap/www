@@ -46,7 +46,8 @@ window.voyagerLocales["is"] = {
       "privacyLink": "Persónuverndarstefna",
       "termsLink": "Skilmálar",
       "deleteLink": "Eyða gögnum",
-      "footer": "© Vefsvæði Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Hafa samband",
       "pageTitle": "Ókeypis kort yfir drykkjarvatn",
       "meta": {
         "description": "Finndu ókeypis drykkjarvatn á ferðinni: almenningskrana, drykkjarbrunna og áfyllingarstaði nálægt þér. Ókeypis forrit."

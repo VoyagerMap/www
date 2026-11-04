@@ -46,7 +46,8 @@ window.voyagerLocales["fil"] = {
       "privacyLink": "Patakaran sa Privacy",
       "termsLink": "Mga Tuntunin",
       "deleteLink": "Burahin ang Data",
-      "footer": "© Website ng Voyager Maps",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Makipag-ugnayan",
       "pageTitle": "Mapa ng Paradahan - Hanapin ang Libreng Paradahan",
       "meta": {
         "description": "Maghanap ng paradahan kahit saan: 1.1 milyong paradahan at garahe sa 237 bansa, 810,000 dito ay libre."

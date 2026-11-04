@@ -46,7 +46,8 @@ window.voyagerLocales["da"] = {
       "privacyLink": "Privatlivspolitik",
       "termsLink": "Vilkår",
       "deleteLink": "Slet data",
-      "footer": "© Voyager Maps' hjemmeside",
+      "footer": "© 2025 Kálmán Fekete · Voyager Maps",
+      "contactTitle": "Kontakt",
       "pageTitle": "Kort til backpackere og solorejsende",
       "meta": {
         "description": "Find brusefaciliteter, vaskerier, drikkevand og Wi-Fi til backpackere og solorejsende verden over. Gratis app, ingen konto."
